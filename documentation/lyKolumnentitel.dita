@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="lyKolumnentitel">
+    <title>Kolumnentitel</title>
+    <body>
+        <p>Lebende Kolumnentitel (Kopfzeilen) werden folgendermaßen abgetippt: Sie werden direkt
+nach der Seitenangabe (&lt;pb n="Seitenzahl"/>) mit dem TAG &lt;kt>...&lt;/kt> umschlossen.
+Kolumnentitel werden nur abgetippt, wenn sie Text enthalten (also nicht, wenn sie nur aus der
+Seitenzahl bestehen). Die in dem Kolumnentitel stehende Seitenzahl wird nicht noch einmal im
+&lt;kt>-TAG abgetippt. Zentrierung, Rechts- oder Linksbündigkeit der Kopfzeilen werden auch nicht
+mit angegeben. Alle anderen typographischen Besonderheiten (Sperrdruck etc.) werden aber mit
+abgetippt.</p>
+<p><i>Beispiel: lebende Kolumnentitel</i></p>
+<p><image href="images/lyKolumnentitel.png" id="image_jlg_ctf_h1b"/></p>
+    </body>
+</topic>

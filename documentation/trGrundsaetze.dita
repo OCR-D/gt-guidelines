@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="trGrunds">
+ <title>Grundsätzliches zur Transkription</title>
+<body>
+<p>Die Texterfassung erfolgt grundsätzlich vorlagengetreu im Unicode-Format (Kodierung in UTF-8) des
+zum Zeitpunkt der Erfassung gültigen Unicode-Standards. Die Nutzung von spezifischen Kodierungen
+sind in den <b>Erfassungs-Level</b> erklärt. werden </p>
+<p>Die Schreibung von Zeichen, die nicht auf der Tastatur abgebildet sind, erfolgt entweder <ul
+id="ul_gyh_rnm_gz">
+<li>als Unicode Hexdezimal-Entität</li>
+<li>oder als Zeichen.</li>
+</ul>Eine Mischung von verschiedenen Unicode-Schreibungen ist zu vermeiden. Für einzelne Fällen sind
+spezifische Transkriptionsregeln festgelegt. </p>
+</body>
+<related-links>
+<link href="level_1_3.dita#level_1_3"/>
+<link href="level_2_4.dita#level_2_4"/>
+<link href="level_3_4.dita#level_3_4"/>
+</related-links>
+</topic>

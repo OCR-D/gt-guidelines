@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap xml:lang="de-DE">
+    <booktitle>
+        <mainbooktitle>Richtlinien zur Transkription für Ground Truth </mainbooktitle>
+        
+    </booktitle>
+    <bookmeta>
+        <authorinformation>
+            <personinfo>
+                <namedetails>
+                    <personname>
+                        <firstname>Matthias</firstname>
+                        <lastname>Boenig</lastname>
+                    </personname>
+                </namedetails>
+            </personinfo>
+            <organizationinfo>
+                <namedetails>
+                    <organizationnamedetails>
+                        <organizationname>OCR-D, Zentrum Sprache, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</organizationname>
+                    </organizationnamedetails>
+                </namedetails>
+            </organizationinfo>
+        </authorinformation>
+        <critdates>
+            <created date="March, 2017"/>
+        </critdates>
+    </bookmeta>
+    
+    <part href="transkription.dita">
+
+     <topicref href="trDokuKonventionen.dita"/>
+     <topicref href="trGrundsaetze.dita">
+<topicref href="tr_level_1_4.dita"/>
+<topicref href="tr_level_2_4.dita"/>
+<topicref href="tr_level_3_4.dita"/>
+</topicref>
+     <topicref href="trSchreibweisen.dita">
+       <topicref href="trSchreibungIJ.dita"/>
+       <topicref href="trSchreibungUV.dita"/>
+       <topicref href="trSchreibungS.dita"/>
+       <topicref href="trSchreibungR.dita"/>
+       <topicref href="trLigatur.dita">
+<topicref href="tr_level_1.dita"/>
+<topicref href="tr_level_2.dita"/>
+<topicref href="tr_level_3.dita"/>
+</topicref>
+       <topicref href="trUmlaute.dita"/>
+       <topicref href="trNasalstrich.dita"/>
+       <topicref href="trDiakritika.dita"/>
+       <topicref href="trSilbentrennung.dita"/>
+       <!--<topicref href="trApostrophe.dita"/>-->
+     </topicref>
+     <topicref href="trSonderzeichen.dita">
+<topicref href="trBruch.dita"/>
+<topicref href="trRom.dita"/>
+     <topicref href="trHochgestellteZahl.dita"/>
+<topicref href="trtiefgestellteZahl.dita"/>
+</topicref>
+    <topicref href="trTabellen.dita"/>
+<topicref href="trHandschrift.dita"/>
+     <topicref href="trZeichensetzung.dita">
+       <topicref href="trGedankenstrich.dita"/>
+       <topicref href="trAnfZeichen.dita"/>
+<topicref href="leerzeichen.dita">
+<topicref href="tr_level_1_3.dita"/>
+<topicref href="tr_level_2_3.dita"/>
+<topicref href="tr_level_3_3.dita"/>
+</topicref>
+     </topicref>
+<topicref href="trBeispiele.dita">
+<topicref href="trFremdsprache.dita"/>
+<topicref href="trLigaturen2.dita"/>
+</topicref>
+    </part>
+<part href="layout.dita">
+<topicref href="lyAllgemeines.dita"/>
+<topicref href="seitentypen.dita">
+<topicref href="tr_level_1_5.dita"/>
+<topicref href="tr_level_2_5.dita"/>
+</topicref>
+<topicref href="lyTypographie.dita"/>
+<topicref href="lySatzspiegel.dita"/>
+<topicref href="lyLeserichtung.dita"/>
+<topicref href="lyTextregionen.dita">
+<topicref href="lyAbsatz.dita"/>
+<topicref href="lyUeberschrift.dita"/>
+<topicref href="lyKolumnentitel.dita"/>
+<topicref href="lySeitenzahl.dita"/>
+<topicref href="lyMarginalie.dita"/>
+<topicref href="lyFussnote.dita"/>
+<topicref href="lyInitiale.dita"/>
+<topicref href="lyBogensignatur.dita"/>
+<topicref href="lyKustode.dita"/>
+<topicref href="lyDiskontinuierlich.dita"/>
+<topicref href="lyInhaltsverzeichnis.dita"/>
+</topicref> 
+<topicref href="lyBildbereiche.dita"/>
+<topicref href="lySeparatoren.dita"/>
+<topicref href="lyNotenzeichen.dita"/>
+<topicref href="lyMathematische_Zeichen.dita"/>
+<topicref href="lyChemische_Symbole.dita"/>
+<topicref href="lyGraphik.dita">
+</topicref> 
+<topicref href="lyTabellen.dita.dita"/>
+<topicref href="lyWerbung.dita"/>
+<topicref href="lyRauschen.dita"/>
+<topicref href="lySonstiges.dita"/>
+</part>
+<part href="trPage.dita">
+<topicref href="dok.ditamap" format="ditamap"/>
+</part>
+<part href="appTranskribus.dita">
+<topicref href="appgrundkonzept.dita"/>
+<topicref href="appHaupt.dita">
+<topicref href="appomenue.dita"/>
+<topicref href="appbildbereich.dita">
+<topicref href="appbildmenue.dita"/>
+</topicref>
+</topicref>
+</part>
+<part href="impressum.dita"/>
+
+
+
+</bookmap>

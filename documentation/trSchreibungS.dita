@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="trS">
+  <title>s-Grapheme</title>
+<body>
+<p>Sowohl in Fraktur- als auch in Antiquatexten können zwei Formen des Kleinbuchstabens <tt>s</tt>
+auftreten: das <tt>Schaft-s</tt> (<tt>ſ, U+017F, LATIN SMALL LETTER LONG S</tt>) und das <tt>runde
+s</tt> (<tt>s, U+0073, LATIN SMALL LETTER S</tt>). Sie werden in der Transkription unterschieden. </p>
+<p>Bei der Ligatur von <tt>Schaft-s</tt> und <tt>z</tt> ist diese <b>nicht aufzulösen</b> sondern
+als sogenanntes ß (gesprochen sz) wiederzugeben. Ausnahmen und Besonderheiten stellt die folgende
+Tabelle dar.</p>
+
+<p>
+<table frame="all" rowsep="1" colsep="1" id="table_j52_dhl_gz">
+<tgroup cols="3">
+<colspec colname="c1" colnum="1" colwidth="1.0*"/>
+<colspec colname="c2" colnum="2" colwidth="1.0*"/>
+<colspec colname="newCol3" colnum="3" colwidth="1*"/>
+<thead>
+<row>
+<entry>Vorlage</entry>
+<entry>Erläuterung</entry>
+<entry>transkribierter Text</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry><image href="images/trSchreibungS1.png" id="image_oyw_g5l_gz"/></entry>
+<entry>Bei der Wiedergabe eines <tt>Schaft-s</tt> gefolgt von einem <tt>s</tt> wird vorlagengetreu
+als <codeph>&amp;#x017F;s</codeph> wiedergegeben.</entry>
+<entry><tt>daſs</tt></entry>
+</row>
+<row>
+<entry><image href="images/trSchreibungS2.png" id="image_hv2_yhl_gz"/></entry>
+<entry>Bei der Wiedergabe eines <tt>Schaft-s</tt> gefolgt von einem <tt>z</tt>, bei dem beide
+Buchstaben deutlich zu erkennen sind, werden als <tt>Schaft-s + z</tt> wiedergegeben.</entry>
+<entry><tt>hauſſzen</tt></entry>
+</row>
+<row>
+<entry><image href="images/trSchreibungS3.png" id="image_wlc_l5l_gz"/></entry>
+<entry>Die Ligatur <tt>Schaft-s + z</tt> wird als <tt>ß</tt> wiedergegeben. </entry>
+<entry><tt>daß</tt></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</p>
+
+<p/>
+<p/>
+</body>
+</topic>

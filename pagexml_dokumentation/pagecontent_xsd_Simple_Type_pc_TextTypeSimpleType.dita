@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="TextTypeSimpleType">
+   <title>Simple Type pc:TextTypeSimpleType</title>
+   <body>
+      <table frame="all" rowsep="1" colsep="1">
+         <tgroup cols="2">
+            <colspec colwidth="3*" align="left"/>
+            <colspec colwidth="25*" align="left"/>
+            <tbody>
+               <row>
+                  <entry>Namespace</entry>
+                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2016-07-15</entry>
+               </row>
+               <row>
+                  <entry>Diagram</entry>
+                  <entry>
+                     <p/>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Type</entry>
+                  <entry>restriction of string</entry>
+               </row>
+               <row>
+                  <entry>Facets</entry>
+                  <entry>
+                     <p>
+                        <table frame="all" rowsep="1" colsep="1">
+                           <tgroup cols="3">
+                              <colspec colwidth="2*" align="left"/>
+                              <colspec colwidth="3*" align="left"/>
+                              <colspec colwidth="5*" align="left"/>
+                              <tbody>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>paragraph</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>heading</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>caption</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>header</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>footer</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>page-number</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>drop-capital</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>credit</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>floating</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>signature-mark</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>catch-word</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>marginalia</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>footnote</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>footnote-continued</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>endnote</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>TOC-entry</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>other</entry>
+                                    <entry/>
+                                 </row>
+                              </tbody>
+                           </tgroup>
+                        </table>
+                     </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Used by</entry>
+                  <entry>
+                     <p>
+                        <table frame="all" rowsep="1" colsep="1">
+                           <tgroup cols="2">
+                              <colspec colwidth="2*" align="left"/>
+                              <colspec colwidth="8*" align="left"/>
+                              <tbody>
+                                 <row>
+                                    <entry>Attribute </entry>
+                                    <entry>
+                                       <xref href="pagecontent_xsd_Complex_Type_pc_TextRegionType.dita#TextRegionType_type"/>
+                                    </entry>
+                                 </row>
+                              </tbody>
+                           </tgroup>
+                        </table>
+                     </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Source</entry>
+                  <entry>
+                     <codeblock outputclass="language-xml">&lt;simpleType name="TextTypeSimpleType"&gt;
+  &lt;restriction base="string"&gt;
+    &lt;enumeration value="paragraph"/&gt;
+    &lt;enumeration value="heading"/&gt;
+    &lt;enumeration value="caption"/&gt;
+    &lt;enumeration value="header"/&gt;
+    &lt;enumeration value="footer"/&gt;
+    &lt;enumeration value="page-number"/&gt;
+    &lt;enumeration value="drop-capital"/&gt;
+    &lt;enumeration value="credit"/&gt;
+    &lt;enumeration value="floating"/&gt;
+    &lt;enumeration value="signature-mark"/&gt;
+    &lt;enumeration value="catch-word"/&gt;
+    &lt;enumeration value="marginalia"/&gt;
+    &lt;enumeration value="footnote"/&gt;
+    &lt;enumeration value="footnote-continued"/&gt;
+    &lt;enumeration value="endnote"/&gt;
+    &lt;enumeration value="TOC-entry"/&gt;
+    &lt;enumeration value="other"/&gt;
+  &lt;/restriction&gt;
+&lt;/simpleType&gt;</codeblock>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Schema location</entry>
+                  <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2016-07-15/pagecontent.xsd</entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+   </body>
+</topic>

@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="RelationType">
+   <title>Complex Type pc:RelationType</title>
+   <body>
+      <table frame="all" rowsep="1" colsep="1">
+         <tgroup cols="2">
+            <colspec colwidth="3*" align="left"/>
+            <colspec colwidth="25*" align="left"/>
+            <tbody>
+               <row>
+                  <entry>Namespace</entry>
+                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2016-07-15</entry>
+               </row>
+               <row>
+                  <entry>Annotations</entry>
+                  <entry>
+                     <codeblock outputclass="language-xml">One-to-one relation between to layout object. Use 'link'
+    			for loose relations and 'join' for strong relations
+    			(where something is fragmented for instance).
+
+    			Examples for 'link': caption - image floating -
+    			paragraph paragraph - paragraph (when a pragraph is
+    			split across columns and the last word of the first
+    			paragraph DOES NOT continue in the second paragraph)
+    			drop-cap - paragraph (when the drop-cap is a whole word)
+
+    			Examples for 'join': word - word (separated word at the
+    			end of a line) drop-cap - paragraph (when the drop-cap
+    			is not a whole word) paragraph - paragraph (when a
+    			pragraph is split across columns and the last word of
+    			the first paragraph DOES continue in the second
+    			paragraph)</codeblock>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Diagram</entry>
+                  <entry>
+                     <p>
+                            
+                                    
+                                    <imagemap id="pagecontent_xsd_Complex_Type_pc_RelationType">
+                                        
+                                        <image href="img/pagecontent_xsd_Complex_Type_pc_RelationType.jpeg"/>
+                                        
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>183,39,344,83</coords>
+                                                
+                                                <xref href="pagecontent_xsd_Complex_Type_pc_RelationType.dita#RelationType_type"/>
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>183,93,273,137</coords>
+                                                
+                                                <xref href="pagecontent_xsd_Complex_Type_pc_RelationType.dita#RelationType_custom"/>
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>183,178,282,222</coords>
+                                                
+                                                <xref href="pagecontent_xsd_Complex_Type_pc_RelationType.dita#RelationType_comments"/>
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>240,239,392,283</coords>
+                                                
+                                                <xref href="pagecontent_xsd_Complex_Type_pc_RelationType.dita#RelationType_RegionRef"/>
+                                            </area>
+                                        
+                                    </imagemap>
+                        </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Used by</entry>
+                  <entry>
+                     <p>
+                        <table frame="all" rowsep="1" colsep="1">
+                           <tgroup cols="2">
+                              <colspec colwidth="2*" align="left"/>
+                              <colspec colwidth="8*" align="left"/>
+                              <tbody>
+                                 <row>
+                                    <entry>Element </entry>
+                                    <entry>
+                                       <xref href="pagecontent_xsd_Complex_Type_pc_RelationsType.dita#RelationsType_Relation"/>
+                                    </entry>
+                                 </row>
+                              </tbody>
+                           </tgroup>
+                        </table>
+                     </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Model</entry>
+                  <entry>
+                     <xref href="pagecontent_xsd_Complex_Type_pc_RelationType.dita#RelationType_RegionRef"/>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Children</entry>
+                  <entry>
+                     <xref href="pagecontent_xsd_Complex_Type_pc_RelationType.dita#RelationType_RegionRef"/>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Attributes</entry>
+                  <entry>
+                     <p>
+                        <table frame="all" rowsep="1" colsep="1">
+                           <tgroup cols="3">
+                              <colspec colnum="1" colname="col1" align="left" colwidth="3*"/>
+                              <colspec colnum="2" colname="col2" align="left" colwidth="3*"/>
+                              <colspec colnum="3" colname="col3" align="left" colwidth="1*"/>
+                              <thead>
+                                 <row>
+                                    <entry>QName</entry>
+                                    <entry>Type</entry>
+                                    <entry>Use</entry>
+                                 </row>
+                              </thead>
+                              <tbody>
+                                 <row>
+                                    <entry>
+                                       <xref href="pagecontent_xsd_Complex_Type_pc_RelationType.dita#RelationType_comments"/>
+                                    </entry>
+                                    <entry>string</entry>
+                                    <entry>optional</entry>
+                                 </row>
+                                 <row>
+                                    <entry>
+                                       <xref href="pagecontent_xsd_Complex_Type_pc_RelationType.dita#RelationType_custom"/>
+                                    </entry>
+                                    <entry>string</entry>
+                                    <entry>optional</entry>
+                                 </row>
+                                 <row>
+                                    <entry namest="col1" nameend="col3">
+                                       <codeblock outputclass="language-xml">For generic use</codeblock>
+                                    </entry>
+                                 </row>
+                                 <row>
+                                    <entry>
+                                       <xref href="pagecontent_xsd_Complex_Type_pc_RelationType.dita#RelationType_type"/>
+                                    </entry>
+                                    <entry>restriction of string</entry>
+                                    <entry>required</entry>
+                                 </row>
+                              </tbody>
+                           </tgroup>
+                        </table>
+                     </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Source</entry>
+                  <entry>
+                     <codeblock outputclass="language-xml">&lt;complexType name="RelationType"&gt;
+  &lt;annotation&gt;
+    &lt;documentation&gt;One-to-one relation between to layout object. Use 'link' for loose relations and 'join' for strong relations (where something is fragmented for instance). Examples for 'link': caption - image floating - paragraph paragraph - paragraph (when a pragraph is split across columns and the last word of the first paragraph DOES NOT continue in the second paragraph) drop-cap - paragraph (when the drop-cap is a whole word) Examples for 'join': word - word (separated word at the end of a line) drop-cap - paragraph (when the drop-cap is not a whole word) paragraph - paragraph (when a pragraph is split across columns and the last word of the first paragraph DOES continue in the second paragraph)&lt;/documentation&gt;
+  &lt;/annotation&gt;
+  &lt;sequence minOccurs="2" maxOccurs="2"&gt;
+    &lt;element name="RegionRef" type="pc:RegionRefType"/&gt;
+  &lt;/sequence&gt;
+  &lt;attribute name="type" use="required"&gt;
+    &lt;simpleType&gt;
+      &lt;restriction base="string"&gt;
+        &lt;enumeration value="link"/&gt;
+        &lt;enumeration value="join"/&gt;
+      &lt;/restriction&gt;
+    &lt;/simpleType&gt;
+  &lt;/attribute&gt;
+  &lt;attribute name="custom" type="string"&gt;
+    &lt;annotation&gt;
+      &lt;documentation&gt;For generic use&lt;/documentation&gt;
+    &lt;/annotation&gt;
+  &lt;/attribute&gt;
+  &lt;attribute name="comments" type="string"/&gt;
+&lt;/complexType&gt;</codeblock>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Schema location</entry>
+                  <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2016-07-15/pagecontent.xsd</entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+   </body>
+   <topic id="RelationType_type">
+      <title>Attribute pc:RelationType / @type</title>
+      <body>
+         <table frame="all" rowsep="1" colsep="1">
+            <tgroup cols="2">
+               <colspec colwidth="3*" align="left"/>
+               <colspec colwidth="25*" align="left"/>
+               <tbody>
+                  <row>
+                     <entry>Namespace</entry>
+                     <entry>No namespace</entry>
+                  </row>
+                  <row>
+                     <entry>Type</entry>
+                     <entry>restriction of string</entry>
+                  </row>
+                  <row>
+                     <entry>Properties</entry>
+                     <entry>
+                        <p>
+                           <table frame="all" rowsep="1" colsep="1">
+                              <tgroup cols="2">
+                                 <colspec colwidth="2*" align="left"/>
+                                 <colspec colwidth="8*" align="left"/>
+                                 <tbody>
+                                    <row>
+                                       <entry>use: </entry>
+                                       <entry>
+                                          <b>required</b>
+                                       </entry>
+                                    </row>
+                                 </tbody>
+                              </tgroup>
+                           </table>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Facets</entry>
+                     <entry>
+                        <p>
+                           <table frame="all" rowsep="1" colsep="1">
+                              <tgroup cols="3">
+                                 <colspec colwidth="2*" align="left"/>
+                                 <colspec colwidth="3*" align="left"/>
+                                 <colspec colwidth="5*" align="left"/>
+                                 <tbody>
+                                    <row>
+                                       <entry>enumeration</entry>
+                                       <entry>link</entry>
+                                       <entry/>
+                                    </row>
+                                    <row>
+                                       <entry>enumeration</entry>
+                                       <entry>join</entry>
+                                       <entry/>
+                                    </row>
+                                 </tbody>
+                              </tgroup>
+                           </table>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Used by</entry>
+                     <entry>
+                        <p>
+                           <table frame="all" rowsep="1" colsep="1">
+                              <tgroup cols="2">
+                                 <colspec colwidth="2*" align="left"/>
+                                 <colspec colwidth="8*" align="left"/>
+                                 <tbody>
+                                    <row>
+                                       <entry>Complex Type </entry>
+                                       <entry>
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_RelationType.dita#RelationType"/>
+                                       </entry>
+                                    </row>
+                                 </tbody>
+                              </tgroup>
+                           </table>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;attribute name="type" use="required"&gt;
+  &lt;simpleType&gt;
+    &lt;restriction base="string"&gt;
+      &lt;enumeration value="link"/&gt;
+      &lt;enumeration value="join"/&gt;
+    &lt;/restriction&gt;
+  &lt;/simpleType&gt;
+&lt;/attribute&gt;</codeblock>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Schema location</entry>
+                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2016-07-15/pagecontent.xsd</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </body>
+   </topic>
+   <topic id="RelationType_custom">
+      <title>Attribute pc:RelationType / @custom</title>
+      <body>
+         <table frame="all" rowsep="1" colsep="1">
+            <tgroup cols="2">
+               <colspec colwidth="3*" align="left"/>
+               <colspec colwidth="25*" align="left"/>
+               <tbody>
+                  <row>
+                     <entry>Namespace</entry>
+                     <entry>No namespace</entry>
+                  </row>
+                  <row>
+                     <entry>Annotations</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">For generic use</codeblock>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Type</entry>
+                     <entry>string</entry>
+                  </row>
+                  <row>
+                     <entry>Properties</entry>
+                     <entry>
+                        <p>
+                           <table frame="all" rowsep="1" colsep="1">
+                              <tgroup cols="2">
+                                 <colspec colwidth="2*" align="left"/>
+                                 <colspec colwidth="8*" align="left"/>
+                                 <tbody>
+                                    <row>
+                                       <entry>content: </entry>
+                                       <entry>
+                                          <b>simple</b>
+                                       </entry>
+                                    </row>
+                                 </tbody>
+                              </tgroup>
+                           </table>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Used by</entry>
+                     <entry>
+                        <p>
+                           <table frame="all" rowsep="1" colsep="1">
+                              <tgroup cols="2">
+                                 <colspec colwidth="2*" align="left"/>
+                                 <colspec colwidth="8*" align="left"/>
+                                 <tbody>
+                                    <row>
+                                       <entry>Complex Type </entry>
+                                       <entry>
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_RelationType.dita#RelationType"/>
+                                       </entry>
+                                    </row>
+                                 </tbody>
+                              </tgroup>
+                           </table>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;attribute name="custom" type="string"&gt;
+  &lt;annotation&gt;
+    &lt;documentation&gt;For generic use&lt;/documentation&gt;
+  &lt;/annotation&gt;
+&lt;/attribute&gt;</codeblock>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Schema location</entry>
+                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2016-07-15/pagecontent.xsd</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </body>
+   </topic>
+   <topic id="RelationType_comments">
+      <title>Attribute pc:RelationType / @comments</title>
+      <body>
+         <table frame="all" rowsep="1" colsep="1">
+            <tgroup cols="2">
+               <colspec colwidth="3*" align="left"/>
+               <colspec colwidth="25*" align="left"/>
+               <tbody>
+                  <row>
+                     <entry>Namespace</entry>
+                     <entry>No namespace</entry>
+                  </row>
+                  <row>
+                     <entry>Type</entry>
+                     <entry>string</entry>
+                  </row>
+                  <row>
+                     <entry>Properties</entry>
+                     <entry>
+                        <p>
+                           <table frame="all" rowsep="1" colsep="1">
+                              <tgroup cols="2">
+                                 <colspec colwidth="2*" align="left"/>
+                                 <colspec colwidth="8*" align="left"/>
+                                 <tbody>
+                                    <row>
+                                       <entry>content: </entry>
+                                       <entry>
+                                          <b>simple</b>
+                                       </entry>
+                                    </row>
+                                 </tbody>
+                              </tgroup>
+                           </table>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Used by</entry>
+                     <entry>
+                        <p>
+                           <table frame="all" rowsep="1" colsep="1">
+                              <tgroup cols="2">
+                                 <colspec colwidth="2*" align="left"/>
+                                 <colspec colwidth="8*" align="left"/>
+                                 <tbody>
+                                    <row>
+                                       <entry>Complex Type </entry>
+                                       <entry>
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_RelationType.dita#RelationType"/>
+                                       </entry>
+                                    </row>
+                                 </tbody>
+                              </tgroup>
+                           </table>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;attribute name="comments" type="string"/&gt;</codeblock>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Schema location</entry>
+                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2016-07-15/pagecontent.xsd</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </body>
+   </topic>
+   <topic id="RelationType_RegionRef">
+      <title>Element pc:RelationType / pc:RegionRef</title>
+      <body>
+         <table frame="all" rowsep="1" colsep="1">
+            <tgroup cols="2">
+               <colspec colwidth="3*" align="left"/>
+               <colspec colwidth="25*" align="left"/>
+               <tbody>
+                  <row>
+                     <entry>Namespace</entry>
+                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2016-07-15</entry>
+                  </row>
+                  <row>
+                     <entry>Diagram</entry>
+                     <entry>
+                        <p>
+                            
+                                    
+                                    <imagemap id="pagecontent_xsd_Element_pc_RegionRef_3">
+                                        
+                                        <image href="img/pagecontent_xsd_Element_pc_RegionRef_3.jpeg"/>
+                                        
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>208,79,305,123</coords>
+                                                
+                                                <xref href="pagecontent_xsd_Complex_Type_pc_RegionRefType.dita#RegionRefType_regionRef"/>
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>183,3,323,25</coords>
+                                                
+                                                <xref href="pagecontent_xsd_Complex_Type_pc_RegionRefType.dita#RegionRefType"/>
+                                            </area>
+                                        
+                                    </imagemap>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Type</entry>
+                     <entry>
+                        <xref href="pagecontent_xsd_Complex_Type_pc_RegionRefType.dita#RegionRefType"/>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Properties</entry>
+                     <entry>
+                        <p>
+                           <table frame="all" rowsep="1" colsep="1">
+                              <tgroup cols="2">
+                                 <colspec colwidth="2*" align="left"/>
+                                 <colspec colwidth="8*" align="left"/>
+                                 <tbody>
+                                    <row>
+                                       <entry>content: </entry>
+                                       <entry>
+                                          <b>complex</b>
+                                       </entry>
+                                    </row>
+                                 </tbody>
+                              </tgroup>
+                           </table>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Attributes</entry>
+                     <entry>
+                        <p>
+                           <table frame="all" rowsep="1" colsep="1">
+                              <tgroup cols="3">
+                                 <colspec colnum="1" colname="col1" align="left" colwidth="3*"/>
+                                 <colspec colnum="2" colname="col2" align="left" colwidth="3*"/>
+                                 <colspec colnum="3" colname="col3" align="left" colwidth="1*"/>
+                                 <thead>
+                                    <row>
+                                       <entry>QName</entry>
+                                       <entry>Type</entry>
+                                       <entry>Use</entry>
+                                    </row>
+                                 </thead>
+                                 <tbody>
+                                    <row>
+                                       <entry>
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_RegionRefType.dita#RegionRefType_regionRef"/>
+                                       </entry>
+                                       <entry>IDREF</entry>
+                                       <entry>required</entry>
+                                    </row>
+                                 </tbody>
+                              </tgroup>
+                           </table>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;element name="RegionRef" type="pc:RegionRefType"/&gt;</codeblock>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Schema location</entry>
+                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2016-07-15/pagecontent.xsd</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </body>
+   </topic>
+</topic>

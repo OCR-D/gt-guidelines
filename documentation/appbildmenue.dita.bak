@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="appbildmenue">
+<title>Bildbereich-Menüleiste (Canvas Menu Bar)</title>
+  <body>
+<p>Beschreibung der Schaltflächen von links nach rechts inkl. dem angezeigten <i>mouseover</i>-Text: </p>
+<ul id="ul_rm1_j1b_3z">
+<li><b>Auswahlwerkzeug</b> (<i>Selection mode</i>): Der übliche Modus zum Arbeiten im Bildbereich.
+Damit lassen sich Strukturbereiche auswählen, um sie zu bearbeiten. </li>
+<li><b>Zoom selection mode</b>: Wenn ausgewählt, kann mit der linken Maustaste ein Rahmen aufgezogen
+werden, in den gezoomt wird. </li>
+<li><b>Lupe</b> (<i>Loupe mode</i>): Der Mauszeiger wird zur Lupe. </li>
+<li><b>Zoom in</b>: Bild vergrößern </li>
+<li><b>Zoom out</b>: Bild verkleinern <ul id="ul_sm1_j1b_3z">
+<li><b>Anmerkung</b>: zum Vergrößern/Verkleinern kann auch das Mausrad verwendet werden. </li>
+</ul></li>
+<li><b>An Seite anpassen</b> (<i>Fit to page</i>) <ul id="ul_tm1_j1b_3z">
+<li><b>An Seite anpassen</b> (<i>fit to page</i>): passt die Seite in den Bildbereich ein
+(<b>Tip</b>: ein Klick mit dem Mausrad hat dieselbe Wirkung) </li>
+<li><b>Originalgröße</b> (<i>Original Size</i>): die Seite wird in Originalgröße dargestellt </li>
+<li><b>Breite anpassen</b> (<i>Fit to width</i>): Bild der Breite nach in den Bildbereich einpassen </li>
+<li><b>Höhe anpassen</b> (<i>Fit to height</i>): Bild der Höhe nach in den Bildbereich einpassen
+</li>
+</ul></li>
+<li><b>Drehen</b> (<i>Rotate</i>): Nach links/rechts drehen </li>
+<li><b>Bild bewegen</b> (<i>Translate image</i>): Bild nach links/rechts/oben/unten bewegen <ul
+id="ul_um1_j1b_3z">
+<li><b>Anmerkung</b>: Einfacher ist es, durch anhaltendes Drücken der linken oder rechten Maustaste
+das Bild oder das ausgewählte Element in die gewünschte Position zu bewegen. </li>
+</ul></li>
+<li><b>Ausgewähltes Element fokussieren</b> (<i>Focus selected object</i>): Das ausgewählte Element
+wird vergrößert <ul id="ul_vm1_j1b_3z">
+<li><b>Anmerkung</b>: Ein Doppelklick auf das Element hat dieselbe Auswirkung </li>
+</ul></li>
+<li><b>Bearbeitung der Strukturelemente aktivieren</b> (<i>Enable shape editing</i>): Wenn
+ausgewählt, können die Strukturelemente (Textregionen, Zeilen...) auf der Seite mit den folgenden
+Werkzeugen bearbeitet werden (alle diese Bearbeitungsvorgänge können mit dem
+<b>Rückgängig-Button</b> (<i>Undo</i>) am Ende der Menüleiste rückgängig gemacht werden): <ul
+id="ul_wm1_j1b_3z">
+<li><b>Satzspiegel hinzufügen</b> (<i>Add a printspace</i>): einen Satzspiegel hinzufügen. Ein
+solcher ist für eine Transkription nicht notwendig, kann jedoch hilfreich sein, wenn gedruckte
+Bücher transkribiert werden und daraus eine Druckversion erstellt werden soll. </li>
+<li><b>Textregion hinzufügen</b> (<i>Add a text region</i>): eine Textregion hinzufügen.
+Textregionen sind für die weitere Segmentierung und Verarbeitung notwendig. <ul id="ul_xm1_j1b_3z">
+<li><b>Anmerkung</b>: Die Ränder von Textregionen sollten nahe am Text sein, müssen aber nicht
+perfekt den Textumriss nachempfinden. In den meisten Fällen wird ein einfaches Rechteck ausreichen.
+</li>
+</ul></li>
+<li><b>Zeile hinzufügen</b> (<i>Add a line</i>): eine Zeilenregion hinzufügen. Zeilen sind für die
+weitere Verarbeitung ebenfalls notwendig. </li>
+<li><b>Grundlinie hinzufügen</b> (<i>Add a baseline</i>): eine Grundlinie zu einer bestehenden Zeile
+hinzufügen. Wenn noch keine Zeile existiert, wird sie auf Basis der Grundlinie automatisch erstellt.
+Grundlinien sind für die weitere Verarbeitung essentiell, da das HTR-Prgramm sie als Bezugspunkt
+verwendet. </li>
+<li><b>Wort hinzufügen</b> (<i>Add a word</i>): ein Wort einer bestehenden Zeilenregion hinzufügen.
+Wörter müssen nicht unbedingt einzeln ausgezeichnet werde, die Transkription kann wahlweise für
+einzelne Wörter oder für ganze Zeilen (<xref
+href="https://transkribus.eu/wikiDe/index.php/Benutzeranleitung#Wort-.2FZeilenbasiert" format="html"
+scope="external">#Wort-/Zeilenbasiert</xref>) durchgeführt werden. </li>
+</ul></li>
+</ul>
+<p>Die folgenden Bearbeitungswerkzeuge müssen auf bestehende Elemente angewendet werden, die zuvor
+entweder im Bildbereich oder im Strukturbaum (<xref
+href="https://transkribus.eu/wikiDe/index.php/Benutzeranleitung#Structure_Tab" format="html"
+scope="external">Registerkarte Struktur</xref>, links vom Canvas) ausgewählt werden: </p>
+<ul id="ul_ym1_j1b_3z">
+<li>
+<ul id="ul_zm1_j1b_3z">
+<li><b>Element löschen</b> (<i>Remove a shape</i>): entfernt alle ausgewählten Elemente </li>
+<li><b>Polygon verändern durch Hinzufügen eines Punktes</b> (<i>Add point to selected polygon</i>):
+Damit kann der Umriss (eines Bildes, Buchstabens, Wortes etc.) besser nachgezeichnet werden. </li>
+<li><b>Polygon verändern durch Löschen eines Punktes</b> (<i>Remove point from selected
+polygon</i>): Damit kann ein Punkt eines händisch nachgezeichneten polygonalen Feldes gelöscht
+werden (siehe oben). </li>
+<li><b>markierten Umriss horizontal teilen</b>(<i>Splits a shape into subshapes horizontally</i>):
+Damit kann ein Umriss (mit einer senkrechten Linie!) in zwei nebeneinander liegende Teile geteilt
+werden, etwa wenn eine Textregion in Wirklichkeit zwei Spalten enthält. </li>
+<li><b>Markierten Umriss vertikal teilen</b> (<i>Splits a shape into subshapes vertically</i>):
+Damit kann eine falsche Segmentierung korrigiert werden. Beispielsweise kann so eine große
+Textregion in einzelne Absätze bzw. Sinnabschnitte aufgeteilt werden, oder eine Zeile in zwei. </li>
+<li><b>Markierten Umriss durch eine benutzerdefinierte Linie teilen</b> (<i>Splits a shape into
+subshapes by a user defined line</i>): Die Trennlinie ist frei setzbar und erlaubt daher höhere
+Flexibilität. </li>
+<li><b>Ausgewählte Umrisse verbinden</b> (<i>Merge selected shapes</i>): Mindestens zwei ausgewählte
+Umrisse werden miteinander verbunden. </li>
+<li><b>Ausgewählten polygonalen Umriss vereinfachen</b> (<i>Simplifying selected polygon</i>): Das
+ausgewählte Polygon erhält mithilfe eines Algorithmus einen stark vereinfachten Umriss mit deutlich
+weniger Ecken. Der Parameter hängt mit dem Grad der Vereinfachung zusammen: Je höher der Wert, desto
+mehr Punkte des Polygons werden gelöscht. </li>
+</ul>
+</li>
+</ul>
+  </body>
+</topic>

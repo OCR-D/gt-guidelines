@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="appbildbereich">
+<title>Der Bildbereich (Canvas)</title>
+  <body>
+<p>Anfangs wird im Bildbereich nichts angezeigt. Erst wenn Sie ein lokales Dokument oder (nach dem
+Einloggen) eine Sammlung und ein Dokument in dieser Sammlung öffnen, wird die erste Seite des
+geladenen Dokuments angezeigt. </p>
+<p>Die farbigen Bereiche, die Sie auf dem Bild sehen, bilden die Strukturelemente ab, die auf der
+Seite vorhanden sind. Sie sind natürlich nur dann zu sehen, wenn eine Segmentierung bereits
+stattgefunden hat. Die Darstellung dieser Elemente kann im Hauptmenü angepasst werden. Im
+Bildbereich können unterschiedliche Segmentierungsarten (mithilfe von <xref
+href="https://transkribus.eu/wikiDe/index.php/Benutzeranleitung#Verschiedene_Segmentierungsarten_anzeigen"
+format="html" scope="external">Schaltflächen und</xref> Tastaturbefehlen) ein- und ausgeblendet
+werden: </p>
+<ul id="ul_lbn_f1b_3z">
+<li> Satzspiegel (<i>printspace</i>) anzeigen: F1 </li>
+<li> Textbereiche (<i>text regions</i>) anzeigen: F2 </li>
+<li> Zeilen (<i>lines</i>) anzeigen: F3 </li>
+<li> Grundlinien (<i>baselines</i>) anzeigen: F4 </li>
+<li> Wörter (<i>words</i>) anzeigen: F5 </li>
+</ul>
+<p>Alle sichtbaren Strukturelemente sind auswählbar und es besteht eine Verbindung zwischen
+Bildbereich, Texteditor und der <xref
+href="https://transkribus.eu/wikiDe/index.php/Benutzeranleitung#Registerkarte_Struktur"
+format="html" scope="external">Struktur-Registerkarte</xref>. Dies bedeutet, dass unabhängig von dem
+Bereich, von wo aus ein Strukturelement ausgewählt wird, dieses Element auch in den anderen
+verbundenen Bereichen von Transkribus ausgewählt ist. Dies ermöglicht eine übersichtliche
+Darstellung von Bild, Text und Hierarchie - natürlich nur, wenn alle Teile vorhanden sind. Dies ist
+aus unserer Sicht ein großer Vorteil im Vergleich zu einigen anderen Transkriptionswerkzeugen, wo
+Bild und Text nicht miteinander verbunden sind und damit der Bearbeiter diese Zuordnung selber
+vornehmen muss. </p>
+<p>Alle Funktionen zum Bild und zu Strukturelementen befinden sich in der: </p>
+  </body>
+</topic>

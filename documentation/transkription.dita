@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="transkription">
+  <title>Richtlinien zur Transkription für Ground Truth</title>
+  <titlealts><navtitle>Transkription</navtitle></titlealts>
+    <abstract>
+<shortdesc>Richtlinien zur Transkription der Volltexte für die Nutzung als Ground Truth</shortdesc>
+</abstract>
+  <body>
+<p>Das OCR-D Ground-Truth-Korpus umfasst Seiten aus Publikationen aus dem Zeitraum 1500 - 1900. Der
+Inhalt des Korpus basiert auf einer gezielten Auswahl aus dem Bestand des DFG-Projektes <xref
+href="http://www.deutschestextarchiv.de" format="html" scope="external">„Deutsches
+Textarchiv“</xref>, der <xref href="http://digital.staatsbibliothek-berlin.de/" format="html"
+scope="external">Digitalisierten Sammlungen der Staatsbibliothek zu Berlin</xref> und der <xref
+href="http://www.hab.de/de/home/bibliothek/digitale-bibliothek-wdb.html" format="html"
+scope="external">Wolfenbütteler Digitalen Bibliothek</xref> der Herzog August Bibliothek. Bestände
+von Projekten und digitalen Sammlungen anderer Bibliotheken sowie zusätzliche Ground-Truth-Daten,
+die zusammen mit Modulprojekten erarbeitet werden, können in Abstimmung mit dem
+OCR-D-Koordinierungsgremium in das Korpus als spezielle Erweiterungen aufgenommen werden. Sollten
+zusätzliche Annotationen oder oder spezifische Transkriptionsanweisungen für Texte notwendig sein,
+können diese in Abstimmung erstellt werden.</p>
+<p><b>Ziele</b> der Bereitstellung von Ground Truth Daten sind: <ul id="ul_ckm_mmm_gz">
+<li>Vorlagen und Daten zum Zweck des Trainings von OCR Programmen bereit zu stellen,</li>
+<li>sowie eine Prüfung und Evaluation der OCR-Erkennungsergebnisse vornehmen zu können.</li>
+</ul></p>
+<p>Diese Transkriptionsrichtlinien folgen in weiten Teilen den <xref
+href="http://deutschestextarchiv.de/doku/basisformat/transkription.html" format="html"
+scope="external">Richtlinien des Deutschen Textarchivs</xref>. Im folgenden werden dessen
+<b>grundlegenden Prinzipien</b> wiedergegeben, denen diese Richtlinien ebenfalls folgen: </p>
+<ul id="ul_wkt_mvj_gz">
+<li>"Die Erfassung der Texte erfolgt nach dem Prinzip der Wahrung des historischen Sprachstandes der
+Texte.</li>
+<li>Aufgrund dieser Zielsetzung wird darauf geachtet, bei der Texterfassung die Zahl der
+(unvermeidbaren) Interpretationen typographischer Gegebenheiten gering zu halten.</li>
+<li>Eine Druckfehlerkorrektur erfolgt nicht.</li>
+<li>Aus dem Prinzip größtmöglicher Bewahrung des Vorlagentextes bei gleichzeitiger Konzentration auf
+die lexikalischen Gegebenheiten ergeben sich für die Texterfassung die folgenden Richtlinien."</li>
+</ul><p>Das Korpus ist im Bezug auf die <b>Interpretation von einzelnen typographischen und
+graphematischen Phänomenen </b>in unterschiedlichen Leveln transkribiert bzw. kann transkribiert
+werden. Die Level werden iim weiteren näher erläutert. Allgemein können die Level folgendermaßen
+beschrieben werden:</p>
+<p>
+<dl>
+<dlentry>
+<dt>Level 1</dt>
+<dd>Eine Interpretation von Zeichen orientiert sich am <b>Gebrauch im Sprachsystem</b>. Spezifische
+<b>drucktechnische Aspekte</b> werden <b>nicht beachtet</b> und nicht im Ground-Truth Korpus
+dokumentiert. Eine Normalisierung der Zeichen z. B. Schafft-s wird <b>nicht vorgenommen</b>. Die
+Wiedergabe von Leerzeichen beschränkt sich darauf, dass diese ausschließlich Wörter von einander
+trennen. Satzzeichen werden immer an das vorangegangene Wort herangezogen.</dd>
+</dlentry><dlentry>
+<dt>Level 2</dt>
+<dd>Eine Interpretation von Zeichen orientiert sich am <b>Gebrauch im Sprach- und Schriftsystem</b>
+und <b>nicht</b> an <b>drucktechnische Gegebenheiten.</b> So werden zum Beispiel in Bezug auf
+<b>Ligaturen nur eigenständige Zeichen </b>mit einem spezifischen Codepoint unter Nutzung von
+<b>standardisierten Codierungen</b> (Unicode), der Kombination von <b>standardisierten
+Codierungen</b> (Unicode), <b> communitynormierten Codierungen</b> (MUFI) und durch das
+Koordienierungsgremium <b>festgelegten Codierungen</b> abgebildet. <b>Drucktechnische Ligaturen</b>
+werden grundsätzlich <b>aufgespalten</b>. Die Information Ligatur wird als Formatierungsangabe (wie
+Fett, Kursiv...) im Ground-Truth dokumentiert. Eine <b>Kombination</b> von Zeichen zu einem Zeichen
+auf Grundlage des Unicod-Standards ist den communitynormierten Codierungen und den durch das
+Koordienierungsgremium festgelegten Codierungen vorzuziehen.</dd>
+</dlentry><dlentry>
+<dt>Level 3</dt>
+<dd>Eine Interpretation von Zeichen wird vollständig unterlassen. Das Zeichen wird als ein Codepoint
+unter Nutzung von <b>standardisierten Codierungen</b> (Unicode),<b> communitynormierten
+Codierungen</b> (MUFI) und durch das Koordienierungsgremium <b>festgelegten Codierungen</b>
+abgebildet. Eine <b>Kombination</b> von Zeichen zu einem Zeichen erfolgt <b>nicht</b>.</dd>
+</dlentry>
+</dl>
+
+</p>
+</body>
+</topic>

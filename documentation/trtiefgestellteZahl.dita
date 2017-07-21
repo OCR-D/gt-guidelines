@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="trtiefgestellteZahl">
+    <title>Tiefgestellte Zahlen</title>
+    <body>
+        <p>Tiefgestellte Zahlen können u. a. in chemischen Formeln oder selten als Referenzzeichen
+vorkommen. </p>
+<p>Die Transkription erfolgt als spezifische tiefgestellte Zahl als <b>Unicode
+Hexdezimal-Entität</b>.</p>
+<p>
+<table id="table_vvk_krc_b1b">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<colspec colnum="3" colname="col5"/>
+<colspec colnum="4" colname="col6"/>
+<tbody>
+<row>
+<entry>&amp;#x2080;</entry>
+<entry>₀</entry>
+<entry>SUBSCRIPT ZERO</entry>
+<entry>Tiefgestellte Null</entry>
+</row>
+<row>
+<entry>&amp;#x2081;</entry>
+<entry>₁</entry>
+<entry>SUBSCRIPT ONE</entry>
+<entry>Tiefgestellte Eins</entry>
+</row>
+<row>
+<entry>&amp;#x2082;</entry>
+<entry>₂</entry>
+<entry>SUBSCRIPT TWO</entry>
+<entry>Tiefgestellte Zwei</entry>
+</row>
+<row>
+<entry>&amp;#x2083;</entry>
+<entry>₃</entry>
+<entry>SUBSCRIPT THREE</entry>
+<entry>Tiefgestellte Drei</entry>
+</row>
+<row>
+<entry>&amp;#x2084;</entry>
+<entry>₄</entry>
+<entry>SUBSCRIPT FOUR</entry>
+<entry>Tiefgestellte Vier</entry>
+</row>
+<row>
+<entry>&amp;#x2085;</entry>
+<entry>₅</entry>
+<entry>SUBSCRIPT FIVE</entry>
+<entry>Tiefgestellte Fünf</entry>
+</row>
+<row>
+<entry>&amp;#x2086;</entry>
+<entry>₆</entry>
+<entry>SUBSCRIPT SIX</entry>
+<entry>Tiefgestellte Sechs</entry>
+</row>
+<row>
+<entry>&amp;#x2087;</entry>
+<entry>₇</entry>
+<entry>SUBSCRIPT SEVEN</entry>
+<entry>Tiefgestellte Sieben</entry>
+</row>
+<row>
+<entry>&amp;#x2088;</entry>
+<entry>₈</entry>
+<entry>SUBSCRIPT EIGHT</entry>
+<entry>Tiefgestellte Acht</entry>
+</row>
+<row>
+<entry>&amp;#x2089;</entry>
+<entry>₉</entry>
+<entry>SUBSCRIPT NINE</entry>
+<entry>Tiefgestellte Neun</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</p><note>Zur Unicode-Kodierung siehe: <xref href="http://www.unicode.org/charts/PDF/U2070.pdf"
+format="pdf" scope="external">Superscripts and Subscripts</xref></note>
+    </body>
+</topic>

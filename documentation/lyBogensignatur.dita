@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="lyBogensignatur">
+    <title>Bogensignatur</title>
+    <body>
+<p>Die Bogensignatur wird, wenn vorhanden, mit abgetippt und in ein &lt;bs>-TAGs eingefasst. Hier
+muss genau darauf geachtet werden, dass nicht fälschlicherweise eine Fußnote, Seitenzahl oder
+Kustode als Bogensignatur erkannt wird.</p>
+<p>Achtung: Manchmal steht die Bogensignatur zwischen Text und Fußnoten. In der Regel ist aber die
+Bogensignatur in den Vorlagen als solche gekennzeichnet.</p>
+<p><i>Beispiel: Bogensignatur</i></p>
+<p><image href="images/lyBogensignatur.png" id="image_i23_5sf_h1b"/></p>
+    </body>
+</topic>

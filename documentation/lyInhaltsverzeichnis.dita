@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="lyInhaltsverzeichnis">
+    <title>Inhaltsverzeichnis</title>
+    <body>
+        <p>Inhaltsverzeichnisse werden mit abgetippt. Sie werden mit einem &lt;con>...&lt;/con>-TAG
+umschlossen. Bei mehrseitigen Inhaltsverzeichnissen steht das schließende &lt;/con>-TAG erst ganz am
+Ende des Inhaltsverzeichnisses.</p>
+<p>Das Inhaltsverzeichnis wird <b>ohne weitere Makrostrukturierung</b> abgetippt. Typographische
+Besonderheiten werden hingegen mit abgebildet. Für die Füllsel zwischen der Kapitelüberschrift und
+der Seitenzahl (meistens sind unterschiedlich viele Pünktchen oder Striche gedruckt) werden zwei
+Unterstiche _ _ mit Leerzeichen (davor, danach und dazwischen) abgetippt. Bitte unbedingt auf die
+Leerzeichen achten, sie sind sehr wichtig für die spätere Weiterverarbeitung! </p>
+<p> </p>
+<table id="table_ntv_n5f_h1b">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row>
+<entry>
+<p><i>Beispiel: Inhaltsverzeichnis</i></p>
+<p/>
+<p>&lt;con>&lt;c>&lt;g>Inhalt&lt;/g>.&lt;/c></p>
+<p>&lt;hr/></p>
+<p>&lt;c>&lt;g>Erster Abschnitt&lt;/g>.&lt;/c></p>
+<p>&lt;g>Die Turnübungen&lt;/g> _ _ Seite</p>
+<p>&lt;aq>I&lt;/aq>. &lt;g>Gehen&lt;/g> _ _ 3.</p>
+<p>1. &lt;g>Anstand&lt;/g> im Gange _ _ 3.</p>
+<p>2. &lt;g>Dauer&lt;/g> _ _ 4.</p>
+<p>3. &lt;g>Schnelle&lt;/g> _ _ 5.</p>
+<p>4. &lt;g>Nichtachten&lt;/g> der Örtlichkeit _ _ 5.</p>
+<p>&amp;#x2014; Lediggang, Lastgang _ _ 5.</p>
+<p>&lt;aq>II&lt;/aq>. &lt;g>Laufen&lt;/g> _ _ 7.</p>
+<p>Laufvorrichtungen: &lt;g>Laufbahnen&lt;/g> _ _ 7.</p>
+<p>Laufhaltung _ _ 8.</p>
+<p>Laufregeln _ _ 9.&lt;/con></p>
+<p> </p>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+    </body>
+</topic>

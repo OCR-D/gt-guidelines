@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ColourSimpleType">
+   <title>Simple Type pc:ColourSimpleType</title>
+   <body>
+      <table frame="all" rowsep="1" colsep="1">
+         <tgroup cols="2">
+            <colspec colwidth="3*" align="left"/>
+            <colspec colwidth="25*" align="left"/>
+            <tbody>
+               <row>
+                  <entry>Namespace</entry>
+                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2016-07-15</entry>
+               </row>
+               <row>
+                  <entry>Diagram</entry>
+                  <entry>
+                     <p/>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Type</entry>
+                  <entry>restriction of string</entry>
+               </row>
+               <row>
+                  <entry>Facets</entry>
+                  <entry>
+                     <p>
+                        <table frame="all" rowsep="1" colsep="1">
+                           <tgroup cols="3">
+                              <colspec colwidth="2*" align="left"/>
+                              <colspec colwidth="3*" align="left"/>
+                              <colspec colwidth="5*" align="left"/>
+                              <tbody>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>black</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>blue</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>brown</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>cyan</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>green</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>grey</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>indigo</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>magenta</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>orange</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>pink</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>red</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>turquoise</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>violet</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>white</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>yellow</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>other</entry>
+                                    <entry/>
+                                 </row>
+                              </tbody>
+                           </tgroup>
+                        </table>
+                     </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Used by</entry>
+                  <entry>
+                     <p>
+                        <table frame="all" rowsep="1" colsep="1">
+                           <tgroup cols="2">
+                              <colspec colwidth="2*" align="left"/>
+                              <colspec colwidth="8*" align="left"/>
+                              <tbody>
+                                 <row>
+                                    <entry>Attributes </entry>
+                                    <entry>
+                                       <xref href="pagecontent_xsd_Complex_Type_pc_AdvertRegionType.dita#AdvertRegionType_bgColour"/>, <xref href="pagecontent_xsd_Complex_Type_pc_ChartRegionType.dita#ChartRegionType_bgColour"/>, <xref href="pagecontent_xsd_Complex_Type_pc_ChemRegionType.dita#ChemRegionType_bgColour"/>, <xref href="pagecontent_xsd_Complex_Type_pc_ImageRegionType.dita#ImageRegionType_bgColour"/>, <xref href="pagecontent_xsd_Complex_Type_pc_LineDrawingRegionType.dita#LineDrawingRegionType_bgColour"/>, <xref href="pagecontent_xsd_Complex_Type_pc_LineDrawingRegionType.dita#LineDrawingRegionType_penColour"/>, <xref href="pagecontent_xsd_Complex_Type_pc_MathsRegionType.dita#MathsRegionType_bgColour"/>, <xref href="pagecontent_xsd_Complex_Type_pc_MusicRegionType.dita#MusicRegionType_bgColour"/>, <xref href="pagecontent_xsd_Complex_Type_pc_SeparatorRegionType.dita#SeparatorRegionType_colour"/>, <xref href="pagecontent_xsd_Complex_Type_pc_TableRegionType.dita#TableRegionType_bgColour"/>, <xref href="pagecontent_xsd_Complex_Type_pc_TableRegionType.dita#TableRegionType_lineColour"/>, <xref href="pagecontent_xsd_Complex_Type_pc_TextStyleType.dita#TextStyleType_bgColour"/>, <xref href="pagecontent_xsd_Complex_Type_pc_TextStyleType.dita#TextStyleType_textColour"/>
+                                    </entry>
+                                 </row>
+                              </tbody>
+                           </tgroup>
+                        </table>
+                     </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Source</entry>
+                  <entry>
+                     <codeblock outputclass="language-xml">&lt;simpleType name="ColourSimpleType"&gt;
+  &lt;restriction base="string"&gt;
+    &lt;enumeration value="black"/&gt;
+    &lt;enumeration value="blue"/&gt;
+    &lt;enumeration value="brown"/&gt;
+    &lt;enumeration value="cyan"/&gt;
+    &lt;enumeration value="green"/&gt;
+    &lt;enumeration value="grey"/&gt;
+    &lt;enumeration value="indigo"/&gt;
+    &lt;enumeration value="magenta"/&gt;
+    &lt;enumeration value="orange"/&gt;
+    &lt;enumeration value="pink"/&gt;
+    &lt;enumeration value="red"/&gt;
+    &lt;enumeration value="turquoise"/&gt;
+    &lt;enumeration value="violet"/&gt;
+    &lt;enumeration value="white"/&gt;
+    &lt;enumeration value="yellow"/&gt;
+    &lt;enumeration value="other"/&gt;
+  &lt;/restriction&gt;
+&lt;/simpleType&gt;</codeblock>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Schema location</entry>
+                  <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2016-07-15/pagecontent.xsd</entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+   </body>
+</topic>

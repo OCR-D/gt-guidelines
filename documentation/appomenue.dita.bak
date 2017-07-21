@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="appomenue">
+  <title>Die oberste Menüleiste</title>
+  <body>
+<p><image href="images/appomenue.png" id="image_h23_ncb_3z"/></p>
+<p><image href="images/appbildmenue.png" id="image_v4r_bdb_3z"/> </p>
+<p>
+<ul id="ul_psk_b1b_3z">
+<li><image href="images/appomenue1.png" id="image_rm3_d5q_pz"/>Das <b>Hauptmenü</b> (links oben)
+<i>(Main Menu)</i>: Enthält eine Sammlung verschiedener Befehle, wovon die meisten an anderer Stelle
+erläutert werden. Hier werden nur diejenigen Befehle erklärt, die ausschließlich in diesem Menü zu
+finden sind. <image href="images/appomenue2.png" placement="inline" class="- topic/image "
+align="right" id="float_image_ulx_l1r_pz"/><ul id="ul_qsk_b1b_3z">
+<li><b>Update-Suche</b><i>(Check for update)</i>: Sie können <i>nach Updates suchen</i> und diese
+direkt installieren. </li>
+<li><b>Installation einer bestimmten Programmversion</b><i>(Install a specific version):</i> Sie
+können aber auch nach einer <i>eine älteren/bestimmten Version suchen</i>. Die Versionen, die auf
+<i>-snapshot</i> enden sind sehr experimentell und dazu gedacht, neue Funktionen zu testen. </li>
+<li><b>Anzeigeeinstellungen verändern</b><i>(Change viewing settings):</i> Hier können sie
+Anzeigeeinstellungen nach Ihren Vorlieben verändern, etwa Linienstärken und Farben im Bildbereich.
+Denn unterschiedliche Arbeitsschritte können auch unterschiedliche Einstellungen erfordern. </li>
+</ul></li>
+<li><image href="images/appomenue3.png" id="image_z4j_bwq_pz"/><b>Verbindung der einzelnen
+Arbeitsfelder</b><i>(Docking states)</i>: Verschiedene definierte Docking states für die Menüleiste
+links, die Menüleiste rechts und das <i>transcription widget</i> (Texteditor) unten <ul
+id="ul_rsk_b1b_3z">
+<li><i>Docked</i> bedeutet, dass das entsprechende Element an der jeweiligen Stelle fixiert ist
+(voreingestellt). </li>
+<li> Mit <i>Undocked</i> kann das Element an eine andere Position verschoben werden - völlig
+losgelöst von der restlichen Oberfläche. Fenster können damit beispielsweise anders angeordnet oder
+auf einem zweiten Bildschirm angezeigt werden. </li>
+<li> Bei <i>Invisible</i> verschwindet das entsprechende Element und die restlichen Elemente der
+Oberfläche haben dementsprechend mehr Platz. Dies kann sinnvoll sein, da nicht für jede Aufgabe alle
+Arbeitsbereiche gleichermaßen benötigt werden. </li>
+</ul></li>
+<li><image href="images/appomenue4.png" id="image_c3q_lzq_pz"/><b>Lokalen Ordner öffnen</b> (<i>Open
+local folder</i>): einen lokalen (auf Ihrem Gerät gespeicherten) Ordner öffnen, der Bilddateien
+enthält</li>
+<li><image href="images/appomenue5.png" id="image_axn_mzq_pz"/><b>Dokument importieren</b>
+(<i>Import document(s)</i>): Importieren Sie ein Dokument.  Für eine detaillierte Beschreibung der
+Import-Möglichkeiten und anderer Einstellungen siehe <xref
+href="https://transkribus.eu/wikiDe/index.php/Benutzeranleitung#Export_Dokumente" format="html"
+scope="external">Import Dokumente</xref>.</li>
+<li><image href="images/appomenue6.png" id="image_vq2_nzq_pz"/><b>Dokument exportieren</b>
+(<i>Export document</i>): Exportieren Sie das aktuelle Dokument. Für eine detaillierte Beschreibung
+der Export-Optionen und anderer Einstellungen siehe <xref
+href="https://transkribus.eu/wikiDe/index.php/Benutzeranleitung#Export_Dokumente" format="html"
+scope="external">Export Dokumente</xref>.</li>
+<li><image href="images/appomenue7.png" id="image_nnl_4zq_pz"/><b>Dokument erneut laden</b>
+(<i>Reload document</i>): Lädt das Dokument erneut in allen Ansichten. </li>
+<li><image href="images/appomenue8.png" id="image_lsh_pzq_pz"/><b>Suche nach und in den
+Dokumenten</b> (<i>Search for documents, keywords etc.</i>)</li>
+<li><image href="images/appomenue9.png" id="image_u22_vzq_pz"/><b>Suchschlitz für eine Suche im
+aktuell geöffneten Dokument</b></li>
+<li>
+<p><image href="images/appomenue14.png" id="image_bsj_5cr_pz"/><b>Seitennavigation</b> (<i>Page
+navigation</i>): Die Pfeiltasten ermöglichen das Wechseln zur nächsten, vorigen, ersten und letzten
+Seite des Dokuments. </p>
+</li>
+<li><image href="images/appomenue10.png" id="image_xhp_11r_pz"/><b>Seite aktualisieren</b>
+(<i>Reload page</i>): Aktualisiert die Seitenansicht und Metadaten wo nötig.</li>
+<li>
+<p><image href="images/appomenue15.png" id="image_rjp_xcr_pz"/><b>Seite speichern</b> (<i>Save
+page</i>): Speichert eine aktuelle Version der Transkription. Sämtliche Versionen einer Seite können
+über die <xref href="https://transkribus.eu/wikiDe/index.php/Benutzeranleitung#Versionen_Tab"
+format="html" scope="external">Versionen Registerkarte</xref> geladen werden.</p>
+</li>
+<li>
+<p><image href="images/appomenue16.png" id="image_d2c_1dr_pz"/></p>
+<p/>
+</li>
+<li>
+<p><image href="images/appomenue17.png" id="image_yss_bdr_pz"/></p>
+<p/>
+</li>
+<li><image href="images/appomenue11.png" id="image_gmc_c1r_pz"/><b>Transkription öffnen</b><i>(Open
+transcript source)</i>: Zeigt die Transkription in einem XML-Betrachter mit Volltextsuche an. </li>
+<li><image href="images/appomenue18.png" id="image_yg1_fdr_pz"/></li>
+<li><image href="images/appomenue12.png" id="image_okb_21r_pz"/><b>Verschiedene Segmentierungsarten
+anzeigen </b><i>(shape visibility)</i><image href="images/appomenue_segment.png" align="right"
+id="float_image_o4y_n1r_pz"/><ul id="ul_ssk_b1b_3z">
+<li>Textregionen (<i>Show regions</i>) anzeigen: F2 </li>
+<li> Zeilen (<i>Show lines</i>) anzeigen: F3 </li>
+<li>Grundlinien (<i>Show baselines</i>): F4 </li>
+<li>Wörter (<i>Show words</i>) anzeigen: F5 </li>
+<li>Schwärzungen (<i>Show blackenings</i>)</li>
+<li>Textregionen Ordnung (<i>Show regions reading order</i>)</li>
+<li>(<i>Show lines reading order</i>)</li>
+<li>(<i>Show words reading order</i>)</li>
+</ul></li>
+<li><image href="images/appomenue19.png" id="image_n4r_gdr_pz"/></li>
+<li><image href="images/appomenue20.png" id="image_mvq_hdr_pz"/></li>
+<li><image href="images/appomenue21.png" id="image_m5v_3dr_pz"/></li>
+<li><image href="images/appomenue22.png" id="image_cks_kdr_pz"/></li>
+<li><image href="images/appomenue23.png" id="image_tmr_ldr_pz"/></li>
+<li><image href="images/appomenue24.png" id="image_nxk_ndr_pz"/></li>
+<li><image href="images/appomenue25.png" id="image_hmp_4dr_pz"/></li>
+<li><image href="images/appomenue26.png" id="image_iqp_pdr_pz"/></li>
+<li><image href="images/appomenue27.png" id="image_am5_qdr_pz"/></li>
+<li><image href="images/appomenue13.png" id="image_ryx_rcr_pz"/><b>Fehler melden</b> (<i>Bug
+report</i>): Eine Nachricht an die Entwickler senden, entweder um einen Fehler zu melden oder einen
+Wunsch zu einer neuen Programmfunktion zu äußern. </li>
+<li><b>Dokument schließen</b> (<i>Close document</i>): schließt das aktuelle Dokument </li>
+</ul>
+</p>
+</body>
+</topic>

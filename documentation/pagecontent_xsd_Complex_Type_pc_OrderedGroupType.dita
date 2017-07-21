@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="OrderedGroupType">
+   <title>Complex Type pc:OrderedGroupType</title>
+   <body>
+      <table frame="all" rowsep="1" colsep="1">
+         <tgroup cols="2">
+            <colspec colwidth="3*" align="left"/>
+            <colspec colwidth="25*" align="left"/>
+            <tbody>
+               <row>
+                  <entry>Namespace</entry>
+                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2016-07-15</entry>
+               </row>
+               <row>
+                  <entry>Annotations</entry>
+                  <entry>
+                     <codeblock outputclass="language-xml">Numbered group (contains ordered elements)</codeblock>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Diagram</entry>
+                  <entry>
+                     <p>
+                            
+                                    
+                                    <imagemap id="pagecontent_xsd_Complex_Type_pc_OrderedGroupType">
+                                        
+                                        <image href="img/pagecontent_xsd_Complex_Type_pc_OrderedGroupType.jpeg"/>
+                                        
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>231,39,314,83</coords>
+                                                
+                                                <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType_id"/>
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>231,93,321,137</coords>
+                                                
+                                                <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType_caption"/>
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>288,154,478,198</coords>
+                                                
+                                                <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType_RegionRefIndexed"/>
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>288,208,498,252</coords>
+                                                
+                                                <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType_OrderedGroupIndexed"/>
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>288,262,509,306</coords>
+                                                
+                                                <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType_UnorderedGroupIndexed"/>
+                                            </area>
+                                        
+                                    </imagemap>
+                        </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Used by</entry>
+                  <entry>
+                     <p>
+                        <table frame="all" rowsep="1" colsep="1">
+                           <tgroup cols="2">
+                              <colspec colwidth="2*" align="left"/>
+                              <colspec colwidth="8*" align="left"/>
+                              <tbody>
+                                 <row>
+                                    <entry>Elements </entry>
+                                    <entry>
+                                       <xref href="pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita#ReadingOrderType_OrderedGroup"/>, <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_OrderedGroup"/>, <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupType.dita#UnorderedGroupType_OrderedGroup"/>
+                                    </entry>
+                                 </row>
+                              </tbody>
+                           </tgroup>
+                        </table>
+                     </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Model</entry>
+                  <entry>
+                     <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType_RegionRefIndexed"/> | <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType_OrderedGroupIndexed"/> | <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType_UnorderedGroupIndexed"/>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Children</entry>
+                  <entry>
+                     <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType_OrderedGroupIndexed"/>, <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType_RegionRefIndexed"/>, <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType_UnorderedGroupIndexed"/>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Attributes</entry>
+                  <entry>
+                     <p>
+                        <table frame="all" rowsep="1" colsep="1">
+                           <tgroup cols="3">
+                              <colspec colnum="1" colname="col1" align="left" colwidth="3*"/>
+                              <colspec colnum="2" colname="col2" align="left" colwidth="3*"/>
+                              <colspec colnum="3" colname="col3" align="left" colwidth="1*"/>
+                              <thead>
+                                 <row>
+                                    <entry>QName</entry>
+                                    <entry>Type</entry>
+                                    <entry>Use</entry>
+                                 </row>
+                              </thead>
+                              <tbody>
+                                 <row>
+                                    <entry>
+                                       <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType_caption"/>
+                                    </entry>
+                                    <entry>string</entry>
+                                    <entry>optional</entry>
+                                 </row>
+                                 <row>
+                                    <entry>
+                                       <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType_id"/>
+                                    </entry>
+                                    <entry>ID</entry>
+                                    <entry>required</entry>
+                                 </row>
+                              </tbody>
+                           </tgroup>
+                        </table>
+                     </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Source</entry>
+                  <entry>
+                     <codeblock outputclass="language-xml">&lt;complexType name="OrderedGroupType"&gt;
+  &lt;annotation&gt;
+    &lt;documentation&gt;Numbered group (contains ordered elements)&lt;/documentation&gt;
+  &lt;/annotation&gt;
+  &lt;choice minOccurs="1" maxOccurs="unbounded"&gt;
+    &lt;element name="RegionRefIndexed" type="pc:RegionRefIndexedType"&gt;
+    &lt;/element&gt;
+    &lt;element name="OrderedGroupIndexed" type="pc:OrderedGroupIndexedType"&gt;
+    &lt;/element&gt;
+    &lt;element name="UnorderedGroupIndexed" type="pc:UnorderedGroupIndexedType"&gt;
+    &lt;/element&gt;
+  &lt;/choice&gt;
+  &lt;attribute name="id" type="ID" use="required"/&gt;
+  &lt;attribute name="caption" type="string"/&gt;
+&lt;/complexType&gt;</codeblock>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Schema location</entry>
+                  <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2016-07-15/pagecontent.xsd</entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+   </body>
+   <topic id="OrderedGroupType_id">
+      <title>Attribute pc:OrderedGroupType / @id</title>
+      <body>
+         <table frame="all" rowsep="1" colsep="1">
+            <tgroup cols="2">
+               <colspec colwidth="3*" align="left"/>
+               <colspec colwidth="25*" align="left"/>
+               <tbody>
+                  <row>
+                     <entry>Namespace</entry>
+                     <entry>No namespace</entry>
+                  </row>
+                  <row>
+                     <entry>Type</entry>
+                     <entry>ID</entry>
+                  </row>
+                  <row>
+                     <entry>Properties</entry>
+                     <entry>
+                        <p>
+                           <table frame="all" rowsep="1" colsep="1">
+                              <tgroup cols="2">
+                                 <colspec colwidth="2*" align="left"/>
+                                 <colspec colwidth="8*" align="left"/>
+                                 <tbody>
+                                    <row>
+                                       <entry>use: </entry>
+                                       <entry>
+                                          <b>required</b>
+                                       </entry>
+                                    </row>
+                                 </tbody>
+                              </tgroup>
+                           </table>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Used by</entry>
+                     <entry>
+                        <p>
+                           <table frame="all" rowsep="1" colsep="1">
+                              <tgroup cols="2">
+                                 <colspec colwidth="2*" align="left"/>
+                                 <colspec colwidth="8*" align="left"/>
+                                 <tbody>
+                                    <row>
+                                       <entry>Complex Type </entry>
+                                       <entry>
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType"/>
+                                       </entry>
+                                    </row>
+                                 </tbody>
+                              </tgroup>
+                           </table>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;attribute name="id" type="ID" use="required"/&gt;</codeblock>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Schema location</entry>
+                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2016-07-15/pagecontent.xsd</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </body>
+   </topic>
+   <topic id="OrderedGroupType_caption">
+      <title>Attribute pc:OrderedGroupType / @caption</title>
+      <body>
+         <table frame="all" rowsep="1" colsep="1">
+            <tgroup cols="2">
+               <colspec colwidth="3*" align="left"/>
+               <colspec colwidth="25*" align="left"/>
+               <tbody>
+                  <row>
+                     <entry>Namespace</entry>
+                     <entry>No namespace</entry>
+                  </row>
+                  <row>
+                     <entry>Type</entry>
+                     <entry>string</entry>
+                  </row>
+                  <row>
+                     <entry>Properties</entry>
+                     <entry>
+                        <p>
+                           <table frame="all" rowsep="1" colsep="1">
+                              <tgroup cols="2">
+                                 <colspec colwidth="2*" align="left"/>
+                                 <colspec colwidth="8*" align="left"/>
+                                 <tbody>
+                                    <row>
+                                       <entry>content: </entry>
+                                       <entry>
+                                          <b>simple</b>
+                                       </entry>
+                                    </row>
+                                 </tbody>
+                              </tgroup>
+                           </table>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Used by</entry>
+                     <entry>
+                        <p>
+                           <table frame="all" rowsep="1" colsep="1">
+                              <tgroup cols="2">
+                                 <colspec colwidth="2*" align="left"/>
+                                 <colspec colwidth="8*" align="left"/>
+                                 <tbody>
+                                    <row>
+                                       <entry>Complex Type </entry>
+                                       <entry>
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType"/>
+                                       </entry>
+                                    </row>
+                                 </tbody>
+                              </tgroup>
+                           </table>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;attribute name="caption" type="string"/&gt;</codeblock>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Schema location</entry>
+                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2016-07-15/pagecontent.xsd</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </body>
+   </topic>
+   <topic id="OrderedGroupType_RegionRefIndexed">
+      <title>Element pc:OrderedGroupType / pc:RegionRefIndexed</title>
+      <body>
+         <table frame="all" rowsep="1" colsep="1">
+            <tgroup cols="2">
+               <colspec colwidth="3*" align="left"/>
+               <colspec colwidth="25*" align="left"/>
+               <tbody>
+                  <row>
+                     <entry>Namespace</entry>
+                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2016-07-15</entry>
+                  </row>
+                  <row>
+                     <entry>Diagram</entry>
+                     <entry>
+                        <p>
+                            
+                                    
+                                    <imagemap id="pagecontent_xsd_Element_pc_RegionRefIndexed">
+                                        
+                                        <image href="img/pagecontent_xsd_Element_pc_RegionRefIndexed.jpeg"/>
+                                        
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>246,79,329,123</coords>
+                                                
+                                                <xref href="pagecontent_xsd_Complex_Type_pc_RegionRefIndexedType.dita#RegionRefIndexedType_index"/>
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>246,178,343,222</coords>
+                                                
+                                                <xref href="pagecontent_xsd_Complex_Type_pc_RegionRefIndexedType.dita#RegionRefIndexedType_regionRef"/>
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>221,3,399,25</coords>
+                                                
+                                                <xref href="pagecontent_xsd_Complex_Type_pc_RegionRefIndexedType.dita#RegionRefIndexedType"/>
+                                            </area>
+                                        
+                                    </imagemap>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Type</entry>
+                     <entry>
+                        <xref href="pagecontent_xsd_Complex_Type_pc_RegionRefIndexedType.dita#RegionRefIndexedType"/>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Properties</entry>
+                     <entry>
+                        <p>
+                           <table frame="all" rowsep="1" colsep="1">
+                              <tgroup cols="2">
+                                 <colspec colwidth="2*" align="left"/>
+                                 <colspec colwidth="8*" align="left"/>
+                                 <tbody>
+                                    <row>
+                                       <entry>content: </entry>
+                                       <entry>
+                                          <b>complex</b>
+                                       </entry>
+                                    </row>
+                                 </tbody>
+                              </tgroup>
+                           </table>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Attributes</entry>
+                     <entry>
+                        <p>
+                           <table frame="all" rowsep="1" colsep="1">
+                              <tgroup cols="3">
+                                 <colspec colnum="1" colname="col1" align="left" colwidth="3*"/>
+                                 <colspec colnum="2" colname="col2" align="left" colwidth="3*"/>
+                                 <colspec colnum="3" colname="col3" align="left" colwidth="1*"/>
+                                 <thead>
+                                    <row>
+                                       <entry>QName</entry>
+                                       <entry>Type</entry>
+                                       <entry>Use</entry>
+                                    </row>
+                                 </thead>
+                                 <tbody>
+                                    <row>
+                                       <entry>
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_RegionRefIndexedType.dita#RegionRefIndexedType_index"/>
+                                       </entry>
+                                       <entry>int</entry>
+                                       <entry>required</entry>
+                                    </row>
+                                    <row>
+                                       <entry namest="col1" nameend="col3">
+                                          <codeblock outputclass="language-xml">Position (order number) of this item within the current hierarchy level.</codeblock>
+                                       </entry>
+                                    </row>
+                                    <row>
+                                       <entry>
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_RegionRefIndexedType.dita#RegionRefIndexedType_regionRef"/>
+                                       </entry>
+                                       <entry>IDREF</entry>
+                                       <entry>required</entry>
+                                    </row>
+                                 </tbody>
+                              </tgroup>
+                           </table>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;element name="RegionRefIndexed" type="pc:RegionRefIndexedType"&gt;
+&lt;/element&gt;</codeblock>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Schema location</entry>
+                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2016-07-15/pagecontent.xsd</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </body>
+   </topic>
+   <topic id="OrderedGroupType_OrderedGroupIndexed">
+      <title>Element pc:OrderedGroupType / pc:OrderedGroupIndexed</title>
+      <body>
+         <table frame="all" rowsep="1" colsep="1">
+            <tgroup cols="2">
+               <colspec colwidth="3*" align="left"/>
+               <colspec colwidth="25*" align="left"/>
+               <tbody>
+                  <row>
+                     <entry>Namespace</entry>
+                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2016-07-15</entry>
+                  </row>
+                  <row>
+                     <entry>Diagram</entry>
+                     <entry>
+                        <p>
+                            
+                                    
+                                    <imagemap id="pagecontent_xsd_Element_pc_OrderedGroupIndexed">
+                                        
+                                        <image href="img/pagecontent_xsd_Element_pc_OrderedGroupIndexed.jpeg"/>
+                                        
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>286,79,369,123</coords>
+                                                
+                                                <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupIndexedType.dita#OrderedGroupIndexedType_id"/>
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>286,133,369,177</coords>
+                                                
+                                                <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupIndexedType.dita#OrderedGroupIndexedType_index"/>
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>286,232,376,276</coords>
+                                                
+                                                <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupIndexedType.dita#OrderedGroupIndexedType_caption"/>
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>343,293,533,337</coords>
+                                                
+                                                <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupIndexedType.dita#OrderedGroupIndexedType_RegionRefIndexed"/>
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>343,347,553,391</coords>
+                                                
+                                                <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupIndexedType.dita#OrderedGroupIndexedType_OrderedGroupIndexed"/>
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>343,401,564,445</coords>
+                                                
+                                                <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupIndexedType.dita#OrderedGroupIndexedType_UnorderedGroupIndexed"/>
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>261,3,459,25</coords>
+                                                
+                                                <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupIndexedType.dita#OrderedGroupIndexedType"/>
+                                            </area>
+                                        
+                                    </imagemap>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Type</entry>
+                     <entry>
+                        <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupIndexedType.dita#OrderedGroupIndexedType"/>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Properties</entry>
+                     <entry>
+                        <p>
+                           <table frame="all" rowsep="1" colsep="1">
+                              <tgroup cols="2">
+                                 <colspec colwidth="2*" align="left"/>
+                                 <colspec colwidth="8*" align="left"/>
+                                 <tbody>
+                                    <row>
+                                       <entry>content: </entry>
+                                       <entry>
+                                          <b>complex</b>
+                                       </entry>
+                                    </row>
+                                 </tbody>
+                              </tgroup>
+                           </table>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Model</entry>
+                     <entry>
+                        <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupIndexedType.dita#OrderedGroupIndexedType_RegionRefIndexed"/> | <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupIndexedType.dita#OrderedGroupIndexedType_OrderedGroupIndexed"/> | <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupIndexedType.dita#OrderedGroupIndexedType_UnorderedGroupIndexed"/>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Children</entry>
+                     <entry>
+                        <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupIndexedType.dita#OrderedGroupIndexedType_OrderedGroupIndexed"/>, <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupIndexedType.dita#OrderedGroupIndexedType_RegionRefIndexed"/>, <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupIndexedType.dita#OrderedGroupIndexedType_UnorderedGroupIndexed"/>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Instance</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;pc:OrderedGroupIndexed caption="" id="" index="" xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2016-07-15"&gt;
+  &lt;pc:RegionRefIndexed index="" regionRef=""&gt;{1,1}&lt;/pc:RegionRefIndexed&gt;
+  &lt;pc:OrderedGroupIndexed caption="" id="" index=""&gt;{1,1}&lt;/pc:OrderedGroupIndexed&gt;
+  &lt;pc:UnorderedGroupIndexed caption="" id="" index=""&gt;{1,1}&lt;/pc:UnorderedGroupIndexed&gt;
+&lt;/pc:OrderedGroupIndexed&gt;</codeblock>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Attributes</entry>
+                     <entry>
+                        <p>
+                           <table frame="all" rowsep="1" colsep="1">
+                              <tgroup cols="3">
+                                 <colspec colnum="1" colname="col1" align="left" colwidth="3*"/>
+                                 <colspec colnum="2" colname="col2" align="left" colwidth="3*"/>
+                                 <colspec colnum="3" colname="col3" align="left" colwidth="1*"/>
+                                 <thead>
+                                    <row>
+                                       <entry>QName</entry>
+                                       <entry>Type</entry>
+                                       <entry>Use</entry>
+                                    </row>
+                                 </thead>
+                                 <tbody>
+                                    <row>
+                                       <entry>
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupIndexedType.dita#OrderedGroupIndexedType_caption"/>
+                                       </entry>
+                                       <entry>string</entry>
+                                       <entry>optional</entry>
+                                    </row>
+                                    <row>
+                                       <entry>
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupIndexedType.dita#OrderedGroupIndexedType_id"/>
+                                       </entry>
+                                       <entry>ID</entry>
+                                       <entry>required</entry>
+                                    </row>
+                                    <row>
+                                       <entry>
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupIndexedType.dita#OrderedGroupIndexedType_index"/>
+                                       </entry>
+                                       <entry>int</entry>
+                                       <entry>required</entry>
+                                    </row>
+                                    <row>
+                                       <entry namest="col1" nameend="col3">
+                                          <codeblock outputclass="language-xml">Position (order number) of this item within the
+current hierarchy level.</codeblock>
+                                       </entry>
+                                    </row>
+                                 </tbody>
+                              </tgroup>
+                           </table>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;element name="OrderedGroupIndexed" type="pc:OrderedGroupIndexedType"&gt;
+&lt;/element&gt;</codeblock>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Schema location</entry>
+                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2016-07-15/pagecontent.xsd</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </body>
+   </topic>
+   <topic id="OrderedGroupType_UnorderedGroupIndexed">
+      <title>Element pc:OrderedGroupType / pc:UnorderedGroupIndexed</title>
+      <body>
+         <table frame="all" rowsep="1" colsep="1">
+            <tgroup cols="2">
+               <colspec colwidth="3*" align="left"/>
+               <colspec colwidth="25*" align="left"/>
+               <tbody>
+                  <row>
+                     <entry>Namespace</entry>
+                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2016-07-15</entry>
+                  </row>
+                  <row>
+                     <entry>Diagram</entry>
+                     <entry>
+                        <p>
+                            
+                                    
+                                    <imagemap id="pagecontent_xsd_Element_pc_UnorderedGroupIndexed_1">
+                                        
+                                        <image href="img/pagecontent_xsd_Element_pc_UnorderedGroupIndexed_1.jpeg"/>
+                                        
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>297,79,380,123</coords>
+                                                
+                                                <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_id"/>
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>297,133,380,177</coords>
+                                                
+                                                <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_index"/>
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>297,232,387,276</coords>
+                                                
+                                                <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_caption"/>
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>354,293,506,337</coords>
+                                                
+                                                <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_RegionRef"/>
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>354,347,526,391</coords>
+                                                
+                                                <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_OrderedGroup"/>
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>354,401,537,445</coords>
+                                                
+                                                <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_UnorderedGroup"/>
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>272,3,481,25</coords>
+                                                
+                                                <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType"/>
+                                            </area>
+                                        
+                                    </imagemap>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Type</entry>
+                     <entry>
+                        <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType"/>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Properties</entry>
+                     <entry>
+                        <p>
+                           <table frame="all" rowsep="1" colsep="1">
+                              <tgroup cols="2">
+                                 <colspec colwidth="2*" align="left"/>
+                                 <colspec colwidth="8*" align="left"/>
+                                 <tbody>
+                                    <row>
+                                       <entry>content: </entry>
+                                       <entry>
+                                          <b>complex</b>
+                                       </entry>
+                                    </row>
+                                 </tbody>
+                              </tgroup>
+                           </table>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Model</entry>
+                     <entry>
+                        <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_RegionRef"/> | <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_OrderedGroup"/> | <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_UnorderedGroup"/>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Children</entry>
+                     <entry>
+                        <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_OrderedGroup"/>, <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_RegionRef"/>, <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_UnorderedGroup"/>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Instance</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;pc:UnorderedGroupIndexed caption="" id="" index="" xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2016-07-15"&gt;
+  &lt;pc:RegionRef regionRef=""&gt;{1,1}&lt;/pc:RegionRef&gt;
+  &lt;pc:OrderedGroup caption="" id=""&gt;{1,1}&lt;/pc:OrderedGroup&gt;
+  &lt;pc:UnorderedGroup caption="" id=""&gt;{1,1}&lt;/pc:UnorderedGroup&gt;
+&lt;/pc:UnorderedGroupIndexed&gt;</codeblock>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Attributes</entry>
+                     <entry>
+                        <p>
+                           <table frame="all" rowsep="1" colsep="1">
+                              <tgroup cols="3">
+                                 <colspec colnum="1" colname="col1" align="left" colwidth="3*"/>
+                                 <colspec colnum="2" colname="col2" align="left" colwidth="3*"/>
+                                 <colspec colnum="3" colname="col3" align="left" colwidth="1*"/>
+                                 <thead>
+                                    <row>
+                                       <entry>QName</entry>
+                                       <entry>Type</entry>
+                                       <entry>Use</entry>
+                                    </row>
+                                 </thead>
+                                 <tbody>
+                                    <row>
+                                       <entry>
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_caption"/>
+                                       </entry>
+                                       <entry>string</entry>
+                                       <entry>optional</entry>
+                                    </row>
+                                    <row>
+                                       <entry>
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_id"/>
+                                       </entry>
+                                       <entry>ID</entry>
+                                       <entry>required</entry>
+                                    </row>
+                                    <row>
+                                       <entry>
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_index"/>
+                                       </entry>
+                                       <entry>int</entry>
+                                       <entry>required</entry>
+                                    </row>
+                                    <row>
+                                       <entry namest="col1" nameend="col3">
+                                          <codeblock outputclass="language-xml">Position (order number) of this item within the
+current hierarchy level.</codeblock>
+                                       </entry>
+                                    </row>
+                                 </tbody>
+                              </tgroup>
+                           </table>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;element name="UnorderedGroupIndexed" type="pc:UnorderedGroupIndexedType"&gt;
+&lt;/element&gt;</codeblock>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Schema location</entry>
+                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2016-07-15/pagecontent.xsd</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </body>
+   </topic>
+</topic>

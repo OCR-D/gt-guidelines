@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="lyÜberschrift">
+    <title>Überschrift</title>
+    <body>
+        <p>Die Überschriften werden hierarchisch von Ebene 1 bis Ebene 5 mit &lt;d1>...&lt;/d1> bis
+&lt;d5>...&lt;/d5> ausgezeichnet. Tieferreichende Hierarchieebenen werden einfach nur mit
+&lt;d>...&lt;/d> gekennzeichnet.</p>
+<p>Die Überschriften sind in der Regel auf den Bildvorlagen vorstrukturiert. Die eingetragenen TAGs
+werden, wie in der Vorlage vermerkt, mit übernommen.</p>
+<p><b>Nicht</b> mit abgetippt werden: </p>
+<ul id="ul_wb5_l5f_h1b">
+<li>die Abstände zwischen Überschriften verschiedener Ebenen</li>
+<li>mögliche Zentrierung der Überschriften </li>
+<li>Frakturwechsel <ul id="ul_xb5_l5f_h1b">
+<li> </li>
+</ul></li>
+</ul>
+<p>Abgebildet werden: </p>
+<ul id="ul_yb5_l5f_h1b">
+<li>Zeilenumbrüche </li>
+<li>Layoutmerkmale (fett, kursiv etc.) </li>
+<li>Wechsel zur Antiqua-Schrift (&lt;aq>...&lt;/aq>)</li>
+</ul>
+    </body>
+</topic>
