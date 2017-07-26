@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="lyAbsatz">
-    <title>Absatz</title>
+    <title>Absatz (paragraph)</title>
     <body>
-        <p></p>
+        <p>Einzelne zusammenhängende Textregionen werden als Absatz ausgezeichnet. Initialen und
+Marginalien, Tabellen, Überschriften, Kolumnentitel, Bildunterschriften, Fuß- und Endnoten sowie
+Seitenzählung oder Bogensignaturen sind eigene Strukturen und nicht mit Absätzen zu verwechseln.
+Übergänge zwischen einzelnen Absätzen erkennt man an Leerzeilen bzw. Einrückungen am Beginn eines
+neuen Absatzes bei Blocksatz. Ist eine Textregion keiner speziellen Struktur zuzuordnen, wird sie
+als Absatz verstanden. Eine hierarchische Gliederung von Absätzen erfolgt nicht.</p>
+<p><image href="images/lyAbsatz.png" height="703" width="605" id="image_vd4_q2j_r1b"/></p>
     </body>
 </topic>

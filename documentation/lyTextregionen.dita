@@ -1,8 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="lyTextregionen">
-    <title>Textregionen </title>
-    <body>
-        <p></p>
-    </body>
+<title>Textregionen (TextRegion) </title>
+<body>
+<p>Nachdem der Satzspiegel bestimmt und ausgezeichnet wurde, wird das Layout analysiert. Hierbei
+sind verschiedene Regionen zu unterscheiden. Die für die GT-Erfassung wichtigste Region ist die </p>
+<ul id="ul_uxc_wdj_r1b">
+<li>Textregion, </li>
+<li>die von ImageRegion (Abbildungen, Fotos), </li>
+<li>GraphicRegion (Buchschmuck, Zeichnungen), </li>
+<li>SeparatorRegion (Trennlinien), </li>
+<li>TableRegion (Tabellen), </li>
+<li>LineDrawingRegion, </li>
+<li>MathsRegion (Mathematische Formeln), </li>
+<li>ChemRegion (Chemische Formeln), </li>
+<li>MusicRegion (Noten), </li>
+<li>AdvertRegion (Werbung) und </li>
+<li>NoiseRegion (Schmutz, Verfärbungen …) unterschieden wird.</li>
+</ul>
+<p>Einzelne Textbereiche auf der Seite sind als einzelne Textregionen auszuzeichnen, denen eine auf
+den folgenden Abschnitten erläuterte Struktur zuzuordnen ist.</p>
+</body>
 </topic>

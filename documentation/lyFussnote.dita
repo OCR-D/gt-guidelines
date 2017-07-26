@@ -1,27 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="lyFußnote">
-    <title>Fußnote</title>
+    <title>Fußnote (footnote / footnote-continued / endnote)</title>
     <body>
-        <p>
-<div><b><ph id="_Ref265242634">Fußnoten</ph></b><p>Fußnoten werden an der Stelle im laufenden Text
-abgetippt, von der aus sie referenziert werden. Fußnoten werden mit dem TAG &lt;fn>...&lt;/fn>
-umschlossen. Das referenzierende Zeichen steht im Attribut, also z.B. &lt;fn n="1)">. Es kann sich
-dabei um eine Zahl, Buchstaben oder um Grafiken wie z.B. Sternchen handeln: </p><p> &lt;fn
-n="*">Fußnotentext&lt;/fn>. </p><p> Spezielle Formatierungen der referenzierenden Zeichen werden
-nicht wiedergegeben. </p><p>Innerhalb des Fußnotentextes werden Formatierungen, Spalten- und
-Zeilenumbrüche wie im Haupttext gehandhabt. </p><p/><p><i>Beispiel:
-Fußnoten</i></p><p/><p/><p/><p/><p>wort liege &lt;fn n="53)">&lt;k>Kern&lt;/k>, über den Ursprung
-des Evang. Matth. Tüb. Zeitschrift, 1834, 2, S. 110.&lt;/fn>, und auch uns schrecken
-&lt;k>Lücke&amp;#x2019;s&lt;/k> Bannstrah-</p><p/><p>Gehen Fußnoten über einen Seitenumbruch hinweg,
-wird vor dem Seitenumbruch das schließende Fußnoten-TAG &lt;/fn> gesetzt. Der Text der Folgeseite
-wird ganz normal abgetippt, auch mit den sonst auf dieser Seite beginnenden Fußnoten, die an der
-Referenzstelle eingefügt werden. Danach wird die Fortsetzung des Fußnotentextes auf der Folgeseite
-mit &lt;fnf> eingeleitet und mit &lt;/fnf> beendet. </p><p> </p><p><i>Beispiel: seitenübergreifende
-Fußnoten</i></p><p><image href="clip_image006_-1600221820.jpg" height="108" width="535"
-id="image_xqr_j5f_h1b"/></p><p><image href="clip_image008_-1207864690.jpg" height="147" width="510"
-id="image_yqr_j5f_h1b"/></p><p><image href="clip_image010_1102076034.jpg" height="102" width="510"
-id="image_zqr_j5f_h1b"/></p></div>
-</p>
-    </body>
+<p>Fußnoten erscheinen im unteren Seitenbereich des Satzspiegels (zuweilen auch außerhalb). Zumeist
+bilden sie die letzte gedruckte Passage auf der Seite. Nur Bogensignaturen werden üblicherweise noch
+darunter aufgeführt. Fußnoten sind häufig gezählt und werden dann mit einer Nummer eingeleitet,
+können aber auch ungezählt erscheinen; sie enden in der Regel mit einem Punkt. Manchmal leiten
+Separatoren den Fußnotenbereich ein. Fußnoten beziehen sich immer auf Referenzen der betreffenden
+Seite und sind von Endnoten, die sich auf ganze Abschnitte beziehen, zu unterscheiden. </p>
+<p>Lange Fußnotentexte können sich über mehrere Seiten erstrecken. In diesem Fall sind diese
+Fußnoten als fortlaufende Fußnote auszuzeichnen.</p>
+<fig id="fig_vmq_pfj_r1b">
+<title>Beispiel: Einfache Fußnoten ohne Referenzzeichen (unnummeriert)</title>
+<image href="images/lyFussnote1.png" height="697" width="605" id="image_xr4_2fj_r1b"/>
+</fig>
+<fig id="fig_clw_tfj_r1b">
+<title>Beispiel: mehrere einfache Fußnoten (nummeriert), eingeleitet mit einer
+Seperatorlinie</title>
+<image href="images/lyFussnote2.png" height="382" width="605" id="image_yr4_2fj_r1b"/>
+</fig>
+<fig id="fig_vlm_yfj_r1b">
+<title>Beispiel: fortlaufende Fußnote</title>
+<image href="images/lyFussnote3.png" height="281" width="678" id="image_zr4_2fj_r1b"/>
+</fig>
+</body>
+<related-links>
+<link href="lySeparatoren.dita#lySeparatoren"/>
+</related-links>
 </topic>

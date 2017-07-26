@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="lyDiskontinuierlich">
-    <title>Schwimmende Elemente im Satzspiegel</title>
+    <title>Schwimmende Elemente im Satzspiegel (floating)</title>
     <body>
-        <p></p>
+        <p>Es kann vorkommen (bei Alten Drucken eher selten), dass Abbildungen oder Erläuterungen
+nicht an der sachlich korrekten Stelle gesetzt wurden, an der sie referenziert werden, sondern den
+Text an anderer Stelle willkürlich (aus Gründen des Layouts) unterbrechen. Im Grunde sind derlei
+Elemente kaum zu erkennen. Sollte dennoch ein eindeutig schwimmendes Element erkannt werden, ist es
+entsprechend auszuzeichnen. </p>
     </body>
+<related-links>
+<link href="pagecontent_xsd_Complex_Type_pc_RelationType.dita#RelationType" format="dita"
+/>
+</related-links>
 </topic>

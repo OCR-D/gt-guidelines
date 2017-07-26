@@ -1,15 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="lyInitiale">
-    <title>Initiale</title>
+    <title>Initiale (drop-capital)</title>
     <body>
-<p><b>Initialen</b> werden immer nur einmal wiedergegeben, auch wenn sie sich über mehrere Zeilen
-erstrecken. Die Größe der jeweiligen Initiale wird nicht gesondert vermerkt. Auf einem mitgesandten,
-zusätzlichen Übersichtsblatt sind einige Initialen zusammengestellt. </p>
-<p>Achtung: Häufig folgt auf eine Initiale im Wort ein Großbuchstabe.</p>
-<p><i>Beispiel: Initialen</i></p>
-<p><image href="clip_image002_-2009076708.jpg" height="51" width="295" id="image_bfd_f5f_h1b"/> </p>
-<p>&lt;in>S&lt;/in>Eele du must munter werden/</p>
-<p> &lt;et>Denn der Erden&lt;/et></p>
-    </body>
+<p>Initialen werden als spezielle Textregion ausgezeichnet. Das gilt auch dann, wenn sie stark
+graphisch verfremdet wurden. Sie erstrecken sich meistens über mehrere Zeilen und es ist überwiegend
+der erste Buchstabe eines Absatzes, der graphisch gestaltet oder farblich von der Schrift des Textes
+abgehoben wurde. In seltenen Fällen sind ganze Wörter als Initialen gestaltet und werden auch dann
+als solche erfasst.</p>
+<p><image href="images/lyInitiale.png" height="450" width="605" id="image_br1_hy3_r1b"/></p>
+<p>Problem:</p>
+<p>Lt. PAGE kann man Relationen herstellen zwischen Initiale und Absatz. Wollen wir das verlangen?
+Wie geht das in Transkribus? Der bisherige GT hat das wohl eher nicht, oder?</p>
+<p> </p>
+<p>“Pure text is represented as a text region. This includes drop capitals, but practically ornate
+text may be considered as a graphic.” (PAGE)</p>
+<p> </p>
+<p>Wollen wir die reine Lehre oder eher die praktische Handhabung?</p>
+<p> </p>
+</body>
+<related-links>
+<link
+href="pagecontent_xsd_Complex_Type_pc_TextRegionType.dita#TextRegionType" format="dita"/>
+</related-links>
 </topic>

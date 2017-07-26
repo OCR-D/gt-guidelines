@@ -1,8 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="lySeparatoren">
-    <title>Separatoren</title>
+    <title>Separatoren (SeparatorRegion)</title>
     <body>
-        <p></p>
+        <p>Werden verschiedene Text- oder Layoutbereiche voneinander durch Linien getrennt, werden
+diese Linien als Separatoren ausgezeichnet.</p>
+<p>Auch Vignetten oder kleinerer Buchschmuck kann die Funktion von Separatoren übernehmen. </p>
+<p><b>Level 1: </b> In diesen Fällen ist das Objekt entsprechend seiner Funktion zu betrachten und
+zu kennzeichnen. Dies kann bei der Funktion als Seperator <i>Seperator</i> sein. Bei der
+ausschließlichen Funktion als Buchschmuck, bzw. handelt es sich um einen individuelle gestaltenten
+Schmuck oder Vignette ist dies als Buchschmuck <i>Graphic</i> zu kennzeichnen.</p>
+<p><b>Level 2:</b>In diesen Fällen ist das Objekt entspechend seiner Funktion als <i>Seperator</i>
+zu kennzeichnen. Schmuckelemente sind ausschließlich als Buchschmuck zu kennzeichnen.</p>
+<p><image href="images/lySeparatoren.png" id="image_q3l_14j_r1b"/></p>
     </body>
+<related-links>
+<link
+href="pagecontent_xsd_Complex_Type_pc_GraphicRegionType.dita#GraphicRegionType" format="dita"/>
+<link
+href="pagecontent_xsd_Complex_Type_pc_SeparatorRegionType.dita#SeparatorRegionType" format="dita"
+/>
+</related-links>
 </topic>

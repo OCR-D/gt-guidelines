@@ -1,26 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="lyÜberschrift">
-    <title>Überschrift</title>
-    <body>
-        <p>Die Überschriften werden hierarchisch von Ebene 1 bis Ebene 5 mit &lt;d1>...&lt;/d1> bis
-&lt;d5>...&lt;/d5> ausgezeichnet. Tieferreichende Hierarchieebenen werden einfach nur mit
-&lt;d>...&lt;/d> gekennzeichnet.</p>
-<p>Die Überschriften sind in der Regel auf den Bildvorlagen vorstrukturiert. Die eingetragenen TAGs
-werden, wie in der Vorlage vermerkt, mit übernommen.</p>
-<p><b>Nicht</b> mit abgetippt werden: </p>
-<ul id="ul_wb5_l5f_h1b">
-<li>die Abstände zwischen Überschriften verschiedener Ebenen</li>
-<li>mögliche Zentrierung der Überschriften </li>
-<li>Frakturwechsel <ul id="ul_xb5_l5f_h1b">
-<li> </li>
-</ul></li>
-</ul>
-<p>Abgebildet werden: </p>
-<ul id="ul_yb5_l5f_h1b">
-<li>Zeilenumbrüche </li>
-<li>Layoutmerkmale (fett, kursiv etc.) </li>
-<li>Wechsel zur Antiqua-Schrift (&lt;aq>...&lt;/aq>)</li>
-</ul>
-    </body>
+<title>Überschrift (heading)</title>
+<body>
+<p>Überschriften aller Art, die sich auf folgende Textabschnitte beziehen, sind als solche
+auszuzeichnen. Werden Überschriften als Kolumnentitel wieder aufgenommen bzw. erscheinen sie als
+Einträge in Inhaltsverzeichnissen, werden sie nicht als Überschrift erfasst, sondern als
+Kolumnentitel bzw. als TOC-entry eines Inhaltsverzeichnisses.</p>
+<p> </p>
+<p><image href="images/lyUeberschrift.jpg" height="597" width="605" id="image_xt1_k2j_r1b"/></p>
+</body>
+<related-links>
+<link href="lyInhaltsverzeichnis.dita#lyInhaltsverzeichnis"/>
+<link href="lyKolumnentitel.dita#lyKolumnentitel"/>
+</related-links>
 </topic>
