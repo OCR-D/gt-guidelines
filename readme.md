@@ -1,4 +1,4 @@
-# Transkriptionsrichtlinien für die Herstellung von Ground-Truth zuzm Training und Evaluation von OCR-Programmen sowie Dokumentation von vorhandenem Ground-Truth-Daten innerhalb des Projektes OCR-D
+# Transkriptionsrichtlinien für die Herstellung von Ground-Truth zum Training und Evaluation von OCR-Programmen sowie Dokumentation von vorhandenem Ground-Truth-Daten innerhalb des Projektes OCR-D
 Version 1.0  
 2017-07-21 
 
