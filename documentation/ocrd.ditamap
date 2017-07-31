@@ -47,8 +47,16 @@
 <topicref href="tr_level_3.dita"/>
 </topicref>
        <topicref href="trUmlaute.dita"/>
-       <topicref href="trNasalstrich.dita"/>
-       <topicref href="trDiakritika.dita"/>
+       <topicref href="trNasalstrich.dita">
+       <topicref href="tr_nasal_level_1.dita"/>
+       <topicref href="tr_nasal_level_2.dita"/>
+       <topicref href="tr_nasal_level_3.dita"/>
+</topicref>
+       <topicref href="trDiakritika.dita">
+       <topicref href="tr_dia_level_1_0.dita"/>
+       <topicref href="tr_dia_level_2_0.dita"/>
+       <topicref href="tr_dia_level_3_0.dita"/>
+</topicref>
        <topicref href="trSilbentrennung.dita"/>
        <!--<topicref href="trApostrophe.dita"/>-->
      </topicref>

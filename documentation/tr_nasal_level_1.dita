@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="level_1">
+    <title>Level 1</title>
+    <body>
+        <p>Kürzungsstriche (Balken oder geschlängelte Linie über Buchstaben als Substituenten für
+ausgelassene Zeichen, Nasalstrich) werden mittels einer Zeichenkombination, die mit dem Zeichen
+<tt>U+0303, COMBINING TILDE</tt> zusammengestellt wird, transkribiert. </p>
+    <table>
+    <tgroup cols="2">
+    <thead>
+    <row>
+    <entry>Vorlage</entry>
+    <entry>Transkription</entry>
+    </row>
+    </thead>
+    <tbody>
+    <row>
+    <entry><image href="images/frommen.jpg"/></entry>
+    <entry><codeph>from&amp;#x0303;en</codeph></entry>
+    </row>
+    <row>
+    <entry><image href="images/und_macht.jpg"/></entry>
+    <entry><codeph>Un&amp;#x0303; macht</codeph></entry>
+    </row>
+    </tbody>
+    </tgroup>
+    </table>
+    </body>
+</topic>

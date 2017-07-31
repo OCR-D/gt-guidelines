@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="level_3">
+    <title>Level 3</title>
+    <body>
+<p>Kürzungsstriche (Balken oder geschlängelte Linie über Buchstaben als Substituenten für
+ausgelassene Zeichen, Nasalstrich) werden grundsätzlich als ein Zeichen betrachtet. Das Zeichen wird
+als ein Codepoint unter Nutzung von standardisierten Codierungen (Unicode), communitynormierten
+Codierungen (MUFI) oder durch das Koordienierungsgremium festgelegte Codierungen abgebildet. Eine
+Kombination von Zeichen zu einem Zeichen erfolgt nicht.</p><table>
+<tgroup cols="3">
+<thead>
+<row>
+<entry>Vorlage</entry>
+<entry>Transkription</entry>
+<entry>Kommentar</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry><image href="images/und_macht.jpg"/></entry>
+<entry><codeph>Uu&amp;#x00F1; macht</codeph></entry>
+<entry/>
+</row>
+<row>
+<entry><image href="images/frommen.jpg"/></entry>
+<entry><codeph>from&amp;#xF519;en</codeph></entry>
+<entry>Eine Unicodecodierung und MUFI-Codierung mit kleinem <tt>m</tt> und Tilde ist nicht als
+einzelnes Zeichen vorhanden. Aus diesem Grund wird die vom OCR-D Konsortium festgelegt Codierung
+genutzt.</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</body>
+</topic>

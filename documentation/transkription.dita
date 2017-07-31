@@ -7,8 +7,8 @@
 <shortdesc>Richtlinien zur Transkription der Volltexte für die Nutzung als Ground Truth</shortdesc>
 </abstract>
   <body>
-<p>Das OCR-D Ground-Truth-Korpus umfasst Seiten aus Publikationen aus dem Zeitraum 1500 - 1900. Der
-Inhalt des Korpus basiert auf einer gezielten Auswahl aus dem Bestand des DFG-Projektes <xref
+<p>Das OCR-D Ground-Truth-Korpus umfasst Publikationen aus dem Zeitraum 1500 - 1900. Der Inhalt des
+Korpus basiert auf einer gezielten Auswahl aus dem Bestand des DFG-Projektes <xref
 href="http://www.deutschestextarchiv.de" format="html" scope="external">„Deutsches
 Textarchiv“</xref>, der <xref href="http://digital.staatsbibliothek-berlin.de/" format="html"
 scope="external">Digitalisierten Sammlungen der Staatsbibliothek zu Berlin</xref> und der <xref
@@ -37,7 +37,7 @@ Texte.</li>
 die lexikalischen Gegebenheiten ergeben sich für die Texterfassung die folgenden Richtlinien."</li>
 </ul><p>Das Korpus ist im Bezug auf die <b>Interpretation von einzelnen typographischen und
 graphematischen Phänomenen </b>in unterschiedlichen Leveln transkribiert bzw. kann transkribiert
-werden. Die Level werden iim weiteren näher erläutert. Allgemein können die Level folgendermaßen
+werden. Die Level werden im Weiteren näher erläutert. Allgemein können die Level folgendermaßen
 beschrieben werden:</p>
 <p>
 <dl>
@@ -58,14 +58,15 @@ Codierungen</b> (Unicode), <b> communitynormierten Codierungen</b> (MUFI) und du
 Koordienierungsgremium <b>festgelegten Codierungen</b> abgebildet. <b>Drucktechnische Ligaturen</b>
 werden grundsätzlich <b>aufgespalten</b>. Die Information Ligatur wird als Formatierungsangabe (wie
 Fett, Kursiv...) im Ground-Truth dokumentiert. Eine <b>Kombination</b> von Zeichen zu einem Zeichen
-auf Grundlage des Unicod-Standards ist den communitynormierten Codierungen und den durch das
+auf Grundlage des Unicode-Standards ist den communitynormierten Codierungen und den durch das
 Koordienierungsgremium festgelegten Codierungen vorzuziehen.</dd>
 </dlentry><dlentry>
 <dt>Level 3</dt>
-<dd>Eine Interpretation von Zeichen wird vollständig unterlassen. Das Zeichen wird als ein Codepoint
-unter Nutzung von <b>standardisierten Codierungen</b> (Unicode),<b> communitynormierten
-Codierungen</b> (MUFI) und durch das Koordienierungsgremium <b>festgelegten Codierungen</b>
-abgebildet. Eine <b>Kombination</b> von Zeichen zu einem Zeichen erfolgt <b>nicht</b>.</dd>
+<dd>Eine <b>Interpretation</b> von Zeichen wird <b>vollständig unterlassen</b>. Das Zeichen wird als
+ein Codepoint unter Nutzung von <b>standardisierten Codierungen</b> (Unicode),<b>
+communitynormierten Codierungen</b> (MUFI) und durch das Koordienierungsgremium <b>festgelegten
+Codierungen</b> abgebildet. Eine <b>Kombination</b> von Zeichen zu einem Zeichen erfolgt
+<b>nicht</b>.</dd>
 </dlentry>
 </dl>
 
