@@ -1,0 +1,2174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ocr_d_koordinationsgremium_codierung">
+    <title>OCR-D Koordinationsgremium Codierung</title>
+    <body><p>Die folgende Tabelle folgt den Codierungs-Vorschlägen des Impact-Projektes.</p>
+        <p>
+<table id="table_fpw_g35_s1b">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<colspec colnum="3" colname="col3"/>
+<colspec colnum="4" colname="col4"/>
+<colspec colnum="5" colname="col5"/>
+<colspec colnum="6" colname="col6"/>
+<colspec colnum="7" colname="col7"/>
+<colspec colnum="8" colname="col8"/>
+<tbody>
+<row>
+<entry/>
+<entry namest="col2" nameend="col4"><b>Pre-composed Character (used in Aletheia)</b></entry>
+<entry/>
+<entry/>
+<entry namest="col7" nameend="col8">
+<p><b>Decomposed Character </b></p>
+<p><b>(only for reference)</b></p>
+</entry>
+</row>
+<row>
+<entry><b>Glyph </b></entry>
+<entry><b>Unicode </b></entry>
+<entry><b>Hex </b></entry>
+<entry><b>Decimal </b></entry>
+<entry><b>Description </b></entry>
+<entry><b>Origin</b></entry>
+<entry><b>Base </b></entry>
+<entry><b>Combining Character </b></entry>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>F1AC </entry>
+<entry>61868 </entry>
+<entry>Latin abbreviation sign semicolon </entry>
+<entry>MUFI </entry>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>¬ </entry>
+<entry>00AC </entry>
+<entry>172 </entry>
+<entry>Not sign </entry>
+<entry>Unicode </entry>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>½ </entry>
+<entry>00BD </entry>
+<entry>189 </entry>
+<entry>Vulgar fraction one half </entry>
+<entry>Unicode </entry>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>æ </entry>
+<entry>00E6 </entry>
+<entry>230 </entry>
+<entry>Latin small letter ae </entry>
+<entry>Unicode </entry>
+<entry>a </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>ā </entry>
+<entry>0101 </entry>
+<entry>257 </entry>
+<entry>Latin small letter a with macron </entry>
+<entry>Unicode </entry>
+<entry>a </entry>
+<entry>0304 </entry>
+</row>
+<row>
+<entry/>
+<entry>ⱥ </entry>
+<entry>2C65 </entry>
+<entry>11365 </entry>
+<entry>Latin small letter a with stroke </entry>
+<entry>Unicode </entry>
+<entry>a </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>Ⱥ </entry>
+<entry>023A </entry>
+<entry>570 </entry>
+<entry>Latin capital letter A with stroke </entry>
+<entry>Unicode </entry>
+<entry>a </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>Æ </entry>
+<entry>00C6 </entry>
+<entry>198 </entry>
+<entry>Latin capital letter AE </entry>
+<entry>Unicode </entry>
+<entry>a </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>E42C </entry>
+<entry>58412 </entry>
+<entry>Latin small letter a with latin small letter e above </entry>
+<entry>MUFI </entry>
+<entry>a </entry>
+<entry>0364 </entry>
+</row>
+<row>
+<entry/>
+<entry>à </entry>
+<entry>00E0 </entry>
+<entry>224 </entry>
+<entry>Latin small letter a with grave </entry>
+<entry>Unicode </entry>
+<entry>a </entry>
+<entry>0300 </entry>
+</row>
+<row>
+<entry/>
+<entry>À </entry>
+<entry>00C0 </entry>
+<entry>192 </entry>
+<entry>Latin capital letter A with grave </entry>
+<entry>Unicode </entry>
+<entry>a </entry>
+<entry>0300 </entry>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>EFA1 </entry>
+<entry>61345 </entry>
+<entry>Latin small ligature neckless a e </entry>
+<entry>MUFI </entry>
+<entry>a </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>ã </entry>
+<entry>00E3 </entry>
+<entry>227 </entry>
+<entry>Latin small letter a with tilde </entry>
+<entry>Unicode </entry>
+<entry>a </entry>
+<entry>0303 </entry>
+</row>
+<row>
+<entry/>
+<entry>Ã </entry>
+<entry>00C3 </entry>
+<entry>195 </entry>
+<entry>Latin capital letter A with tilde </entry>
+<entry>Unicode </entry>
+<entry>a </entry>
+<entry>0303 </entry>
+</row>
+<row>
+<entry/>
+<entry>ä </entry>
+<entry>00E4 </entry>
+<entry>228 </entry>
+<entry>Latin small letter a with diaeresis </entry>
+<entry>Unicode </entry>
+<entry>a </entry>
+<entry>0308 </entry>
+</row>
+<row>
+<entry/>
+<entry>Ä </entry>
+<entry>00C4 </entry>
+<entry>196 </entry>
+<entry>Latin capital letter A with diaeresis </entry>
+<entry>Unicode </entry>
+<entry>a </entry>
+<entry>0308 </entry>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>F500 </entry>
+<entry>62720 </entry>
+<entry>Latin small letter a with Latin small letter a above </entry>
+<entry>Private1 </entry>
+<entry>a </entry>
+<entry>0363 </entry>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>F532 </entry>
+<entry>62770 </entry>
+<entry>Latin small ligature as </entry>
+<entry>Private2 </entry>
+<entry>a </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>F524 </entry>
+<entry>62756 </entry>
+<entry>Latin small letter b with hook above </entry>
+<entry>Private1 </entry>
+<entry>b </entry>
+<entry>0309 </entry>
+</row>
+<row>
+<entry/>
+<entry>ɓ </entry>
+<entry>0253 </entry>
+<entry>595 </entry>
+<entry>Latin small letter b with hook </entry>
+<entry>Unicode </entry>
+<entry>b </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>ç </entry>
+<entry>00E7 </entry>
+<entry>231 </entry>
+<entry>Latin small letter c with cedilla </entry>
+<entry>Unicode </entry>
+<entry>c </entry>
+<entry>0327 </entry>
+</row>
+<row>
+<entry/>
+<entry>Ç </entry>
+<entry>00C7 </entry>
+<entry>199 </entry>
+<entry>Latin capital letter C with cedilla </entry>
+<entry>Unicode </entry>
+<entry>c </entry>
+<entry>0327 </entry>
+</row>
+<row>
+<entry/>
+<entry>ć </entry>
+<entry>0107 </entry>
+<entry>263 </entry>
+<entry>Latin small letter c with acute </entry>
+<entry>Unicode </entry>
+<entry>c </entry>
+<entry>0301 </entry>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>EEC4 </entry>
+<entry>61124 </entry>
+<entry>Latin small ligature ck </entry>
+<entry>MUFI </entry>
+<entry>c </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry/>
+<entry/>
+<entry/>
+<entry/>
+<entry/>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>EEC5 </entry>
+<entry>61125 </entry>
+<entry>Latin small ligature ct </entry>
+<entry>MUFI </entry>
+<entry>c </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>F501 </entry>
+<entry>62721 </entry>
+<entry>Latin small letter c with macron above </entry>
+<entry>Private1 </entry>
+<entry>c </entry>
+<entry>0304 </entry>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>F502 </entry>
+<entry>62722 </entry>
+<entry>Latin small letter c ligated with latin small letter h </entry>
+<entry>Private1 </entry>
+<entry>c </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>F517 </entry>
+<entry>62743 </entry>
+<entry>Latin small letter c with tilde </entry>
+<entry>Private1 </entry>
+<entry>c </entry>
+<entry>0303 </entry>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>F520 </entry>
+<entry>62752 </entry>
+<entry>Latin small abbreviation sign con with diaeresis </entry>
+<entry>Private1 </entry>
+<entry>c </entry>
+<entry>0308 </entry>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>F522 </entry>
+<entry>62754 </entry>
+<entry>Latin small letter c with diaeresis </entry>
+<entry>Private1 </entry>
+<entry>c </entry>
+<entry>0308 </entry>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>F531 </entry>
+<entry>62769 </entry>
+<entry>Latin ligature capital C small a </entry>
+<entry>Private2 </entry>
+<entry>C </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>F50A </entry>
+<entry>62730 </entry>
+<entry>Latin small letter d with apostrophe </entry>
+<entry>Private1 </entry>
+<entry>d </entry>
+<entry>02BC </entry>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>F51B </entry>
+<entry>62747 </entry>
+<entry>Abbreviation sign der </entry>
+<entry>Private1 </entry>
+<entry>d </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>é </entry>
+<entry>00E9 </entry>
+<entry>233 </entry>
+<entry>Latin small letter e with acute </entry>
+<entry>Unicode </entry>
+<entry>e </entry>
+<entry>0301 </entry>
+</row>
+<row>
+<entry/>
+<entry>É </entry>
+<entry>00C9 </entry>
+<entry>201 </entry>
+<entry>Latin capital letter E with acute </entry>
+<entry>Unicode </entry>
+<entry>e </entry>
+<entry>0301 </entry>
+</row>
+<row>
+<entry/>
+<entry>ë </entry>
+<entry>00EB </entry>
+<entry>235 </entry>
+<entry>Latin small letter e with diaeresis </entry>
+<entry>Unicode </entry>
+<entry>e </entry>
+<entry>0308 </entry>
+</row>
+<row>
+<entry/>
+<entry>Ë </entry>
+<entry>00CB </entry>
+<entry>203 </entry>
+<entry>Latin capital letter E with diaeresis </entry>
+<entry>Unicode </entry>
+<entry>e </entry>
+<entry>0308 </entry>
+</row>
+<row>
+<entry/>
+<entry>ē </entry>
+<entry>0113 </entry>
+<entry>275 </entry>
+<entry>Latin small letter e with macron </entry>
+<entry>Unicode </entry>
+<entry>e </entry>
+<entry>0304 </entry>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>E4E1 </entry>
+<entry>58593 </entry>
+<entry>Latin small letter e with latin small letter a above </entry>
+<entry>MUFI </entry>
+<entry>e </entry>
+<entry>0363 </entry>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>F219 </entry>
+<entry>61977 </entry>
+<entry>Latin small letter e extended bar form </entry>
+<entry>MUFI </entry>
+<entry>e </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>è </entry>
+<entry>00E8 </entry>
+<entry>232 </entry>
+<entry>Latin small letter e with grave </entry>
+<entry>Unicode </entry>
+<entry>e </entry>
+<entry>0300 </entry>
+</row>
+<row>
+<entry/>
+<entry>È </entry>
+<entry>00C8 </entry>
+<entry>200 </entry>
+<entry>Latin capital letter E with grave </entry>
+<entry>Unicode </entry>
+<entry>e </entry>
+<entry>0300 </entry>
+</row>
+<row>
+<entry/>
+<entry>ę </entry>
+<entry>0119 </entry>
+<entry>281 </entry>
+<entry>Latin small letter e with ogonek </entry>
+<entry>Unicode </entry>
+<entry>e </entry>
+<entry>0328 </entry>
+</row>
+<row>
+<entry/>
+<entry>Ę </entry>
+<entry>0118 </entry>
+<entry>280 </entry>
+<entry>Latin capital letter E with ogonek </entry>
+<entry>Unicode </entry>
+<entry>e </entry>
+<entry>0328 </entry>
+</row>
+<row>
+<entry/>
+<entry>ɇ </entry>
+<entry>0247 </entry>
+<entry>583 </entry>
+<entry>Latin small letter e with stroke </entry>
+<entry>Unicode </entry>
+<entry>e </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>Ɇ </entry>
+<entry>0246 </entry>
+<entry>582 </entry>
+<entry>Latin capital letter E with stroke </entry>
+<entry>Unicode </entry>
+<entry>e </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>⁊ </entry>
+<entry>204A </entry>
+<entry>8266 </entry>
+<entry>Latin abbreviation sign small et </entry>
+<entry>Unicode </entry>
+<entry>e </entry>
+<entry/>
+</row>
+
+<row>
+<entry/>
+<entry> </entry>
+<entry>F158 </entry>
+<entry>61784 </entry>
+<entry>Latin abbreviation sign small et with stroke </entry>
+<entry>MUFI </entry>
+<entry>e </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>1EBD </entry>
+<entry>7869 </entry>
+<entry>Latin small letter e with tilde </entry>
+<entry>Unicode </entry>
+<entry>e </entry>
+<entry>0303 </entry>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>F515 </entry>
+<entry>62741 </entry>
+<entry>Latin small letter e ligated with latin small letter t </entry>
+<entry>Private1 </entry>
+<entry>e </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>ﬀ </entry>
+<entry>FB00 </entry>
+<entry>64256 </entry>
+<entry>Latin small ligature ff </entry>
+<entry>Unicode </entry>
+<entry>f </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>ﬁ </entry>
+<entry>FB01 </entry>
+<entry>64257 </entry>
+<entry>Latin small ligature fi </entry>
+<entry>Unicode </entry>
+<entry>f </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>ﬃ </entry>
+<entry>FB03 </entry>
+<entry>64259 </entry>
+<entry>Latin small ligature ffi </entry>
+<entry>Unicode </entry>
+<entry>f </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>ﬂ </entry>
+<entry>FB02 </entry>
+<entry>64258 </entry>
+<entry>Latin small ligature FL </entry>
+<entry>Unicode </entry>
+<entry>f </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>Ꞡ </entry>
+<entry>A7A0 </entry>
+<entry>42912 </entry>
+<entry>Latin capital letter G with oblique stroke </entry>
+<entry>Unicode </entry>
+<entry>G </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>ꞡ </entry>
+<entry>A7A1 </entry>
+<entry>42913 </entry>
+<entry>Latin small letter g with oblique stroke </entry>
+<entry>Unicode </entry>
+<entry>g </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>F504 </entry>
+<entry>62724 </entry>
+<entry>Latin small letter g with ring above </entry>
+<entry>Private1 </entry>
+<entry>g </entry>
+<entry>030A </entry>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>F505 </entry>
+<entry>62725 </entry>
+<entry>Latin small letter g with macron above </entry>
+<entry>Private1 </entry>
+<entry>g </entry>
+<entry>0304 </entry>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>F506 </entry>
+<entry>62726 </entry>
+<entry>Latin small letter h with ring above </entry>
+<entry>Private1 </entry>
+<entry>h </entry>
+<entry>030A </entry>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>F521 </entry>
+<entry>62753 </entry>
+<entry>Latin small letter h with right descender and curl </entry>
+<entry>Private1 </entry>
+<entry>h </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>F525 </entry>
+<entry>62757 </entry>
+<entry>Latin small letter h with hook above </entry>
+<entry>Private1 </entry>
+<entry>h </entry>
+<entry>0309 </entry>
+</row>
+<row>
+<entry/>
+<entry>ĳ </entry>
+<entry>0133 </entry>
+<entry>307 </entry>
+<entry>Latin small ligature ij </entry>
+<entry>Unicode </entry>
+<entry>i </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>ī </entry>
+<entry>012B </entry>
+<entry>299 </entry>
+<entry>Latin small letter i with macron </entry>
+<entry>Unicode </entry>
+<entry>i </entry>
+<entry>0304 </entry>
+</row>
+<row>
+<entry/>
+<entry>í </entry>
+<entry>00ED </entry>
+<entry>237 </entry>
+<entry>Latin small letter i with acute </entry>
+<entry>Unicode </entry>
+<entry>i </entry>
+<entry>301 </entry>
+</row>
+<row>
+<entry/>
+<entry>Í </entry>
+<entry>00CD </entry>
+<entry>205 </entry>
+<entry>Latin capital letter i with acute </entry>
+<entry>Unicode </entry>
+<entry>i </entry>
+<entry>301 </entry>
+</row>
+<row>
+<entry/>
+<entry>ï </entry>
+<entry>00EF </entry>
+<entry>239 </entry>
+<entry>Latin small letter i with diaeresis </entry>
+<entry>Unicode </entry>
+<entry>i </entry>
+<entry>308 </entry>
+</row>
+<row>
+<entry/>
+<entry>ĩ </entry>
+<entry>0129 </entry>
+<entry>297 </entry>
+<entry>Latin small letter i with tilde </entry>
+<entry>Unicode </entry>
+<entry>i </entry>
+<entry>303 </entry>
+</row>
+<row>
+<entry/>
+<entry>ꝭ </entry>
+<entry>A76D </entry>
+<entry>42861 </entry>
+<entry>Latin small letter is </entry>
+<entry>Unicode </entry>
+<entry>i </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>F220 </entry>
+<entry>61984 </entry>
+<entry>Latin small letter long i </entry>
+<entry>MUFI </entry>
+<entry>i </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>F533 </entry>
+<entry>62771 </entry>
+<entry>Latin small ligature is </entry>
+<entry>Private2 </entry>
+<entry>i </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>EBE3 </entry>
+<entry>60387 </entry>
+<entry>Latin small letter j with diaeresis </entry>
+<entry>MUFI </entry>
+<entry>j </entry>
+<entry>0308 </entry>
+</row>
+
+<row>
+<entry/>
+<entry>Ꝃ</entry>
+<entry>A742</entry>
+<entry>42818</entry>
+<entry>Latin capital letter K with diagonal stroke</entry>
+<entry>Unicode</entry>
+<entry>K</entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>ꝃ</entry>
+<entry>A743</entry>
+<entry>42819</entry>
+<entry>Latin small letter k with diagonal stroke</entry>
+<entry>Unicode</entry>
+<entry>k</entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>Ꞣ </entry>
+<entry>A7A2 </entry>
+<entry>42914 </entry>
+<entry>Latin capital letter K with oblique stroke </entry>
+<entry>Unicode </entry>
+<entry>K </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>ꞣ </entry>
+<entry>A7A3 </entry>
+<entry>42915 </entry>
+<entry>Latin small letter K with oblique stroke </entry>
+<entry>Unicode </entry>
+<entry>k </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>Ł </entry>
+<entry>0141 </entry>
+<entry>321 </entry>
+<entry>Latin capital letter L with stroke </entry>
+<entry>Unicode </entry>
+<entry>l </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>ł </entry>
+<entry>0142 </entry>
+<entry>322 </entry>
+<entry>Latin small letter L with stroke </entry>
+<entry>Unicode </entry>
+<entry>l </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>F4F9 </entry>
+<entry>62713 </entry>
+<entry>Latin small ligature ll </entry>
+<entry>MUFI </entry>
+<entry>l </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>F50B </entry>
+<entry>62731 </entry>
+<entry>Latin small letter l with apostrophe </entry>
+<entry>Private1 </entry>
+<entry>l </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>E5B8 </entry>
+<entry>58808 </entry>
+<entry>Latin small letter m with medium-high macron (above character) </entry>
+<entry>MUFI </entry>
+<entry>m </entry>
+<entry>F00B </entry>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>F519 </entry>
+<entry>62745 </entry>
+<entry>Latin small letter m with tilde </entry>
+<entry>Private1 </entry>
+<entry>m </entry>
+<entry>0303 </entry>
+</row>
+<row>
+<entry/>
+<entry>Ñ </entry>
+<entry>00D1 </entry>
+<entry>209 </entry>
+<entry>Latin capital letter N with tilde </entry>
+<entry>Unicode </entry>
+<entry>N </entry>
+<entry>0303 </entry>
+</row>
+<row>
+<entry/>
+<entry>ñ </entry>
+<entry>00F1 </entry>
+<entry>241 </entry>
+<entry>Latin small letter n with tilde </entry>
+<entry>Unicode </entry>
+<entry>n </entry>
+<entry>0303 </entry>
+</row>
+<row>
+<entry/>
+<entry>Ꞥ </entry>
+<entry>A7A4 </entry>
+<entry>42916 </entry>
+<entry>Latin capital letter N with oblique stroke </entry>
+<entry>Unicode </entry>
+<entry>N </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>ꞥ </entry>
+<entry>A7A5 </entry>
+<entry>42917 </entry>
+<entry>Latin small letter n with oblique stroke </entry>
+<entry>Unicode </entry>
+<entry>n </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>E1DC </entry>
+<entry>57820 </entry>
+<entry>Latin capital letter N with high macron above </entry>
+<entry>MUFI </entry>
+<entry>N </entry>
+<entry>0304 </entry>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>E5DC </entry>
+<entry>58844 </entry>
+<entry>Latin small letter n with medium high macron above </entry>
+<entry>MUFI </entry>
+<entry>n </entry>
+<entry>0304 </entry>
+</row>
+<row>
+<entry/>
+<entry>œ </entry>
+<entry>0153 </entry>
+<entry>339 </entry>
+<entry>Latin small letter oe </entry>
+<entry>Unicode </entry>
+<entry>o </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>E644 </entry>
+<entry>58948 </entry>
+<entry>Latin small letter o with latin small letter e above </entry>
+<entry>MUFI </entry>
+<entry>o </entry>
+<entry>0364 </entry>
+</row>
+<row>
+<entry/>
+<entry>ò </entry>
+<entry>00F2 </entry>
+<entry>242 </entry>
+<entry>Latin small letter o with grave </entry>
+<entry>Unicode </entry>
+<entry>o </entry>
+<entry>0300 </entry>
+</row>
+<row>
+<entry/>
+<entry>Ò </entry>
+<entry>00D2 </entry>
+<entry>210 </entry>
+<entry>Latin capital letter O with grave </entry>
+<entry>Unicode </entry>
+<entry>o </entry>
+<entry>0300 </entry>
+</row>
+<row>
+<entry/>
+<entry>ø </entry>
+<entry>00F8 </entry>
+<entry>248 </entry>
+<entry>Latin small letter o with stroke </entry>
+<entry>Unicode </entry>
+<entry>o </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>Ø </entry>
+<entry>00D8 </entry>
+<entry>216 </entry>
+<entry>Latin capital letter O with stroke </entry>
+<entry>Unicode </entry>
+<entry>o </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>õ </entry>
+<entry>00F5 </entry>
+<entry>245 </entry>
+<entry>Latin small letter o with tilde </entry>
+<entry>Unicode </entry>
+<entry>o </entry>
+<entry>0303 </entry>
+</row>
+<row>
+<entry/>
+<entry>Õ </entry>
+<entry>00D5 </entry>
+<entry>213 </entry>
+<entry>Latin capital letter O with tilde </entry>
+<entry>Unicode </entry>
+<entry>o </entry>
+<entry>0303 </entry>
+</row>
+<row>
+<entry/>
+<entry>ö </entry>
+<entry>00F6 </entry>
+<entry>246 </entry>
+<entry>Latin small letter o with diaeresis </entry>
+<entry>Unicode </entry>
+<entry>o </entry>
+<entry>0308 </entry>
+</row>
+<row>
+<entry/>
+<entry>Ö </entry>
+<entry>00D6 </entry>
+<entry>214 </entry>
+<entry>Latin capital letter O with diaeresis </entry>
+<entry>Unicode </entry>
+<entry>o </entry>
+<entry>0308 </entry>
+</row>
+<row>
+<entry/>
+<entry>ō </entry>
+<entry>014D </entry>
+<entry>333 </entry>
+<entry>Latin small letter o with macron </entry>
+<entry>Unicode </entry>
+<entry>o </entry>
+<entry>0304 </entry>
+</row>
+<row>
+<entry/>
+<entry>ꝑ </entry>
+<entry>A751 </entry>
+<entry>42833 </entry>
+<entry>Latin small letter p with stroke through descender </entry>
+<entry>Unicode </entry>
+<entry>p </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>Ꝑ </entry>
+<entry>A750 </entry>
+<entry>42832 </entry>
+<entry>Latin capital letter P with stroke through descender </entry>
+<entry>Unicode </entry>
+<entry>p </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>ꝓ </entry>
+<entry>A753 </entry>
+<entry>42835 </entry>
+<entry>Latin small letter p with flourish </entry>
+<entry>Unicode </entry>
+<entry>p </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>Ꝓ </entry>
+<entry>A752 </entry>
+<entry>42834 </entry>
+<entry>Latin capital letter P with flourish </entry>
+<entry>Unicode </entry>
+<entry>p </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>EED6 </entry>
+<entry>61142 </entry>
+<entry>Latin small ligature pp </entry>
+<entry>MUFI </entry>
+<entry>p </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>EED7 </entry>
+<entry>61143 </entry>
+<entry>Latin small ligature pp flourish </entry>
+<entry>MUFI </entry>
+<entry>p </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>F507 </entry>
+<entry>62727 </entry>
+<entry>Latin small letter p with macron above </entry>
+<entry>MUFI </entry>
+<entry>p </entry>
+<entry>0304 </entry>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>F51F </entry>
+<entry>62751 </entry>
+<entry>Latin small letter p with diaeresis </entry>
+<entry>Private1 </entry>
+<entry>p </entry>
+<entry>0308 </entry>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>F526 </entry>
+<entry>62758 </entry>
+<entry>Latin small letter p with hook above </entry>
+<entry>Private1 </entry>
+<entry>p </entry>
+<entry>0309 </entry>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>F529 </entry>
+<entry>62761 </entry>
+<entry>Latin small letter p with central slanting stroke </entry>
+<entry>Private1 </entry>
+<entry>p </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>E8BF </entry>
+<entry>59583 </entry>
+<entry>Latin small letter q ligated with final et </entry>
+<entry>MUFI </entry>
+<entry>q </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>ꝗ </entry>
+<entry>A757 </entry>
+<entry>42839 </entry>
+<entry>Latin small letter q with stroke through descender </entry>
+<entry>Unicode </entry>
+<entry>q </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>Ꝗ </entry>
+<entry>A756 </entry>
+<entry>42838 </entry>
+<entry>Latin capital letter Q with stroke through descender </entry>
+<entry>Unicode </entry>
+<entry>q </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>E68B </entry>
+<entry>59019 </entry>
+<entry>Latin small letter q with stroke through descender and tilde </entry>
+<entry>MUFI </entry>
+<entry>q </entry>
+<entry>0303 </entry>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>E682 </entry>
+<entry>59010 </entry>
+<entry>Latin small letter q with dot above </entry>
+<entry>MUFI </entry>
+<entry>q </entry>
+<entry>0307 </entry>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>E282 </entry>
+<entry>57986 </entry>
+<entry>Latin capital letter Q with dot above </entry>
+<entry>MUFI </entry>
+<entry>q </entry>
+<entry>0307 </entry>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>E681 </entry>
+<entry>59009 </entry>
+<entry>Latin small letter q with macron </entry>
+<entry>MUFI </entry>
+<entry>q </entry>
+<entry>0304 </entry>
+</row>
+<row>
+<entry/>
+<entry>ꝙ </entry>
+<entry>A759 </entry>
+<entry>42841 </entry>
+<entry>Latin small letter q with diagonal stroke </entry>
+<entry>Unicode </entry>
+<entry>q </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>F51A </entry>
+<entry>62746 </entry>
+<entry>Latin small letter q with diagonal stroke and diaeresis </entry>
+<entry>Private1 </entry>
+<entry>q </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>F523 </entry>
+<entry>62755 </entry>
+<entry>Latin small letter q with diaeresis </entry>
+<entry>Private1 </entry>
+<entry>q </entry>
+<entry>0308 </entry>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>F535 </entry>
+<entry>62773 </entry>
+<entry>Latin ligature capital Q small u </entry>
+<entry>Private2 </entry>
+<entry>Q </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>F508 </entry>
+<entry>62728 </entry>
+<entry>Latin small letter q with ring above </entry>
+<entry>Private1 </entry>
+<entry>q </entry>
+<entry>030A </entry>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>F509 </entry>
+<entry>62729 </entry>
+<entry>Latin small letter q ligated with final et with overline </entry>
+<entry>Private1 </entry>
+<entry>q </entry>
+<entry>0305 </entry>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>F50C </entry>
+<entry>62732 </entry>
+<entry>Latin small letter q with acute accent above and semicolon on the right </entry>
+<entry>Private1 </entry>
+<entry>q </entry>
+<entry>0301 </entry>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>F50D </entry>
+<entry>62733 </entry>
+<entry>Latin small letter q ligated with final et and acute accent </entry>
+<entry>Private1 </entry>
+<entry>q </entry>
+<entry>0301 </entry>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>F52F </entry>
+<entry>62767 </entry>
+<entry>Latin small letter q ligated with final et with diaeresis </entry>
+<entry>Private1 </entry>
+<entry>q </entry>
+<entry>0308 </entry>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>F50E </entry>
+<entry>62734 </entry>
+<entry>Latin small letter q with acute accent </entry>
+<entry>Private1 </entry>
+<entry>q </entry>
+<entry>0301 </entry>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>F50F </entry>
+<entry>62735 </entry>
+<entry>Latin small letter q with tilde </entry>
+<entry>Private1 </entry>
+<entry>q </entry>
+<entry>0303 </entry>
+</row>
+<row>
+<entry/>
+<entry>℟ </entry>
+<entry>211F </entry>
+<entry>8479 </entry>
+<entry>Response </entry>
+<entry>Unicode </entry>
+<entry>r </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>ꝛ </entry>
+<entry>A75B </entry>
+<entry>42843 </entry>
+<entry>Latin small letter r rotunda </entry>
+<entry>Unicode </entry>
+<entry>r </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>ꝝ </entry>
+<entry>A75D </entry>
+<entry>42845 </entry>
+<entry>Latin small letter rum rotunda </entry>
+<entry>Unicode </entry>
+<entry>r </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>Ꝝ </entry>
+<entry>A75C </entry>
+<entry>42844 </entry>
+<entry>Latin capital letter RUM ROTUNDA </entry>
+<entry>Unicode </entry>
+<entry>r </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>Ꞧ </entry>
+<entry>A7A6 </entry>
+<entry>42918 </entry>
+<entry>Latin capital letter R with oblique stroke </entry>
+<entry>Unicode </entry>
+<entry>R </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>ꞧ </entry>
+<entry>A7A7 </entry>
+<entry>42919 </entry>
+<entry>Latin small letter r with oblique stroke </entry>
+<entry>Unicode </entry>
+<entry>r </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>F510 </entry>
+<entry>62736 </entry>
+<entry>Latin small letter r with macron above </entry>
+<entry>Private1 </entry>
+<entry>r </entry>
+<entry>0304 </entry>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>F518 </entry>
+<entry>62744 </entry>
+<entry>Latin small letter r with tilde </entry>
+<entry>Private1 </entry>
+<entry>r </entry>
+<entry>0303 </entry>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>F536 </entry>
+<entry>62774 </entry>
+<entry>Latin small ligature ra </entry>
+<entry>Private2 </entry>
+<entry>r </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>ſ </entry>
+<entry>017F </entry>
+<entry>383 </entry>
+<entry>Latin small letter long s </entry>
+<entry>Unicode </entry>
+<entry>s </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>ẜ </entry>
+<entry>1E9C </entry>
+<entry>7836 </entry>
+<entry>Latin small letter long s with diagonal stroke </entry>
+<entry>Unicode </entry>
+<entry>s </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>ﬅ </entry>
+<entry>FB05 </entry>
+<entry>64261 </entry>
+<entry>Latin small ligature long s t </entry>
+<entry>Unicode </entry>
+<entry>s </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>EADA </entry>
+<entry>60122 </entry>
+<entry>Latin small ligature long s descending t </entry>
+<entry>MUFI </entry>
+<entry>s </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>EBA2 </entry>
+<entry>60322 </entry>
+<entry>Latin small ligature long s i </entry>
+<entry>MUFI </entry>
+<entry>s </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>F4FC </entry>
+<entry>62716 </entry>
+<entry>Latin small ligature long s k </entry>
+<entry>MUFI </entry>
+<entry>s </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>EBA3 </entry>
+<entry>60323 </entry>
+<entry>Latin small ligature long s l </entry>
+<entry>MUFI </entry>
+<entry>s </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>EBA6 </entry>
+<entry>60326 </entry>
+<entry>Latin small ligature long s long s </entry>
+<entry>MUFI </entry>
+<entry>s </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>EBA7 </entry>
+<entry>60327 </entry>
+<entry>Latin small ligature long s long s i </entry>
+<entry>MUFI </entry>
+<entry>s </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>F4FF </entry>
+<entry>62719 </entry>
+<entry>Latin small ligature long s long s t </entry>
+<entry>MUFI </entry>
+<entry>s </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>F51E </entry>
+<entry>62750 </entry>
+<entry>Latin small ligature long s l with stroke </entry>
+<entry>Private1 </entry>
+<entry>s </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>EBAC </entry>
+<entry>60332 </entry>
+<entry>Latin small ligature long s insular v </entry>
+<entry>MUFI </entry>
+<entry>s </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>ß </entry>
+<entry>00DF </entry>
+<entry>223 </entry>
+<entry>Latin small letter sharp s </entry>
+<entry>Unicode </entry>
+<entry>s </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>ẞ </entry>
+<entry>1E9E </entry>
+<entry>7838 </entry>
+<entry>Latin capital letter sharp S </entry>
+<entry>Unicode </entry>
+<entry>s </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>F530 </entry>
+<entry>62768 </entry>
+<entry>Latin small letter s with diaeresis </entry>
+<entry>Private1 </entry>
+<entry>s </entry>
+<entry>0308 </entry>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>F511 </entry>
+<entry>62737 </entry>
+<entry>Latin small letter s with macron above </entry>
+<entry>Private1 </entry>
+<entry>s </entry>
+<entry>0304 </entry>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>F528 </entry>
+<entry>62760 </entry>
+<entry>Latin capital letter s with central slanted stroke </entry>
+<entry>Private1 </entry>
+<entry>S </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>ﬆ </entry>
+<entry>FB06 </entry>
+<entry>64262 </entry>
+<entry>Latin small ligature st </entry>
+<entry>Unicode </entry>
+<entry>s </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>F52C </entry>
+<entry>62764 </entry>
+<entry>Latin small ligature sp </entry>
+<entry>Private1 </entry>
+<entry>s </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>E6E2 </entry>
+<entry>59106 </entry>
+<entry>Latin small letter t with acute </entry>
+<entry>MUFI </entry>
+<entry>t </entry>
+<entry>0301 </entry>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>EEDC </entry>
+<entry>61148 </entry>
+<entry>Latin small ligature tz </entry>
+<entry>MUFI </entry>
+<entry>t </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>F512 </entry>
+<entry>62738 </entry>
+<entry>Latin small letter t with tilde </entry>
+<entry>Private1 </entry>
+<entry>t </entry>
+<entry>0303 </entry>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>F537 </entry>
+<entry>62775 </entry>
+<entry>Latin small ligature ta </entry>
+<entry>Private2 </entry>
+<entry>t </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>ù </entry>
+<entry>00F9 </entry>
+<entry>249 </entry>
+<entry>Latin small letter u with grave </entry>
+<entry>Unicode </entry>
+<entry>u </entry>
+<entry>0300 </entry>
+</row>
+<row>
+<entry/>
+<entry>Ù </entry>
+<entry>00D9 </entry>
+<entry>217 </entry>
+<entry>Latin capital letter U with grave </entry>
+<entry>Unicode </entry>
+<entry>u </entry>
+<entry>0300 </entry>
+</row>
+<row>
+<entry/>
+<entry>ũ </entry>
+<entry>0169 </entry>
+<entry>361 </entry>
+<entry>Latin small letter u with tilde </entry>
+<entry>Unicode </entry>
+<entry>u </entry>
+<entry>0303 </entry>
+</row>
+<row>
+<entry/>
+<entry>ū </entry>
+<entry>016B </entry>
+<entry>363 </entry>
+<entry>Latin small letter u with macron </entry>
+<entry>Unicode </entry>
+<entry>u </entry>
+<entry>0304 </entry>
+</row>
+<row>
+<entry/>
+<entry>ŭ </entry>
+<entry>016D </entry>
+<entry>365 </entry>
+<entry>Latin small letter u with breve </entry>
+<entry>Unicode </entry>
+<entry>u </entry>
+<entry>0306 </entry>
+</row>
+<row>
+<entry/>
+<entry>ů </entry>
+<entry>016F </entry>
+<entry>367 </entry>
+<entry>Latin small letter u with ring above </entry>
+<entry>Unicode </entry>
+<entry>u </entry>
+<entry>030A </entry>
+</row>
+<row>
+<entry/>
+<entry>Ů </entry>
+<entry>016E </entry>
+<entry>366 </entry>
+<entry>Latin capital letter U with ring above </entry>
+<entry>Unicode </entry>
+<entry>u </entry>
+<entry>030A </entry>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>E72B </entry>
+<entry>59179 </entry>
+<entry>Latin small letter u with e above </entry>
+<entry>MUFI </entry>
+<entry>u </entry>
+<entry>0364 </entry>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>F1A6 </entry>
+<entry>61862 </entry>
+<entry>Latin abbreviation sign spacing base-line us </entry>
+<entry>MUFI </entry>
+<entry>u </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>F1A5 </entry>
+<entry>61861 </entry>
+<entry>Latin abbreviation sign spacing base-line capital US </entry>
+<entry>MUFI </entry>
+<entry>u </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>ꝰ </entry>
+<entry>A770 </entry>
+<entry>42864 </entry>
+<entry>Modifier letter us </entry>
+<entry>Unicode </entry>
+<entry>u </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>F534 </entry>
+<entry>62772 </entry>
+<entry>Latin small ligature us </entry>
+<entry>Private2 </entry>
+<entry>u </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>ü </entry>
+<entry>00FC </entry>
+<entry>252 </entry>
+<entry>Latin small letter u with diaeresis </entry>
+<entry>Unicode </entry>
+<entry>u </entry>
+<entry>0308 </entry>
+</row>
+<row>
+<entry/>
+<entry>Ü </entry>
+<entry>00DC </entry>
+<entry>220 </entry>
+<entry>Latin capital letter U with diaeresis </entry>
+<entry>Unicode </entry>
+<entry>u </entry>
+<entry>0308 </entry>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>E8BA </entry>
+<entry>59578 </entry>
+<entry>Latin small letter v with short slash </entry>
+<entry>MUFI </entry>
+<entry>v </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>F513 </entry>
+<entry>62739 </entry>
+<entry>Latin small letter v with breve </entry>
+<entry>Private1 </entry>
+<entry>v </entry>
+<entry>0306 </entry>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>E73A </entry>
+<entry>59194 </entry>
+<entry>Latin small letter v with acute </entry>
+<entry>MUFI </entry>
+<entry>v </entry>
+<entry>0301 </entry>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>F527 </entry>
+<entry>62759 </entry>
+<entry>Latin small letter v with hook above </entry>
+<entry>Private1 </entry>
+<entry>v </entry>
+<entry>0309 </entry>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>F514 </entry>
+<entry>62740 </entry>
+<entry>Latin small letter w with breve </entry>
+<entry>Private1 </entry>
+<entry>w </entry>
+<entry>0306 </entry>
+</row>
+<row>
+<entry/>
+<entry>ẍ </entry>
+<entry>1E8D </entry>
+<entry>7821 </entry>
+<entry>Latin small letter x with diaeresis </entry>
+<entry>Unicode </entry>
+<entry>x </entry>
+<entry>308 </entry>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>E781 </entry>
+<entry>59265 </entry>
+<entry>Latin small letter y with latin small letter e above </entry>
+<entry>MUFI </entry>
+<entry>y </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>ỹ </entry>
+<entry>1EF9 </entry>
+<entry>7929 </entry>
+<entry>Small letter y with tilde above </entry>
+<entry>Unicode </entry>
+<entry>y </entry>
+<entry>0303 </entry>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>F52A </entry>
+<entry>62762 </entry>
+<entry>Latin small letter y with latin small letter rum above </entry>
+<entry>Private1 </entry>
+<entry>y </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>F52B </entry>
+<entry>62763 </entry>
+<entry>Latin small letter y with latin small letter t above </entry>
+<entry>Private1 </entry>
+<entry>y </entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>ż </entry>
+<entry>017C </entry>
+<entry>380 </entry>
+<entry>Latin small letter z with dot above </entry>
+<entry>Unicode </entry>
+<entry>z </entry>
+<entry>02D9 </entry>
+</row>
+<row>
+<entry/>
+<entry>Ž </entry>
+<entry>017D </entry>
+<entry>381 </entry>
+<entry>Latin capital letter Z with caron </entry>
+<entry>Unicode </entry>
+<entry>z </entry>
+<entry>030C </entry>
+</row>
+<row>
+<entry/>
+<entry>ž </entry>
+<entry>017E </entry>
+<entry>382 </entry>
+<entry>Latin small letter z with caron </entry>
+<entry>Unicode </entry>
+<entry>z </entry>
+<entry>030C </entry>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>F516 </entry>
+<entry>62742 </entry>
+<entry>Latin small letter z with tilde </entry>
+<entry>Private1 </entry>
+<entry>z </entry>
+<entry>0303 </entry>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>F51D </entry>
+<entry>62749 </entry>
+<entry>Latin small letter z with hook above </entry>
+<entry>Private1 </entry>
+<entry>z </entry>
+<entry>0309 </entry>
+</row>
+<row>
+<entry/>
+<entry>ὑ </entry>
+<entry>1F51 </entry>
+<entry>8017 </entry>
+<entry>Greek small letter upsilon with dasia </entry>
+<entry>Unicode </entry>
+<entry/>
+<entry>0314 </entry>
+</row>
+<row>
+<entry/>
+<entry>ꙋ </entry>
+<entry>A64B </entry>
+<entry>42571 </entry>
+<entry>Cyrillic small monograph UK </entry>
+<entry>Unicode </entry>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>Ꙋ </entry>
+<entry>A64A </entry>
+<entry>42570 </entry>
+<entry>Cyrillic capital monograph UK </entry>
+<entry>Unicode </entry>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>ѹ </entry>
+<entry>0479 </entry>
+<entry>1145 </entry>
+<entry>Cyrillic small letter UK </entry>
+<entry>Unicode </entry>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>ѡ </entry>
+<entry>0461 </entry>
+<entry>1121 </entry>
+<entry>Cyrillic small letter omega </entry>
+<entry>Unicode </entry>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>ѻ </entry>
+<entry>047B </entry>
+<entry>1147 </entry>
+<entry>Cyrillic small letter round omega </entry>
+<entry>Unicode </entry>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>ↄ </entry>
+<entry>2184 </entry>
+<entry>8580 </entry>
+<entry>Latin abbreviation sign small con </entry>
+<entry>Unicode </entry>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>‐ </entry>
+<entry>2010 </entry>
+<entry>8208 </entry>
+<entry>Hyphen </entry>
+<entry>Unicode </entry>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>⸗ </entry>
+<entry>2E17 </entry>
+<entry>11799 </entry>
+<entry>Double oblique hyphen </entry>
+<entry>Unicode </entry>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>- </entry>
+<entry>2011 </entry>
+<entry>8209 </entry>
+<entry>Non-breaking hyphen </entry>
+<entry>Unicode </entry>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>§ </entry>
+<entry>00A7 </entry>
+<entry>167 </entry>
+<entry>Section sign </entry>
+<entry>Unicode </entry>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>∴ </entry>
+<entry>2234 </entry>
+<entry>8756 </entry>
+<entry>Therefore </entry>
+<entry>Unicode </entry>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>⁂ </entry>
+<entry>2042 </entry>
+<entry>8258 </entry>
+<entry>Asterism </entry>
+<entry>Unicode </entry>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>F538 </entry>
+<entry>62776 </entry>
+<entry>Upside down asterism </entry>
+<entry>Private3 </entry>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>F161 </entry>
+<entry>61793 </entry>
+<entry>Punctus elevatus </entry>
+<entry>MUFI </entry>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>F52E </entry>
+<entry>62766 </entry>
+<entry>Inverted cross </entry>
+<entry>Private1 </entry>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>F51C </entry>
+<entry>62748 </entry>
+<entry>Pending character </entry>
+<entry>Private1 </entry>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>� </entry>
+<entry>FFFD </entry>
+<entry>65533 </entry>
+<entry>Replacement character </entry>
+<entry>Unicode </entry>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>☞ </entry>
+<entry>261E </entry>
+<entry>9758 </entry>
+<entry>White right pointing index </entry>
+<entry>Unicode </entry>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>☜ </entry>
+<entry>261C </entry>
+<entry>9756 </entry>
+<entry>White left pointing index </entry>
+<entry>Unicode </entry>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>❧ </entry>
+<entry>2767 </entry>
+<entry>10087 </entry>
+<entry>Rotated floral heart bullet </entry>
+<entry>Unicode </entry>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>F52D </entry>
+<entry>62765 </entry>
+<entry>Old English libra </entry>
+<entry>Private1 </entry>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>F539 </entry>
+<entry>62777 </entry>
+<entry>Visual whitespace representation (for use in user interface only) </entry>
+<entry>Private </entry>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>F53A </entry>
+<entry>62778 </entry>
+<entry>Visual whitespace representation (for use in user interface only) </entry>
+<entry>Private </entry>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry> </entry>
+<entry>F53B </entry>
+<entry>62779 </entry>
+<entry>Visual whitespace representation (for use in user interface only) </entry>
+<entry>Private </entry>
+<entry/>
+<entry/>
+</row>
+</tbody>
+</tgroup>
+</table>
+</p>    </body>
+</topic>
