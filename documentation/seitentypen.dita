@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="seitentypen">
-<title>Seitentypen</title>
+<title>Erster Schritt : Die Seitentypen</title>
 <body>
 <p>
 <div>
-<p dir="ltr" id="docs-internal-guid-700ab57a-1cb5-f90b-3c94-43a82ad0a110">Alle Regionen einer Seite
-sind auf Grundlage der definierten Typologogie der zwei Levels zu kennzeichnen. Es reicht nicht aus,
-den kompletten Satzspiegel als einen Textblock zu identifizieren, sondern die Lokalisierung einzeln
-abgrenzbarer Blöcke ist vorzunehmen. Damit ist auch eine Trennung von textuellen und
-nicht-textuellen Segmenten klar zu erkennen.</p>
+<p dir="ltr" id="docs-internal-guid-700ab57a-1cb5-f90b-3c94-43a82ad0a110">Strukturell betrachtet
+besteht ein Buch aus verschiedenen Seitentypen. Die zu erfassenden Seiten sind auf Grundlage der
+definierten Typologogie zu kennzeichnen.</p>
+<p><b>Seitentypen entspechend des PageXml-Schemas:</b> <ul id="ul_g5s_sxg_t1b">
+<li>Buchdeckel (vorn) : front-cover </li>
+<li>Buchdeckel (hinten) : back-cover </li>
+<li>Titelblatt : title </li>
+<li>Inhaltsverzeichnis : table-of-contents </li>
+<li>Register, Index : index </li>
+<li>Text des Buches : content </li>
+<li>Leerseite : blank </li>
+<li>Anderes : other</li>
+</ul> </p>
 </div>
 </p>
 </body>

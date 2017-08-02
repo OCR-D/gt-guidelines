@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="lyTextregionen">
-<title>Textregionen (TextRegion) </title>
+<title>Zweiter Schritt : Seitenregionen</title>
 <body>
-<p>Nachdem der Satzspiegel bestimmt und ausgezeichnet wurde, wird das Layout analysiert. Hierbei
-sind verschiedene Regionen zu unterscheiden. Die für die GT-Erfassung wichtigste Region ist die </p>
+<p>Auf einer Seite befinden sich verschiedene strukturell sowie inhaltliche unterschiedliche
+Regionen. Nachdem der Satzspiegel bestimmt und ausgezeichnet wurde, wird das Layout analysiert.
+Hierbei sind verschiedene Regionen zu unterscheiden und als diese auszuzeichnen. Folgende Regionen
+sind zu unterscheiden:</p>
 <ul id="ul_uxc_wdj_r1b">
-<li>Textregion, </li>
+<li>TextRegion (Textregion),</li>
 <li>die von ImageRegion (Abbildungen, Fotos), </li>
 <li>GraphicRegion (Buchschmuck, Zeichnungen), </li>
 <li>SeparatorRegion (Trennlinien), </li>
@@ -16,9 +18,16 @@ sind verschiedene Regionen zu unterscheiden. Die für die GT-Erfassung wichtigst
 <li>ChemRegion (Chemische Formeln), </li>
 <li>MusicRegion (Noten), </li>
 <li>AdvertRegion (Werbung) und </li>
-<li>NoiseRegion (Schmutz, Verfärbungen …) unterschieden wird.</li>
+<li>NoiseRegion (Schmutz, Verfärbungen …)</li>
 </ul>
-<p>Einzelne Textbereiche auf der Seite sind als einzelne Textregionen auszuzeichnen, denen eine auf
-den folgenden Abschnitten erläuterte Struktur zuzuordnen ist.</p>
+<p>Wie tief ein Text erfasst werden kann klären die Erfassungs-Level.</p>
+<note type="important"><p>Es reicht nicht aus, den kompletten Satzspiegel als eine Textregion zu identifizieren, sondern
+die Lokalisierung einzeln abgrenzbarer Blöcke ist vorzunehmen. Damit ist auch eine Trennung von
+textuellen und nicht-textuellen Segmenten klar zu erkennen.</p></note>
+
 </body>
+<related-links>
+<link href="tr_level_1_5.dita#level_1_5"/>
+<link href="tr_level_2_5.dita#level_2_5"/>
+</related-links>
 </topic>

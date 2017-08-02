@@ -85,14 +85,14 @@
     </part>
 <part href="layout.dita">
 <topicref href="lyAllgemeines.dita"/>
-<topicref href="seitentypen.dita">
-<topicref href="tr_level_1_5.dita"/>
-<topicref href="tr_level_2_5.dita"/>
-</topicref>
 <topicref href="lyTypographie.dita"/>
 <topicref href="lySatzspiegel.dita"/>
 <topicref href="lyLeserichtung.dita"/>
+<topicref href="seitentypen.dita"/>
 <topicref href="lyTextregionen.dita">
+<topicref href="tr_level_1_5.dita"/>
+<topicref href="tr_level_2_5.dita"/>
+<topicref href="lytextregion.dita">
 <topicref href="lyAbsatz.dita"/>
 <topicref href="lyUeberschrift.dita"/>
 <topicref href="lyKolumnentitel.dita"/>
@@ -104,18 +104,18 @@
 <topicref href="lyKustode.dita"/>
 <topicref href="lyDiskontinuierlich.dita"/>
 <topicref href="lyInhaltsverzeichnis.dita"/>
-</topicref> 
+</topicref>
 <topicref href="lyBildbereiche.dita"/>
 <topicref href="lySeparatoren.dita"/>
 <topicref href="lyNotenzeichen.dita"/>
 <topicref href="lyMathematische_Zeichen.dita"/>
 <topicref href="lyChemische_Symbole.dita"/>
-<topicref href="lyGraphik.dita">
-</topicref> 
+<topicref href="lyGraphik.dita"/>
 <topicref href="lyTabellen.dita.dita"/>
 <topicref href="lyWerbung.dita"/>
 <topicref href="lyRauschen.dita"/>
 <topicref href="lySonstiges.dita"/>
+</topicref>
 </part>
 <part href="trPage.dita">
 <topicref href="dok.ditamap" format="ditamap"/>
