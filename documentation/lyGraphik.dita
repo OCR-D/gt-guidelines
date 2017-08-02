@@ -3,7 +3,20 @@
 <topic id="lyGraphik">
     <title>Buchschmuck, Zeichnungen (GraphicRegion)</title>
     <body>
-        <p>Regions containing simple graphics, such as a company logo, should be marked as graphic
-regions.</p>
+    <p>Mit einer graphicRegion werden u. a. einfache Graphiken, handschriftliche Anmerkungen sowie
+Lochungen ausgezeichnet. Folgendes wird unter einer einfachen Graphik verstanden: <ul
+id="ul_ohy_wt3_t1b">
+<li>ein Logo (logo)</li>
+<li>ein graphisch gestalteter Briefkopf (letterhead)</li>
+<li>Buchschmuck (decoration)</li>
+<li>frame (Rahmen)</li>
+<li>handschriftliche Annotation (handwritten-annotation)</li>
+<li>Stempel (stamp)</li>
+<li>Unterschrift (signature)</li>
+<li>Barcode (barcode)</li>
+<li>paper-grow</li>
+<li>Lochung (punch-hole)</li>
+<li>Anderes (other)</li>
+</ul> <image href="images/lyGraphik.png" id="image_mcp_tv3_t1b"/></p>
     </body>
 </topic>
