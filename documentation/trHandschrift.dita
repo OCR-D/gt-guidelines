@@ -6,12 +6,11 @@
         <p>Handschriftliche Anmerkungen sind alle zusätzlichen zum gedruckten Text hinzugesetzten
 Zeichen, Text(e), Unterstreichungen sowie Durchstreichungen. Diese Anmerkungen sind nicht zu
 transkribieren. </p>
-<p>Bei der Erstellung des GroundTruth sind diese Anmerkungen mit dem PageXML-Element <xref
-href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_NoiseRegion" format="dita"
->NoiseRegion</xref> zu kennzeichnen. Das Attribut <b>@custom</b> bekommt den Wert: "Annotation".</p>
+<p>Handschriftliche Anmerkungen werden als GraphicRegion / handwritten-annotation behandelt.</p>
     </body>
 <related-links>
-<link href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_custom" format="dita"/>
+<link format="dita"
+href="pagecontent_xsd_Complex_Type_pc_GraphicRegionType.dita#GraphicRegionType"/>
 </related-links>
 
 </topic>
