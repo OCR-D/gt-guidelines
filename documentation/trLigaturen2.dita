@@ -5,15 +5,28 @@
   <body>
     <p>
 <table id="table_h53_3gm_gz">
-<tgroup cols="2">
+<tgroup cols="5">
 <colspec colnum="1" colname="col1"/>
 <colspec colnum="2" colname="col2"/>
+<colspec colname="newCol3" colnum="3"/>
+<colspec colname="newCol4" colnum="4"/>
+<colspec colname="newCol5" colnum="5"/>
 <tbody>
 <row>
-<entry dir="ltr"><image
+<entry dir="ltr"/>
+<entry dir="ltr"/>
+<entry><b>Level 1</b></entry>
+<entry><b>Level 2</b></entry>
+<entry><b>Level 3</b></entry>
+</row>
+<row>
+<entry><image
 href="https://lh3.googleusercontent.com/UFl568rqtCc0H-QE1G6v0AtXiUFOBNIwn9IhfypiJ9WxBxlVaVUebg6gp3gSTBtJGrHBts6Xg6BmW__1OGCHP9g5PUjrK8QYXJ8LtuZTnhDhIRdQlucLQHw5FKC2Ez1QQwBNH4OJ"
 height="31" width="29" id="image_i53_3gm_gz"/></entry>
-<entry dir="ltr">&amp;#x00C6;</entry>
+<entry>&amp;#x00C6;</entry>
+<entry>&amp;#x00C6;</entry>
+<entry>&amp;#x00C6;</entry>
+<entry>&amp;#x00C6;</entry>
 </row>
 <row>
 <entry dir="ltr"><image
@@ -26,6 +39,9 @@ height="33" width="28" id="image_l53_3gm_gz"/><image
 href="https://lh5.googleusercontent.com/nJnH5jUQeKL-pICENyIm9u3pavDGZxJS3pZ-ZkufI5cQrl7fKyx4A_fMYnaOYwrJZHH0H_Eg0kFgbGs_qt7Y2Nz-aEEW_27iPCJCDlN176-DAAt7FUjOBQh7r-PI4zOCweIZWMDI"
 height="29" width="27" id="image_m53_3gm_gz"/></entry>
 <entry dir="ltr">&amp;#x00E6;</entry>
+<entry>&amp;#x00E6;</entry>
+<entry>&amp;#x00E6;</entry>
+<entry>&amp;#x00E6;</entry>
 </row>
 <row>
 <entry dir="ltr"><image
@@ -36,12 +52,18 @@ height="26" width="24" id="image_o53_3gm_gz"/><image
 href="https://lh3.googleusercontent.com/q46hw8I2CJSpWkPrXP15vXwo6xke6H-Ya8unLq6EwCLb_1TrYvyEYK78OYlFLflVod3xmU6D8WpwJUKjOO4sT5mEJ-3ohe9wEM281kDa8XIKlOOFGfECfdD_NewQT86viT0x6CzE"
 height="27" width="24" id="image_p53_3gm_gz"/></entry>
 <entry dir="ltr">ct</entry>
+<entry>ct</entry>
+<entry><tt>textStyle {offset:0; length:2;ligatur:true;}</tt>ct</entry>
+<entry>&amp;#xEEC5;</entry>
 </row>
 <row>
 <entry dir="ltr"><image
 href="https://lh6.googleusercontent.com/bKIN22RLexNKSP218k55oZbyuwvaU18kZpONfyVXTXsqOcfUjtIuRxT-Clh-6ujcVn02cgWCIexlOKCyj0q_l9dUOegRw820Cw4MvvJw-sNCbQb7tiP65ecVNfPkQqvHJ3-A7cUG"
 height="22" width="30" id="image_q53_3gm_gz"/></entry>
 <entry dir="ltr">&amp;#x0152;</entry>
+<entry>&amp;#x0152;</entry>
+<entry>&amp;#x0152;</entry>
+<entry>&amp;#x0152;</entry>
 </row>
 <row>
 <entry dir="ltr"><image
@@ -50,6 +72,9 @@ height="20" width="22" id="image_r53_3gm_gz"/><image
 href="https://lh6.googleusercontent.com/vusV02msicxzHJm-djeMjznsJpexAWwmwftk98JE24Itdqzd_FTtEQ1QEzFFPx6PvOQuAVtscUvCdaUAf5IIFMvdYTPucv3E2jnnJUmweJKQ1sPFz3eNmIykfEPWlFQPgddvan6w"
 height="27" width="24" id="image_s53_3gm_gz"/></entry>
 <entry dir="ltr">&amp;#x0153;</entry>
+<entry>&amp;#x0153;</entry>
+<entry>&amp;#x0153;</entry>
+<entry>&amp;#x0153;</entry>
 </row>
 <row>
 <entry dir="ltr"><image
@@ -60,12 +85,18 @@ height="43" width="20" id="image_v53_3gm_gz"/><image
 href="https://lh5.googleusercontent.com/OqkgW8ZfMhGW7uauJi0VoV0adv5fusspW8HAXXHBSvhkbgaGXSjHhT_ul2_0nsGJanI-l-qrszRH5RYt3gmPl6DM9SEFI2qKEyrzjAmnMT5i-M9XrWU4sBcyB5NJg2JRtMge2C10"
 height="39" width="29" id="image_w53_3gm_gz"/> </entry>
 <entry dir="ltr">ß</entry>
+<entry>ß</entry>
+<entry>ß</entry>
+<entry>ß</entry>
 </row>
 <row>
 <entry><image
 href="https://lh3.googleusercontent.com/Q3_hfEvyFosejDgLJ0zJpqM7CJ3SELC42j6u6B-Vnb1Mi_WwGXB2RpCChQamw_JqizoItWW3JJbmAa2Zl87MVsXxippx9SFZ235M19LBI_ixpxJesD3VALE9juQ972vvlD5exb7C"
 height="42" width="20" id="image_t53_3gm_gz"/></entry>
 <entry>&amp;#x017F;z (Hinweis: es handelt sich nicht um eine Ligatur)</entry>
+<entry>&amp;#x017F;z </entry>
+<entry>&amp;#x017F;z </entry>
+<entry>&amp;#x017F;z </entry>
 </row>
 <row>
 <entry><image
@@ -74,6 +105,9 @@ height="41" width="29" id="image_x53_3gm_gz"/></entry>
 <entry>&amp;#x017F;s <p>
 <note>(Hinweis: es handelt sich nicht um eine Ligatur)</note>
 </p></entry>
+<entry>&amp;#x017F;s </entry>
+<entry>&amp;#x017F;s </entry>
+<entry>&amp;#x017F;s </entry>
 </row>
 <row>
 <entry dir="ltr"><image
@@ -82,18 +116,31 @@ height="27" width="20" id="image_y53_3gm_gz"/><image
 href="https://lh3.googleusercontent.com/hNxj_ywTmSpbX6VxaFEC_LGIA0fDBW_OMRUS9evpcIw8JLB6WulztE2LICbMK1nHhiFmcFi0M689Qv3LRgBsIBKdeSF3bngH3DuDtb5R_y4_27tgkSpu1pRzg-hGxnGsO1GBtj2A"
 height="31" width="20" id="image_z53_3gm_gz"/></entry>
 <entry dir="ltr">&amp;#x017F;p</entry>
+<entry>&amp;#x017F;p</entry>
+<entry><tt>textStyle {offset:0; length:2;ligatur:true;}</tt>&amp;#x017F;p</entry>
+<entry/>
 </row>
 <row>
 <entry dir="ltr"><image
 href="https://lh6.googleusercontent.com/pfi6jpAEIe6uLk5E5D6GV0_Zu6XXEPJb1v9dNaZYrSFGhkwg_NfQ-CA4hbfZ9JxdByvHtacOCsvA025TJVi6yEGX4HG9pRayie4yD4onwdIa7NfnUh0MLZ-82VVrIv558L11CCS2"
 height="29" width="20" id="image_av3_3gm_gz"/><image
 href="https://lh3.googleusercontent.com/JKXh2oHHOcrERQPoA6zubWkfUt-t-J1lIgwtjcXbdH4yfB1MwaWXD4ijYTUd7nTLSpamrS9RQHb_WxKtOPtxnIjKn3wrGdS2V77MyVjKRkYOcbLz5gNmMugdgKliRknzpDP1UF-Z"
-height="34" width="25" id="image_bv3_3gm_gz"/><image
-href="https://lh4.googleusercontent.com/nVdk3PTa-ja0TbhkI3niyLQdHmEwK17kcPMJc486I-OSLiQfy6TiLZWt6Kjelx1mWhr7vUZXxa2ACEvikXU6kz58GH1C7FrXnxdk2dOGDe7t7-OmCmGXD2uDeplw1FA0uT1SmTwy"
-height="35" width="22" id="image_cv3_3gm_gz"/><image
+height="34" width="25" id="image_bv3_3gm_gz"/></entry>
+<entry dir="ltr">st</entry>
+<entry>st</entry>
+<entry>&amp;#xFB06;</entry>
+<entry>&amp;#xFB06;</entry>
+</row>
+<row>
+<entry><image
 href="https://lh6.googleusercontent.com/M8i4DxBgaOcPB8xm67ibX25_qkz-lujPETCtbt36OPnbQ5CbqSNmZE0h1op0Q5MKalnloeH6HTmVH93YXiuC8Lfjz8xYtYtausAUKokZare1pIZY3rergCmwXSoYzbdeoLJDleN4"
-height="36" width="19" id="image_dv3_3gm_gz"/></entry>
-<entry dir="ltr">&amp;#x017F;t</entry>
+height="36" width="19" id="image_dv3_3gm_gz"/><image
+href="https://lh4.googleusercontent.com/nVdk3PTa-ja0TbhkI3niyLQdHmEwK17kcPMJc486I-OSLiQfy6TiLZWt6Kjelx1mWhr7vUZXxa2ACEvikXU6kz58GH1C7FrXnxdk2dOGDe7t7-OmCmGXD2uDeplw1FA0uT1SmTwy"
+height="35" width="22" id="image_cv3_3gm_gz"/></entry>
+<entry>&amp;#x017F;t</entry>
+<entry>&amp;#x017F;t</entry>
+<entry><tt>textStyle {offset:0; length:2;ligatur:true;}</tt>&amp;#x017F;t</entry>
+<entry>&amp;#xEADA;</entry>
 </row>
 <row>
 <entry dir="ltr"><image
@@ -104,18 +151,27 @@ height="42" width="21" id="image_fv3_3gm_gz"/><image
 href="https://lh3.googleusercontent.com/O55SBvqFz8x1z0EaTEhnX5YtBwkFL_Y5M6uk0SSDLu1PyEStB7f-PAwA3dtg8GDWidIO7osalfUxpklFax0X6iW06LFDVo24TyjGXODBQHQ0m1d_BRVRc9l-sXsvBoE9QipcCdFI"
 height="43" width="23" id="image_gv3_3gm_gz"/></entry>
 <entry dir="ltr">tz</entry>
+<entry>tz</entry>
+<entry><tt>textStyle {offset:0; length:2;ligatur:true;}</tt>tz</entry>
+<entry>&amp;#xEEDC;</entry>
 </row>
 <row>
 <entry dir="ltr"><image
 href="https://lh3.googleusercontent.com/mT_4BhvuonrWdOd3cKQyJpmcTpiLLkV0WkJsBxWxLuy5lZ7RJRqbhuoO97g_0guohQQ9OZX3ciYWAlXEe3hmm403LTIhAedc0nUnC9PRupemIDOLwkOhZfMPkKBlASJ_4zcXsBj7"
 height="24" width="29" id="image_hv3_3gm_gz"/></entry>
 <entry dir="ltr">jtzo</entry>
+<entry>jtzo</entry>
+<entry>j<tt>textStyle {offset:0; length:2;ligatur:true;}</tt>tzo</entry>
+<entry>j&amp;#xEEDC;o</entry>
 </row>
 <row>
 <entry dir="ltr"><image
 href="https://lh3.googleusercontent.com/aJRc9Y97MQKvbrjTxJlxRGsX5yb0MIjhOtAmTo8HRDBH0K1HWoO_ds-kRdNA6V6GA5tGbSaS19n5OtdnrmezJO2ODyG0iMsA9M_2oFei-isYKyBiYTUvW_8zfQMNocvPD8oKb1yn"
 height="24" width="35" id="image_iv3_3gm_gz"/></entry>
 <entry dir="ltr">&amp;#xA75B;tc.</entry>
+<entry>&amp;#xA75B;tc.</entry>
+<entry>&amp;#xA75B;tc.</entry>
+<entry>&amp;#xA75B;tc.</entry>
 </row>
 <row>
 <entry dir="ltr"><image
@@ -124,24 +180,36 @@ height="23" width="25" id="image_jv3_3gm_gz"/><image
 href="https://lh4.googleusercontent.com/0j8lH9iZ0b5uy_zb8B9tjH4Lyhy23ywLF9hpzqs0LO1kqrZTnvYP64VcZUYIE-Wb5SzCP_wLyhZoI0CoeFQMObXmwzbhFIzNPnkcyGmWhArd_tDqIzXsbsS0a270I86daNBJYRW_"
 height="24" width="26" id="image_kv3_3gm_gz"/></entry>
 <entry dir="ltr">&amp;#xA75B;c.</entry>
+<entry>&amp;#xA75B;c.</entry>
+<entry>&amp;#xA75B;c.</entry>
+<entry>&amp;#xA75B;c.</entry>
 </row>
 <row>
 <entry dir="ltr"><image
 href="https://lh4.googleusercontent.com/w7gFJdfurkUa74A-P3WUpDh903SsIuF2x2gK2lEhkpdcIYQ-ESWnmxfCjEF5JIiNrBy62Rp9bEL1wUwT3wsLO8GQHHz2OuFGcd_gDGzgR7lqo0evGRtBAw_HEephN66AztDhXCPJ"
 height="45" width="20" id="image_qvr_5fm_gz"/></entry>
 <entry dir="ltr">ij</entry>
+<entry>ij</entry>
+<entry>&amp;#x0133;</entry>
+<entry>&amp;#x0133;</entry>
 </row>
 <row>
 <entry dir="ltr"><image
 href="https://lh6.googleusercontent.com/v9B4YTPSqORvQaZs6GaAHfzMdOHJGxA904Hga-UsibqJDUTl-11mqRbX8Xuj7ODn_vulfmYW-TQBKR8PHmgbwtEIcyLnoF9vU0JbXylDG4WNuTFmfbErjt2echwVJx0qQmwi8ubr"
 height="20" width="39" id="image_lv3_3gm_gz"/></entry>
 <entry dir="ltr">&amp;c.</entry>
+<entry>&amp;#x0026;c</entry>
+<entry>&amp;#x0026;c</entry>
+<entry>&amp;#x0026;c</entry>
 </row>
 <row>
 <entry dir="ltr"><image
 href="https://lh3.googleusercontent.com/eV7gj73lhm66FoJNjeQj4B-Qw7_VqnpU086p9mVLm2BbZyyfZkKI3pNwup4_-tGChV-91-klJ_HtAL1kLS-gwHLjkFeTlEpGv56SZlEF1-BoiTvL2-YSwxTzz2CPfBN7pSPaIk4m"
 height="23" width="35" id="image_mv3_3gm_gz"/></entry>
 <entry dir="ltr">&amp;&amp;#x00E7;</entry>
+<entry>&amp;#x0026;&amp;#x00E7;</entry>
+<entry>&amp;#x0026;&amp;#x00E7;</entry>
+<entry>&amp;#x0026;&amp;#x00E7;</entry>
 </row>
 <row>
 <entry dir="ltr"><image
@@ -156,6 +224,9 @@ height="29" width="28" id="image_qv3_3gm_gz"/><image
 href="https://lh4.googleusercontent.com/kMAJJF4yrNU-sXngqkEyFqgWDe2gATCG2FyI8pvwMr7eFVBs587sczbHS5sOTMHfYdhVBAovTvIzWfhqCdCoiTBM_D55-qaCt_YK449DxYPSLHaBmM5BKOFXtFPLpePvYov4jyaK"
 height="27" width="27" id="image_rv3_3gm_gz"/></entry>
 <entry dir="ltr">&amp;</entry>
+<entry>&amp;#x0026;</entry>
+<entry>&amp;#x0026;</entry>
+<entry>&amp;#x0026;</entry>
 </row>
 </tbody>
 </tgroup>
