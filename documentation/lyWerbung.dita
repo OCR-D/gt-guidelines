@@ -3,8 +3,17 @@
 <topic id="lyWerbung">
     <title>Werbung (AdvertRegion)</title>
     <body>
-    <p></p><fig id="fig_lsx_bsp_t1b">
-    <title>Abbildung 1: polygone Segmente, Quelle: Berliner Lokal Anzeiger, 14 Mai 1910.</title>
+<p>Werbung, Anzeigen, Reklame, Annonce, Inserate sind als <tt>AdvertRegion</tt> zu kennzeichnen.
+Innerhalb einer Anzeige können sich weitere Regionen befinden, die entsprechend ihrer strukturellen
+Bedeutung ebenfalls zu markieren sind.</p>
+
+<fig>
+<title>Buchanzeige</title>
+<image href="images/lyWerbung.png" id="image_in3_dmr_51b"/>
+</fig>
+
+<fig id="fig_lsx_bsp_t1b">
+    <title>polygone Segmente, Quelle: Berliner Lokal Anzeiger, 14 Mai 1910.</title>
     <desc>Link: <xref
     href="http://zefys.staatsbibliothek-berlin.de/dfg-viewer/?no_cache=1&amp;set[image]=8&amp;set[zoom]=default&amp;set[debug]=0&amp;set[double]=0&amp;set[mets]=http%3A%2F%2Fzefys.staatsbibliothek-berlin.de%2Foai%2F%3Ftx_zefysoai_pi1%255Bidentifier%255D%3D2e9ef054-0947-4b14-b45e-1fb41a76a170"
     format="html" scope="external"
@@ -14,4 +23,10 @@
     height="481" width="320" id="image_vj5_hyz_l1b"/>
     </fig>
     </body>
+<related-links>
+<link
+href="pagecontent_xsd_Complex_Type_pc_AdvertRegionType.dita#AdvertRegionType" format="dita"
+/><link
+href="pagecontent_xsd_Complex_Type_pc_TextRegionType.dita#TextRegionType" format="dita"/>
+</related-links>
 </topic>
