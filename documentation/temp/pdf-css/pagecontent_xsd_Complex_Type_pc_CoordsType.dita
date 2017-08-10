@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Users\matthias\Documents\GitHub\Transkriptionsrichtline\documentation\temp\pdf-css?><?workdir-uri file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/temp/pdf-css/?><?path2project?><?path2project-uri ./?><?doctype-public -//OASIS//DTD DITA Topic//EN?><?doctype-system topic.dtd?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/topic " ditaarch:DITAArchVersion="1.3" domains="(topic abbrev-d)                            a(props deliveryTarget)                            (topic equation-d)                            (topic hazard-d)                            (topic hi-d)                            (topic indexing-d)                            (topic markup-d)                            (topic mathml-d)                            (topic pr-d)                            (topic relmgmt-d)                            (topic sw-d)                            (topic svg-d)                            (topic ui-d)                            (topic ut-d)                            (topic markup-d xml-d)   " id="CoordsType" xtrc="topic:1;4:24" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+   <title class="- topic/title " xtrc="title:1;5:11" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">Complex Type pc:CoordsType</title><prolog class="- topic/prolog "><authorinformation class="+ topic/author xnal-d/authorinformation " xtrc="authorinformation:1;9:28" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/ocrd.ditamap">
+            <personinfo class="+ topic/data xnal-d/personinfo " xtrc="personinfo:1;10:25" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/ocrd.ditamap">
+                <namedetails class="+ topic/data xnal-d/namedetails " xtrc="namedetails:1;11:30" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/ocrd.ditamap">
+                    <personname class="+ topic/data xnal-d/personname " xtrc="personname:1;12:33" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/ocrd.ditamap">
+                        <firstname class="+ topic/data xnal-d/firstname " xtrc="firstname:1;13:36" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/ocrd.ditamap">Matthias</firstname>
+                        <lastname class="+ topic/data xnal-d/lastname " xtrc="lastname:1;14:35" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/ocrd.ditamap">Boenig</lastname>
+                    </personname>
+                </namedetails>
+            </personinfo>
+            <organizationinfo class="+ topic/data xnal-d/organizationinfo " xtrc="organizationinfo:1;18:31" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/ocrd.ditamap">
+                <namedetails class="+ topic/data xnal-d/namedetails " xtrc="namedetails:2;19:30" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/ocrd.ditamap">
+                    <organizationnamedetails class="+ topic/ph xnal-d/organizationnamedetails " xtrc="organizationnamedetails:1;20:46" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/ocrd.ditamap">
+                        <organizationname class="+ topic/ph xnal-d/organizationname " xtrc="organizationname:1;21:43" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/ocrd.ditamap">OCR-D, Zentrum Sprache, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</organizationname>
+                    </organizationnamedetails>
+                </namedetails>
+            </organizationinfo>
+        </authorinformation><authorinformation class="+ topic/author xnal-d/authorinformation " xtrc="authorinformation:1;9:28" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/ocrd.ditamap">
+            <personinfo class="+ topic/data xnal-d/personinfo " xtrc="personinfo:1;10:25" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/ocrd.ditamap">
+                <namedetails class="+ topic/data xnal-d/namedetails " xtrc="namedetails:1;11:30" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/ocrd.ditamap">
+                    <personname class="+ topic/data xnal-d/personname " xtrc="personname:1;12:33" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/ocrd.ditamap">
+                        <firstname class="+ topic/data xnal-d/firstname " xtrc="firstname:1;13:36" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/ocrd.ditamap">Matthias</firstname>
+                        <lastname class="+ topic/data xnal-d/lastname " xtrc="lastname:1;14:35" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/ocrd.ditamap">Boenig</lastname>
+                    </personname>
+                </namedetails>
+            </personinfo>
+            <organizationinfo class="+ topic/data xnal-d/organizationinfo " xtrc="organizationinfo:1;18:31" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/ocrd.ditamap">
+                <namedetails class="+ topic/data xnal-d/namedetails " xtrc="namedetails:2;19:30" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/ocrd.ditamap">
+                    <organizationnamedetails class="+ topic/ph xnal-d/organizationnamedetails " xtrc="organizationnamedetails:1;20:46" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/ocrd.ditamap">
+                        <organizationname class="+ topic/ph xnal-d/organizationname " xtrc="organizationname:1;21:43" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/ocrd.ditamap">OCR-D, Zentrum Sprache, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</organizationname>
+                    </organizationnamedetails>
+                </namedetails>
+            </organizationinfo>
+        </authorinformation><critdates class="- topic/critdates " xtrc="critdates:1;26:20" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/ocrd.ditamap">
+            <created class="- topic/created " date="March, 2017" xtrc="created:1;27:42" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/ocrd.ditamap"/>
+        </critdates></prolog>
+   <body class="- topic/body " xtrc="body:1;6:10" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+      <table class="- topic/table " colsep="1" frame="all" rowsep="1" xtrc="table:1;7:48" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+         <tgroup class="- topic/tgroup " cols="2" xtrc="tgroup:1;8:27" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+            <colspec align="left" class="- topic/colspec " colname="col1" colnum="1" colwidth="3*" rowheader="headers" xtrc="colspec:1;9:50" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita"/>
+            <colspec align="left" class="- topic/colspec " colname="col2" colnum="2" colwidth="25*" rowheader="headers" xtrc="colspec:2;10:51" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita"/>
+            <tbody class="- topic/tbody " xtrc="tbody:1;11:20" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+               <row class="- topic/row " xtrc="row:1;12:21" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+                  <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="1" xtrc="entry:1;13:26" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">Namespace</entry>
+                  <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="1" xtrc="entry:2;14:26" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">http://schema.primaresearch.org/PAGE/gts/pagecontent/2016-07-15</entry>
+               </row>
+               <row class="- topic/row " xtrc="row:2;16:21" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+                  <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="2" xtrc="entry:3;17:26" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">Diagram</entry>
+                  <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="2" xtrc="entry:4;18:26" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+                     <p class="- topic/p " xtrc="p:1;19:25" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+                            
+                                    
+                                    <imagemap class="+ topic/fig ut-d/imagemap " id="pagecontent_xsd_Complex_Type_pc_CoordsType" xtrc="imagemap:1;22:95" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+                                        
+                                        <image class="- topic/image " href="img/pagecontent_xsd_Complex_Type_pc_CoordsType.jpeg" placement="inline" xtrc="image:1;24:108" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita"/>
+                                        
+                                          
+                                            <area class="+ topic/figgroup ut-d/area " xtrc="area:1;27:51" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+                                                <shape class="+ topic/keyword ut-d/shape " translate="no" xtrc="shape:1;28:56" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">rect</shape>
+                                                <coords class="+ topic/ph ut-d/coords " translate="no" xtrc="coords:1;29:57" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">156,39,287,83</coords>
+                                                
+                                                <xref class="- topic/xref " href="pagecontent_xsd_Complex_Type_pc_CoordsType.dita#CoordsType_points" xtrc="xref:1;31:129" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita" type="topic"><?ditaot gentext?>Attribute pc:CoordsType / @points</xref>
+                                            </area>
+                                        
+                                    </imagemap>
+                        </p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrc="row:3;38:21" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+                  <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="3" xtrc="entry:5;39:26" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">Used by</entry>
+                  <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="3" xtrc="entry:6;40:26" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+                     <p class="- topic/p " xtrc="p:2;41:25" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+                        <table class="- topic/table " colsep="1" frame="all" rowsep="1" xtrc="table:2;42:66" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+                           <tgroup class="- topic/tgroup " cols="2" xtrc="tgroup:2;43:45" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+                              <colspec align="left" class="- topic/colspec " colname="col1" colnum="1" colwidth="2*" rowheader="headers" xtrc="colspec:3;44:68" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita"/>
+                              <colspec align="left" class="- topic/colspec " colname="col2" colnum="2" colwidth="8*" rowheader="headers" xtrc="colspec:4;45:68" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita"/>
+                              <tbody class="- topic/tbody " xtrc="tbody:2;46:38" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+                                 <row class="- topic/row " xtrc="row:4;47:39" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+                                    <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="1" xtrc="entry:7;48:44" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">Elements </entry>
+                                    <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="1" xtrc="entry:8;49:44" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+                                       <xref class="- topic/xref " href="pagecontent_xsd_Complex_Type_pc_BorderType.dita#BorderType_Coords" xtrc="xref:2;50:120" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita" type="topic"><?ditaot gentext?>Element pc:BorderType / pc:Coords</xref>, <xref class="- topic/xref " href="pagecontent_xsd_Complex_Type_pc_GlyphType.dita#GlyphType_Coords" xtrc="xref:3;50:200" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita" type="topic"><?ditaot gentext?>Element pc:GlyphType / pc:Coords</xref>, <xref class="- topic/xref " href="pagecontent_xsd_Complex_Type_pc_PrintSpaceType.dita#PrintSpaceType_Coords" xtrc="xref:4;50:290" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita" type="topic"><?ditaot gentext?>Element pc:PrintSpaceType / pc:Coords</xref>, <xref class="- topic/xref " href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_Coords" xtrc="xref:5;50:372" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita" type="topic"><?ditaot gentext?>Element pc:RegionType / pc:Coords</xref>, <xref class="- topic/xref " href="pagecontent_xsd_Complex_Type_pc_TextLineType.dita#TextLineType_Coords" xtrc="xref:6;50:458" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita" type="topic"><?ditaot gentext?>Element pc:TextLineType / pc:Coords</xref>, <xref class="- topic/xref " href="pagecontent_xsd_Complex_Type_pc_WordType.dita#WordType_Coords" xtrc="xref:7;50:536" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita" type="topic"><?ditaot gentext?>Element pc:WordType / pc:Coords</xref>
+                                    </entry>
+                                 </row>
+                              </tbody>
+                           </tgroup>
+                        </table>
+                     </p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrc="row:5;59:21" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+                  <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="4" xtrc="entry:9;60:26" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">Attributes</entry>
+                  <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="4" xtrc="entry:10;61:26" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+                     <p class="- topic/p " xtrc="p:3;62:25" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+                        <table class="- topic/table " colsep="1" frame="all" rowsep="1" xtrc="table:3;63:66" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+                           <tgroup class="- topic/tgroup " cols="3" xtrc="tgroup:3;64:45" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+                              <colspec align="left" class="- topic/colspec " colname="col1" colnum="1" colwidth="3*" rowheader="headers" xtrc="colspec:5;65:94" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita"/>
+                              <colspec align="left" class="- topic/colspec " colname="col2" colnum="2" colwidth="3*" rowheader="headers" xtrc="colspec:6;66:94" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita"/>
+                              <colspec align="left" class="- topic/colspec " colname="col3" colnum="3" colwidth="1*" rowheader="headers" xtrc="colspec:7;67:94" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita"/>
+                              <thead class="- topic/thead " xtrc="thead:1;68:38" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+                                 <row class="- topic/row " xtrc="row:6;69:39" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+                                    <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="1" xtrc="entry:11;70:44" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">QName</entry>
+                                    <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="1" xtrc="entry:12;71:44" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">Type</entry>
+                                    <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="1" xtrc="entry:13;72:44" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">Use</entry>
+                                 </row>
+                              </thead>
+                              <tbody class="- topic/tbody " xtrc="tbody:3;75:38" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+                                 <row class="- topic/row " xtrc="row:7;76:39" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+                                    <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="2" xtrc="entry:14;77:44" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+                                       <xref class="- topic/xref " href="pagecontent_xsd_Complex_Type_pc_CoordsType.dita#CoordsType_points" xtrc="xref:8;78:120" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita" type="topic"><?ditaot gentext?>Attribute pc:CoordsType / @points</xref>
+                                    </entry>
+                                    <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="2" xtrc="entry:15;80:44" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+                                       <xref class="- topic/xref " href="pagecontent_xsd_Simple_Type_pc_PointsType.dita#PointsType" xtrc="xref:9;81:112" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita" type="topic"><?ditaot gentext?>Simple Type pc:PointsType</xref>
+                                    </entry>
+                                    <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="2" xtrc="entry:16;83:44" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">required</entry>
+                                 </row>
+                                 <row class="- topic/row " xtrc="row:8;85:39" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+                                    <entry class="- topic/entry " colname="col1" dita-ot:morecols="2" dita-ot:x="1" dita-ot:y="3" nameend="col3" namest="col1" xtrc="entry:17;86:73" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+                                       <codeblock class="+ topic/pre pr-d/codeblock " outputclass="language-xml" xml:space="preserve" xtrc="codeblock:1;87:78" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">Point list with format "x1,y1 x2,y2 ..."</codeblock>
+                                    </entry>
+                                 </row>
+                              </tbody>
+                           </tgroup>
+                        </table>
+                     </p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrc="row:9;96:21" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+                  <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="5" xtrc="entry:18;97:26" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">Source</entry>
+                  <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="5" xtrc="entry:19;98:26" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+                     <codeblock class="+ topic/pre pr-d/codeblock " outputclass="language-xml" xml:space="preserve" xtrc="codeblock:2;99:60" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">&lt;complexType name="CoordsType"&gt;
+  &lt;attribute name="points" use="required" type="pc:PointsType"&gt;
+    &lt;annotation&gt;
+      &lt;documentation&gt;Point list with format "x1,y1 x2,y2 ..."&lt;/documentation&gt;
+    &lt;/annotation&gt;
+  &lt;/attribute&gt;
+&lt;/complexType&gt;</codeblock>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrc="row:10;108:21" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+                  <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="6" xtrc="entry:20;109:26" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">Schema location</entry>
+                  <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="6" xtrc="entry:21;110:26" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2016-07-15/pagecontent.xsd</entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+   </body>
+   <topic class="- topic/topic " ditaarch:DITAArchVersion="1.3" domains="(topic abbrev-d)                            a(props deliveryTarget)                            (topic equation-d)                            (topic hazard-d)                            (topic hi-d)                            (topic indexing-d)                            (topic markup-d)                            (topic mathml-d)                            (topic pr-d)                            (topic relmgmt-d)                            (topic sw-d)                            (topic svg-d)                            (topic ui-d)                            (topic ut-d)                            (topic markup-d xml-d)   " id="CoordsType_points" xtrc="topic:2;116:34" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+      <title class="- topic/title " xtrc="title:2;117:14" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">Attribute pc:CoordsType / @points</title>
+      <body class="- topic/body " xtrc="body:2;118:13" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+         <table class="- topic/table " colsep="1" frame="all" rowsep="1" xtrc="table:4;119:51" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+            <tgroup class="- topic/tgroup " cols="2" xtrc="tgroup:4;120:30" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+               <colspec align="left" class="- topic/colspec " colname="col1" colnum="1" colwidth="3*" rowheader="headers" xtrc="colspec:8;121:53" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita"/>
+               <colspec align="left" class="- topic/colspec " colname="col2" colnum="2" colwidth="25*" rowheader="headers" xtrc="colspec:9;122:54" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita"/>
+               <tbody class="- topic/tbody " xtrc="tbody:4;123:23" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+                  <row class="- topic/row " xtrc="row:11;124:24" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+                     <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="1" xtrc="entry:22;125:29" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">Namespace</entry>
+                     <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="1" xtrc="entry:23;126:29" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">No namespace</entry>
+                  </row>
+                  <row class="- topic/row " xtrc="row:12;128:24" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+                     <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="2" xtrc="entry:24;129:29" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">Annotations</entry>
+                     <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="2" xtrc="entry:25;130:29" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+                        <codeblock class="+ topic/pre pr-d/codeblock " outputclass="language-xml" xml:space="preserve" xtrc="codeblock:3;131:63" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">Point list with format "x1,y1 x2,y2 ..."</codeblock>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrc="row:13;134:24" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+                     <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="3" xtrc="entry:26;135:29" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">Type</entry>
+                     <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="3" xtrc="entry:27;136:29" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+                        <xref class="- topic/xref " href="pagecontent_xsd_Simple_Type_pc_PointsType.dita#PointsType" xtrc="xref:10;137:97" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita" type="topic"><?ditaot gentext?>Simple Type pc:PointsType</xref>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrc="row:14;140:24" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+                     <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="4" xtrc="entry:28;141:29" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">Properties</entry>
+                     <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="4" xtrc="entry:29;142:29" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+                        <p class="- topic/p " xtrc="p:4;143:28" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+                           <table class="- topic/table " colsep="1" frame="all" rowsep="1" xtrc="table:5;144:69" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+                              <tgroup class="- topic/tgroup " cols="2" xtrc="tgroup:5;145:48" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+                                 <colspec align="left" class="- topic/colspec " colname="col1" colnum="1" colwidth="2*" rowheader="headers" xtrc="colspec:10;146:71" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita"/>
+                                 <colspec align="left" class="- topic/colspec " colname="col2" colnum="2" colwidth="8*" rowheader="headers" xtrc="colspec:11;147:71" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita"/>
+                                 <tbody class="- topic/tbody " xtrc="tbody:5;148:41" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+                                    <row class="- topic/row " xtrc="row:15;149:42" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+                                       <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="1" xtrc="entry:30;150:47" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">use: </entry>
+                                       <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="1" xtrc="entry:31;151:47" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+                                          <b class="+ topic/ph hi-d/b " xtrc="b:1;152:46" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">required</b>
+                                       </entry>
+                                    </row>
+                                 </tbody>
+                              </tgroup>
+                           </table>
+                        </p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrc="row:16;161:24" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+                     <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="5" xtrc="entry:32;162:29" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">Facets</entry>
+                     <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="5" xtrc="entry:33;163:29" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+                        <p class="- topic/p " xtrc="p:5;164:28" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+                           <table class="- topic/table " colsep="1" frame="all" rowsep="1" xtrc="table:6;165:69" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+                              <tgroup class="- topic/tgroup " cols="3" xtrc="tgroup:6;166:48" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+                                 <colspec align="left" class="- topic/colspec " colname="col1" colnum="1" colwidth="2*" rowheader="headers" xtrc="colspec:12;167:71" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita"/>
+                                 <colspec align="left" class="- topic/colspec " colname="col2" colnum="2" colwidth="3*" rowheader="headers" xtrc="colspec:13;168:71" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita"/>
+                                 <colspec align="left" class="- topic/colspec " colname="col3" colnum="3" colwidth="5*" rowheader="headers" xtrc="colspec:14;169:71" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita"/>
+                                 <tbody class="- topic/tbody " xtrc="tbody:6;170:41" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+                                    <row class="- topic/row " xtrc="row:17;171:42" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+                                       <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="1" xtrc="entry:34;172:47" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">pattern</entry>
+                                       <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="1" xtrc="entry:35;173:47" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">([0-9]+,[0-9]+ )+([0-9]+,[0-9]+)</entry>
+                                       <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="1" xtrc="entry:36;174:48" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita"/>
+                                    </row>
+                                 </tbody>
+                              </tgroup>
+                           </table>
+                        </p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrc="row:18;182:24" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+                     <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="6" xtrc="entry:37;183:29" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">Used by</entry>
+                     <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="6" xtrc="entry:38;184:29" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+                        <p class="- topic/p " xtrc="p:6;185:28" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+                           <table class="- topic/table " colsep="1" frame="all" rowsep="1" xtrc="table:7;186:69" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+                              <tgroup class="- topic/tgroup " cols="2" xtrc="tgroup:7;187:48" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+                                 <colspec align="left" class="- topic/colspec " colname="col1" colnum="1" colwidth="2*" rowheader="headers" xtrc="colspec:15;188:71" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita"/>
+                                 <colspec align="left" class="- topic/colspec " colname="col2" colnum="2" colwidth="8*" rowheader="headers" xtrc="colspec:16;189:71" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita"/>
+                                 <tbody class="- topic/tbody " xtrc="tbody:7;190:41" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+                                    <row class="- topic/row " xtrc="row:19;191:42" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+                                       <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="1" xtrc="entry:39;192:47" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">Complex Type </entry>
+                                       <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="1" xtrc="entry:40;193:47" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+                                          <xref class="- topic/xref " href="pagecontent_xsd_Complex_Type_pc_CoordsType.dita#CoordsType" xtrc="xref:11;194:116" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita" type="topic"><?ditaot gentext?>Complex Type pc:CoordsType</xref>
+                                       </entry>
+                                    </row>
+                                 </tbody>
+                              </tgroup>
+                           </table>
+                        </p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrc="row:20;203:24" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+                     <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="7" xtrc="entry:41;204:29" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">Source</entry>
+                     <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="7" xtrc="entry:42;205:29" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+                        <codeblock class="+ topic/pre pr-d/codeblock " outputclass="language-xml" xml:space="preserve" xtrc="codeblock:4;206:63" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">&lt;attribute name="points" use="required" type="pc:PointsType"&gt;
+  &lt;annotation&gt;
+    &lt;documentation&gt;Point list with format "x1,y1 x2,y2 ..."&lt;/documentation&gt;
+  &lt;/annotation&gt;
+&lt;/attribute&gt;</codeblock>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrc="row:21;213:24" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">
+                     <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="8" xtrc="entry:43;214:29" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">Schema location</entry>
+                     <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="8" xtrc="entry:44;215:29" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtline/documentation/pagecontent_xsd_Complex_Type_pc_CoordsType.dita">http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2016-07-15/pagecontent.xsd</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </body>
+   </topic>
+</topic>
