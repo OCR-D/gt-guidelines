@@ -3,12 +3,11 @@ Version 1.0
 2017-07-21 
 
 ##Erste Schritte
-
-
-1. Öffnen Sie die Datei **ocrd.ditamap** im Oxygen-Editor. Ein Oxygen-Editor mit trial-Lizenz genügt für die ersten Schritte, der volle Funktionsumfang wird auch in dieser Version geboten. Alternativ zum Oxygen-Editor können Sie auch 
+###Hinweis: Arbeiten Sie mit einem XML-Editor. Für die ersten Schritte genügt ein Oxygen-Editor mit trial-Lizenz, der volle Funktionsumfang wird auch mit dieser Version geboten. Alternativ zum Oxygen-Editor können Sie auch 
 [Eclipse](https://www.eclipse.org/) verwendet.
+
+1. Öffnen Sie die Datei **ocrd.ditamap** im Oxygen-Editor. Die Ditamap **ocrd.ditamap** befindet sich im Ordner **documentation**.
 2. In der Ditamap **ocrd.ditamap** können Sie zum gewünschen Thema springen.
-3. Die Ditamap **ocrd.ditamap** befindet sich im Ordner **documentation**.
 3. Im Ordner **pagexml_dokumentation** befindet sich die automatisch erstellte page-xml Dokumentation.
 
 
