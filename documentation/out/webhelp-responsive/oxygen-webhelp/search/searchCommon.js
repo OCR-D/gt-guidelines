@@ -377,7 +377,7 @@ function computeSearchItemHTML(searchItem, whDistribution, hasSimilarPages, simi
         //console.info("missing words: ", missingWords);
         var missingHTML =
             "<div class=\"wh_missing_words\">" +
-            getLocalization('missing') + " : ";
+            getLocalization('Missing') + " : ";
         for (var widx = 0; widx < missingWords.length; widx++) {
             missingHTML += "<span class=\"wh_missing_word\">" + missingWords[widx] + "</span> "
         }
@@ -388,7 +388,7 @@ function computeSearchItemHTML(searchItem, whDistribution, hasSimilarPages, simi
     if (!wh_mobile && hasSimilarPages) {
         var similarHTML =
             '<a class="showSimilarPages" ' +
-            'onclick="showSimilarResults(this)">' + getLocalization('Similar results') +  '...</a>';
+            'onclick="showSimilarResults(this)">Similar results...</a>';
 
         searchItemInfo += similarHTML;
     }

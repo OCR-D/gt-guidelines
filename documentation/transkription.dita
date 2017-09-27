@@ -17,8 +17,8 @@ scope="external">Wolfenbütteler Digitalen Bibliothek</xref> der Herzog August B
 von Projekten und digitalen Sammlungen anderer Bibliotheken sowie zusätzliche Ground-Truth-Daten,
 die zusammen mit Modulprojekten erarbeitet werden, können in Abstimmung mit dem
 OCR-D-Koordinierungsgremium in das Korpus als spezielle Erweiterungen aufgenommen werden. Sollten
-zusätzliche Annotationen oder oder spezifische Transkriptionsanweisungen für Texte notwendig sein,
-können diese in Abstimmung erstellt werden.</p>
+zusätzliche Annotationen oder spezifische Transkriptionsanweisungen für Texte notwendig sein, können
+diese in Abstimmung erstellt werden.</p>
 <p><b>Ziele</b> der Bereitstellung von Ground Truth Daten sind: <ul id="ul_ckm_mmm_gz">
 <li>Vorlagen und Daten zum Zweck des Trainings von OCR Programmen bereit zu stellen,</li>
 <li>sowie eine Prüfung und Evaluation der OCR-Erkennungsergebnisse vornehmen zu können.</li>
@@ -55,16 +55,16 @@ und <b>nicht</b> an <b>drucktechnische Gegebenheiten.</b> So werden zum Beispiel
 <b>Ligaturen nur eigenständige Zeichen </b>mit einem spezifischen Codepoint unter Nutzung von
 <b>standardisierten Codierungen</b> (Unicode), der Kombination von <b>standardisierten
 Codierungen</b> (Unicode), <b> communitynormierten Codierungen</b> (MUFI) und durch das
-Koordienierungsgremium <b>festgelegten Codierungen</b> abgebildet. <b>Drucktechnische Ligaturen</b>
+Koordinierungsgremium <b>festgelegten Codierungen</b> abgebildet. <b>Drucktechnische Ligaturen</b>
 werden grundsätzlich <b>aufgespalten</b>. Die Information Ligatur wird als Formatierungsangabe (wie
 Fett, Kursiv...) im Ground-Truth dokumentiert. Eine <b>Kombination</b> von Zeichen zu einem Zeichen
 auf Grundlage des Unicode-Standards ist den communitynormierten Codierungen und den durch das
-Koordienierungsgremium festgelegten Codierungen vorzuziehen.</dd>
+Koordinierungsgremium festgelegten Codierungen vorzuziehen.</dd>
 </dlentry><dlentry>
 <dt>Level 3</dt>
 <dd>Eine <b>Interpretation</b> von Zeichen wird <b>vollständig unterlassen</b>. Das Zeichen wird als
 ein Codepoint unter Nutzung von <b>standardisierten Codierungen</b> (Unicode),<b>
-communitynormierten Codierungen</b> (MUFI) und durch das Koordienierungsgremium <b>festgelegten
+communitynormierten Codierungen</b> (MUFI) und durch das Koordinierungsgremium <b>festgelegten
 Codierungen</b> abgebildet. Eine <b>Kombination</b> von Zeichen zu einem Zeichen erfolgt
 <b>nicht</b>.</dd>
 </dlentry>

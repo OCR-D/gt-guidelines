@@ -44,6 +44,7 @@ body{
     
 }
 
+
 /*
  * ------------------------------------------------------------------
  *  
@@ -190,7 +191,7 @@ body{
     text-align: center;
     /*color: #0D1A2B;*/
     color: #827B66;
-    font-size:1em;
+    font-size:1.1em;
 }
 /*.wh_tile_text:after{
     background: linear-gradient(to bottom, rgba(239, 239, 239, 0), rgba(239, 239, 239, 1) 75%);
@@ -245,7 +246,9 @@ Example:
     padding: 0 0 0.5em 0;
     text-shadow: none;
     color: #827B66;
-    font-variant: small-caps;
+    margin-left: 6.2em;
+    text-align: left;
+    /*font-variant: small-caps;*/
 }
 
 .wh_main_page .wh_search_input{
@@ -423,7 +426,7 @@ Example:
     color: #757575;
 }
 .related-links:before{
-    content: '';
+    content: 'Unterkapitel';
     font-size: 15px;
     color: #827B66;
     text-decoration: underline;
@@ -492,7 +495,6 @@ Example:
     color: #827B66;
     background-color: inherit;
     font-size: inherit;
-    
 }
 li.active > .topicref {
     color: #877767;
@@ -679,7 +681,6 @@ pre.codeblock {
     margin-right: 0.7em;
     /*font-size: 14px;*/
     padding-right: 0.3em;
-    white-space: pre-wrap;
 }
 .caution {
     padding: 0.3em;
