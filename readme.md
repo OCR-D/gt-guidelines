@@ -1,8 +1,8 @@
 # Transkriptionsrichtlinien für die Herstellung von Ground-Truth zum Training und zur Evaluation von OCR-Programmen sowie Dokumentation von vorhandenem Ground-Truth-Daten innerhalb des Projektes OCR-D
 Version 1.0 2017-07-21 
 
-##Erste Schritte
-###Hinweis:
+## Erste Schritte
+### Hinweis:
 Arbeiten Sie mit einem XML-Editor. Für die ersten Schritte genügt ein Oxygen-Editor mit trial-Lizenz, der volle Funktionsumfang wird auch mit dieser Version geboten. Alternativ zum Oxygen-Editor können Sie auch 
 [Eclipse](https://www.eclipse.org/) verwendet.
 
