@@ -9,7 +9,7 @@ Arbeiten Sie mit einem XML-Editor. Für die ersten Schritte genügt ein Oxygen-E
 Für die Erstellung von Präsentationsformaten bietet sich das:
 [DITA-Open-tool-kit](http://www.dita-ot.org/) an.
 
-1. Öffnen Sie die Datei **ocrd.ditamap** im Oxygen-Editor. Die Ditamap **ocrd.ditamap** befindet sich im Ordner **documentation**.
+1. Im Ordner **documentation** befindet sich die Datei **ocrd.ditamap**, öffnen Sie diese Datei in einem XML-Editor (Empfehlung Oxygen-Editor).
 2. In der Ditamap **ocrd.ditamap** können Sie zum gewünschen Thema springen.
 3. Im Ordner **pagexml_dokumentation** befindet sich die automatisch erstellte page-xml Dokumentation.
 
