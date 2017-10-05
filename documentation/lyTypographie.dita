@@ -49,7 +49,7 @@
 <row>
 <entry><u>gedruckte Unterstreichung</u></entry>
 <entry>underlined</entry>
-<entry><codeblock>textStyle {offset:0; length:4;italic:true;}</codeblock></entry>
+<entry><codeblock>textStyle {offset:0; length:4;underlined:true;}</codeblock></entry>
 <entry/>
 </row>
 <row>
@@ -73,7 +73,7 @@
 <row>
 <entry><sub>Tiefstellung</sub></entry>
 <entry>subscript</entry>
-<entry><codeblock>textStyle {offset:0; length:4;italic:true;}</codeblock></entry>
+<entry><codeblock>textStyle {offset:0; length:4;subscript:true;}</codeblock></entry>
 <entry/>
 </row>
 <row>
