@@ -1,6 +1,5 @@
 
 // Auto generated index for searching.
-w["erfassungslevel"]="99*10*-1$7,108*10*-1$f,115*0*1f";
 w["erfassungstiefen"]="7*0*21";
 w["erfolgen"]="12*0*15";
 w["erfolgreichen"]="1*0*l";
@@ -998,7 +997,8 @@ w["length:4;lat:true"]="35*0*4u";
 w["length:4;letterspaced:true"]="35*0*19";
 w["length:4;smallcaps:true"]="35*0*1i";
 w["length:4;strikethrough:true"]="35*0*2f";
-w["length:4;subscript:true"]="35*1*2o$31";
+w["length:4;subscript:true"]="35*0*31";
+w["length:4;superscript:true"]="35*0*2o";
 w["length:4;underlined:true"]="35*0*1s";
 w["lepc"]="49*0*o7,61*1*2h3$39n,73*1*189$20d,74*1*30p$3oq,79*1*17o$1vo,92*1*am$14r";
 w["lepcha"]="49*0*o8,61*1*2h4$39o,73*1*18a$20e,74*1*30q$3or,79*1*17p$1vp,92*1*an$14s";
@@ -1547,4 +1547,5 @@ w["pc:colourdepthsimpletype"]="51*3*9g$ei$kv$ls,61*0*5v2,67*0*1vq,84*30*2$8";
 w["pc:coloursimpl"]="46*0*8t";
 w["pc:coloursimplety"]="70*0*dp";
 w["pc:coloursimpletype"]="42*3*8i$cm$hp$je,46*2*g4$qi$s7,47*3*8j$co$ht$ji,49*1*1n5$1ru,51*3*8v$f8$nh$p6,54*7*8o$bi$e1$em$kd$m2$nl$pa,55*3*8r$d8$ib$k0,57*3*8j$co$ht$ji,61*10*5uh$6gi$6jd$7km$7mq$882$8qi$9bf$9sd$ada$au8,67*10*1v9$2h9$2k4$3ld$3nh$48m$4r3$5c0$5sv$6ds$6up,70*2*94$ir$kg,71*7*98$bc$hh$i7$sk$u9$vt$11i,73*1*3fi$3kc,74*1*4s7$510,75*7*2d$77$d9$dg$u4$vp$10q$12f,79*1*39m$3eg,85*30*2$8";
+w["pc:comments"]="56*10*1s$24$ev,62*11*6p$71$8u$91";
 
