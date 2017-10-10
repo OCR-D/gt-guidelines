@@ -3,9 +3,8 @@
 <topic id="level_1">
     <title>Level 1</title>
     <body>
-        <p>Kürzungsstriche (Balken oder geschlängelte Linie über Buchstaben als Substituenten für
-ausgelassene Zeichen, Nasalstrich) werden mittels einer Zeichenkombination, die mit dem Zeichen
-<tt>U+0303, COMBINING TILDE</tt> zusammengestellt wird, transkribiert. </p>
+        <p>Kürzungsstriche, die als Balken oder geschlängelte Linie über Buchstaben stehen und als
+Substituenten für ausgelassene Zeichen stehen, sind bei Transkription aufzulösen. </p>
     <table>
     <tgroup cols="2">
     <thead>
@@ -17,11 +16,11 @@ ausgelassene Zeichen, Nasalstrich) werden mittels einer Zeichenkombination, die 
     <tbody>
     <row>
     <entry><image href="images/frommen.jpg"/></entry>
-    <entry><codeph>from&amp;#x0303;en</codeph></entry>
+    <entry><codeph>frommen</codeph></entry>
     </row>
     <row>
     <entry><image href="images/und_macht.jpg"/></entry>
-    <entry><codeph>Un&amp;#x0303; macht</codeph></entry>
+    <entry><codeph>Unnmacht</codeph></entry>
     </row>
     </tbody>
     </tgroup>

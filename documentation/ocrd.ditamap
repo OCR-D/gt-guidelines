@@ -29,6 +29,9 @@
     </bookmeta>
     
     <part href="transkription.dita">
+<topicref href="level_1_4.dita"/>
+<topicref href="level_2_2.dita"/>
+<topicref href="level_3_1.dita"/>
 
      <topicref href="trDokuKonventionen.dita"/>
      <topicref href="trGrundsaetze.dita">
@@ -37,16 +40,32 @@
 <topicref href="tr_level_3_4.dita"/>
 </topicref>
      <topicref href="trSchreibweisen.dita">
-       <topicref href="trSchreibungIJ.dita"/>
-       <topicref href="trSchreibungUV.dita"/>
-       <topicref href="trSchreibungS.dita"/>
-       <topicref href="trSchreibungR.dita"/>
+       <topicref href="trSchreibungIJ.dita">
+<topicref href="level_1_2.dita"/>
+<topicref href="level_2_und_3.dita"/>
+</topicref>
+       <topicref href="trSchreibungUV.dita">
+<topicref href="level_1_3.dita"/>
+<topicref href="level_2_und_3_0.dita"/>
+</topicref>
+       <topicref href="trSchreibungS.dita">
+<topicref href="level_1_5.dita"/>
+<topicref href="level_2_und_3_1.dita"/>
+</topicref>
+       <topicref href="trSchreibungR.dita">
+<topicref href="level_1_6.dita"/>
+<topicref href="level_2_und_3_2.dita"/>
+</topicref>
        <topicref href="trLigatur.dita">
 <topicref href="tr_level_1.dita"/>
 <topicref href="tr_level_2.dita"/>
 <topicref href="tr_level_3.dita"/>
 </topicref>
-       <topicref href="trUmlaute.dita"/>
+       <topicref href="trUmlaute.dita">
+<topicref href="level_1_7.dita"/>
+<topicref href="level_2_und_3_3.dita"/>
+<topicref href="level_3_2.dita"/>
+</topicref>
        <topicref href="trNasalstrich.dita">
        <topicref href="tr_nasal_level_1.dita"/>
        <topicref href="tr_nasal_level_2.dita"/>

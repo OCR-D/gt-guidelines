@@ -4,11 +4,12 @@
  <title>Grundsätzliches zur Transkription</title>
 <body>
 <p>Die Texterfassung erfolgt grundsätzlich vorlagengetreu im Unicode-Format (Kodierung in UTF-8) des
-zum Zeitpunkt der Erfassung gültigen Unicode-Standards. Die Nutzung von spezifischen Kodierungen
-sind in den <b>Erfassungs-Level</b> erklärt.</p>
+zum Zeitpunkt der Erfassung gültigen <xref href="http://www.unicode.org/" format="html"
+scope="external">Unicode-Standards</xref>. Die Nutzung von spezifischen Kodierungen sind in den
+<b>Erfassungs-Level</b> erklärt.</p>
 <p>Die Schreibung von Zeichen, die nicht auf der Tastatur abgebildet sind, erfolgt entweder <ul
 id="ul_gyh_rnm_gz">
-<li>als Unicode Hexdezimal-Entität</li>
+<li>als Unicode-Hexadezimal-Entität</li>
 <li>oder als Zeichen.</li>
 </ul>Eine Mischung von verschiedenen Unicode-Schreibungen ist zu vermeiden. Für einzelne Fällen sind
 spezifische Transkriptionsregeln festgelegt. </p>

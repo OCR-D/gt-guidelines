@@ -37,39 +37,6 @@ Texte.</li>
 die lexikalischen Gegebenheiten ergeben sich für die Texterfassung die folgenden Richtlinien."</li>
 </ul><p>Das Korpus ist im Bezug auf die <b>Interpretation von einzelnen typographischen und
 graphematischen Phänomenen </b>in unterschiedlichen Leveln transkribiert bzw. kann transkribiert
-werden. Die Level werden im Weiteren näher erläutert. Allgemein können die Level folgendermaßen
-beschrieben werden:</p>
-<p>
-<dl>
-<dlentry>
-<dt>Level 1</dt>
-<dd>Eine Interpretation von Zeichen orientiert sich am <b>Gebrauch im Sprachsystem</b>. Spezifische
-<b>drucktechnische Aspekte</b> werden <b>nicht beachtet</b> und nicht im Ground-Truth Korpus
-dokumentiert. Eine Normalisierung der Zeichen z. B. Schafft-s wird <b>nicht vorgenommen</b>. Die
-Wiedergabe von Leerzeichen beschränkt sich darauf, dass diese ausschließlich Wörter von einander
-trennen. Satzzeichen werden immer an das vorangegangene Wort herangezogen.</dd>
-</dlentry><dlentry>
-<dt>Level 2</dt>
-<dd>Eine Interpretation von Zeichen orientiert sich am <b>Gebrauch im Sprach- und Schriftsystem</b>
-und <b>nicht</b> an <b>drucktechnische Gegebenheiten.</b> So werden zum Beispiel in Bezug auf
-<b>Ligaturen nur eigenständige Zeichen </b>mit einem spezifischen Codepoint unter Nutzung von
-<b>standardisierten Codierungen</b> (Unicode), der Kombination von <b>standardisierten
-Codierungen</b> (Unicode), <b> communitynormierten Codierungen</b> (MUFI) und durch das
-Koordinierungsgremium <b>festgelegten Codierungen</b> abgebildet. <b>Drucktechnische Ligaturen</b>
-werden grundsätzlich <b>aufgespalten</b>. Die Information Ligatur wird als Formatierungsangabe (wie
-Fett, Kursiv...) im Ground-Truth dokumentiert. Eine <b>Kombination</b> von Zeichen zu einem Zeichen
-auf Grundlage des Unicode-Standards ist den communitynormierten Codierungen und den durch das
-Koordinierungsgremium festgelegten Codierungen vorzuziehen.</dd>
-</dlentry><dlentry>
-<dt>Level 3</dt>
-<dd>Eine <b>Interpretation</b> von Zeichen wird <b>vollständig unterlassen</b>. Das Zeichen wird als
-ein Codepoint unter Nutzung von <b>standardisierten Codierungen</b> (Unicode),<b>
-communitynormierten Codierungen</b> (MUFI) und durch das Koordinierungsgremium <b>festgelegten
-Codierungen</b> abgebildet. Eine <b>Kombination</b> von Zeichen zu einem Zeichen erfolgt
-<b>nicht</b>.</dd>
-</dlentry>
-</dl>
-
-</p>
+werden. Die Level werden im Weiteren näher erläutert.</p>
 </body>
 </topic>

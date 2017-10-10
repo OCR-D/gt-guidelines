@@ -5,12 +5,16 @@
 <body>
 <p>Sowohl die konsonantischen Ligaturen (tz, ct, ts, ff etc.) sowie die Ligatur ij als auch die in
 deutschsprachigen Texten üblichen Ligaturen wie ﬁ, ﬂ, ft, deren Derivate, sowie fk, fj, fh, fb, fz,
-ll, mm, nn, st, ch, ck, ct, th, tt, tz, kk, Qu, ſi, ſſ, ﬅ, ſch sind als ein Zeichen mit einem
-Codepoint unter Nutzung von <b>standardisierten Codierungen</b> (Unicode),<b> communitynormierten
-Codierungen</b> (MUFI) und durch das Koordinierungsgremium <b>festgelegten Codierungen</b>
-abzubilden. Eine <b>Kombination</b> von Zeichen zu einem Zeichen erfolgt <b>nicht</b>.</p>
+ll, mm, nn, st, ch, ck, ct, th, tt, tz, kk, Qu, ſi, ſſ, ﬅ, ſch sind als Codepoint unter Nutzung von
+<b>standardisierten Kodierungen</b> (Unicode), <b>Community normierten Kodierungen</b> (<xref
+href="http://folk.uib.no/hnooh/mufi/" format="html" scope="external">MUFI</xref>) und durch das
+Koordinierungsgremium in Absprachen internationaler Großprojekte orientierten Kodierungen
+abzubilden. Eine Kombination von mehreren Kodierungen zu einem Zeichen erfolgt nicht.</p>
 </body>
 <related-links>
+<linklist>
+<link href="ocr_d_koordinationsgremium_codierung.dita#ocr_d_koordinationsgremium_codierung"/>
+</linklist>
 <linklist>
 <title>The Unicode Consortium</title>
 <link href="http://www.unicode.org/" format="html" scope="external"/>
@@ -18,11 +22,8 @@ abzubilden. Eine <b>Kombination</b> von Zeichen zu einem Zeichen erfolgt <b>nich
 <linklist>
 <title>Medieval Unicode Font Initiative</title>
 <link href="http://folk.uib.no/hnooh/mufi/" format="html" scope="external"/>
-</linklist>
-<linklist>
-<title>MUFI character recommendation v. 4.0 </title>
-<link href="http://hdl.handle.net/1956/10699" format="html" scope="external"/>
-</linklist>
 
+
+</linklist>
 </related-links>
 </topic>

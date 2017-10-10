@@ -6,7 +6,7 @@
 <body>
 <p>Die Diakritika werden grundsätzlich in Verbindung mit dem Grundzeichen und dem Diakritika als ein
 Zeichen angesehen. Bei Vorhandensein als einzelnes Zeichen wird der dafür passende Codepoint aus den
-standardisierten Codierungstabellen (Unicode) verwendet. Ist keine Unicodecodierung als einzelnes
+standardisierten Kodierungstabellen (Unicode) verwendet. Ist keine Unicodecodierung als einzelnes
 Zeichen vorhanden wird eine Zeichenkombination mittels der Unicode-Entitäten aus dem <b>Combining
 Diacritical Marks</b> Unicodeblock realisiert, z. B. das hochgestellte <tt>o</tt> über <tt>u</tt>
 bzw. <tt>U</tt> (<tt>&amp;#x0366;, COMBINING LATIN SMALL LETTER O</tt>).</p>

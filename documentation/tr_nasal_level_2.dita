@@ -3,32 +3,25 @@
 <topic id="level_2">
     <title>Level 2</title>
     <body>
-<p>Kürzungsstriche (Balken oder geschlängelte Linie über Buchstaben als Substituenten für
-ausgelassene Zeichen, Nasalstrich) werden grundsätzlich als ein Zeichen betrachtet. Bei
-Vorhandensein als einzelnes Zeichen wird der dafür passende Codepoint aus den standardisierten
-Codierungstabellen (Unicode) verwendet. Ist keine Unicodecodierung als einzelnes Zeichen vorhanden
-wird eine Zeichenkombination, die mit dem Zeichen <tt>U+0303, COMBINING TILDE</tt> zusammengestellt
-wird, verwendet.</p> <table>
-<tgroup cols="3">
+<p>Kürzungsstriche, die als Balken oder geschlängelte Linie über Buchstaben stehen und als
+Substituenten für ausgelassene Zeichen stehen, werden grundsätzlich als Kombination von zwei Zeichen
+betrachtet. Es wird die Zeichenkombination: aus dem Graphem und der übergestellte Tilde gebildet.
+Dazu wird der Unicode <tt>U+0303, COMBINING TILDE</tt> genutzt.</p> <table>
+<tgroup cols="2">
 <thead>
 <row>
 <entry>Vorlage</entry>
 <entry>Transkription</entry>
-<entry>Kommentar</entry>
 </row>
 </thead>
 <tbody>
 <row>
 <entry><image href="images/und_macht.jpg"/></entry>
-<entry><codeph>Uu&amp;#x00F1; macht</codeph></entry>
-<entry/>
+<entry><codeph>Un&amp;#x0303; macht</codeph></entry>
 </row>
 <row>
 <entry><image href="images/frommen.jpg"/></entry>
 <entry><codeph>from&amp;#x0303;en</codeph></entry>
-<entry>Eine Unicodecodierung mit kleinem <tt>m</tt> und Tilde ist nicht als einzelnes Zeichen
-vorhanden. Aus diesem Grund ist einen Zeichenkombination <tt>m</tt> + <tt>U+0303, COMBINING
-TILDE</tt> zu nutzen.</entry>
 </row>
 </tbody>
 </tgroup>
