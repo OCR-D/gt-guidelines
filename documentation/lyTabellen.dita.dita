@@ -13,11 +13,7 @@ Informationen für die Tabelle zu erfassen (Anzahl Spalten, Anzahl Zeilen). Die 
 sind zeilenweise als TextRegion/paragraph durch Tabs getrennt zu erfassen.</p>
 <p>Inhalte unübersichtlicher Tabellen, die sich dem einfachen Schema entziehen, werden nicht
 erfasst. In diesen Fällen wird lediglich die TableRegion gekennzeichnet. </p>
-<p>PAGE-Def.:</p>
-<p>“Tabular data in any form is represented with a table
-region. Rows and columns may or may not have separator
-lines; these lines are not separator regions.”</p>
-<p> </p>
+<p/>
 <p>Attribute pc:TableRegionType /@columns</p>
 <p>Attribute pc:TableRegionType /@rows</p>
 <p><image href="images/lyTabellen1.png" id="image_jb5_lnw_t1b" scale="50"/></p>

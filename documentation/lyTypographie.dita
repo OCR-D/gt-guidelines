@@ -23,13 +23,13 @@
 </thead>
 <tbody>
 <row>
-<entry><b>Fettdruck</b></entry>
+<entry>Fettdruck</entry>
 <entry>bold</entry>
 <entry><codeblock>textStyle {offset:0; length:4;bold:true;}</codeblock></entry>
 <entry/>
 </row>
 <row>
-<entry><i>Kursivdruck</i></entry>
+<entry>Kursivdruck</entry>
 <entry>italic</entry>
 <entry><codeblock>textStyle {offset:0; length:4;italic:true;}</codeblock></entry>
 <entry/>
@@ -47,7 +47,7 @@
 <entry/>
 </row>
 <row>
-<entry><u>gedruckte Unterstreichung</u></entry>
+<entry>gedruckte Unterstreichung</entry>
 <entry>underlined</entry>
 <entry><codeblock>textStyle {offset:0; length:4;underlined:true;}</codeblock></entry>
 <entry/>
@@ -65,13 +65,13 @@
 <entry/>
 </row>
 <row>
-<entry><sup>Hochstellung</sup></entry>
+<entry>Hochstellung</entry>
 <entry>superscript</entry>
 <entry><codeblock>textStyle {offset:0; length:4;superscript:true;}</codeblock></entry>
 <entry/>
 </row>
 <row>
-<entry><sub>Tiefstellung</sub></entry>
+<entry>Tiefstellung</entry>
 <entry>subscript</entry>
 <entry><codeblock>textStyle {offset:0; length:4;subscript:true;}</codeblock></entry>
 <entry/>
