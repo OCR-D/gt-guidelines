@@ -5,7 +5,7 @@
     <body>
 <p>Kürzungsstriche, die als Balken oder geschlängelte Linie über Buchstaben stehen und als
 Substituenten für ausgelassene Zeichen stehen, werden grundsätzlich als Kombination von zwei Zeichen
-betrachtet. Es wird die Zeichenkombination: aus dem Graphem und der übergestellte Tilde gebildet.
+betrachtet. Es wird eine Zeichenkombination: aus dem Graphem und der übergestellte Tilde gebildet.
 Dazu wird der Unicode <tt>U+0303, COMBINING TILDE</tt> genutzt.</p> <table>
 <tgroup cols="2">
 <thead>
