@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="exif_pagexml_konkurdanz">
+    <title>Exif-PageXML Konkurdanz</title>
+    <body>
+        <p>
+<simpletable frame="all" relcolwidth="1* 1* 1* 1* 1*" id="simpletable_mbk_gwd_bcb">
+<sthead>
+<stentry>Exif Tag ID</stentry>
+<stentry>Exif</stentry>
+<stentry>PageXML (<xref href="https://github.com/PRImA-Research-Lab/PAGE-XML" format="html"
+scope="external"/>)</stentry>
+<stentry>Recomendation</stentry>
+<stentry>MIX (<xref href="http://www.loc.gov/standards/mix/" format="html" scope="external"
+>http://www.loc.gov/standards/mix/</xref>)</stentry>
+</sthead>
+<strow>
+<stentry>0xc573</stentry>
+<stentry>OriginalFileName</stentry>
+<stentry><b>page/@imageFilename</b></stentry>
+<stentry/>
+<stentry/>
+</strow>
+<strow>
+<stentry>0x0100</stentry>
+<stentry>ImageWidth</stentry>
+<stentry><b>page/@imageWidth</b></stentry>
+<stentry/>
+<stentry/>
+</strow>
+<strow>
+<stentry>0x0101</stentry>
+<stentry>ImageHeight</stentry>
+<stentry><b>page/@imageHeight</b></stentry>
+<stentry/>
+<stentry/>
+</strow>
+<strow>
+<stentry>0x011a</stentry>
+<stentry>XResolution</stentry>
+<stentry/>
+<stentry>page/@XResolution</stentry>
+<stentry/>
+</strow>
+<strow>
+<stentry>0x011b</stentry>
+<stentry>YResolution</stentry>
+<stentry/>
+<stentry>page/@YResolution</stentry>
+<stentry/>
+</strow>
+<strow>
+<stentry>0x0103</stentry>
+<stentry>Compression</stentry>
+<stentry/>
+<stentry>page/@Compression</stentry>
+<stentry/>
+</strow>
+<strow>
+<stentry>0x0106</stentry>
+<stentry>PhotometricInterpretation</stentry>
+<stentry/>
+<stentry>page/@PhotometricInterpretation</stentry>
+<stentry/>
+</strow>
+<strow>
+<stentry>0x0128</stentry>
+<stentry>ResolutionUnit</stentry>
+<stentry/>
+<stentry>page/@ResolutionUnit</stentry>
+<stentry/>
+</strow>
+<strow>
+<stentry>0x0102</stentry>
+<stentry>BitsPerSample</stentry>
+<stentry/>
+<stentry>page/@BitsPerSample</stentry>
+<stentry/>
+</strow>
+</simpletable>
+</p>
+    </body>
+</topic>
