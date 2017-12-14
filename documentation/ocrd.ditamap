@@ -27,9 +27,6 @@
             <created date="March, 2017"/>
         </critdates>
     </bookmeta>
-<chapter href="page_xml_erweiterungen.dita">
-<topicref href="exif_pagexml_konkurdanz.dita"/>
-</chapter>
 <part href="trDokuKonventionen.dita"/>
     
     <part href="transkription.dita">
@@ -146,7 +143,7 @@
 <part href="trPage.dita">
 <topicref href="dok.ditamap" format="ditamap"/>
 </part>
-<part href="appTranskribus.dita">
+<!--<part href="appTranskribus.dita">
 <topicref href="appgrundkonzept.dita"/>
 <topicref href="appHaupt.dita">
 <topicref href="appomenue.dita"/>
@@ -154,6 +151,9 @@
 <topicref href="appbildmenue.dita"/>
 </topicref>
 </topicref>
+</part>-->
+<part href="page_xml_erweiterungen.dita">
+<topicref href="exif_pagexml_konkurdanz.dita"/>
 </part>
 <part href="impressum.dita"/>
 

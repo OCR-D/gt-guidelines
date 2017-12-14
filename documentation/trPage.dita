@@ -5,10 +5,11 @@
 <abstract><shortdesc>Die automatisch erstellte Dokumentation gibt einen Überblick über alle Bestandteile des Schemas.</shortdesc></abstract><body>
 <p>Die Dokumentation des PAGE XML Schema wurde automatisch erzeugt. Dafür wurde das vom
 PrimaLab bereitgestellte Schema und das automatische Schema-Dokumentations-Werkzeug des
-Oxygen-Editor genutzt.</p>
-<p>Die Dokumentation ist in Englisch abgefasst.</p>
-<p>Weitere Informationen zum Schema sind unter: <xref
-href="http://www.primaresearch.org/tools/PAGELibraries" format="html" scope="external"/> zu
-finden.</p>
-    </body>
+Oxygen-Editor genutzt. Die Dokumentation ist in Englisch abgefasst.</p>
+</body>
+<related-links>
+<link href="http://www.primaresearch.org/tools/PAGELibraries" format="html" scope="external"><desc>PAGE-XML Schema auf PRImA-Research-Lab</desc></link>
+<link href="https://github.com/PRImA-Research-Lab/PAGE-XML" format="html" scope="external"><desc>PAGE-XML Schema auf GitHub</desc>
+</link>
+</related-links>
 </topic>
