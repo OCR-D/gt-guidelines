@@ -327,10 +327,6 @@ Example:
         }
     }
     
-    .related-links {
-        /*border: 1px solid #e0e0e0;*/
-        margin-right: 0.5em;
-    }
 .wh_side_toc > ul > li > ul > li > span {
     font-size: 1.1em;
 }
@@ -391,18 +387,19 @@ Example:
 }
 .wh_topic_content .related-links{
     background-color: #F8F8F8;
-    padding: 1.5em;
+    /*padding: 1.5em;*/
 }
 .wh_topic_content .related-links strong{
-    font-weight: 500;
+    font-weight: 600;
 }
 .wh_topic_content .related-links .olchildlinks,
-.wh_topic_content .related-links .ullinks,
-.wh_topic_content .related-links .relinfo{
-    list-style: none;
-    padding: 0;
-    margin:0;
+/*.wh_topic_content .related-links .ullinks*/
+.wh_topic_content .related-links /*.relinfo*/{
+    /*! list-style: none; */
+    padding: 1em;
+    margin:1em;
 }
+
 .wh_topic_content .related-links a,
 .wh_topic_content .related-links a:visited {
     /*color: #5185cb;*/
@@ -422,13 +419,39 @@ Example:
 .wh_topic_content .related-links li{
     color: #757575;
 }
-.related-links:before{
+
+nav.related-links{padding: 1em;}
+
+
+
+nav.related-links div.linklist linklist relinfo {padding: 0em !important; margin:0em !important;}
+
+/*nav.related-links ul.ullinks*/
+nav.related-links ul.ullinks::before{
     content: 'Unterkapitel';
     font-size: 15px;
     color: #827B66;
-    text-decoration: underline;
+    font-weight: 600;
+    color: #000000;
+
+    /*text-decoration: underline;*/
 }
 
+nav.related-links ul.ullinks{
+    list-style-position: inside;
+    list-style-type: circle;
+   
+}
+
+ul.ullinks ~ div.linklist {}
+
+
+nav.related-links div.linklist linklist relinfo{
+list-style-position: inside;
+list-style-type: circle;}
+
+
+nav.related-links div.linklist div.related_link a.navheader_parent_path::before{content: '* ';margin-left: 0.6em;}
 
 /*
  * ------------------------------------------------------------------
@@ -612,14 +635,12 @@ h2.sectiontitle {
     color: #827B66;
 }
 .relinfo {
-    background-color: #e7e4e4;
+    /*background-color: #e7e4e4;*/
     font-size: 15px;
     font-weight: normal;
 font-family: "Trebuchet MS", "Lucida Grande", Verdana, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", Meiryo, sans-serif;
 line-height: 26px;
-padding-left: 3px;
-padding-top: 3px;
-padding-bottom: 3px
+
 }
 .dt, .dd, .dlterm {
     font-family: "Trebuchet MS", "Lucida Grande", Verdana, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", Meiryo, sans-serif;
@@ -706,5 +727,6 @@ html[dir='rtl'] .wh_top_menu ul li:hover > ul {
 .float{float:right;}
 .green {color: green;}
 .blue {color: blue;}
-.orange {color: #ff6600;}
+.orange {color: #ff9900}
 .red {color: red;}
+.violet{color:  #cc33ff;}
