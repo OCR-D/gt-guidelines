@@ -1,0 +1,1 @@
+define({"topics" : [{"title":"Exif-PageXML Konkordanz","id":"exif_pagexml_konkurdanz","href":"exif_pagexml_konkordanz.html","menu": {"hasChildren":false,},"tocID":"exif_pagexml_konkurdanz-d58e14644","topics":[]}]});

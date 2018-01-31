@@ -435,6 +435,7 @@ nav.related-links ul.ullinks::before{
     color: #000000;
 
     /*text-decoration: underline;*/
+    margin-left: -0.5em;
 }
 
 nav.related-links ul.ullinks{
@@ -443,7 +444,8 @@ nav.related-links ul.ullinks{
    
 }
 
-ul.ullinks ~ div.linklist {}
+ul.ullinks ~ div.linklist {padding: 1em;
+    margin:1em;}
 
 
 nav.related-links div.linklist linklist relinfo{
@@ -730,3 +732,9 @@ html[dir='rtl'] .wh_top_menu ul li:hover > ul {
 .orange {color: #ff9900}
 .red {color: red;}
 .violet{color:  #cc33ff;}
+
+
+dl {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 14px;}
