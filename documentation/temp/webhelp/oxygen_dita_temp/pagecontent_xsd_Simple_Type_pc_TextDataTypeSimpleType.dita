@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?><?workdir /C:\Users\matthias\Documents\GitHub\Transkriptionsrichtlinie\documentation\temp\webhelp\oxygen_dita_temp?><?workdir-uri file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/temp/webhelp/oxygen_dita_temp/?><?path2project?><?path2project-uri ./?><?path2rootmap-uri ./?><?doctype-public -//OASIS//DTD DITA Topic//EN?><?doctype-system topic.dtd?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/topic " ditaarch:DITAArchVersion="1.3" domains="(topic abbrev-d)                            a(props deliveryTarget)                            (topic equation-d)                            (topic hazard-d)                            (topic hi-d)                            (topic indexing-d)                            (topic markup-d)                            (topic mathml-d)                            (topic pr-d)                            (topic relmgmt-d)                            (topic sw-d)                            (topic svg-d)                            (topic ui-d)                            (topic ut-d)                            (topic markup-d xml-d)   " id="TextDataTypeSimpleType" xtrc="topic:1;4:36" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">
+   <title class="- topic/title " xtrc="title:1;5:11" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">Simple Type pc:TextDataTypeSimpleType</title><prolog class="- topic/prolog "><authorinformation class="+ topic/author xnal-d/authorinformation " xtrc="authorinformation:1;9:28" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/ocrd.ditamap">
+            <personinfo class="+ topic/data xnal-d/personinfo " xtrc="personinfo:1;10:25" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/ocrd.ditamap">
+                <namedetails class="+ topic/data xnal-d/namedetails " xtrc="namedetails:1;11:30" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/ocrd.ditamap">
+                    <personname class="+ topic/data xnal-d/personname " xtrc="personname:1;12:33" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/ocrd.ditamap">
+                        <firstname class="+ topic/data xnal-d/firstname " xtrc="firstname:1;13:36" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/ocrd.ditamap">Matthias</firstname>
+                        <lastname class="+ topic/data xnal-d/lastname " xtrc="lastname:1;14:35" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/ocrd.ditamap">Boenig</lastname>
+                    </personname>
+                </namedetails>
+            </personinfo>
+            <organizationinfo class="+ topic/data xnal-d/organizationinfo " xtrc="organizationinfo:1;18:31" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/ocrd.ditamap">
+                <namedetails class="+ topic/data xnal-d/namedetails " xtrc="namedetails:2;19:30" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/ocrd.ditamap">
+                    <organizationnamedetails class="+ topic/ph xnal-d/organizationnamedetails " xtrc="organizationnamedetails:1;20:46" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/ocrd.ditamap">
+                        <organizationname class="+ topic/ph xnal-d/organizationname " xtrc="organizationname:1;21:43" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/ocrd.ditamap">OCR-D, Zentrum Sprache, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</organizationname>
+                    </organizationnamedetails>
+                </namedetails>
+            </organizationinfo>
+        </authorinformation><critdates class="- topic/critdates " xtrc="critdates:1;26:20" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/ocrd.ditamap">
+            <created class="- topic/created " date="March, 2017" xtrc="created:1;27:42" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/ocrd.ditamap"/>
+        </critdates></prolog>
+   <body class="- topic/body " xtrc="body:1;6:10" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">
+      <table class="- topic/table " colsep="1" frame="all" rowsep="1" xtrc="table:1;7:48" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">
+         <tgroup class="- topic/tgroup " cols="2" xtrc="tgroup:1;8:27" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">
+            <colspec align="left" class="- topic/colspec " colname="col1" colnum="1" colwidth="3*" rowheader="headers" xtrc="colspec:1;9:50" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita"/>
+            <colspec align="left" class="- topic/colspec " colname="col2" colnum="2" colwidth="25*" rowheader="headers" xtrc="colspec:2;10:51" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita"/>
+            <tbody class="- topic/tbody " xtrc="tbody:1;11:20" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">
+               <row class="- topic/row " xtrc="row:1;12:21" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">
+                  <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="1" xtrc="entry:1;13:26" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">Namespace</entry>
+                  <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="1" xtrc="entry:2;14:26" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15</entry>
+               </row>
+               <row class="- topic/row " xtrc="row:2;16:21" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">
+                  <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="2" xtrc="entry:3;17:26" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">Diagram</entry>
+                  <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="2" xtrc="entry:4;18:26" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">
+                     <p class="- topic/p " xtrc="p:1;19:26" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita"/>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrc="row:3;22:21" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">
+                  <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="3" xtrc="entry:5;23:26" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">Type</entry>
+                  <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="3" xtrc="entry:6;24:26" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">restriction of string</entry>
+               </row>
+               <row class="- topic/row " xtrc="row:4;26:21" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">
+                  <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="4" xtrc="entry:7;27:26" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">Facets</entry>
+                  <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="4" xtrc="entry:8;28:26" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">
+                     <p class="- topic/p " xtrc="p:2;29:25" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">
+                        <table class="- topic/table " colsep="1" frame="all" rowsep="1" xtrc="table:2;30:66" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">
+                           <tgroup class="- topic/tgroup " cols="3" xtrc="tgroup:2;31:45" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">
+                              <colspec align="left" class="- topic/colspec " colname="col1" colnum="1" colwidth="2*" rowheader="headers" xtrc="colspec:3;32:68" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita"/>
+                              <colspec align="left" class="- topic/colspec " colname="col2" colnum="2" colwidth="3*" rowheader="headers" xtrc="colspec:4;33:68" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita"/>
+                              <colspec align="left" class="- topic/colspec " colname="col3" colnum="3" colwidth="5*" rowheader="headers" xtrc="colspec:5;34:68" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita"/>
+                              <tbody class="- topic/tbody " xtrc="tbody:2;35:38" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">
+                                 <row class="- topic/row " xtrc="row:5;36:39" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">
+                                    <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="1" xtrc="entry:9;37:44" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">enumeration</entry>
+                                    <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="1" xtrc="entry:10;38:44" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">xsd:decimal</entry>
+                                    <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="1" xtrc="entry:11;39:44" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">
+                                       <codeblock class="+ topic/pre pr-d/codeblock " outputclass="language-xml" xml:space="preserve" xtrc="codeblock:1;40:78" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">Examples: "123.456", "+1234.456", "-1234.456", "-.456", "-456"</codeblock>
+                                    </entry>
+                                 </row>
+                                 <row class="- topic/row " xtrc="row:6;43:39" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">
+                                    <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="2" xtrc="entry:12;44:44" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">enumeration</entry>
+                                    <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="2" xtrc="entry:13;45:44" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">xsd:float</entry>
+                                    <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="2" xtrc="entry:14;46:44" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">
+                                       <codeblock class="+ topic/pre pr-d/codeblock " outputclass="language-xml" xml:space="preserve" xtrc="codeblock:2;47:78" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">Examples: "123.456", "+1234.456", "-1.2344e56", "-.45E-6", "INF", "-INF", "NaN"</codeblock>
+                                    </entry>
+                                 </row>
+                                 <row class="- topic/row " xtrc="row:7;50:39" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">
+                                    <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="3" xtrc="entry:15;51:44" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">enumeration</entry>
+                                    <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="3" xtrc="entry:16;52:44" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">xsd:integer</entry>
+                                    <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="3" xtrc="entry:17;53:44" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">
+                                       <codeblock class="+ topic/pre pr-d/codeblock " outputclass="language-xml" xml:space="preserve" xtrc="codeblock:3;54:78" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">Examples: "123456", "+00000012", "-1", "-456"</codeblock>
+                                    </entry>
+                                 </row>
+                                 <row class="- topic/row " xtrc="row:8;57:39" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">
+                                    <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="4" xtrc="entry:18;58:44" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">enumeration</entry>
+                                    <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="4" xtrc="entry:19;59:44" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">xsd:boolean</entry>
+                                    <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="4" xtrc="entry:20;60:44" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">
+                                       <codeblock class="+ topic/pre pr-d/codeblock " outputclass="language-xml" xml:space="preserve" xtrc="codeblock:4;61:78" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">Examples: "true", "false", "1", "0"</codeblock>
+                                    </entry>
+                                 </row>
+                                 <row class="- topic/row " xtrc="row:9;64:39" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">
+                                    <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="5" xtrc="entry:21;65:44" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">enumeration</entry>
+                                    <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="5" xtrc="entry:22;66:44" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">xsd:date</entry>
+                                    <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="5" xtrc="entry:23;67:44" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">
+                                       <codeblock class="+ topic/pre pr-d/codeblock " outputclass="language-xml" xml:space="preserve" xtrc="codeblock:5;68:78" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">Examples: "2001-10-26", "2001-10-26+02:00", "2001-10-26Z", "2001-10-26+00:00", "-2001-10-26", "-20000-04-01"</codeblock>
+                                    </entry>
+                                 </row>
+                                 <row class="- topic/row " xtrc="row:10;71:39" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">
+                                    <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="6" xtrc="entry:24;72:44" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">enumeration</entry>
+                                    <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="6" xtrc="entry:25;73:44" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">xsd:time</entry>
+                                    <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="6" xtrc="entry:26;74:44" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">
+                                       <codeblock class="+ topic/pre pr-d/codeblock " outputclass="language-xml" xml:space="preserve" xtrc="codeblock:6;75:78" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">Examples: "21:32:52", "21:32:52+02:00", "19:32:52Z", "19:32:52+00:00", "21:32:52.12679"</codeblock>
+                                    </entry>
+                                 </row>
+                                 <row class="- topic/row " xtrc="row:11;78:39" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">
+                                    <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="7" xtrc="entry:27;79:44" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">enumeration</entry>
+                                    <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="7" xtrc="entry:28;80:44" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">xsd:dateTime</entry>
+                                    <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="7" xtrc="entry:29;81:44" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">
+                                       <codeblock class="+ topic/pre pr-d/codeblock " outputclass="language-xml" xml:space="preserve" xtrc="codeblock:7;82:78" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">Examples: "2001-10-26T21:32:52", "2001-10-26T21:32:52+02:00", "2001-10-26T19:32:52Z", "2001-10-26T19:32:52+00:00", "-2001-10-26T21:32:52", "2001-10-26T21:32:52.12679"</codeblock>
+                                    </entry>
+                                 </row>
+                                 <row class="- topic/row " xtrc="row:12;85:39" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">
+                                    <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="8" xtrc="entry:30;86:44" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">enumeration</entry>
+                                    <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="8" xtrc="entry:31;87:44" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">xsd:string</entry>
+                                    <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="8" xtrc="entry:32;88:44" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">
+                                       <codeblock class="+ topic/pre pr-d/codeblock " outputclass="language-xml" xml:space="preserve" xtrc="codeblock:8;89:78" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">Generic text string</codeblock>
+                                    </entry>
+                                 </row>
+                                 <row class="- topic/row " xtrc="row:13;92:39" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">
+                                    <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="9" xtrc="entry:33;93:44" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">enumeration</entry>
+                                    <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="9" xtrc="entry:34;94:44" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">other</entry>
+                                    <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="9" xtrc="entry:35;95:44" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">
+                                       <codeblock class="+ topic/pre pr-d/codeblock " outputclass="language-xml" xml:space="preserve" xtrc="codeblock:9;96:78" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">An XSD type that is not listed or a custom type (use dataTypeDetails attribute)</codeblock>
+                                    </entry>
+                                 </row>
+                              </tbody>
+                           </tgroup>
+                        </table>
+                     </p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrc="row:14;105:21" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">
+                  <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="5" xtrc="entry:36;106:26" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">Used by</entry>
+                  <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="5" xtrc="entry:37;107:26" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">
+                     <p class="- topic/p " xtrc="p:3;108:25" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">
+                        <table class="- topic/table " colsep="1" frame="all" rowsep="1" xtrc="table:3;109:66" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">
+                           <tgroup class="- topic/tgroup " cols="2" xtrc="tgroup:3;110:45" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">
+                              <colspec align="left" class="- topic/colspec " colname="col1" colnum="1" colwidth="2*" rowheader="headers" xtrc="colspec:6;111:68" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita"/>
+                              <colspec align="left" class="- topic/colspec " colname="col2" colnum="2" colwidth="8*" rowheader="headers" xtrc="colspec:7;112:68" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita"/>
+                              <tbody class="- topic/tbody " xtrc="tbody:3;113:38" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">
+                                 <row class="- topic/row " xtrc="row:15;114:39" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">
+                                    <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="1" xtrc="entry:38;115:44" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">Attribute </entry>
+                                    <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="1" xtrc="entry:39;116:44" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">
+                                       <xref class="- topic/xref " href="pagecontent_xsd_Complex_Type_pc_TextEquivType.dita#TextEquivType_dataType" xtrc="xref:1;117:128" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita"/>
+                                    </entry>
+                                 </row>
+                              </tbody>
+                           </tgroup>
+                        </table>
+                     </p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrc="row:16;126:21" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">
+                  <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="6" xtrc="entry:40;127:26" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">Source</entry>
+                  <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="6" xtrc="entry:41;128:26" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">
+                     <codeblock class="+ topic/pre pr-d/codeblock " outputclass="language-xml" xml:space="preserve" xtrc="codeblock:10;129:60" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">&lt;simpleType name="TextDataTypeSimpleType"&gt;
+  &lt;restriction base="string"&gt;
+    &lt;enumeration value="xsd:decimal"&gt;
+      &lt;annotation&gt;
+        &lt;documentation&gt;Examples: "123.456", "+1234.456", "-1234.456", "-.456", "-456"&lt;/documentation&gt;
+      &lt;/annotation&gt;
+    &lt;/enumeration&gt;
+    &lt;enumeration value="xsd:float"&gt;
+      &lt;annotation&gt;
+        &lt;documentation&gt;Examples: "123.456", "+1234.456", "-1.2344e56", "-.45E-6", "INF", "-INF", "NaN"&lt;/documentation&gt;
+      &lt;/annotation&gt;
+    &lt;/enumeration&gt;
+    &lt;enumeration value="xsd:integer"&gt;
+      &lt;annotation&gt;
+        &lt;documentation&gt;Examples: "123456", "+00000012", "-1", "-456"&lt;/documentation&gt;
+      &lt;/annotation&gt;
+    &lt;/enumeration&gt;
+    &lt;enumeration value="xsd:boolean"&gt;
+      &lt;annotation&gt;
+        &lt;documentation&gt;Examples: "true", "false", "1", "0"&lt;/documentation&gt;
+      &lt;/annotation&gt;
+    &lt;/enumeration&gt;
+    &lt;enumeration value="xsd:date"&gt;
+      &lt;annotation&gt;
+        &lt;documentation&gt;Examples: "2001-10-26", "2001-10-26+02:00", "2001-10-26Z", "2001-10-26+00:00", "-2001-10-26", "-20000-04-01"&lt;/documentation&gt;
+      &lt;/annotation&gt;
+    &lt;/enumeration&gt;
+    &lt;enumeration value="xsd:time"&gt;
+      &lt;annotation&gt;
+        &lt;documentation&gt;Examples: "21:32:52", "21:32:52+02:00", "19:32:52Z", "19:32:52+00:00", "21:32:52.12679"&lt;/documentation&gt;
+      &lt;/annotation&gt;
+    &lt;/enumeration&gt;
+    &lt;enumeration value="xsd:dateTime"&gt;
+      &lt;annotation&gt;
+        &lt;documentation&gt;Examples: "2001-10-26T21:32:52", "2001-10-26T21:32:52+02:00", "2001-10-26T19:32:52Z", "2001-10-26T19:32:52+00:00", "-2001-10-26T21:32:52", "2001-10-26T21:32:52.12679"&lt;/documentation&gt;
+      &lt;/annotation&gt;
+    &lt;/enumeration&gt;
+    &lt;enumeration value="xsd:string"&gt;
+      &lt;annotation&gt;
+        &lt;documentation&gt;Generic text string&lt;/documentation&gt;
+      &lt;/annotation&gt;
+    &lt;/enumeration&gt;
+    &lt;enumeration value="other"&gt;
+      &lt;annotation&gt;
+        &lt;documentation&gt;An XSD type that is not listed or a custom type (use dataTypeDetails attribute)&lt;/documentation&gt;
+      &lt;/annotation&gt;
+    &lt;/enumeration&gt;
+  &lt;/restriction&gt;
+&lt;/simpleType&gt;</codeblock>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrc="row:17;180:21" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">
+                  <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="7" xtrc="entry:42;181:26" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">Schema location</entry>
+                  <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="7" xtrc="entry:43;182:26" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita">http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+   </body>
+<related-links class="- topic/related-links "><linkpool class="- topic/linkpool " xtrc="topicref:157;166:84" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/dok.ditamap"><link class="- topic/link " format="dita" href="Simple_Type.dita" mapclass="- map/topicref " role="parent" scope="local" type="topic" xtrc="topicref:150;159:38" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/dok.ditamap"><linktext class="- topic/linktext "><?ditaot gentext?>Simple Type</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">Here are the Global Simple Types</desc></link></linkpool></related-links></topic>

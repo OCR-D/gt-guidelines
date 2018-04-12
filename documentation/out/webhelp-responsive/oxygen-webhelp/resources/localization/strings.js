@@ -1,7 +1,6 @@
 var localization = new Array();
 
-localization["label.home"]="Home";
-    localization["label.shareFrom"]="Wenn Sie bereits ein Benutzerkonto für eines der folgenden Produkte haben, können Sie sich mit diesem einloggen.";
+localization["label.shareFrom"]="Wenn Sie bereits ein Benutzerkonto für eines der folgenden Produkte haben, können Sie sich mit diesem einloggen.";
     localization["label.unconfirmedUsers"]="Unbestätigte Benutzer";
     localization["label.cleanUsers"]="Ausstehende Benutzer löschen";
     localization["label.tc.userName"]="Benutzer";
@@ -195,5 +194,4 @@ localization["label.home"]="Home";
     localization["inst.adminPass2"]="Administratorpasswort bestätigen";
     localization["inst.start"]="Starte Installation";
     localization["inst.nextStep"]="Nächster Schritt";
-    localization["excluded.terms"]="Excluded terms:";
     

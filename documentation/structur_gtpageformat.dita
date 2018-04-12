@@ -3,13 +3,13 @@
 <topic id="structur_gtpageformat">
     <title>Übersicht und Konkordanz</title>
 
-<shortdesc>Die Übersicht und Konkordanz beinhaltet eine Übersicht zu den Kodierungen von Zonen und
-Regionen im DTA Zot-Format, DTABf (TEI) und dem PAGE-Format. Der Verweis auf die Element im DTABf
-bezieht sich nur auf die grundlegenden Elemente und nicht deren Kontext. Aus diesem Grund sei auf
-die Dokumentation des DTABf hingewiesen.</shortdesc>
+<shortdesc>Die Übersicht und Konkordanz stellt im Vergleich Kodierungen von Zonen und Regionen im
+DTA Zot-Format, DTABf (TEI) und dem PAGE-Format dar. Der Verweis auf die Element im DTABf bezieht
+sich nur auf grundlegende Elemente und nicht deren Kontext. Aus diesem Grund sei auf die
+Dokumentation des DTABf hingewiesen.</shortdesc>
     <body>
-        <p></p><table frame="all" rowsep="1" colsep="1" id="table_wws_hhn_ldb">
-<title/>
+        <table frame="all" rowsep="1" colsep="1" id="table_wws_hhn_ldb">
+        <title>Übersicht und Konkordanz von Kodierungen</title>
 <tgroup cols="7">
 <colspec colname="c1" colnum="1" colwidth="1*"/>
 <colspec colname="newCol2" colnum="2" colwidth="1*"/>
@@ -500,7 +500,7 @@ die Dokumentation des DTABf hingewiesen.</shortdesc>
 <row>
 <entry>Spezial Bild</entry>
 <entry>444</entry>
-<entry><codeph>&lt;figure></codeph></entry>
+<entry><pre>&lt;figure></pre></entry>
 <entry/>
 <entry>GraphicRegion</entry>
 <entry/>
