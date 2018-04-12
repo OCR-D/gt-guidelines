@@ -91,8 +91,7 @@ function displayResults(fileAndWordList) {
         var allPages = fileAndWordList.sort().value;
 
         if (excluded.length > 0) {
-            var tempString = "<p>" + partialSearch1;
-            tempString += "<br />" + partialSearch2 + " " + txt_wordsnotfound + "</p>";
+            var tempString = "<p>" + getLocalization(partialSearch2) + " " + txt_wordsnotfound + "</p>";
             linkTab.push(tempString);
         }
 
@@ -104,6 +103,7 @@ function displayResults(fileAndWordList) {
         if (allPages.length > 0) {
             ttScore_first = allPages[0].scoring;
         }
+        var currentSimilarPage = 0;
         for (var page = 0; page < allPages.length; page++) {
             debug("Page number: " + page);
 
@@ -134,17 +134,27 @@ function displayResults(fileAndWordList) {
             //var split = allPages[page].motsliste.split(",");
             var finalArray = allPages[page].motsliste.split(", ");
             debug(finalArray);
-            var arrayString = 'Array(';
+            var arrayString = '';
             for (var x in finalArray) {
                 if (finalArray[x].length >= 2 || useCJKTokenizing || (indexerLanguage == "ja" && finalArray[x].length >= 1)) {
-                    arrayString += "'" + finalArray[x] + "',";
+                    arrayString += finalArray[x] + ",";
                 }
             }
-            arrayString = arrayString.substring(0, arrayString.length - 1) + ")";
 
+            arrayString = arrayString.substring(0, arrayString.length - 1);
+            tempPath += '?hl=' + encodeURIComponent(arrayString);
             var idLink = 'foundLink' + page;
-            var link = 'return openAndHighlight(\'' + tempPath + '\', ' + arrayString + '\)';
-            var linkString = '<li><a id="' + idLink + '" href="' + tempPath + '" class="foundResult" onclick="' + link + '">' + tempTitle + '</a>';
+            var idResult = 'foundResult' + page;
+
+            var similarPages = similarPage(allPages[page], allPages[page-1]);
+            if (!similarPages) {
+                var linkString = '<li id="'+idResult+'"><a id="' + idLink + '" href="' + tempPath + '" class="foundResult">' + tempTitle + '</a>';
+                currentSimilarPage = page;
+            } else {
+                var similarTo = 'foundResult'+currentSimilarPage;
+                var linkString = '<li id="'+idResult+'"class="similarResult" data-similarTo="'+similarTo+'"><a id="' + idLink + '" href="' + tempPath + '" class="foundResult">' + tempTitle + '</a>';
+            }
+
             // Fake value
             var maxNumberOfWords = allPages[page].motsnb;
             var starWidth = (ttScore * 100 / hundredPercent) / (ttScore_first / hundredPercent) * (numberOfWords / maxNumberOfWords);
@@ -173,7 +183,10 @@ function displayResults(fileAndWordList) {
             } catch (e) {
                 debug(e);
             }
-
+            var similarToNextPage = similarPage(allPages[page], allPages[page+1]);
+            if(similarToNextPage && page == currentSimilarPage){
+                linkString += '<a class="showSimilarPages" onclick="showSimilarResults(this)">Similar results...</a>';
+            }
             linkString += "</li>";
             linkTab.push(linkString);
         }
@@ -197,4 +210,56 @@ function displayResults(fileAndWordList) {
     document.getElementById('searchResults').innerHTML = results;
 
     $("#search").trigger('click');
+}
+
+/**
+ * @description Compare two result pages to see if there are similar
+ * @param result1 Result page
+ * @param result2 Result page
+ * @returns {boolean} true - result pages are similar
+ *                    false - result pages are not similar
+ */
+function similarPage(result1, result2){
+    var toReturn = false;
+
+    if (result1 === undefined || result2 === undefined) {
+        return toReturn;
+    }
+
+    var ttInfo1 = result1.filenb;
+    var ttInfo2 = result2.filenb;
+
+    var tempInfo = fil[ttInfo1];
+    var pos1 = tempInfo.indexOf("@@@");
+    var pos2 = tempInfo.lastIndexOf("@@@");
+
+    var pageTitle1 = tempInfo.substring(pos1 + 3, pos2)
+        .replace(/</g, "&lt;").replace(/>/g, "&gt;");
+    var pageShortDesc1 = tempInfo.substring(pos2 + 3, tempInfo.length);
+
+    tempInfo = fil[ttInfo2];
+    pos1 = tempInfo.indexOf("@@@");
+    pos2 = tempInfo.lastIndexOf("@@@");
+
+    var pageTitle2 = tempInfo.substring(pos1 + 3, pos2)
+        .replace(/</g, "&lt;").replace(/>/g, "&gt;");
+    var pageShortDesc2 = tempInfo.substring(pos2 + 3, tempInfo.length);
+
+    if (pageTitle1.trim() == pageTitle2.trim() && pageShortDesc1.trim() == pageShortDesc2.trim()) {
+        toReturn = true;
+    }
+
+    return toReturn;
+}
+
+/**
+ * @description Show similar results that are hidden by default
+ * @param link Link clicked to show similar results
+ */
+function showSimilarResults(link) {
+    var currentResultElement = $(link).parent();
+    var currentResultId = currentResultElement.attr('id');
+
+    $('[data-similarTo="'+currentResultId+'"]').toggle();
+		$(link).toggleClass('expanded');
 }

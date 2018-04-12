@@ -1,0 +1,1 @@
+define(function() { return [{"appname":"", "appid":"structur_gtdefinition", "path":"structur_gtdefinition.html"},{"appname":"", "appid":"structur_gtgrundlage", "path":"structur_gtgrundlage.html"},{"appname":"", "appid":"structur_gtpageformat", "path":"structur_gtpageformat.html"}]});

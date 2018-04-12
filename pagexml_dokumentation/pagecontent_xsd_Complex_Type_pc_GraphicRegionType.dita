@@ -11,7 +11,7 @@
             <tbody>
                <row>
                   <entry>Namespace</entry>
-                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2016-07-15</entry>
+                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15</entry>
                </row>
                <row>
                   <entry>Annotations</entry>
@@ -35,154 +35,271 @@ logo, should be marked as graphic regions.</codeblock>
                                                 <shape>rect</shape>
                                                 <coords>239,98,322,142</coords>
                                                 
-                                                <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_id"/>
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_id"/>
+                                                    
                                             </area>
                                           
                                             <area>
                                                 <shape>rect</shape>
                                                 <coords>239,152,329,196</coords>
                                                 
-                                                <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_custom"/>
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_custom"/>
+                                                    
                                             </area>
                                           
                                             <area>
                                                 <shape>rect</shape>
                                                 <coords>239,237,338,281</coords>
                                                 
-                                                <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_comments"/>
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_comments"/>
+                                                    
                                             </area>
                                           
                                             <area>
                                                 <shape>rect</shape>
-                                                <coords>316,298,453,342</coords>
+                                                <coords>239,291,347,335</coords>
                                                 
-                                                <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_Coords"/>
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_continuation"/>
+                                                    
                                             </area>
                                           
                                             <area>
                                                 <shape>rect</shape>
-                                                <coords>387,352,543,396</coords>
+                                                <coords>316,397,453,441</coords>
                                                 
-                                                <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_TextRegion"/>
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_Coords"/>
+                                                    
                                             </area>
                                           
                                             <area>
                                                 <shape>rect</shape>
-                                                <coords>387,406,550,450</coords>
+                                                <coords>316,451,478,495</coords>
                                                 
-                                                <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_ImageRegion"/>
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_UserDefined"/>
+                                                    
                                             </area>
                                           
                                             <area>
                                                 <shape>rect</shape>
-                                                <coords>387,460,583,504</coords>
+                                                <coords>316,505,445,549</coords>
                                                 
-                                                <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_LineDrawingRegion"/>
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_Roles"/>
+                                                    
                                             </area>
                                           
                                             <area>
                                                 <shape>rect</shape>
-                                                <coords>387,514,560,558</coords>
+                                                <coords>387,590,543,634</coords>
                                                 
-                                                <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_GraphicRegion"/>
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_TextRegion"/>
+                                                    
                                             </area>
                                           
                                             <area>
                                                 <shape>rect</shape>
-                                                <coords>387,568,548,612</coords>
+                                                <coords>387,644,550,688</coords>
                                                 
-                                                <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_TableRegion"/>
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_ImageRegion"/>
+                                                    
                                             </area>
                                           
                                             <area>
                                                 <shape>rect</shape>
-                                                <coords>387,622,548,666</coords>
+                                                <coords>387,698,583,742</coords>
                                                 
-                                                <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_ChartRegion"/>
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_LineDrawingRegion"/>
+                                                    
                                             </area>
                                           
                                             <area>
                                                 <shape>rect</shape>
-                                                <coords>387,676,570,720</coords>
+                                                <coords>387,752,560,796</coords>
                                                 
-                                                <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_SeparatorRegion"/>
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_GraphicRegion"/>
+                                                    
                                             </area>
                                           
                                             <area>
                                                 <shape>rect</shape>
-                                                <coords>387,730,551,774</coords>
+                                                <coords>387,806,548,850</coords>
                                                 
-                                                <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_MathsRegion"/>
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_TableRegion"/>
+                                                    
                                             </area>
                                           
                                             <area>
                                                 <shape>rect</shape>
-                                                <coords>387,784,549,828</coords>
+                                                <coords>387,860,548,904</coords>
                                                 
-                                                <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_ChemRegion"/>
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_ChartRegion"/>
+                                                    
                                             </area>
                                           
                                             <area>
                                                 <shape>rect</shape>
-                                                <coords>387,838,550,882</coords>
+                                                <coords>387,914,570,958</coords>
                                                 
-                                                <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_MusicRegion"/>
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_SeparatorRegion"/>
+                                                    
                                             </area>
                                           
                                             <area>
                                                 <shape>rect</shape>
-                                                <coords>387,892,555,936</coords>
+                                                <coords>387,968,551,1012</coords>
                                                 
-                                                <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_AdvertRegion"/>
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_MathsRegion"/>
+                                                    
                                             </area>
                                           
                                             <area>
                                                 <shape>rect</shape>
-                                                <coords>387,946,549,990</coords>
+                                                <coords>387,1022,549,1066</coords>
                                                 
-                                                <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_NoiseRegion"/>
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_ChemRegion"/>
+                                                    
                                             </area>
                                           
                                             <area>
                                                 <shape>rect</shape>
-                                                <coords>387,1000,568,1044</coords>
+                                                <coords>387,1076,550,1120</coords>
                                                 
-                                                <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_UnknownRegion"/>
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_MusicRegion"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>387,1130,555,1174</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_AdvertRegion"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>387,1184,549,1228</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_NoiseRegion"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>387,1238,568,1282</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_UnknownRegion"/>
+                                                    
                                             </area>
                                           
                                             <area>
                                                 <shape>rect</shape>
                                                 <coords>214,3,422,44</coords>
                                                 
-                                                <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType"/>
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType"/>
+                                                    
                                             </area>
                                           
                                             <area>
                                                 <shape>rect</shape>
-                                                <coords>225,1100,325,1144</coords>
+                                                <coords>225,1338,325,1382</coords>
                                                 
-                                                <xref href="pagecontent_xsd_Complex_Type_pc_GraphicRegionType.dita#GraphicRegionType_orientation"/>
+                                                
+                                                
+                                                        <xref href="#GraphicRegionType_orientation"/>
+                                                    
                                             </area>
                                           
                                             <area>
                                                 <shape>rect</shape>
-                                                <coords>225,1213,426,1257</coords>
+                                                <coords>225,1451,426,1495</coords>
                                                 
-                                                <xref href="pagecontent_xsd_Complex_Type_pc_GraphicRegionType.dita#GraphicRegionType_type"/>
+                                                
+                                                
+                                                        <xref href="#GraphicRegionType_type"/>
+                                                    
                                             </area>
                                           
                                             <area>
                                                 <shape>rect</shape>
-                                                <coords>225,1298,332,1342</coords>
+                                                <coords>225,1536,332,1580</coords>
                                                 
-                                                <xref href="pagecontent_xsd_Complex_Type_pc_GraphicRegionType.dita#GraphicRegionType_numColours"/>
+                                                
+                                                
+                                                        <xref href="#GraphicRegionType_numColours"/>
+                                                    
                                             </area>
                                           
                                             <area>
                                                 <shape>rect</shape>
-                                                <coords>225,1397,326,1441</coords>
+                                                <coords>225,1635,326,1679</coords>
                                                 
-                                                <xref href="pagecontent_xsd_Complex_Type_pc_GraphicRegionType.dita#GraphicRegionType_embText"/>
+                                                
+                                                
+                                                        <xref href="#GraphicRegionType_embText"/>
+                                                    
                                             </area>
                                         
                                     </imagemap>
@@ -205,7 +322,7 @@ logo, should be marked as graphic regions.</codeblock>
                            <ul>
                               <li>
                                  <p>
-                                    <xref href="pagecontent_xsd_Complex_Type_pc_GraphicRegionType.dita#GraphicRegionType"/>
+                                    <xref href="#GraphicRegionType"/>
                                  </p>
                               </li>
                            </ul>
@@ -237,12 +354,12 @@ logo, should be marked as graphic regions.</codeblock>
                <row>
                   <entry>Model</entry>
                   <entry>
-                     <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_Coords"/> , (<xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_TextRegion"/> | <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_ImageRegion"/> | <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_LineDrawingRegion"/> | <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_GraphicRegion"/> | <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_TableRegion"/> | <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_ChartRegion"/> | <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_SeparatorRegion"/> | <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_MathsRegion"/> | <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_ChemRegion"/> | <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_MusicRegion"/> | <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_AdvertRegion"/> | <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_NoiseRegion"/> | <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_UnknownRegion"/>)</entry>
+                     <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_Coords"/> , <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_UserDefined"/> , <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_Roles"/> , (<xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_TextRegion"/> | <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_ImageRegion"/> | <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_LineDrawingRegion"/> | <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_GraphicRegion"/> | <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_TableRegion"/> | <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_ChartRegion"/> | <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_SeparatorRegion"/> | <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_MathsRegion"/> | <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_ChemRegion"/> | <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_MusicRegion"/> | <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_AdvertRegion"/> | <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_NoiseRegion"/> | <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_UnknownRegion"/>)</entry>
                </row>
                <row>
                   <entry>Children</entry>
                   <entry>
-                     <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_AdvertRegion"/>, <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_ChartRegion"/>, <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_ChemRegion"/>, <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_Coords"/>, <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_GraphicRegion"/>, <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_ImageRegion"/>, <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_LineDrawingRegion"/>, <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_MathsRegion"/>, <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_MusicRegion"/>, <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_NoiseRegion"/>, <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_SeparatorRegion"/>, <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_TableRegion"/>, <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_TextRegion"/>, <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_UnknownRegion"/>
+                     <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_AdvertRegion"/>, <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_ChartRegion"/>, <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_ChemRegion"/>, <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_Coords"/>, <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_GraphicRegion"/>, <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_ImageRegion"/>, <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_LineDrawingRegion"/>, <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_MathsRegion"/>, <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_MusicRegion"/>, <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_NoiseRegion"/>, <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_Roles"/>, <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_SeparatorRegion"/>, <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_TableRegion"/>, <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_TextRegion"/>, <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_UnknownRegion"/>, <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_UserDefined"/>
                   </entry>
                </row>
                <row>
@@ -271,6 +388,18 @@ logo, should be marked as graphic regions.</codeblock>
                                  </row>
                                  <row>
                                     <entry>
+                                       <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_continuation"/>
+                                    </entry>
+                                    <entry>boolean</entry>
+                                    <entry>optional</entry>
+                                 </row>
+                                 <row>
+                                    <entry namest="col1" nameend="col3">
+                                       <codeblock outputclass="language-xml">Is this region a continuation of another region (in previous column or page, for example)?</codeblock>
+                                    </entry>
+                                 </row>
+                                 <row>
+                                    <entry>
                                        <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_custom"/>
                                     </entry>
                                     <entry>string</entry>
@@ -283,7 +412,7 @@ logo, should be marked as graphic regions.</codeblock>
                                  </row>
                                  <row>
                                     <entry>
-                                       <xref href="pagecontent_xsd_Complex_Type_pc_GraphicRegionType.dita#GraphicRegionType_embText"/>
+                                       <xref href="#GraphicRegionType_embText"/>
                                     </entry>
                                     <entry>boolean</entry>
                                     <entry>optional</entry>
@@ -303,7 +432,7 @@ text.</codeblock>
                                  </row>
                                  <row>
                                     <entry>
-                                       <xref href="pagecontent_xsd_Complex_Type_pc_GraphicRegionType.dita#GraphicRegionType_numColours"/>
+                                       <xref href="#GraphicRegionType_numColours"/>
                                     </entry>
                                     <entry>int</entry>
                                     <entry>optional</entry>
@@ -316,7 +445,7 @@ used in the region</codeblock>
                                  </row>
                                  <row>
                                     <entry>
-                                       <xref href="pagecontent_xsd_Complex_Type_pc_GraphicRegionType.dita#GraphicRegionType_orientation"/>
+                                       <xref href="#GraphicRegionType_orientation"/>
                                     </entry>
                                     <entry>float</entry>
                                     <entry>optional</entry>
@@ -329,7 +458,7 @@ Range: -179.999,180</codeblock>
                                  </row>
                                  <row>
                                     <entry>
-                                       <xref href="pagecontent_xsd_Complex_Type_pc_GraphicRegionType.dita#GraphicRegionType_type"/>
+                                       <xref href="#GraphicRegionType_type"/>
                                     </entry>
                                     <entry>
                                        <xref href="pagecontent_xsd_Simple_Type_pc_GraphicsTypeSimpleType.dita#GraphicsTypeSimpleType"/>
@@ -383,7 +512,7 @@ Range: -179.999,180</codeblock>
                </row>
                <row>
                   <entry>Schema location</entry>
-                  <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2016-07-15/pagecontent.xsd</entry>
+                  <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                </row>
             </tbody>
          </tgroup>
@@ -445,7 +574,7 @@ Range: -179.999,180</codeblock>
                                     <row>
                                        <entry>Complex Type </entry>
                                        <entry>
-                                          <xref href="pagecontent_xsd_Complex_Type_pc_GraphicRegionType.dita#GraphicRegionType"/>
+                                          <xref href="#GraphicRegionType"/>
                                        </entry>
                                     </row>
                                  </tbody>
@@ -466,7 +595,7 @@ Range: -179.999,180</codeblock>
                   </row>
                   <row>
                      <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2016-07-15/pagecontent.xsd</entry>
+                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
                </tbody>
             </tgroup>
@@ -601,7 +730,7 @@ Range: -179.999,180</codeblock>
                                     <row>
                                        <entry>Complex Type </entry>
                                        <entry>
-                                          <xref href="pagecontent_xsd_Complex_Type_pc_GraphicRegionType.dita#GraphicRegionType"/>
+                                          <xref href="#GraphicRegionType"/>
                                        </entry>
                                     </row>
                                  </tbody>
@@ -622,7 +751,7 @@ Range: -179.999,180</codeblock>
                   </row>
                   <row>
                      <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2016-07-15/pagecontent.xsd</entry>
+                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
                </tbody>
             </tgroup>
@@ -685,7 +814,7 @@ used in the region</codeblock>
                                     <row>
                                        <entry>Complex Type </entry>
                                        <entry>
-                                          <xref href="pagecontent_xsd_Complex_Type_pc_GraphicRegionType.dita#GraphicRegionType"/>
+                                          <xref href="#GraphicRegionType"/>
                                        </entry>
                                     </row>
                                  </tbody>
@@ -706,7 +835,7 @@ used in the region</codeblock>
                   </row>
                   <row>
                      <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2016-07-15/pagecontent.xsd</entry>
+                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
                </tbody>
             </tgroup>
@@ -769,7 +898,7 @@ text.</codeblock>
                                     <row>
                                        <entry>Complex Type </entry>
                                        <entry>
-                                          <xref href="pagecontent_xsd_Complex_Type_pc_GraphicRegionType.dita#GraphicRegionType"/>
+                                          <xref href="#GraphicRegionType"/>
                                        </entry>
                                     </row>
                                  </tbody>
@@ -790,7 +919,7 @@ text.</codeblock>
                   </row>
                   <row>
                      <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2016-07-15/pagecontent.xsd</entry>
+                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
                </tbody>
             </tgroup>

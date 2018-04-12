@@ -11,7 +11,7 @@
             <tbody>
                <row>
                   <entry>Namespace</entry>
-                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2016-07-15</entry>
+                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15</entry>
                </row>
                <row>
                   <entry>Annotations</entry>
@@ -35,119 +35,190 @@ proportional font</codeblock>
                                                 <shape>rect</shape>
                                                 <coords>186,39,285,83</coords>
                                                 
-                                                <xref href="pagecontent_xsd_Complex_Type_pc_TextStyleType.dita#TextStyleType_fontFamily"/>
+                                                
+                                                
+                                                        <xref href="#TextStyleType_fontFamily"/>
+                                                    
                                             </area>
                                           
                                             <area>
                                                 <shape>rect</shape>
                                                 <coords>186,138,287,182</coords>
                                                 
-                                                <xref href="pagecontent_xsd_Complex_Type_pc_TextStyleType.dita#TextStyleType_serif"/>
+                                                
+                                                
+                                                        <xref href="#TextStyleType_serif"/>
+                                                    
                                             </area>
                                           
                                             <area>
                                                 <shape>rect</shape>
                                                 <coords>186,223,292,267</coords>
                                                 
-                                                <xref href="pagecontent_xsd_Complex_Type_pc_TextStyleType.dita#TextStyleType_monospace"/>
+                                                
+                                                
+                                                        <xref href="#TextStyleType_monospace"/>
+                                                    
                                             </area>
                                           
                                             <area>
                                                 <shape>rect</shape>
                                                 <coords>186,277,276,321</coords>
                                                 
-                                                <xref href="pagecontent_xsd_Complex_Type_pc_TextStyleType.dita#TextStyleType_fontSize"/>
+                                                
+                                                
+                                                        <xref href="#TextStyleType_fontSize"/>
+                                                    
                                             </area>
                                           
                                             <area>
                                                 <shape>rect</shape>
                                                 <coords>186,362,282,406</coords>
                                                 
-                                                <xref href="pagecontent_xsd_Complex_Type_pc_TextStyleType.dita#TextStyleType_xHeight"/>
+                                                
+                                                
+                                                        <xref href="#TextStyleType_xHeight"/>
+                                                    
                                             </area>
                                           
                                             <area>
                                                 <shape>rect</shape>
                                                 <coords>186,475,271,519</coords>
                                                 
-                                                <xref href="pagecontent_xsd_Complex_Type_pc_TextStyleType.dita#TextStyleType_kerning"/>
+                                                
+                                                
+                                                        <xref href="#TextStyleType_kerning"/>
+                                                    
                                             </area>
                                           
                                             <area>
                                                 <shape>rect</shape>
                                                 <coords>186,574,350,618</coords>
                                                 
-                                                <xref href="pagecontent_xsd_Complex_Type_pc_TextStyleType.dita#TextStyleType_textColour"/>
+                                                
+                                                
+                                                        <xref href="#TextStyleType_textColour"/>
+                                                    
                                             </area>
                                           
                                             <area>
                                                 <shape>rect</shape>
-                                                <coords>186,628,350,672</coords>
+                                                <coords>186,628,304,672</coords>
                                                 
-                                                <xref href="pagecontent_xsd_Complex_Type_pc_TextStyleType.dita#TextStyleType_bgColour"/>
+                                                
+                                                
+                                                        <xref href="#TextStyleType_textColourRgb"/>
+                                                    
                                             </area>
                                           
                                             <area>
                                                 <shape>rect</shape>
-                                                <coords>186,713,302,757</coords>
+                                                <coords>186,727,350,771</coords>
                                                 
-                                                <xref href="pagecontent_xsd_Complex_Type_pc_TextStyleType.dita#TextStyleType_reverseVideo"/>
+                                                
+                                                
+                                                        <xref href="#TextStyleType_bgColour"/>
+                                                    
                                             </area>
                                           
                                             <area>
                                                 <shape>rect</shape>
-                                                <coords>186,812,287,856</coords>
+                                                <coords>186,812,298,856</coords>
                                                 
-                                                <xref href="pagecontent_xsd_Complex_Type_pc_TextStyleType.dita#TextStyleType_bold"/>
+                                                
+                                                
+                                                        <xref href="#TextStyleType_bgColourRgb"/>
+                                                    
                                             </area>
                                           
                                             <area>
                                                 <shape>rect</shape>
-                                                <coords>186,866,287,910</coords>
+                                                <coords>186,911,302,955</coords>
                                                 
-                                                <xref href="pagecontent_xsd_Complex_Type_pc_TextStyleType.dita#TextStyleType_italic"/>
+                                                
+                                                
+                                                        <xref href="#TextStyleType_reverseVideo"/>
+                                                    
                                             </area>
                                           
                                             <area>
                                                 <shape>rect</shape>
-                                                <coords>186,920,287,964</coords>
+                                                <coords>186,1010,287,1054</coords>
                                                 
-                                                <xref href="pagecontent_xsd_Complex_Type_pc_TextStyleType.dita#TextStyleType_underlined"/>
+                                                
+                                                
+                                                        <xref href="#TextStyleType_bold"/>
+                                                    
                                             </area>
                                           
                                             <area>
                                                 <shape>rect</shape>
-                                                <coords>186,974,287,1018</coords>
+                                                <coords>186,1064,287,1108</coords>
                                                 
-                                                <xref href="pagecontent_xsd_Complex_Type_pc_TextStyleType.dita#TextStyleType_subscript"/>
+                                                
+                                                
+                                                        <xref href="#TextStyleType_italic"/>
+                                                    
                                             </area>
                                           
                                             <area>
                                                 <shape>rect</shape>
-                                                <coords>186,1028,291,1072</coords>
+                                                <coords>186,1118,287,1162</coords>
                                                 
-                                                <xref href="pagecontent_xsd_Complex_Type_pc_TextStyleType.dita#TextStyleType_superscript"/>
+                                                
+                                                
+                                                        <xref href="#TextStyleType_underlined"/>
+                                                    
                                             </area>
                                           
                                             <area>
                                                 <shape>rect</shape>
-                                                <coords>186,1082,299,1126</coords>
+                                                <coords>186,1172,287,1216</coords>
                                                 
-                                                <xref href="pagecontent_xsd_Complex_Type_pc_TextStyleType.dita#TextStyleType_strikethrough"/>
+                                                
+                                                
+                                                        <xref href="#TextStyleType_subscript"/>
+                                                    
                                             </area>
                                           
                                             <area>
                                                 <shape>rect</shape>
-                                                <coords>186,1136,287,1180</coords>
+                                                <coords>186,1226,291,1270</coords>
                                                 
-                                                <xref href="pagecontent_xsd_Complex_Type_pc_TextStyleType.dita#TextStyleType_smallCaps"/>
+                                                
+                                                
+                                                        <xref href="#TextStyleType_superscript"/>
+                                                    
                                             </area>
                                           
                                             <area>
                                                 <shape>rect</shape>
-                                                <coords>186,1190,297,1234</coords>
+                                                <coords>186,1280,299,1324</coords>
                                                 
-                                                <xref href="pagecontent_xsd_Complex_Type_pc_TextStyleType.dita#TextStyleType_letterSpaced"/>
+                                                
+                                                
+                                                        <xref href="#TextStyleType_strikethrough"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>186,1334,287,1378</coords>
+                                                
+                                                
+                                                
+                                                        <xref href="#TextStyleType_smallCaps"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>186,1388,297,1432</coords>
+                                                
+                                                
+                                                
+                                                        <xref href="#TextStyleType_letterSpaced"/>
+                                                    
                                             </area>
                                         
                                     </imagemap>
@@ -194,7 +265,7 @@ proportional font</codeblock>
                               <tbody>
                                  <row>
                                     <entry>
-                                       <xref href="pagecontent_xsd_Complex_Type_pc_TextStyleType.dita#TextStyleType_bgColour"/>
+                                       <xref href="#TextStyleType_bgColour"/>
                                     </entry>
                                     <entry>
                                        <xref href="pagecontent_xsd_Simple_Type_pc_ColourSimpleType.dita#ColourSimpleType"/>
@@ -208,14 +279,26 @@ proportional font</codeblock>
                                  </row>
                                  <row>
                                     <entry>
-                                       <xref href="pagecontent_xsd_Complex_Type_pc_TextStyleType.dita#TextStyleType_bold"/>
+                                       <xref href="#TextStyleType_bgColourRgb"/>
+                                    </entry>
+                                    <entry>integer</entry>
+                                    <entry>optional</entry>
+                                 </row>
+                                 <row>
+                                    <entry namest="col1" nameend="col3">
+                                       <codeblock outputclass="language-xml">Background colour in RGB encoded format (red value) + (256 x green value) + (65536 x blue value)</codeblock>
+                                    </entry>
+                                 </row>
+                                 <row>
+                                    <entry>
+                                       <xref href="#TextStyleType_bold"/>
                                     </entry>
                                     <entry>boolean</entry>
                                     <entry>optional</entry>
                                  </row>
                                  <row>
                                     <entry>
-                                       <xref href="pagecontent_xsd_Complex_Type_pc_TextStyleType.dita#TextStyleType_fontFamily"/>
+                                       <xref href="#TextStyleType_fontFamily"/>
                                     </entry>
                                     <entry>string</entry>
                                     <entry>optional</entry>
@@ -229,7 +312,7 @@ antiqua).</codeblock>
                                  </row>
                                  <row>
                                     <entry>
-                                       <xref href="pagecontent_xsd_Complex_Type_pc_TextStyleType.dita#TextStyleType_fontSize"/>
+                                       <xref href="#TextStyleType_fontSize"/>
                                     </entry>
                                     <entry>float</entry>
                                     <entry>optional</entry>
@@ -241,14 +324,14 @@ antiqua).</codeblock>
                                  </row>
                                  <row>
                                     <entry>
-                                       <xref href="pagecontent_xsd_Complex_Type_pc_TextStyleType.dita#TextStyleType_italic"/>
+                                       <xref href="#TextStyleType_italic"/>
                                     </entry>
                                     <entry>boolean</entry>
                                     <entry>optional</entry>
                                  </row>
                                  <row>
                                     <entry>
-                                       <xref href="pagecontent_xsd_Complex_Type_pc_TextStyleType.dita#TextStyleType_kerning"/>
+                                       <xref href="#TextStyleType_kerning"/>
                                     </entry>
                                     <entry>int</entry>
                                     <entry>optional</entry>
@@ -261,21 +344,21 @@ characters in a string of text</codeblock>
                                  </row>
                                  <row>
                                     <entry>
-                                       <xref href="pagecontent_xsd_Complex_Type_pc_TextStyleType.dita#TextStyleType_letterSpaced"/>
+                                       <xref href="#TextStyleType_letterSpaced"/>
                                     </entry>
                                     <entry>boolean</entry>
                                     <entry>optional</entry>
                                  </row>
                                  <row>
                                     <entry>
-                                       <xref href="pagecontent_xsd_Complex_Type_pc_TextStyleType.dita#TextStyleType_monospace"/>
+                                       <xref href="#TextStyleType_monospace"/>
                                     </entry>
                                     <entry>boolean</entry>
                                     <entry>optional</entry>
                                  </row>
                                  <row>
                                     <entry>
-                                       <xref href="pagecontent_xsd_Complex_Type_pc_TextStyleType.dita#TextStyleType_reverseVideo"/>
+                                       <xref href="#TextStyleType_reverseVideo"/>
                                     </entry>
                                     <entry>boolean</entry>
                                     <entry>optional</entry>
@@ -288,7 +371,7 @@ reversed against a background colour</codeblock>
                                  </row>
                                  <row>
                                     <entry>
-                                       <xref href="pagecontent_xsd_Complex_Type_pc_TextStyleType.dita#TextStyleType_serif"/>
+                                       <xref href="#TextStyleType_serif"/>
                                     </entry>
                                     <entry>boolean</entry>
                                     <entry>optional</entry>
@@ -300,35 +383,35 @@ reversed against a background colour</codeblock>
                                  </row>
                                  <row>
                                     <entry>
-                                       <xref href="pagecontent_xsd_Complex_Type_pc_TextStyleType.dita#TextStyleType_smallCaps"/>
+                                       <xref href="#TextStyleType_smallCaps"/>
                                     </entry>
                                     <entry>boolean</entry>
                                     <entry>optional</entry>
                                  </row>
                                  <row>
                                     <entry>
-                                       <xref href="pagecontent_xsd_Complex_Type_pc_TextStyleType.dita#TextStyleType_strikethrough"/>
+                                       <xref href="#TextStyleType_strikethrough"/>
                                     </entry>
                                     <entry>boolean</entry>
                                     <entry>optional</entry>
                                  </row>
                                  <row>
                                     <entry>
-                                       <xref href="pagecontent_xsd_Complex_Type_pc_TextStyleType.dita#TextStyleType_subscript"/>
+                                       <xref href="#TextStyleType_subscript"/>
                                     </entry>
                                     <entry>boolean</entry>
                                     <entry>optional</entry>
                                  </row>
                                  <row>
                                     <entry>
-                                       <xref href="pagecontent_xsd_Complex_Type_pc_TextStyleType.dita#TextStyleType_superscript"/>
+                                       <xref href="#TextStyleType_superscript"/>
                                     </entry>
                                     <entry>boolean</entry>
                                     <entry>optional</entry>
                                  </row>
                                  <row>
                                     <entry>
-                                       <xref href="pagecontent_xsd_Complex_Type_pc_TextStyleType.dita#TextStyleType_textColour"/>
+                                       <xref href="#TextStyleType_textColour"/>
                                     </entry>
                                     <entry>
                                        <xref href="pagecontent_xsd_Simple_Type_pc_ColourSimpleType.dita#ColourSimpleType"/>
@@ -337,14 +420,26 @@ reversed against a background colour</codeblock>
                                  </row>
                                  <row>
                                     <entry>
-                                       <xref href="pagecontent_xsd_Complex_Type_pc_TextStyleType.dita#TextStyleType_underlined"/>
+                                       <xref href="#TextStyleType_textColourRgb"/>
+                                    </entry>
+                                    <entry>integer</entry>
+                                    <entry>optional</entry>
+                                 </row>
+                                 <row>
+                                    <entry namest="col1" nameend="col3">
+                                       <codeblock outputclass="language-xml">Text colour in RGB encoded format (red value) + (256 x green value) + (65536 x blue value)</codeblock>
+                                    </entry>
+                                 </row>
+                                 <row>
+                                    <entry>
+                                       <xref href="#TextStyleType_underlined"/>
                                     </entry>
                                     <entry>boolean</entry>
                                     <entry>optional</entry>
                                  </row>
                                  <row>
                                     <entry>
-                                       <xref href="pagecontent_xsd_Complex_Type_pc_TextStyleType.dita#TextStyleType_xHeight"/>
+                                       <xref href="#TextStyleType_xHeight"/>
                                     </entry>
                                     <entry>integer</entry>
                                     <entry>optional</entry>
@@ -394,9 +489,19 @@ reversed against a background colour</codeblock>
     &lt;/annotation&gt;
   &lt;/attribute&gt;
   &lt;attribute name="textColour" type="pc:ColourSimpleType"/&gt;
+  &lt;attribute name="textColourRgb" type="integer"&gt;
+    &lt;annotation&gt;
+      &lt;documentation&gt;Text colour in RGB encoded format (red value) + (256 x green value) + (65536 x blue value)&lt;/documentation&gt;
+    &lt;/annotation&gt;
+  &lt;/attribute&gt;
   &lt;attribute name="bgColour" type="pc:ColourSimpleType"&gt;
     &lt;annotation&gt;
       &lt;documentation&gt;Background colour&lt;/documentation&gt;
+    &lt;/annotation&gt;
+  &lt;/attribute&gt;
+  &lt;attribute name="bgColourRgb" type="integer"&gt;
+    &lt;annotation&gt;
+      &lt;documentation&gt;Background colour in RGB encoded format (red value) + (256 x green value) + (65536 x blue value)&lt;/documentation&gt;
     &lt;/annotation&gt;
   &lt;/attribute&gt;
   &lt;attribute name="reverseVideo" type="boolean"&gt;
@@ -417,7 +522,7 @@ reversed against a background colour</codeblock>
                </row>
                <row>
                   <entry>Schema location</entry>
-                  <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2016-07-15/pagecontent.xsd</entry>
+                  <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                </row>
             </tbody>
          </tgroup>
@@ -480,7 +585,7 @@ antiqua).</codeblock>
                                     <row>
                                        <entry>Complex Type </entry>
                                        <entry>
-                                          <xref href="pagecontent_xsd_Complex_Type_pc_TextStyleType.dita#TextStyleType"/>
+                                          <xref href="#TextStyleType"/>
                                        </entry>
                                     </row>
                                  </tbody>
@@ -501,7 +606,7 @@ antiqua).</codeblock>
                   </row>
                   <row>
                      <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2016-07-15/pagecontent.xsd</entry>
+                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
                </tbody>
             </tgroup>
@@ -563,7 +668,7 @@ antiqua).</codeblock>
                                     <row>
                                        <entry>Complex Type </entry>
                                        <entry>
-                                          <xref href="pagecontent_xsd_Complex_Type_pc_TextStyleType.dita#TextStyleType"/>
+                                          <xref href="#TextStyleType"/>
                                        </entry>
                                     </row>
                                  </tbody>
@@ -584,7 +689,7 @@ antiqua).</codeblock>
                   </row>
                   <row>
                      <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2016-07-15/pagecontent.xsd</entry>
+                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
                </tbody>
             </tgroup>
@@ -640,7 +745,7 @@ antiqua).</codeblock>
                                     <row>
                                        <entry>Complex Type </entry>
                                        <entry>
-                                          <xref href="pagecontent_xsd_Complex_Type_pc_TextStyleType.dita#TextStyleType"/>
+                                          <xref href="#TextStyleType"/>
                                        </entry>
                                     </row>
                                  </tbody>
@@ -657,7 +762,7 @@ antiqua).</codeblock>
                   </row>
                   <row>
                      <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2016-07-15/pagecontent.xsd</entry>
+                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
                </tbody>
             </tgroup>
@@ -719,7 +824,7 @@ antiqua).</codeblock>
                                     <row>
                                        <entry>Complex Type </entry>
                                        <entry>
-                                          <xref href="pagecontent_xsd_Complex_Type_pc_TextStyleType.dita#TextStyleType"/>
+                                          <xref href="#TextStyleType"/>
                                        </entry>
                                     </row>
                                  </tbody>
@@ -740,7 +845,7 @@ antiqua).</codeblock>
                   </row>
                   <row>
                      <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2016-07-15/pagecontent.xsd</entry>
+                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
                </tbody>
             </tgroup>
@@ -802,7 +907,7 @@ antiqua).</codeblock>
                                     <row>
                                        <entry>Complex Type </entry>
                                        <entry>
-                                          <xref href="pagecontent_xsd_Complex_Type_pc_TextStyleType.dita#TextStyleType"/>
+                                          <xref href="#TextStyleType"/>
                                        </entry>
                                     </row>
                                  </tbody>
@@ -823,7 +928,7 @@ antiqua).</codeblock>
                   </row>
                   <row>
                      <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2016-07-15/pagecontent.xsd</entry>
+                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
                </tbody>
             </tgroup>
@@ -886,7 +991,7 @@ characters in a string of text</codeblock>
                                     <row>
                                        <entry>Complex Type </entry>
                                        <entry>
-                                          <xref href="pagecontent_xsd_Complex_Type_pc_TextStyleType.dita#TextStyleType"/>
+                                          <xref href="#TextStyleType"/>
                                        </entry>
                                     </row>
                                  </tbody>
@@ -907,7 +1012,7 @@ characters in a string of text</codeblock>
                   </row>
                   <row>
                      <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2016-07-15/pagecontent.xsd</entry>
+                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
                </tbody>
             </tgroup>
@@ -1061,7 +1166,7 @@ characters in a string of text</codeblock>
                                     <row>
                                        <entry>Complex Type </entry>
                                        <entry>
-                                          <xref href="pagecontent_xsd_Complex_Type_pc_TextStyleType.dita#TextStyleType"/>
+                                          <xref href="#TextStyleType"/>
                                        </entry>
                                     </row>
                                  </tbody>
@@ -1078,7 +1183,90 @@ characters in a string of text</codeblock>
                   </row>
                   <row>
                      <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2016-07-15/pagecontent.xsd</entry>
+                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </body>
+   </topic>
+   <topic id="TextStyleType_textColourRgb">
+      <title>Attribute pc:TextStyleType / @textColourRgb</title>
+      <body>
+         <table frame="all" rowsep="1" colsep="1">
+            <tgroup cols="2">
+               <colspec colwidth="3*" align="left"/>
+               <colspec colwidth="25*" align="left"/>
+               <tbody>
+                  <row>
+                     <entry>Namespace</entry>
+                     <entry>No namespace</entry>
+                  </row>
+                  <row>
+                     <entry>Annotations</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">Text colour in RGB encoded format (red value) + (256 x green value) + (65536 x blue value)</codeblock>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Type</entry>
+                     <entry>integer</entry>
+                  </row>
+                  <row>
+                     <entry>Properties</entry>
+                     <entry>
+                        <p>
+                           <table frame="all" rowsep="1" colsep="1">
+                              <tgroup cols="2">
+                                 <colspec colwidth="2*" align="left"/>
+                                 <colspec colwidth="8*" align="left"/>
+                                 <tbody>
+                                    <row>
+                                       <entry>content: </entry>
+                                       <entry>
+                                          <b>simple</b>
+                                       </entry>
+                                    </row>
+                                 </tbody>
+                              </tgroup>
+                           </table>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Used by</entry>
+                     <entry>
+                        <p>
+                           <table frame="all" rowsep="1" colsep="1">
+                              <tgroup cols="2">
+                                 <colspec colwidth="2*" align="left"/>
+                                 <colspec colwidth="8*" align="left"/>
+                                 <tbody>
+                                    <row>
+                                       <entry>Complex Type </entry>
+                                       <entry>
+                                          <xref href="#TextStyleType"/>
+                                       </entry>
+                                    </row>
+                                 </tbody>
+                              </tgroup>
+                           </table>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;attribute name="textColourRgb" type="integer"&gt;
+  &lt;annotation&gt;
+    &lt;documentation&gt;Text colour in RGB encoded format (red value) + (256 x green value) + (65536 x blue value)&lt;/documentation&gt;
+  &lt;/annotation&gt;
+&lt;/attribute&gt;</codeblock>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Schema location</entry>
+                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
                </tbody>
             </tgroup>
@@ -1238,7 +1426,7 @@ characters in a string of text</codeblock>
                                     <row>
                                        <entry>Complex Type </entry>
                                        <entry>
-                                          <xref href="pagecontent_xsd_Complex_Type_pc_TextStyleType.dita#TextStyleType"/>
+                                          <xref href="#TextStyleType"/>
                                        </entry>
                                     </row>
                                  </tbody>
@@ -1259,7 +1447,90 @@ characters in a string of text</codeblock>
                   </row>
                   <row>
                      <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2016-07-15/pagecontent.xsd</entry>
+                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </body>
+   </topic>
+   <topic id="TextStyleType_bgColourRgb">
+      <title>Attribute pc:TextStyleType / @bgColourRgb</title>
+      <body>
+         <table frame="all" rowsep="1" colsep="1">
+            <tgroup cols="2">
+               <colspec colwidth="3*" align="left"/>
+               <colspec colwidth="25*" align="left"/>
+               <tbody>
+                  <row>
+                     <entry>Namespace</entry>
+                     <entry>No namespace</entry>
+                  </row>
+                  <row>
+                     <entry>Annotations</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">Background colour in RGB encoded format (red value) + (256 x green value) + (65536 x blue value)</codeblock>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Type</entry>
+                     <entry>integer</entry>
+                  </row>
+                  <row>
+                     <entry>Properties</entry>
+                     <entry>
+                        <p>
+                           <table frame="all" rowsep="1" colsep="1">
+                              <tgroup cols="2">
+                                 <colspec colwidth="2*" align="left"/>
+                                 <colspec colwidth="8*" align="left"/>
+                                 <tbody>
+                                    <row>
+                                       <entry>content: </entry>
+                                       <entry>
+                                          <b>simple</b>
+                                       </entry>
+                                    </row>
+                                 </tbody>
+                              </tgroup>
+                           </table>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Used by</entry>
+                     <entry>
+                        <p>
+                           <table frame="all" rowsep="1" colsep="1">
+                              <tgroup cols="2">
+                                 <colspec colwidth="2*" align="left"/>
+                                 <colspec colwidth="8*" align="left"/>
+                                 <tbody>
+                                    <row>
+                                       <entry>Complex Type </entry>
+                                       <entry>
+                                          <xref href="#TextStyleType"/>
+                                       </entry>
+                                    </row>
+                                 </tbody>
+                              </tgroup>
+                           </table>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;attribute name="bgColourRgb" type="integer"&gt;
+  &lt;annotation&gt;
+    &lt;documentation&gt;Background colour in RGB encoded format (red value) + (256 x green value) + (65536 x blue value)&lt;/documentation&gt;
+  &lt;/annotation&gt;
+&lt;/attribute&gt;</codeblock>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Schema location</entry>
+                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
                </tbody>
             </tgroup>
@@ -1322,7 +1593,7 @@ reversed against a background colour</codeblock>
                                     <row>
                                        <entry>Complex Type </entry>
                                        <entry>
-                                          <xref href="pagecontent_xsd_Complex_Type_pc_TextStyleType.dita#TextStyleType"/>
+                                          <xref href="#TextStyleType"/>
                                        </entry>
                                     </row>
                                  </tbody>
@@ -1343,7 +1614,7 @@ reversed against a background colour</codeblock>
                   </row>
                   <row>
                      <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2016-07-15/pagecontent.xsd</entry>
+                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
                </tbody>
             </tgroup>
@@ -1399,7 +1670,7 @@ reversed against a background colour</codeblock>
                                     <row>
                                        <entry>Complex Type </entry>
                                        <entry>
-                                          <xref href="pagecontent_xsd_Complex_Type_pc_TextStyleType.dita#TextStyleType"/>
+                                          <xref href="#TextStyleType"/>
                                        </entry>
                                     </row>
                                  </tbody>
@@ -1416,7 +1687,7 @@ reversed against a background colour</codeblock>
                   </row>
                   <row>
                      <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2016-07-15/pagecontent.xsd</entry>
+                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
                </tbody>
             </tgroup>
@@ -1472,7 +1743,7 @@ reversed against a background colour</codeblock>
                                     <row>
                                        <entry>Complex Type </entry>
                                        <entry>
-                                          <xref href="pagecontent_xsd_Complex_Type_pc_TextStyleType.dita#TextStyleType"/>
+                                          <xref href="#TextStyleType"/>
                                        </entry>
                                     </row>
                                  </tbody>
@@ -1489,7 +1760,7 @@ reversed against a background colour</codeblock>
                   </row>
                   <row>
                      <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2016-07-15/pagecontent.xsd</entry>
+                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
                </tbody>
             </tgroup>
@@ -1545,7 +1816,7 @@ reversed against a background colour</codeblock>
                                     <row>
                                        <entry>Complex Type </entry>
                                        <entry>
-                                          <xref href="pagecontent_xsd_Complex_Type_pc_TextStyleType.dita#TextStyleType"/>
+                                          <xref href="#TextStyleType"/>
                                        </entry>
                                     </row>
                                  </tbody>
@@ -1562,7 +1833,7 @@ reversed against a background colour</codeblock>
                   </row>
                   <row>
                      <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2016-07-15/pagecontent.xsd</entry>
+                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
                </tbody>
             </tgroup>
@@ -1618,7 +1889,7 @@ reversed against a background colour</codeblock>
                                     <row>
                                        <entry>Complex Type </entry>
                                        <entry>
-                                          <xref href="pagecontent_xsd_Complex_Type_pc_TextStyleType.dita#TextStyleType"/>
+                                          <xref href="#TextStyleType"/>
                                        </entry>
                                     </row>
                                  </tbody>
@@ -1635,7 +1906,7 @@ reversed against a background colour</codeblock>
                   </row>
                   <row>
                      <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2016-07-15/pagecontent.xsd</entry>
+                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
                </tbody>
             </tgroup>
@@ -1691,7 +1962,7 @@ reversed against a background colour</codeblock>
                                     <row>
                                        <entry>Complex Type </entry>
                                        <entry>
-                                          <xref href="pagecontent_xsd_Complex_Type_pc_TextStyleType.dita#TextStyleType"/>
+                                          <xref href="#TextStyleType"/>
                                        </entry>
                                     </row>
                                  </tbody>
@@ -1708,7 +1979,7 @@ reversed against a background colour</codeblock>
                   </row>
                   <row>
                      <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2016-07-15/pagecontent.xsd</entry>
+                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
                </tbody>
             </tgroup>
@@ -1764,7 +2035,7 @@ reversed against a background colour</codeblock>
                                     <row>
                                        <entry>Complex Type </entry>
                                        <entry>
-                                          <xref href="pagecontent_xsd_Complex_Type_pc_TextStyleType.dita#TextStyleType"/>
+                                          <xref href="#TextStyleType"/>
                                        </entry>
                                     </row>
                                  </tbody>
@@ -1781,7 +2052,7 @@ reversed against a background colour</codeblock>
                   </row>
                   <row>
                      <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2016-07-15/pagecontent.xsd</entry>
+                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
                </tbody>
             </tgroup>
@@ -1837,7 +2108,7 @@ reversed against a background colour</codeblock>
                                     <row>
                                        <entry>Complex Type </entry>
                                        <entry>
-                                          <xref href="pagecontent_xsd_Complex_Type_pc_TextStyleType.dita#TextStyleType"/>
+                                          <xref href="#TextStyleType"/>
                                        </entry>
                                     </row>
                                  </tbody>
@@ -1854,7 +2125,7 @@ reversed against a background colour</codeblock>
                   </row>
                   <row>
                      <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2016-07-15/pagecontent.xsd</entry>
+                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
                </tbody>
             </tgroup>
@@ -1910,7 +2181,7 @@ reversed against a background colour</codeblock>
                                     <row>
                                        <entry>Complex Type </entry>
                                        <entry>
-                                          <xref href="pagecontent_xsd_Complex_Type_pc_TextStyleType.dita#TextStyleType"/>
+                                          <xref href="#TextStyleType"/>
                                        </entry>
                                     </row>
                                  </tbody>
@@ -1927,7 +2198,7 @@ reversed against a background colour</codeblock>
                   </row>
                   <row>
                      <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2016-07-15/pagecontent.xsd</entry>
+                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
                </tbody>
             </tgroup>

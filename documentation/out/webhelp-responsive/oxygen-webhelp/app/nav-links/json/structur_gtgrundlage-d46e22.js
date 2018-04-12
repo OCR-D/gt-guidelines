@@ -1,0 +1,1 @@
+define({"topics" : [{"title":"Pageformat","id":"structur_gtpageformat","href":"structur_gtpageformat.html","menu": {"hasChildren":false,},"tocID":"structur_gtpageformat-d46e30","topics":[]}]});

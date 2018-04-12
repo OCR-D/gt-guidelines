@@ -11,7 +11,7 @@
             <tbody>
                <row>
                   <entry>Namespace</entry>
-                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2016-07-15</entry>
+                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15</entry>
                </row>
                <row>
                   <entry>Annotations</entry>
@@ -34,14 +34,20 @@
                                                 <shape>rect</shape>
                                                 <coords>229,39,312,83</coords>
                                                 
-                                                <xref href="pagecontent_xsd_Complex_Type_pc_RegionRefIndexedType.dita#RegionRefIndexedType_index"/>
+                                                
+                                                
+                                                        <xref href="#RegionRefIndexedType_index"/>
+                                                    
                                             </area>
                                           
                                             <area>
                                                 <shape>rect</shape>
                                                 <coords>229,138,326,182</coords>
                                                 
-                                                <xref href="pagecontent_xsd_Complex_Type_pc_RegionRefIndexedType.dita#RegionRefIndexedType_regionRef"/>
+                                                
+                                                
+                                                        <xref href="#RegionRefIndexedType_regionRef"/>
+                                                    
                                             </area>
                                         
                                     </imagemap>
@@ -88,7 +94,7 @@
                               <tbody>
                                  <row>
                                     <entry>
-                                       <xref href="pagecontent_xsd_Complex_Type_pc_RegionRefIndexedType.dita#RegionRefIndexedType_index"/>
+                                       <xref href="#RegionRefIndexedType_index"/>
                                     </entry>
                                     <entry>int</entry>
                                     <entry>required</entry>
@@ -100,7 +106,7 @@
                                  </row>
                                  <row>
                                     <entry>
-                                       <xref href="pagecontent_xsd_Complex_Type_pc_RegionRefIndexedType.dita#RegionRefIndexedType_regionRef"/>
+                                       <xref href="#RegionRefIndexedType_regionRef"/>
                                     </entry>
                                     <entry>IDREF</entry>
                                     <entry>required</entry>
@@ -129,7 +135,7 @@
                </row>
                <row>
                   <entry>Schema location</entry>
-                  <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2016-07-15/pagecontent.xsd</entry>
+                  <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                </row>
             </tbody>
          </tgroup>
@@ -190,7 +196,7 @@
                                     <row>
                                        <entry>Complex Type </entry>
                                        <entry>
-                                          <xref href="pagecontent_xsd_Complex_Type_pc_RegionRefIndexedType.dita#RegionRefIndexedType"/>
+                                          <xref href="#RegionRefIndexedType"/>
                                        </entry>
                                     </row>
                                  </tbody>
@@ -211,7 +217,7 @@
                   </row>
                   <row>
                      <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2016-07-15/pagecontent.xsd</entry>
+                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
                </tbody>
             </tgroup>
@@ -267,7 +273,7 @@
                                     <row>
                                        <entry>Complex Type </entry>
                                        <entry>
-                                          <xref href="pagecontent_xsd_Complex_Type_pc_RegionRefIndexedType.dita#RegionRefIndexedType"/>
+                                          <xref href="#RegionRefIndexedType"/>
                                        </entry>
                                     </row>
                                  </tbody>
@@ -284,7 +290,7 @@
                   </row>
                   <row>
                      <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2016-07-15/pagecontent.xsd</entry>
+                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
                </tbody>
             </tgroup>

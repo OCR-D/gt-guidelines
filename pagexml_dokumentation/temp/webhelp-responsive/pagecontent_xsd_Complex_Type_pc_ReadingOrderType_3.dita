@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Users\matthias\Documents\GitHub\Transkriptionsrichtlinie\pagexml_dokumentation\temp\webhelp-responsive?><?workdir-uri file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/temp/webhelp-responsive/?><?path2project?><?path2project-uri?><?path2rootmap-uri?><?doctype-public -//OASIS//DTD DITA Topic//EN?><?doctype-system topic.dtd?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" id="ReadingOrderType" ditaarch:DITAArchVersion="1.3" domains="(topic abbrev-d)                            a(props deliveryTarget)                            (topic equation-d)                            (topic hazard-d)                            (topic hi-d)                            (topic indexing-d)                            (topic markup-d)                            (topic mathml-d)                            (topic pr-d)                            (topic relmgmt-d)                            (topic sw-d)                            (topic svg-d)                            (topic ui-d)                            (topic ut-d)                            (topic markup-d xml-d)   " class="- topic/topic " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="topic:1;4:30">
+   <title class="- topic/title " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="title:1;5:11">Complex Type pc:ReadingOrderType</title>
+   <body class="- topic/body " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="body:1;6:10">
+      <table frame="all" rowsep="1" colsep="1" class="- topic/table " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="table:1;7:48">
+         <tgroup cols="2" class="- topic/tgroup " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="tgroup:1;8:27">
+            <colspec colwidth="3*" align="left" rowheader="headers" class="- topic/colspec " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="colspec:1;9:50" colnum="1" colname="col1"/>
+            <colspec colwidth="25*" align="left" rowheader="headers" class="- topic/colspec " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="colspec:2;10:51" colnum="2" colname="col2"/>
+            <tbody class="- topic/tbody " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="tbody:1;11:20">
+               <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="row:1;12:21">
+                  <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:1;13:26" colname="col1" dita-ot:x="1" dita-ot:y="1">Namespace</entry>
+                  <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:2;14:26" colname="col2" dita-ot:x="2" dita-ot:y="1">http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15</entry>
+               </row>
+               <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="row:2;16:21">
+                  <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:3;17:26" colname="col1" dita-ot:x="1" dita-ot:y="2">Annotations</entry>
+                  <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:4;18:26" colname="col2" dita-ot:x="2" dita-ot:y="2">
+                     <codeblock outputclass="language-xml" xml:space="preserve" class="+ topic/pre pr-d/codeblock " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="codeblock:1;19:60">Definition of the reading order within the page. To express a reading order between elements they have to be included in an OrderedGroup. Groups may contain further groups.</codeblock>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="row:3;22:21">
+                  <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:5;23:26" colname="col1" dita-ot:x="1" dita-ot:y="3">Diagram</entry>
+                  <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:6;24:26" colname="col2" dita-ot:x="2" dita-ot:y="3">
+                     <p class="- topic/p " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="p:1;25:25">
+                            
+                                    
+                                    <imagemap id="pagecontent_xsd_Complex_Type_pc_ReadingOrderType" class="+ topic/fig ut-d/imagemap " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="imagemap:1;28:101">
+                                        
+                                        <image href="img/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.jpeg" placement="inline" class="- topic/image " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="image:1;30:114"/>
+                                        
+                                          
+                                            <area class="+ topic/figgroup ut-d/area " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="area:1;33:51">
+                                                <shape translate="no" class="+ topic/keyword ut-d/shape " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="shape:1;34:56">rect</shape>
+                                                <coords translate="no" class="+ topic/ph ut-d/coords " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="coords:1;35:57">265,0,437,44</coords>
+                                                
+                                                
+                                                
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita#ReadingOrderType_OrderedGroup" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="xref:1;39:102" type="topic"><?ditaot gentext?>Element pc:ReadingOrderType / pc:OrderedGroup</xref>
+                                                    
+                                            </area>
+                                          
+                                            <area class="+ topic/figgroup ut-d/area " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="area:2;43:51">
+                                                <shape translate="no" class="+ topic/keyword ut-d/shape " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="shape:2;44:56">rect</shape>
+                                                <coords translate="no" class="+ topic/ph ut-d/coords " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="coords:2;45:57">265,54,448,98</coords>
+                                                
+                                                
+                                                
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita#ReadingOrderType_UnorderedGroup" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="xref:2;49:104" type="topic"><?ditaot gentext?>Element pc:ReadingOrderType / pc:UnorderedGroup</xref>
+                                                    
+                                            </area>
+                                        
+                                    </imagemap>
+                        </p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="row:4;57:21">
+                  <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:7;58:26" colname="col1" dita-ot:x="1" dita-ot:y="4">Used by</entry>
+                  <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:8;59:26" colname="col2" dita-ot:x="2" dita-ot:y="4">
+                     <p class="- topic/p " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="p:2;60:25">
+                        <table frame="all" rowsep="1" colsep="1" class="- topic/table " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="table:2;61:66">
+                           <tgroup cols="2" class="- topic/tgroup " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="tgroup:2;62:45">
+                              <colspec colwidth="2*" align="left" rowheader="headers" class="- topic/colspec " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="colspec:3;63:68" colnum="1" colname="col1"/>
+                              <colspec colwidth="8*" align="left" rowheader="headers" class="- topic/colspec " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="colspec:4;64:68" colnum="2" colname="col2"/>
+                              <tbody class="- topic/tbody " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="tbody:2;65:38">
+                                 <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="row:5;66:39">
+                                    <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:9;67:44" colname="col1" dita-ot:x="1" dita-ot:y="1">Element </entry>
+                                    <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:10;68:44" colname="col2" dita-ot:x="2" dita-ot:y="1">
+                                       <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_ReadingOrder" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="xref:3;69:122" type="topic"><?ditaot gentext?>Element pc:PageType / pc:ReadingOrder</xref>
+                                    </entry>
+                                 </row>
+                              </tbody>
+                           </tgroup>
+                        </table>
+                     </p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="row:6;78:21">
+                  <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:11;79:26" colname="col1" dita-ot:x="1" dita-ot:y="5">Model</entry>
+                  <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:12;80:26" colname="col2" dita-ot:x="2" dita-ot:y="5">
+                     <xref href="pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita#ReadingOrderType_OrderedGroup" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="xref:4;81:67" type="topic"><?ditaot gentext?>Element pc:ReadingOrderType / pc:OrderedGroup</xref> | <xref href="pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita#ReadingOrderType_UnorderedGroup" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="xref:5;81:117" type="topic"><?ditaot gentext?>Element pc:ReadingOrderType / pc:UnorderedGroup</xref>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="row:7;84:21">
+                  <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:13;85:26" colname="col1" dita-ot:x="1" dita-ot:y="6">Children</entry>
+                  <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:14;86:26" colname="col2" dita-ot:x="2" dita-ot:y="6">
+                     <xref href="pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita#ReadingOrderType_OrderedGroup" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="xref:6;87:67" type="topic"><?ditaot gentext?>Element pc:ReadingOrderType / pc:OrderedGroup</xref>, <xref href="pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita#ReadingOrderType_UnorderedGroup" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="xref:7;87:116" type="topic"><?ditaot gentext?>Element pc:ReadingOrderType / pc:UnorderedGroup</xref>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="row:8;90:21">
+                  <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:15;91:26" colname="col1" dita-ot:x="1" dita-ot:y="7">Source</entry>
+                  <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:16;92:26" colname="col2" dita-ot:x="2" dita-ot:y="7">
+                     <codeblock outputclass="language-xml" xml:space="preserve" class="+ topic/pre pr-d/codeblock " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="codeblock:2;93:60">&lt;complexType name="ReadingOrderType"&gt;
+  &lt;annotation&gt;
+    &lt;documentation&gt;Definition of the reading order within the page. To express a reading order between elements they have to be included in an OrderedGroup. Groups may contain further groups.&lt;/documentation&gt;
+  &lt;/annotation&gt;
+  &lt;choice minOccurs="1" maxOccurs="1"&gt;
+    &lt;element name="OrderedGroup" type="pc:OrderedGroupType"/&gt;
+    &lt;element name="UnorderedGroup" type="pc:UnorderedGroupType"/&gt;
+  &lt;/choice&gt;
+&lt;/complexType&gt;</codeblock>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="row:9;104:21">
+                  <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:17;105:26" colname="col1" dita-ot:x="1" dita-ot:y="8">Schema location</entry>
+                  <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:18;106:26" colname="col2" dita-ot:x="2" dita-ot:y="8">http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+   </body>
+   <related-links class="- topic/related-links "><linkpool class="- topic/linkpool " xtrc="topicref:112;120:79" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/dok.ditamap"><link class="- topic/link " format="dita" href="Complex_Type.dita" mapclass="- map/topicref " role="parent" scope="local" type="topic" xtrc="topicref:102;110:39" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/dok.ditamap"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Complex Type</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">Here are the Global Complex Types</desc></link></linkpool></related-links><topic id="ReadingOrderType_OrderedGroup" ditaarch:DITAArchVersion="1.3" domains="(topic abbrev-d)                            a(props deliveryTarget)                            (topic equation-d)                            (topic hazard-d)                            (topic hi-d)                            (topic indexing-d)                            (topic markup-d)                            (topic mathml-d)                            (topic pr-d)                            (topic relmgmt-d)                            (topic sw-d)                            (topic svg-d)                            (topic ui-d)                            (topic ut-d)                            (topic markup-d xml-d)   " class="- topic/topic " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="topic:2;112:46">
+      <title class="- topic/title " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="title:2;113:14">Element pc:ReadingOrderType / pc:OrderedGroup</title>
+      <body class="- topic/body " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="body:2;114:13">
+         <table frame="all" rowsep="1" colsep="1" class="- topic/table " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="table:3;115:51">
+            <tgroup cols="2" class="- topic/tgroup " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="tgroup:3;116:30">
+               <colspec colwidth="3*" align="left" rowheader="headers" class="- topic/colspec " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="colspec:5;117:53" colnum="1" colname="col1"/>
+               <colspec colwidth="25*" align="left" rowheader="headers" class="- topic/colspec " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="colspec:6;118:54" colnum="2" colname="col2"/>
+               <tbody class="- topic/tbody " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="tbody:3;119:23">
+                  <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="row:10;120:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:19;121:29" colname="col1" dita-ot:x="1" dita-ot:y="1">Namespace</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:20;122:29" colname="col2" dita-ot:x="2" dita-ot:y="1">http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15</entry>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="row:11;124:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:21;125:29" colname="col1" dita-ot:x="1" dita-ot:y="2">Diagram</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:22;126:29" colname="col2" dita-ot:x="2" dita-ot:y="2">
+                        <p class="- topic/p " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="p:3;127:28">
+                            
+                                    
+                                    <imagemap id="pagecontent_xsd_Element_pc_OrderedGroup" class="+ topic/fig ut-d/imagemap " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="imagemap:2;130:92">
+                                        
+                                        <image href="img/pagecontent_xsd_Element_pc_OrderedGroup.jpeg" placement="inline" class="- topic/image " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="image:2;132:105"/>
+                                        
+                                          
+                                            <area class="+ topic/figgroup ut-d/area " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="area:3;135:51">
+                                                <shape translate="no" class="+ topic/keyword ut-d/shape " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="shape:3;136:56">rect</shape>
+                                                <coords translate="no" class="+ topic/ph ut-d/coords " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="coords:3;137:57">228,79,311,123</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType_id" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="xref:8;142:145" type="topic"><?ditaot gentext?>Attribute pc:OrderedGroupType / @id</xref>
+                                                    
+                                            </area>
+                                          
+                                            <area class="+ topic/figgroup ut-d/area " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="area:4;146:51">
+                                                <shape translate="no" class="+ topic/keyword ut-d/shape " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="shape:4;147:56">rect</shape>
+                                                <coords translate="no" class="+ topic/ph ut-d/coords " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="coords:4;148:57">228,133,325,177</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType_regionRef" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="xref:9;153:152" type="topic"><?ditaot gentext?>Attribute pc:OrderedGroupType / @regionRef</xref>
+                                                    
+                                            </area>
+                                          
+                                            <area class="+ topic/figgroup ut-d/area " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="area:5;157:51">
+                                                <shape translate="no" class="+ topic/keyword ut-d/shape " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="shape:5;158:56">rect</shape>
+                                                <coords translate="no" class="+ topic/ph ut-d/coords " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="coords:5;159:57">228,246,318,290</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType_caption" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="xref:10;164:150" type="topic"><?ditaot gentext?>Attribute pc:OrderedGroupType / @caption</xref>
+                                                    
+                                            </area>
+                                          
+                                            <area class="+ topic/figgroup ut-d/area " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="area:6;168:51">
+                                                <shape translate="no" class="+ topic/keyword ut-d/shape " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="shape:6;169:56">rect</shape>
+                                                <coords translate="no" class="+ topic/ph ut-d/coords " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="coords:6;170:57">228,300,415,344</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType_type" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="xref:11;175:147" type="topic"><?ditaot gentext?>Attribute pc:OrderedGroupType / @type</xref>
+                                                    
+                                            </area>
+                                          
+                                            <area class="+ topic/figgroup ut-d/area " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="area:7;179:51">
+                                                <shape translate="no" class="+ topic/keyword ut-d/shape " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="shape:7;180:56">rect</shape>
+                                                <coords translate="no" class="+ topic/ph ut-d/coords " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="coords:7;181:57">228,354,336,398</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType_continuation" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="xref:12;186:155" type="topic"><?ditaot gentext?>Attribute pc:OrderedGroupType / @continuation</xref>
+                                                    
+                                            </area>
+                                          
+                                            <area class="+ topic/figgroup ut-d/area " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="area:8;190:51">
+                                                <shape translate="no" class="+ topic/keyword ut-d/shape " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="shape:8;191:56">rect</shape>
+                                                <coords translate="no" class="+ topic/ph ut-d/coords " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="coords:8;192:57">228,453,318,497</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType_custom" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="xref:13;197:149" type="topic"><?ditaot gentext?>Attribute pc:OrderedGroupType / @custom</xref>
+                                                    
+                                            </area>
+                                          
+                                            <area class="+ topic/figgroup ut-d/area " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="area:9;201:51">
+                                                <shape translate="no" class="+ topic/keyword ut-d/shape " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="shape:9;202:56">rect</shape>
+                                                <coords translate="no" class="+ topic/ph ut-d/coords " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="coords:9;203:57">228,507,327,551</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType_comments" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="xref:14;208:151" type="topic"><?ditaot gentext?>Attribute pc:OrderedGroupType / @comments</xref>
+                                                    
+                                            </area>
+                                          
+                                            <area class="+ topic/figgroup ut-d/area " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="area:10;212:51">
+                                                <shape translate="no" class="+ topic/keyword ut-d/shape " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="shape:10;213:56">rect</shape>
+                                                <coords translate="no" class="+ topic/ph ut-d/coords " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="coords:10;214:57">305,568,467,612</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType_UserDefined" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="xref:15;219:154" type="topic"><?ditaot gentext?>Element pc:OrderedGroupType / pc:UserDefined</xref>
+                                                    
+                                            </area>
+                                          
+                                            <area class="+ topic/figgroup ut-d/area " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="area:11;223:51">
+                                                <shape translate="no" class="+ topic/keyword ut-d/shape " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="shape:11;224:56">rect</shape>
+                                                <coords translate="no" class="+ topic/ph ut-d/coords " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="coords:11;225:57">376,622,566,666</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType_RegionRefIndexed" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="xref:16;230:159" type="topic"><?ditaot gentext?>Element pc:OrderedGroupType / pc:RegionRefIndexed</xref>
+                                                    
+                                            </area>
+                                          
+                                            <area class="+ topic/figgroup ut-d/area " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="area:12;234:51">
+                                                <shape translate="no" class="+ topic/keyword ut-d/shape " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="shape:12;235:56">rect</shape>
+                                                <coords translate="no" class="+ topic/ph ut-d/coords " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="coords:12;236:57">376,676,586,720</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType_OrderedGroupIndexed" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="xref:17;241:162" type="topic"><?ditaot gentext?>Element pc:OrderedGroupType / pc:OrderedGroupIndexed</xref>
+                                                    
+                                            </area>
+                                          
+                                            <area class="+ topic/figgroup ut-d/area " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="area:13;245:51">
+                                                <shape translate="no" class="+ topic/keyword ut-d/shape " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="shape:13;246:56">rect</shape>
+                                                <coords translate="no" class="+ topic/ph ut-d/coords " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="coords:13;247:57">376,730,597,774</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType_UnorderedGroupIndexed" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="xref:18;252:164" type="topic"><?ditaot gentext?>Element pc:OrderedGroupType / pc:UnorderedGroupIndexed</xref>
+                                                    
+                                            </area>
+                                          
+                                            <area class="+ topic/figgroup ut-d/area " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="area:14;256:51">
+                                                <shape translate="no" class="+ topic/keyword ut-d/shape " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="shape:14;257:56">rect</shape>
+                                                <coords translate="no" class="+ topic/ph ut-d/coords " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="coords:14;258:57">203,3,363,25</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="xref:19;263:142" type="topic"><?ditaot gentext?>Complex Type pc:OrderedGroupType</xref>
+                                                    
+                                            </area>
+                                        
+                                    </imagemap>
+                        </p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="row:12;271:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:23;272:29" colname="col1" dita-ot:x="1" dita-ot:y="3">Type</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:24;273:29" colname="col2" dita-ot:x="2" dita-ot:y="3">
+                        <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="xref:20;274:110" type="topic"><?ditaot gentext?>Complex Type pc:OrderedGroupType</xref>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="row:13;277:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:25;278:29" colname="col1" dita-ot:x="1" dita-ot:y="4">Properties</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:26;279:29" colname="col2" dita-ot:x="2" dita-ot:y="4">
+                        <p class="- topic/p " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="p:4;280:28">
+                           <table frame="all" rowsep="1" colsep="1" class="- topic/table " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="table:4;281:69">
+                              <tgroup cols="2" class="- topic/tgroup " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="tgroup:4;282:48">
+                                 <colspec colwidth="2*" align="left" rowheader="headers" class="- topic/colspec " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="colspec:7;283:71" colnum="1" colname="col1"/>
+                                 <colspec colwidth="8*" align="left" rowheader="headers" class="- topic/colspec " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="colspec:8;284:71" colnum="2" colname="col2"/>
+                                 <tbody class="- topic/tbody " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="tbody:4;285:41">
+                                    <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="row:14;286:42">
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:27;287:47" colname="col1" dita-ot:x="1" dita-ot:y="1">content: </entry>
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:28;288:47" colname="col2" dita-ot:x="2" dita-ot:y="1">
+                                          <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="b:1;289:46">complex</b>
+                                       </entry>
+                                    </row>
+                                 </tbody>
+                              </tgroup>
+                           </table>
+                        </p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="row:15;298:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:29;299:29" colname="col1" dita-ot:x="1" dita-ot:y="5">Model</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:30;300:29" colname="col2" dita-ot:x="2" dita-ot:y="5">
+                        <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType_UserDefined" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="xref:21;301:122" type="topic"><?ditaot gentext?>Element pc:OrderedGroupType / pc:UserDefined</xref> , (<xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType_RegionRefIndexed" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="xref:22;301:228" type="topic"><?ditaot gentext?>Element pc:OrderedGroupType / pc:RegionRefIndexed</xref> | <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType_OrderedGroupIndexed" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="xref:23;301:336" type="topic"><?ditaot gentext?>Element pc:OrderedGroupType / pc:OrderedGroupIndexed</xref> | <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType_UnorderedGroupIndexed" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="xref:24;301:446" type="topic"><?ditaot gentext?>Element pc:OrderedGroupType / pc:UnorderedGroupIndexed</xref>)</entry>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="row:16;303:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:31;304:29" colname="col1" dita-ot:x="1" dita-ot:y="6">Children</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:32;305:29" colname="col2" dita-ot:x="2" dita-ot:y="6">
+                        <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType_OrderedGroupIndexed" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="xref:25;306:130" type="topic"><?ditaot gentext?>Element pc:OrderedGroupType / pc:OrderedGroupIndexed</xref>, <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType_RegionRefIndexed" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="xref:26;306:234" type="topic"><?ditaot gentext?>Element pc:OrderedGroupType / pc:RegionRefIndexed</xref>, <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType_UnorderedGroupIndexed" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="xref:27;306:343" type="topic"><?ditaot gentext?>Element pc:OrderedGroupType / pc:UnorderedGroupIndexed</xref>, <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType_UserDefined" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="xref:28;306:442" type="topic"><?ditaot gentext?>Element pc:OrderedGroupType / pc:UserDefined</xref>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="row:17;309:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:33;310:29" colname="col1" dita-ot:x="1" dita-ot:y="7">Instance</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:34;311:29" colname="col2" dita-ot:x="2" dita-ot:y="7">
+                        <codeblock outputclass="language-xml" xml:space="preserve" class="+ topic/pre pr-d/codeblock " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="codeblock:3;312:63">&lt;pc:OrderedGroup caption="" comments="" continuation="" custom="" id="" regionRef="" type="" xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15"&gt;
+  &lt;pc:UserDefined&gt;{0,1}&lt;/pc:UserDefined&gt;
+  &lt;pc:RegionRefIndexed index="" regionRef=""&gt;{1,1}&lt;/pc:RegionRefIndexed&gt;
+  &lt;pc:OrderedGroupIndexed caption="" comments="" continuation="" custom="" id="" index="" regionRef="" type=""&gt;{1,1}&lt;/pc:OrderedGroupIndexed&gt;
+  &lt;pc:UnorderedGroupIndexed caption="" comments="" continuation="" custom="" id="" index="" regionRef="" type=""&gt;{1,1}&lt;/pc:UnorderedGroupIndexed&gt;
+&lt;/pc:OrderedGroup&gt;</codeblock>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="row:18;320:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:35;321:29" colname="col1" dita-ot:x="1" dita-ot:y="8">Attributes</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:36;322:29" colname="col2" dita-ot:x="2" dita-ot:y="8">
+                        <p class="- topic/p " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="p:5;323:28">
+                           <table frame="all" rowsep="1" colsep="1" class="- topic/table " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="table:5;324:69">
+                              <tgroup cols="3" class="- topic/tgroup " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="tgroup:5;325:48">
+                                 <colspec colnum="1" colname="col1" align="left" colwidth="3*" rowheader="headers" class="- topic/colspec " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="colspec:9;326:97"/>
+                                 <colspec colnum="2" colname="col2" align="left" colwidth="3*" rowheader="headers" class="- topic/colspec " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="colspec:10;327:97"/>
+                                 <colspec colnum="3" colname="col3" align="left" colwidth="1*" rowheader="headers" class="- topic/colspec " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="colspec:11;328:97"/>
+                                 <thead class="- topic/thead " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="thead:1;329:41">
+                                    <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="row:19;330:42">
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:37;331:47" colname="col1" dita-ot:x="1" dita-ot:y="1">QName</entry>
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:38;332:47" colname="col2" dita-ot:x="2" dita-ot:y="1">Type</entry>
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:39;333:47" colname="col3" dita-ot:x="3" dita-ot:y="1">Use</entry>
+                                    </row>
+                                 </thead>
+                                 <tbody class="- topic/tbody " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="tbody:5;336:41">
+                                    <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="row:20;337:42">
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:40;338:47" colname="col1" dita-ot:x="1" dita-ot:y="2">
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType_caption" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="xref:29;339:136" type="topic"><?ditaot gentext?>Attribute pc:OrderedGroupType / @caption</xref>
+                                       </entry>
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:41;341:47" colname="col2" dita-ot:x="2" dita-ot:y="2">string</entry>
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:42;342:47" colname="col3" dita-ot:x="3" dita-ot:y="2">optional</entry>
+                                    </row>
+                                    <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="row:21;344:42">
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:43;345:47" colname="col1" dita-ot:x="1" dita-ot:y="3">
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType_comments" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="xref:30;346:137" type="topic"><?ditaot gentext?>Attribute pc:OrderedGroupType / @comments</xref>
+                                       </entry>
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:44;348:47" colname="col2" dita-ot:x="2" dita-ot:y="3">string</entry>
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:45;349:47" colname="col3" dita-ot:x="3" dita-ot:y="3">optional</entry>
+                                    </row>
+                                    <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="row:22;351:42">
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:46;352:47" colname="col1" dita-ot:x="1" dita-ot:y="4">
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType_continuation" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="xref:31;353:141" type="topic"><?ditaot gentext?>Attribute pc:OrderedGroupType / @continuation</xref>
+                                       </entry>
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:47;355:47" colname="col2" dita-ot:x="2" dita-ot:y="4">boolean</entry>
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:48;356:47" colname="col3" dita-ot:x="3" dita-ot:y="4">optional</entry>
+                                    </row>
+                                    <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="row:23;358:42">
+                                       <entry namest="col1" nameend="col3" class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:49;359:76" colname="col1" dita-ot:morecols="2" dita-ot:x="1" dita-ot:y="5">
+                                          <codeblock outputclass="language-xml" xml:space="preserve" class="+ topic/pre pr-d/codeblock " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="codeblock:4;360:81">Is this group a continuation of another group (from previous column or page, for example)?</codeblock>
+                                       </entry>
+                                    </row>
+                                    <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="row:24;363:42">
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:50;364:47" colname="col1" dita-ot:x="1" dita-ot:y="6">
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType_custom" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="xref:32;365:135" type="topic"><?ditaot gentext?>Attribute pc:OrderedGroupType / @custom</xref>
+                                       </entry>
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:51;367:47" colname="col2" dita-ot:x="2" dita-ot:y="6">string</entry>
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:52;368:47" colname="col3" dita-ot:x="3" dita-ot:y="6">optional</entry>
+                                    </row>
+                                    <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="row:25;370:42">
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:53;371:47" colname="col1" dita-ot:x="1" dita-ot:y="7">
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType_id" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="xref:33;372:131" type="topic"><?ditaot gentext?>Attribute pc:OrderedGroupType / @id</xref>
+                                       </entry>
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:54;374:47" colname="col2" dita-ot:x="2" dita-ot:y="7">ID</entry>
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:55;375:47" colname="col3" dita-ot:x="3" dita-ot:y="7">required</entry>
+                                    </row>
+                                    <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="row:26;377:42">
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:56;378:47" colname="col1" dita-ot:x="1" dita-ot:y="8">
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType_regionRef" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="xref:34;379:138" type="topic"><?ditaot gentext?>Attribute pc:OrderedGroupType / @regionRef</xref>
+                                       </entry>
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:57;381:47" colname="col2" dita-ot:x="2" dita-ot:y="8">IDREF</entry>
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:58;382:47" colname="col3" dita-ot:x="3" dita-ot:y="8">optional</entry>
+                                    </row>
+                                    <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="row:27;384:42">
+                                       <entry namest="col1" nameend="col3" class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:59;385:76" colname="col1" dita-ot:morecols="2" dita-ot:x="1" dita-ot:y="9">
+                                          <codeblock outputclass="language-xml" xml:space="preserve" class="+ topic/pre pr-d/codeblock " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="codeblock:5;386:81">Optional link to a parent region of nested regions. The parent region doubles as reading order group. Only the nested regions should be allowed as group members.</codeblock>
+                                       </entry>
+                                    </row>
+                                    <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="row:28;389:42">
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:60;390:47" colname="col1" dita-ot:x="1" dita-ot:y="10">
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType_type" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="xref:35;391:133" type="topic"><?ditaot gentext?>Attribute pc:OrderedGroupType / @type</xref>
+                                       </entry>
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:61;393:47" colname="col2" dita-ot:x="2" dita-ot:y="10">
+                                          <xref href="pagecontent_xsd_Simple_Type_pc_GroupTypeSimpleType.dita#GroupTypeSimpleType" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="xref:36;394:133" type="topic"><?ditaot gentext?>Simple Type pc:GroupTypeSimpleType</xref>
+                                       </entry>
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:62;396:47" colname="col3" dita-ot:x="3" dita-ot:y="10">optional</entry>
+                                    </row>
+                                 </tbody>
+                              </tgroup>
+                           </table>
+                        </p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="row:29;404:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:63;405:29" colname="col1" dita-ot:x="1" dita-ot:y="9">Source</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:64;406:29" colname="col2" dita-ot:x="2" dita-ot:y="9">
+                        <codeblock outputclass="language-xml" xml:space="preserve" class="+ topic/pre pr-d/codeblock " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="codeblock:6;407:63">&lt;element name="OrderedGroup" type="pc:OrderedGroupType"/&gt;</codeblock>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="row:30;410:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:65;411:29" colname="col1" dita-ot:x="1" dita-ot:y="10">Schema location</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:66;412:29" colname="col2" dita-ot:x="2" dita-ot:y="10">http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </body>
+   </topic>
+   <topic id="ReadingOrderType_UnorderedGroup" ditaarch:DITAArchVersion="1.3" domains="(topic abbrev-d)                            a(props deliveryTarget)                            (topic equation-d)                            (topic hazard-d)                            (topic hi-d)                            (topic indexing-d)                            (topic markup-d)                            (topic mathml-d)                            (topic pr-d)                            (topic relmgmt-d)                            (topic sw-d)                            (topic svg-d)                            (topic ui-d)                            (topic ut-d)                            (topic markup-d xml-d)   " class="- topic/topic " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="topic:3;419:48">
+      <title class="- topic/title " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="title:3;420:14">Element pc:ReadingOrderType / pc:UnorderedGroup</title>
+      <body class="- topic/body " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="body:3;421:13">
+         <table frame="all" rowsep="1" colsep="1" class="- topic/table " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="table:6;422:51">
+            <tgroup cols="2" class="- topic/tgroup " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="tgroup:6;423:30">
+               <colspec colwidth="3*" align="left" rowheader="headers" class="- topic/colspec " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="colspec:12;424:53" colnum="1" colname="col1"/>
+               <colspec colwidth="25*" align="left" rowheader="headers" class="- topic/colspec " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="colspec:13;425:54" colnum="2" colname="col2"/>
+               <tbody class="- topic/tbody " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="tbody:6;426:23">
+                  <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="row:31;427:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:67;428:29" colname="col1" dita-ot:x="1" dita-ot:y="1">Namespace</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:68;429:29" colname="col2" dita-ot:x="2" dita-ot:y="1">http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15</entry>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="row:32;431:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:69;432:29" colname="col1" dita-ot:x="1" dita-ot:y="2">Diagram</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:70;433:29" colname="col2" dita-ot:x="2" dita-ot:y="2">
+                        <p class="- topic/p " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="p:6;434:28">
+                            
+                                    
+                                    <imagemap id="pagecontent_xsd_Element_pc_UnorderedGroup_2" class="+ topic/fig ut-d/imagemap " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="imagemap:3;437:96">
+                                        
+                                        <image href="img/pagecontent_xsd_Element_pc_UnorderedGroup_2.jpeg" placement="inline" class="- topic/image " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="image:3;439:109"/>
+                                        
+                                          
+                                            <area class="+ topic/figgroup ut-d/area " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="area:15;442:51">
+                                                <shape translate="no" class="+ topic/keyword ut-d/shape " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="shape:15;443:56">rect</shape>
+                                                <coords translate="no" class="+ topic/ph ut-d/coords " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="coords:15;444:57">239,79,322,123</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupType.dita#UnorderedGroupType_id" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="xref:37;449:149" type="topic"><?ditaot gentext?>Attribute pc:UnorderedGroupType / @id</xref>
+                                                    
+                                            </area>
+                                          
+                                            <area class="+ topic/figgroup ut-d/area " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="area:16;453:51">
+                                                <shape translate="no" class="+ topic/keyword ut-d/shape " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="shape:16;454:56">rect</shape>
+                                                <coords translate="no" class="+ topic/ph ut-d/coords " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="coords:16;455:57">239,133,336,177</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupType.dita#NO_NAMESPACE_UnorderedGroupType_regionRef" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="xref:38;460:169" type="topic"><?ditaot gentext?>Attribute pc:UnorderedGroupType / @regionRef</xref>
+                                                    
+                                            </area>
+                                          
+                                            <area class="+ topic/figgroup ut-d/area " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="area:17;464:51">
+                                                <shape translate="no" class="+ topic/keyword ut-d/shape " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="shape:17;465:56">rect</shape>
+                                                <coords translate="no" class="+ topic/ph ut-d/coords " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="coords:17;466:57">239,246,329,290</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupType.dita#UnorderedGroupType_caption" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="xref:39;471:154" type="topic"><?ditaot gentext?>Attribute pc:UnorderedGroupType / @caption</xref>
+                                                    
+                                            </area>
+                                          
+                                            <area class="+ topic/figgroup ut-d/area " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="area:18;475:51">
+                                                <shape translate="no" class="+ topic/keyword ut-d/shape " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="shape:18;476:56">rect</shape>
+                                                <coords translate="no" class="+ topic/ph ut-d/coords " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="coords:18;477:57">239,300,426,344</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupType.dita#UnorderedGroupType_type" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="xref:40;482:151" type="topic"><?ditaot gentext?>Attribute pc:UnorderedGroupType / @type</xref>
+                                                    
+                                            </area>
+                                          
+                                            <area class="+ topic/figgroup ut-d/area " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="area:19;486:51">
+                                                <shape translate="no" class="+ topic/keyword ut-d/shape " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="shape:19;487:56">rect</shape>
+                                                <coords translate="no" class="+ topic/ph ut-d/coords " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="coords:19;488:57">239,354,347,398</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupType.dita#UnorderedGroupType_continuation" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="xref:41;493:159" type="topic"><?ditaot gentext?>Attribute pc:UnorderedGroupType / @continuation</xref>
+                                                    
+                                            </area>
+                                          
+                                            <area class="+ topic/figgroup ut-d/area " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="area:20;497:51">
+                                                <shape translate="no" class="+ topic/keyword ut-d/shape " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="shape:20;498:56">rect</shape>
+                                                <coords translate="no" class="+ topic/ph ut-d/coords " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="coords:20;499:57">239,453,329,497</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupType.dita#UnorderedGroupType_custom" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="xref:42;504:153" type="topic"><?ditaot gentext?>Attribute pc:UnorderedGroupType / @custom</xref>
+                                                    
+                                            </area>
+                                          
+                                            <area class="+ topic/figgroup ut-d/area " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="area:21;508:51">
+                                                <shape translate="no" class="+ topic/keyword ut-d/shape " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="shape:21;509:56">rect</shape>
+                                                <coords translate="no" class="+ topic/ph ut-d/coords " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="coords:21;510:57">239,507,338,551</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupType.dita#UnorderedGroupType_comments" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="xref:43;515:155" type="topic"><?ditaot gentext?>Attribute pc:UnorderedGroupType / @comments</xref>
+                                                    
+                                            </area>
+                                          
+                                            <area class="+ topic/figgroup ut-d/area " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="area:22;519:51">
+                                                <shape translate="no" class="+ topic/keyword ut-d/shape " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="shape:22;520:56">rect</shape>
+                                                <coords translate="no" class="+ topic/ph ut-d/coords " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="coords:22;521:57">316,568,478,612</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupType.dita#UnorderedGroupType_UserDefined" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="xref:44;526:158" type="topic"><?ditaot gentext?>Element pc:UnorderedGroupType / pc:UserDefined</xref>
+                                                    
+                                            </area>
+                                          
+                                            <area class="+ topic/figgroup ut-d/area " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="area:23;530:51">
+                                                <shape translate="no" class="+ topic/keyword ut-d/shape " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="shape:23;531:56">rect</shape>
+                                                <coords translate="no" class="+ topic/ph ut-d/coords " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="coords:23;532:57">387,622,539,666</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupType.dita#UnorderedGroupType_RegionRef" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="xref:45;537:156" type="topic"><?ditaot gentext?>Element pc:UnorderedGroupType / pc:RegionRef</xref>
+                                                    
+                                            </area>
+                                          
+                                            <area class="+ topic/figgroup ut-d/area " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="area:24;541:51">
+                                                <shape translate="no" class="+ topic/keyword ut-d/shape " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="shape:24;542:56">rect</shape>
+                                                <coords translate="no" class="+ topic/ph ut-d/coords " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="coords:24;543:57">387,676,559,720</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupType.dita#UnorderedGroupType_OrderedGroup" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="xref:46;548:159" type="topic"><?ditaot gentext?>Element pc:UnorderedGroupType / pc:OrderedGroup</xref>
+                                                    
+                                            </area>
+                                          
+                                            <area class="+ topic/figgroup ut-d/area " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="area:25;552:51">
+                                                <shape translate="no" class="+ topic/keyword ut-d/shape " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="shape:25;553:56">rect</shape>
+                                                <coords translate="no" class="+ topic/ph ut-d/coords " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="coords:25;554:57">387,730,570,774</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupType.dita#UnorderedGroupType_UnorderedGroup" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="xref:47;559:161" type="topic"><?ditaot gentext?>Element pc:UnorderedGroupType / pc:UnorderedGroup</xref>
+                                                    
+                                            </area>
+                                          
+                                            <area class="+ topic/figgroup ut-d/area " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="area:26;563:51">
+                                                <shape translate="no" class="+ topic/keyword ut-d/shape " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="shape:26;564:56">rect</shape>
+                                                <coords translate="no" class="+ topic/ph ut-d/coords " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="coords:26;565:57">214,3,385,25</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupType.dita#UnorderedGroupType" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="xref:48;570:146" type="topic"><?ditaot gentext?>Complex Type pc:UnorderedGroupType</xref>
+                                                    
+                                            </area>
+                                        
+                                    </imagemap>
+                        </p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="row:33;578:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:71;579:29" colname="col1" dita-ot:x="1" dita-ot:y="3">Type</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:72;580:29" colname="col2" dita-ot:x="2" dita-ot:y="3">
+                        <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupType.dita#UnorderedGroupType" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="xref:49;581:114" type="topic"><?ditaot gentext?>Complex Type pc:UnorderedGroupType</xref>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="row:34;584:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:73;585:29" colname="col1" dita-ot:x="1" dita-ot:y="4">Properties</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:74;586:29" colname="col2" dita-ot:x="2" dita-ot:y="4">
+                        <p class="- topic/p " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="p:7;587:28">
+                           <table frame="all" rowsep="1" colsep="1" class="- topic/table " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="table:7;588:69">
+                              <tgroup cols="2" class="- topic/tgroup " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="tgroup:7;589:48">
+                                 <colspec colwidth="2*" align="left" rowheader="headers" class="- topic/colspec " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="colspec:14;590:71" colnum="1" colname="col1"/>
+                                 <colspec colwidth="8*" align="left" rowheader="headers" class="- topic/colspec " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="colspec:15;591:71" colnum="2" colname="col2"/>
+                                 <tbody class="- topic/tbody " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="tbody:7;592:41">
+                                    <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="row:35;593:42">
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:75;594:47" colname="col1" dita-ot:x="1" dita-ot:y="1">content: </entry>
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:76;595:47" colname="col2" dita-ot:x="2" dita-ot:y="1">
+                                          <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="b:2;596:46">complex</b>
+                                       </entry>
+                                    </row>
+                                 </tbody>
+                              </tgroup>
+                           </table>
+                        </p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="row:36;605:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:77;606:29" colname="col1" dita-ot:x="1" dita-ot:y="5">Model</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:78;607:29" colname="col2" dita-ot:x="2" dita-ot:y="5">
+                        <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupType.dita#UnorderedGroupType_UserDefined" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="xref:50;608:126" type="topic"><?ditaot gentext?>Element pc:UnorderedGroupType / pc:UserDefined</xref> , (<xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupType.dita#UnorderedGroupType_RegionRef" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="xref:51;608:229" type="topic"><?ditaot gentext?>Element pc:UnorderedGroupType / pc:RegionRef</xref> | <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupType.dita#UnorderedGroupType_OrderedGroup" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="xref:52;608:334" type="topic"><?ditaot gentext?>Element pc:UnorderedGroupType / pc:OrderedGroup</xref> | <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupType.dita#UnorderedGroupType_UnorderedGroup" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="xref:53;608:441" type="topic"><?ditaot gentext?>Element pc:UnorderedGroupType / pc:UnorderedGroup</xref>)</entry>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="row:37;610:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:79;611:29" colname="col1" dita-ot:x="1" dita-ot:y="6">Children</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:80;612:29" colname="col2" dita-ot:x="2" dita-ot:y="6">
+                        <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupType.dita#UnorderedGroupType_OrderedGroup" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="xref:54;613:127" type="topic"><?ditaot gentext?>Element pc:UnorderedGroupType / pc:OrderedGroup</xref>, <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupType.dita#UnorderedGroupType_RegionRef" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="xref:55;613:228" type="topic"><?ditaot gentext?>Element pc:UnorderedGroupType / pc:RegionRef</xref>, <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupType.dita#UnorderedGroupType_UnorderedGroup" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="xref:56;613:334" type="topic"><?ditaot gentext?>Element pc:UnorderedGroupType / pc:UnorderedGroup</xref>, <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupType.dita#UnorderedGroupType_UserDefined" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="xref:57;613:437" type="topic"><?ditaot gentext?>Element pc:UnorderedGroupType / pc:UserDefined</xref>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="row:38;616:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:81;617:29" colname="col1" dita-ot:x="1" dita-ot:y="7">Instance</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:82;618:29" colname="col2" dita-ot:x="2" dita-ot:y="7">
+                        <codeblock outputclass="language-xml" xml:space="preserve" class="+ topic/pre pr-d/codeblock " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="codeblock:7;619:63">&lt;pc:UnorderedGroup caption="" comments="" continuation="" custom="" id="" regionRef="" type="" xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15"&gt;
+  &lt;pc:UserDefined&gt;{0,1}&lt;/pc:UserDefined&gt;
+  &lt;pc:RegionRef regionRef=""&gt;{1,1}&lt;/pc:RegionRef&gt;
+  &lt;pc:OrderedGroup caption="" comments="" continuation="" custom="" id="" regionRef="" type=""&gt;{1,1}&lt;/pc:OrderedGroup&gt;
+  &lt;pc:UnorderedGroup caption="" comments="" continuation="" custom="" id="" regionRef="" type=""&gt;{1,1}&lt;/pc:UnorderedGroup&gt;
+&lt;/pc:UnorderedGroup&gt;</codeblock>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="row:39;627:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:83;628:29" colname="col1" dita-ot:x="1" dita-ot:y="8">Attributes</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:84;629:29" colname="col2" dita-ot:x="2" dita-ot:y="8">
+                        <p class="- topic/p " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="p:8;630:28">
+                           <table frame="all" rowsep="1" colsep="1" class="- topic/table " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="table:8;631:69">
+                              <tgroup cols="3" class="- topic/tgroup " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="tgroup:8;632:48">
+                                 <colspec colnum="1" colname="col1" align="left" colwidth="3*" rowheader="headers" class="- topic/colspec " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="colspec:16;633:97"/>
+                                 <colspec colnum="2" colname="col2" align="left" colwidth="3*" rowheader="headers" class="- topic/colspec " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="colspec:17;634:97"/>
+                                 <colspec colnum="3" colname="col3" align="left" colwidth="1*" rowheader="headers" class="- topic/colspec " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="colspec:18;635:97"/>
+                                 <thead class="- topic/thead " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="thead:2;636:41">
+                                    <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="row:40;637:42">
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:85;638:47" colname="col1" dita-ot:x="1" dita-ot:y="1">QName</entry>
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:86;639:47" colname="col2" dita-ot:x="2" dita-ot:y="1">Type</entry>
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:87;640:47" colname="col3" dita-ot:x="3" dita-ot:y="1">Use</entry>
+                                    </row>
+                                 </thead>
+                                 <tbody class="- topic/tbody " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="tbody:8;643:41">
+                                    <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="row:41;644:42">
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:88;645:47" colname="col1" dita-ot:x="1" dita-ot:y="2">
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupType.dita#UnorderedGroupType_caption" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="xref:58;646:140" type="topic"><?ditaot gentext?>Attribute pc:UnorderedGroupType / @caption</xref>
+                                       </entry>
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:89;648:47" colname="col2" dita-ot:x="2" dita-ot:y="2">string</entry>
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:90;649:47" colname="col3" dita-ot:x="3" dita-ot:y="2">optional</entry>
+                                    </row>
+                                    <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="row:42;651:42">
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:91;652:47" colname="col1" dita-ot:x="1" dita-ot:y="3">
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupType.dita#UnorderedGroupType_comments" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="xref:59;653:141" type="topic"><?ditaot gentext?>Attribute pc:UnorderedGroupType / @comments</xref>
+                                       </entry>
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:92;655:47" colname="col2" dita-ot:x="2" dita-ot:y="3">string</entry>
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:93;656:47" colname="col3" dita-ot:x="3" dita-ot:y="3">optional</entry>
+                                    </row>
+                                    <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="row:43;658:42">
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:94;659:47" colname="col1" dita-ot:x="1" dita-ot:y="4">
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupType.dita#UnorderedGroupType_continuation" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="xref:60;660:145" type="topic"><?ditaot gentext?>Attribute pc:UnorderedGroupType / @continuation</xref>
+                                       </entry>
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:95;662:47" colname="col2" dita-ot:x="2" dita-ot:y="4">boolean</entry>
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:96;663:47" colname="col3" dita-ot:x="3" dita-ot:y="4">optional</entry>
+                                    </row>
+                                    <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="row:44;665:42">
+                                       <entry namest="col1" nameend="col3" class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:97;666:76" colname="col1" dita-ot:morecols="2" dita-ot:x="1" dita-ot:y="5">
+                                          <codeblock outputclass="language-xml" xml:space="preserve" class="+ topic/pre pr-d/codeblock " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="codeblock:8;667:81">Is this group a continuation of another group (from previous column or page, for example)?</codeblock>
+                                       </entry>
+                                    </row>
+                                    <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="row:45;670:42">
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:98;671:47" colname="col1" dita-ot:x="1" dita-ot:y="6">
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupType.dita#UnorderedGroupType_custom" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="xref:61;672:139" type="topic"><?ditaot gentext?>Attribute pc:UnorderedGroupType / @custom</xref>
+                                       </entry>
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:99;674:47" colname="col2" dita-ot:x="2" dita-ot:y="6">string</entry>
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:100;675:47" colname="col3" dita-ot:x="3" dita-ot:y="6">optional</entry>
+                                    </row>
+                                    <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="row:46;677:42">
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:101;678:47" colname="col1" dita-ot:x="1" dita-ot:y="7">
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupType.dita#UnorderedGroupType_id" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="xref:62;679:135" type="topic"><?ditaot gentext?>Attribute pc:UnorderedGroupType / @id</xref>
+                                       </entry>
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:102;681:47" colname="col2" dita-ot:x="2" dita-ot:y="7">ID</entry>
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:103;682:47" colname="col3" dita-ot:x="3" dita-ot:y="7">required</entry>
+                                    </row>
+                                    <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="row:47;684:42">
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:104;685:47" colname="col1" dita-ot:x="1" dita-ot:y="8">
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupType.dita#NO_NAMESPACE_UnorderedGroupType_regionRef" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="xref:63;686:155" type="topic"><?ditaot gentext?>Attribute pc:UnorderedGroupType / @regionRef</xref>
+                                       </entry>
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:105;688:47" colname="col2" dita-ot:x="2" dita-ot:y="8">IDREF</entry>
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:106;689:47" colname="col3" dita-ot:x="3" dita-ot:y="8">optional</entry>
+                                    </row>
+                                    <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="row:48;691:42">
+                                       <entry namest="col1" nameend="col3" class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:107;692:76" colname="col1" dita-ot:morecols="2" dita-ot:x="1" dita-ot:y="9">
+                                          <codeblock outputclass="language-xml" xml:space="preserve" class="+ topic/pre pr-d/codeblock " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="codeblock:9;693:81">Optional link to a parent region of nested regions. The parent region doubles as reading order group. Only the nested regions should be allowed as group members.</codeblock>
+                                       </entry>
+                                    </row>
+                                    <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="row:49;696:42">
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:108;697:47" colname="col1" dita-ot:x="1" dita-ot:y="10">
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupType.dita#UnorderedGroupType_type" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="xref:64;698:137" type="topic"><?ditaot gentext?>Attribute pc:UnorderedGroupType / @type</xref>
+                                       </entry>
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:109;700:47" colname="col2" dita-ot:x="2" dita-ot:y="10">
+                                          <xref href="pagecontent_xsd_Simple_Type_pc_GroupTypeSimpleType.dita#GroupTypeSimpleType" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="xref:65;701:133" type="topic"><?ditaot gentext?>Simple Type pc:GroupTypeSimpleType</xref>
+                                       </entry>
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:110;703:47" colname="col3" dita-ot:x="3" dita-ot:y="10">optional</entry>
+                                    </row>
+                                 </tbody>
+                              </tgroup>
+                           </table>
+                        </p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="row:50;711:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:111;712:29" colname="col1" dita-ot:x="1" dita-ot:y="9">Source</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:112;713:29" colname="col2" dita-ot:x="2" dita-ot:y="9">
+                        <codeblock outputclass="language-xml" xml:space="preserve" class="+ topic/pre pr-d/codeblock " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="codeblock:10;714:63">&lt;element name="UnorderedGroup" type="pc:UnorderedGroupType"/&gt;</codeblock>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="row:51;717:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:113;718:29" colname="col1" dita-ot:x="1" dita-ot:y="10">Schema location</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_ReadingOrderType.dita" xtrc="entry:114;719:29" colname="col2" dita-ot:x="2" dita-ot:y="10">http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </body>
+   </topic>
+</topic>

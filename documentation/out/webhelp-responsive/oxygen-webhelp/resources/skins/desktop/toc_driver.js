@@ -82,12 +82,12 @@ $(document).ready(function () {
         var newLink = "";
         try {
             var currentLink = parseUri($('#frm').attr('src'));
+
+            newLink = $(this).attr("href") + "?q=" + currentLink.relative;
+            $(this).attr("href", newLink);
         } catch (e) {
             debug(e);
         }
-
-        newLink = $(this).attr("href") + "?q=" + currentLink.relative;
-        $(this).attr("href", newLink);
     });
 });
 
@@ -150,6 +150,28 @@ function showDivs() {
 }
 
 /**
+ * @description Check if an URL is available or not
+ * @param pageUrl - URL to be checked
+ * @returns {boolean} true if page is available
+ *                    false if page is not available
+ */
+function isPageAvailable(pageUrl){
+    debug("isPageAvailable(" + pageUrl + ")");
+    var toReturn = true;
+    var request = new XMLHttpRequest();
+    request.open('HEAD', pageUrl, false);
+    request.onload = function(){
+        if(request.status === 404 || request.status === 403){
+            debug(pageUrl + " does not exists!");
+            toReturn = false;
+        }
+    };
+    request.send();
+
+    return toReturn;
+}
+
+/**
  * @description Load dynamicURL to iFrame
  * @param dynamicURL - URL to be loaded
  */
@@ -166,6 +188,7 @@ function loadIframe(dynamicURL) {
         }
     } catch (e) {
         debug(e);
+        return false;
     }
 
     if (dynamicURL.indexOf("#") > 0) {
@@ -181,8 +204,14 @@ function loadIframe(dynamicURL) {
         tempLink = tempLinks[tempLinks.length-1];
     }
     if (tempLink.indexOf('.') != -1 && tempLink.indexOf('.htm') === -1 && tempLink.indexOf('.xhtm') === -1) {
-        debug('open in new window: ' + tempLink);
-        window.open(tempLink, '_blank');
+        tempLink = whUrl + encodeURI(decodeURI(tempLink));
+
+        if (isPageAvailable(tempLink)) {
+        	debug('open in new window: ' + tempLink);
+        	window.open(tempLink, '_blank');
+        } else {
+            debug("Page doesn't exist in current WebHelp output!");
+        }
         return;
     }
 
@@ -243,80 +272,81 @@ function loadIframe(dynamicURL) {
         if (notLocalChrome) {
             debug('#frm.load 1');
             try {
-            $('#frm').contents().find('.navfooter').before('<div class="footer_separator" style="border-top: 1px solid #EEE;"><!-- --></div>').hide();
-            $('#frm').contents().find('.frames').hide();
-            
-            $('#frm').contents().find('a, area').click(function (ev) {
-                if ( !ev.altKey && !ev.shiftKey && !ev.ctrlKey && ev.button==0 ) {
-                var hrf = $(this).attr('href');
-                /*EXM-26476 The mailto protocol is not properly detected by the parseUri utility.*/
-                if (hrf && hrf.length > 6 && hrf.substring(0, 7) == "mailto:") {
-                    return;
-                }
-                
-                /* EXM-27247 Ignore <a> elements with the "target" attribute.*/
-                var target = $(this).attr('target');
-                if (target) {
-                    // Let the default processing take place.
-                    return;
-                }
+                $('#frm').contents().find('.navfooter').before('<div class="footer_separator" style="border-top: 1px solid #EEE;"><!-- --></div>').hide();
+                $('#frm').contents().find('.frames').hide();
 
-                var p = parseUri(hrf);
-                if (p.protocol != '') {
-                    //Let the default processing take place.
-                    return;
-                } else {
-                    // EXM-27800 Decide to ignore or keep iframeDir in the path
-                    // of the target of the <a> link based on ID of parent div element.
-                    var topicRelativePath = '#' + processHref(hrf, $(this).closest("div").attr("id"));
-                    var currentTopicRelativePath = window.location.href.substr(window.location.href.indexOf("#"));
-                        if (currentTopicRelativePath == topicRelativePath) {
+                $('#frm').contents().find('a, area').click(function (ev) {
+                    if ( !ev.altKey && !ev.shiftKey && !ev.ctrlKey && ev.button==0 ) {
+                    var hrf = $(this).attr('href');
+                    /*EXM-26476 The mailto protocol is not properly detected by the parseUri utility.*/
+                    if (hrf && hrf.length > 6 && hrf.substring(0, 7) == "mailto:") {
                         return;
-                    } else {
-                        var newUrl = pageName + location.search + topicRelativePath;
-                        window.location.href = whUrl + newUrl;
                     }
 
-                    ev.preventDefault();
-                }
-                return false;
-                }
-            });
+                    /* EXM-27247 Ignore <a> elements with the "target" attribute.*/
+                    var target = $(this).attr('target');
+                    if (target) {
+                        // Let the default processing take place.
+                        return;
+                    }
 
-            debug('#frm.load 2');
-            if (navigator.appVersion.indexOf("MSIE 7.") == -1) {
-                 $('#navigationLinks').html($('#frm').contents().find('.navheader .navparent, .navheader .navprev, .navheader .navnext'));
-								 $('#frm').contents().find('.navheader').hide();
-            } else {
-                $('#frm').contents().find("table.nav").find("tr:first-child").hide();
-            }
-            /**
-             * Nu mai ascundem toc-ul - ii scadem relevanta din indexer
-             * EXM-25565
-             */
-            //$('#frm').contents().find('.toc').hide();
-            if (navigator.appVersion.indexOf("MSIE 7.") == -1) {
-             $('#breadcrumbLinks').html($('#frm').contents().find('span.topic_breadcrumb_links'));
-            }
-            // normalize links
-            $('#breadcrumbLinks a, #navigationLinks a').each(function () {
-                var oldLink = $(this).attr('href');
-                // we generate from oxygen '../'s in from of link
-                while (oldLink.indexOf('../') == 0) {
-                    info('strip \'../\' from ' + oldLink);
-                    oldLink = oldLink.substring(3);
-                }
-                $(this).attr('href', stripUri(oldLink));
-            });
-            if (navigator.appVersion.indexOf("MSIE 7.") == -1) {
-              showParents();
-              $('#frm').contents().find('table.nav').hide();
-            } else {
+                    var p = parseUri(hrf);
+                    if (p.protocol != '') {
+                        //Let the default processing take place.
+                        $(this).attr("target", "blank");
+                        return;
+                    } else {
+                        // EXM-27800 Decide to ignore or keep iframeDir in the path
+                        // of the target of the <a> link based on ID of parent div element.
+                        var topicRelativePath = '#' + processHref(hrf, $(this).closest("div").attr("id"));
+                        var currentTopicRelativePath = window.location.href.substr(window.location.href.indexOf("#"));
+                            if (currentTopicRelativePath == topicRelativePath) {
+                            return;
+                        } else {
+                            var newUrl = pageName + location.search + topicRelativePath;
+                            window.location.href = whUrl + newUrl;
+                        }
 
-            }
+                        ev.preventDefault();
+                    }
+                    return false;
+                    }
+                });
+
+                debug('#frm.load 2');
+                if (navigator.appVersion.indexOf("MSIE 7.") == -1) {
+                    $('#navigationLinks').html($('#frm').contents().find('.navheader .navparent, .navheader .navprev, .navheader .navnext'));
+                    $('#frm').contents().find('.navheader').hide();
+                } else {
+                    $('#frm').contents().find("table.nav").find("tr:first-child").hide();
+                }
+                /**
+                 * Nu mai ascundem toc-ul - ii scadem relevanta din indexer
+                 * EXM-25565
+                 */
+                //$('#frm').contents().find('.toc').hide();
+                if (navigator.appVersion.indexOf("MSIE 7.") == -1) {
+                 $('#breadcrumbLinks').html($('#frm').contents().find('span.topic_breadcrumb_links'));
+                }
+                // normalize links
+                $('#breadcrumbLinks a, #navigationLinks a').each(function () {
+                    var oldLink = $(this).attr('href');
+                    // we generate from oxygen '../'s in from of link
+                    while (oldLink.indexOf('../') == 0) {
+                        info('strip \'../\' from ' + oldLink);
+                        oldLink = oldLink.substring(3);
+                    }
+                    $(this).attr('href', stripUri(oldLink));
+                });
+                if (navigator.appVersion.indexOf("MSIE 7.") == -1) {
+                  showParents();
+                  $('#frm').contents().find('table.nav').hide();
+                } else {
+
+                }
             } catch (e) {
                 debug(e);
-        }
+            }
         }
         $('#frm').show();
         $('div.tooltip').remove();
@@ -330,16 +360,31 @@ function loadIframe(dynamicURL) {
             if ($.cookie("wh_pn") != "" && $.cookie("wh_pn") !== undefined && $.cookie("wh_pn") !== null) {
                 currentTOCSelection = parseInt($.cookie("wh_pn"));
                 parentTOCSelection = $('#tree li:eq(' + currentTOCSelection + ')').parents('ul').parents('li').index('li');
-                $.cookie('wh_pn', parentTOCSelection);
+                
+                if ( wh.protocol == 'https' ) {
+                    $.cookie('wh_pn', parentTOCSelection, { secure: true });
+                } else {
+                    $.cookie('wh_pn', parentTOCSelection);
+                }
             }
         });
         $('.navprev a').click(function () {
             prevTOCSelection = parseInt($.cookie('wh_pn')) -1;
-            $.cookie('wh_pn', prevTOCSelection);
+            
+            if ( wh.protocol == 'https' ) {
+                $.cookie('wh_pn', prevTOCSelection, { secure: true });
+            } else {
+                $.cookie('wh_pn', prevTOCSelection);
+            }
         });
         $('.navnext a').click(function () {
             nextTOCSelection = parseInt($.cookie('wh_pn')) + 1;
-            $.cookie('wh_pn', nextTOCSelection);
+            
+            if ( wh.protocol == 'https' ) {
+                $.cookie('wh_pn', nextTOCSelection, { secure: true });
+            } else {
+                $.cookie('wh_pn', nextTOCSelection);
+            }
         });
 
         highlightSearchTerm(searchedWords);
@@ -457,7 +502,12 @@ function markSelectItem(hrl, startWithMatch) {
                 var item = $(loc).first();
                 item.parent('li span').addClass('menuItemSelected');
                 var findIndexOf = $(loc).first().closest('li');
-                $.cookie("wh_pn", $('#contentBlock li').index(findIndexOf));
+                
+                if ( wh.protocol == 'https' ) {
+                    $.cookie('wh_pn', $('#contentBlock li').index(findIndexOf), { secure: true });
+                } else {
+                    $.cookie('wh_pn', $('#contentBlock li').index(findIndexOf));
+                }
             }
             toReturn = true;
         } else {
@@ -479,7 +529,12 @@ function markSelectItem(hrl, startWithMatch) {
                     var item = $(loc).first();
                     item.parent('li span').addClass('menuItemSelected');
                     var findIndexOf = $(loc).first().closest('li');
-                    $.cookie("wh_pn", $('#contentBlock li').index(findIndexOf));
+                    
+                    if ( wh.protocol == 'https' ) {
+                        $.cookie('wh_pn', $('#contentBlock li').index(findIndexOf), { secure: true });
+                    } else {
+                        $.cookie('wh_pn', $('#contentBlock li').index(findIndexOf));
+                    }
                 }
                 toReturn = true;
             }

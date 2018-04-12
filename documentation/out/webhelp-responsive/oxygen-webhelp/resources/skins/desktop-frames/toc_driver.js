@@ -54,7 +54,13 @@ function markSelectItem(url) {
         if ($(loc).length == 0) {
             loc = '#contentBlock li:eq(' + closest + ') a[href="' + toFind + '"]';
         }
-        $.cookie("wh_pn", closest);
+        
+        if ( wh.protocol == 'https' ) {
+            $.cookie('wh_pn', closest, { secure: true });
+        } else {
+            $.cookie('wh_pn', closest);
+        }
+        
     } else {
         var loc = '#contentBlock a[href^="' + toFind + '"]';
     }

@@ -11,7 +11,7 @@
             <tbody>
                <row>
                   <entry>Namespace</entry>
-                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2016-07-15</entry>
+                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15</entry>
                </row>
                <row>
                   <entry>Diagram</entry>
@@ -28,49 +28,70 @@
                                                 <shape>rect</shape>
                                                 <coords>168,39,335,83</coords>
                                                 
-                                                <xref href="pagecontent_xsd_Complex_Type_pc_TextEquivType.dita#TextEquivType_index"/>
+                                                
+                                                
+                                                        <xref href="#TextEquivType_index"/>
+                                                    
                                             </area>
                                           
                                             <area>
                                                 <shape>rect</shape>
                                                 <coords>168,138,323,182</coords>
                                                 
-                                                <xref href="pagecontent_xsd_Complex_Type_pc_TextEquivType.dita#TextEquivType_conf"/>
+                                                
+                                                
+                                                        <xref href="#TextEquivType_conf"/>
+                                                    
                                             </area>
                                           
                                             <area>
                                                 <shape>rect</shape>
                                                 <coords>168,223,368,267</coords>
                                                 
-                                                <xref href="pagecontent_xsd_Complex_Type_pc_TextEquivType.dita#TextEquivType_dataType"/>
+                                                
+                                                
+                                                        <xref href="#TextEquivType_dataType"/>
+                                                    
                                             </area>
                                           
                                             <area>
                                                 <shape>rect</shape>
                                                 <coords>168,322,295,366</coords>
                                                 
-                                                <xref href="pagecontent_xsd_Complex_Type_pc_TextEquivType.dita#TextEquivType_dataTypeDetails"/>
+                                                
+                                                
+                                                        <xref href="#TextEquivType_dataTypeDetails"/>
+                                                    
                                             </area>
                                           
                                             <area>
                                                 <shape>rect</shape>
                                                 <coords>168,421,267,465</coords>
                                                 
-                                                <xref href="pagecontent_xsd_Complex_Type_pc_TextEquivType.dita#TextEquivType_comments"/>
+                                                
+                                                
+                                                        <xref href="#TextEquivType_comments"/>
+                                                    
                                             </area>
                                           
                                             <area>
                                                 <shape>rect</shape>
                                                 <coords>225,482,315,526</coords>
                                                 
-                                                <xref href="pagecontent_xsd_Complex_Type_pc_TextEquivType.dita#TextEquivType_PlainText"/>
+                                                
+                                                
+                                                        <xref href="#TextEquivType_PlainText"/>
+                                                    
                                             </area>
                                           
                                             <area>
                                                 <shape>rect</shape>
                                                 <coords>225,595,315,639</coords>
                                                 
-                                                <xref href="pagecontent_xsd_Complex_Type_pc_TextEquivType.dita#TextEquivType_Unicode"/>
+                                                
+                                                
+                                                        <xref href="#TextEquivType_Unicode"/>
+                                                    
                                             </area>
                                         
                                     </imagemap>
@@ -89,7 +110,7 @@
                                  <row>
                                     <entry>Elements </entry>
                                     <entry>
-                                       <xref href="pagecontent_xsd_Complex_Type_pc_GlyphType.dita#GlyphType_TextEquiv"/>, <xref href="pagecontent_xsd_Complex_Type_pc_TextLineType.dita#TextLineType_TextEquiv"/>, <xref href="pagecontent_xsd_Complex_Type_pc_TextRegionType.dita#TextRegionType_TextEquiv"/>, <xref href="pagecontent_xsd_Complex_Type_pc_WordType.dita#WordType_TextEquiv"/>
+                                       <xref href="pagecontent_xsd_Complex_Type_pc_GlyphType.dita#GlyphType_TextEquiv"/>, <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_TextEquiv"/>, <xref href="pagecontent_xsd_Complex_Type_pc_TextLineType.dita#TextLineType_TextEquiv"/>, <xref href="pagecontent_xsd_Complex_Type_pc_TextRegionType.dita#TextRegionType_TextEquiv"/>, <xref href="pagecontent_xsd_Complex_Type_pc_WordType.dita#WordType_TextEquiv"/>
                                     </entry>
                                  </row>
                               </tbody>
@@ -101,13 +122,13 @@
                <row>
                   <entry>Model</entry>
                   <entry>
-                     <xref href="pagecontent_xsd_Complex_Type_pc_TextEquivType.dita#TextEquivType_PlainText"/> , <xref href="pagecontent_xsd_Complex_Type_pc_TextEquivType.dita#TextEquivType_Unicode"/>
+                     <xref href="#TextEquivType_PlainText"/> , <xref href="#TextEquivType_Unicode"/>
                   </entry>
                </row>
                <row>
                   <entry>Children</entry>
                   <entry>
-                     <xref href="pagecontent_xsd_Complex_Type_pc_TextEquivType.dita#TextEquivType_PlainText"/>, <xref href="pagecontent_xsd_Complex_Type_pc_TextEquivType.dita#TextEquivType_Unicode"/>
+                     <xref href="#TextEquivType_PlainText"/>, <xref href="#TextEquivType_Unicode"/>
                   </entry>
                </row>
                <row>
@@ -129,14 +150,14 @@
                               <tbody>
                                  <row>
                                     <entry>
-                                       <xref href="pagecontent_xsd_Complex_Type_pc_TextEquivType.dita#TextEquivType_comments"/>
+                                       <xref href="#TextEquivType_comments"/>
                                     </entry>
                                     <entry>string</entry>
                                     <entry>optional</entry>
                                  </row>
                                  <row>
                                     <entry>
-                                       <xref href="pagecontent_xsd_Complex_Type_pc_TextEquivType.dita#TextEquivType_conf"/>
+                                       <xref href="#TextEquivType_conf"/>
                                     </entry>
                                     <entry>restriction of float</entry>
                                     <entry>optional</entry>
@@ -148,7 +169,7 @@
                                  </row>
                                  <row>
                                     <entry>
-                                       <xref href="pagecontent_xsd_Complex_Type_pc_TextEquivType.dita#TextEquivType_dataType"/>
+                                       <xref href="#TextEquivType_dataType"/>
                                     </entry>
                                     <entry>
                                        <xref href="pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.dita#TextDataTypeSimpleType"/>
@@ -163,7 +184,7 @@ This is only a descriptive attribute, the text type is not checked during XML va
                                  </row>
                                  <row>
                                     <entry>
-                                       <xref href="pagecontent_xsd_Complex_Type_pc_TextEquivType.dita#TextEquivType_dataTypeDetails"/>
+                                       <xref href="#TextEquivType_dataTypeDetails"/>
                                     </entry>
                                     <entry>string</entry>
                                     <entry>optional</entry>
@@ -175,7 +196,7 @@ This is only a descriptive attribute, the text type is not checked during XML va
                                  </row>
                                  <row>
                                     <entry>
-                                       <xref href="pagecontent_xsd_Complex_Type_pc_TextEquivType.dita#TextEquivType_index"/>
+                                       <xref href="#TextEquivType_index"/>
                                     </entry>
                                     <entry>restriction of integer</entry>
                                     <entry>optional</entry>
@@ -238,13 +259,24 @@ This is only a descriptive attribute, the text type is not checked during XML va
       &lt;documentation&gt;Refinement for dataType attribute. Can be a regular expression, for instance.&lt;/documentation&gt;
     &lt;/annotation&gt;
   &lt;/attribute&gt;
+  &lt;!-- &lt;attribute name="mergeWithNextRule" type="pc:TextMergeRuleSimpleType" use="optional"&gt;
+				&lt;annotation&gt;
+					&lt;documentation&gt;Rule for merging consecutive text objects. The rule applies to the first object of a pair (i.e. 'remove-last' removes the last
+		character of the first region, can be used to remove hyphen, for example)&lt;/documentation&gt;
+				&lt;/annotation&gt;
+		&lt;/attribute&gt;
+		&lt;attribute name="mergeWithNextRuleData" type="string" use="optional"&gt;
+				&lt;annotation&gt;
+					&lt;documentation&gt;Custom data for mergeRule attribute. Can number of characters to be removed, for example.&lt;/documentation&gt;
+				&lt;/annotation&gt;
+		&lt;/attribute&gt; --&gt;
   &lt;attribute name="comments" type="string" use="optional"/&gt;
 &lt;/complexType&gt;</codeblock>
                   </entry>
                </row>
                <row>
                   <entry>Schema location</entry>
-                  <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2016-07-15/pagecontent.xsd</entry>
+                  <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                </row>
             </tbody>
          </tgroup>
@@ -326,7 +358,7 @@ This is only a descriptive attribute, the text type is not checked during XML va
                                     <row>
                                        <entry>Complex Type </entry>
                                        <entry>
-                                          <xref href="pagecontent_xsd_Complex_Type_pc_TextEquivType.dita#TextEquivType"/>
+                                          <xref href="#TextEquivType"/>
                                        </entry>
                                     </row>
                                  </tbody>
@@ -352,7 +384,7 @@ This is only a descriptive attribute, the text type is not checked during XML va
                   </row>
                   <row>
                      <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2016-07-15/pagecontent.xsd</entry>
+                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
                </tbody>
             </tgroup>
@@ -440,7 +472,7 @@ This is only a descriptive attribute, the text type is not checked during XML va
                                     <row>
                                        <entry>Complex Type </entry>
                                        <entry>
-                                          <xref href="pagecontent_xsd_Complex_Type_pc_TextEquivType.dita#TextEquivType"/>
+                                          <xref href="#TextEquivType"/>
                                        </entry>
                                     </row>
                                  </tbody>
@@ -467,7 +499,7 @@ This is only a descriptive attribute, the text type is not checked during XML va
                   </row>
                   <row>
                      <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2016-07-15/pagecontent.xsd</entry>
+                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
                </tbody>
             </tgroup>
@@ -611,7 +643,7 @@ This is only a descriptive attribute, the text type is not checked during XML va
                                     <row>
                                        <entry>Complex Type </entry>
                                        <entry>
-                                          <xref href="pagecontent_xsd_Complex_Type_pc_TextEquivType.dita#TextEquivType"/>
+                                          <xref href="#TextEquivType"/>
                                        </entry>
                                     </row>
                                  </tbody>
@@ -632,7 +664,7 @@ This is only a descriptive attribute, the text type is not checked during XML va
                   </row>
                   <row>
                      <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2016-07-15/pagecontent.xsd</entry>
+                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
                </tbody>
             </tgroup>
@@ -694,7 +726,7 @@ This is only a descriptive attribute, the text type is not checked during XML va
                                     <row>
                                        <entry>Complex Type </entry>
                                        <entry>
-                                          <xref href="pagecontent_xsd_Complex_Type_pc_TextEquivType.dita#TextEquivType"/>
+                                          <xref href="#TextEquivType"/>
                                        </entry>
                                     </row>
                                  </tbody>
@@ -715,7 +747,7 @@ This is only a descriptive attribute, the text type is not checked during XML va
                   </row>
                   <row>
                      <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2016-07-15/pagecontent.xsd</entry>
+                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
                </tbody>
             </tgroup>
@@ -771,7 +803,7 @@ This is only a descriptive attribute, the text type is not checked during XML va
                                     <row>
                                        <entry>Complex Type </entry>
                                        <entry>
-                                          <xref href="pagecontent_xsd_Complex_Type_pc_TextEquivType.dita#TextEquivType"/>
+                                          <xref href="#TextEquivType"/>
                                        </entry>
                                     </row>
                                  </tbody>
@@ -788,7 +820,7 @@ This is only a descriptive attribute, the text type is not checked during XML va
                   </row>
                   <row>
                      <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2016-07-15/pagecontent.xsd</entry>
+                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
                </tbody>
             </tgroup>
@@ -805,7 +837,7 @@ This is only a descriptive attribute, the text type is not checked during XML va
                <tbody>
                   <row>
                      <entry>Namespace</entry>
-                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2016-07-15</entry>
+                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15</entry>
                   </row>
                   <row>
                      <entry>Annotations</entry>
@@ -865,7 +897,7 @@ stored as two separate characters) etc.</codeblock>
                   </row>
                   <row>
                      <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2016-07-15/pagecontent.xsd</entry>
+                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
                </tbody>
             </tgroup>
@@ -882,7 +914,7 @@ stored as two separate characters) etc.</codeblock>
                <tbody>
                   <row>
                      <entry>Namespace</entry>
-                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2016-07-15</entry>
+                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15</entry>
                   </row>
                   <row>
                      <entry>Annotations</entry>
@@ -936,7 +968,7 @@ character etc.</codeblock>
                   </row>
                   <row>
                      <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2016-07-15/pagecontent.xsd</entry>
+                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
                </tbody>
             </tgroup>

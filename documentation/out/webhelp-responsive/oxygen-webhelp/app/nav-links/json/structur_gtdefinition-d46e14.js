@@ -1,0 +1,1 @@
+define({"topics" : [{"title":"Grundlage","id":"structur_gtgrundlage","href":"structur_gtgrundlage.html","menu": {"hasChildren":false,},"tocID":"structur_gtgrundlage-d46e25","topics":[]},{"title":"Pageformat","id":"structur_gtpageformat","href":"structur_gtpageformat.html","menu": {"hasChildren":false,},"tocID":"structur_gtpageformat-d46e33","topics":[]}]});

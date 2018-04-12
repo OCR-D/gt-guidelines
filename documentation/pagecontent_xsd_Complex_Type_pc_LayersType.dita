@@ -11,7 +11,7 @@
             <tbody>
                <row>
                   <entry>Namespace</entry>
-                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2016-07-15</entry>
+                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15</entry>
                </row>
                <row>
                   <entry>Annotations</entry>
@@ -36,7 +36,10 @@ front of another element with lower z-index.</codeblock>
                                                 <shape>rect</shape>
                                                 <coords>252,0,382,44</coords>
                                                 
-                                                <xref href="pagecontent_xsd_Complex_Type_pc_LayersType.dita#LayersType_Layer"/>
+                                                
+                                                
+                                                        <xref href="#LayersType_Layer"/>
+                                                    
                                             </area>
                                         
                                     </imagemap>
@@ -67,13 +70,13 @@ front of another element with lower z-index.</codeblock>
                <row>
                   <entry>Model</entry>
                   <entry>
-                     <xref href="pagecontent_xsd_Complex_Type_pc_LayersType.dita#LayersType_Layer"/>
+                     <xref href="#LayersType_Layer"/>
                   </entry>
                </row>
                <row>
                   <entry>Children</entry>
                   <entry>
-                     <xref href="pagecontent_xsd_Complex_Type_pc_LayersType.dita#LayersType_Layer"/>
+                     <xref href="#LayersType_Layer"/>
                   </entry>
                </row>
                <row>
@@ -91,7 +94,7 @@ front of another element with lower z-index.</codeblock>
                </row>
                <row>
                   <entry>Schema location</entry>
-                  <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2016-07-15/pagecontent.xsd</entry>
+                  <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                </row>
             </tbody>
          </tgroup>
@@ -107,7 +110,7 @@ front of another element with lower z-index.</codeblock>
                <tbody>
                   <row>
                      <entry>Namespace</entry>
-                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2016-07-15</entry>
+                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15</entry>
                   </row>
                   <row>
                      <entry>Diagram</entry>
@@ -124,35 +127,55 @@ front of another element with lower z-index.</codeblock>
                                                 <shape>rect</shape>
                                                 <coords>206,79,289,123</coords>
                                                 
-                                                <xref href="pagecontent_xsd_Complex_Type_pc_LayerType.dita#LayerType_id"/>
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_LayerType.dita#LayerType_id"/>
+                                                    
                                             </area>
                                           
                                             <area>
                                                 <shape>rect</shape>
                                                 <coords>206,133,289,177</coords>
                                                 
-                                                <xref href="pagecontent_xsd_Complex_Type_pc_LayerType.dita#LayerType_zIndex"/>
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_LayerType.dita#LayerType_zIndex"/>
+                                                    
                                             </area>
                                           
                                             <area>
                                                 <shape>rect</shape>
                                                 <coords>206,187,296,231</coords>
                                                 
-                                                <xref href="pagecontent_xsd_Complex_Type_pc_LayerType.dita#LayerType_caption"/>
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_LayerType.dita#LayerType_caption"/>
+                                                    
                                             </area>
                                           
                                             <area>
                                                 <shape>rect</shape>
                                                 <coords>263,248,415,292</coords>
                                                 
-                                                <xref href="pagecontent_xsd_Complex_Type_pc_LayerType.dita#LayerType_RegionRef"/>
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_LayerType.dita#LayerType_RegionRef"/>
+                                                    
                                             </area>
                                           
                                             <area>
                                                 <shape>rect</shape>
                                                 <coords>181,3,299,25</coords>
                                                 
-                                                <xref href="pagecontent_xsd_Complex_Type_pc_LayerType.dita#LayerType"/>
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_LayerType.dita#LayerType"/>
+                                                    
                                             </area>
                                         
                                     </imagemap>
@@ -201,7 +224,7 @@ front of another element with lower z-index.</codeblock>
                   <row>
                      <entry>Instance</entry>
                      <entry>
-                        <codeblock outputclass="language-xml">&lt;pc:Layer caption="" id="" zIndex="" xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2016-07-15"&gt;
+                        <codeblock outputclass="language-xml">&lt;pc:Layer caption="" id="" zIndex="" xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15"&gt;
   &lt;pc:RegionRef regionRef=""&gt;{1,1}&lt;/pc:RegionRef&gt;
 &lt;/pc:Layer&gt;</codeblock>
                      </entry>
@@ -258,7 +281,7 @@ front of another element with lower z-index.</codeblock>
                   </row>
                   <row>
                      <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2016-07-15/pagecontent.xsd</entry>
+                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
                </tbody>
             </tgroup>
