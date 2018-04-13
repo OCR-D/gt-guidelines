@@ -146,19 +146,6 @@
                   </entry>
                </row>
                <row>
-                  <entry>Source</entry>
-                  <entry>
-                     <codeblock outputclass="language-xml">&lt;complexType name="LayerType"&gt;
-  &lt;sequence minOccurs="1" maxOccurs="unbounded"&gt;
-    &lt;element name="RegionRef" type="pc:RegionRefType"/&gt;
-  &lt;/sequence&gt;
-  &lt;attribute name="id" type="ID" use="required"/&gt;
-  &lt;attribute name="zIndex" type="int" use="required"/&gt;
-  &lt;attribute name="caption" type="string"/&gt;
-&lt;/complexType&gt;</codeblock>
-                  </entry>
-               </row>
-               <row>
                   <entry>Schema location</entry>
                   <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                </row>
@@ -222,12 +209,6 @@
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="id" type="ID" use="required"/&gt;</codeblock>
                      </entry>
                   </row>
                   <row>
@@ -298,12 +279,6 @@
                      </entry>
                   </row>
                   <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="zIndex" type="int" use="required"/&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
                      <entry>Schema location</entry>
                      <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
@@ -368,12 +343,6 @@
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="caption" type="string"/&gt;</codeblock>
                      </entry>
                   </row>
                   <row>
@@ -489,12 +458,6 @@
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="RegionRef" type="pc:RegionRefType"/&gt;</codeblock>
                      </entry>
                   </row>
                   <row>

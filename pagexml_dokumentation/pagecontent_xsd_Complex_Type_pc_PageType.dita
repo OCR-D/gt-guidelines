@@ -526,105 +526,6 @@ read (within lines) (lower-level definitions override the page-level definition)
                   </entry>
                </row>
                <row>
-                  <entry>Source</entry>
-                  <entry>
-                     <codeblock outputclass="language-xml">&lt;complexType name="PageType"&gt;
-  &lt;sequence&gt;
-    &lt;element name="AlternativeImage" type="pc:AlternativeImageType" minOccurs="0" maxOccurs="unbounded"&gt;
-      &lt;annotation&gt;
-        &lt;documentation&gt;Alternative document page images (e.g. black-and-white)&lt;/documentation&gt;
-      &lt;/annotation&gt;
-    &lt;/element&gt;
-    &lt;element name="Border" type="pc:BorderType" minOccurs="0" maxOccurs="1"&gt;
-    &lt;/element&gt;
-    &lt;element name="PrintSpace" type="pc:PrintSpaceType" minOccurs="0" maxOccurs="1"&gt;
-    &lt;/element&gt;
-    &lt;element name="ReadingOrder" type="pc:ReadingOrderType" minOccurs="0" maxOccurs="1"&gt;
-      &lt;annotation&gt;
-        &lt;documentation/&gt;
-      &lt;/annotation&gt;
-    &lt;/element&gt;
-    &lt;element name="Layers" type="pc:LayersType" minOccurs="0" maxOccurs="1"&gt;
-      &lt;annotation&gt;
-        &lt;documentation&gt;Unassigned regions are considered to be in the (virtual) default layer which is to be treated as below any other layers.&lt;/documentation&gt;
-      &lt;/annotation&gt;
-    &lt;/element&gt;
-    &lt;element name="Relations" type="pc:RelationsType" minOccurs="0"&gt;
-    &lt;/element&gt;
-    &lt;element name="UserDefined" type="pc:UserDefinedType" minOccurs="0" maxOccurs="1"/&gt;
-    &lt;choice minOccurs="0" maxOccurs="unbounded"&gt;
-      &lt;element name="TextRegion" type="pc:TextRegionType"/&gt;
-      &lt;element name="ImageRegion" type="pc:ImageRegionType"&gt;
-      &lt;/element&gt;
-      &lt;element name="LineDrawingRegion" type="pc:LineDrawingRegionType"&gt;
-      &lt;/element&gt;
-      &lt;element name="GraphicRegion" type="pc:GraphicRegionType"&gt;
-      &lt;/element&gt;
-      &lt;element name="TableRegion" type="pc:TableRegionType"&gt;
-      &lt;/element&gt;
-      &lt;element name="ChartRegion" type="pc:ChartRegionType"&gt;
-      &lt;/element&gt;
-      &lt;element name="SeparatorRegion" type="pc:SeparatorRegionType"&gt;
-      &lt;/element&gt;
-      &lt;element name="MathsRegion" type="pc:MathsRegionType"&gt;
-      &lt;/element&gt;
-      &lt;element name="ChemRegion" type="pc:ChemRegionType"/&gt;
-      &lt;element name="MusicRegion" type="pc:MusicRegionType"/&gt;
-      &lt;element name="AdvertRegion" type="pc:AdvertRegionType"&gt;
-      &lt;/element&gt;
-      &lt;element name="NoiseRegion" type="pc:NoiseRegionType"&gt;
-      &lt;/element&gt;
-      &lt;element name="UnknownRegion" type="pc:UnknownRegionType"&gt;
-      &lt;/element&gt;
-    &lt;/choice&gt;
-  &lt;/sequence&gt;
-  &lt;attribute name="imageFilename" type="string" use="required"/&gt;
-  &lt;attribute name="imageWidth" type="int" use="required"/&gt;
-  &lt;attribute name="imageHeight" type="int" use="required"/&gt;
-  &lt;attribute name="custom" type="string"&gt;
-    &lt;annotation&gt;
-      &lt;documentation&gt;For generic use&lt;/documentation&gt;
-    &lt;/annotation&gt;
-  &lt;/attribute&gt;
-  &lt;attribute name="type" type="pc:PageTypeSimpleType"&gt;
-    &lt;annotation&gt;
-      &lt;documentation&gt;Page type&lt;/documentation&gt;
-    &lt;/annotation&gt;
-  &lt;/attribute&gt;
-  &lt;attribute name="primaryLanguage" type="pc:LanguageSimpleType" use="optional"&gt;
-    &lt;annotation&gt;
-      &lt;documentation&gt;The primary language used in the page (lower-level definitions override the page-level definition)&lt;/documentation&gt;
-    &lt;/annotation&gt;
-  &lt;/attribute&gt;
-  &lt;attribute name="secondaryLanguage" type="pc:LanguageSimpleType" use="optional"&gt;
-    &lt;annotation&gt;
-      &lt;documentation&gt;The secondary language used in the page (lower-level definitions override the page-level definition)&lt;/documentation&gt;
-    &lt;/annotation&gt;
-  &lt;/attribute&gt;
-  &lt;attribute name="primaryScript" type="pc:ScriptSimpleType" use="optional"&gt;
-    &lt;annotation&gt;
-      &lt;documentation&gt;The primary script used in the page (lower-level definitions override the page-level definition)&lt;/documentation&gt;
-    &lt;/annotation&gt;
-  &lt;/attribute&gt;
-  &lt;attribute name="secondaryScript" type="pc:ScriptSimpleType" use="optional"&gt;
-    &lt;annotation&gt;
-      &lt;documentation&gt;The secondary script used in the page (lower-level definitions override the page-level definition)&lt;/documentation&gt;
-    &lt;/annotation&gt;
-  &lt;/attribute&gt;
-  &lt;attribute name="readingDirection" type="pc:ReadingDirectionSimpleType" use="optional"&gt;
-    &lt;annotation&gt;
-      &lt;documentation&gt;The direction in which text in a region should be read (within lines) (lower-level definitions override the page-level definition)&lt;/documentation&gt;
-    &lt;/annotation&gt;
-  &lt;/attribute&gt;
-  &lt;attribute name="textLineOrder" type="pc:TextLineOrderSimpleType" use="optional"&gt;
-    &lt;annotation&gt;
-      &lt;documentation&gt;Inner-block order of text lines (in addition to “readingDirection” which is the inner-text line order of words and characters) (lower-level definitions override the page-level definition)&lt;/documentation&gt;
-    &lt;/annotation&gt;
-  &lt;/attribute&gt;
-&lt;/complexType&gt;</codeblock>
-                  </entry>
-               </row>
-               <row>
                   <entry>Schema location</entry>
                   <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                </row>
@@ -688,12 +589,6 @@ read (within lines) (lower-level definitions override the page-level definition)
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="imageFilename" type="string" use="required"/&gt;</codeblock>
                      </entry>
                   </row>
                   <row>
@@ -764,12 +659,6 @@ read (within lines) (lower-level definitions override the page-level definition)
                      </entry>
                   </row>
                   <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="imageWidth" type="int" use="required"/&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
                      <entry>Schema location</entry>
                      <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
@@ -834,12 +723,6 @@ read (within lines) (lower-level definitions override the page-level definition)
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="imageHeight" type="int" use="required"/&gt;</codeblock>
                      </entry>
                   </row>
                   <row>
@@ -913,16 +796,6 @@ read (within lines) (lower-level definitions override the page-level definition)
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="custom" type="string"&gt;
-  &lt;annotation&gt;
-    &lt;documentation&gt;For generic use&lt;/documentation&gt;
-  &lt;/annotation&gt;
-&lt;/attribute&gt;</codeblock>
                      </entry>
                   </row>
                   <row>
@@ -1054,16 +927,6 @@ read (within lines) (lower-level definitions override the page-level definition)
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="type" type="pc:PageTypeSimpleType"&gt;
-  &lt;annotation&gt;
-    &lt;documentation&gt;Page type&lt;/documentation&gt;
-  &lt;/annotation&gt;
-&lt;/attribute&gt;</codeblock>
                      </entry>
                   </row>
                   <row>
@@ -2098,16 +1961,6 @@ read (within lines) (lower-level definitions override the page-level definition)
                      </entry>
                   </row>
                   <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="primaryLanguage" type="pc:LanguageSimpleType" use="optional"&gt;
-  &lt;annotation&gt;
-    &lt;documentation&gt;The primary language used in the page (lower-level definitions override the page-level definition)&lt;/documentation&gt;
-  &lt;/annotation&gt;
-&lt;/attribute&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
                      <entry>Schema location</entry>
                      <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
@@ -3139,16 +2992,6 @@ read (within lines) (lower-level definitions override the page-level definition)
                      </entry>
                   </row>
                   <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="secondaryLanguage" type="pc:LanguageSimpleType" use="optional"&gt;
-  &lt;annotation&gt;
-    &lt;documentation&gt;The secondary language used in the page (lower-level definitions override the page-level definition)&lt;/documentation&gt;
-  &lt;/annotation&gt;
-&lt;/attribute&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
                      <entry>Schema location</entry>
                      <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
@@ -4142,16 +3985,6 @@ read (within lines) (lower-level definitions override the page-level definition)
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="primaryScript" type="pc:ScriptSimpleType" use="optional"&gt;
-  &lt;annotation&gt;
-    &lt;documentation&gt;The primary script used in the page (lower-level definitions override the page-level definition)&lt;/documentation&gt;
-  &lt;/annotation&gt;
-&lt;/attribute&gt;</codeblock>
                      </entry>
                   </row>
                   <row>
@@ -5151,16 +4984,6 @@ read (within lines) (lower-level definitions override the page-level definition)
                      </entry>
                   </row>
                   <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="secondaryScript" type="pc:ScriptSimpleType" use="optional"&gt;
-  &lt;annotation&gt;
-    &lt;documentation&gt;The secondary script used in the page (lower-level definitions override the page-level definition)&lt;/documentation&gt;
-  &lt;/annotation&gt;
-&lt;/attribute&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
                      <entry>Schema location</entry>
                      <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
@@ -5273,16 +5096,6 @@ read (within lines) (lower-level definitions override the page-level definition)
                      </entry>
                   </row>
                   <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="readingDirection" type="pc:ReadingDirectionSimpleType" use="optional"&gt;
-  &lt;annotation&gt;
-    &lt;documentation&gt;The direction in which text in a region should be read (within lines) (lower-level definitions override the page-level definition)&lt;/documentation&gt;
-  &lt;/annotation&gt;
-&lt;/attribute&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
                      <entry>Schema location</entry>
                      <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
@@ -5391,16 +5204,6 @@ read (within lines) (lower-level definitions override the page-level definition)
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="textLineOrder" type="pc:TextLineOrderSimpleType" use="optional"&gt;
-  &lt;annotation&gt;
-    &lt;documentation&gt;Inner-block order of text lines (in addition to “readingDirection” which is the inner-text line order of words and characters) (lower-level definitions override the page-level definition)&lt;/documentation&gt;
-  &lt;/annotation&gt;
-&lt;/attribute&gt;</codeblock>
                      </entry>
                   </row>
                   <row>
@@ -5556,16 +5359,6 @@ black-and-white)</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="AlternativeImage" type="pc:AlternativeImageType" minOccurs="0" maxOccurs="unbounded"&gt;
-  &lt;annotation&gt;
-    &lt;documentation&gt;Alternative document page images (e.g. black-and-white)&lt;/documentation&gt;
-  &lt;/annotation&gt;
-&lt;/element&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
                      <entry>Schema location</entry>
                      <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
@@ -5683,13 +5476,6 @@ black-and-white)</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="Border" type="pc:BorderType" minOccurs="0" maxOccurs="1"&gt;
-&lt;/element&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
                      <entry>Schema location</entry>
                      <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
@@ -5804,13 +5590,6 @@ black-and-white)</codeblock>
                         <codeblock outputclass="language-xml">&lt;pc:PrintSpace xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15"&gt;
   &lt;pc:Coords points=""&gt;{1,1}&lt;/pc:Coords&gt;
 &lt;/pc:PrintSpace&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="PrintSpace" type="pc:PrintSpaceType" minOccurs="0" maxOccurs="1"&gt;
-&lt;/element&gt;</codeblock>
                      </entry>
                   </row>
                   <row>
@@ -5947,16 +5726,6 @@ black-and-white)</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="ReadingOrder" type="pc:ReadingOrderType" minOccurs="0" maxOccurs="1"&gt;
-  &lt;annotation&gt;
-    &lt;documentation/&gt;
-  &lt;/annotation&gt;
-&lt;/element&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
                      <entry>Schema location</entry>
                      <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
@@ -6082,16 +5851,6 @@ as below any other layers.</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="Layers" type="pc:LayersType" minOccurs="0" maxOccurs="1"&gt;
-  &lt;annotation&gt;
-    &lt;documentation&gt;Unassigned regions are considered to be in the (virtual) default layer which is to be treated as below any other layers.&lt;/documentation&gt;
-  &lt;/annotation&gt;
-&lt;/element&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
                      <entry>Schema location</entry>
                      <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
@@ -6200,13 +5959,6 @@ as below any other layers.</codeblock>
                         <codeblock outputclass="language-xml">&lt;pc:Relations xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15"&gt;
   &lt;pc:Relation comments="" custom="" type=""&gt;{1,1}&lt;/pc:Relation&gt;
 &lt;/pc:Relations&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="Relations" type="pc:RelationsType" minOccurs="0"&gt;
-&lt;/element&gt;</codeblock>
                      </entry>
                   </row>
                   <row>
@@ -6324,12 +6076,6 @@ as below any other layers.</codeblock>
                         <codeblock outputclass="language-xml">&lt;pc:UserDefined xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15"&gt;
   &lt;pc:UserAttribute description="" name="" type="" value=""&gt;{1,unbounded}&lt;/pc:UserAttribute&gt;
 &lt;/pc:UserDefined&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="UserDefined" type="pc:UserDefinedType" minOccurs="0" maxOccurs="1"/&gt;</codeblock>
                      </entry>
                   </row>
                   <row>
@@ -7105,12 +6851,6 @@ Range: -179.999,180</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="TextRegion" type="pc:TextRegionType"/&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
                      <entry>Schema location</entry>
                      <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
@@ -7625,13 +7365,6 @@ Range: -179.999,180</codeblock>
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="ImageRegion" type="pc:ImageRegionType"&gt;
-&lt;/element&gt;</codeblock>
                      </entry>
                   </row>
                   <row>
@@ -8152,13 +7885,6 @@ Range: -179.999,180</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="LineDrawingRegion" type="pc:LineDrawingRegionType"&gt;
-&lt;/element&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
                      <entry>Schema location</entry>
                      <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
@@ -8672,13 +8398,6 @@ Range: -179.999,180</codeblock>
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="GraphicRegion" type="pc:GraphicRegionType"&gt;
-&lt;/element&gt;</codeblock>
                      </entry>
                   </row>
                   <row>
@@ -9268,13 +8987,6 @@ Range: -179.999,180</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="TableRegion" type="pc:TableRegionType"&gt;
-&lt;/element&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
                      <entry>Schema location</entry>
                      <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
@@ -9816,13 +9528,6 @@ Range: -179.999,180</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="ChartRegion" type="pc:ChartRegionType"&gt;
-&lt;/element&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
                      <entry>Schema location</entry>
                      <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
@@ -10291,13 +9996,6 @@ Range: -179.999,180</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="SeparatorRegion" type="pc:SeparatorRegionType"&gt;
-&lt;/element&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
                      <entry>Schema location</entry>
                      <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
@@ -10763,13 +10461,6 @@ Range: -179.999,180</codeblock>
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="MathsRegion" type="pc:MathsRegionType"&gt;
-&lt;/element&gt;</codeblock>
                      </entry>
                   </row>
                   <row>
@@ -11245,12 +10936,6 @@ anti-clockwise rotation). Range:
                      </entry>
                   </row>
                   <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="ChemRegion" type="pc:ChemRegionType"/&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
                      <entry>Schema location</entry>
                      <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
@@ -11716,12 +11401,6 @@ Range: -179.999,180</codeblock>
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="MusicRegion" type="pc:MusicRegionType"/&gt;</codeblock>
                      </entry>
                   </row>
                   <row>
@@ -12193,13 +11872,6 @@ Range: -179.999,180</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="AdvertRegion" type="pc:AdvertRegionType"&gt;
-&lt;/element&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
                      <entry>Schema location</entry>
                      <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
@@ -12619,13 +12291,6 @@ Range: -179.999,180</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="NoiseRegion" type="pc:NoiseRegionType"&gt;
-&lt;/element&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
                      <entry>Schema location</entry>
                      <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
@@ -13042,13 +12707,6 @@ Range: -179.999,180</codeblock>
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="UnknownRegion" type="pc:UnknownRegionType"&gt;
-&lt;/element&gt;</codeblock>
                      </entry>
                   </row>
                   <row>

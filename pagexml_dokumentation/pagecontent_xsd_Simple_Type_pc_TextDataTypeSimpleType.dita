@@ -124,60 +124,6 @@
                   </entry>
                </row>
                <row>
-                  <entry>Source</entry>
-                  <entry>
-                     <codeblock outputclass="language-xml">&lt;simpleType name="TextDataTypeSimpleType"&gt;
-  &lt;restriction base="string"&gt;
-    &lt;enumeration value="xsd:decimal"&gt;
-      &lt;annotation&gt;
-        &lt;documentation&gt;Examples: "123.456", "+1234.456", "-1234.456", "-.456", "-456"&lt;/documentation&gt;
-      &lt;/annotation&gt;
-    &lt;/enumeration&gt;
-    &lt;enumeration value="xsd:float"&gt;
-      &lt;annotation&gt;
-        &lt;documentation&gt;Examples: "123.456", "+1234.456", "-1.2344e56", "-.45E-6", "INF", "-INF", "NaN"&lt;/documentation&gt;
-      &lt;/annotation&gt;
-    &lt;/enumeration&gt;
-    &lt;enumeration value="xsd:integer"&gt;
-      &lt;annotation&gt;
-        &lt;documentation&gt;Examples: "123456", "+00000012", "-1", "-456"&lt;/documentation&gt;
-      &lt;/annotation&gt;
-    &lt;/enumeration&gt;
-    &lt;enumeration value="xsd:boolean"&gt;
-      &lt;annotation&gt;
-        &lt;documentation&gt;Examples: "true", "false", "1", "0"&lt;/documentation&gt;
-      &lt;/annotation&gt;
-    &lt;/enumeration&gt;
-    &lt;enumeration value="xsd:date"&gt;
-      &lt;annotation&gt;
-        &lt;documentation&gt;Examples: "2001-10-26", "2001-10-26+02:00", "2001-10-26Z", "2001-10-26+00:00", "-2001-10-26", "-20000-04-01"&lt;/documentation&gt;
-      &lt;/annotation&gt;
-    &lt;/enumeration&gt;
-    &lt;enumeration value="xsd:time"&gt;
-      &lt;annotation&gt;
-        &lt;documentation&gt;Examples: "21:32:52", "21:32:52+02:00", "19:32:52Z", "19:32:52+00:00", "21:32:52.12679"&lt;/documentation&gt;
-      &lt;/annotation&gt;
-    &lt;/enumeration&gt;
-    &lt;enumeration value="xsd:dateTime"&gt;
-      &lt;annotation&gt;
-        &lt;documentation&gt;Examples: "2001-10-26T21:32:52", "2001-10-26T21:32:52+02:00", "2001-10-26T19:32:52Z", "2001-10-26T19:32:52+00:00", "-2001-10-26T21:32:52", "2001-10-26T21:32:52.12679"&lt;/documentation&gt;
-      &lt;/annotation&gt;
-    &lt;/enumeration&gt;
-    &lt;enumeration value="xsd:string"&gt;
-      &lt;annotation&gt;
-        &lt;documentation&gt;Generic text string&lt;/documentation&gt;
-      &lt;/annotation&gt;
-    &lt;/enumeration&gt;
-    &lt;enumeration value="other"&gt;
-      &lt;annotation&gt;
-        &lt;documentation&gt;An XSD type that is not listed or a custom type (use dataTypeDetails attribute)&lt;/documentation&gt;
-      &lt;/annotation&gt;
-    &lt;/enumeration&gt;
-  &lt;/restriction&gt;
-&lt;/simpleType&gt;</codeblock>
-                  </entry>
-               </row>
-               <row>
                   <entry>Schema location</entry>
                   <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                </row>

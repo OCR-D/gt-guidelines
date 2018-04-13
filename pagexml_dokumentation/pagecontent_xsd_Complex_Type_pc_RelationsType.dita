@@ -80,19 +80,6 @@ image)</codeblock>
                   </entry>
                </row>
                <row>
-                  <entry>Source</entry>
-                  <entry>
-                     <codeblock outputclass="language-xml">&lt;complexType name="RelationsType"&gt;
-  &lt;annotation&gt;
-    &lt;documentation&gt;Container for one-to-one relations between layout objects (for example: DropCap - paragraph, caption - image)&lt;/documentation&gt;
-  &lt;/annotation&gt;
-  &lt;sequence minOccurs="1" maxOccurs="unbounded"&gt;
-    &lt;element name="Relation" type="pc:RelationType"/&gt;
-  &lt;/sequence&gt;
-&lt;/complexType&gt;</codeblock>
-                  </entry>
-               </row>
-               <row>
                   <entry>Schema location</entry>
                   <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                </row>
@@ -276,12 +263,6 @@ image)</codeblock>
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="Relation" type="pc:RelationType"/&gt;</codeblock>
                      </entry>
                   </row>
                   <row>

@@ -261,43 +261,6 @@
                   </entry>
                </row>
                <row>
-                  <entry>Source</entry>
-                  <entry>
-                     <codeblock outputclass="language-xml">&lt;complexType name="OrderedGroupType"&gt;
-  &lt;annotation&gt;
-    &lt;documentation&gt;Numbered group (contains ordered elements)&lt;/documentation&gt;
-  &lt;/annotation&gt;
-  &lt;sequence&gt;
-    &lt;element name="UserDefined" type="pc:UserDefinedType" minOccurs="0" maxOccurs="1"&gt;
-    &lt;/element&gt;
-    &lt;choice minOccurs="1" maxOccurs="unbounded"&gt;
-      &lt;element name="RegionRefIndexed" type="pc:RegionRefIndexedType"&gt;
-      &lt;/element&gt;
-      &lt;element name="OrderedGroupIndexed" type="pc:OrderedGroupIndexedType"&gt;
-      &lt;/element&gt;
-      &lt;element name="UnorderedGroupIndexed" type="pc:UnorderedGroupIndexedType"&gt;
-      &lt;/element&gt;
-    &lt;/choice&gt;
-  &lt;/sequence&gt;
-  &lt;attribute name="id" type="ID" use="required"/&gt;
-  &lt;attribute name="regionRef" type="IDREF" use="optional"&gt;
-    &lt;annotation&gt;
-      &lt;documentation&gt;Optional link to a parent region of nested regions. The parent region doubles as reading order group. Only the nested regions should be allowed as group members.&lt;/documentation&gt;
-    &lt;/annotation&gt;
-  &lt;/attribute&gt;
-  &lt;attribute name="caption" type="string"/&gt;
-  &lt;attribute name="type" type="pc:GroupTypeSimpleType"/&gt;
-  &lt;attribute name="continuation" type="boolean"&gt;
-    &lt;annotation&gt;
-      &lt;documentation&gt;Is this group a continuation of another group (from previous column or page, for example)?&lt;/documentation&gt;
-    &lt;/annotation&gt;
-  &lt;/attribute&gt;
-  &lt;attribute name="custom" type="string"/&gt;
-  &lt;attribute name="comments" type="string"/&gt;
-&lt;/complexType&gt;</codeblock>
-                  </entry>
-               </row>
-               <row>
                   <entry>Schema location</entry>
                   <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                </row>
@@ -361,12 +324,6 @@
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="id" type="ID" use="required"/&gt;</codeblock>
                      </entry>
                   </row>
                   <row>
@@ -443,16 +400,6 @@
                      </entry>
                   </row>
                   <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="regionRef" type="IDREF" use="optional"&gt;
-  &lt;annotation&gt;
-    &lt;documentation&gt;Optional link to a parent region of nested regions. The parent region doubles as reading order group. Only the nested regions should be allowed as group members.&lt;/documentation&gt;
-  &lt;/annotation&gt;
-&lt;/attribute&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
                      <entry>Schema location</entry>
                      <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
@@ -517,12 +464,6 @@
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="caption" type="string"/&gt;</codeblock>
                      </entry>
                   </row>
                   <row>
@@ -646,12 +587,6 @@
                      </entry>
                   </row>
                   <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="type" type="pc:GroupTypeSimpleType"/&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
                      <entry>Schema location</entry>
                      <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
@@ -725,16 +660,6 @@
                      </entry>
                   </row>
                   <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="continuation" type="boolean"&gt;
-  &lt;annotation&gt;
-    &lt;documentation&gt;Is this group a continuation of another group (from previous column or page, for example)?&lt;/documentation&gt;
-  &lt;/annotation&gt;
-&lt;/attribute&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
                      <entry>Schema location</entry>
                      <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
@@ -802,12 +727,6 @@
                      </entry>
                   </row>
                   <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="custom" type="string"/&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
                      <entry>Schema location</entry>
                      <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
@@ -872,12 +791,6 @@
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="comments" type="string"/&gt;</codeblock>
                      </entry>
                   </row>
                   <row>
@@ -995,13 +908,6 @@
                         <codeblock outputclass="language-xml">&lt;pc:UserDefined xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15"&gt;
   &lt;pc:UserAttribute description="" name="" type="" value=""&gt;{1,unbounded}&lt;/pc:UserAttribute&gt;
 &lt;/pc:UserDefined&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="UserDefined" type="pc:UserDefinedType" minOccurs="0" maxOccurs="1"&gt;
-&lt;/element&gt;</codeblock>
                      </entry>
                   </row>
                   <row>
@@ -1140,13 +1046,6 @@
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="RegionRefIndexed" type="pc:RegionRefIndexedType"&gt;
-&lt;/element&gt;</codeblock>
                      </entry>
                   </row>
                   <row>
@@ -1476,13 +1375,6 @@ current hierarchy level.</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="OrderedGroupIndexed" type="pc:OrderedGroupIndexedType"&gt;
-&lt;/element&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
                      <entry>Schema location</entry>
                      <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
@@ -1805,13 +1697,6 @@ current hierarchy level.</codeblock>
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="UnorderedGroupIndexed" type="pc:UnorderedGroupIndexedType"&gt;
-&lt;/element&gt;</codeblock>
                      </entry>
                   </row>
                   <row>

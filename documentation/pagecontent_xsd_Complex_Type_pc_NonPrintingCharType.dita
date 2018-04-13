@@ -265,19 +265,6 @@
                   </entry>
                </row>
                <row>
-                  <entry>Source</entry>
-                  <entry>
-                     <codeblock outputclass="language-xml">&lt;complexType name="NonPrintingCharType"&gt;
-  &lt;annotation&gt;
-    &lt;documentation&gt;A glyph component without visual representation but with Unicode code point. Non-visual / non-printing / control character. Part of grapheme container (of glyph) or grapheme sub group.&lt;/documentation&gt;
-  &lt;/annotation&gt;
-  &lt;complexContent&gt;
-    &lt;extension base="pc:GraphemeBaseType"/&gt;
-  &lt;/complexContent&gt;
-&lt;/complexType&gt;</codeblock>
-                  </entry>
-               </row>
-               <row>
                   <entry>Schema location</entry>
                   <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                </row>

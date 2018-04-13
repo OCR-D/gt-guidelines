@@ -96,22 +96,6 @@
                   </entry>
                </row>
                <row>
-                  <entry>Source</entry>
-                  <entry>
-                     <codeblock outputclass="language-xml">&lt;simpleType name="GroupTypeSimpleType"&gt;
-  &lt;restriction base="string"&gt;
-    &lt;enumeration value="paragraph"/&gt;
-    &lt;enumeration value="list"/&gt;
-    &lt;enumeration value="list-item"/&gt;
-    &lt;enumeration value="figure"/&gt;
-    &lt;enumeration value="article"/&gt;
-    &lt;enumeration value="div"/&gt;
-    &lt;enumeration value="other"/&gt;
-  &lt;/restriction&gt;
-&lt;/simpleType&gt;</codeblock>
-                  </entry>
-               </row>
-               <row>
                   <entry>Schema location</entry>
                   <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                </row>

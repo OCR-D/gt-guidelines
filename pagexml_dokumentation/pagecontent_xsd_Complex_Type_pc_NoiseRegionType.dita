@@ -385,19 +385,6 @@ scanner noise.</codeblock>
                   </entry>
                </row>
                <row>
-                  <entry>Source</entry>
-                  <entry>
-                     <codeblock outputclass="language-xml">&lt;complexType name="NoiseRegionType"&gt;
-  &lt;annotation&gt;
-    &lt;documentation&gt;Noise regions are regions where no real data lies, only false data created by artifacts on the document or scanner noise.&lt;/documentation&gt;
-  &lt;/annotation&gt;
-  &lt;complexContent&gt;
-    &lt;extension base="pc:RegionType"/&gt;
-  &lt;/complexContent&gt;
-&lt;/complexType&gt;</codeblock>
-                  </entry>
-               </row>
-               <row>
                   <entry>Schema location</entry>
                   <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                </row>

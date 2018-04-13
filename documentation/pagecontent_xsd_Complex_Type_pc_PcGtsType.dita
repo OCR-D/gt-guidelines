@@ -122,18 +122,6 @@
                   </entry>
                </row>
                <row>
-                  <entry>Source</entry>
-                  <entry>
-                     <codeblock outputclass="language-xml">&lt;complexType name="PcGtsType"&gt;
-  &lt;sequence&gt;
-    &lt;element name="Metadata" type="pc:MetadataType"/&gt;
-    &lt;element name="Page" type="pc:PageType"/&gt;
-  &lt;/sequence&gt;
-  &lt;attribute name="pcGtsId" type="ID" use="optional"/&gt;
-&lt;/complexType&gt;</codeblock>
-                  </entry>
-               </row>
-               <row>
                   <entry>Schema location</entry>
                   <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                </row>
@@ -197,12 +185,6 @@
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="pcGtsId" type="ID" use="optional"/&gt;</codeblock>
                      </entry>
                   </row>
                   <row>
@@ -402,12 +384,6 @@
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="Metadata" type="pc:MetadataType"/&gt;</codeblock>
                      </entry>
                   </row>
                   <row>
@@ -1016,12 +992,6 @@ read (within lines) (lower-level definitions override the page-level definition)
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="Page" type="pc:PageType"/&gt;</codeblock>
                      </entry>
                   </row>
                   <row>

@@ -72,20 +72,6 @@
                   </entry>
                </row>
                <row>
-                  <entry>Source</entry>
-                  <entry>
-                     <codeblock outputclass="language-xml">&lt;complexType name="RolesType"&gt;
-  &lt;sequence&gt;
-    &lt;element name="TableCellRole" type="pc:TableCellRoleType" minOccurs="0" maxOccurs="1"&gt;
-      &lt;annotation&gt;
-        &lt;documentation&gt;Data for a region that takes on the role of a table cell within a parent table region&lt;/documentation&gt;
-      &lt;/annotation&gt;
-    &lt;/element&gt;
-  &lt;/sequence&gt;
-&lt;/complexType&gt;</codeblock>
-                  </entry>
-               </row>
-               <row>
                   <entry>Schema location</entry>
                   <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                </row>
@@ -289,16 +275,6 @@
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="TableCellRole" type="pc:TableCellRoleType" minOccurs="0" maxOccurs="1"&gt;
-  &lt;annotation&gt;
-    &lt;documentation&gt;Data for a region that takes on the role of a table cell within a parent table region&lt;/documentation&gt;
-  &lt;/annotation&gt;
-&lt;/element&gt;</codeblock>
                      </entry>
                   </row>
                   <row>

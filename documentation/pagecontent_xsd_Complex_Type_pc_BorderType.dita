@@ -78,19 +78,6 @@
                   </entry>
                </row>
                <row>
-                  <entry>Source</entry>
-                  <entry>
-                     <codeblock outputclass="language-xml">&lt;complexType name="BorderType"&gt;
-  &lt;annotation&gt;
-    &lt;documentation&gt;Border of the actual page (if the scanned image contains parts not belonging to the page).&lt;/documentation&gt;
-  &lt;/annotation&gt;
-  &lt;sequence&gt;
-    &lt;element name="Coords" type="pc:CoordsType"/&gt;
-  &lt;/sequence&gt;
-&lt;/complexType&gt;</codeblock>
-                  </entry>
-               </row>
-               <row>
                   <entry>Schema location</entry>
                   <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                </row>
@@ -209,12 +196,6 @@
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="Coords" type="pc:CoordsType"/&gt;</codeblock>
                      </entry>
                   </row>
                   <row>

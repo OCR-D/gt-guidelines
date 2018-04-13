@@ -719,89 +719,6 @@ Range: -179.999,180</codeblock>
                   </entry>
                </row>
                <row>
-                  <entry>Source</entry>
-                  <entry>
-                     <codeblock outputclass="language-xml">&lt;complexType name="TextRegionType"&gt;
-  &lt;annotation&gt;
-    &lt;documentation&gt;Pure text is represented as a text region. This includes drop capitals, but practically ornate text may be considered as a graphic.&lt;/documentation&gt;
-  &lt;/annotation&gt;
-  &lt;complexContent&gt;
-    &lt;extension base="pc:RegionType"&gt;
-      &lt;sequence&gt;
-        &lt;element name="TextLine" type="pc:TextLineType" minOccurs="0" maxOccurs="unbounded"&gt;
-        &lt;/element&gt;
-        &lt;element name="TextEquiv" type="pc:TextEquivType" minOccurs="0" maxOccurs="unbounded"&gt;
-        &lt;/element&gt;
-        &lt;element name="TextStyle" type="pc:TextStyleType" minOccurs="0" maxOccurs="1"&gt;
-        &lt;/element&gt;
-      &lt;/sequence&gt;
-      &lt;attribute name="orientation" type="float" use="optional"&gt;
-        &lt;annotation&gt;
-          &lt;documentation&gt;The angle the rectangle encapsulating a region has to be rotated in clockwise direction in order to correct the present skew (negative values indicate anti-clockwise rotation). Range: -179.999,180&lt;/documentation&gt;
-        &lt;/annotation&gt;
-      &lt;/attribute&gt;
-      &lt;attribute name="type" type="pc:TextTypeSimpleType" use="optional"&gt;
-        &lt;annotation&gt;
-          &lt;documentation&gt;The nature of the text in the region&lt;/documentation&gt;
-        &lt;/annotation&gt;
-      &lt;/attribute&gt;
-      &lt;attribute name="leading" type="int" use="optional"&gt;
-        &lt;annotation&gt;
-          &lt;documentation&gt;The degree of space in points between the lines of text (line spacing)&lt;/documentation&gt;
-        &lt;/annotation&gt;
-      &lt;/attribute&gt;
-      &lt;attribute name="readingDirection" type="pc:ReadingDirectionSimpleType" use="optional"&gt;
-        &lt;annotation&gt;
-          &lt;documentation&gt;The direction in which text in a region should be read (within lines)&lt;/documentation&gt;
-        &lt;/annotation&gt;
-      &lt;/attribute&gt;
-      &lt;attribute name="textLineOrder" type="pc:TextLineOrderSimpleType" use="optional"&gt;
-        &lt;annotation&gt;
-          &lt;documentation&gt;Inner-block order of text lines (in addition to “readingDirection” which is the inner-text line order of words and characters)&lt;/documentation&gt;
-        &lt;/annotation&gt;
-      &lt;/attribute&gt;
-      &lt;attribute name="readingOrientation" type="float" use="optional"&gt;
-        &lt;annotation&gt;
-          &lt;documentation&gt;The angle the baseline of text withing a region has to be rotated (relative to the rectangle encapsulating the region) in clockwise direction in order to correct the present skew (negative values indicate anti-clockwise rotation). Range: -179.999,180&lt;/documentation&gt;
-        &lt;/annotation&gt;
-      &lt;/attribute&gt;
-      &lt;attribute name="indented" type="boolean" use="optional"&gt;
-        &lt;annotation&gt;
-          &lt;documentation&gt;Defines whether a region of text is indented or not&lt;/documentation&gt;
-        &lt;/annotation&gt;
-      &lt;/attribute&gt;
-      &lt;attribute name="align" type="pc:AlignSimpleType"&gt;
-        &lt;annotation&gt;
-          &lt;documentation&gt;Text align&lt;/documentation&gt;
-        &lt;/annotation&gt;
-      &lt;/attribute&gt;
-      &lt;attribute name="primaryLanguage" type="pc:LanguageSimpleType" use="optional"&gt;
-        &lt;annotation&gt;
-          &lt;documentation&gt;The primary language used in the region&lt;/documentation&gt;
-        &lt;/annotation&gt;
-      &lt;/attribute&gt;
-      &lt;attribute name="secondaryLanguage" type="pc:LanguageSimpleType" use="optional"&gt;
-        &lt;annotation&gt;
-          &lt;documentation&gt;The secondary language used in the region&lt;/documentation&gt;
-        &lt;/annotation&gt;
-      &lt;/attribute&gt;
-      &lt;attribute name="primaryScript" type="pc:ScriptSimpleType" use="optional"&gt;
-        &lt;annotation&gt;
-          &lt;documentation&gt;The primary script used in the region&lt;/documentation&gt;
-        &lt;/annotation&gt;
-      &lt;/attribute&gt;
-      &lt;attribute name="secondaryScript" type="pc:ScriptSimpleType" use="optional"&gt;
-        &lt;annotation&gt;
-          &lt;documentation&gt;The secondary script used in the region&lt;/documentation&gt;
-        &lt;/annotation&gt;
-      &lt;/attribute&gt;
-      &lt;attribute name="production" type="pc:ProductionSimpleType" use="optional"/&gt;
-    &lt;/extension&gt;
-  &lt;/complexContent&gt;
-&lt;/complexType&gt;</codeblock>
-                  </entry>
-               </row>
-               <row>
                   <entry>Schema location</entry>
                   <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                </row>
@@ -872,16 +789,6 @@ Range: -179.999,180</codeblock>
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="orientation" type="float" use="optional"&gt;
-  &lt;annotation&gt;
-    &lt;documentation&gt;The angle the rectangle encapsulating a region has to be rotated in clockwise direction in order to correct the present skew (negative values indicate anti-clockwise rotation). Range: -179.999,180&lt;/documentation&gt;
-  &lt;/annotation&gt;
-&lt;/attribute&gt;</codeblock>
                      </entry>
                   </row>
                   <row>
@@ -1066,16 +973,6 @@ Range: -179.999,180</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="type" type="pc:TextTypeSimpleType" use="optional"&gt;
-  &lt;annotation&gt;
-    &lt;documentation&gt;The nature of the text in the region&lt;/documentation&gt;
-  &lt;/annotation&gt;
-&lt;/attribute&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
                      <entry>Schema location</entry>
                      <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
@@ -1147,16 +1044,6 @@ text (line spacing)</codeblock>
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="leading" type="int" use="optional"&gt;
-  &lt;annotation&gt;
-    &lt;documentation&gt;The degree of space in points between the lines of text (line spacing)&lt;/documentation&gt;
-  &lt;/annotation&gt;
-&lt;/attribute&gt;</codeblock>
                      </entry>
                   </row>
                   <row>
@@ -1272,16 +1159,6 @@ read (within lines)</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="readingDirection" type="pc:ReadingDirectionSimpleType" use="optional"&gt;
-  &lt;annotation&gt;
-    &lt;documentation&gt;The direction in which text in a region should be read (within lines)&lt;/documentation&gt;
-  &lt;/annotation&gt;
-&lt;/attribute&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
                      <entry>Schema location</entry>
                      <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
@@ -1393,16 +1270,6 @@ read (within lines)</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="textLineOrder" type="pc:TextLineOrderSimpleType" use="optional"&gt;
-  &lt;annotation&gt;
-    &lt;documentation&gt;Inner-block order of text lines (in addition to “readingDirection” which is the inner-text line order of words and characters)&lt;/documentation&gt;
-  &lt;/annotation&gt;
-&lt;/attribute&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
                      <entry>Schema location</entry>
                      <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
@@ -1477,16 +1344,6 @@ Range: -179.999,180</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="readingOrientation" type="float" use="optional"&gt;
-  &lt;annotation&gt;
-    &lt;documentation&gt;The angle the baseline of text withing a region has to be rotated (relative to the rectangle encapsulating the region) in clockwise direction in order to correct the present skew (negative values indicate anti-clockwise rotation). Range: -179.999,180&lt;/documentation&gt;
-  &lt;/annotation&gt;
-&lt;/attribute&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
                      <entry>Schema location</entry>
                      <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
@@ -1557,16 +1414,6 @@ Range: -179.999,180</codeblock>
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="indented" type="boolean" use="optional"&gt;
-  &lt;annotation&gt;
-    &lt;documentation&gt;Defines whether a region of text is indented or not&lt;/documentation&gt;
-  &lt;/annotation&gt;
-&lt;/attribute&gt;</codeblock>
                      </entry>
                   </row>
                   <row>
@@ -1678,16 +1525,6 @@ Range: -179.999,180</codeblock>
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="align" type="pc:AlignSimpleType"&gt;
-  &lt;annotation&gt;
-    &lt;documentation&gt;Text align&lt;/documentation&gt;
-  &lt;/annotation&gt;
-&lt;/attribute&gt;</codeblock>
                      </entry>
                   </row>
                   <row>
@@ -2722,16 +2559,6 @@ Range: -179.999,180</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="primaryLanguage" type="pc:LanguageSimpleType" use="optional"&gt;
-  &lt;annotation&gt;
-    &lt;documentation&gt;The primary language used in the region&lt;/documentation&gt;
-  &lt;/annotation&gt;
-&lt;/attribute&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
                      <entry>Schema location</entry>
                      <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
@@ -3763,16 +3590,6 @@ Range: -179.999,180</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="secondaryLanguage" type="pc:LanguageSimpleType" use="optional"&gt;
-  &lt;annotation&gt;
-    &lt;documentation&gt;The secondary language used in the region&lt;/documentation&gt;
-  &lt;/annotation&gt;
-&lt;/attribute&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
                      <entry>Schema location</entry>
                      <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
@@ -4766,16 +4583,6 @@ Range: -179.999,180</codeblock>
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="primaryScript" type="pc:ScriptSimpleType" use="optional"&gt;
-  &lt;annotation&gt;
-    &lt;documentation&gt;The primary script used in the region&lt;/documentation&gt;
-  &lt;/annotation&gt;
-&lt;/attribute&gt;</codeblock>
                      </entry>
                   </row>
                   <row>
@@ -5775,16 +5582,6 @@ Range: -179.999,180</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="secondaryScript" type="pc:ScriptSimpleType" use="optional"&gt;
-  &lt;annotation&gt;
-    &lt;documentation&gt;The secondary script used in the region&lt;/documentation&gt;
-  &lt;/annotation&gt;
-&lt;/attribute&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
                      <entry>Schema location</entry>
                      <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
@@ -5897,12 +5694,6 @@ Range: -179.999,180</codeblock>
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="production" type="pc:ProductionSimpleType" use="optional"/&gt;</codeblock>
                      </entry>
                   </row>
                   <row>
@@ -6292,13 +6083,6 @@ text region</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="TextLine" type="pc:TextLineType" minOccurs="0" maxOccurs="unbounded"&gt;
-&lt;/element&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
                      <entry>Schema location</entry>
                      <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
@@ -6561,13 +6345,6 @@ This is only a descriptive attribute, the text type is not checked during XML va
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="TextEquiv" type="pc:TextEquivType" minOccurs="0" maxOccurs="unbounded"&gt;
-&lt;/element&gt;</codeblock>
                      </entry>
                   </row>
                   <row>
@@ -7072,13 +6849,6 @@ reversed against a background colour</codeblock>
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="TextStyle" type="pc:TextStyleType" minOccurs="0" maxOccurs="1"&gt;
-&lt;/element&gt;</codeblock>
                      </entry>
                   </row>
                   <row>

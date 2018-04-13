@@ -116,26 +116,6 @@
                   </entry>
                </row>
                <row>
-                  <entry>Source</entry>
-                  <entry>
-                     <codeblock outputclass="language-xml">&lt;simpleType name="GraphicsTypeSimpleType"&gt;
-  &lt;restriction base="string"&gt;
-    &lt;enumeration value="logo"/&gt;
-    &lt;enumeration value="letterhead"/&gt;
-    &lt;enumeration value="decoration"/&gt;
-    &lt;enumeration value="frame"/&gt;
-    &lt;enumeration value="handwritten-annotation"/&gt;
-    &lt;enumeration value="stamp"/&gt;
-    &lt;enumeration value="signature"/&gt;
-    &lt;enumeration value="barcode"/&gt;
-    &lt;enumeration value="paper-grow"/&gt;
-    &lt;enumeration value="punch-hole"/&gt;
-    &lt;enumeration value="other"/&gt;
-  &lt;/restriction&gt;
-&lt;/simpleType&gt;</codeblock>
-                  </entry>
-               </row>
-               <row>
                   <entry>Schema location</entry>
                   <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                </row>

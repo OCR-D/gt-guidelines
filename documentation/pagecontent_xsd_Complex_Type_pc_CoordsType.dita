@@ -97,18 +97,6 @@
                   </entry>
                </row>
                <row>
-                  <entry>Source</entry>
-                  <entry>
-                     <codeblock outputclass="language-xml">&lt;complexType name="CoordsType"&gt;
-  &lt;attribute name="points" use="required" type="pc:PointsType"&gt;
-    &lt;annotation&gt;
-      &lt;documentation&gt;Point list with format "x1,y1 x2,y2 ..."&lt;/documentation&gt;
-    &lt;/annotation&gt;
-  &lt;/attribute&gt;
-&lt;/complexType&gt;</codeblock>
-                  </entry>
-               </row>
-               <row>
                   <entry>Schema location</entry>
                   <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                </row>
@@ -201,16 +189,6 @@
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="points" use="required" type="pc:PointsType"&gt;
-  &lt;annotation&gt;
-    &lt;documentation&gt;Point list with format "x1,y1 x2,y2 ..."&lt;/documentation&gt;
-  &lt;/annotation&gt;
-&lt;/attribute&gt;</codeblock>
                      </entry>
                   </row>
                   <row>

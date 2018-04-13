@@ -172,33 +172,6 @@
                   </entry>
                </row>
                <row>
-                  <entry>Source</entry>
-                  <entry>
-                     <codeblock outputclass="language-xml">&lt;complexType name="RelationType"&gt;
-  &lt;annotation&gt;
-    &lt;documentation&gt;One-to-one relation between to layout object. Use 'link' for loose relations and 'join' for strong relations (where something is fragmented for instance). Examples for 'link': caption - image floating - paragraph paragraph - paragraph (when a pragraph is split across columns and the last word of the first paragraph DOES NOT continue in the second paragraph) drop-cap - paragraph (when the drop-cap is a whole word) Examples for 'join': word - word (separated word at the end of a line) drop-cap - paragraph (when the drop-cap is not a whole word) paragraph - paragraph (when a pragraph is split across columns and the last word of the first paragraph DOES continue in the second paragraph)&lt;/documentation&gt;
-  &lt;/annotation&gt;
-  &lt;sequence minOccurs="2" maxOccurs="2"&gt;
-    &lt;element name="RegionRef" type="pc:RegionRefType"/&gt;
-  &lt;/sequence&gt;
-  &lt;attribute name="type" use="required"&gt;
-    &lt;simpleType&gt;
-      &lt;restriction base="string"&gt;
-        &lt;enumeration value="link"/&gt;
-        &lt;enumeration value="join"/&gt;
-      &lt;/restriction&gt;
-    &lt;/simpleType&gt;
-  &lt;/attribute&gt;
-  &lt;attribute name="custom" type="string"&gt;
-    &lt;annotation&gt;
-      &lt;documentation&gt;For generic use&lt;/documentation&gt;
-    &lt;/annotation&gt;
-  &lt;/attribute&gt;
-  &lt;attribute name="comments" type="string"/&gt;
-&lt;/complexType&gt;</codeblock>
-                  </entry>
-               </row>
-               <row>
                   <entry>Schema location</entry>
                   <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                </row>
@@ -291,19 +264,6 @@
                      </entry>
                   </row>
                   <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="type" use="required"&gt;
-  &lt;simpleType&gt;
-    &lt;restriction base="string"&gt;
-      &lt;enumeration value="link"/&gt;
-      &lt;enumeration value="join"/&gt;
-    &lt;/restriction&gt;
-  &lt;/simpleType&gt;
-&lt;/attribute&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
                      <entry>Schema location</entry>
                      <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
@@ -377,16 +337,6 @@
                      </entry>
                   </row>
                   <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="custom" type="string"&gt;
-  &lt;annotation&gt;
-    &lt;documentation&gt;For generic use&lt;/documentation&gt;
-  &lt;/annotation&gt;
-&lt;/attribute&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
                      <entry>Schema location</entry>
                      <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
@@ -451,12 +401,6 @@
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="comments" type="string"/&gt;</codeblock>
                      </entry>
                   </row>
                   <row>
@@ -572,12 +516,6 @@
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="RegionRef" type="pc:RegionRefType"/&gt;</codeblock>
                      </entry>
                   </row>
                   <row>

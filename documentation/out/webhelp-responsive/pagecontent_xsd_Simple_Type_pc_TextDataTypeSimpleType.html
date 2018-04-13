@@ -269,64 +269,6 @@
                </tr>
 
                <tr>
-                  <td class="entry cellrowborder" style="text-align:left;">Source</td>
-
-                  <td class="entry cellrowborder" style="text-align:left;">
-                     <pre class="pre codeblock language-xml"><strong class="hl-tag" style="color:#000096">&lt;simpleType</strong> <span class="hl-attribute" style="color: #ff7935">name</span>=<span class="hl-value" style="color: #993300">"TextDataTypeSimpleType"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
-  <strong class="hl-tag" style="color:#000096">&lt;restriction</strong> <span class="hl-attribute" style="color: #ff7935">base</span>=<span class="hl-value" style="color: #993300">"string"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
-    <strong class="hl-tag" style="color:#000096">&lt;enumeration</strong> <span class="hl-attribute" style="color: #ff7935">value</span>=<span class="hl-value" style="color: #993300">"xsd:decimal"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
-      <strong class="hl-tag" style="color:#000096">&lt;annotation&gt;</strong>
-        <strong class="hl-tag" style="color:#000096">&lt;documentation&gt;</strong>Examples: "123.456", "+1234.456", "-1234.456", "-.456", "-456"<strong class="hl-tag" style="color:#000096">&lt;/documentation&gt;</strong>
-      <strong class="hl-tag" style="color:#000096">&lt;/annotation&gt;</strong>
-    <strong class="hl-tag" style="color:#000096">&lt;/enumeration&gt;</strong>
-    <strong class="hl-tag" style="color:#000096">&lt;enumeration</strong> <span class="hl-attribute" style="color: #ff7935">value</span>=<span class="hl-value" style="color: #993300">"xsd:float"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
-      <strong class="hl-tag" style="color:#000096">&lt;annotation&gt;</strong>
-        <strong class="hl-tag" style="color:#000096">&lt;documentation&gt;</strong>Examples: "123.456", "+1234.456", "-1.2344e56", "-.45E-6", "INF", "-INF", "NaN"<strong class="hl-tag" style="color:#000096">&lt;/documentation&gt;</strong>
-      <strong class="hl-tag" style="color:#000096">&lt;/annotation&gt;</strong>
-    <strong class="hl-tag" style="color:#000096">&lt;/enumeration&gt;</strong>
-    <strong class="hl-tag" style="color:#000096">&lt;enumeration</strong> <span class="hl-attribute" style="color: #ff7935">value</span>=<span class="hl-value" style="color: #993300">"xsd:integer"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
-      <strong class="hl-tag" style="color:#000096">&lt;annotation&gt;</strong>
-        <strong class="hl-tag" style="color:#000096">&lt;documentation&gt;</strong>Examples: "123456", "+00000012", "-1", "-456"<strong class="hl-tag" style="color:#000096">&lt;/documentation&gt;</strong>
-      <strong class="hl-tag" style="color:#000096">&lt;/annotation&gt;</strong>
-    <strong class="hl-tag" style="color:#000096">&lt;/enumeration&gt;</strong>
-    <strong class="hl-tag" style="color:#000096">&lt;enumeration</strong> <span class="hl-attribute" style="color: #ff7935">value</span>=<span class="hl-value" style="color: #993300">"xsd:boolean"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
-      <strong class="hl-tag" style="color:#000096">&lt;annotation&gt;</strong>
-        <strong class="hl-tag" style="color:#000096">&lt;documentation&gt;</strong>Examples: "true", "false", "1", "0"<strong class="hl-tag" style="color:#000096">&lt;/documentation&gt;</strong>
-      <strong class="hl-tag" style="color:#000096">&lt;/annotation&gt;</strong>
-    <strong class="hl-tag" style="color:#000096">&lt;/enumeration&gt;</strong>
-    <strong class="hl-tag" style="color:#000096">&lt;enumeration</strong> <span class="hl-attribute" style="color: #ff7935">value</span>=<span class="hl-value" style="color: #993300">"xsd:date"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
-      <strong class="hl-tag" style="color:#000096">&lt;annotation&gt;</strong>
-        <strong class="hl-tag" style="color:#000096">&lt;documentation&gt;</strong>Examples: "2001-10-26", "2001-10-26+02:00", "2001-10-26Z", "2001-10-26+00:00", "-2001-10-26", "-20000-04-01"<strong class="hl-tag" style="color:#000096">&lt;/documentation&gt;</strong>
-      <strong class="hl-tag" style="color:#000096">&lt;/annotation&gt;</strong>
-    <strong class="hl-tag" style="color:#000096">&lt;/enumeration&gt;</strong>
-    <strong class="hl-tag" style="color:#000096">&lt;enumeration</strong> <span class="hl-attribute" style="color: #ff7935">value</span>=<span class="hl-value" style="color: #993300">"xsd:time"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
-      <strong class="hl-tag" style="color:#000096">&lt;annotation&gt;</strong>
-        <strong class="hl-tag" style="color:#000096">&lt;documentation&gt;</strong>Examples: "21:32:52", "21:32:52+02:00", "19:32:52Z", "19:32:52+00:00", "21:32:52.12679"<strong class="hl-tag" style="color:#000096">&lt;/documentation&gt;</strong>
-      <strong class="hl-tag" style="color:#000096">&lt;/annotation&gt;</strong>
-    <strong class="hl-tag" style="color:#000096">&lt;/enumeration&gt;</strong>
-    <strong class="hl-tag" style="color:#000096">&lt;enumeration</strong> <span class="hl-attribute" style="color: #ff7935">value</span>=<span class="hl-value" style="color: #993300">"xsd:dateTime"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
-      <strong class="hl-tag" style="color:#000096">&lt;annotation&gt;</strong>
-        <strong class="hl-tag" style="color:#000096">&lt;documentation&gt;</strong>Examples: "2001-10-26T21:32:52", "2001-10-26T21:32:52+02:00", "2001-10-26T19:32:52Z", "2001-10-26T19:32:52+00:00", "-2001-10-26T21:32:52", "2001-10-26T21:32:52.12679"<strong class="hl-tag" style="color:#000096">&lt;/documentation&gt;</strong>
-      <strong class="hl-tag" style="color:#000096">&lt;/annotation&gt;</strong>
-    <strong class="hl-tag" style="color:#000096">&lt;/enumeration&gt;</strong>
-    <strong class="hl-tag" style="color:#000096">&lt;enumeration</strong> <span class="hl-attribute" style="color: #ff7935">value</span>=<span class="hl-value" style="color: #993300">"xsd:string"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
-      <strong class="hl-tag" style="color:#000096">&lt;annotation&gt;</strong>
-        <strong class="hl-tag" style="color:#000096">&lt;documentation&gt;</strong>Generic text string<strong class="hl-tag" style="color:#000096">&lt;/documentation&gt;</strong>
-      <strong class="hl-tag" style="color:#000096">&lt;/annotation&gt;</strong>
-    <strong class="hl-tag" style="color:#000096">&lt;/enumeration&gt;</strong>
-    <strong class="hl-tag" style="color:#000096">&lt;enumeration</strong> <span class="hl-attribute" style="color: #ff7935">value</span>=<span class="hl-value" style="color: #993300">"other"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
-      <strong class="hl-tag" style="color:#000096">&lt;annotation&gt;</strong>
-        <strong class="hl-tag" style="color:#000096">&lt;documentation&gt;</strong>An XSD type that is not listed or a custom type (use dataTypeDetails attribute)<strong class="hl-tag" style="color:#000096">&lt;/documentation&gt;</strong>
-      <strong class="hl-tag" style="color:#000096">&lt;/annotation&gt;</strong>
-    <strong class="hl-tag" style="color:#000096">&lt;/enumeration&gt;</strong>
-  <strong class="hl-tag" style="color:#000096">&lt;/restriction&gt;</strong>
-<strong class="hl-tag" style="color:#000096">&lt;/simpleType&gt;</strong></pre>
-
-                  </td>
-
-               </tr>
-
-               <tr>
                   <td class="entry cellrowborder" style="text-align:left;">Schema location</td>
 
                   <td class="entry cellrowborder" style="text-align:left;">http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</td>

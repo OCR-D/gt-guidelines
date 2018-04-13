@@ -88,20 +88,6 @@
                   </entry>
                </row>
                <row>
-                  <entry>Source</entry>
-                  <entry>
-                     <codeblock outputclass="language-xml">&lt;complexType name="ReadingOrderType"&gt;
-  &lt;annotation&gt;
-    &lt;documentation&gt;Definition of the reading order within the page. To express a reading order between elements they have to be included in an OrderedGroup. Groups may contain further groups.&lt;/documentation&gt;
-  &lt;/annotation&gt;
-  &lt;choice minOccurs="1" maxOccurs="1"&gt;
-    &lt;element name="OrderedGroup" type="pc:OrderedGroupType"/&gt;
-    &lt;element name="UnorderedGroup" type="pc:UnorderedGroupType"/&gt;
-  &lt;/choice&gt;
-&lt;/complexType&gt;</codeblock>
-                  </entry>
-               </row>
-               <row>
                   <entry>Schema location</entry>
                   <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                </row>
@@ -399,12 +385,6 @@
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="OrderedGroup" type="pc:OrderedGroupType"/&gt;</codeblock>
                      </entry>
                   </row>
                   <row>
@@ -706,12 +686,6 @@
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="UnorderedGroup" type="pc:UnorderedGroupType"/&gt;</codeblock>
                      </entry>
                   </row>
                   <row>

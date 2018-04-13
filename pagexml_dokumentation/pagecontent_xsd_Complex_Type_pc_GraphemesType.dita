@@ -99,21 +99,6 @@ non-printing characters</codeblock>
                   </entry>
                </row>
                <row>
-                  <entry>Source</entry>
-                  <entry>
-                     <codeblock outputclass="language-xml">&lt;complexType name="GraphemesType"&gt;
-  &lt;annotation&gt;
-    &lt;documentation&gt;Container for graphemes, grapheme groups and non-printing characters&lt;/documentation&gt;
-  &lt;/annotation&gt;
-  &lt;choice minOccurs="1" maxOccurs="unbounded"&gt;
-    &lt;element name="Grapheme" type="pc:GraphemeType"/&gt;
-    &lt;element name="NonPrintingChar" type="pc:NonPrintingCharType"/&gt;
-    &lt;element name="GraphemeGroup" type="pc:GraphemeGroupType"/&gt;
-  &lt;/choice&gt;
-&lt;/complexType&gt;</codeblock>
-                  </entry>
-               </row>
-               <row>
                   <entry>Schema location</entry>
                   <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                </row>
@@ -411,12 +396,6 @@ non-printing characters</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="Grapheme" type="pc:GraphemeType"/&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
                      <entry>Schema location</entry>
                      <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
@@ -700,12 +679,6 @@ non-printing characters</codeblock>
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="NonPrintingChar" type="pc:NonPrintingCharType"/&gt;</codeblock>
                      </entry>
                   </row>
                   <row>
@@ -1015,12 +988,6 @@ non-printing characters</codeblock>
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="GraphemeGroup" type="pc:GraphemeGroupType"/&gt;</codeblock>
                      </entry>
                   </row>
                   <row>

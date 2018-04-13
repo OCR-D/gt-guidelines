@@ -81,19 +81,6 @@
                   </entry>
                </row>
                <row>
-                  <entry>Source</entry>
-                  <entry>
-                     <codeblock outputclass="language-xml">&lt;simpleType name="ColourDepthSimpleType"&gt;
-  &lt;restriction base="string"&gt;
-    &lt;enumeration value="bilevel"/&gt;
-    &lt;enumeration value="greyscale"/&gt;
-    &lt;enumeration value="colour"/&gt;
-    &lt;enumeration value="other"/&gt;
-  &lt;/restriction&gt;
-&lt;/simpleType&gt;</codeblock>
-                  </entry>
-               </row>
-               <row>
                   <entry>Schema location</entry>
                   <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                </row>

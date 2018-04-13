@@ -80,19 +80,6 @@ front of another element with lower z-index.</codeblock>
                   </entry>
                </row>
                <row>
-                  <entry>Source</entry>
-                  <entry>
-                     <codeblock outputclass="language-xml">&lt;complexType name="LayersType"&gt;
-  &lt;annotation&gt;
-    &lt;documentation&gt;Can be used to express the z-index of overlapping regions. An element with a greater z-index is always in front of another element with lower z-index.&lt;/documentation&gt;
-  &lt;/annotation&gt;
-  &lt;sequence minOccurs="1" maxOccurs="unbounded"&gt;
-    &lt;element name="Layer" type="pc:LayerType"/&gt;
-  &lt;/sequence&gt;
-&lt;/complexType&gt;</codeblock>
-                  </entry>
-               </row>
-               <row>
                   <entry>Schema location</entry>
                   <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                </row>
@@ -271,12 +258,6 @@ front of another element with lower z-index.</codeblock>
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="Layer" type="pc:LayerType"/&gt;</codeblock>
                      </entry>
                   </row>
                   <row>

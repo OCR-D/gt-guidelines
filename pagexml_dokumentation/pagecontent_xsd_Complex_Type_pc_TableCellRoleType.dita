@@ -161,33 +161,6 @@
                   </entry>
                </row>
                <row>
-                  <entry>Source</entry>
-                  <entry>
-                     <codeblock outputclass="language-xml">&lt;complexType name="TableCellRoleType"&gt;
-  &lt;attribute name="rowIndex" type="int" use="required"&gt;
-    &lt;annotation&gt;
-      &lt;documentation&gt;Cell position in table starting with row 0&lt;/documentation&gt;
-    &lt;/annotation&gt;
-  &lt;/attribute&gt;
-  &lt;attribute name="columnIndex" type="int" use="required"&gt;
-    &lt;annotation&gt;
-      &lt;documentation&gt;Cell position in table starting with column 0&lt;/documentation&gt;
-    &lt;/annotation&gt;
-  &lt;/attribute&gt;
-  &lt;attribute name="rowSpan" type="int" use="optional"&gt;
-    &lt;annotation&gt;
-      &lt;documentation&gt;Number of rows the cell spans (optional; default is 1)&lt;/documentation&gt;
-    &lt;/annotation&gt;
-  &lt;/attribute&gt;
-  &lt;attribute name="colSpan" type="int" use="optional"&gt;
-    &lt;annotation&gt;
-      &lt;documentation&gt;Number of columns the cell spans (optional; default is 1)&lt;/documentation&gt;
-    &lt;/annotation&gt;
-  &lt;/attribute&gt;
-&lt;/complexType&gt;</codeblock>
-                  </entry>
-               </row>
-               <row>
                   <entry>Schema location</entry>
                   <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                </row>
@@ -257,16 +230,6 @@
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="rowIndex" type="int" use="required"&gt;
-  &lt;annotation&gt;
-    &lt;documentation&gt;Cell position in table starting with row 0&lt;/documentation&gt;
-  &lt;/annotation&gt;
-&lt;/attribute&gt;</codeblock>
                      </entry>
                   </row>
                   <row>
@@ -343,16 +306,6 @@
                      </entry>
                   </row>
                   <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="columnIndex" type="int" use="required"&gt;
-  &lt;annotation&gt;
-    &lt;documentation&gt;Cell position in table starting with column 0&lt;/documentation&gt;
-  &lt;/annotation&gt;
-&lt;/attribute&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
                      <entry>Schema location</entry>
                      <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
@@ -426,16 +379,6 @@
                      </entry>
                   </row>
                   <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="rowSpan" type="int" use="optional"&gt;
-  &lt;annotation&gt;
-    &lt;documentation&gt;Number of rows the cell spans (optional; default is 1)&lt;/documentation&gt;
-  &lt;/annotation&gt;
-&lt;/attribute&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
                      <entry>Schema location</entry>
                      <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
@@ -506,16 +449,6 @@
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="colSpan" type="int" use="optional"&gt;
-  &lt;annotation&gt;
-    &lt;documentation&gt;Number of columns the cell spans (optional; default is 1)&lt;/documentation&gt;
-  &lt;/annotation&gt;
-&lt;/attribute&gt;</codeblock>
                      </entry>
                   </row>
                   <row>

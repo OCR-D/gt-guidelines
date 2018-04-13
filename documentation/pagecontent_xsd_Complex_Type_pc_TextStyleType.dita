@@ -456,71 +456,6 @@ reversed against a background colour</codeblock>
                   </entry>
                </row>
                <row>
-                  <entry>Source</entry>
-                  <entry>
-                     <codeblock outputclass="language-xml">&lt;complexType name="TextStyleType"&gt;
-  &lt;annotation&gt;
-    &lt;documentation&gt;Monospace (fixed-pitch, non-proportional) or proportional font&lt;/documentation&gt;
-  &lt;/annotation&gt;
-  &lt;attribute name="fontFamily" type="string"&gt;
-    &lt;annotation&gt;
-      &lt;documentation&gt;For instance: Arial, Times New Roman. Add more information if necessary (e.g. blackletter, antiqua).&lt;/documentation&gt;
-    &lt;/annotation&gt;
-  &lt;/attribute&gt;
-  &lt;attribute name="serif" type="boolean"&gt;
-    &lt;annotation&gt;
-      &lt;documentation&gt;Serif or sans-serif typeface&lt;/documentation&gt;
-    &lt;/annotation&gt;
-  &lt;/attribute&gt;
-  &lt;attribute name="monospace" type="boolean"/&gt;
-  &lt;attribute name="fontSize" type="float"&gt;
-    &lt;annotation&gt;
-      &lt;documentation&gt;The size of the characters in points&lt;/documentation&gt;
-    &lt;/annotation&gt;
-  &lt;/attribute&gt;
-  &lt;attribute name="xHeight" type="integer" use="optional"&gt;
-    &lt;annotation&gt;
-      &lt;documentation&gt;The x-height or corpus size refers to the distance between the baseline and the mean line of lower-case letters in a typeface. The unit is assumed to be pixels.&lt;/documentation&gt;
-    &lt;/annotation&gt;
-  &lt;/attribute&gt;
-  &lt;attribute name="kerning" type="int"&gt;
-    &lt;annotation&gt;
-      &lt;documentation&gt;The degree of space (in points) between the characters in a string of text&lt;/documentation&gt;
-    &lt;/annotation&gt;
-  &lt;/attribute&gt;
-  &lt;attribute name="textColour" type="pc:ColourSimpleType"/&gt;
-  &lt;attribute name="textColourRgb" type="integer"&gt;
-    &lt;annotation&gt;
-      &lt;documentation&gt;Text colour in RGB encoded format (red value) + (256 x green value) + (65536 x blue value)&lt;/documentation&gt;
-    &lt;/annotation&gt;
-  &lt;/attribute&gt;
-  &lt;attribute name="bgColour" type="pc:ColourSimpleType"&gt;
-    &lt;annotation&gt;
-      &lt;documentation&gt;Background colour&lt;/documentation&gt;
-    &lt;/annotation&gt;
-  &lt;/attribute&gt;
-  &lt;attribute name="bgColourRgb" type="integer"&gt;
-    &lt;annotation&gt;
-      &lt;documentation&gt;Background colour in RGB encoded format (red value) + (256 x green value) + (65536 x blue value)&lt;/documentation&gt;
-    &lt;/annotation&gt;
-  &lt;/attribute&gt;
-  &lt;attribute name="reverseVideo" type="boolean"&gt;
-    &lt;annotation&gt;
-      &lt;documentation&gt;Specifies whether the colour of the text appears reversed against a background colour&lt;/documentation&gt;
-    &lt;/annotation&gt;
-  &lt;/attribute&gt;
-  &lt;attribute name="bold" type="boolean"/&gt;
-  &lt;attribute name="italic" type="boolean"/&gt;
-  &lt;attribute name="underlined" type="boolean"/&gt;
-  &lt;attribute name="subscript" type="boolean"/&gt;
-  &lt;attribute name="superscript" type="boolean"/&gt;
-  &lt;attribute name="strikethrough" type="boolean"/&gt;
-  &lt;attribute name="smallCaps" type="boolean"/&gt;
-  &lt;attribute name="letterSpaced" type="boolean"/&gt;
-&lt;/complexType&gt;</codeblock>
-                  </entry>
-               </row>
-               <row>
                   <entry>Schema location</entry>
                   <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                </row>
@@ -592,16 +527,6 @@ antiqua).</codeblock>
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="fontFamily" type="string"&gt;
-  &lt;annotation&gt;
-    &lt;documentation&gt;For instance: Arial, Times New Roman. Add more information if necessary (e.g. blackletter, antiqua).&lt;/documentation&gt;
-  &lt;/annotation&gt;
-&lt;/attribute&gt;</codeblock>
                      </entry>
                   </row>
                   <row>
@@ -678,16 +603,6 @@ antiqua).</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="serif" type="boolean"&gt;
-  &lt;annotation&gt;
-    &lt;documentation&gt;Serif or sans-serif typeface&lt;/documentation&gt;
-  &lt;/annotation&gt;
-&lt;/attribute&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
                      <entry>Schema location</entry>
                      <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
@@ -752,12 +667,6 @@ antiqua).</codeblock>
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="monospace" type="boolean"/&gt;</codeblock>
                      </entry>
                   </row>
                   <row>
@@ -834,16 +743,6 @@ antiqua).</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="fontSize" type="float"&gt;
-  &lt;annotation&gt;
-    &lt;documentation&gt;The size of the characters in points&lt;/documentation&gt;
-  &lt;/annotation&gt;
-&lt;/attribute&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
                      <entry>Schema location</entry>
                      <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
@@ -914,16 +813,6 @@ antiqua).</codeblock>
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="xHeight" type="integer" use="optional"&gt;
-  &lt;annotation&gt;
-    &lt;documentation&gt;The x-height or corpus size refers to the distance between the baseline and the mean line of lower-case letters in a typeface. The unit is assumed to be pixels.&lt;/documentation&gt;
-  &lt;/annotation&gt;
-&lt;/attribute&gt;</codeblock>
                      </entry>
                   </row>
                   <row>
@@ -998,16 +887,6 @@ characters in a string of text</codeblock>
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="kerning" type="int"&gt;
-  &lt;annotation&gt;
-    &lt;documentation&gt;The degree of space (in points) between the characters in a string of text&lt;/documentation&gt;
-  &lt;/annotation&gt;
-&lt;/attribute&gt;</codeblock>
                      </entry>
                   </row>
                   <row>
@@ -1176,12 +1055,6 @@ characters in a string of text</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="textColour" type="pc:ColourSimpleType"/&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
                      <entry>Schema location</entry>
                      <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
@@ -1252,16 +1125,6 @@ characters in a string of text</codeblock>
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="textColourRgb" type="integer"&gt;
-  &lt;annotation&gt;
-    &lt;documentation&gt;Text colour in RGB encoded format (red value) + (256 x green value) + (65536 x blue value)&lt;/documentation&gt;
-  &lt;/annotation&gt;
-&lt;/attribute&gt;</codeblock>
                      </entry>
                   </row>
                   <row>
@@ -1436,16 +1299,6 @@ characters in a string of text</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="bgColour" type="pc:ColourSimpleType"&gt;
-  &lt;annotation&gt;
-    &lt;documentation&gt;Background colour&lt;/documentation&gt;
-  &lt;/annotation&gt;
-&lt;/attribute&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
                      <entry>Schema location</entry>
                      <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
@@ -1516,16 +1369,6 @@ characters in a string of text</codeblock>
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="bgColourRgb" type="integer"&gt;
-  &lt;annotation&gt;
-    &lt;documentation&gt;Background colour in RGB encoded format (red value) + (256 x green value) + (65536 x blue value)&lt;/documentation&gt;
-  &lt;/annotation&gt;
-&lt;/attribute&gt;</codeblock>
                      </entry>
                   </row>
                   <row>
@@ -1603,16 +1446,6 @@ reversed against a background colour</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="reverseVideo" type="boolean"&gt;
-  &lt;annotation&gt;
-    &lt;documentation&gt;Specifies whether the colour of the text appears reversed against a background colour&lt;/documentation&gt;
-  &lt;/annotation&gt;
-&lt;/attribute&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
                      <entry>Schema location</entry>
                      <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
@@ -1677,12 +1510,6 @@ reversed against a background colour</codeblock>
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="bold" type="boolean"/&gt;</codeblock>
                      </entry>
                   </row>
                   <row>
@@ -1753,12 +1580,6 @@ reversed against a background colour</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="italic" type="boolean"/&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
                      <entry>Schema location</entry>
                      <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
@@ -1823,12 +1644,6 @@ reversed against a background colour</codeblock>
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="underlined" type="boolean"/&gt;</codeblock>
                      </entry>
                   </row>
                   <row>
@@ -1899,12 +1714,6 @@ reversed against a background colour</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="subscript" type="boolean"/&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
                      <entry>Schema location</entry>
                      <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
@@ -1969,12 +1778,6 @@ reversed against a background colour</codeblock>
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="superscript" type="boolean"/&gt;</codeblock>
                      </entry>
                   </row>
                   <row>
@@ -2045,12 +1848,6 @@ reversed against a background colour</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="strikethrough" type="boolean"/&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
                      <entry>Schema location</entry>
                      <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
@@ -2118,12 +1915,6 @@ reversed against a background colour</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="smallCaps" type="boolean"/&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
                      <entry>Schema location</entry>
                      <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
@@ -2188,12 +1979,6 @@ reversed against a background colour</codeblock>
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="letterSpaced" type="boolean"/&gt;</codeblock>
                      </entry>
                   </row>
                   <row>

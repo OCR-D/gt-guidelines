@@ -343,55 +343,6 @@
                   </entry>
                </row>
                <row>
-                  <entry>Source</entry>
-                  <entry>
-                     <codeblock outputclass="language-xml">&lt;complexType name="RegionType" abstract="true"&gt;
-  &lt;sequence&gt;
-    &lt;element name="Coords" type="pc:CoordsType"/&gt;
-    &lt;element name="UserDefined" type="pc:UserDefinedType" minOccurs="0" maxOccurs="1"&gt;
-    &lt;/element&gt;
-    &lt;element name="Roles" type="pc:RolesType" minOccurs="0" maxOccurs="1"&gt;
-      &lt;annotation&gt;
-        &lt;documentation&gt;Roles the region takes (e.g. in context of a parent region)&lt;/documentation&gt;
-      &lt;/annotation&gt;
-    &lt;/element&gt;
-    &lt;choice minOccurs="0" maxOccurs="unbounded"&gt;
-      &lt;element name="TextRegion" type="pc:TextRegionType"/&gt;
-      &lt;element name="ImageRegion" type="pc:ImageRegionType"/&gt;
-      &lt;element name="LineDrawingRegion" type="pc:LineDrawingRegionType"&gt;
-      &lt;/element&gt;
-      &lt;element name="GraphicRegion" type="pc:GraphicRegionType"&gt;
-      &lt;/element&gt;
-      &lt;element name="TableRegion" type="pc:TableRegionType"/&gt;
-      &lt;element name="ChartRegion" type="pc:ChartRegionType"/&gt;
-      &lt;element name="SeparatorRegion" type="pc:SeparatorRegionType"&gt;
-      &lt;/element&gt;
-      &lt;element name="MathsRegion" type="pc:MathsRegionType"/&gt;
-      &lt;element name="ChemRegion" type="pc:ChemRegionType"/&gt;
-      &lt;element name="MusicRegion" type="pc:MusicRegionType"/&gt;
-      &lt;element name="AdvertRegion" type="pc:AdvertRegionType"&gt;
-      &lt;/element&gt;
-      &lt;element name="NoiseRegion" type="pc:NoiseRegionType"/&gt;
-      &lt;element name="UnknownRegion" type="pc:UnknownRegionType"&gt;
-      &lt;/element&gt;
-    &lt;/choice&gt;
-  &lt;/sequence&gt;
-  &lt;attribute name="id" type="ID" use="required"/&gt;
-  &lt;attribute name="custom" type="string"&gt;
-    &lt;annotation&gt;
-      &lt;documentation&gt;For generic use&lt;/documentation&gt;
-    &lt;/annotation&gt;
-  &lt;/attribute&gt;
-  &lt;attribute name="comments" type="string"/&gt;
-  &lt;attribute name="continuation" type="boolean"&gt;
-    &lt;annotation&gt;
-      &lt;documentation&gt;Is this region a continuation of another region (in previous column or page, for example)?&lt;/documentation&gt;
-    &lt;/annotation&gt;
-  &lt;/attribute&gt;
-&lt;/complexType&gt;</codeblock>
-                  </entry>
-               </row>
-               <row>
                   <entry>Schema location</entry>
                   <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                </row>
@@ -455,12 +406,6 @@
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="id" type="ID" use="required"/&gt;</codeblock>
                      </entry>
                   </row>
                   <row>
@@ -537,16 +482,6 @@
                      </entry>
                   </row>
                   <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="custom" type="string"&gt;
-  &lt;annotation&gt;
-    &lt;documentation&gt;For generic use&lt;/documentation&gt;
-  &lt;/annotation&gt;
-&lt;/attribute&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
                      <entry>Schema location</entry>
                      <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
@@ -611,12 +546,6 @@
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="comments" type="string"/&gt;</codeblock>
                      </entry>
                   </row>
                   <row>
@@ -690,16 +619,6 @@
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="continuation" type="boolean"&gt;
-  &lt;annotation&gt;
-    &lt;documentation&gt;Is this region a continuation of another region (in previous column or page, for example)?&lt;/documentation&gt;
-  &lt;/annotation&gt;
-&lt;/attribute&gt;</codeblock>
                      </entry>
                   </row>
                   <row>
@@ -825,12 +744,6 @@
                      </entry>
                   </row>
                   <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="Coords" type="pc:CoordsType"/&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
                      <entry>Schema location</entry>
                      <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
@@ -945,13 +858,6 @@
                         <codeblock outputclass="language-xml">&lt;pc:UserDefined xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15"&gt;
   &lt;pc:UserAttribute description="" name="" type="" value=""&gt;{1,unbounded}&lt;/pc:UserAttribute&gt;
 &lt;/pc:UserDefined&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="UserDefined" type="pc:UserDefinedType" minOccurs="0" maxOccurs="1"&gt;
-&lt;/element&gt;</codeblock>
                      </entry>
                   </row>
                   <row>
@@ -1076,16 +982,6 @@ parent region)</codeblock>
                         <codeblock outputclass="language-xml">&lt;pc:Roles xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15"&gt;
   &lt;pc:TableCellRole colSpan="" columnIndex="" rowIndex="" rowSpan=""&gt;{0,1}&lt;/pc:TableCellRole&gt;
 &lt;/pc:Roles&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="Roles" type="pc:RolesType" minOccurs="0" maxOccurs="1"&gt;
-  &lt;annotation&gt;
-    &lt;documentation&gt;Roles the region takes (e.g. in context of a parent region)&lt;/documentation&gt;
-  &lt;/annotation&gt;
-&lt;/element&gt;</codeblock>
                      </entry>
                   </row>
                   <row>
@@ -1840,12 +1736,6 @@ Range: -179.999,180</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="TextRegion" type="pc:TextRegionType"/&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
                      <entry>Schema location</entry>
                      <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
@@ -2339,12 +2229,6 @@ Range: -179.999,180</codeblock>
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="ImageRegion" type="pc:ImageRegionType"/&gt;</codeblock>
                      </entry>
                   </row>
                   <row>
@@ -2844,13 +2728,6 @@ Range: -179.999,180</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="LineDrawingRegion" type="pc:LineDrawingRegionType"&gt;
-&lt;/element&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
                      <entry>Schema location</entry>
                      <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
@@ -3343,13 +3220,6 @@ Range: -179.999,180</codeblock>
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="GraphicRegion" type="pc:GraphicRegionType"&gt;
-&lt;/element&gt;</codeblock>
                      </entry>
                   </row>
                   <row>
@@ -3918,12 +3788,6 @@ Range: -179.999,180</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="TableRegion" type="pc:TableRegionType"/&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
                      <entry>Schema location</entry>
                      <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
@@ -4444,12 +4308,6 @@ Range: -179.999,180</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="ChartRegion" type="pc:ChartRegionType"/&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
                      <entry>Schema location</entry>
                      <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
@@ -4897,13 +4755,6 @@ Range: -179.999,180</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="SeparatorRegion" type="pc:SeparatorRegionType"&gt;
-&lt;/element&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
                      <entry>Schema location</entry>
                      <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
@@ -5348,12 +5199,6 @@ Range: -179.999,180</codeblock>
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="MathsRegion" type="pc:MathsRegionType"/&gt;</codeblock>
                      </entry>
                   </row>
                   <row>
@@ -5808,12 +5653,6 @@ anti-clockwise rotation). Range:
                      </entry>
                   </row>
                   <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="ChemRegion" type="pc:ChemRegionType"/&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
                      <entry>Schema location</entry>
                      <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
@@ -6258,12 +6097,6 @@ Range: -179.999,180</codeblock>
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="MusicRegion" type="pc:MusicRegionType"/&gt;</codeblock>
                      </entry>
                   </row>
                   <row>
@@ -6714,13 +6547,6 @@ Range: -179.999,180</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="AdvertRegion" type="pc:AdvertRegionType"&gt;
-&lt;/element&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
                      <entry>Schema location</entry>
                      <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
@@ -7119,12 +6945,6 @@ Range: -179.999,180</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="NoiseRegion" type="pc:NoiseRegionType"/&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
                      <entry>Schema location</entry>
                      <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
@@ -7520,13 +7340,6 @@ Range: -179.999,180</codeblock>
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="UnknownRegion" type="pc:UnknownRegionType"&gt;
-&lt;/element&gt;</codeblock>
                      </entry>
                   </row>
                   <row>

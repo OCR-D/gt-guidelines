@@ -157,34 +157,6 @@
                   </entry>
                </row>
                <row>
-                  <entry>Source</entry>
-                  <entry>
-                     <codeblock outputclass="language-xml">&lt;complexType name="MetadataType"&gt;
-  &lt;sequence&gt;
-    &lt;element name="Creator" type="string"/&gt;
-    &lt;element name="Created" type="dateTime"&gt;
-      &lt;annotation&gt;
-        &lt;documentation&gt;The timestamp has to be in UTC (Coordinated Universal Time) and not local time.&lt;/documentation&gt;
-      &lt;/annotation&gt;
-    &lt;/element&gt;
-    &lt;element name="LastChange" type="dateTime"&gt;
-      &lt;annotation&gt;
-        &lt;documentation&gt;The timestamp has to be in UTC (Coordinated Universal Time) and not local time.&lt;/documentation&gt;
-      &lt;/annotation&gt;
-    &lt;/element&gt;
-    &lt;element name="Comments" type="string" minOccurs="0" maxOccurs="1"&gt;
-    &lt;/element&gt;
-    &lt;element name="UserDefined" type="pc:UserDefinedType" minOccurs="0" maxOccurs="1"/&gt;
-  &lt;/sequence&gt;
-  &lt;attribute name="externalRef" type="string" use="optional"&gt;
-    &lt;annotation&gt;
-      &lt;documentation&gt;External reference of any kind&lt;/documentation&gt;
-    &lt;/annotation&gt;
-  &lt;/attribute&gt;
-&lt;/complexType&gt;</codeblock>
-                  </entry>
-               </row>
-               <row>
                   <entry>Schema location</entry>
                   <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                </row>
@@ -257,16 +229,6 @@
                      </entry>
                   </row>
                   <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="externalRef" type="string" use="optional"&gt;
-  &lt;annotation&gt;
-    &lt;documentation&gt;External reference of any kind&lt;/documentation&gt;
-  &lt;/annotation&gt;
-&lt;/attribute&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
                      <entry>Schema location</entry>
                      <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
@@ -316,12 +278,6 @@
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="Creator" type="string"/&gt;</codeblock>
                      </entry>
                   </row>
                   <row>
@@ -384,16 +340,6 @@ Universal Time) and not local time.</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="Created" type="dateTime"&gt;
-  &lt;annotation&gt;
-    &lt;documentation&gt;The timestamp has to be in UTC (Coordinated Universal Time) and not local time.&lt;/documentation&gt;
-  &lt;/annotation&gt;
-&lt;/element&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
                      <entry>Schema location</entry>
                      <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
@@ -450,16 +396,6 @@ Universal Time) and not local time.</codeblock>
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="LastChange" type="dateTime"&gt;
-  &lt;annotation&gt;
-    &lt;documentation&gt;The timestamp has to be in UTC (Coordinated Universal Time) and not local time.&lt;/documentation&gt;
-  &lt;/annotation&gt;
-&lt;/element&gt;</codeblock>
                      </entry>
                   </row>
                   <row>
@@ -524,13 +460,6 @@ Universal Time) and not local time.</codeblock>
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="Comments" type="string" minOccurs="0" maxOccurs="1"&gt;
-&lt;/element&gt;</codeblock>
                      </entry>
                   </row>
                   <row>
@@ -648,12 +577,6 @@ Universal Time) and not local time.</codeblock>
                         <codeblock outputclass="language-xml">&lt;pc:UserDefined xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15"&gt;
   &lt;pc:UserAttribute description="" name="" type="" value=""&gt;{1,unbounded}&lt;/pc:UserAttribute&gt;
 &lt;/pc:UserDefined&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="UserDefined" type="pc:UserDefinedType" minOccurs="0" maxOccurs="1"/&gt;</codeblock>
                      </entry>
                   </row>
                   <row>

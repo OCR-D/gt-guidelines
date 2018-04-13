@@ -274,47 +274,6 @@ word / text line / text region.</codeblock>
                   </entry>
                </row>
                <row>
-                  <entry>Source</entry>
-                  <entry>
-                     <codeblock outputclass="language-xml">&lt;complexType name="GlyphType"&gt;
-  &lt;sequence&gt;
-    &lt;element name="Coords" type="pc:CoordsType"/&gt;
-    &lt;element name="Graphemes" type="pc:GraphemesType" minOccurs="0" maxOccurs="1"&gt;
-      &lt;annotation&gt;
-        &lt;documentation&gt;Container for graphemes, grapheme groups and non-printing characters&lt;/documentation&gt;
-      &lt;/annotation&gt;
-    &lt;/element&gt;
-    &lt;element name="TextEquiv" type="pc:TextEquivType" minOccurs="0" maxOccurs="unbounded"&gt;
-    &lt;/element&gt;
-    &lt;element name="TextStyle" type="pc:TextStyleType" minOccurs="0"&gt;
-    &lt;/element&gt;
-    &lt;element name="UserDefined" type="pc:UserDefinedType" minOccurs="0" maxOccurs="1"/&gt;
-  &lt;/sequence&gt;
-  &lt;attribute name="id" type="ID" use="required"/&gt;
-  &lt;attribute name="ligature" use="optional" type="boolean"&gt;
-  &lt;/attribute&gt;
-  &lt;attribute name="symbol" use="optional" type="boolean"&gt;
-  &lt;/attribute&gt;
-  &lt;attribute name="script" type="pc:ScriptSimpleType" use="optional"&gt;
-    &lt;annotation&gt;
-      &lt;documentation&gt;The script used for the glyph&lt;/documentation&gt;
-    &lt;/annotation&gt;
-  &lt;/attribute&gt;
-  &lt;attribute name="production" type="pc:ProductionSimpleType" use="optional"&gt;
-    &lt;annotation&gt;
-      &lt;documentation&gt;Overrides the production attribute of the parent word / text line / text region.&lt;/documentation&gt;
-    &lt;/annotation&gt;
-  &lt;/attribute&gt;
-  &lt;attribute name="custom" type="string"&gt;
-    &lt;annotation&gt;
-      &lt;documentation&gt;For generic use&lt;/documentation&gt;
-    &lt;/annotation&gt;
-  &lt;/attribute&gt;
-  &lt;attribute name="comments" type="string"/&gt;
-&lt;/complexType&gt;</codeblock>
-                  </entry>
-               </row>
-               <row>
                   <entry>Schema location</entry>
                   <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                </row>
@@ -378,12 +337,6 @@ word / text line / text region.</codeblock>
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="id" type="ID" use="required"/&gt;</codeblock>
                      </entry>
                   </row>
                   <row>
@@ -454,13 +407,6 @@ word / text line / text region.</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="ligature" use="optional" type="boolean"&gt;
-&lt;/attribute&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
                      <entry>Schema location</entry>
                      <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
@@ -525,13 +471,6 @@ word / text line / text region.</codeblock>
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="symbol" use="optional" type="boolean"&gt;
-&lt;/attribute&gt;</codeblock>
                      </entry>
                   </row>
                   <row>
@@ -1531,16 +1470,6 @@ word / text line / text region.</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="script" type="pc:ScriptSimpleType" use="optional"&gt;
-  &lt;annotation&gt;
-    &lt;documentation&gt;The script used for the glyph&lt;/documentation&gt;
-  &lt;/annotation&gt;
-&lt;/attribute&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
                      <entry>Schema location</entry>
                      <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
@@ -1663,16 +1592,6 @@ word / text line / text region.</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="production" type="pc:ProductionSimpleType" use="optional"&gt;
-  &lt;annotation&gt;
-    &lt;documentation&gt;Overrides the production attribute of the parent word / text line / text region.&lt;/documentation&gt;
-  &lt;/annotation&gt;
-&lt;/attribute&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
                      <entry>Schema location</entry>
                      <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
@@ -1746,16 +1665,6 @@ word / text line / text region.</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="custom" type="string"&gt;
-  &lt;annotation&gt;
-    &lt;documentation&gt;For generic use&lt;/documentation&gt;
-  &lt;/annotation&gt;
-&lt;/attribute&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
                      <entry>Schema location</entry>
                      <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
@@ -1820,12 +1729,6 @@ word / text line / text region.</codeblock>
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="comments" type="string"/&gt;</codeblock>
                      </entry>
                   </row>
                   <row>
@@ -1948,12 +1851,6 @@ word / text line / text region.</codeblock>
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="Coords" type="pc:CoordsType"/&gt;</codeblock>
                      </entry>
                   </row>
                   <row>
@@ -2102,16 +1999,6 @@ non-printing characters</codeblock>
   &lt;pc:NonPrintingChar charType="" comments="" custom="" id="" index="" ligature=""&gt;{1,1}&lt;/pc:NonPrintingChar&gt;
   &lt;pc:GraphemeGroup charType="" comments="" custom="" id="" index="" ligature=""&gt;{1,1}&lt;/pc:GraphemeGroup&gt;
 &lt;/pc:Graphemes&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="Graphemes" type="pc:GraphemesType" minOccurs="0" maxOccurs="1"&gt;
-  &lt;annotation&gt;
-    &lt;documentation&gt;Container for graphemes, grapheme groups and non-printing characters&lt;/documentation&gt;
-  &lt;/annotation&gt;
-&lt;/element&gt;</codeblock>
                      </entry>
                   </row>
                   <row>
@@ -2377,13 +2264,6 @@ This is only a descriptive attribute, the text type is not checked during XML va
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="TextEquiv" type="pc:TextEquivType" minOccurs="0" maxOccurs="unbounded"&gt;
-&lt;/element&gt;</codeblock>
                      </entry>
                   </row>
                   <row>
@@ -2885,13 +2765,6 @@ reversed against a background colour</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="TextStyle" type="pc:TextStyleType" minOccurs="0"&gt;
-&lt;/element&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
                      <entry>Schema location</entry>
                      <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
@@ -3006,12 +2879,6 @@ reversed against a background colour</codeblock>
                         <codeblock outputclass="language-xml">&lt;pc:UserDefined xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15"&gt;
   &lt;pc:UserAttribute description="" name="" type="" value=""&gt;{1,unbounded}&lt;/pc:UserAttribute&gt;
 &lt;/pc:UserDefined&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="UserDefined" type="pc:UserDefinedType" minOccurs="0" maxOccurs="1"/&gt;</codeblock>
                      </entry>
                   </row>
                   <row>

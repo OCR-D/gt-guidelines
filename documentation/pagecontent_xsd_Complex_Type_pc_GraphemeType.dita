@@ -275,23 +275,6 @@
                   </entry>
                </row>
                <row>
-                  <entry>Source</entry>
-                  <entry>
-                     <codeblock outputclass="language-xml">&lt;complexType name="GraphemeType"&gt;
-  &lt;annotation&gt;
-    &lt;documentation&gt;Represents a sub-element of a glyph. Smallest graphical unit that can be assigned a Unicode code point&lt;/documentation&gt;
-  &lt;/annotation&gt;
-  &lt;complexContent&gt;
-    &lt;extension base="pc:GraphemeBaseType"&gt;
-      &lt;sequence&gt;
-        &lt;element name="Coords" type="pc:CoordsType"/&gt;
-      &lt;/sequence&gt;
-    &lt;/extension&gt;
-  &lt;/complexContent&gt;
-&lt;/complexType&gt;</codeblock>
-                  </entry>
-               </row>
-               <row>
                   <entry>Schema location</entry>
                   <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                </row>
@@ -410,12 +393,6 @@
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="Coords" type="pc:CoordsType"/&gt;</codeblock>
                      </entry>
                   </row>
                   <row>

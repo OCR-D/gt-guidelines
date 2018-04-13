@@ -501,45 +501,6 @@ Range: -179.999,180</codeblock>
                   </entry>
                </row>
                <row>
-                  <entry>Source</entry>
-                  <entry>
-                     <codeblock outputclass="language-xml">&lt;complexType name="ChartRegionType"&gt;
-  &lt;annotation&gt;
-    &lt;documentation&gt;Regions containing charts or graphs of any type, should be marked as chart regions.&lt;/documentation&gt;
-  &lt;/annotation&gt;
-  &lt;complexContent&gt;
-    &lt;extension base="pc:RegionType"&gt;
-      &lt;attribute name="orientation" type="float" use="optional"&gt;
-        &lt;annotation&gt;
-          &lt;documentation&gt;The angle the rectangle encapsulating a region has to be rotated in clockwise direction in order to correct the present skew (negative values indicate anti-clockwise rotation). Range: -179.999,180&lt;/documentation&gt;
-        &lt;/annotation&gt;
-      &lt;/attribute&gt;
-      &lt;attribute name="type" use="optional" type="pc:ChartTypeSimpleType"&gt;
-        &lt;annotation&gt;
-          &lt;documentation&gt;The type of chart in the region&lt;/documentation&gt;
-        &lt;/annotation&gt;
-      &lt;/attribute&gt;
-      &lt;attribute name="numColours" type="int" use="optional"&gt;
-        &lt;annotation&gt;
-          &lt;documentation&gt;An approximation of the number of colours used in the region&lt;/documentation&gt;
-        &lt;/annotation&gt;
-      &lt;/attribute&gt;
-      &lt;attribute name="bgColour" type="pc:ColourSimpleType" use="optional"&gt;
-        &lt;annotation&gt;
-          &lt;documentation&gt;The background colour of the region&lt;/documentation&gt;
-        &lt;/annotation&gt;
-      &lt;/attribute&gt;
-      &lt;attribute name="embText" type="boolean" use="optional"&gt;
-        &lt;annotation&gt;
-          &lt;documentation&gt;Specifies whether the region also contains text&lt;/documentation&gt;
-        &lt;/annotation&gt;
-      &lt;/attribute&gt;
-    &lt;/extension&gt;
-  &lt;/complexContent&gt;
-&lt;/complexType&gt;</codeblock>
-                  </entry>
-               </row>
-               <row>
                   <entry>Schema location</entry>
                   <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                </row>
@@ -610,16 +571,6 @@ Range: -179.999,180</codeblock>
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="orientation" type="float" use="optional"&gt;
-  &lt;annotation&gt;
-    &lt;documentation&gt;The angle the rectangle encapsulating a region has to be rotated in clockwise direction in order to correct the present skew (negative values indicate anti-clockwise rotation). Range: -179.999,180&lt;/documentation&gt;
-  &lt;/annotation&gt;
-&lt;/attribute&gt;</codeblock>
                      </entry>
                   </row>
                   <row>
@@ -744,16 +695,6 @@ Range: -179.999,180</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="type" use="optional" type="pc:ChartTypeSimpleType"&gt;
-  &lt;annotation&gt;
-    &lt;documentation&gt;The type of chart in the region&lt;/documentation&gt;
-  &lt;/annotation&gt;
-&lt;/attribute&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
                      <entry>Schema location</entry>
                      <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
@@ -825,16 +766,6 @@ used in the region</codeblock>
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="numColours" type="int" use="optional"&gt;
-  &lt;annotation&gt;
-    &lt;documentation&gt;An approximation of the number of colours used in the region&lt;/documentation&gt;
-  &lt;/annotation&gt;
-&lt;/attribute&gt;</codeblock>
                      </entry>
                   </row>
                   <row>
@@ -1009,16 +940,6 @@ used in the region</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="bgColour" type="pc:ColourSimpleType" use="optional"&gt;
-  &lt;annotation&gt;
-    &lt;documentation&gt;The background colour of the region&lt;/documentation&gt;
-  &lt;/annotation&gt;
-&lt;/attribute&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
                      <entry>Schema location</entry>
                      <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
                   </row>
@@ -1090,16 +1011,6 @@ text</codeblock>
                               </tgroup>
                            </table>
                         </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="embText" type="boolean" use="optional"&gt;
-  &lt;annotation&gt;
-    &lt;documentation&gt;Specifies whether the region also contains text&lt;/documentation&gt;
-  &lt;/annotation&gt;
-&lt;/attribute&gt;</codeblock>
                      </entry>
                   </row>
                   <row>
