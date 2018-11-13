@@ -3,129 +3,152 @@
 <topic id="lyTypographie">
     <title>Typographische Besonderheiten</title>
     <body>
-<p>Für alle Texte gelten die folgenden typographischen Auszeichnungswerte für das Attribut
-<codeph>custom</codeph>: </p>
+<p>Für alle Element-Bereiche (<codeph>&lt;Word></codeph>, <codeph>&lt;TextLine></codeph> und
+                <codeph>&lt;TextRegion></codeph>)  gelten die folgenden typographischen
+            Auszeichnungswerte.  </p>
+        <p importance="high">Vorrangig für die Dokumentation von typographischen Merkmalen ist das
+                <b>Element <codeph>&lt;TextStyle></codeph></b> zu verwenden. </p>
+        <p>Parallel kann das <codeph>custom</codeph> Attribut innerhalb von
+                <codeph>&lt;Word></codeph>, <codeph>&lt;TextLine></codeph> und
+                <codeph>&lt;TextRegion></codeph> verwendet werden. In einigen Fällen kann nur mit
+            dem custom-Attribut eine typographische Besonderheit dokumentiert werden. Es sind
+            folgende <codeph>@custom</codeph>-Attribut-Werte verfügbar. </p>
 
 
 <table frame="all" rowsep="1" colsep="1" id="table_fbw_sqx_f1b">
-<tgroup cols="4">
-<colspec colname="c1" colnum="1" colwidth="1*"/>
-<colspec colname="c2" colnum="2" colwidth="1*"/>
-<colspec colname="newCol4" colnum="3" colwidth="1*"/>
-<colspec colname="newCol3" colnum="4" colwidth="1*"/>
-<thead>
-<row>
-<entry>Typographische Besonderheiten</entry>
-<entry>@custom Wert</entry>
-<entry>Beispiel</entry>
-<entry>Hinweise</entry>
-</row>
-</thead>
-<tbody>
-<row>
-<entry>Fettdruck</entry>
-<entry>bold</entry>
-<entry><codeblock>textStyle {offset:0; length:4;bold:true;}</codeblock></entry>
-<entry/>
-</row>
-<row>
-<entry>Kursivdruck</entry>
-<entry>italic</entry>
-<entry><codeblock>textStyle {offset:0; length:4;italic:true;}</codeblock></entry>
-<entry/>
-</row>
-<row>
-<entry>Sperrdruck</entry>
-<entry>letterSpaced</entry>
-<entry><codeblock>textStyle {offset:0; length:4;letterSpaced:true;}</codeblock></entry>
-<entry/>
-</row>
-<row>
-<entry>Kapitälchen</entry>
-<entry>smallCaps</entry>
-<entry><codeblock>textStyle {offset:0; length:4;smallCaps:true;}</codeblock></entry>
-<entry/>
-</row>
-<row>
-<entry>gedruckte Unterstreichung</entry>
-<entry>underlined</entry>
-<entry><codeblock>textStyle {offset:0; length:4;underlined:true;}</codeblock></entry>
-<entry/>
-</row>
-<row>
-<entry>doppelte Unterstreichung</entry>
-<entry>doubleunderlined</entry>
-<entry><codeblock>textStyle {offset:0; length:4;doubleunderlined:true;}</codeblock></entry>
-<entry/>
-</row>
-<row>
-<entry>Durchgestrichen</entry>
-<entry>strikethrough</entry>
-<entry><codeblock>textStyle {offset:0; length:4;strikethrough:true;}</codeblock></entry>
-<entry/>
-</row>
-<row>
-<entry>Hochstellung</entry>
-<entry>superscript</entry>
-<entry><codeblock>textStyle {offset:0; length:4;superscript:true;}</codeblock></entry>
-<entry/>
-</row>
-<row>
-<entry>Tiefstellung</entry>
-<entry>subscript</entry>
-<entry><codeblock>textStyle {offset:0; length:4;subscript:true;}</codeblock></entry>
-<entry/>
-</row>
-<row>
-<entry>Ligatur</entry>
-<entry>ligatur</entry>
-<entry><codeblock>textStyle {offset:0; length:2;ligatur:true;}</codeblock></entry>
-<entry>Für die Erkennung, Verwendung und Transkription von Ligaturen siehe die Regelungen in <xref
-href="trLigatur.dita#trLigatur"/>.</entry>
-</row>
-<row>
-<entry>Antiqua</entry>
-<entry>antiqua</entry>
-<entry><codeblock>textStyle {offset:0; length:4;antiqua:true;}</codeblock></entry>
-<entry/>
-</row>
-<row>
-<entry>Frakturwechsel</entry>
-<entry>fracturswitch</entry>
-<entry><codeblock>textStyle {offset:0; length:4;fracturswitch:true;}</codeblock></entry>
-<entry/>
-</row>
-<row>
-<entry>Hebräisch</entry>
-<entry>heb</entry>
-<entry><codeblock>textStyle {offset:0; length:4;heb:true;}</codeblock></entry>
-<entry/>
-</row>
-<row>
-<entry>Griechisch</entry>
-<entry>gre</entry>
-<entry><codeblock>textStyle {offset:0; length:4;gre:true;}</codeblock></entry>
-<entry/>
-</row>
-<row>
-<entry>Latein</entry>
-<entry>lat</entry>
-<entry><codeblock>textStyle {offset:0; length:4;lat:true;}</codeblock></entry>
-<entry/>
-</row>
-<row>
-<entry>Fremdsprache</entry>
-<entry>forl</entry>
-<entry><codeblock>textStyle {offset:0; length:4;forl:true;}</codeblock></entry>
-<entry/>
-</row>
-</tbody>
-</tgroup>
+<tgroup cols="5">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="c2" colnum="2" colwidth="1*"/>
+                <colspec colname="newCol4" colnum="3" colwidth="1*"/>
+                <colspec colname="newCol5" colnum="4" colwidth="1*"/>
+                <colspec colname="newCol3" colnum="5" colwidth="1*"/>
+                <thead>
+                    <row>
+                        <entry>Typographische Besonderheiten</entry>
+                        <entry>@custom Wert</entry>
+                        <entry>@custom Wert-Beispiel</entry>
+                        <entry>Element <codeph>&lt;TextStyle></codeph></entry>
+                        <entry>Hinweise</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>Fettdruck</entry>
+                        <entry>bold</entry>
+                        <entry>
+                            <codeblock>textStyle {offset:0; length:4;bold:true;}</codeblock>
+                        </entry>
+                        <entry>
+                            <codeblock>&lt;TextStyle bold="true"></codeblock>
+                        </entry>
+                        <entry/>
+                    </row>
+                    <row>
+                        <entry>Kursivdruck</entry>
+                        <entry>italic</entry>
+                        <entry>
+                            <codeblock>textStyle {offset:0; length:4;italic:true;}</codeblock>
+                        </entry>
+                        <entry>
+                            <codeblock>&lt;TextStyle italic="true"></codeblock>
+                        </entry>
+                        <entry/>
+                    </row>
+                    <row>
+                        <entry>Sperrdruck</entry>
+                        <entry>letterSpaced</entry>
+                        <entry>
+                            <codeblock>textStyle {offset:0; length:4;letterSpaced:true;}</codeblock>
+                        </entry>
+                        <entry>
+                            <codeblock>&lt;TextStyle letterSpaced="true"></codeblock>
+                        </entry>
+                        <entry/>
+                    </row>
+                    <row>
+                        <entry>Kapitälchen</entry>
+                        <entry>smallCaps</entry>
+                        <entry>
+                            <codeblock>textStyle {offset:0; length:4;smallCaps:true;}</codeblock>
+                        </entry>
+                        <entry>
+                            <codeblock>&lt;TextStyle smallCaps="true"></codeblock>
+                        </entry>
+                        <entry/>
+                    </row>
+                    <row>
+                        <entry>gedruckte Unterstreichung</entry>
+                        <entry>underlined</entry>
+                        <entry>
+                            <codeblock>textStyle {offset:0; length:4;underlined:true;}</codeblock>
+                        </entry>
+                        <entry>
+                            <codeblock>&lt;TextStyle underlined="true"></codeblock>
+                        </entry>
+                        <entry/>
+                    </row>
+                    <row>
+                        <entry>doppelte Unterstreichung</entry>
+                        <entry>doubleunderlined</entry>
+                        <entry>
+                            <codeblock>textStyle {offset:0; length:4;doubleunderlined:true;}</codeblock>
+                        </entry>
+                        <entry>
+                            <p importance="high">nur in custom zu definieren</p>
+                        </entry>
+                        <entry/>
+                    </row>
+                    <row>
+                        <entry>Durchgestrichen</entry>
+                        <entry>strikethrough</entry>
+                        <entry>
+                            <codeblock>textStyle {offset:0; length:4;strikethrough:true;}</codeblock>
+                        </entry>
+                        <entry>
+                            <p importance="high">nur in custom zu definieren</p>
+                        </entry>
+                        <entry/>
+                    </row>
+                    <row>
+                        <entry>Hochstellung</entry>
+                        <entry>superscript</entry>
+                        <entry>
+                            <codeblock>textStyle {offset:0; length:4;superscript:true;}</codeblock>
+                        </entry>
+                        <entry>
+                            <codeblock>&lt;TextStyle superscript="true"></codeblock>
+                        </entry>
+                        <entry/>
+                    </row>
+                    <row>
+                        <entry>Tiefstellung</entry>
+                        <entry>subscript</entry>
+                        <entry>
+                            <codeblock>textStyle {offset:0; length:4;subscript:true;}</codeblock>
+                        </entry>
+                        <entry>
+                            <codeblock>&lt;TextStyle subscript="true"></codeblock>
+                        </entry>
+                        <entry/>
+                    </row>
+                    <row>
+                        <entry>Ligatur</entry>
+                        <entry>ligatur</entry>
+                        <entry>
+                            <codeblock>textStyle {offset:0; length:2;ligatur:true;}</codeblock>
+                        </entry>
+                        <entry>nur in custom zu definieren</entry>
+                        <entry>Für die Erkennung, Verwendung und Transkription von Ligaturen siehe
+                            die Regelungen in <xref href="trLigatur.dita#trLigatur"/>.</entry>
+                    </row>
+                </tbody>
+            </tgroup>
 </table>
 
 
     </body>
 <related-links>
 <link href="trLigatur.dita#trLigatur"/>
+        <link href="pagecontent_xsd_Complex_Type_pc_TextStyleType.dita"/>
 </related-links>
 </topic>
