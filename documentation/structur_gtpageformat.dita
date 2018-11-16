@@ -25,10 +25,10 @@ Dokumentation des DTABf hingewiesen.</shortdesc>
 <entry namest="c3" nameend="c5">PAGE-Format</entry>
 </row>
 <row>
-<entry>Page type={Wert}</entry>
+<entry>Page <codeblock>type="{Wert}"</codeblock></entry>
 <entry>spez. Region</entry>
-<entry>TextRegion type="{Wert}</entry>
-<entry>TextRegion custom={Wert}</entry>
+<entry>TextRegion <codeblock>type="{Wert}"</codeblock></entry>
+<entry>TextRegion <codeblock>custom="ocr-d-structure {type:Wert;}"</codeblock></entry>
 </row>
 </thead>
 <tbody>
@@ -52,7 +52,7 @@ Dokumentation des DTABf hingewiesen.</shortdesc>
 <entry/>
 <entry/>
 <entry>paragraph</entry>
-<entry>#poem</entry>
+<entry>poem</entry>
 </row>
 <row>
 <entry>Überschrift D1</entry>
@@ -63,7 +63,7 @@ Dokumentation des DTABf hingewiesen.</shortdesc>
 <entry/>
 <entry/>
 <entry>heading</entry>
-<entry>#heading_level1</entry>
+<entry>heading_level1</entry>
 </row>
 <row>
 <entry>Überschrift D2</entry>
@@ -74,7 +74,7 @@ Dokumentation des DTABf hingewiesen.</shortdesc>
 <entry/>
 <entry/>
 <entry>heading</entry>
-<entry>#heading_level2</entry>
+<entry>heading_level2</entry>
 </row>
 <row>
 <entry>Überschrift D3</entry>
@@ -85,7 +85,7 @@ Dokumentation des DTABf hingewiesen.</shortdesc>
 <entry/>
 <entry/>
 <entry>heading</entry>
-<entry>#heading_level3</entry>
+<entry>heading_level3</entry>
 </row>
 <row>
 <entry>Überschrift D4</entry>
@@ -96,7 +96,7 @@ Dokumentation des DTABf hingewiesen.</shortdesc>
 <entry/>
 <entry/>
 <entry>heading</entry>
-<entry>#heading_level4</entry>
+<entry>heading_level4</entry>
 </row>
 <row>
 <entry>Überschrift D5</entry>
@@ -107,7 +107,7 @@ Dokumentation des DTABf hingewiesen.</shortdesc>
 <entry/>
 <entry/>
 <entry>heading</entry>
-<entry>#heading_level5</entry>
+<entry>heading_level5</entry>
 </row>
 <row>
 <entry>Überschrift D6</entry>
@@ -118,7 +118,7 @@ Dokumentation des DTABf hingewiesen.</shortdesc>
 <entry/>
 <entry/>
 <entry>heading</entry>
-<entry>#heading_level6</entry>
+<entry>heading_level6</entry>
 </row>
 <row>
 <entry>Überschrift D7</entry>
@@ -129,7 +129,7 @@ Dokumentation des DTABf hingewiesen.</shortdesc>
 <entry/>
 <entry/>
 <entry>heading</entry>
-<entry>#heading_level7</entry>
+<entry>heading_level7</entry>
 </row>
 <row>
 <entry>Spalte</entry>
@@ -140,7 +140,7 @@ Dokumentation des DTABf hingewiesen.</shortdesc>
 <entry/>
 <entry/>
 <entry>paragraph</entry>
-<entry>#column</entry>
+<entry>column</entry>
 </row>
 <row>
 <entry>Bildunterschrift</entry>
@@ -162,7 +162,7 @@ Dokumentation des DTABf hingewiesen.</shortdesc>
 <entry/>
 <entry/>
 <entry>paragraph</entry>
-<entry>#stage</entry>
+<entry>stage</entry>
 </row>
 <row>
 <entry>Liste</entry>
@@ -173,7 +173,7 @@ Dokumentation des DTABf hingewiesen.</shortdesc>
 <entry/>
 <entry/>
 <entry>paragraph</entry>
-<entry>#list_item</entry>
+<entry>list_item</entry>
 </row>
 <row>
 <entry>Inhaltsverzeichnis</entry>
@@ -204,7 +204,7 @@ Dokumentation des DTABf hingewiesen.</shortdesc>
 <entry/>
 <entry/>
 <entry>other</entry>
-<entry>#back_paragraph</entry>
+<entry>back_paragraph</entry>
 </row>
 <row>
 <entry>Seitennummer</entry>
@@ -226,7 +226,7 @@ Dokumentation des DTABf hingewiesen.</shortdesc>
 <entry/>
 <entry/>
 <entry>paragraph</entry>
-<entry>#castlist</entry>
+<entry>castlist</entry>
 </row>
 <row>
 <entry>abschließender Gruß (Brief)</entry>
@@ -235,7 +235,7 @@ Dokumentation des DTABf hingewiesen.</shortdesc>
 <entry/>
 <entry/>
 <entry>other</entry>
-<entry>#closer</entry>
+<entry>closer</entry>
 </row>
 <row>
 <entry>Gedichttitel</entry>
@@ -244,7 +244,7 @@ Dokumentation des DTABf hingewiesen.</shortdesc>
 <entry/>
 <entry/>
 <entry>paragraph</entry>
-<entry>#poem_heading</entry>
+<entry>poem_heading</entry>
 </row>
 <row>
 <entry>Strophe eines Gedicht</entry>
@@ -255,7 +255,7 @@ Dokumentation des DTABf hingewiesen.</shortdesc>
 <entry/>
 <entry/>
 <entry>paragraph</entry>
-<entry>#poem_lg</entry>
+<entry>poem_lg</entry>
 </row>
 <row>
 <entry>Anrede (Brief)</entry>
@@ -266,7 +266,7 @@ Dokumentation des DTABf hingewiesen.</shortdesc>
 <entry/>
 <entry/>
 <entry>other</entry>
-<entry>#salute</entry>
+<entry>salute</entry>
 </row>
 <row>
 <entry>Sprecher im Drama</entry>
@@ -277,7 +277,7 @@ Dokumentation des DTABf hingewiesen.</shortdesc>
 <entry/>
 <entry/>
 <entry>other</entry>
-<entry>#speaker</entry>
+<entry>speaker</entry>
 </row>
 <row>
 <entry>Zitat</entry>
@@ -290,7 +290,7 @@ Dokumentation des DTABf hingewiesen.</shortdesc>
 <entry/>
 <entry/>
 <entry>paragraph</entry>
-<entry>#cit</entry>
+<entry>cit</entry>
 </row>
 <row>
 <entry>Bogensignatur</entry>
@@ -323,7 +323,7 @@ Dokumentation des DTABf hingewiesen.</shortdesc>
 <entry/>
 <entry/>
 <entry>paragraph</entry>
-<entry>#ded</entry>
+<entry>ded</entry>
 </row>
 <row>
 <entry>Überschift ohne Hierarchie</entry>
@@ -347,7 +347,7 @@ Dokumentation des DTABf hingewiesen.</shortdesc>
 <entry/>
 <entry/>
 <entry>paragraph</entry>
-<entry>#arg</entry>
+<entry>arg</entry>
 </row>
 <row>
 <entry>Briefdatum</entry>
@@ -425,7 +425,7 @@ Dokumentation des DTABf hingewiesen.</shortdesc>
 <entry/>
 <entry/>
 <entry>marginalia</entry>
-<entry>#margi_left</entry>
+<entry>margi_left</entry>
 </row>
 <row>
 <entry>Marginalie rechts</entry>
@@ -438,7 +438,7 @@ Dokumentation des DTABf hingewiesen.</shortdesc>
 <entry/>
 <entry/>
 <entry>marginalia</entry>
-<entry>#margi_right</entry>
+<entry>margi_right</entry>
 </row>
 <row>
 <entry>Tabelle</entry>
@@ -462,7 +462,7 @@ Dokumentation des DTABf hingewiesen.</shortdesc>
 <entry/>
 <entry/>
 <entry>paragraph</entry>
-<entry>#list</entry>
+<entry>list</entry>
 </row>
 <row>
 <entry>math. Formel</entry>
@@ -473,7 +473,7 @@ Dokumentation des DTABf hingewiesen.</shortdesc>
 <entry/>
 <entry>MathsRegion</entry>
 <entry/>
-<entry>#formel</entry>
+<entry>formel</entry>
 </row>
 <row>
 <entry>horz. Linie</entry>

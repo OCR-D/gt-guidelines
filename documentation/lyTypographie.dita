@@ -27,7 +27,8 @@
                         <entry>Typographische Besonderheiten</entry>
                         <entry>@custom Wert</entry>
                         <entry>@custom Wert-Beispiel</entry>
-                        <entry>Element <codeph>&lt;TextStyle></codeph></entry>
+                        <entry>
+                            <codeph>&lt;TextStyle></codeph> Element</entry>
                         <entry>Hinweise</entry>
                     </row>
                 </thead>
@@ -94,9 +95,9 @@
                             <codeblock>textStyle {offset:0; length:4;doubleunderlined:true;}</codeblock>
                         </entry>
                         <entry>
-                            <p importance="high">nur in custom zu definieren</p>
+                            
                         </entry>
-                        <entry/>
+                        <entry><p importance="high">nur in custom zu definieren</p></entry>
                     </row>
                     <row>
                         <entry>Durchgestrichen</entry>
@@ -105,9 +106,9 @@
                             <codeblock>textStyle {offset:0; length:4;strikethrough:true;}</codeblock>
                         </entry>
                         <entry>
-                            <p importance="high">nur in custom zu definieren</p>
+                            
                         </entry>
-                        <entry/>
+                        <entry><p importance="high">nur in custom zu definieren</p></entry>
                     </row>
                     <row>
                         <entry>Hochstellung</entry>
@@ -137,9 +138,9 @@
                         <entry>
                             <codeblock>textStyle {offset:0; length:2;ligatur:true;}</codeblock>
                         </entry>
-                        <entry>nur in custom zu definieren</entry>
-                        <entry>Für die Erkennung, Verwendung und Transkription von Ligaturen siehe
-                            die Regelungen in <xref href="trLigatur.dita#trLigatur"/>.</entry>
+                        <entry></entry>
+                        <entry><p importance="high">nur in custom zu definieren</p><p>Für die Erkennung, Verwendung und Transkription von Ligaturen siehe
+                            die Regelungen in <xref href="trLigatur.dita#trLigatur"/>.</p></entry>
                     </row>
                 </tbody>
             </tgroup>

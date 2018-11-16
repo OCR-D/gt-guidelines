@@ -2,23 +2,14 @@
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="lyInitiale">
     <title>Initiale (drop-capital)</title>
-    <body>
-<p>Initialen werden als spezielle Textregion ausgezeichnet. Das gilt auch dann, wenn sie stark
-graphisch verfremdet wurden. Sie erstrecken sich meistens über mehrere Zeilen und es ist überwiegend
-der erste Buchstabe eines Absatzes, der graphisch gestaltet oder farblich von der Schrift des Textes
-abgehoben wurde. In seltenen Fällen sind ganze Wörter als Initialen gestaltet und werden auch dann
-als solche erfasst.</p>
+    <topic id="lyInitiale_textRegion"><title>TextRegion</title><body>
+<p>Initialen werden als spezielle <codeph>TextRegion</codeph> ausgezeichnet. Das gilt auch dann,
+            wenn sie stark graphisch verfremdet wurden. Sie erstrecken sich meistens über mehrere
+            Zeilen und es ist überwiegend der erste Buchstabe eines Absatzes, der graphisch
+            gestaltet oder farblich von der Schrift des Textes abgehoben wurde. In seltenen Fällen
+            sind ganze Wörter als Initialen gestaltet und werden auch dann als solche erfasst.</p>
 <p><image href="images/lyInitiale.png" height="450" width="605" id="image_br1_hy3_r1b" scale="50"
 /></p>
-<p>Problem:</p>
-<p>Lt. PAGE kann man Relationen herstellen zwischen Initiale und Absatz. Wollen wir das verlangen?
-Wie geht das in Transkribus? Der bisherige GT hat das wohl eher nicht, oder?</p>
-<p> </p>
-<p>“Pure text is represented as a text region. This includes drop capitals, but practically ornate
-text may be considered as a graphic.” (PAGE)</p>
-<p> </p>
-<p>Wollen wir die reine Lehre oder eher die praktische Handhabung?</p>
-<p> </p>
 </body>
 <related-links>
 <link
@@ -28,4 +19,59 @@ href="pagecontent_xsd_Complex_Type_pc_TextRegionType.dita#TextRegionType" format
 href="pagecontent_xsd_Simple_Type_pc_TextTypeSimpleType.dita#TextTypeSimpleType" format="dita"
 />
 </related-links>
+</topic><topic id="lyInitiale_Relation"><title>Relations</title>
+    <body>
+            <p>Um die Beziehung u. a. von Initiale (<codeph>&lt;textRegion type="drop-cap"></codeph>
+                und <codeph>&lt;textRegion type="paragraph"></codeph>) und u. a. einem Paragraphen
+                zu dokumentieren ist das Element <codeph>&lt;Relations></codeph> zu verwenden. Nach
+                der Dokumentation der <codeph>&lt;ReadingOrder></codeph> kann mit dem Element
+                    <codeph>&lt;relations></codeph> die Beziehung zwischen den Elementen und
+                Regionen dargestellt werden. </p><example id="relations"><title>Relations</title><codeblock>&lt;Relations>
+            &lt;Relation type="join">
+                &lt;RegionRef regionRef="region_drop-cap1"/>
+                &lt;RegionRef regionRef="paragraph_1"/>
+            &lt;/Relation>
+            &lt;Relation type="link">
+                &lt;RegionRef regionRef="region_drop-cap2"/>
+                &lt;RegionRef regionRef="paragraph_2"/>
+            &lt;/Relation>
+        &lt;/Relations></codeblock></example>
+            <ol id="ol_hg1_54m_5fb">
+                <li>Verwendung von <codeph>join</codeph><ul>
+                        <li>bei <codeph>&lt;Word&gt;</codeph> und
+                                <codeph>&lt;<codeph>Word</codeph>&gt;</codeph>
+                            <p importance="high">Dies trifft zu, wenn ein Wort am der Ende der Zeile
+                                getrennt und auf der darauffolgenden Zeile fortgesetzt
+                            wird.</p></li>
+                        <li>bei <codeph><codeph>&lt;textRegion type="drop-cap"></codeph></codeph>
+                            und <codeph><codeph>&lt;textRegion type="paragraph"></codeph></codeph>
+                            <p importance="high">Dies trifft zu, wenn die Initialie nur ein Zeichen
+                                oder Buchstaben umfasst und kein ganzes Wort ist.</p></li>
+                        <li> bei <codeph><codeph>&lt;textRegion type="paragraph"></codeph></codeph>
+                            und <codeph><codeph>&lt;textRegion type="paragraph"></codeph></codeph><p
+                                importance="high">Dies trifft zu, wenn der Absatz in Spalten
+                                aufgeteilt wurde und das letzte Wort des Pragraphen wird im
+                                folgenden Absatz fortgesetzt.</p></li>
+                    </ul></li>
+                <li>Verwendung von <codeph>link</codeph><ul>
+                        <li>bei <codeph>caption</codeph> und <codeph>image floating</codeph></li>
+                        <li>bei <codeph><codeph>&lt;textRegion type="paragraph"></codeph></codeph>
+                            und <codeph><codeph>&lt;textRegion type="paragraph"></codeph></codeph>
+                            <p importance="high">Dies trifft zu, wenn der Absatz in Spalten
+                                aufgeteilt wurde und das letzte Wort des Pragraphen nicht im
+                                folgenden Absatz fortgesetzt wird.</p></li>
+                        <li>bei <codeph><codeph>&lt;textRegion type="drop-cap"></codeph></codeph>
+                            und <codeph><codeph>&lt;textRegion type="paragraph"></codeph></codeph>
+                            <p importance="high">Dies trifft zu, wenn die drop-cap ein ganzes Wort
+                                ist.</p></li>
+                    </ul></li>
+            </ol>
+        </body>
+    
+    <related-links>
+        <link
+            href="pagecontent_xsd_Complex_Type_pc_RelationsType.dita"
+        format="dita" />
+    </related-links>
 </topic>
+    </topic>

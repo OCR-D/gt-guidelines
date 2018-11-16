@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="lySchriftarten">
+    <title>Schriftarten</title>
+    <body>
+        <p>Die Schriftinformationen (Typ, Schnitt...) sind in PAGE XML an zwei Stellen
+            dokumentiert.</p>
+        <ul id="ul_wvv_2ft_5fb">
+            <li><b>Der erste Wert:</b><ul id="ul_uj1_gft_5fb">
+                    <li>Als benutzerdefinierter Wert für die Elemente:
+                            <codeph>&lt;TextLine></codeph>, <codeph>&lt;Word></codeph>, er kann auch
+                        in <codeph>&lt;TextRegion></codeph> hinterlegt werden. Hier ein Beispiel für
+                            <codeph>&lt;TextLine></codeph>:
+                        <codeblock>&lt;TextLine custom="textStyle {fontFamily:Arial; fontSize:17.0; bold:true;}"></codeblock>
+                    </li>
+                    <li>Das Schlüsselwort für diese Informationen ist <codeph>textStyle</codeph>.
+                        Für die Schriftart: <i>fontFamily</i>, für die Größe: <i>fontSize</i> und
+                        für den typografischen Stil ist zum Beispiel <codeph>bold</codeph>
+                        anzugeben. <ul id="ul_jhp_ntt_5fb">
+                            <li>Siehe: <xref
+                                    href="http://www.ocr-d.de/sites/all/gt_guidelines/lyTypographie.html"
+                                    format="html" scope="external"/></li>
+                        </ul></li>
+                </ul></li>
+            <li><b>Der zweite Wert:</b><ul id="ul_awh_gft_5fb">
+                    <li>Diese Informationen werden in erster Linie im Element
+                            <codeph>&lt;TextStyle></codeph> erfasst. <ul id="ul_thz_ntt_5fb">
+                            <li>Siehe: <xref
+                                    href="http://www.ocr-d.de/sites/all/gt_guidelines/pagecontent_xsd_Complex_Type_pc_TextStyleType.html?hl=textstyle"
+                                    format="html" scope="external"/></li>
+                        </ul></li>
+                    <li>Alle Informationen sind im Element <codeph>&lt;TextStyle></codeph> zu
+                        dokumentieren.
+                        <codeblock>&lt;TextStyle fontFamily="Arial" fontSize="17.0" bold="true"/></codeblock>
+                    </li>
+                </ul></li>
+        </ul>
+        <p>Da jedoch nicht alle typografischen Informationen in <codeph>&lt;TextStyle></codeph>
+            gespeichert werden können, ist für die Fälle:</p>
+        <p>
+            <ul id="ul_p3y_kft_5fb">
+                <li><codeph>antiqua</codeph></li>
+                <li><codeph>fracturswitch</codeph></li>
+                <li><codeph>doubleunderlined</codeph>, das benutzerdefinierte
+                        <codeph>custom</codeph>-Attribut zu verwenden.</li>
+            </ul>
+        </p></body>
+    <topic id="lySchriftarten_problem"><title>Probleme</title>
+        <body><p>
+            <b>Verschiedene Schriftarten</b> im Absatzbereich:</p>
+        <p> Lösung:</p>
+        <p>
+            <ul id="ul_ofr_mft_5fb">
+                <li><codeph>&lt;TextRegion custom="textStyle {fontFamily:Arial:Times:Courier;
+                        }"></codeph><ul id="ul_lcm_qft_5fb">
+                        <li>
+                            <codeph>&lt;TextStyle fontFamily="Arial:Times:Courier"/></codeph></li>
+                    </ul></li>
+                <li>
+                    <codeph>&lt;TextLine custom="textStyle {fontFamily:Arial:Times; }"></codeph><ul
+                        id="ul_scv_qft_5fb">
+                        <li>
+                            <codeph>&lt;TextStyle fontFamily="Arial:Times"/></codeph></li>
+                    </ul></li>
+                <li>
+                    <codeph>&lt;Word custom="textStyle {fontFamily:Arial; }"></codeph><ul
+                        id="ul_clx_qft_5fb">
+                        <li>
+                            <codeph>&lt;TextStyle fontFamily="Arial"/></codeph></li>
+                    </ul></li>
+            </ul>
+        </p>
+        <p>Das Attribut fontFamily ist auch für die Dokumentation von Schriftclustern zu
+                verwenden.</p>
+        <p> Verschiedene Schriften im typografischen Stil</p>
+        <p>
+            <ul id="ul_jnn_sft_5fb">
+                <li><codeph>&lt;TextRegion custom="textStyle {bold="true"}"></codeph><ul
+                        id="ul_zp2_tft_5fb">
+                        <li>
+                            <codeph>&lt;TextStyle bold="true"/></codeph> betrifft nur die gesamte
+                            Textregion</li>
+                    </ul></li>
+                <li>
+                    <codeph>&lt;TextLine custom="textStyle {bold="true"}"></codeph><ul
+                        id="ul_vp3_tft_5fb">
+                        <li>
+                            <codeph>&lt;TextStyle bold="true"/></codeph> betrifft nur die gesamte
+                            Textzeile</li>
+                    </ul></li>
+                <li>
+                    <codeph>&lt;Word custom="textStyle {bold="true"}"></codeph><ul
+                        id="ul_f5l_tft_5fb">
+                        <li>
+                                <codeph>&lt;TextStyle bold="true"></codeph> betrifft nur das ganze
+                                Wort</li>
+                    </ul></li>
+            </ul>
+        </p>
+        </body>
+</topic></topic>

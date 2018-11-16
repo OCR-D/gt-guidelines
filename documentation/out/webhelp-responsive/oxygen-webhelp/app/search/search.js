@@ -74,6 +74,11 @@ define(['util', 'options', 'nwSearchFnt', 'searchHistoryItems', 'localization', 
                 // Set to 1 if it is undefined
                 if (pageToShow == undefined || pageToShow == "undefined" || pageToShow == "") {
                     pageToShow = 1;
+                } else {
+                    pageToShow = parseInt(pageToShow);
+                    if (isNaN(pageToShow)) {
+                        pageToShow = 1;
+                    }
                 }
 
                 displayPageResults(pageToShow);
@@ -170,7 +175,7 @@ define(['util', 'options', 'nwSearchFnt', 'searchHistoryItems', 'localization', 
         searchHistory.addSearchQueryToHistory(searchResult.originalSearchExpression);
 
         var webhelpEnableSearchPagination = options.getBoolean("webhelp.search.enable.pagination");
-        var webhelpSearchNumberOfItems = options.get("webhelp.search.page.numberOfItems");
+        var webhelpSearchNumberOfItems = options.getInteger("webhelp.search.page.numberOfItems");
 
         if (webhelpEnableSearchPagination !== 'undefined' && webhelpEnableSearchPagination == false) {
             // WH-1470 - Search pagination is disabled
@@ -190,6 +195,11 @@ define(['util', 'options', 'nwSearchFnt', 'searchHistoryItems', 'localization', 
         // Set to 1 if it is undefined
         if (pageToShow == undefined || pageToShow == "undefined" || pageToShow == "") {
             pageToShow = 1;
+        } else {
+            pageToShow = parseInt(pageToShow);
+            if (isNaN(pageToShow)) {
+                pageToShow = 1;
+            }
         }
 
         // Display a page
@@ -201,9 +211,9 @@ define(['util', 'options', 'nwSearchFnt', 'searchHistoryItems', 'localization', 
                 total: totalPageNumber,          // total pages
                 page: pageToShow,            // default page
                 maxVisible: 10,     // visible pagination
-                leaps: true,         // next/prev leaps through maxVisible
-                next: 'Next',
-                prev: 'Previous'
+                leaps: false,         // next/prev leaps through maxVisible
+                next: i18n.getLocalization("next.page"),
+                prev: i18n.getLocalization("prev.page")
             }).on("page", function(event, num){
                 util.debug("Display page with number: ", num);
 
@@ -240,9 +250,6 @@ define(['util', 'options', 'nwSearchFnt', 'searchHistoryItems', 'localization', 
      * @param pageIdx The page index.
      */
     function displayPageResults(pageIdx) {
-        var s = pageIdx * maxItemsPerPage;
-        var e = s + maxItemsPerPage;
-
         var searchResultHTML =
             computeHTMLResult('wh-responsive', pageIdx, totalPageNumber, maxItemsPerPage);
 
@@ -301,7 +308,18 @@ define(['util', 'options', 'nwSearchFnt', 'searchHistoryItems', 'localization', 
 
         if (searchResult.documents !== undefined && searchResult.documents.length > 0) {
             var allPages = searchResult.documents;
-
+            
+            // WH-1943 - sort by scoring, title and short description
+            allPages.sort(function (first, second) {
+                var cRes = second.scoring -first.scoring;
+                if (cRes == 0) {
+                    cRes = second.title.localeCompare(first.title);
+                    if (cRes == 0) {
+                        cRes = second.shortDescription.localeCompare(first.shortDescription);
+                    }
+                }
+                return cRes;
+            });
             // The score for fist item
             var ttScore_first = 1;
             if (allPages.length > 0) {
@@ -390,7 +408,8 @@ define(['util', 'options', 'nwSearchFnt', 'searchHistoryItems', 'localization', 
 
                 if (typeof pageNumber != "undefined" && typeof itemsPerPage != "undefined") {
                     s = (pageNumber - 1) * itemsPerPage;
-                    e = Math.min(s + itemsPerPage, lastSearchResultItems.length);
+                    var next = s + itemsPerPage;
+                    e = Math.min(next, lastSearchResultItems.length);
                 }
 
                 // Result for: word1 word2

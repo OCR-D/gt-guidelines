@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project basedir="C:\Users\matthias\Documents\GitHub\Transkriptionsrichtlinie\documentation\temp\webhelp-responsive\publishing-template" name="Copy template resources" default="copy-template-resources">
+    <target name="copy-template-resources">
+        <mkdir dir="C:\Users\matthias\Documents\GitHub\Transkriptionsrichtlinie\documentation\out\webhelp-responsive\oxygen-webhelp\template"/>
+        <copy todir="C:\Users\matthias\Documents\GitHub\Transkriptionsrichtlinie\documentation\out\webhelp-responsive\oxygen-webhelp\template" overwrite="yes" failonerror="yes" verbose="yes">
+            <fileset dir=".">
+                <include name="skin.css"/>
+            </fileset>
+            <fileset dir=".">
+                <include name="img/Header1-Text-gold_beta.png"/>
+            </fileset>
+            <fileset dir=".">
+                <include name="img/background.png"/>
+            </fileset>
+        </copy>
+    </target>
+</project>

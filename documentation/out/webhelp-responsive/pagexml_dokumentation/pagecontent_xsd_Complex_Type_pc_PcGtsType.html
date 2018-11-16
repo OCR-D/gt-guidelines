@@ -1,0 +1,573 @@
+
+<!DOCTYPE html
+  PUBLIC "" "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:whc="http://www.oxygenxml.com/webhelp/components" xml:lang="de-de" lang="de-de">
+    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="description" content="Namespace http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15 Diagram Used by Element Element pc:PcGts Model Element pc:PcGtsType / pc:Metadata , Element pc:PcGtsType / pc:Page Children ..." /><meta charset="UTF-8" /><meta name="copyright" content="(C) Copyright 2018" /><meta name="DC.rights.owner" content="(C) Copyright 2018" /><meta name="DC.Type" content="topic" /><meta name="DC.Format" content="XHTML" /><meta name="DC.Identifier" content="PcGtsType" /><title>Complex Type pc:PcGtsType</title><!--  Generated with Oxygen version 20.1-SNAPSHOT, build number 2018101515.  --><meta name="wh-path2root" content="../webhelp-responsive/" /><link rel="stylesheet" type="text/css" href="../webhelp-responsive/oxygen-webhelp/lib/bootstrap/css/bootstrap.min.css" /><link rel="stylesheet" href="../webhelp-responsive/oxygen-webhelp/lib/bootstrap/css/bootstrap-theme.min.css" /><link rel="stylesheet" href="../webhelp-responsive/oxygen-webhelp/lib/jquery-ui/jquery-ui.min.css" /><link rel="stylesheet" type="text/css" href="../webhelp-responsive/oxygen-webhelp/app/topic-page.css?buildId=2018101515" /><script type="text/javascript" src="../webhelp-responsive/oxygen-webhelp/lib/jquery/jquery-3.1.1.min.js"><!----></script><script data-main="../webhelp-responsive/oxygen-webhelp/app/topic-page.js" src="../webhelp-responsive/oxygen-webhelp/lib/requirejs/require.js"></script><link rel="stylesheet" type="text/css" href="../webhelp-responsive/oxygen-webhelp/template/skin.css?buildId=2018101515" /></head>
+
+    <body id="PcGtsType" class="wh_topic_page frmBody">
+        <a href="#wh_topic_body" class="sr-only sr-only-focusable">Springe zum Hauptinhalt</a>
+        <!-- EXM-36950 - Expand the args.hdr parameter here -->
+        
+        
+        
+        <header class="navbar navbar-default wh_header">
+    <div class="container-fluid">
+        <div class="wh_header_flex_container">
+            <div class="wh_logo_and_publication_title_container">
+                <div class="wh_logo_and_publication_title">
+                    
+                    <!--
+                            This component will be generated when the next parameters are specified in the transformation scenario:
+                            'webhelp.logo.image' and 'webhelp.logo.image.target.url'.
+                            See: http://oxygenxml.com/doc/versions/17.1/ug-editor/#topics/dita_webhelp_output.html.
+                    -->
+                    <a href="../webhelp-responsive/index.html" class=" wh_logo hidden-xs "><img src="../webhelp-responsive/oxygen-webhelp\template\img/Header1-Text-gold_beta.png" alt="  Richtlinien zur Transkription für Ground Truth   " /></a>
+                    <div class=" wh_publication_title "><a href="../webhelp-responsive/index.html"><span class="booktitle">  <span class="ph mainbooktitle">Richtlinien zur Transkription für Ground Truth </span>  </span></a></div>
+                    
+                </div>
+                
+                <!-- The menu button for mobile devices is copied in the output only when the 'webhelp.show.top.menu' parameter is set to 'yes' -->
+                <button type="button" data-target="#wh_top_menu_and_indexterms_link" id="wh_menu_mobile_button" data-toggle="collapse" class="navbar-toggle collapsed wh_toggle_button" aria-expanded="false" aria-label="Menü umschalten">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <div class="wh_top_menu_and_indexterms_link collapse navbar-collapse" id="wh_top_menu_and_indexterms_link">
+                
+                <nav class=" wh_top_menu "><ul>
+   <li><span data-tocid="trDokuKonv-d66e52" data-state="leaf" class=" topicref " data-id="trDokuKonv"><span class="title"><a href="../webhelp-responsive/trDokuKonventionen.html">Konventionen für diese Richtlinien</a></span></span></li>
+   <li class="has-children"><span data-tocid="transkription-d66e97" data-state="not-ready" class=" topicref " data-id="transkription"><span class="title"><a href="../webhelp-responsive/transkription.html">Transkription</a></span></span></li>
+   <li class="has-children"><span data-tocid="layout-d66e2453" data-state="not-ready" class=" topicref " data-id="layout"><span class="title"><a href="../webhelp-responsive/layout.html">Layout und Struktur</a></span></span></li>
+   <li class="has-children"><span data-tocid="structur_gt-d66e3897" data-state="not-ready" class=" topicref " data-id="structur_gt"><span class="title"><a href="../webhelp-responsive/structur_gt.html">Dokumentation zum OCR-D Struktur-Ground-Truth</a></span></span></li>
+   <li class="has-children"><span data-tocid="page_xml_erweiterungen-d66e4074" data-state="not-ready" class=" topicref " data-id="page_xml_erweiterungen"><span class="title"><a href="../webhelp-responsive/page_xml_erweiterungen.html">Page XML Erweiterungen</a></span></span></li>
+   <li><span data-tocid="kontakt-d66e4157" data-state="leaf" class=" topicref " data-id="kontakt"><span class="title"><a href="../webhelp-responsive/impressum.html">Impressum</a></span></span></li>
+</ul></nav>
+                
+                
+            </div>
+        </div>
+    </div>
+</header>
+        
+        <div class=" wh_search_input "><form id="searchForm" method="get" role="search" action="../webhelp-responsive/search.html"><div><input type="search" placeholder="Suche " class="wh_search_textfield" id="textToSearch" name="searchQuery" aria-label="Suchabfrage" /><button type="submit" class="wh_search_button" aria-label="Suche"><span>Suche</span></button></div><script><!--
+                                    $(document).ready(function () {
+                                        $('#searchForm').submit(function (e) {
+                                            if ($('.wh_search_textfield').val().length < 1) {
+                                                e.preventDefault();
+                                            }
+                                        });
+                                    });
+                                --></script></form></div>
+        
+        <div class="container-fluid">
+            <div class="row">
+
+                <nav class="wh_tools hidden-print">
+                    <div data-tooltip-position="bottom" class=" wh_breadcrumb "></div>
+
+                    <div class="wh_right_tools hidden-sm hidden-xs">
+                        <div class=" wh_navigation_links "><span id="topic_navigation_links" class="navheader"></span></div>
+                        <button class="wh_hide_highlight" aria-label="Hervorhebungen der Suche umschalten" title="Hervorhebungen der Suche umschalten"></button>
+                        <button class="webhelp_expand_collapse_sections" data-next-state="collapsed" aria-label="Sections einklappen" title="Sections einklappen"></button>
+                        <div class=" wh_print_link print "><button onClick="window.print()" title="Diese Seite drucken" aria-label="Diese Seite drucken"></button></div>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="wh_content_area">
+                <div class="row">
+                    
+                    
+                    <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12" id="wh_topic_body">
+                        <div class=" wh_topic_content body "><main role="main"><article role="article" aria-labelledby="ariaid-title1">
+   <h1 class="title topictitle1" id="ariaid-title1">Complex Type pc:PcGtsType</h1>
+   <div class="body">
+      <table class="table frame-all"><caption></caption><colgroup><col style="width:10.714285714285714%" /><col style="width:89.28571428571429%" /></colgroup><tbody class="tbody">
+               <tr>
+                  <td class="entry align-left colsep-1 rowsep-1">Namespace</td>
+                  <td class="entry align-left colsep-1 rowsep-1">http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15</td>
+               </tr>
+               <tr>
+                  <td class="entry align-left colsep-1 rowsep-1">Diagram</td>
+                  <td class="entry align-left colsep-1 rowsep-1">
+                     <div class="p">
+                            
+                                    
+                                    <div class="fig imagemap" id="PcGtsType__pagecontent_xsd_Complex_Type_pc_PcGtsType"><img usemap="#d330586e43" border="0" class="image" src="img/pagecontent_xsd_Complex_Type_pc_PcGtsType.jpeg" /><map name="d330586e43" id="d330586e43"><area href="#PcGtsType_pcGtsId" alt="Attribute pc:PcGtsType / @pcGtsId" title="Attribute pc:PcGtsType / @pcGtsId" shape="rect" coords="150,39,237,83" /><area href="#PcGtsType_Metadata" alt="Element pc:PcGtsType / pc:Metadata" title="Element pc:PcGtsType / pc:Metadata" shape="rect" coords="207,100,353,144" /><area href="#PcGtsType_Page" alt="Element pc:PcGtsType / pc:Page" title="Element pc:PcGtsType / pc:Page" shape="rect" coords="207,154,333,198" /></map></div>
+                        </div>
+                  </td>
+               </tr>
+               <tr>
+                  <td class="entry align-left colsep-1 rowsep-1">Used by</td>
+                  <td class="entry align-left colsep-1 rowsep-1">
+                     <div class="p">
+                        <table class="table frame-all"><caption></caption><colgroup><col style="width:20%" /><col style="width:80%" /></colgroup><tbody class="tbody">
+                                 <tr>
+                                    <td class="entry align-left colsep-1 rowsep-1">Element </td>
+                                    <td class="entry align-left colsep-1 rowsep-1">
+                                       <a class="xref" href="pagecontent_xsd_Element_pc_PcGts.html#PcGts">Element pc:PcGts</a>
+                                    </td>
+                                 </tr>
+                              </tbody></table>
+                     </div>
+                  </td>
+               </tr>
+               <tr>
+                  <td class="entry align-left colsep-1 rowsep-1">Model</td>
+                  <td class="entry align-left colsep-1 rowsep-1">
+                     <a class="xref" href="#PcGtsType_Metadata">Element pc:PcGtsType / pc:Metadata</a> , <a class="xref" href="#PcGtsType_Page">Element pc:PcGtsType / pc:Page</a>
+                  </td>
+               </tr>
+               <tr>
+                  <td class="entry align-left colsep-1 rowsep-1">Children</td>
+                  <td class="entry align-left colsep-1 rowsep-1">
+                     <a class="xref" href="#PcGtsType_Metadata">Element pc:PcGtsType / pc:Metadata</a>, <a class="xref" href="#PcGtsType_Page">Element pc:PcGtsType / pc:Page</a>
+                  </td>
+               </tr>
+               <tr>
+                  <td class="entry align-left colsep-1 rowsep-1">Attributes</td>
+                  <td class="entry align-left colsep-1 rowsep-1">
+                     <div class="p">
+                        <table class="table frame-all"><caption></caption><colgroup><col style="width:42.857142857142854%" /><col style="width:42.857142857142854%" /><col style="width:14.285714285714285%" /></colgroup><thead class="thead">
+                                 <tr>
+                                    <th class="entry align-left colsep-1 rowsep-1" id="PcGtsType__entry__15">QName</th>
+                                    <th class="entry align-left colsep-1 rowsep-1" id="PcGtsType__entry__16">Type</th>
+                                    <th class="entry align-left colsep-1 rowsep-1" id="PcGtsType__entry__17">Use</th>
+                                 </tr>
+                              </thead><tbody class="tbody">
+                                 <tr>
+                                    <td class="entry align-left colsep-1 rowsep-1" headers="PcGtsType__entry__15 ">
+                                       <a class="xref" href="#PcGtsType_pcGtsId">Attribute pc:PcGtsType / @pcGtsId</a>
+                                    </td>
+                                    <td class="entry align-left colsep-1 rowsep-1" headers="PcGtsType__entry__16 ">ID</td>
+                                    <td class="entry align-left colsep-1 rowsep-1" headers="PcGtsType__entry__17 ">optional</td>
+                                 </tr>
+                              </tbody></table>
+                     </div>
+                  </td>
+               </tr>
+               <tr>
+                  <td class="entry align-left colsep-1 rowsep-1">Schema location</td>
+                  <td class="entry align-left colsep-1 rowsep-1">http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</td>
+               </tr>
+            </tbody></table>
+   </div>
+   <article class="topic nested1" aria-labelledby="ariaid-title2" id="PcGtsType_pcGtsId">
+      <h2 class="title topictitle2" id="ariaid-title2">Attribute pc:PcGtsType / @pcGtsId</h2>
+      <div class="body">
+         <table class="table frame-all"><caption></caption><colgroup><col style="width:10.714285714285714%" /><col style="width:89.28571428571429%" /></colgroup><tbody class="tbody">
+                  <tr>
+                     <td class="entry align-left colsep-1 rowsep-1">Namespace</td>
+                     <td class="entry align-left colsep-1 rowsep-1">No namespace</td>
+                  </tr>
+                  <tr>
+                     <td class="entry align-left colsep-1 rowsep-1">Type</td>
+                     <td class="entry align-left colsep-1 rowsep-1">ID</td>
+                  </tr>
+                  <tr>
+                     <td class="entry align-left colsep-1 rowsep-1">Properties</td>
+                     <td class="entry align-left colsep-1 rowsep-1">
+                        <div class="p">
+                           <table class="table frame-all"><caption></caption><colgroup><col style="width:20%" /><col style="width:80%" /></colgroup><tbody class="tbody">
+                                    <tr>
+                                       <td class="entry align-left colsep-1 rowsep-1">use: </td>
+                                       <td class="entry align-left colsep-1 rowsep-1">
+                                          <strong class="ph b">optional</strong>
+                                       </td>
+                                    </tr>
+                                 </tbody></table>
+                        </div>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td class="entry align-left colsep-1 rowsep-1">Used by</td>
+                     <td class="entry align-left colsep-1 rowsep-1">
+                        <div class="p">
+                           <table class="table frame-all"><caption></caption><colgroup><col style="width:20%" /><col style="width:80%" /></colgroup><tbody class="tbody">
+                                    <tr>
+                                       <td class="entry align-left colsep-1 rowsep-1">Complex Type </td>
+                                       <td class="entry align-left colsep-1 rowsep-1">
+                                          <a class="xref" href="#PcGtsType">Complex Type pc:PcGtsType</a>
+                                       </td>
+                                    </tr>
+                                 </tbody></table>
+                        </div>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td class="entry align-left colsep-1 rowsep-1">Schema location</td>
+                     <td class="entry align-left colsep-1 rowsep-1">http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</td>
+                  </tr>
+               </tbody></table>
+      </div>
+   </article>
+   <article class="topic nested1" aria-labelledby="ariaid-title3" id="PcGtsType_Metadata">
+      <h2 class="title topictitle2" id="ariaid-title3">Element pc:PcGtsType / pc:Metadata</h2>
+      <div class="body">
+         <table class="table frame-all"><caption></caption><colgroup><col style="width:10.714285714285714%" /><col style="width:89.28571428571429%" /></colgroup><tbody class="tbody">
+                  <tr>
+                     <td class="entry align-left colsep-1 rowsep-1">Namespace</td>
+                     <td class="entry align-left colsep-1 rowsep-1">http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15</td>
+                  </tr>
+                  <tr>
+                     <td class="entry align-left colsep-1 rowsep-1">Diagram</td>
+                     <td class="entry align-left colsep-1 rowsep-1">
+                        <div class="p">
+                            
+                                    
+                                    <div class="fig imagemap" id="PcGtsType_Metadata__pagecontent_xsd_Element_pc_Metadata"><img usemap="#d330586e393" border="0" class="image" src="img/pagecontent_xsd_Element_pc_Metadata.jpeg" /><map name="d330586e393" id="d330586e393"><area href="pagecontent_xsd_Complex_Type_pc_MetadataType.html#MetadataType_externalRef" alt="Attribute pc:MetadataType / @externalRef" title="Attribute pc:MetadataType / @externalRef" shape="rect" coords="202,79,308,123" /><area href="pagecontent_xsd_Complex_Type_pc_MetadataType.html#MetadataType_Creator" alt="Element pc:MetadataType / pc:Creator" title="Element pc:MetadataType / pc:Creator" shape="rect" coords="259,171,349,215" /><area href="pagecontent_xsd_Complex_Type_pc_MetadataType.html#MetadataType_Created" alt="Element pc:MetadataType / pc:Created" title="Element pc:MetadataType / pc:Created" shape="rect" coords="259,225,365,269" /><area href="pagecontent_xsd_Complex_Type_pc_MetadataType.html#MetadataType_LastChange" alt="Element pc:MetadataType / pc:LastChange" title="Element pc:MetadataType / pc:LastChange" shape="rect" coords="259,324,365,368" /><area href="pagecontent_xsd_Complex_Type_pc_MetadataType.html#MetadataType_Comments" alt="Element pc:MetadataType / pc:Comments" title="Element pc:MetadataType / pc:Comments" shape="rect" coords="259,423,349,467" /><area href="pagecontent_xsd_Complex_Type_pc_MetadataType.html#MetadataType_UserDefined" alt="Element pc:MetadataType / pc:UserDefined" title="Element pc:MetadataType / pc:UserDefined" shape="rect" coords="259,477,421,521" /><area href="pagecontent_xsd_Complex_Type_pc_MetadataType.html#MetadataType" alt="Complex Type pc:MetadataType" title="Complex Type pc:MetadataType" shape="rect" coords="177,3,311,25" /></map></div>
+                        </div>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td class="entry align-left colsep-1 rowsep-1">Type</td>
+                     <td class="entry align-left colsep-1 rowsep-1">
+                        <a class="xref" href="pagecontent_xsd_Complex_Type_pc_MetadataType.html#MetadataType">Complex Type pc:MetadataType</a>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td class="entry align-left colsep-1 rowsep-1">Properties</td>
+                     <td class="entry align-left colsep-1 rowsep-1">
+                        <div class="p">
+                           <table class="table frame-all"><caption></caption><colgroup><col style="width:20%" /><col style="width:80%" /></colgroup><tbody class="tbody">
+                                    <tr>
+                                       <td class="entry align-left colsep-1 rowsep-1">content: </td>
+                                       <td class="entry align-left colsep-1 rowsep-1">
+                                          <strong class="ph b">complex</strong>
+                                       </td>
+                                    </tr>
+                                 </tbody></table>
+                        </div>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td class="entry align-left colsep-1 rowsep-1">Model</td>
+                     <td class="entry align-left colsep-1 rowsep-1">
+                        <a class="xref" href="pagecontent_xsd_Complex_Type_pc_MetadataType.html#MetadataType_Creator">Element pc:MetadataType / pc:Creator</a> , <a class="xref" href="pagecontent_xsd_Complex_Type_pc_MetadataType.html#MetadataType_Created">Element pc:MetadataType / pc:Created</a> , <a class="xref" href="pagecontent_xsd_Complex_Type_pc_MetadataType.html#MetadataType_LastChange">Element pc:MetadataType / pc:LastChange</a> , <a class="xref" href="pagecontent_xsd_Complex_Type_pc_MetadataType.html#MetadataType_Comments">Element pc:MetadataType / pc:Comments</a> , <a class="xref" href="pagecontent_xsd_Complex_Type_pc_MetadataType.html#MetadataType_UserDefined">Element pc:MetadataType / pc:UserDefined</a>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td class="entry align-left colsep-1 rowsep-1">Children</td>
+                     <td class="entry align-left colsep-1 rowsep-1">
+                        <a class="xref" href="pagecontent_xsd_Complex_Type_pc_MetadataType.html#MetadataType_Comments">Element pc:MetadataType / pc:Comments</a>, <a class="xref" href="pagecontent_xsd_Complex_Type_pc_MetadataType.html#MetadataType_Created">Element pc:MetadataType / pc:Created</a>, <a class="xref" href="pagecontent_xsd_Complex_Type_pc_MetadataType.html#MetadataType_Creator">Element pc:MetadataType / pc:Creator</a>, <a class="xref" href="pagecontent_xsd_Complex_Type_pc_MetadataType.html#MetadataType_LastChange">Element pc:MetadataType / pc:LastChange</a>, <a class="xref" href="pagecontent_xsd_Complex_Type_pc_MetadataType.html#MetadataType_UserDefined">Element pc:MetadataType / pc:UserDefined</a>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td class="entry align-left colsep-1 rowsep-1">Instance</td>
+                     <td class="entry align-left colsep-1 rowsep-1">
+                        <pre class="pre codeblock language-xml"><strong class="hl-tag" style="color:#000096">&lt;pc:Metadata</strong> <span class="hl-attribute" style="color: #ff7935">externalRef</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">xmlns:pc</span>=<span class="hl-value" style="color: #993300">"http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
+  <strong class="hl-tag" style="color:#000096">&lt;pc:Creator&gt;</strong>{1,1}<strong class="hl-tag" style="color:#000096">&lt;/pc:Creator&gt;</strong>
+  <strong class="hl-tag" style="color:#000096">&lt;pc:Created&gt;</strong>{1,1}<strong class="hl-tag" style="color:#000096">&lt;/pc:Created&gt;</strong>
+  <strong class="hl-tag" style="color:#000096">&lt;pc:LastChange&gt;</strong>{1,1}<strong class="hl-tag" style="color:#000096">&lt;/pc:LastChange&gt;</strong>
+  <strong class="hl-tag" style="color:#000096">&lt;pc:Comments&gt;</strong>{0,1}<strong class="hl-tag" style="color:#000096">&lt;/pc:Comments&gt;</strong>
+  <strong class="hl-tag" style="color:#000096">&lt;pc:UserDefined&gt;</strong>{0,1}<strong class="hl-tag" style="color:#000096">&lt;/pc:UserDefined&gt;</strong>
+<strong class="hl-tag" style="color:#000096">&lt;/pc:Metadata&gt;</strong></pre>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td class="entry align-left colsep-1 rowsep-1">Attributes</td>
+                     <td class="entry align-left colsep-1 rowsep-1">
+                        <div class="p">
+                           <table class="table frame-all"><caption></caption><colgroup><col style="width:42.857142857142854%" /><col style="width:42.857142857142854%" /><col style="width:14.285714285714285%" /></colgroup><thead class="thead">
+                                    <tr>
+                                       <th class="entry align-left colsep-1 rowsep-1" id="PcGtsType_Metadata__entry__19">QName</th>
+                                       <th class="entry align-left colsep-1 rowsep-1" id="PcGtsType_Metadata__entry__20">Type</th>
+                                       <th class="entry align-left colsep-1 rowsep-1" id="PcGtsType_Metadata__entry__21">Use</th>
+                                    </tr>
+                                 </thead><tbody class="tbody">
+                                    <tr>
+                                       <td class="entry align-left colsep-1 rowsep-1" headers="PcGtsType_Metadata__entry__19 ">
+                                          <a class="xref" href="pagecontent_xsd_Complex_Type_pc_MetadataType.html#MetadataType_externalRef">Attribute pc:MetadataType / @externalRef</a>
+                                       </td>
+                                       <td class="entry align-left colsep-1 rowsep-1" headers="PcGtsType_Metadata__entry__20 ">string</td>
+                                       <td class="entry align-left colsep-1 rowsep-1" headers="PcGtsType_Metadata__entry__21 ">optional</td>
+                                    </tr>
+                                    <tr>
+                                       <td class="entry align-left colsep-1 rowsep-1" headers="PcGtsType_Metadata__entry__19 PcGtsType_Metadata__entry__20 PcGtsType_Metadata__entry__21 " colspan="3">
+                                          <pre class="pre codeblock language-xml">External reference of any kind</pre>
+                                       </td>
+                                    </tr>
+                                 </tbody></table>
+                        </div>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td class="entry align-left colsep-1 rowsep-1">Schema location</td>
+                     <td class="entry align-left colsep-1 rowsep-1">http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</td>
+                  </tr>
+               </tbody></table>
+      </div>
+   </article>
+   <article class="topic nested1" aria-labelledby="ariaid-title4" id="PcGtsType_Page">
+      <h2 class="title topictitle2" id="ariaid-title4">Element pc:PcGtsType / pc:Page</h2>
+      <div class="body">
+         <table class="table frame-all"><caption></caption><colgroup><col style="width:10.714285714285714%" /><col style="width:89.28571428571429%" /></colgroup><tbody class="tbody">
+                  <tr>
+                     <td class="entry align-left colsep-1 rowsep-1">Namespace</td>
+                     <td class="entry align-left colsep-1 rowsep-1">http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15</td>
+                  </tr>
+                  <tr>
+                     <td class="entry align-left colsep-1 rowsep-1">Diagram</td>
+                     <td class="entry align-left colsep-1 rowsep-1">
+                        <div class="p">
+                            
+                                    
+                                    <div class="fig imagemap" id="PcGtsType_Page__pagecontent_xsd_Element_pc_Page"><img usemap="#d330586e730" border="0" class="image" src="img/pagecontent_xsd_Element_pc_Page.jpeg" /><map name="d330586e730" id="d330586e730"><area href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_imageFilename" alt="Attribute pc:PageType / @imageFilename" title="Attribute pc:PageType / @imageFilename" shape="rect" coords="182,79,302,123" /><area href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_imageWidth" alt="Attribute pc:PageType / @imageWidth" title="Attribute pc:PageType / @imageWidth" shape="rect" coords="182,133,287,177" /><area href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_imageHeight" alt="Attribute pc:PageType / @imageHeight" title="Attribute pc:PageType / @imageHeight" shape="rect" coords="182,187,290,231" /><area href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_custom" alt="Attribute pc:PageType / @custom" title="Attribute pc:PageType / @custom" shape="rect" coords="182,241,272,285" /><area href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_type" alt="Attribute pc:PageType / @type" title="Attribute pc:PageType / @type" shape="rect" coords="182,326,363,370" /><area href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_primaryLanguage" alt="Attribute pc:PageType / @primaryLanguage" title="Attribute pc:PageType / @primaryLanguage" shape="rect" coords="182,411,363,455" /><area href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_secondaryLanguage" alt="Attribute pc:PageType / @secondaryLanguage" title="Attribute pc:PageType / @secondaryLanguage" shape="rect" coords="182,510,363,554" /><area href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_primaryScript" alt="Attribute pc:PageType / @primaryScript" title="Attribute pc:PageType / @primaryScript" shape="rect" coords="182,609,343,653" /><area href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_secondaryScript" alt="Attribute pc:PageType / @secondaryScript" title="Attribute pc:PageType / @secondaryScript" shape="rect" coords="182,708,343,752" /><area href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_readingDirection" alt="Attribute pc:PageType / @readingDirection" title="Attribute pc:PageType / @readingDirection" shape="rect" coords="182,807,396,851" /><area href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_textLineOrder" alt="Attribute pc:PageType / @textLineOrder" title="Attribute pc:PageType / @textLineOrder" shape="rect" coords="182,906,384,950" /><area href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_AlternativeImage" alt="Element pc:PageType / pc:AlternativeImage" title="Element pc:PageType / pc:AlternativeImage" shape="rect" coords="259,1012,441,1056" /><area href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_Border" alt="Element pc:PageType / pc:Border" title="Element pc:PageType / pc:Border" shape="rect" coords="259,1097,394,1141" /><area href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_PrintSpace" alt="Element pc:PageType / pc:PrintSpace" title="Element pc:PageType / pc:PrintSpace" shape="rect" coords="259,1151,413,1195" /><area href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_ReadingOrder" alt="Element pc:PageType / pc:ReadingOrder" title="Element pc:PageType / pc:ReadingOrder" shape="rect" coords="259,1205,428,1249" /><area href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_Layers" alt="Element pc:PageType / pc:Layers" title="Element pc:PageType / pc:Layers" shape="rect" coords="259,1259,395,1303" /><area href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_Relations" alt="Element pc:PageType / pc:Relations" title="Element pc:PageType / pc:Relations" shape="rect" coords="259,1358,405,1402" /><area href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_UserDefined" alt="Element pc:PageType / pc:UserDefined" title="Element pc:PageType / pc:UserDefined" shape="rect" coords="259,1412,421,1456" /><area href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_TextRegion" alt="Element pc:PageType / pc:TextRegion" title="Element pc:PageType / pc:TextRegion" shape="rect" coords="330,1466,486,1510" /><area href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_ImageRegion" alt="Element pc:PageType / pc:ImageRegion" title="Element pc:PageType / pc:ImageRegion" shape="rect" coords="330,1520,493,1564" /><area href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_LineDrawingRegion" alt="Element pc:PageType / pc:LineDrawingRegion" title="Element pc:PageType / pc:LineDrawingRegion" shape="rect" coords="330,1574,526,1618" /><area href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_GraphicRegion" alt="Element pc:PageType / pc:GraphicRegion" title="Element pc:PageType / pc:GraphicRegion" shape="rect" coords="330,1628,503,1672" /><area href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_TableRegion" alt="Element pc:PageType / pc:TableRegion" title="Element pc:PageType / pc:TableRegion" shape="rect" coords="330,1682,491,1726" /><area href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_ChartRegion" alt="Element pc:PageType / pc:ChartRegion" title="Element pc:PageType / pc:ChartRegion" shape="rect" coords="330,1736,491,1780" /><area href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_SeparatorRegion" alt="Element pc:PageType / pc:SeparatorRegion" title="Element pc:PageType / pc:SeparatorRegion" shape="rect" coords="330,1790,513,1834" /><area href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_MathsRegion" alt="Element pc:PageType / pc:MathsRegion" title="Element pc:PageType / pc:MathsRegion" shape="rect" coords="330,1844,494,1888" /><area href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_ChemRegion" alt="Element pc:PageType / pc:ChemRegion" title="Element pc:PageType / pc:ChemRegion" shape="rect" coords="330,1898,492,1942" /><area href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_MusicRegion" alt="Element pc:PageType / pc:MusicRegion" title="Element pc:PageType / pc:MusicRegion" shape="rect" coords="330,1952,493,1996" /><area href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_AdvertRegion" alt="Element pc:PageType / pc:AdvertRegion" title="Element pc:PageType / pc:AdvertRegion" shape="rect" coords="330,2006,498,2050" /><area href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_NoiseRegion" alt="Element pc:PageType / pc:NoiseRegion" title="Element pc:PageType / pc:NoiseRegion" shape="rect" coords="330,2060,492,2104" /><area href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_UnknownRegion" alt="Element pc:PageType / pc:UnknownRegion" title="Element pc:PageType / pc:UnknownRegion" shape="rect" coords="330,2114,511,2158" /><area href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType" alt="Complex Type pc:PageType" title="Complex Type pc:PageType" shape="rect" coords="157,3,271,25" /></map></div>
+                        </div>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td class="entry align-left colsep-1 rowsep-1">Type</td>
+                     <td class="entry align-left colsep-1 rowsep-1">
+                        <a class="xref" href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType">Complex Type pc:PageType</a>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td class="entry align-left colsep-1 rowsep-1">Properties</td>
+                     <td class="entry align-left colsep-1 rowsep-1">
+                        <div class="p">
+                           <table class="table frame-all"><caption></caption><colgroup><col style="width:20%" /><col style="width:80%" /></colgroup><tbody class="tbody">
+                                    <tr>
+                                       <td class="entry align-left colsep-1 rowsep-1">content: </td>
+                                       <td class="entry align-left colsep-1 rowsep-1">
+                                          <strong class="ph b">complex</strong>
+                                       </td>
+                                    </tr>
+                                 </tbody></table>
+                        </div>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td class="entry align-left colsep-1 rowsep-1">Model</td>
+                     <td class="entry align-left colsep-1 rowsep-1">
+                        <a class="xref" href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_AlternativeImage">Element pc:PageType / pc:AlternativeImage</a> , <a class="xref" href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_Border">Element pc:PageType / pc:Border</a> , <a class="xref" href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_PrintSpace">Element pc:PageType / pc:PrintSpace</a> , <a class="xref" href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_ReadingOrder">Element pc:PageType / pc:ReadingOrder</a> , <a class="xref" href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_Layers">Element pc:PageType / pc:Layers</a> , <a class="xref" href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_Relations">Element pc:PageType / pc:Relations</a> , <a class="xref" href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_UserDefined">Element pc:PageType / pc:UserDefined</a> , (<a class="xref" href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_TextRegion">Element pc:PageType / pc:TextRegion</a> | <a class="xref" href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_ImageRegion">Element pc:PageType / pc:ImageRegion</a> | <a class="xref" href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_LineDrawingRegion">Element pc:PageType / pc:LineDrawingRegion</a> | <a class="xref" href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_GraphicRegion">Element pc:PageType / pc:GraphicRegion</a> | <a class="xref" href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_TableRegion">Element pc:PageType / pc:TableRegion</a> | <a class="xref" href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_ChartRegion">Element pc:PageType / pc:ChartRegion</a> | <a class="xref" href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_SeparatorRegion">Element pc:PageType / pc:SeparatorRegion</a> | <a class="xref" href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_MathsRegion">Element pc:PageType / pc:MathsRegion</a> | <a class="xref" href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_ChemRegion">Element pc:PageType / pc:ChemRegion</a> | <a class="xref" href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_MusicRegion">Element pc:PageType / pc:MusicRegion</a> | <a class="xref" href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_AdvertRegion">Element pc:PageType / pc:AdvertRegion</a> | <a class="xref" href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_NoiseRegion">Element pc:PageType / pc:NoiseRegion</a> | <a class="xref" href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_UnknownRegion">Element pc:PageType / pc:UnknownRegion</a>)</td>
+                  </tr>
+                  <tr>
+                     <td class="entry align-left colsep-1 rowsep-1">Children</td>
+                     <td class="entry align-left colsep-1 rowsep-1">
+                        <a class="xref" href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_AdvertRegion">Element pc:PageType / pc:AdvertRegion</a>, <a class="xref" href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_AlternativeImage">Element pc:PageType / pc:AlternativeImage</a>, <a class="xref" href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_Border">Element pc:PageType / pc:Border</a>, <a class="xref" href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_ChartRegion">Element pc:PageType / pc:ChartRegion</a>, <a class="xref" href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_ChemRegion">Element pc:PageType / pc:ChemRegion</a>, <a class="xref" href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_GraphicRegion">Element pc:PageType / pc:GraphicRegion</a>, <a class="xref" href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_ImageRegion">Element pc:PageType / pc:ImageRegion</a>, <a class="xref" href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_Layers">Element pc:PageType / pc:Layers</a>, <a class="xref" href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_LineDrawingRegion">Element pc:PageType / pc:LineDrawingRegion</a>, <a class="xref" href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_MathsRegion">Element pc:PageType / pc:MathsRegion</a>, <a class="xref" href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_MusicRegion">Element pc:PageType / pc:MusicRegion</a>, <a class="xref" href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_NoiseRegion">Element pc:PageType / pc:NoiseRegion</a>, <a class="xref" href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_PrintSpace">Element pc:PageType / pc:PrintSpace</a>, <a class="xref" href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_ReadingOrder">Element pc:PageType / pc:ReadingOrder</a>, <a class="xref" href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_Relations">Element pc:PageType / pc:Relations</a>, <a class="xref" href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_SeparatorRegion">Element pc:PageType / pc:SeparatorRegion</a>, <a class="xref" href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_TableRegion">Element pc:PageType / pc:TableRegion</a>, <a class="xref" href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_TextRegion">Element pc:PageType / pc:TextRegion</a>, <a class="xref" href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_UnknownRegion">Element pc:PageType / pc:UnknownRegion</a>, <a class="xref" href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_UserDefined">Element pc:PageType / pc:UserDefined</a>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td class="entry align-left colsep-1 rowsep-1">Instance</td>
+                     <td class="entry align-left colsep-1 rowsep-1">
+                        <pre class="pre codeblock language-xml"><strong class="hl-tag" style="color:#000096">&lt;pc:Page</strong> <span class="hl-attribute" style="color: #ff7935">custom</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">imageFilename</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">imageHeight</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">imageWidth</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">primaryLanguage</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">primaryScript</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">readingDirection</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">secondaryLanguage</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">secondaryScript</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">textLineOrder</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">type</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">xmlns:pc</span>=<span class="hl-value" style="color: #993300">"http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
+  <strong class="hl-tag" style="color:#000096">&lt;pc:AlternativeImage</strong> <span class="hl-attribute" style="color: #ff7935">comments</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">filename</span>=<span class="hl-value" style="color: #993300">""</span><strong class="hl-tag" style="color:#000096">&gt;</strong>{0,unbounded}<strong class="hl-tag" style="color:#000096">&lt;/pc:AlternativeImage&gt;</strong>
+  <strong class="hl-tag" style="color:#000096">&lt;pc:Border&gt;</strong>{0,1}<strong class="hl-tag" style="color:#000096">&lt;/pc:Border&gt;</strong>
+  <strong class="hl-tag" style="color:#000096">&lt;pc:PrintSpace&gt;</strong>{0,1}<strong class="hl-tag" style="color:#000096">&lt;/pc:PrintSpace&gt;</strong>
+  <strong class="hl-tag" style="color:#000096">&lt;pc:ReadingOrder&gt;</strong>{0,1}<strong class="hl-tag" style="color:#000096">&lt;/pc:ReadingOrder&gt;</strong>
+  <strong class="hl-tag" style="color:#000096">&lt;pc:Layers&gt;</strong>{0,1}<strong class="hl-tag" style="color:#000096">&lt;/pc:Layers&gt;</strong>
+  <strong class="hl-tag" style="color:#000096">&lt;pc:Relations&gt;</strong>{0,1}<strong class="hl-tag" style="color:#000096">&lt;/pc:Relations&gt;</strong>
+  <strong class="hl-tag" style="color:#000096">&lt;pc:UserDefined&gt;</strong>{0,1}<strong class="hl-tag" style="color:#000096">&lt;/pc:UserDefined&gt;</strong>
+  <strong class="hl-tag" style="color:#000096">&lt;pc:TextRegion</strong> <span class="hl-attribute" style="color: #ff7935">align</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">comments</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">continuation</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">custom</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">id</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">indented</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">leading</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">orientation</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">primaryLanguage</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">primaryScript</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">production</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">readingDirection</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">readingOrientation</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">secondaryLanguage</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">secondaryScript</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">textLineOrder</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">type</span>=<span class="hl-value" style="color: #993300">""</span><strong class="hl-tag" style="color:#000096">&gt;</strong>{1,1}<strong class="hl-tag" style="color:#000096">&lt;/pc:TextRegion&gt;</strong>
+  <strong class="hl-tag" style="color:#000096">&lt;pc:ImageRegion</strong> <span class="hl-attribute" style="color: #ff7935">bgColour</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">colourDepth</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">comments</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">continuation</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">custom</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">embText</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">id</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">orientation</span>=<span class="hl-value" style="color: #993300">""</span><strong class="hl-tag" style="color:#000096">&gt;</strong>{1,1}<strong class="hl-tag" style="color:#000096">&lt;/pc:ImageRegion&gt;</strong>
+  <strong class="hl-tag" style="color:#000096">&lt;pc:LineDrawingRegion</strong> <span class="hl-attribute" style="color: #ff7935">bgColour</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">comments</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">continuation</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">custom</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">embText</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">id</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">orientation</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">penColour</span>=<span class="hl-value" style="color: #993300">""</span><strong class="hl-tag" style="color:#000096">&gt;</strong>{1,1}<strong class="hl-tag" style="color:#000096">&lt;/pc:LineDrawingRegion&gt;</strong>
+  <strong class="hl-tag" style="color:#000096">&lt;pc:GraphicRegion</strong> <span class="hl-attribute" style="color: #ff7935">comments</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">continuation</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">custom</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">embText</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">id</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">numColours</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">orientation</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">type</span>=<span class="hl-value" style="color: #993300">""</span><strong class="hl-tag" style="color:#000096">&gt;</strong>{1,1}<strong class="hl-tag" style="color:#000096">&lt;/pc:GraphicRegion&gt;</strong>
+  <strong class="hl-tag" style="color:#000096">&lt;pc:TableRegion</strong> <span class="hl-attribute" style="color: #ff7935">bgColour</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">columns</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">comments</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">continuation</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">custom</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">embText</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">id</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">lineColour</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">lineSeparators</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">orientation</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">rows</span>=<span class="hl-value" style="color: #993300">""</span><strong class="hl-tag" style="color:#000096">&gt;</strong>{1,1}<strong class="hl-tag" style="color:#000096">&lt;/pc:TableRegion&gt;</strong>
+  <strong class="hl-tag" style="color:#000096">&lt;pc:ChartRegion</strong> <span class="hl-attribute" style="color: #ff7935">bgColour</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">comments</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">continuation</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">custom</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">embText</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">id</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">numColours</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">orientation</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">type</span>=<span class="hl-value" style="color: #993300">""</span><strong class="hl-tag" style="color:#000096">&gt;</strong>{1,1}<strong class="hl-tag" style="color:#000096">&lt;/pc:ChartRegion&gt;</strong>
+  <strong class="hl-tag" style="color:#000096">&lt;pc:SeparatorRegion</strong> <span class="hl-attribute" style="color: #ff7935">colour</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">comments</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">continuation</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">custom</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">id</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">orientation</span>=<span class="hl-value" style="color: #993300">""</span><strong class="hl-tag" style="color:#000096">&gt;</strong>{1,1}<strong class="hl-tag" style="color:#000096">&lt;/pc:SeparatorRegion&gt;</strong>
+  <strong class="hl-tag" style="color:#000096">&lt;pc:MathsRegion</strong> <span class="hl-attribute" style="color: #ff7935">bgColour</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">comments</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">continuation</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">custom</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">id</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">orientation</span>=<span class="hl-value" style="color: #993300">""</span><strong class="hl-tag" style="color:#000096">&gt;</strong>{1,1}<strong class="hl-tag" style="color:#000096">&lt;/pc:MathsRegion&gt;</strong>
+  <strong class="hl-tag" style="color:#000096">&lt;pc:ChemRegion</strong> <span class="hl-attribute" style="color: #ff7935">bgColour</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">comments</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">continuation</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">custom</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">id</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">orientation</span>=<span class="hl-value" style="color: #993300">""</span><strong class="hl-tag" style="color:#000096">&gt;</strong>{1,1}<strong class="hl-tag" style="color:#000096">&lt;/pc:ChemRegion&gt;</strong>
+  <strong class="hl-tag" style="color:#000096">&lt;pc:MusicRegion</strong> <span class="hl-attribute" style="color: #ff7935">bgColour</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">comments</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">continuation</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">custom</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">id</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">orientation</span>=<span class="hl-value" style="color: #993300">""</span><strong class="hl-tag" style="color:#000096">&gt;</strong>{1,1}<strong class="hl-tag" style="color:#000096">&lt;/pc:MusicRegion&gt;</strong>
+  <strong class="hl-tag" style="color:#000096">&lt;pc:AdvertRegion</strong> <span class="hl-attribute" style="color: #ff7935">bgColour</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">comments</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">continuation</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">custom</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">id</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">orientation</span>=<span class="hl-value" style="color: #993300">""</span><strong class="hl-tag" style="color:#000096">&gt;</strong>{1,1}<strong class="hl-tag" style="color:#000096">&lt;/pc:AdvertRegion&gt;</strong>
+  <strong class="hl-tag" style="color:#000096">&lt;pc:NoiseRegion</strong> <span class="hl-attribute" style="color: #ff7935">comments</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">continuation</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">custom</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">id</span>=<span class="hl-value" style="color: #993300">""</span><strong class="hl-tag" style="color:#000096">&gt;</strong>{1,1}<strong class="hl-tag" style="color:#000096">&lt;/pc:NoiseRegion&gt;</strong>
+  <strong class="hl-tag" style="color:#000096">&lt;pc:UnknownRegion</strong> <span class="hl-attribute" style="color: #ff7935">comments</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">continuation</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">custom</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">id</span>=<span class="hl-value" style="color: #993300">""</span><strong class="hl-tag" style="color:#000096">&gt;</strong>{1,1}<strong class="hl-tag" style="color:#000096">&lt;/pc:UnknownRegion&gt;</strong>
+<strong class="hl-tag" style="color:#000096">&lt;/pc:Page&gt;</strong></pre>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td class="entry align-left colsep-1 rowsep-1">Attributes</td>
+                     <td class="entry align-left colsep-1 rowsep-1">
+                        <div class="p">
+                           <table class="table frame-all"><caption></caption><colgroup><col style="width:42.857142857142854%" /><col style="width:42.857142857142854%" /><col style="width:14.285714285714285%" /></colgroup><thead class="thead">
+                                    <tr>
+                                       <th class="entry align-left colsep-1 rowsep-1" id="PcGtsType_Page__entry__19">QName</th>
+                                       <th class="entry align-left colsep-1 rowsep-1" id="PcGtsType_Page__entry__20">Type</th>
+                                       <th class="entry align-left colsep-1 rowsep-1" id="PcGtsType_Page__entry__21">Use</th>
+                                    </tr>
+                                 </thead><tbody class="tbody">
+                                    <tr>
+                                       <td class="entry align-left colsep-1 rowsep-1" headers="PcGtsType_Page__entry__19 ">
+                                          <a class="xref" href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_custom">Attribute pc:PageType / @custom</a>
+                                       </td>
+                                       <td class="entry align-left colsep-1 rowsep-1" headers="PcGtsType_Page__entry__20 ">string</td>
+                                       <td class="entry align-left colsep-1 rowsep-1" headers="PcGtsType_Page__entry__21 ">optional</td>
+                                    </tr>
+                                    <tr>
+                                       <td class="entry align-left colsep-1 rowsep-1" headers="PcGtsType_Page__entry__19 PcGtsType_Page__entry__20 PcGtsType_Page__entry__21 " colspan="3">
+                                          <pre class="pre codeblock language-xml">For generic use</pre>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td class="entry align-left colsep-1 rowsep-1" headers="PcGtsType_Page__entry__19 ">
+                                          <a class="xref" href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_imageFilename">Attribute pc:PageType / @imageFilename</a>
+                                       </td>
+                                       <td class="entry align-left colsep-1 rowsep-1" headers="PcGtsType_Page__entry__20 ">string</td>
+                                       <td class="entry align-left colsep-1 rowsep-1" headers="PcGtsType_Page__entry__21 ">required</td>
+                                    </tr>
+                                    <tr>
+                                       <td class="entry align-left colsep-1 rowsep-1" headers="PcGtsType_Page__entry__19 ">
+                                          <a class="xref" href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_imageHeight">Attribute pc:PageType / @imageHeight</a>
+                                       </td>
+                                       <td class="entry align-left colsep-1 rowsep-1" headers="PcGtsType_Page__entry__20 ">int</td>
+                                       <td class="entry align-left colsep-1 rowsep-1" headers="PcGtsType_Page__entry__21 ">required</td>
+                                    </tr>
+                                    <tr>
+                                       <td class="entry align-left colsep-1 rowsep-1" headers="PcGtsType_Page__entry__19 ">
+                                          <a class="xref" href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_imageWidth">Attribute pc:PageType / @imageWidth</a>
+                                       </td>
+                                       <td class="entry align-left colsep-1 rowsep-1" headers="PcGtsType_Page__entry__20 ">int</td>
+                                       <td class="entry align-left colsep-1 rowsep-1" headers="PcGtsType_Page__entry__21 ">required</td>
+                                    </tr>
+                                    <tr>
+                                       <td class="entry align-left colsep-1 rowsep-1" headers="PcGtsType_Page__entry__19 ">
+                                          <a class="xref" href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_primaryLanguage">Attribute pc:PageType / @primaryLanguage</a>
+                                       </td>
+                                       <td class="entry align-left colsep-1 rowsep-1" headers="PcGtsType_Page__entry__20 ">
+                                          <a class="xref" href="pagecontent_xsd_Simple_Type_pc_LanguageSimpleType.html#LanguageSimpleType">Simple Type pc:LanguageSimpleType</a>
+                                       </td>
+                                       <td class="entry align-left colsep-1 rowsep-1" headers="PcGtsType_Page__entry__21 ">optional</td>
+                                    </tr>
+                                    <tr>
+                                       <td class="entry align-left colsep-1 rowsep-1" headers="PcGtsType_Page__entry__19 PcGtsType_Page__entry__20 PcGtsType_Page__entry__21 " colspan="3">
+                                          <pre class="pre codeblock language-xml">The primary language used in the page (lower-level definitions override the page-level definition)</pre>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td class="entry align-left colsep-1 rowsep-1" headers="PcGtsType_Page__entry__19 ">
+                                          <a class="xref" href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_primaryScript">Attribute pc:PageType / @primaryScript</a>
+                                       </td>
+                                       <td class="entry align-left colsep-1 rowsep-1" headers="PcGtsType_Page__entry__20 ">
+                                          <a class="xref" href="pagecontent_xsd_Simple_Type_pc_ScriptSimpleType.html#ScriptSimpleType">Simple Type pc:ScriptSimpleType</a>
+                                       </td>
+                                       <td class="entry align-left colsep-1 rowsep-1" headers="PcGtsType_Page__entry__21 ">optional</td>
+                                    </tr>
+                                    <tr>
+                                       <td class="entry align-left colsep-1 rowsep-1" headers="PcGtsType_Page__entry__19 PcGtsType_Page__entry__20 PcGtsType_Page__entry__21 " colspan="3">
+                                          <pre class="pre codeblock language-xml">The primary script used in the page (lower-level definitions override the page-level definition)</pre>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td class="entry align-left colsep-1 rowsep-1" headers="PcGtsType_Page__entry__19 ">
+                                          <a class="xref" href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_readingDirection">Attribute pc:PageType / @readingDirection</a>
+                                       </td>
+                                       <td class="entry align-left colsep-1 rowsep-1" headers="PcGtsType_Page__entry__20 ">
+                                          <a class="xref" href="pagecontent_xsd_Simple_Type_pc_ReadingDirectionSimpleType.html#ReadingDirectionSimpleType">Simple Type pc:ReadingDirectionSimpleType</a>
+                                       </td>
+                                       <td class="entry align-left colsep-1 rowsep-1" headers="PcGtsType_Page__entry__21 ">optional</td>
+                                    </tr>
+                                    <tr>
+                                       <td class="entry align-left colsep-1 rowsep-1" headers="PcGtsType_Page__entry__19 PcGtsType_Page__entry__20 PcGtsType_Page__entry__21 " colspan="3">
+                                          <pre class="pre codeblock language-xml">The direction in which text in a region should be
+read (within lines) (lower-level definitions override the page-level definition)</pre>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td class="entry align-left colsep-1 rowsep-1" headers="PcGtsType_Page__entry__19 ">
+                                          <a class="xref" href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_secondaryLanguage">Attribute pc:PageType / @secondaryLanguage</a>
+                                       </td>
+                                       <td class="entry align-left colsep-1 rowsep-1" headers="PcGtsType_Page__entry__20 ">
+                                          <a class="xref" href="pagecontent_xsd_Simple_Type_pc_LanguageSimpleType.html#LanguageSimpleType">Simple Type pc:LanguageSimpleType</a>
+                                       </td>
+                                       <td class="entry align-left colsep-1 rowsep-1" headers="PcGtsType_Page__entry__21 ">optional</td>
+                                    </tr>
+                                    <tr>
+                                       <td class="entry align-left colsep-1 rowsep-1" headers="PcGtsType_Page__entry__19 PcGtsType_Page__entry__20 PcGtsType_Page__entry__21 " colspan="3">
+                                          <pre class="pre codeblock language-xml">The secondary language used in the page (lower-level definitions override the page-level definition)</pre>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td class="entry align-left colsep-1 rowsep-1" headers="PcGtsType_Page__entry__19 ">
+                                          <a class="xref" href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_secondaryScript">Attribute pc:PageType / @secondaryScript</a>
+                                       </td>
+                                       <td class="entry align-left colsep-1 rowsep-1" headers="PcGtsType_Page__entry__20 ">
+                                          <a class="xref" href="pagecontent_xsd_Simple_Type_pc_ScriptSimpleType.html#ScriptSimpleType">Simple Type pc:ScriptSimpleType</a>
+                                       </td>
+                                       <td class="entry align-left colsep-1 rowsep-1" headers="PcGtsType_Page__entry__21 ">optional</td>
+                                    </tr>
+                                    <tr>
+                                       <td class="entry align-left colsep-1 rowsep-1" headers="PcGtsType_Page__entry__19 PcGtsType_Page__entry__20 PcGtsType_Page__entry__21 " colspan="3">
+                                          <pre class="pre codeblock language-xml">The secondary script used in the page (lower-level definitions override the page-level definition)</pre>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td class="entry align-left colsep-1 rowsep-1" headers="PcGtsType_Page__entry__19 ">
+                                          <a class="xref" href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_textLineOrder">Attribute pc:PageType / @textLineOrder</a>
+                                       </td>
+                                       <td class="entry align-left colsep-1 rowsep-1" headers="PcGtsType_Page__entry__20 ">
+                                          <a class="xref" href="pagecontent_xsd_Simple_Type_pc_TextLineOrderSimpleType.html#TextLineOrderSimpleType">Simple Type pc:TextLineOrderSimpleType</a>
+                                       </td>
+                                       <td class="entry align-left colsep-1 rowsep-1" headers="PcGtsType_Page__entry__21 ">optional</td>
+                                    </tr>
+                                    <tr>
+                                       <td class="entry align-left colsep-1 rowsep-1" headers="PcGtsType_Page__entry__19 PcGtsType_Page__entry__20 PcGtsType_Page__entry__21 " colspan="3">
+                                          <pre class="pre codeblock language-xml">Inner-block order of text lines (in addition to “readingDirection” which is the inner-text line order of words and characters) (lower-level definitions override the page-level definition)</pre>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td class="entry align-left colsep-1 rowsep-1" headers="PcGtsType_Page__entry__19 ">
+                                          <a class="xref" href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_type">Attribute pc:PageType / @type</a>
+                                       </td>
+                                       <td class="entry align-left colsep-1 rowsep-1" headers="PcGtsType_Page__entry__20 ">
+                                          <a class="xref" href="pagecontent_xsd_Simple_Type_pc_PageTypeSimpleType.html#PageTypeSimpleType">Simple Type pc:PageTypeSimpleType</a>
+                                       </td>
+                                       <td class="entry align-left colsep-1 rowsep-1" headers="PcGtsType_Page__entry__21 ">optional</td>
+                                    </tr>
+                                    <tr>
+                                       <td class="entry align-left colsep-1 rowsep-1" headers="PcGtsType_Page__entry__19 PcGtsType_Page__entry__20 PcGtsType_Page__entry__21 " colspan="3">
+                                          <pre class="pre codeblock language-xml">Page type</pre>
+                                       </td>
+                                    </tr>
+                                 </tbody></table>
+                        </div>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td class="entry align-left colsep-1 rowsep-1">Schema location</td>
+                     <td class="entry align-left colsep-1 rowsep-1">http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</td>
+                  </tr>
+               </tbody></table>
+      </div>
+   </article>
+</article></main></div>
+                        
+                        
+                        
+                    </div>
+                    
+                        <nav role="navigation" id="wh_topic_toc" class="col-lg-2 hidden-md hidden-sm hidden-xs navbar hidden-print"> 
+                            <div class=" wh_topic_toc "><div class="wh_topic_label">Auf dieser Seite</div><ul><li class="topic-item"><a href="#PcGtsType_pcGtsId" data-tocid="PcGtsType_pcGtsId">Attribute pc:PcGtsType / @pcGtsId</a></li><li class="topic-item"><a href="#PcGtsType_Metadata" data-tocid="PcGtsType_Metadata">Element pc:PcGtsType / pc:Metadata</a></li><li class="topic-item"><a href="#PcGtsType_Page" data-tocid="PcGtsType_Page">Element pc:PcGtsType / pc:Page</a></li></ul></div>
+                        </nav>
+                    
+                </div>
+            </div>
+        </div> 
+        <footer class="navbar navbar-default wh_footer">
+  <div class=" footer-container text-center ">
+    
+            Generated by <a class="oxyFooter" href="http://www.oxygenxml.com/xml_webhelp.html" target="_blank">
+            &lt;oXygen/&gt; XML WebHelp
+            </a>
+        
+  </div>
+</footer>
+        
+        <div id="go2top">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+        </div>
+        
+        <!-- The modal container for images -->
+        <div id="modal_img_large" class="modal">
+            <span class="close glyphicon glyphicon-remove"></span>
+            <!-- Modal Content (The Image) -->
+            <img class="modal-content" id="modal-img" />
+            <!-- Modal Caption (Image Text) -->
+            <div id="caption"></div>
+        </div>
+        
+        <script src="../webhelp-responsive/oxygen-webhelp/lib/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+        
+    </body>
+</html>

@@ -1,0 +1,520 @@
+
+<!DOCTYPE html
+  PUBLIC "" "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:whc="http://www.oxygenxml.com/webhelp/components" xml:lang="de-de" lang="de-de">
+    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="description" content="Namespace http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15 Diagram Used by Element Element pc:PcGtsType / pc:Metadata Model Element pc:MetadataType / pc:Creator , Element ..." /><meta charset="UTF-8" /><meta name="copyright" content="(C) Copyright 2018" /><meta name="DC.rights.owner" content="(C) Copyright 2018" /><meta name="DC.Type" content="topic" /><meta name="DC.Format" content="XHTML" /><meta name="DC.Identifier" content="MetadataType" /><title>Complex Type pc:MetadataType</title><!--  Generated with Oxygen version 20.1-SNAPSHOT, build number 2018101515.  --><meta name="wh-path2root" content="../webhelp-responsive/" /><link rel="stylesheet" type="text/css" href="../webhelp-responsive/oxygen-webhelp/lib/bootstrap/css/bootstrap.min.css" /><link rel="stylesheet" href="../webhelp-responsive/oxygen-webhelp/lib/bootstrap/css/bootstrap-theme.min.css" /><link rel="stylesheet" href="../webhelp-responsive/oxygen-webhelp/lib/jquery-ui/jquery-ui.min.css" /><link rel="stylesheet" type="text/css" href="../webhelp-responsive/oxygen-webhelp/app/topic-page.css?buildId=2018101515" /><script type="text/javascript" src="../webhelp-responsive/oxygen-webhelp/lib/jquery/jquery-3.1.1.min.js"><!----></script><script data-main="../webhelp-responsive/oxygen-webhelp/app/topic-page.js" src="../webhelp-responsive/oxygen-webhelp/lib/requirejs/require.js"></script><link rel="stylesheet" type="text/css" href="../webhelp-responsive/oxygen-webhelp/template/skin.css?buildId=2018101515" /></head>
+
+    <body id="MetadataType" class="wh_topic_page frmBody">
+        <a href="#wh_topic_body" class="sr-only sr-only-focusable">Springe zum Hauptinhalt</a>
+        <!-- EXM-36950 - Expand the args.hdr parameter here -->
+        
+        
+        
+        <header class="navbar navbar-default wh_header">
+    <div class="container-fluid">
+        <div class="wh_header_flex_container">
+            <div class="wh_logo_and_publication_title_container">
+                <div class="wh_logo_and_publication_title">
+                    
+                    <!--
+                            This component will be generated when the next parameters are specified in the transformation scenario:
+                            'webhelp.logo.image' and 'webhelp.logo.image.target.url'.
+                            See: http://oxygenxml.com/doc/versions/17.1/ug-editor/#topics/dita_webhelp_output.html.
+                    -->
+                    <a href="../webhelp-responsive/index.html" class=" wh_logo hidden-xs "><img src="../webhelp-responsive/oxygen-webhelp\template\img/Header1-Text-gold_beta.png" alt="  Richtlinien zur Transkription für Ground Truth   " /></a>
+                    <div class=" wh_publication_title "><a href="../webhelp-responsive/index.html"><span class="booktitle">  <span class="ph mainbooktitle">Richtlinien zur Transkription für Ground Truth </span>  </span></a></div>
+                    
+                </div>
+                
+                <!-- The menu button for mobile devices is copied in the output only when the 'webhelp.show.top.menu' parameter is set to 'yes' -->
+                <button type="button" data-target="#wh_top_menu_and_indexterms_link" id="wh_menu_mobile_button" data-toggle="collapse" class="navbar-toggle collapsed wh_toggle_button" aria-expanded="false" aria-label="Menü umschalten">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <div class="wh_top_menu_and_indexterms_link collapse navbar-collapse" id="wh_top_menu_and_indexterms_link">
+                
+                <nav class=" wh_top_menu "><ul>
+   <li><span data-tocid="trDokuKonv-d66e52" data-state="leaf" class=" topicref " data-id="trDokuKonv"><span class="title"><a href="../webhelp-responsive/trDokuKonventionen.html">Konventionen für diese Richtlinien</a></span></span></li>
+   <li class="has-children"><span data-tocid="transkription-d66e97" data-state="not-ready" class=" topicref " data-id="transkription"><span class="title"><a href="../webhelp-responsive/transkription.html">Transkription</a></span></span></li>
+   <li class="has-children"><span data-tocid="layout-d66e2453" data-state="not-ready" class=" topicref " data-id="layout"><span class="title"><a href="../webhelp-responsive/layout.html">Layout und Struktur</a></span></span></li>
+   <li class="has-children"><span data-tocid="structur_gt-d66e3897" data-state="not-ready" class=" topicref " data-id="structur_gt"><span class="title"><a href="../webhelp-responsive/structur_gt.html">Dokumentation zum OCR-D Struktur-Ground-Truth</a></span></span></li>
+   <li class="has-children"><span data-tocid="page_xml_erweiterungen-d66e4074" data-state="not-ready" class=" topicref " data-id="page_xml_erweiterungen"><span class="title"><a href="../webhelp-responsive/page_xml_erweiterungen.html">Page XML Erweiterungen</a></span></span></li>
+   <li><span data-tocid="kontakt-d66e4157" data-state="leaf" class=" topicref " data-id="kontakt"><span class="title"><a href="../webhelp-responsive/impressum.html">Impressum</a></span></span></li>
+</ul></nav>
+                
+                
+            </div>
+        </div>
+    </div>
+</header>
+        
+        <div class=" wh_search_input "><form id="searchForm" method="get" role="search" action="../webhelp-responsive/search.html"><div><input type="search" placeholder="Suche " class="wh_search_textfield" id="textToSearch" name="searchQuery" aria-label="Suchabfrage" /><button type="submit" class="wh_search_button" aria-label="Suche"><span>Suche</span></button></div><script><!--
+                                    $(document).ready(function () {
+                                        $('#searchForm').submit(function (e) {
+                                            if ($('.wh_search_textfield').val().length < 1) {
+                                                e.preventDefault();
+                                            }
+                                        });
+                                    });
+                                --></script></form></div>
+        
+        <div class="container-fluid">
+            <div class="row">
+
+                <nav class="wh_tools hidden-print">
+                    <div data-tooltip-position="bottom" class=" wh_breadcrumb "></div>
+
+                    <div class="wh_right_tools hidden-sm hidden-xs">
+                        <div class=" wh_navigation_links "><span id="topic_navigation_links" class="navheader"></span></div>
+                        <button class="wh_hide_highlight" aria-label="Hervorhebungen der Suche umschalten" title="Hervorhebungen der Suche umschalten"></button>
+                        <button class="webhelp_expand_collapse_sections" data-next-state="collapsed" aria-label="Sections einklappen" title="Sections einklappen"></button>
+                        <div class=" wh_print_link print "><button onClick="window.print()" title="Diese Seite drucken" aria-label="Diese Seite drucken"></button></div>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="wh_content_area">
+                <div class="row">
+                    
+                    
+                    <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12" id="wh_topic_body">
+                        <div class=" wh_topic_content body "><main role="main"><article role="article" aria-labelledby="ariaid-title1">
+   <h1 class="title topictitle1" id="ariaid-title1">Complex Type pc:MetadataType</h1>
+   <div class="body">
+      <table class="table frame-all"><caption></caption><colgroup><col style="width:10.714285714285714%" /><col style="width:89.28571428571429%" /></colgroup><tbody class="tbody">
+               <tr>
+                  <td class="entry align-left colsep-1 rowsep-1">Namespace</td>
+                  <td class="entry align-left colsep-1 rowsep-1">http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15</td>
+               </tr>
+               <tr>
+                  <td class="entry align-left colsep-1 rowsep-1">Diagram</td>
+                  <td class="entry align-left colsep-1 rowsep-1">
+                     <div class="p">
+                            
+                                    
+                                    <div class="fig imagemap" id="MetadataType__pagecontent_xsd_Complex_Type_pc_MetadataType"><img usemap="#d281855e43" border="0" class="image" src="img/pagecontent_xsd_Complex_Type_pc_MetadataType.jpeg" /><map name="d281855e43" id="d281855e43"><area href="#MetadataType_externalRef" alt="Attribute pc:MetadataType / @externalRef" title="Attribute pc:MetadataType / @externalRef" shape="rect" coords="165,39,271,83" /><area href="#MetadataType_Creator" alt="Element pc:MetadataType / pc:Creator" title="Element pc:MetadataType / pc:Creator" shape="rect" coords="222,131,312,175" /><area href="#MetadataType_Created" alt="Element pc:MetadataType / pc:Created" title="Element pc:MetadataType / pc:Created" shape="rect" coords="222,185,328,229" /><area href="#MetadataType_LastChange" alt="Element pc:MetadataType / pc:LastChange" title="Element pc:MetadataType / pc:LastChange" shape="rect" coords="222,284,328,328" /><area href="#MetadataType_Comments" alt="Element pc:MetadataType / pc:Comments" title="Element pc:MetadataType / pc:Comments" shape="rect" coords="222,383,312,427" /><area href="#MetadataType_UserDefined" alt="Element pc:MetadataType / pc:UserDefined" title="Element pc:MetadataType / pc:UserDefined" shape="rect" coords="222,437,384,481" /></map></div>
+                        </div>
+                  </td>
+               </tr>
+               <tr>
+                  <td class="entry align-left colsep-1 rowsep-1">Used by</td>
+                  <td class="entry align-left colsep-1 rowsep-1">
+                     <div class="p">
+                        <table class="table frame-all"><caption></caption><colgroup><col style="width:20%" /><col style="width:80%" /></colgroup><tbody class="tbody">
+                                 <tr>
+                                    <td class="entry align-left colsep-1 rowsep-1">Element </td>
+                                    <td class="entry align-left colsep-1 rowsep-1">
+                                       <a class="xref" href="pagecontent_xsd_Complex_Type_pc_PcGtsType.html#PcGtsType_Metadata">Element pc:PcGtsType / pc:Metadata</a>
+                                    </td>
+                                 </tr>
+                              </tbody></table>
+                     </div>
+                  </td>
+               </tr>
+               <tr>
+                  <td class="entry align-left colsep-1 rowsep-1">Model</td>
+                  <td class="entry align-left colsep-1 rowsep-1">
+                     <a class="xref" href="#MetadataType_Creator">Element pc:MetadataType / pc:Creator</a> , <a class="xref" href="#MetadataType_Created">Element pc:MetadataType / pc:Created</a> , <a class="xref" href="#MetadataType_LastChange">Element pc:MetadataType / pc:LastChange</a> , <a class="xref" href="#MetadataType_Comments">Element pc:MetadataType / pc:Comments</a> , <a class="xref" href="#MetadataType_UserDefined">Element pc:MetadataType / pc:UserDefined</a>
+                  </td>
+               </tr>
+               <tr>
+                  <td class="entry align-left colsep-1 rowsep-1">Children</td>
+                  <td class="entry align-left colsep-1 rowsep-1">
+                     <a class="xref" href="#MetadataType_Comments">Element pc:MetadataType / pc:Comments</a>, <a class="xref" href="#MetadataType_Created">Element pc:MetadataType / pc:Created</a>, <a class="xref" href="#MetadataType_Creator">Element pc:MetadataType / pc:Creator</a>, <a class="xref" href="#MetadataType_LastChange">Element pc:MetadataType / pc:LastChange</a>, <a class="xref" href="#MetadataType_UserDefined">Element pc:MetadataType / pc:UserDefined</a>
+                  </td>
+               </tr>
+               <tr>
+                  <td class="entry align-left colsep-1 rowsep-1">Attributes</td>
+                  <td class="entry align-left colsep-1 rowsep-1">
+                     <div class="p">
+                        <table class="table frame-all"><caption></caption><colgroup><col style="width:42.857142857142854%" /><col style="width:42.857142857142854%" /><col style="width:14.285714285714285%" /></colgroup><thead class="thead">
+                                 <tr>
+                                    <th class="entry align-left colsep-1 rowsep-1" id="MetadataType__entry__15">QName</th>
+                                    <th class="entry align-left colsep-1 rowsep-1" id="MetadataType__entry__16">Type</th>
+                                    <th class="entry align-left colsep-1 rowsep-1" id="MetadataType__entry__17">Use</th>
+                                 </tr>
+                              </thead><tbody class="tbody">
+                                 <tr>
+                                    <td class="entry align-left colsep-1 rowsep-1" headers="MetadataType__entry__15 ">
+                                       <a class="xref" href="#MetadataType_externalRef">Attribute pc:MetadataType / @externalRef</a>
+                                    </td>
+                                    <td class="entry align-left colsep-1 rowsep-1" headers="MetadataType__entry__16 ">string</td>
+                                    <td class="entry align-left colsep-1 rowsep-1" headers="MetadataType__entry__17 ">optional</td>
+                                 </tr>
+                                 <tr>
+                                    <td class="entry align-left colsep-1 rowsep-1" headers="MetadataType__entry__15 MetadataType__entry__16 MetadataType__entry__17 " colspan="3">
+                                       <pre class="pre codeblock language-xml">External reference of any kind</pre>
+                                    </td>
+                                 </tr>
+                              </tbody></table>
+                     </div>
+                  </td>
+               </tr>
+               <tr>
+                  <td class="entry align-left colsep-1 rowsep-1">Schema location</td>
+                  <td class="entry align-left colsep-1 rowsep-1">http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</td>
+               </tr>
+            </tbody></table>
+   </div>
+   <article class="topic nested1" aria-labelledby="ariaid-title2" id="MetadataType_externalRef">
+      <h2 class="title topictitle2" id="ariaid-title2">Attribute pc:MetadataType / @externalRef</h2>
+      <div class="body">
+         <table class="table frame-all"><caption></caption><colgroup><col style="width:10.714285714285714%" /><col style="width:89.28571428571429%" /></colgroup><tbody class="tbody">
+                  <tr>
+                     <td class="entry align-left colsep-1 rowsep-1">Namespace</td>
+                     <td class="entry align-left colsep-1 rowsep-1">No namespace</td>
+                  </tr>
+                  <tr>
+                     <td class="entry align-left colsep-1 rowsep-1">Annotations</td>
+                     <td class="entry align-left colsep-1 rowsep-1">
+                        <pre class="pre codeblock language-xml">External reference of any kind</pre>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td class="entry align-left colsep-1 rowsep-1">Type</td>
+                     <td class="entry align-left colsep-1 rowsep-1">string</td>
+                  </tr>
+                  <tr>
+                     <td class="entry align-left colsep-1 rowsep-1">Properties</td>
+                     <td class="entry align-left colsep-1 rowsep-1">
+                        <div class="p">
+                           <table class="table frame-all"><caption></caption><colgroup><col style="width:20%" /><col style="width:80%" /></colgroup><tbody class="tbody">
+                                    <tr>
+                                       <td class="entry align-left colsep-1 rowsep-1">use: </td>
+                                       <td class="entry align-left colsep-1 rowsep-1">
+                                          <strong class="ph b">optional</strong>
+                                       </td>
+                                    </tr>
+                                 </tbody></table>
+                        </div>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td class="entry align-left colsep-1 rowsep-1">Used by</td>
+                     <td class="entry align-left colsep-1 rowsep-1">
+                        <div class="p">
+                           <table class="table frame-all"><caption></caption><colgroup><col style="width:20%" /><col style="width:80%" /></colgroup><tbody class="tbody">
+                                    <tr>
+                                       <td class="entry align-left colsep-1 rowsep-1">Complex Type </td>
+                                       <td class="entry align-left colsep-1 rowsep-1">
+                                          <a class="xref" href="#MetadataType">Complex Type pc:MetadataType</a>
+                                       </td>
+                                    </tr>
+                                 </tbody></table>
+                        </div>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td class="entry align-left colsep-1 rowsep-1">Schema location</td>
+                     <td class="entry align-left colsep-1 rowsep-1">http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</td>
+                  </tr>
+               </tbody></table>
+      </div>
+   </article>
+   <article class="topic nested1" aria-labelledby="ariaid-title3" id="MetadataType_Creator">
+      <h2 class="title topictitle2" id="ariaid-title3">Element pc:MetadataType / pc:Creator</h2>
+      <div class="body">
+         <table class="table frame-all"><caption></caption><colgroup><col style="width:10.714285714285714%" /><col style="width:89.28571428571429%" /></colgroup><tbody class="tbody">
+                  <tr>
+                     <td class="entry align-left colsep-1 rowsep-1">Namespace</td>
+                     <td class="entry align-left colsep-1 rowsep-1">http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15</td>
+                  </tr>
+                  <tr>
+                     <td class="entry align-left colsep-1 rowsep-1">Diagram</td>
+                     <td class="entry align-left colsep-1 rowsep-1">
+                        <p class="p"></p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td class="entry align-left colsep-1 rowsep-1">Type</td>
+                     <td class="entry align-left colsep-1 rowsep-1">string</td>
+                  </tr>
+                  <tr>
+                     <td class="entry align-left colsep-1 rowsep-1">Properties</td>
+                     <td class="entry align-left colsep-1 rowsep-1">
+                        <div class="p">
+                           <table class="table frame-all"><caption></caption><colgroup><col style="width:20%" /><col style="width:80%" /></colgroup><tbody class="tbody">
+                                    <tr>
+                                       <td class="entry align-left colsep-1 rowsep-1">content: </td>
+                                       <td class="entry align-left colsep-1 rowsep-1">
+                                          <strong class="ph b">simple</strong>
+                                       </td>
+                                    </tr>
+                                 </tbody></table>
+                        </div>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td class="entry align-left colsep-1 rowsep-1">Schema location</td>
+                     <td class="entry align-left colsep-1 rowsep-1">http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</td>
+                  </tr>
+               </tbody></table>
+      </div>
+   </article>
+   <article class="topic nested1" aria-labelledby="ariaid-title4" id="MetadataType_Created">
+      <h2 class="title topictitle2" id="ariaid-title4">Element pc:MetadataType / pc:Created</h2>
+      <div class="body">
+         <table class="table frame-all"><caption></caption><colgroup><col style="width:10.714285714285714%" /><col style="width:89.28571428571429%" /></colgroup><tbody class="tbody">
+                  <tr>
+                     <td class="entry align-left colsep-1 rowsep-1">Namespace</td>
+                     <td class="entry align-left colsep-1 rowsep-1">http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15</td>
+                  </tr>
+                  <tr>
+                     <td class="entry align-left colsep-1 rowsep-1">Annotations</td>
+                     <td class="entry align-left colsep-1 rowsep-1">
+                        <pre class="pre codeblock language-xml">The timestamp has to be in UTC (Coordinated
+Universal Time) and not local time.</pre>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td class="entry align-left colsep-1 rowsep-1">Diagram</td>
+                     <td class="entry align-left colsep-1 rowsep-1">
+                        <p class="p"></p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td class="entry align-left colsep-1 rowsep-1">Type</td>
+                     <td class="entry align-left colsep-1 rowsep-1">dateTime</td>
+                  </tr>
+                  <tr>
+                     <td class="entry align-left colsep-1 rowsep-1">Properties</td>
+                     <td class="entry align-left colsep-1 rowsep-1">
+                        <div class="p">
+                           <table class="table frame-all"><caption></caption><colgroup><col style="width:20%" /><col style="width:80%" /></colgroup><tbody class="tbody">
+                                    <tr>
+                                       <td class="entry align-left colsep-1 rowsep-1">content: </td>
+                                       <td class="entry align-left colsep-1 rowsep-1">
+                                          <strong class="ph b">simple</strong>
+                                       </td>
+                                    </tr>
+                                 </tbody></table>
+                        </div>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td class="entry align-left colsep-1 rowsep-1">Schema location</td>
+                     <td class="entry align-left colsep-1 rowsep-1">http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</td>
+                  </tr>
+               </tbody></table>
+      </div>
+   </article>
+   <article class="topic nested1" aria-labelledby="ariaid-title5" id="MetadataType_LastChange">
+      <h2 class="title topictitle2" id="ariaid-title5">Element pc:MetadataType / pc:LastChange</h2>
+      <div class="body">
+         <table class="table frame-all"><caption></caption><colgroup><col style="width:10.714285714285714%" /><col style="width:89.28571428571429%" /></colgroup><tbody class="tbody">
+                  <tr>
+                     <td class="entry align-left colsep-1 rowsep-1">Namespace</td>
+                     <td class="entry align-left colsep-1 rowsep-1">http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15</td>
+                  </tr>
+                  <tr>
+                     <td class="entry align-left colsep-1 rowsep-1">Annotations</td>
+                     <td class="entry align-left colsep-1 rowsep-1">
+                        <pre class="pre codeblock language-xml">The timestamp has to be in UTC (Coordinated
+Universal Time) and not local time.</pre>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td class="entry align-left colsep-1 rowsep-1">Diagram</td>
+                     <td class="entry align-left colsep-1 rowsep-1">
+                        <p class="p"></p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td class="entry align-left colsep-1 rowsep-1">Type</td>
+                     <td class="entry align-left colsep-1 rowsep-1">dateTime</td>
+                  </tr>
+                  <tr>
+                     <td class="entry align-left colsep-1 rowsep-1">Properties</td>
+                     <td class="entry align-left colsep-1 rowsep-1">
+                        <div class="p">
+                           <table class="table frame-all"><caption></caption><colgroup><col style="width:20%" /><col style="width:80%" /></colgroup><tbody class="tbody">
+                                    <tr>
+                                       <td class="entry align-left colsep-1 rowsep-1">content: </td>
+                                       <td class="entry align-left colsep-1 rowsep-1">
+                                          <strong class="ph b">simple</strong>
+                                       </td>
+                                    </tr>
+                                 </tbody></table>
+                        </div>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td class="entry align-left colsep-1 rowsep-1">Schema location</td>
+                     <td class="entry align-left colsep-1 rowsep-1">http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</td>
+                  </tr>
+               </tbody></table>
+      </div>
+   </article>
+   <article class="topic nested1" aria-labelledby="ariaid-title6" id="MetadataType_Comments">
+      <h2 class="title topictitle2" id="ariaid-title6">Element pc:MetadataType / pc:Comments</h2>
+      <div class="body">
+         <table class="table frame-all"><caption></caption><colgroup><col style="width:10.714285714285714%" /><col style="width:89.28571428571429%" /></colgroup><tbody class="tbody">
+                  <tr>
+                     <td class="entry align-left colsep-1 rowsep-1">Namespace</td>
+                     <td class="entry align-left colsep-1 rowsep-1">http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15</td>
+                  </tr>
+                  <tr>
+                     <td class="entry align-left colsep-1 rowsep-1">Diagram</td>
+                     <td class="entry align-left colsep-1 rowsep-1">
+                        <p class="p"></p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td class="entry align-left colsep-1 rowsep-1">Type</td>
+                     <td class="entry align-left colsep-1 rowsep-1">string</td>
+                  </tr>
+                  <tr>
+                     <td class="entry align-left colsep-1 rowsep-1">Properties</td>
+                     <td class="entry align-left colsep-1 rowsep-1">
+                        <div class="p">
+                           <table class="table frame-all"><caption></caption><colgroup><col style="width:20%" /><col style="width:80%" /></colgroup><tbody class="tbody">
+                                    <tr>
+                                       <td class="entry align-left colsep-1 rowsep-1">content: </td>
+                                       <td class="entry align-left colsep-1 rowsep-1">
+                                          <strong class="ph b">simple</strong>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td class="entry align-left colsep-1 rowsep-1">minOccurs: </td>
+                                       <td class="entry align-left colsep-1 rowsep-1">
+                                          <strong class="ph b">0</strong>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td class="entry align-left colsep-1 rowsep-1">maxOccurs: </td>
+                                       <td class="entry align-left colsep-1 rowsep-1">
+                                          <strong class="ph b">1</strong>
+                                       </td>
+                                    </tr>
+                                 </tbody></table>
+                        </div>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td class="entry align-left colsep-1 rowsep-1">Schema location</td>
+                     <td class="entry align-left colsep-1 rowsep-1">http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</td>
+                  </tr>
+               </tbody></table>
+      </div>
+   </article>
+   <article class="topic nested1" aria-labelledby="ariaid-title7" id="MetadataType_UserDefined">
+      <h2 class="title topictitle2" id="ariaid-title7">Element pc:MetadataType / pc:UserDefined</h2>
+      <div class="body">
+         <table class="table frame-all"><caption></caption><colgroup><col style="width:10.714285714285714%" /><col style="width:89.28571428571429%" /></colgroup><tbody class="tbody">
+                  <tr>
+                     <td class="entry align-left colsep-1 rowsep-1">Namespace</td>
+                     <td class="entry align-left colsep-1 rowsep-1">http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15</td>
+                  </tr>
+                  <tr>
+                     <td class="entry align-left colsep-1 rowsep-1">Diagram</td>
+                     <td class="entry align-left colsep-1 rowsep-1">
+                        <div class="p">
+                            
+                                    
+                                    <div class="fig imagemap" id="MetadataType_UserDefined__pagecontent_xsd_Element_pc_UserDefined"><img usemap="#d281855e918" border="0" class="image" src="img/pagecontent_xsd_Element_pc_UserDefined.jpeg" /><map name="d281855e918" id="d281855e918"><area href="pagecontent_xsd_Complex_Type_pc_UserDefinedType.html#UserDefinedType_UserAttribute" alt="Element pc:UserDefinedType / pc:UserAttribute" title="Element pc:UserDefinedType / pc:UserAttribute" shape="rect" coords="295,40,461,84" /><area href="pagecontent_xsd_Complex_Type_pc_UserDefinedType.html#UserDefinedType" alt="Complex Type pc:UserDefinedType" title="Complex Type pc:UserDefinedType" shape="rect" coords="193,3,343,25" /></map></div>
+                        </div>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td class="entry align-left colsep-1 rowsep-1">Type</td>
+                     <td class="entry align-left colsep-1 rowsep-1">
+                        <a class="xref" href="pagecontent_xsd_Complex_Type_pc_UserDefinedType.html#UserDefinedType">Complex Type pc:UserDefinedType</a>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td class="entry align-left colsep-1 rowsep-1">Properties</td>
+                     <td class="entry align-left colsep-1 rowsep-1">
+                        <div class="p">
+                           <table class="table frame-all"><caption></caption><colgroup><col style="width:20%" /><col style="width:80%" /></colgroup><tbody class="tbody">
+                                    <tr>
+                                       <td class="entry align-left colsep-1 rowsep-1">content: </td>
+                                       <td class="entry align-left colsep-1 rowsep-1">
+                                          <strong class="ph b">complex</strong>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td class="entry align-left colsep-1 rowsep-1">minOccurs: </td>
+                                       <td class="entry align-left colsep-1 rowsep-1">
+                                          <strong class="ph b">0</strong>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td class="entry align-left colsep-1 rowsep-1">maxOccurs: </td>
+                                       <td class="entry align-left colsep-1 rowsep-1">
+                                          <strong class="ph b">1</strong>
+                                       </td>
+                                    </tr>
+                                 </tbody></table>
+                        </div>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td class="entry align-left colsep-1 rowsep-1">Model</td>
+                     <td class="entry align-left colsep-1 rowsep-1">
+                        <a class="xref" href="pagecontent_xsd_Complex_Type_pc_UserDefinedType.html#UserDefinedType_UserAttribute">Element pc:UserDefinedType / pc:UserAttribute</a>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td class="entry align-left colsep-1 rowsep-1">Children</td>
+                     <td class="entry align-left colsep-1 rowsep-1">
+                        <a class="xref" href="pagecontent_xsd_Complex_Type_pc_UserDefinedType.html#UserDefinedType_UserAttribute">Element pc:UserDefinedType / pc:UserAttribute</a>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td class="entry align-left colsep-1 rowsep-1">Instance</td>
+                     <td class="entry align-left colsep-1 rowsep-1">
+                        <pre class="pre codeblock language-xml"><strong class="hl-tag" style="color:#000096">&lt;pc:UserDefined</strong> <span class="hl-attribute" style="color: #ff7935">xmlns:pc</span>=<span class="hl-value" style="color: #993300">"http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
+  <strong class="hl-tag" style="color:#000096">&lt;pc:UserAttribute</strong> <span class="hl-attribute" style="color: #ff7935">description</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">name</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">type</span>=<span class="hl-value" style="color: #993300">""</span> <span class="hl-attribute" style="color: #ff7935">value</span>=<span class="hl-value" style="color: #993300">""</span><strong class="hl-tag" style="color:#000096">&gt;</strong>{1,unbounded}<strong class="hl-tag" style="color:#000096">&lt;/pc:UserAttribute&gt;</strong>
+<strong class="hl-tag" style="color:#000096">&lt;/pc:UserDefined&gt;</strong></pre>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td class="entry align-left colsep-1 rowsep-1">Schema location</td>
+                     <td class="entry align-left colsep-1 rowsep-1">http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</td>
+                  </tr>
+               </tbody></table>
+      </div>
+   </article>
+</article></main></div>
+                        
+                        
+                        
+                    </div>
+                    
+                        <nav role="navigation" id="wh_topic_toc" class="col-lg-2 hidden-md hidden-sm hidden-xs navbar hidden-print"> 
+                            <div class=" wh_topic_toc "><div class="wh_topic_label">Auf dieser Seite</div><ul><li class="topic-item"><a href="#MetadataType_externalRef" data-tocid="MetadataType_externalRef">Attribute pc:MetadataType / @externalRef</a></li><li class="topic-item"><a href="#MetadataType_Creator" data-tocid="MetadataType_Creator">Element pc:MetadataType / pc:Creator</a></li><li class="topic-item"><a href="#MetadataType_Created" data-tocid="MetadataType_Created">Element pc:MetadataType / pc:Created</a></li><li class="topic-item"><a href="#MetadataType_LastChange" data-tocid="MetadataType_LastChange">Element pc:MetadataType / pc:LastChange</a></li><li class="topic-item"><a href="#MetadataType_Comments" data-tocid="MetadataType_Comments">Element pc:MetadataType / pc:Comments</a></li><li class="topic-item"><a href="#MetadataType_UserDefined" data-tocid="MetadataType_UserDefined">Element pc:MetadataType / pc:UserDefined</a></li></ul></div>
+                        </nav>
+                    
+                </div>
+            </div>
+        </div> 
+        <footer class="navbar navbar-default wh_footer">
+  <div class=" footer-container text-center ">
+    
+            Generated by <a class="oxyFooter" href="http://www.oxygenxml.com/xml_webhelp.html" target="_blank">
+            &lt;oXygen/&gt; XML WebHelp
+            </a>
+        
+  </div>
+</footer>
+        
+        <div id="go2top">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+        </div>
+        
+        <!-- The modal container for images -->
+        <div id="modal_img_large" class="modal">
+            <span class="close glyphicon glyphicon-remove"></span>
+            <!-- Modal Content (The Image) -->
+            <img class="modal-content" id="modal-img" />
+            <!-- Modal Caption (Image Text) -->
+            <div id="caption"></div>
+        </div>
+        
+        <script src="../webhelp-responsive/oxygen-webhelp/lib/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+        
+    </body>
+</html>

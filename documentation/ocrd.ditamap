@@ -107,8 +107,10 @@
 <topicref href="lyAllgemein.dita"/>
 <topicref href="lySatzspiegel.dita"/>
 <topicref href="lyLeserichtung.dita"/>
-<topicref href="lyTypographie.dita"/>
-    <topicref href="lyBesonderheiten.dita"/>
+<topicref href="lyTypographie.dita">
+            <topicref href="lySchriftarten.dita"/>
+            <topicref href="lyBesonderheiten.dita"/>
+        </topicref>
     <topicref href="lySeitentypen.dita"/>
 <topicref href="lyTextregionen.dita">
 <topicref href="ly_level_1_5.dita"/>
@@ -144,17 +146,9 @@
 <part href="structur_gt.dita">
 <topicref href="structur_gt.ditamap" format="ditamap"/>
 </part>
-<part href="trPage.dita">
+    
+<!--<part href="trPage.dita">
 <topicref href="dok.ditamap" format="ditamap"/>
-</part>
-<!--<part href="appTranskribus.dita">
-<topicref href="appgrundkonzept.dita"/>
-<topicref href="appHaupt.dita">
-<topicref href="appomenue.dita"/>
-<topicref href="appbildbereich.dita">
-<topicref href="appbildmenue.dita"/>
-</topicref>
-</topicref>
 </part>-->
 <part href="page_xml_erweiterungen.dita">
 <topicref href="exif_pagexml_konkordanz.dita"/>

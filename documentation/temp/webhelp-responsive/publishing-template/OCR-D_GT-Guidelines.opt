@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<publishing-template>
+    <name>OCR-D_GT-Guidelines</name>
+    <description></description>
+    <webhelp>
+        <preview-image file="img/Header1-Text-gold_beta.png"/>
+        <parameters>
+            <parameter name="webhelp.show.main.page.tiles" value="yes"/>
+            <parameter name="webhelp.show.main.page.toc" value="no"/>
+            <parameter name="webhelp.top.menu.depth" value="3"/>
+            <parameter name="args.figurelink.style" value="TITLE"/>
+            <parameter name="args.tablelink.style" value="TITLE"/>
+            <parameter name="default.language" value="de"/>
+            <parameter name="force-unique" value="true"/>
+        </parameters>
+        <resources>
+            <!--<css file="light.css"/>-->
+            <css file="skin.css"/>
+            <logo file="img/Header1-Text-gold_beta.png"/>
+            <fileset><include name="img/background.png"/></fileset>
+        </resources>
+        
+        <tags>
+            <tag type="layout">tiles</tag>
+            <tag type="color">gray</tag>
+            <tag type="color">light</tag>
+        </tags>
+    </webhelp>
+</publishing-template>
