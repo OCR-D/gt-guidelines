@@ -1,9 +1,9 @@
 /*
  | This file is part of the DITA Open Toolkit project.
- | See the accompanying LICENSE file for applicable license.
+ | See the accompanying license.txt file for applicable licenses.
 */
 /*
- | (c) Copyright 2004, 2005 IBM Corporation
+ | (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved.
  */
 .unresolved {
   background-color: skyblue;
@@ -283,9 +283,6 @@ ul.simple {
 }
 .shortcut {
   text-decoration: underline;
-}
-.menucascade > abbr {
-    text-decoration: none;
 }
 /* Default of bold for definition list terms */
 .dlterm {

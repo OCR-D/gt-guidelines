@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?><?workdir /C:\Users\matthias\Documents\GitHub\Transkriptionsrichtlinie\documentation\temp\xhtml\documentation?><?workdir-uri file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/temp/xhtml/documentation/?><?path2project?><?path2project-uri ./?><?path2rootmap-uri ./?><?doctype-public -//OASIS//DTD DITA Topic//EN?><?doctype-system topic.dtd?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/topic " ditaarch:DITAArchVersion="1.3" domains="(topic abbrev-d)                            a(props deliveryTarget)                            (topic equation-d)                            (topic hazard-d)                            (topic hi-d)                            (topic indexing-d)                            (topic markup-d)                            (topic mathml-d)                            (topic pr-d)                            (topic relmgmt-d)                            (topic sw-d)                            (topic svg-d)                            (topic ui-d)                            (topic ut-d)                            (topic markup-d xml-d)   " id="structur_gtpageformat" xtrc="topic:1;3:35" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+    <title class="- topic/title " xtrc="title:1;4:12" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">Übersicht und Konkordanz</title>
+
+<shortdesc class="- topic/shortdesc " xtrc="shortdesc:1;6:12" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">Die Übersicht und Konkordanz stellt im Vergleich Kodierungen von Zonen und Regionen im
+DTA Zot-Format, DTABf (TEI) und dem PAGE-Format dar. Der Verweis auf die Element im DTABf bezieht
+sich nur auf grundlegende Elemente und nicht deren Kontext. Aus diesem Grund sei auf die
+Dokumentation des DTABf hingewiesen.</shortdesc><prolog class="- topic/prolog "><authorinformation class="+ topic/author xnal-d/authorinformation " xtrc="authorinformation:1;9:28" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/ocrd.ditamap">
+            <personinfo class="+ topic/data xnal-d/personinfo " xtrc="personinfo:1;10:25" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/ocrd.ditamap">
+                <namedetails class="+ topic/data xnal-d/namedetails " xtrc="namedetails:1;11:30" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/ocrd.ditamap">
+                    <personname class="+ topic/data xnal-d/personname " xtrc="personname:1;12:33" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/ocrd.ditamap">
+                        <firstname class="+ topic/data xnal-d/firstname " xtrc="firstname:1;13:36" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/ocrd.ditamap">Matthias</firstname>
+                        <lastname class="+ topic/data xnal-d/lastname " xtrc="lastname:1;14:35" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/ocrd.ditamap">Boenig</lastname>
+                    </personname>
+                </namedetails>
+            </personinfo>
+            <organizationinfo class="+ topic/data xnal-d/organizationinfo " xtrc="organizationinfo:1;18:31" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/ocrd.ditamap">
+                <namedetails class="+ topic/data xnal-d/namedetails " xtrc="namedetails:2;19:30" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/ocrd.ditamap">
+                    <organizationnamedetails class="+ topic/ph xnal-d/organizationnamedetails " xtrc="organizationnamedetails:1;20:46" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/ocrd.ditamap">
+                        <organizationname class="+ topic/ph xnal-d/organizationname " xtrc="organizationname:1;21:43" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/ocrd.ditamap">OCR-D, Zentrum Sprache, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</organizationname>
+                    </organizationnamedetails>
+                </namedetails>
+            </organizationinfo>
+        </authorinformation><critdates class="- topic/critdates " xtrc="critdates:1;26:20" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/ocrd.ditamap">
+            <created class="- topic/created " date="March, 2017" xtrc="created:1;27:42" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/ocrd.ditamap"/>
+        </critdates></prolog>
+    <body class="- topic/body " xtrc="body:1;10:11" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+        <table class="- topic/table " colsep="1" frame="all" id="table_wws_hhn_ldb" rowsep="1" xtrc="table:1;11:73" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+        <title class="- topic/title " xtrc="title:2;12:16" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">Übersicht und Konkordanz von Kodierungen</title>
+<tgroup class="- topic/tgroup " cols="7" xtrc="tgroup:1;13:18" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<colspec class="- topic/colspec " colname="col1" colnum="1" colwidth="1*" rowheader="headers" xtrc="colspec:1;14:49" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<colspec class="- topic/colspec " colname="col2" colnum="2" colwidth="1*" rowheader="headers" xtrc="colspec:2;15:54" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<colspec class="- topic/colspec " colname="col3" colnum="3" colwidth="1*" rowheader="headers" xtrc="colspec:3;16:49" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<colspec class="- topic/colspec " colname="col4" colnum="4" colwidth="1*" rowheader="headers" xtrc="colspec:4;17:49" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<colspec class="- topic/colspec " colname="col5" colnum="5" colwidth="1*" rowheader="headers" xtrc="colspec:5;18:54" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<colspec class="- topic/colspec " colname="col6" colnum="6" colwidth="1*" rowheader="headers" xtrc="colspec:6;19:49" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<colspec class="- topic/colspec " colname="col7" colnum="7" colwidth="1*" rowheader="headers" xtrc="colspec:7;20:49" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<thead class="- topic/thead " xtrc="thead:1;21:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<row class="- topic/row " xtrc="row:1;22:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<entry class="- topic/entry " colname="col1" dita-ot:morecols="1" dita-ot:x="1" dita-ot:y="1" morerows="1" nameend="col2" namest="col1" xtrc="entry:1;23:51" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">Deutsches Textarchiv Zot-Format</entry>
+<entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="1" morerows="1" xtrc="entry:2;24:21" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">DTABf</entry>
+<entry class="- topic/entry " colname="col4" dita-ot:morecols="3" dita-ot:x="4" dita-ot:y="1" nameend="col7" namest="col4" xtrc="entry:3;25:33" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">PAGE-Format</entry>
+</row>
+<row class="- topic/row " xtrc="row:2;27:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="2" xtrc="entry:4;28:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">Page <codeblock class="+ topic/pre pr-d/codeblock " xml:space="preserve" xtrc="codeblock:1;28:24" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">type="{Wert}"</codeblock></entry>
+<entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="2" xtrc="entry:5;29:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">spez. Region</entry>
+<entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="2" xtrc="entry:6;30:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">TextRegion <codeblock class="+ topic/pre pr-d/codeblock " xml:space="preserve" xtrc="codeblock:2;30:30" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">type="{Wert}"</codeblock></entry>
+<entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="2" xtrc="entry:7;31:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">TextRegion <codeblock class="+ topic/pre pr-d/codeblock " xml:space="preserve" xtrc="codeblock:3;31:30" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">custom="ocr-d-structure {type:Wert;}"</codeblock></entry>
+</row>
+</thead>
+<tbody class="- topic/tbody " xtrc="tbody:1;34:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<row class="- topic/row " xtrc="row:3;35:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="3" xtrc="entry:8;36:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">Text (Paragraph)</entry>
+<entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="3" xtrc="entry:9;37:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">10</entry>
+<entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="3" xtrc="entry:10;38:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<pre class="- topic/pre " xml:space="preserve" xtrc="pre:1;39:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">&lt;p&gt;&lt;/p&gt;</pre>
+</entry>
+<entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="3" xtrc="entry:11;41:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col5" dita-ot:x="5" dita-ot:y="3" xtrc="entry:12;42:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col6" dita-ot:x="6" dita-ot:y="3" xtrc="entry:13;43:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">paragraph</entry>
+<entry class="- topic/entry " colname="col7" dita-ot:x="7" dita-ot:y="3" xtrc="entry:14;44:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+</row>
+<row class="- topic/row " xtrc="row:4;46:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="4" xtrc="entry:15;47:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">Gedicht</entry>
+<entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="4" xtrc="entry:16;48:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">11</entry>
+<entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="4" xtrc="entry:17;49:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<pre class="- topic/pre " xml:space="preserve" xtrc="pre:2;50:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">&lt;lg type="poem"&gt;</pre>
+</entry>
+<entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="4" xtrc="entry:18;52:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col5" dita-ot:x="5" dita-ot:y="4" xtrc="entry:19;53:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col6" dita-ot:x="6" dita-ot:y="4" xtrc="entry:20;54:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">paragraph</entry>
+<entry class="- topic/entry " colname="col7" dita-ot:x="7" dita-ot:y="4" xtrc="entry:21;55:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">poem</entry>
+</row>
+<row class="- topic/row " xtrc="row:5;57:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="5" xtrc="entry:22;58:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">Überschrift D1</entry>
+<entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="5" xtrc="entry:23;59:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">20</entry>
+<entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="5" xtrc="entry:24;60:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<pre class="- topic/pre " xml:space="preserve" xtrc="pre:3;61:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">&lt;div n="1"&gt;&lt;head&gt;</pre>
+</entry>
+<entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="5" xtrc="entry:25;63:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col5" dita-ot:x="5" dita-ot:y="5" xtrc="entry:26;64:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col6" dita-ot:x="6" dita-ot:y="5" xtrc="entry:27;65:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">heading</entry>
+<entry class="- topic/entry " colname="col7" dita-ot:x="7" dita-ot:y="5" xtrc="entry:28;66:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">heading_level1</entry>
+</row>
+<row class="- topic/row " xtrc="row:6;68:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="6" xtrc="entry:29;69:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">Überschrift D2</entry>
+<entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="6" xtrc="entry:30;70:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">21</entry>
+<entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="6" xtrc="entry:31;71:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<pre class="- topic/pre " xml:space="preserve" xtrc="pre:4;72:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">&lt;div n="2"&gt;&lt;head&gt;</pre>
+</entry>
+<entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="6" xtrc="entry:32;74:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col5" dita-ot:x="5" dita-ot:y="6" xtrc="entry:33;75:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col6" dita-ot:x="6" dita-ot:y="6" xtrc="entry:34;76:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">heading</entry>
+<entry class="- topic/entry " colname="col7" dita-ot:x="7" dita-ot:y="6" xtrc="entry:35;77:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">heading_level2</entry>
+</row>
+<row class="- topic/row " xtrc="row:7;79:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="7" xtrc="entry:36;80:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">Überschrift D3</entry>
+<entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="7" xtrc="entry:37;81:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">22</entry>
+<entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="7" xtrc="entry:38;82:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<pre class="- topic/pre " xml:space="preserve" xtrc="pre:5;83:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">&lt;div n="3"&gt;&lt;head&gt;</pre>
+</entry>
+<entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="7" xtrc="entry:39;85:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col5" dita-ot:x="5" dita-ot:y="7" xtrc="entry:40;86:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col6" dita-ot:x="6" dita-ot:y="7" xtrc="entry:41;87:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">heading</entry>
+<entry class="- topic/entry " colname="col7" dita-ot:x="7" dita-ot:y="7" xtrc="entry:42;88:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">heading_level3</entry>
+</row>
+<row class="- topic/row " xtrc="row:8;90:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="8" xtrc="entry:43;91:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">Überschrift D4</entry>
+<entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="8" xtrc="entry:44;92:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">23</entry>
+<entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="8" xtrc="entry:45;93:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<pre class="- topic/pre " xml:space="preserve" xtrc="pre:6;94:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">&lt;div n="4"&gt;&lt;head&gt;</pre>
+</entry>
+<entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="8" xtrc="entry:46;96:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col5" dita-ot:x="5" dita-ot:y="8" xtrc="entry:47;97:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col6" dita-ot:x="6" dita-ot:y="8" xtrc="entry:48;98:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">heading</entry>
+<entry class="- topic/entry " colname="col7" dita-ot:x="7" dita-ot:y="8" xtrc="entry:49;99:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">heading_level4</entry>
+</row>
+<row class="- topic/row " xtrc="row:9;101:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="9" xtrc="entry:50;102:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">Überschrift D5</entry>
+<entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="9" xtrc="entry:51;103:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">24</entry>
+<entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="9" xtrc="entry:52;104:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<pre class="- topic/pre " xml:space="preserve" xtrc="pre:7;105:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">&lt;div n="5"&gt;&lt;head&gt;</pre>
+</entry>
+<entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="9" xtrc="entry:53;107:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col5" dita-ot:x="5" dita-ot:y="9" xtrc="entry:54;108:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col6" dita-ot:x="6" dita-ot:y="9" xtrc="entry:55;109:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">heading</entry>
+<entry class="- topic/entry " colname="col7" dita-ot:x="7" dita-ot:y="9" xtrc="entry:56;110:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">heading_level5</entry>
+</row>
+<row class="- topic/row " xtrc="row:10;112:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="10" xtrc="entry:57;113:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">Überschrift D6</entry>
+<entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="10" xtrc="entry:58;114:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">25</entry>
+<entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="10" xtrc="entry:59;115:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<pre class="- topic/pre " xml:space="preserve" xtrc="pre:8;116:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">&lt;div n="6"&gt;&lt;head&gt;</pre>
+</entry>
+<entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="10" xtrc="entry:60;118:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col5" dita-ot:x="5" dita-ot:y="10" xtrc="entry:61;119:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col6" dita-ot:x="6" dita-ot:y="10" xtrc="entry:62;120:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">heading</entry>
+<entry class="- topic/entry " colname="col7" dita-ot:x="7" dita-ot:y="10" xtrc="entry:63;121:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">heading_level6</entry>
+</row>
+<row class="- topic/row " xtrc="row:11;123:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="11" xtrc="entry:64;124:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">Überschrift D7</entry>
+<entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="11" xtrc="entry:65;125:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">26</entry>
+<entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="11" xtrc="entry:66;126:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<pre class="- topic/pre " xml:space="preserve" xtrc="pre:9;127:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">&lt;div n="7"&gt;&lt;head&gt;</pre>
+</entry>
+<entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="11" xtrc="entry:67;129:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col5" dita-ot:x="5" dita-ot:y="11" xtrc="entry:68;130:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col6" dita-ot:x="6" dita-ot:y="11" xtrc="entry:69;131:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">heading</entry>
+<entry class="- topic/entry " colname="col7" dita-ot:x="7" dita-ot:y="11" xtrc="entry:70;132:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">heading_level7</entry>
+</row>
+<row class="- topic/row " xtrc="row:12;134:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="12" xtrc="entry:71;135:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">Spalte</entry>
+<entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="12" xtrc="entry:72;136:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">30</entry>
+<entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="12" xtrc="entry:73;137:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<pre class="- topic/pre " xml:space="preserve" xtrc="pre:10;138:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">&lt;cb&gt;</pre>
+</entry>
+<entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="12" xtrc="entry:74;140:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col5" dita-ot:x="5" dita-ot:y="12" xtrc="entry:75;141:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col6" dita-ot:x="6" dita-ot:y="12" xtrc="entry:76;142:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">paragraph</entry>
+<entry class="- topic/entry " colname="col7" dita-ot:x="7" dita-ot:y="12" xtrc="entry:77;143:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">column</entry>
+</row>
+<row class="- topic/row " xtrc="row:13;145:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="13" xtrc="entry:78;146:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">Bildunterschrift</entry>
+<entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="13" xtrc="entry:79;147:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">31</entry>
+<entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="13" xtrc="entry:80;148:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<pre class="- topic/pre " xml:space="preserve" xtrc="pre:11;149:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">&lt;figure&gt;&lt;head&gt;</pre>
+</entry>
+<entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="13" xtrc="entry:81;151:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col5" dita-ot:x="5" dita-ot:y="13" xtrc="entry:82;152:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col6" dita-ot:x="6" dita-ot:y="13" xtrc="entry:83;153:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">paragraph</entry>
+<entry class="- topic/entry " colname="col7" dita-ot:x="7" dita-ot:y="13" xtrc="entry:84;154:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+</row>
+<row class="- topic/row " xtrc="row:14;156:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="14" xtrc="entry:85;157:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">Bühnenanweisung</entry>
+<entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="14" xtrc="entry:86;158:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">32</entry>
+<entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="14" xtrc="entry:87;159:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<pre class="- topic/pre " xml:space="preserve" xtrc="pre:12;160:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">&lt;stage&gt;</pre>
+</entry>
+<entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="14" xtrc="entry:88;162:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col5" dita-ot:x="5" dita-ot:y="14" xtrc="entry:89;163:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col6" dita-ot:x="6" dita-ot:y="14" xtrc="entry:90;164:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">paragraph</entry>
+<entry class="- topic/entry " colname="col7" dita-ot:x="7" dita-ot:y="14" xtrc="entry:91;165:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">stage</entry>
+</row>
+<row class="- topic/row " xtrc="row:15;167:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="15" xtrc="entry:92;168:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">Liste</entry>
+<entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="15" xtrc="entry:93;169:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">33</entry>
+<entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="15" xtrc="entry:94;170:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<pre class="- topic/pre " xml:space="preserve" xtrc="pre:13;171:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">&lt;list&gt;&lt;item&gt;</pre>
+</entry>
+<entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="15" xtrc="entry:95;173:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col5" dita-ot:x="5" dita-ot:y="15" xtrc="entry:96;174:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col6" dita-ot:x="6" dita-ot:y="15" xtrc="entry:97;175:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">paragraph</entry>
+<entry class="- topic/entry " colname="col7" dita-ot:x="7" dita-ot:y="15" xtrc="entry:98;176:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">list_item</entry>
+</row>
+<row class="- topic/row " xtrc="row:16;178:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="16" xtrc="entry:99;179:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">Inhaltsverzeichnis</entry>
+<entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="16" xtrc="entry:100;180:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="16" xtrc="entry:101;181:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"><pre class="- topic/pre " xml:space="preserve" xtrc="pre:14;181:13" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">&lt;div type="contents"&gt;</pre>… <pre class="- topic/pre " xml:space="preserve" xtrc="pre:15;181:50" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">&lt;list&gt;&lt;item&gt;</pre></entry>
+<entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="16" xtrc="entry:102;182:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">table-of-contents</entry>
+<entry class="- topic/entry " colname="col5" dita-ot:x="5" dita-ot:y="16" xtrc="entry:103;183:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col6" dita-ot:x="6" dita-ot:y="16" xtrc="entry:104;184:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">paragraph</entry>
+<entry class="- topic/entry " colname="col7" dita-ot:x="7" dita-ot:y="16" xtrc="entry:105;185:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+</row>
+<row class="- topic/row " xtrc="row:17;187:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="17" xtrc="entry:106;188:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">Front</entry>
+<entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="17" xtrc="entry:107;189:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">35</entry>
+<entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="17" xtrc="entry:108;190:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<pre class="- topic/pre " xml:space="preserve" xtrc="pre:16;191:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">&lt;front&gt;</pre>
+</entry>
+<entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="17" xtrc="entry:109;193:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">title</entry>
+<entry class="- topic/entry " colname="col5" dita-ot:x="5" dita-ot:y="17" xtrc="entry:110;194:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col6" dita-ot:x="6" dita-ot:y="17" xtrc="entry:111;195:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">other</entry>
+<entry class="- topic/entry " colname="col7" dita-ot:x="7" dita-ot:y="17" xtrc="entry:112;196:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+</row>
+<row class="- topic/row " xtrc="row:18;198:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="18" xtrc="entry:113;199:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">Back</entry>
+<entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="18" xtrc="entry:114;200:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">36</entry>
+<entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="18" xtrc="entry:115;201:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<pre class="- topic/pre " xml:space="preserve" xtrc="pre:17;202:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">&lt;back&gt;</pre>
+</entry>
+<entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="18" xtrc="entry:116;204:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col5" dita-ot:x="5" dita-ot:y="18" xtrc="entry:117;205:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col6" dita-ot:x="6" dita-ot:y="18" xtrc="entry:118;206:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">other</entry>
+<entry class="- topic/entry " colname="col7" dita-ot:x="7" dita-ot:y="18" xtrc="entry:119;207:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">back_paragraph</entry>
+</row>
+<row class="- topic/row " xtrc="row:19;209:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="19" xtrc="entry:120;210:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">Seitennummer</entry>
+<entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="19" xtrc="entry:121;211:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">40</entry>
+<entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="19" xtrc="entry:122;212:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<pre class="- topic/pre " xml:space="preserve" xtrc="pre:18;213:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">&lt;pb facs="#f[Bildnummer]"n="[Seitenzahl]"<b class="+ topic/ph hi-d/b " xtrc="b:1;213:53" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">/&gt;</b></pre>
+</entry>
+<entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="19" xtrc="entry:123;215:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col5" dita-ot:x="5" dita-ot:y="19" xtrc="entry:124;216:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col6" dita-ot:x="6" dita-ot:y="19" xtrc="entry:125;217:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">page-number</entry>
+<entry class="- topic/entry " colname="col7" dita-ot:x="7" dita-ot:y="19" xtrc="entry:126;218:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+</row>
+<row class="- topic/row " xtrc="row:20;220:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="20" xtrc="entry:127;221:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">Figurenaufstellung</entry>
+<entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="20" xtrc="entry:128;222:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">41</entry>
+<entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="20" xtrc="entry:129;223:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<pre class="- topic/pre " xml:space="preserve" xtrc="pre:19;224:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">&lt;castList&gt;&lt;castItem&gt;</pre>
+</entry>
+<entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="20" xtrc="entry:130;226:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col5" dita-ot:x="5" dita-ot:y="20" xtrc="entry:131;227:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col6" dita-ot:x="6" dita-ot:y="20" xtrc="entry:132;228:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">paragraph</entry>
+<entry class="- topic/entry " colname="col7" dita-ot:x="7" dita-ot:y="20" xtrc="entry:133;229:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">castlist</entry>
+</row>
+<row class="- topic/row " xtrc="row:21;231:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="21" xtrc="entry:134;232:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">abschließender Gruß (Brief)</entry>
+<entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="21" xtrc="entry:135;233:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">42</entry>
+<entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="21" xtrc="entry:136;234:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">&lt;closer&gt;</entry>
+<entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="21" xtrc="entry:137;235:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col5" dita-ot:x="5" dita-ot:y="21" xtrc="entry:138;236:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col6" dita-ot:x="6" dita-ot:y="21" xtrc="entry:139;237:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">other</entry>
+<entry class="- topic/entry " colname="col7" dita-ot:x="7" dita-ot:y="21" xtrc="entry:140;238:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">closer</entry>
+</row>
+<row class="- topic/row " xtrc="row:22;240:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="22" xtrc="entry:141;241:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">Gedichttitel</entry>
+<entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="22" xtrc="entry:142;242:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">43</entry>
+<entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="22" xtrc="entry:143;243:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"><pre class="- topic/pre " xml:space="preserve" xtrc="pre:20;243:13" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">&lt;lg type="poem"&gt;&lt;head&gt;</pre> oder <pre class="- topic/pre " xml:space="preserve" xtrc="pre:21;243:58" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">&lt;div type="poem"&gt;&lt;head&gt;</pre> </entry>
+<entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="22" xtrc="entry:144;244:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col5" dita-ot:x="5" dita-ot:y="22" xtrc="entry:145;245:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col6" dita-ot:x="6" dita-ot:y="22" xtrc="entry:146;246:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">paragraph</entry>
+<entry class="- topic/entry " colname="col7" dita-ot:x="7" dita-ot:y="22" xtrc="entry:147;247:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">poem_heading</entry>
+</row>
+<row class="- topic/row " xtrc="row:23;249:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="23" xtrc="entry:148;250:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">Strophe eines Gedicht</entry>
+<entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="23" xtrc="entry:149;251:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">44</entry>
+<entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="23" xtrc="entry:150;252:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<pre class="- topic/pre " xml:space="preserve" xtrc="pre:22;253:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">&lt;lg n="[Strophennummer]"<b class="+ topic/ph hi-d/b " xtrc="b:2;253:36" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">&gt;</b></pre>
+</entry>
+<entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="23" xtrc="entry:151;255:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col5" dita-ot:x="5" dita-ot:y="23" xtrc="entry:152;256:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col6" dita-ot:x="6" dita-ot:y="23" xtrc="entry:153;257:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">paragraph</entry>
+<entry class="- topic/entry " colname="col7" dita-ot:x="7" dita-ot:y="23" xtrc="entry:154;258:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">poem_lg</entry>
+</row>
+<row class="- topic/row " xtrc="row:24;260:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="24" xtrc="entry:155;261:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">Anrede (Brief)</entry>
+<entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="24" xtrc="entry:156;262:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">45</entry>
+<entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="24" xtrc="entry:157;263:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<pre class="- topic/pre " xml:space="preserve" xtrc="pre:23;264:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">&lt;opener&gt;&lt;salute&gt;</pre>
+</entry>
+<entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="24" xtrc="entry:158;266:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col5" dita-ot:x="5" dita-ot:y="24" xtrc="entry:159;267:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col6" dita-ot:x="6" dita-ot:y="24" xtrc="entry:160;268:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">other</entry>
+<entry class="- topic/entry " colname="col7" dita-ot:x="7" dita-ot:y="24" xtrc="entry:161;269:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">salute</entry>
+</row>
+<row class="- topic/row " xtrc="row:25;271:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="25" xtrc="entry:162;272:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">Sprecher im Drama</entry>
+<entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="25" xtrc="entry:163;273:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">46</entry>
+<entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="25" xtrc="entry:164;274:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<pre class="- topic/pre " xml:space="preserve" xtrc="pre:24;275:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">&lt;speaker&gt;</pre>
+</entry>
+<entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="25" xtrc="entry:165;277:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col5" dita-ot:x="5" dita-ot:y="25" xtrc="entry:166;278:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col6" dita-ot:x="6" dita-ot:y="25" xtrc="entry:167;279:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">other</entry>
+<entry class="- topic/entry " colname="col7" dita-ot:x="7" dita-ot:y="25" xtrc="entry:168;280:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">speaker</entry>
+</row>
+<row class="- topic/row " xtrc="row:26;282:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="26" xtrc="entry:169;283:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">Zitat</entry>
+<entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="26" xtrc="entry:170;284:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">47</entry>
+<entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="26" xtrc="entry:171;285:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"><pre class="- topic/pre " xml:space="preserve" xtrc="pre:25;285:13" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">&lt;quote&gt;</pre> oder
+<pre class="- topic/pre " xml:space="preserve" xtrc="pre:26;286:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">&lt;cit&gt;
+  &lt;quote&gt;[Zitattext]&lt;/quote&gt;
+  &lt;bibl&gt;[Urheber des Zitats]&lt;/bibl&gt;
+&lt;/cit&gt;</pre> </entry>
+<entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="26" xtrc="entry:172;290:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col5" dita-ot:x="5" dita-ot:y="26" xtrc="entry:173;291:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col6" dita-ot:x="6" dita-ot:y="26" xtrc="entry:174;292:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">paragraph</entry>
+<entry class="- topic/entry " colname="col7" dita-ot:x="7" dita-ot:y="26" xtrc="entry:175;293:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">cit</entry>
+</row>
+<row class="- topic/row " xtrc="row:27;295:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="27" xtrc="entry:176;296:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">Bogensignatur</entry>
+<entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="27" xtrc="entry:177;297:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">50</entry>
+<entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="27" xtrc="entry:178;298:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<pre class="- topic/pre " xml:space="preserve" xtrc="pre:27;299:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">&lt;fw type="sig" place="bottom"&gt;[Bogensignatur]&lt;/fw&gt;</pre>
+</entry>
+<entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="27" xtrc="entry:179;301:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col5" dita-ot:x="5" dita-ot:y="27" xtrc="entry:180;302:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col6" dita-ot:x="6" dita-ot:y="27" xtrc="entry:181;303:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">signature-mark</entry>
+<entry class="- topic/entry " colname="col7" dita-ot:x="7" dita-ot:y="27" xtrc="entry:182;304:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+</row>
+<row class="- topic/row " xtrc="row:28;306:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="28" xtrc="entry:183;307:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">Kolumnentitel</entry>
+<entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="28" xtrc="entry:184;308:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">60</entry>
+<entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="28" xtrc="entry:185;309:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<pre class="- topic/pre " xml:space="preserve" xtrc="pre:28;310:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">&lt;fw type="header" place="top"&gt;[Kolumnentitel]&lt;/fw&gt;</pre>
+</entry>
+<entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="28" xtrc="entry:186;312:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col5" dita-ot:x="5" dita-ot:y="28" xtrc="entry:187;313:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col6" dita-ot:x="6" dita-ot:y="28" xtrc="entry:188;314:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">header</entry>
+<entry class="- topic/entry " colname="col7" dita-ot:x="7" dita-ot:y="28" xtrc="entry:189;315:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+</row>
+<row class="- topic/row " xtrc="row:29;317:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="29" xtrc="entry:190;318:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">Widmung</entry>
+<entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="29" xtrc="entry:191;319:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">61</entry>
+<entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="29" xtrc="entry:192;320:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<pre class="- topic/pre " xml:space="preserve" xtrc="pre:29;321:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">&lt;div type="dedication"&gt;&lt;p&gt;[Widmungstext]&lt;/p&gt;&lt;/div&gt;</pre>
+</entry>
+<entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="29" xtrc="entry:193;323:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col5" dita-ot:x="5" dita-ot:y="29" xtrc="entry:194;324:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col6" dita-ot:x="6" dita-ot:y="29" xtrc="entry:195;325:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">paragraph</entry>
+<entry class="- topic/entry " colname="col7" dita-ot:x="7" dita-ot:y="29" xtrc="entry:196;326:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">ded</entry>
+</row>
+<row class="- topic/row " xtrc="row:30;328:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="30" xtrc="entry:197;329:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">Überschift ohne Hierarchie</entry>
+<entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="30" xtrc="entry:198;330:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">62</entry>
+<entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="30" xtrc="entry:199;331:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<pre class="- topic/pre " xml:space="preserve" xtrc="pre:30;332:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">&lt;div&gt;&lt;head&gt;[Titel]&lt;/head&gt;&lt;/div&gt;</pre>
+</entry>
+<entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="30" xtrc="entry:200;334:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col5" dita-ot:x="5" dita-ot:y="30" xtrc="entry:201;335:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col6" dita-ot:x="6" dita-ot:y="30" xtrc="entry:202;336:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">heading</entry>
+<entry class="- topic/entry " colname="col7" dita-ot:x="7" dita-ot:y="30" xtrc="entry:203;337:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+</row>
+<row class="- topic/row " xtrc="row:31;339:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="31" xtrc="entry:204;340:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">Kapitelzusammenfassung</entry>
+<entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="31" xtrc="entry:205;341:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">63</entry>
+<entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="31" xtrc="entry:206;342:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<pre class="- topic/pre " xml:space="preserve" xtrc="pre:31;343:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">&lt;argument&gt;
+  &lt;p&gt;[Inhaltszusammenfassung Fließtext]&lt;/p&gt;
+&lt;/argument&gt;</pre>
+</entry>
+<entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="31" xtrc="entry:207;347:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col5" dita-ot:x="5" dita-ot:y="31" xtrc="entry:208;348:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col6" dita-ot:x="6" dita-ot:y="31" xtrc="entry:209;349:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">paragraph</entry>
+<entry class="- topic/entry " colname="col7" dita-ot:x="7" dita-ot:y="31" xtrc="entry:210;350:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">arg</entry>
+</row>
+<row class="- topic/row " xtrc="row:32;352:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="32" xtrc="entry:211;353:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">Briefdatum</entry>
+<entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="32" xtrc="entry:212;354:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">64</entry>
+<entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="32" xtrc="entry:213;355:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<pre class="- topic/pre " xml:space="preserve" xtrc="pre:32;356:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">&lt;opener&gt;&lt;dateline&gt;</pre> oder <pre class="- topic/pre " xml:space="preserve" xtrc="pre:33;356:47" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">&lt;closer&gt;&lt;dateline&gt;</pre>
+</entry>
+<entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="32" xtrc="entry:214;358:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col5" dita-ot:x="5" dita-ot:y="32" xtrc="entry:215;359:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col6" dita-ot:x="6" dita-ot:y="32" xtrc="entry:216;360:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">paragraph</entry>
+<entry class="- topic/entry " colname="col7" dita-ot:x="7" dita-ot:y="32" xtrc="entry:217;361:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+</row>
+<row class="- topic/row " xtrc="row:33;363:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="33" xtrc="entry:218;364:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">Fußnote</entry>
+<entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="33" xtrc="entry:219;365:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">70</entry>
+<entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="33" xtrc="entry:220;366:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<pre class="- topic/pre " xml:space="preserve" xtrc="pre:34;367:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">&lt;note place="foot"n="[Fußnotenreferenz]"&gt;
+  [Fußnotentext]
+&lt;/note&gt;</pre>
+</entry>
+<entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="33" xtrc="entry:221;371:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col5" dita-ot:x="5" dita-ot:y="33" xtrc="entry:222;372:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col6" dita-ot:x="6" dita-ot:y="33" xtrc="entry:223;373:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">footnote</entry>
+<entry class="- topic/entry " colname="col7" dita-ot:x="7" dita-ot:y="33" xtrc="entry:224;374:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+</row>
+<row class="- topic/row " xtrc="row:34;376:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="34" xtrc="entry:225;377:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">fortlaufende Fußnote</entry>
+<entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="34" xtrc="entry:226;378:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">71</entry>
+<entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="34" xtrc="entry:227;379:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<pre class="- topic/pre " xml:space="preserve" xtrc="pre:35;380:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">&lt;note place="foot" 
+  n="[Fußnotenreferenz]"
+  xml:id="[ID 01]"next="#[ID 02]"&gt;
+  [Fußnotentext]
+&lt;/note&gt;</pre>
+</entry>
+<entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="34" xtrc="entry:228;386:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col5" dita-ot:x="5" dita-ot:y="34" xtrc="entry:229;387:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col6" dita-ot:x="6" dita-ot:y="34" xtrc="entry:230;388:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">footnote-continued</entry>
+<entry class="- topic/entry " colname="col7" dita-ot:x="7" dita-ot:y="34" xtrc="entry:231;389:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+</row>
+<row class="- topic/row " xtrc="row:35;391:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="35" xtrc="entry:232;392:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">Endnote</entry>
+<entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="35" xtrc="entry:233;393:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">80</entry>
+<entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="35" xtrc="entry:234;394:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<pre class="- topic/pre " xml:space="preserve" xtrc="pre:36;395:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">&lt;note place="end"
+  n="[Endnotenreferenz]"
+  xml:id="[ID 02]"prev="#[ID 01]"&gt;
+  [Endnotentext]
+&lt;/note&gt;</pre>
+</entry>
+<entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="35" xtrc="entry:235;401:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col5" dita-ot:x="5" dita-ot:y="35" xtrc="entry:236;402:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col6" dita-ot:x="6" dita-ot:y="35" xtrc="entry:237;403:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">endnote</entry>
+<entry class="- topic/entry " colname="col7" dita-ot:x="7" dita-ot:y="35" xtrc="entry:238;404:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+</row>
+<row class="- topic/row " xtrc="row:36;406:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="36" xtrc="entry:239;407:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">Kustode</entry>
+<entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="36" xtrc="entry:240;408:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">90</entry>
+<entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="36" xtrc="entry:241;409:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<pre class="- topic/pre " xml:space="preserve" xtrc="pre:37;410:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">&lt;fw type="catch" place="bottom"&gt;[Kustode]&lt;/fw&gt;</pre>
+</entry>
+<entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="36" xtrc="entry:242;412:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col5" dita-ot:x="5" dita-ot:y="36" xtrc="entry:243;413:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col6" dita-ot:x="6" dita-ot:y="36" xtrc="entry:244;414:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">catch-word</entry>
+<entry class="- topic/entry " colname="col7" dita-ot:x="7" dita-ot:y="36" xtrc="entry:245;415:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+</row>
+<row class="- topic/row " xtrc="row:37;417:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="37" xtrc="entry:246;418:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">Marginalie links</entry>
+<entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="37" xtrc="entry:247;419:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">91</entry>
+<entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="37" xtrc="entry:248;420:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<pre class="- topic/pre " xml:space="preserve" xtrc="pre:38;421:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">&lt;note place="left"&gt;
+  [links vom Text stehende Marginalien]
+&lt;/note&gt;</pre>
+</entry>
+<entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="37" xtrc="entry:249;425:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col5" dita-ot:x="5" dita-ot:y="37" xtrc="entry:250;426:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col6" dita-ot:x="6" dita-ot:y="37" xtrc="entry:251;427:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">marginalia</entry>
+<entry class="- topic/entry " colname="col7" dita-ot:x="7" dita-ot:y="37" xtrc="entry:252;428:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">margi_left</entry>
+</row>
+<row class="- topic/row " xtrc="row:38;430:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="38" xtrc="entry:253;431:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">Marginalie rechts</entry>
+<entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="38" xtrc="entry:254;432:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">92</entry>
+<entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="38" xtrc="entry:255;433:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<pre class="- topic/pre " xml:space="preserve" xtrc="pre:39;434:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">&lt;note place="right"&gt;
+  [rechts vom Text stehende Marginalien]
+&lt;/note&gt;</pre>
+</entry>
+<entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="38" xtrc="entry:256;438:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col5" dita-ot:x="5" dita-ot:y="38" xtrc="entry:257;439:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col6" dita-ot:x="6" dita-ot:y="38" xtrc="entry:258;440:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">marginalia</entry>
+<entry class="- topic/entry " colname="col7" dita-ot:x="7" dita-ot:y="38" xtrc="entry:259;441:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">margi_right</entry>
+</row>
+<row class="- topic/row " xtrc="row:39;443:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="39" xtrc="entry:260;444:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">Tabelle</entry>
+<entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="39" xtrc="entry:261;445:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">120</entry>
+<entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="39" xtrc="entry:262;446:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<pre class="- topic/pre " xml:space="preserve" xtrc="pre:40;447:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">&lt;table&gt;
+  &lt;head&gt;[ggf. Titel der Tabelle]&lt;/head&gt;
+&lt;row&gt;&lt;cell&gt;</pre>
+</entry>
+<entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="39" xtrc="entry:263;451:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col5" dita-ot:x="5" dita-ot:y="39" xtrc="entry:264;452:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">TableRegion</entry>
+<entry class="- topic/entry " colname="col6" dita-ot:x="6" dita-ot:y="39" xtrc="entry:265;453:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col7" dita-ot:x="7" dita-ot:y="39" xtrc="entry:266;454:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+</row>
+<row class="- topic/row " xtrc="row:40;456:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="40" xtrc="entry:267;457:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">Auflistung</entry>
+<entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="40" xtrc="entry:268;458:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">130</entry>
+<entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="40" xtrc="entry:269;459:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<pre class="- topic/pre " xml:space="preserve" xtrc="pre:41;460:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">&lt;list&gt;&lt;item&gt;</pre>
+</entry>
+<entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="40" xtrc="entry:270;462:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col5" dita-ot:x="5" dita-ot:y="40" xtrc="entry:271;463:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col6" dita-ot:x="6" dita-ot:y="40" xtrc="entry:272;464:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">paragraph</entry>
+<entry class="- topic/entry " colname="col7" dita-ot:x="7" dita-ot:y="40" xtrc="entry:273;465:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">list</entry>
+</row>
+<row class="- topic/row " xtrc="row:41;467:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="41" xtrc="entry:274;468:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">math. Formel</entry>
+<entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="41" xtrc="entry:275;469:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">140</entry>
+<entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="41" xtrc="entry:276;470:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<pre class="- topic/pre " xml:space="preserve" xtrc="pre:42;471:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">&lt;formula&gt;</pre>
+</entry>
+<entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="41" xtrc="entry:277;473:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col5" dita-ot:x="5" dita-ot:y="41" xtrc="entry:278;474:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">MathsRegion</entry>
+<entry class="- topic/entry " colname="col6" dita-ot:x="6" dita-ot:y="41" xtrc="entry:279;475:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col7" dita-ot:x="7" dita-ot:y="41" xtrc="entry:280;476:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">formel</entry>
+</row>
+<row class="- topic/row " xtrc="row:42;478:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="42" xtrc="entry:281;479:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">horz. Linie</entry>
+<entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="42" xtrc="entry:282;480:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">150</entry>
+<entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="42" xtrc="entry:283;481:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<pre class="- topic/pre " xml:space="preserve" xtrc="pre:43;482:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">&lt;milestone unit="section" rendition="#hr"/&gt;</pre>
+</entry>
+<entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="42" xtrc="entry:284;484:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col5" dita-ot:x="5" dita-ot:y="42" xtrc="entry:285;485:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">SeparatorRegion</entry>
+<entry class="- topic/entry " colname="col6" dita-ot:x="6" dita-ot:y="42" xtrc="entry:286;486:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col7" dita-ot:x="7" dita-ot:y="42" xtrc="entry:287;487:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+</row>
+<row class="- topic/row " xtrc="row:43;489:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="43" xtrc="entry:288;490:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">SpezialText</entry>
+<entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="43" xtrc="entry:289;491:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">333</entry>
+<entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="43" xtrc="entry:290;492:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<pre class="- topic/pre " xml:space="preserve" xtrc="pre:44;493:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">&lt;p&gt;&lt;/p&gt;</pre>
+</entry>
+<entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="43" xtrc="entry:291;495:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col5" dita-ot:x="5" dita-ot:y="43" xtrc="entry:292;496:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col6" dita-ot:x="6" dita-ot:y="43" xtrc="entry:293;497:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">paragraph</entry>
+<entry class="- topic/entry " colname="col7" dita-ot:x="7" dita-ot:y="43" xtrc="entry:294;498:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+</row>
+<row class="- topic/row " xtrc="row:44;500:6" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">
+<entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="44" xtrc="entry:295;501:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">Spezial Bild</entry>
+<entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="44" xtrc="entry:296;502:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">444</entry>
+<entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="44" xtrc="entry:297;503:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"><pre class="- topic/pre " xml:space="preserve" xtrc="pre:45;503:13" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">&lt;figure&gt;</pre></entry>
+<entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="44" xtrc="entry:298;504:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col5" dita-ot:x="5" dita-ot:y="44" xtrc="entry:299;505:8" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">GraphicRegion</entry>
+<entry class="- topic/entry " colname="col6" dita-ot:x="6" dita-ot:y="44" xtrc="entry:300;506:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+<entry class="- topic/entry " colname="col7" dita-ot:x="7" dita-ot:y="44" xtrc="entry:301;507:9" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"/>
+</row>
+</tbody>
+</tgroup>
+</table>
+    </body>
+<related-links class="- topic/related-links " xtrc="related-links:1;513:16" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"><linkpool class="- topic/linkpool " xtrc="chapter:3;9:45" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gt.ditamap"><link class="- topic/link " format="dita" href="structur_gt.dita" mapclass="- map/topicref bookmap/part " role="parent" scope="local" type="topic" xtrc="part:4;146:31" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/ocrd.ditamap"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Dokumentation zum OCR-D Struktur-Ground-Truth</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">Der OCR-D Struktur-Ground-Truth beinhaltet Publikationen bei denen ausschließlich die Strukturen oder Regionen erfasst wurden. Die einzelne Regionen entsprechend dem PAGE-Schema.</desc></link></linkpool>
+<link class="- topic/link " format="html" href="http://www.deutschestextarchiv.de/doku/basisformat/" scope="external" xtrc="link:1;514:98" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita"><?ditaot usertext?><linktext class="- topic/linktext " xtrc="linktext:1;514:108" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/structur_gtpageformat.dita">Dokumentation zum
+DTA-Basisformat</linktext></link>
+</related-links>
+</topic>

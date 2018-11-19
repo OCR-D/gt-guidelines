@@ -1,1 +1,0 @@
-define({"topics" : [{"title":"Level 1","href":"level_1_6.html","attributes": {"data-id":"level_1_6",},"menu": {"hasChildren":false,},"tocID":"level_1_6-d66e882","topics":[]},{"title":"Level 2 und 3","href":"level_2_und_3_2.html","attributes": {"data-id":"level_2_und_3_2",},"menu": {"hasChildren":false,},"tocID":"level_2_und_3_2-d66e923","topics":[]}]});

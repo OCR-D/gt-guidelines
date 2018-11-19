@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?><?workdir /C:\Users\matthias\Documents\GitHub\Transkriptionsrichtlinie\documentation\temp\xhtml\pagexml_dokumentation?><?workdir-uri file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/temp/xhtml/pagexml_dokumentation/?><?path2project ..\xhtml\?><?path2project-uri ../xhtml/?><?path2rootmap-uri ../documentation/?><?doctype-public -//OASIS//DTD DITA Topic//EN?><?doctype-system topic.dtd?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" id="UserDefinedType" ditaarch:DITAArchVersion="1.3" domains="(topic abbrev-d)                            a(props deliveryTarget)                            (topic equation-d)                            (topic hazard-d)                            (topic hi-d)                            (topic indexing-d)                            (topic markup-d)                            (topic mathml-d)                            (topic pr-d)                            (topic relmgmt-d)                            (topic sw-d)                            (topic svg-d)                            (topic ui-d)                            (topic ut-d)                            (topic markup-d xml-d)   " class="- topic/topic " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="topic:1;4:29">
+   <title class="- topic/title " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="title:1;5:11">Complex Type pc:UserDefinedType</title>
+   <body class="- topic/body " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="body:1;6:10">
+      <table frame="all" rowsep="1" colsep="1" class="- topic/table " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="table:1;7:48">
+         <tgroup cols="2" class="- topic/tgroup " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="tgroup:1;8:27">
+            <colspec colwidth="3*" align="left" rowheader="headers" class="- topic/colspec " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="colspec:1;9:50" colnum="1" colname="col1"/>
+            <colspec colwidth="25*" align="left" rowheader="headers" class="- topic/colspec " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="colspec:2;10:51" colnum="2" colname="col2"/>
+            <tbody class="- topic/tbody " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="tbody:1;11:20">
+               <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="row:1;12:21">
+                  <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="entry:1;13:26" colname="col1" dita-ot:x="1" dita-ot:y="1">Namespace</entry>
+                  <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="entry:2;14:26" colname="col2" dita-ot:x="2" dita-ot:y="1">http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15</entry>
+               </row>
+               <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="row:2;16:21">
+                  <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="entry:3;17:26" colname="col1" dita-ot:x="1" dita-ot:y="2">Annotations</entry>
+                  <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="entry:4;18:26" colname="col2" dita-ot:x="2" dita-ot:y="2">
+                     <codeblock outputclass="language-xml" xml:space="preserve" class="+ topic/pre pr-d/codeblock " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="codeblock:1;19:60">Container for user-defined attributes</codeblock>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="row:3;22:21">
+                  <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="entry:5;23:26" colname="col1" dita-ot:x="1" dita-ot:y="3">Diagram</entry>
+                  <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="entry:6;24:26" colname="col2" dita-ot:x="2" dita-ot:y="3">
+                     <p class="- topic/p " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="p:1;25:25">
+                            
+                                    
+                                    <imagemap id="pagecontent_xsd_Complex_Type_pc_UserDefinedType" class="+ topic/fig ut-d/imagemap " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="imagemap:1;28:100">
+                                        
+                                        <image href="img/pagecontent_xsd_Complex_Type_pc_UserDefinedType.jpeg" placement="inline" class="- topic/image " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="image:1;30:113" dita-ot:image-width="446" dita-ot:image-height="82"/>
+                                        
+                                          
+                                            <area class="+ topic/figgroup ut-d/area " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="area:1;33:51">
+                                                <shape translate="no" class="+ topic/keyword ut-d/shape " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="shape:1;34:56">rect</shape>
+                                                <coords translate="no" class="+ topic/ph ut-d/coords " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="coords:1;35:57">278,0,444,44</coords>
+                                                
+                                                
+                                                
+                                                        <xref href="#UserDefinedType_UserAttribute" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="xref:1;39:102" type="topic"><?ditaot gentext?>Element pc:UserDefinedType / pc:UserAttribute</xref>
+                                                    
+                                            </area>
+                                        
+                                    </imagemap>
+                        </p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="row:4;47:21">
+                  <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="entry:7;48:26" colname="col1" dita-ot:x="1" dita-ot:y="4">Used by</entry>
+                  <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="entry:8;49:26" colname="col2" dita-ot:x="2" dita-ot:y="4">
+                     <p class="- topic/p " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="p:2;50:25">
+                        <table frame="all" rowsep="1" colsep="1" class="- topic/table " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="table:2;51:66">
+                           <tgroup cols="2" class="- topic/tgroup " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="tgroup:2;52:45">
+                              <colspec colwidth="2*" align="left" rowheader="headers" class="- topic/colspec " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="colspec:3;53:68" colnum="1" colname="col1"/>
+                              <colspec colwidth="8*" align="left" rowheader="headers" class="- topic/colspec " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="colspec:4;54:68" colnum="2" colname="col2"/>
+                              <tbody class="- topic/tbody " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="tbody:2;55:38">
+                                 <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="row:5;56:39">
+                                    <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="entry:9;57:44" colname="col1" dita-ot:x="1" dita-ot:y="1">Elements </entry>
+                                    <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="entry:10;58:44" colname="col2" dita-ot:x="2" dita-ot:y="1">
+                                       <xref href="pagecontent_xsd_Complex_Type_pc_GlyphType.dita#GlyphType_UserDefined" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="xref:2;59:123" type="topic"><?ditaot gentext?>Element pc:GlyphType / pc:UserDefined</xref>, <xref href="pagecontent_xsd_Complex_Type_pc_MetadataType.dita#MetadataType_UserDefined" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="xref:3;59:214" type="topic"><?ditaot gentext?>Element pc:MetadataType / pc:UserDefined</xref>, <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupIndexedType.dita#OrderedGroupIndexedType_UserDefined" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="xref:4;59:327" type="topic"><?ditaot gentext?>Element pc:OrderedGroupIndexedType / pc:UserDefined</xref>, <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType_UserDefined" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="xref:5;59:426" type="topic"><?ditaot gentext?>Element pc:OrderedGroupType / pc:UserDefined</xref>, <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_UserDefined" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="xref:6;59:509" type="topic"><?ditaot gentext?>Element pc:PageType / pc:UserDefined</xref>, <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_UserDefined" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="xref:7;59:596" type="topic"><?ditaot gentext?>Element pc:RegionType / pc:UserDefined</xref>, <xref href="pagecontent_xsd_Complex_Type_pc_TextLineType.dita#TextLineType_UserDefined" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="xref:8;59:687" type="topic"><?ditaot gentext?>Element pc:TextLineType / pc:UserDefined</xref>, <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_UserDefined" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="xref:9;59:804" type="topic"><?ditaot gentext?>Element pc:UnorderedGroupIndexedType / pc:UserDefined</xref>, <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupType.dita#UnorderedGroupType_UserDefined" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="xref:10;59:907" type="topic"><?ditaot gentext?>Element pc:UnorderedGroupType / pc:UserDefined</xref>, <xref href="pagecontent_xsd_Complex_Type_pc_WordType.dita#WordType_UserDefined" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="xref:11;59:990" type="topic"><?ditaot gentext?>Element pc:WordType / pc:UserDefined</xref>
+                                    </entry>
+                                 </row>
+                              </tbody>
+                           </tgroup>
+                        </table>
+                     </p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="row:6;68:21">
+                  <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="entry:11;69:26" colname="col1" dita-ot:x="1" dita-ot:y="5">Model</entry>
+                  <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="entry:12;70:26" colname="col2" dita-ot:x="2" dita-ot:y="5">
+                     <xref href="#UserDefinedType_UserAttribute" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="xref:12;71:67" type="topic"><?ditaot gentext?>Element pc:UserDefinedType / pc:UserAttribute</xref>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="row:7;74:21">
+                  <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="entry:13;75:26" colname="col1" dita-ot:x="1" dita-ot:y="6">Children</entry>
+                  <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="entry:14;76:26" colname="col2" dita-ot:x="2" dita-ot:y="6">
+                     <xref href="#UserDefinedType_UserAttribute" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="xref:13;77:67" type="topic"><?ditaot gentext?>Element pc:UserDefinedType / pc:UserAttribute</xref>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="row:8;80:21">
+                  <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="entry:15;81:26" colname="col1" dita-ot:x="1" dita-ot:y="7">Schema location</entry>
+                  <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="entry:16;82:26" colname="col2" dita-ot:x="2" dita-ot:y="7">http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+   </body>
+   <topic id="UserDefinedType_UserAttribute" ditaarch:DITAArchVersion="1.3" domains="(topic abbrev-d)                            a(props deliveryTarget)                            (topic equation-d)                            (topic hazard-d)                            (topic hi-d)                            (topic indexing-d)                            (topic markup-d)                            (topic mathml-d)                            (topic pr-d)                            (topic relmgmt-d)                            (topic sw-d)                            (topic svg-d)                            (topic ui-d)                            (topic ut-d)                            (topic markup-d xml-d)   " class="- topic/topic " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="topic:2;88:46">
+      <title class="- topic/title " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="title:2;89:14">Element pc:UserDefinedType / pc:UserAttribute</title>
+      <body class="- topic/body " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="body:2;90:13">
+         <table frame="all" rowsep="1" colsep="1" class="- topic/table " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="table:3;91:51">
+            <tgroup cols="2" class="- topic/tgroup " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="tgroup:3;92:30">
+               <colspec colwidth="3*" align="left" rowheader="headers" class="- topic/colspec " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="colspec:5;93:53" colnum="1" colname="col1"/>
+               <colspec colwidth="25*" align="left" rowheader="headers" class="- topic/colspec " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="colspec:6;94:54" colnum="2" colname="col2"/>
+               <tbody class="- topic/tbody " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="tbody:3;95:23">
+                  <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="row:9;96:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="entry:17;97:29" colname="col1" dita-ot:x="1" dita-ot:y="1">Namespace</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="entry:18;98:29" colname="col2" dita-ot:x="2" dita-ot:y="1">http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15</entry>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="row:10;100:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="entry:19;101:29" colname="col1" dita-ot:x="1" dita-ot:y="2">Diagram</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="entry:20;102:29" colname="col2" dita-ot:x="2" dita-ot:y="2">
+                        <p class="- topic/p " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="p:3;103:28">
+                            
+                                    
+                                    <imagemap id="pagecontent_xsd_Element_pc_UserAttribute" class="+ topic/fig ut-d/imagemap " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="imagemap:2;106:93">
+                                        
+                                        <image href="img/pagecontent_xsd_Element_pc_UserAttribute.jpeg" placement="inline" class="- topic/image " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="image:2;108:106" dita-ot:image-width="491" dita-ot:image-height="332"/>
+                                        
+                                          
+                                            <area class="+ topic/figgroup ut-d/area " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="area:2;111:51">
+                                                <shape translate="no" class="+ topic/keyword ut-d/shape " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="shape:2;112:56">rect</shape>
+                                                <coords translate="no" class="+ topic/ph ut-d/coords " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="coords:2;113:57">222,79,312,123</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_UserAttributeType.dita#UserAttributeType_name" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="xref:14;118:149" type="topic"><?ditaot gentext?>Attribute pc:UserAttributeType / @name</xref>
+                                                    
+                                            </area>
+                                          
+                                            <area class="+ topic/figgroup ut-d/area " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="area:3;122:51">
+                                                <shape translate="no" class="+ topic/keyword ut-d/shape " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="shape:3;123:56">rect</shape>
+                                                <coords translate="no" class="+ topic/ph ut-d/coords " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="coords:3;124:57">222,133,325,177</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_UserAttributeType.dita#UserAttributeType_description" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="xref:15;129:156" type="topic"><?ditaot gentext?>Attribute pc:UserAttributeType / @description</xref>
+                                                    
+                                            </area>
+                                          
+                                            <area class="+ topic/figgroup ut-d/area " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="area:4;133:51">
+                                                <shape translate="no" class="+ topic/keyword ut-d/shape " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="shape:4;134:56">rect</shape>
+                                                <coords translate="no" class="+ topic/ph ut-d/coords " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="coords:4;135:57">222,187,383,231</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_UserAttributeType.dita#UserAttributeType_type" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="xref:16;140:149" type="topic"><?ditaot gentext?>Attribute pc:UserAttributeType / @type</xref>
+                                                    
+                                            </area>
+                                          
+                                            <area class="+ topic/figgroup ut-d/area " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="area:5;144:51">
+                                                <shape translate="no" class="+ topic/keyword ut-d/shape " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="shape:5;145:56">rect</shape>
+                                                <coords translate="no" class="+ topic/ph ut-d/coords " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="coords:5;146:57">222,241,312,285</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_UserAttributeType.dita#UserAttributeType_value" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="xref:17;151:150" type="topic"><?ditaot gentext?>Attribute pc:UserAttributeType / @value</xref>
+                                                    
+                                            </area>
+                                          
+                                            <area class="+ topic/figgroup ut-d/area " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="area:6;155:51">
+                                                <shape translate="no" class="+ topic/keyword ut-d/shape " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="shape:6;156:56">rect</shape>
+                                                <coords translate="no" class="+ topic/ph ut-d/coords " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="coords:6;157:57">197,3,351,25</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_UserAttributeType.dita#UserAttributeType" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="xref:18;162:144" type="topic"><?ditaot gentext?>Complex Type pc:UserAttributeType</xref>
+                                                    
+                                            </area>
+                                        
+                                    </imagemap>
+                        </p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="row:11;170:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="entry:21;171:29" colname="col1" dita-ot:x="1" dita-ot:y="3">Type</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="entry:22;172:29" colname="col2" dita-ot:x="2" dita-ot:y="3">
+                        <xref href="pagecontent_xsd_Complex_Type_pc_UserAttributeType.dita#UserAttributeType" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="xref:19;173:112" type="topic"><?ditaot gentext?>Complex Type pc:UserAttributeType</xref>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="row:12;176:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="entry:23;177:29" colname="col1" dita-ot:x="1" dita-ot:y="4">Properties</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="entry:24;178:29" colname="col2" dita-ot:x="2" dita-ot:y="4">
+                        <p class="- topic/p " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="p:4;179:28">
+                           <table frame="all" rowsep="1" colsep="1" class="- topic/table " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="table:4;180:69">
+                              <tgroup cols="2" class="- topic/tgroup " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="tgroup:4;181:48">
+                                 <colspec colwidth="2*" align="left" rowheader="headers" class="- topic/colspec " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="colspec:7;182:71" colnum="1" colname="col1"/>
+                                 <colspec colwidth="8*" align="left" rowheader="headers" class="- topic/colspec " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="colspec:8;183:71" colnum="2" colname="col2"/>
+                                 <tbody class="- topic/tbody " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="tbody:4;184:41">
+                                    <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="row:13;185:42">
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="entry:25;186:47" colname="col1" dita-ot:x="1" dita-ot:y="1">content: </entry>
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="entry:26;187:47" colname="col2" dita-ot:x="2" dita-ot:y="1">
+                                          <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="b:1;188:46">complex</b>
+                                       </entry>
+                                    </row>
+                                    <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="row:14;191:42">
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="entry:27;192:47" colname="col1" dita-ot:x="1" dita-ot:y="2">minOccurs: </entry>
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="entry:28;193:47" colname="col2" dita-ot:x="2" dita-ot:y="2">
+                                          <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="b:2;194:46">1</b>
+                                       </entry>
+                                    </row>
+                                    <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="row:15;197:42">
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="entry:29;198:47" colname="col1" dita-ot:x="1" dita-ot:y="3">maxOccurs: </entry>
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="entry:30;199:47" colname="col2" dita-ot:x="2" dita-ot:y="3">
+                                          <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="b:3;200:46">unbounded</b>
+                                       </entry>
+                                    </row>
+                                 </tbody>
+                              </tgroup>
+                           </table>
+                        </p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="row:16;209:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="entry:31;210:29" colname="col1" dita-ot:x="1" dita-ot:y="5">Attributes</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="entry:32;211:29" colname="col2" dita-ot:x="2" dita-ot:y="5">
+                        <p class="- topic/p " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="p:5;212:28">
+                           <table frame="all" rowsep="1" colsep="1" class="- topic/table " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="table:5;213:69">
+                              <tgroup cols="3" class="- topic/tgroup " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="tgroup:5;214:48">
+                                 <colspec colnum="1" colname="col1" align="left" colwidth="3*" rowheader="headers" class="- topic/colspec " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="colspec:9;215:97"/>
+                                 <colspec colnum="2" colname="col2" align="left" colwidth="3*" rowheader="headers" class="- topic/colspec " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="colspec:10;216:97"/>
+                                 <colspec colnum="3" colname="col3" align="left" colwidth="1*" rowheader="headers" class="- topic/colspec " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="colspec:11;217:97"/>
+                                 <thead class="- topic/thead " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="thead:1;218:41">
+                                    <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="row:17;219:42">
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="entry:33;220:47" colname="col1" dita-ot:x="1" dita-ot:y="1">QName</entry>
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="entry:34;221:47" colname="col2" dita-ot:x="2" dita-ot:y="1">Type</entry>
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="entry:35;222:47" colname="col3" dita-ot:x="3" dita-ot:y="1">Use</entry>
+                                    </row>
+                                 </thead>
+                                 <tbody class="- topic/tbody " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="tbody:5;225:41">
+                                    <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="row:18;226:42">
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="entry:36;227:47" colname="col1" dita-ot:x="1" dita-ot:y="2">
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_UserAttributeType.dita#UserAttributeType_description" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="xref:20;228:142" type="topic"><?ditaot gentext?>Attribute pc:UserAttributeType / @description</xref>
+                                       </entry>
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="entry:37;230:47" colname="col2" dita-ot:x="2" dita-ot:y="2">string</entry>
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="entry:38;231:47" colname="col3" dita-ot:x="3" dita-ot:y="2">optional</entry>
+                                    </row>
+                                    <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="row:19;233:42">
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="entry:39;234:47" colname="col1" dita-ot:x="1" dita-ot:y="3">
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_UserAttributeType.dita#UserAttributeType_name" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="xref:21;235:135" type="topic"><?ditaot gentext?>Attribute pc:UserAttributeType / @name</xref>
+                                       </entry>
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="entry:40;237:47" colname="col2" dita-ot:x="2" dita-ot:y="3">string</entry>
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="entry:41;238:47" colname="col3" dita-ot:x="3" dita-ot:y="3">optional</entry>
+                                    </row>
+                                    <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="row:20;240:42">
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="entry:42;241:47" colname="col1" dita-ot:x="1" dita-ot:y="4">
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_UserAttributeType.dita#UserAttributeType_type" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="xref:22;242:135" type="topic"><?ditaot gentext?>Attribute pc:UserAttributeType / @type</xref>
+                                       </entry>
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="entry:43;244:47" colname="col2" dita-ot:x="2" dita-ot:y="4">restriction of string</entry>
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="entry:44;245:47" colname="col3" dita-ot:x="3" dita-ot:y="4">optional</entry>
+                                    </row>
+                                    <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="row:21;247:42">
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="entry:45;248:47" colname="col1" dita-ot:x="1" dita-ot:y="5">
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_UserAttributeType.dita#UserAttributeType_value" class="- topic/xref " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="xref:23;249:136" type="topic"><?ditaot gentext?>Attribute pc:UserAttributeType / @value</xref>
+                                       </entry>
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="entry:46;251:47" colname="col2" dita-ot:x="2" dita-ot:y="5">string</entry>
+                                       <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="entry:47;252:47" colname="col3" dita-ot:x="3" dita-ot:y="5">optional</entry>
+                                    </row>
+                                 </tbody>
+                              </tgroup>
+                           </table>
+                        </p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="row:22;260:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="entry:48;261:29" colname="col1" dita-ot:x="1" dita-ot:y="6">Schema location</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/pagexml_dokumentation/pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita" xtrc="entry:49;262:29" colname="col2" dita-ot:x="2" dita-ot:y="6">http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </body>
+   </topic>
+</topic>

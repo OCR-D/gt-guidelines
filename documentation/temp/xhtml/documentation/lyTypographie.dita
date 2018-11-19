@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?><?workdir /C:\Users\matthias\Documents\GitHub\Transkriptionsrichtlinie\documentation\temp\xhtml\documentation?><?workdir-uri file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/temp/xhtml/documentation/?><?path2project?><?path2project-uri ./?><?path2rootmap-uri ./?><?doctype-public -//OASIS//DTD DITA Topic//EN?><?doctype-system topic.dtd?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/topic " ditaarch:DITAArchVersion="1.3" domains="(topic abbrev-d)                            a(props deliveryTarget)                            (topic equation-d)                            (topic hazard-d)                            (topic hi-d)                            (topic indexing-d)                            (topic markup-d)                            (topic mathml-d)                            (topic pr-d)                            (topic relmgmt-d)                            (topic sw-d)                            (topic svg-d)                            (topic ui-d)                            (topic ut-d)                            (topic markup-d xml-d)   " id="lyTypographie" xtrc="topic:1;3:27" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">
+    <title class="- topic/title " xtrc="title:1;4:12" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">Typographische Besonderheiten</title><prolog class="- topic/prolog "><authorinformation class="+ topic/author xnal-d/authorinformation " xtrc="authorinformation:1;9:28" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/ocrd.ditamap">
+            <personinfo class="+ topic/data xnal-d/personinfo " xtrc="personinfo:1;10:25" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/ocrd.ditamap">
+                <namedetails class="+ topic/data xnal-d/namedetails " xtrc="namedetails:1;11:30" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/ocrd.ditamap">
+                    <personname class="+ topic/data xnal-d/personname " xtrc="personname:1;12:33" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/ocrd.ditamap">
+                        <firstname class="+ topic/data xnal-d/firstname " xtrc="firstname:1;13:36" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/ocrd.ditamap">Matthias</firstname>
+                        <lastname class="+ topic/data xnal-d/lastname " xtrc="lastname:1;14:35" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/ocrd.ditamap">Boenig</lastname>
+                    </personname>
+                </namedetails>
+            </personinfo>
+            <organizationinfo class="+ topic/data xnal-d/organizationinfo " xtrc="organizationinfo:1;18:31" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/ocrd.ditamap">
+                <namedetails class="+ topic/data xnal-d/namedetails " xtrc="namedetails:2;19:30" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/ocrd.ditamap">
+                    <organizationnamedetails class="+ topic/ph xnal-d/organizationnamedetails " xtrc="organizationnamedetails:1;20:46" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/ocrd.ditamap">
+                        <organizationname class="+ topic/ph xnal-d/organizationname " xtrc="organizationname:1;21:43" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/ocrd.ditamap">OCR-D, Zentrum Sprache, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</organizationname>
+                    </organizationnamedetails>
+                </namedetails>
+            </organizationinfo>
+        </authorinformation><critdates class="- topic/critdates " xtrc="critdates:1;26:20" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/ocrd.ditamap">
+            <created class="- topic/created " date="March, 2017" xtrc="created:1;27:42" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/ocrd.ditamap"/>
+        </critdates></prolog>
+    <body class="- topic/body " xtrc="body:1;5:11" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">
+<p class="- topic/p " xtrc="p:1;6:4" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">Für alle Element-Bereiche (<codeph class="+ topic/ph pr-d/codeph " xtrc="codeph:1;6:39" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">&lt;Word&gt;</codeph>, <codeph class="+ topic/ph pr-d/codeph " xtrc="codeph:2;6:67" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">&lt;TextLine&gt;</codeph> und
+                <codeph class="+ topic/ph pr-d/codeph " xtrc="codeph:3;7:25" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">&lt;TextRegion&gt;</codeph>)  gelten die folgenden typographischen
+            Auszeichnungswerte.  </p>
+        <p class="- topic/p " importance="high" xtrc="p:2;9:30" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">Vorrangig für die Dokumentation von typographischen Merkmalen ist das
+                <b class="+ topic/ph hi-d/b " xtrc="b:1;10:20" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">Element <codeph class="+ topic/ph pr-d/codeph " xtrc="codeph:4;10:36" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">&lt;TextStyle&gt;</codeph></b> zu verwenden. </p>
+        <p class="- topic/p " xtrc="p:3;11:12" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">Parallel kann das <codeph class="+ topic/ph pr-d/codeph " xtrc="codeph:5;11:38" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">custom</codeph> Attribut innerhalb von
+                <codeph class="+ topic/ph pr-d/codeph " xtrc="codeph:6;12:25" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">&lt;Word&gt;</codeph>, <codeph class="+ topic/ph pr-d/codeph " xtrc="codeph:7;12:53" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">&lt;TextLine&gt;</codeph> und
+                <codeph class="+ topic/ph pr-d/codeph " xtrc="codeph:8;13:25" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">&lt;TextRegion&gt;</codeph> verwendet werden. In einigen Fällen kann nur mit
+            dem custom-Attribut eine typographische Besonderheit dokumentiert werden. Es sind
+            folgende <codeph class="+ topic/ph pr-d/codeph " xtrc="codeph:9;15:30" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">@custom</codeph>-Attribut-Werte verfügbar. </p>
+
+
+<table class="- topic/table " colsep="1" frame="all" id="table_fbw_sqx_f1b" rowsep="1" xtrc="table:1;18:65" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">
+<tgroup class="- topic/tgroup " cols="5" xtrc="tgroup:1;19:18" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">
+                <colspec class="- topic/colspec " colname="col1" colnum="1" colwidth="1*" rowheader="headers" xtrc="colspec:1;20:65" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita"/>
+                <colspec class="- topic/colspec " colname="col2" colnum="2" colwidth="1*" rowheader="headers" xtrc="colspec:2;21:65" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita"/>
+                <colspec class="- topic/colspec " colname="col3" colnum="3" colwidth="1*" rowheader="headers" xtrc="colspec:3;22:70" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita"/>
+                <colspec class="- topic/colspec " colname="col4" colnum="4" colwidth="1*" rowheader="headers" xtrc="colspec:4;23:70" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita"/>
+                <colspec class="- topic/colspec " colname="col5" colnum="5" colwidth="1*" rowheader="headers" xtrc="colspec:5;24:70" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita"/>
+                <thead class="- topic/thead " xtrc="thead:1;25:24" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">
+                    <row class="- topic/row " xtrc="row:1;26:26" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">
+                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="1" xtrc="entry:1;27:32" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">Typographische Besonderheiten</entry>
+                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="1" xtrc="entry:2;28:32" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">@custom Wert</entry>
+                        <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="1" xtrc="entry:3;29:32" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">@custom Wert-Beispiel</entry>
+                        <entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="1" xtrc="entry:4;30:32" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">
+                            <codeph class="+ topic/ph pr-d/codeph " xtrc="codeph:10;31:37" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">&lt;TextStyle&gt;</codeph> Element</entry>
+                        <entry class="- topic/entry " colname="col5" dita-ot:x="5" dita-ot:y="1" xtrc="entry:5;32:32" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">Hinweise</entry>
+                    </row>
+                </thead>
+                <tbody class="- topic/tbody " xtrc="tbody:1;35:24" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">
+                    <row class="- topic/row " xtrc="row:2;36:26" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">
+                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="2" xtrc="entry:6;37:32" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">Fettdruck</entry>
+                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="2" xtrc="entry:7;38:32" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">bold</entry>
+                        <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="2" xtrc="entry:8;39:32" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">
+                            <codeblock class="+ topic/pre pr-d/codeblock " xml:space="preserve" xtrc="codeblock:1;40:40" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">textStyle {offset:0; length:4;bold:true;}</codeblock>
+                        </entry>
+                        <entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="2" xtrc="entry:9;42:32" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">
+                            <codeblock class="+ topic/pre pr-d/codeblock " xml:space="preserve" xtrc="codeblock:2;43:40" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">&lt;TextStyle bold="true"&gt;</codeblock>
+                        </entry>
+                        <entry class="- topic/entry " colname="col5" dita-ot:x="5" dita-ot:y="2" xtrc="entry:10;45:33" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita"/>
+                    </row>
+                    <row class="- topic/row " xtrc="row:3;47:26" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">
+                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="3" xtrc="entry:11;48:32" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">Kursivdruck</entry>
+                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="3" xtrc="entry:12;49:32" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">italic</entry>
+                        <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="3" xtrc="entry:13;50:32" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">
+                            <codeblock class="+ topic/pre pr-d/codeblock " xml:space="preserve" xtrc="codeblock:3;51:40" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">textStyle {offset:0; length:4;italic:true;}</codeblock>
+                        </entry>
+                        <entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="3" xtrc="entry:14;53:32" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">
+                            <codeblock class="+ topic/pre pr-d/codeblock " xml:space="preserve" xtrc="codeblock:4;54:40" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">&lt;TextStyle italic="true"&gt;</codeblock>
+                        </entry>
+                        <entry class="- topic/entry " colname="col5" dita-ot:x="5" dita-ot:y="3" xtrc="entry:15;56:33" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita"/>
+                    </row>
+                    <row class="- topic/row " xtrc="row:4;58:26" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">
+                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="4" xtrc="entry:16;59:32" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">Sperrdruck</entry>
+                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="4" xtrc="entry:17;60:32" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">letterSpaced</entry>
+                        <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="4" xtrc="entry:18;61:32" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">
+                            <codeblock class="+ topic/pre pr-d/codeblock " xml:space="preserve" xtrc="codeblock:5;62:40" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">textStyle {offset:0; length:4;letterSpaced:true;}</codeblock>
+                        </entry>
+                        <entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="4" xtrc="entry:19;64:32" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">
+                            <codeblock class="+ topic/pre pr-d/codeblock " xml:space="preserve" xtrc="codeblock:6;65:40" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">&lt;TextStyle letterSpaced="true"&gt;</codeblock>
+                        </entry>
+                        <entry class="- topic/entry " colname="col5" dita-ot:x="5" dita-ot:y="4" xtrc="entry:20;67:33" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita"/>
+                    </row>
+                    <row class="- topic/row " xtrc="row:5;69:26" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">
+                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="5" xtrc="entry:21;70:32" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">Kapitälchen</entry>
+                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="5" xtrc="entry:22;71:32" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">smallCaps</entry>
+                        <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="5" xtrc="entry:23;72:32" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">
+                            <codeblock class="+ topic/pre pr-d/codeblock " xml:space="preserve" xtrc="codeblock:7;73:40" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">textStyle {offset:0; length:4;smallCaps:true;}</codeblock>
+                        </entry>
+                        <entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="5" xtrc="entry:24;75:32" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">
+                            <codeblock class="+ topic/pre pr-d/codeblock " xml:space="preserve" xtrc="codeblock:8;76:40" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">&lt;TextStyle smallCaps="true"&gt;</codeblock>
+                        </entry>
+                        <entry class="- topic/entry " colname="col5" dita-ot:x="5" dita-ot:y="5" xtrc="entry:25;78:33" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita"/>
+                    </row>
+                    <row class="- topic/row " xtrc="row:6;80:26" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">
+                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="6" xtrc="entry:26;81:32" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">gedruckte Unterstreichung</entry>
+                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="6" xtrc="entry:27;82:32" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">underlined</entry>
+                        <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="6" xtrc="entry:28;83:32" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">
+                            <codeblock class="+ topic/pre pr-d/codeblock " xml:space="preserve" xtrc="codeblock:9;84:40" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">textStyle {offset:0; length:4;underlined:true;}</codeblock>
+                        </entry>
+                        <entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="6" xtrc="entry:29;86:32" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">
+                            <codeblock class="+ topic/pre pr-d/codeblock " xml:space="preserve" xtrc="codeblock:10;87:40" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">&lt;TextStyle underlined="true"&gt;</codeblock>
+                        </entry>
+                        <entry class="- topic/entry " colname="col5" dita-ot:x="5" dita-ot:y="6" xtrc="entry:30;89:33" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita"/>
+                    </row>
+                    <row class="- topic/row " xtrc="row:7;91:26" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">
+                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="7" xtrc="entry:31;92:32" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">doppelte Unterstreichung</entry>
+                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="7" xtrc="entry:32;93:32" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">doubleunderlined</entry>
+                        <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="7" xtrc="entry:33;94:32" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">
+                            <codeblock class="+ topic/pre pr-d/codeblock " xml:space="preserve" xtrc="codeblock:11;95:40" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">textStyle {offset:0; length:4;doubleunderlined:true;}</codeblock>
+                        </entry>
+                        <entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="7" xtrc="entry:34;97:32" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">
+                            
+                        </entry>
+                        <entry class="- topic/entry " colname="col5" dita-ot:x="5" dita-ot:y="7" xtrc="entry:35;100:32" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita"><p class="- topic/p " importance="high" xtrc="p:4;100:53" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">nur in custom zu definieren</p></entry>
+                    </row>
+                    <row class="- topic/row " xtrc="row:8;102:26" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">
+                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="8" xtrc="entry:36;103:32" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">Durchgestrichen</entry>
+                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="8" xtrc="entry:37;104:32" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">strikethrough</entry>
+                        <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="8" xtrc="entry:38;105:32" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">
+                            <codeblock class="+ topic/pre pr-d/codeblock " xml:space="preserve" xtrc="codeblock:12;106:40" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">textStyle {offset:0; length:4;strikethrough:true;}</codeblock>
+                        </entry>
+                        <entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="8" xtrc="entry:39;108:32" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">
+                            
+                        </entry>
+                        <entry class="- topic/entry " colname="col5" dita-ot:x="5" dita-ot:y="8" xtrc="entry:40;111:32" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita"><p class="- topic/p " importance="high" xtrc="p:5;111:53" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">nur in custom zu definieren</p></entry>
+                    </row>
+                    <row class="- topic/row " xtrc="row:9;113:26" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">
+                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="9" xtrc="entry:41;114:32" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">Hochstellung</entry>
+                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="9" xtrc="entry:42;115:32" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">superscript</entry>
+                        <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="9" xtrc="entry:43;116:32" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">
+                            <codeblock class="+ topic/pre pr-d/codeblock " xml:space="preserve" xtrc="codeblock:13;117:40" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">textStyle {offset:0; length:4;superscript:true;}</codeblock>
+                        </entry>
+                        <entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="9" xtrc="entry:44;119:32" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">
+                            <codeblock class="+ topic/pre pr-d/codeblock " xml:space="preserve" xtrc="codeblock:14;120:40" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">&lt;TextStyle superscript="true"&gt;</codeblock>
+                        </entry>
+                        <entry class="- topic/entry " colname="col5" dita-ot:x="5" dita-ot:y="9" xtrc="entry:45;122:33" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita"/>
+                    </row>
+                    <row class="- topic/row " xtrc="row:10;124:26" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">
+                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="10" xtrc="entry:46;125:32" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">Tiefstellung</entry>
+                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="10" xtrc="entry:47;126:32" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">subscript</entry>
+                        <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="10" xtrc="entry:48;127:32" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">
+                            <codeblock class="+ topic/pre pr-d/codeblock " xml:space="preserve" xtrc="codeblock:15;128:40" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">textStyle {offset:0; length:4;subscript:true;}</codeblock>
+                        </entry>
+                        <entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="10" xtrc="entry:49;130:32" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">
+                            <codeblock class="+ topic/pre pr-d/codeblock " xml:space="preserve" xtrc="codeblock:16;131:40" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">&lt;TextStyle subscript="true"&gt;</codeblock>
+                        </entry>
+                        <entry class="- topic/entry " colname="col5" dita-ot:x="5" dita-ot:y="10" xtrc="entry:50;133:33" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita"/>
+                    </row>
+                    <row class="- topic/row " xtrc="row:11;135:26" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">
+                        <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="11" xtrc="entry:51;136:32" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">Ligatur</entry>
+                        <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="11" xtrc="entry:52;137:32" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">ligatur</entry>
+                        <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="11" xtrc="entry:53;138:32" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">
+                            <codeblock class="+ topic/pre pr-d/codeblock " xml:space="preserve" xtrc="codeblock:17;139:40" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">textStyle {offset:0; length:2;ligatur:true;}</codeblock>
+                        </entry>
+                        <entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="11" xtrc="entry:54;141:32" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita"/>
+                        <entry class="- topic/entry " colname="col5" dita-ot:x="5" dita-ot:y="11" xtrc="entry:55;142:32" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita"><p class="- topic/p " importance="high" xtrc="p:6;142:53" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">nur in custom zu definieren</p><p class="- topic/p " xtrc="p:7;142:87" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita">Für die Erkennung, Verwendung und Transkription von Ligaturen siehe
+                            die Regelungen in <xref class="- topic/xref " href="trLigatur.dita#trLigatur" xtrc="xref:1;143:86" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita" type="topic"><?ditaot gentext?>Ligaturen</xref>.</p></entry>
+                    </row>
+                </tbody>
+            </tgroup>
+</table>
+
+
+    </body>
+<related-links class="- topic/related-links " xtrc="related-links:1;151:16" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita"><linkpool class="- topic/linkpool " xtrc="topicref:60;110:37" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/ocrd.ditamap"><link class="- topic/link " format="dita" href="layout.dita" mapclass="- map/topicref bookmap/part " role="parent" scope="local" type="topic" xtrc="part:3;106:26" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/ocrd.ditamap"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Layout und Struktur</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">Richtlinien zur Erfassung des Layouts und der Struktur von gedruckten Texten für die Nutzung als Ground Truth</desc></link><linkpool class="- topic/linkpool " xtrc="topicref:60;110:37" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/ocrd.ditamap"><link class="- topic/link " format="dita" href="lySchriftarten.dita" mapclass="- map/topicref " role="child" scope="local" type="topic" xtrc="topicref:61;111:51" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/ocrd.ditamap"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Schriftarten</linktext></link><link class="- topic/link " format="dita" href="lyBesonderheiten.dita" mapclass="- map/topicref " role="child" scope="local" type="topic" xtrc="topicref:62;112:53" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/ocrd.ditamap"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Weitere Besonderheiten</linktext></link></linkpool></linkpool>
+<link class="- topic/link " href="trLigatur.dita#trLigatur" xtrc="link:1;152:40" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita" type="topic"><?ditaot gentext?><linktext class="- topic/linktext ">Ligaturen</linktext></link>
+        <link class="- topic/link " href="pagecontent_xsd_Complex_Type_pc_TextStyleType.dita" xtrc="link:2;153:74" xtrf="file:/C:/Users/matthias/Documents/GitHub/Transkriptionsrichtlinie/documentation/lyTypographie.dita" type="topic"><?ditaot gentext?><linktext class="- topic/linktext ">Complex Type pc:TextStyleType</linktext></link>
+</related-links>
+</topic>

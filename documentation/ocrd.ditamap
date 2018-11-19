@@ -3,7 +3,7 @@
 <bookmap xml:lang="de-DE">
     <booktitle>
         <mainbooktitle>Richtlinien zur Transkription für Ground Truth </mainbooktitle>
-        
+
     </booktitle>
     <bookmeta>
         <authorinformation>
@@ -18,7 +18,8 @@
             <organizationinfo>
                 <namedetails>
                     <organizationnamedetails>
-                        <organizationname>OCR-D, Zentrum Sprache, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</organizationname>
+                        <organizationname>OCR-D, Zentrum Sprache, Berlin-Brandenburgische Akademie
+                            der Wissenschaften (BBAW)</organizationname>
                     </organizationnamedetails>
                 </namedetails>
             </organizationinfo>
@@ -27,133 +28,133 @@
             <created date="March, 2017"/>
         </critdates>
     </bookmeta>
-<part href="trDokuKonventionen.dita"/>
-    
+    <part href="trDokuKonventionen.dita"/>
+
     <part href="transkription.dita">
-<topicref href="level_1_4.dita"/>
-<topicref href="level_2_2.dita"/>
-<topicref href="level_3_1.dita"/>
-     <topicref href="trGrundsaetze.dita">
-<topicref href="tr_level_1_4.dita"/>
-<topicref href="tr_level_2_4.dita"/>
-<topicref href="tr_level_3_4.dita"/>
-</topicref>
-     <topicref href="trSchreibweisen.dita">
-       <topicref href="trSchreibungIJ.dita">
-<topicref href="level_1_2.dita"/>
-<topicref href="level_2_und_3.dita"/>
-</topicref>
-       <topicref href="trSchreibungUV.dita">
-<topicref href="level_1_3.dita"/>
-<topicref href="level_2_und_3_0.dita"/>
-</topicref>
-       <topicref href="trSchreibungS.dita">
-<topicref href="level_1_5.dita"/>
-<topicref href="level_2_und_3_1.dita"/>
-</topicref>
-       <topicref href="trSchreibungR.dita">
-<topicref href="level_1_6.dita"/>
-<topicref href="level_2_und_3_2.dita"/>
-</topicref>
-       <topicref href="trLigatur.dita">
-<topicref href="tr_level_1.dita"/>
-<topicref href="tr_level_2.dita"/>
-<topicref href="tr_level_3.dita"/>
-</topicref>
-       <topicref href="trUmlaute.dita">
-<topicref href="level_1_7.dita"/>
-<topicref href="level_2_und_3_3.dita"/>
-<topicref href="level_3_2.dita"/>
-</topicref>
-       <topicref href="trNasalstrich.dita">
-       <topicref href="tr_nasal_level_1.dita"/>
-       <topicref href="tr_nasal_level_2.dita"/>
-       <topicref href="tr_nasal_level_3.dita"/>
-</topicref>
-       <topicref href="trDiakritika.dita">
-       <topicref href="tr_dia_level_1_0.dita"/>
-       <topicref href="tr_dia_level_2_0.dita"/>
-       <topicref href="tr_dia_level_3_0.dita"/>
-</topicref>
-       <topicref href="trSilbentrennung.dita">
-<topicref href="level_1_8.dita"/>
-<topicref href="level_2_3.dita"/>
-</topicref>
-       <!--<topicref href="trApostrophe.dita"/>-->
-     </topicref>
-     <topicref href="trSonderzeichen.dita">
-<topicref href="trBruch.dita"/>
-<topicref href="trRom.dita"/>
-     <topicref href="trHochgestellteZahl.dita"/>
-<topicref href="trtiefgestellteZahl.dita"/>
-</topicref>
-    <topicref href="trTabellen.dita"/>
-<topicref href="trHandschrift.dita"/>
-     <topicref href="trZeichensetzung.dita">
-       <topicref href="trGedankenstrich.dita"/>
-       <topicref href="trAnfZeichen.dita"/>
-<topicref href="leerzeichen.dita">
-<topicref href="tr_level_1_3.dita"/>
-<topicref href="tr_level_2_3.dita"/>
-</topicref>
-     </topicref>
-<topicref href="trBeispiele.dita">
-<topicref href="ocr_d_koordinationsgremium_codierung.dita"/>
-<topicref href="trFremdsprache.dita"/>
-<topicref href="trLigaturen2.dita"/>
-</topicref>
+        <topicref href="level_1_4.dita"/>
+        <topicref href="level_2_2.dita"/>
+        <topicref href="level_3_1.dita"/>
+        <topicref href="trGrundsaetze.dita">
+            <topicref href="tr_level_1_4.dita"/>
+            <topicref href="tr_level_2_4.dita"/>
+            <topicref href="tr_level_3_4.dita"/>
+        </topicref>
+        <topicref href="trSchreibweisen.dita">
+            <topicref href="trSchreibungIJ.dita">
+                <topicref href="level_1_2.dita"/>
+                <topicref href="level_2_und_3.dita"/>
+            </topicref>
+            <topicref href="trSchreibungUV.dita">
+                <topicref href="level_1_3.dita"/>
+                <topicref href="level_2_und_3_0.dita"/>
+            </topicref>
+            <topicref href="trSchreibungS.dita">
+                <topicref href="level_1_5.dita"/>
+                <topicref href="level_2_und_3_1.dita"/>
+            </topicref>
+            <topicref href="trSchreibungR.dita">
+                <topicref href="level_1_6.dita"/>
+                <topicref href="level_2_und_3_2.dita"/>
+            </topicref>
+            <topicref href="trLigatur.dita">
+                <topicref href="tr_level_1.dita"/>
+                <topicref href="tr_level_2.dita"/>
+                <topicref href="tr_level_3.dita"/>
+            </topicref>
+            <topicref href="trUmlaute.dita">
+                <topicref href="level_1_7.dita"/>
+                <topicref href="level_2_und_3_3.dita"/>
+                <topicref href="level_3_2.dita"/>
+            </topicref>
+            <topicref href="trNasalstrich.dita">
+                <topicref href="tr_nasal_level_1.dita"/>
+                <topicref href="tr_nasal_level_2.dita"/>
+                <topicref href="tr_nasal_level_3.dita"/>
+            </topicref>
+            <topicref href="trDiakritika.dita">
+                <topicref href="tr_dia_level_1_0.dita"/>
+                <topicref href="tr_dia_level_2_0.dita"/>
+                <topicref href="tr_dia_level_3_0.dita"/>
+            </topicref>
+            <topicref href="trSilbentrennung.dita">
+                <topicref href="level_1_8.dita"/>
+                <topicref href="level_2_3.dita"/>
+            </topicref>
+            <!--<topicref href="trApostrophe.dita"/>-->
+        </topicref>
+        <topicref href="trSonderzeichen.dita">
+            <topicref href="trBruch.dita"/>
+            <topicref href="trRom.dita"/>
+            <topicref href="trHochgestellteZahl.dita"/>
+            <topicref href="trtiefgestellteZahl.dita"/>
+        </topicref>
+        <topicref href="trTabellen.dita"/>
+        <topicref href="trHandschrift.dita"/>
+        <topicref href="trZeichensetzung.dita">
+            <topicref href="trGedankenstrich.dita"/>
+            <topicref href="trAnfZeichen.dita"/>
+            <topicref href="leerzeichen.dita">
+                <topicref href="tr_level_1_3.dita"/>
+                <topicref href="tr_level_2_3.dita"/>
+            </topicref>
+        </topicref>
+        <topicref href="trBeispiele.dita">
+            <topicref href="ocr_d_koordinationsgremium_codierung.dita"/>
+            <topicref href="trFremdsprache.dita"/>
+            <topicref href="trLigaturen2.dita"/>
+        </topicref>
     </part>
-<part href="layout.dita">
-<topicref href="lyAllgemein.dita"/>
-<topicref href="lySatzspiegel.dita"/>
-<topicref href="lyLeserichtung.dita"/>
-<topicref href="lyTypographie.dita">
+    <part href="layout.dita">
+        <topicref href="lyAllgemein.dita"/>
+        <topicref href="lySatzspiegel.dita"/>
+        <topicref href="lyLeserichtung.dita"/>
+        <topicref href="lyTypographie.dita">
             <topicref href="lySchriftarten.dita"/>
             <topicref href="lyBesonderheiten.dita"/>
         </topicref>
-    <topicref href="lySeitentypen.dita"/>
-<topicref href="lyTextregionen.dita">
-<topicref href="ly_level_1_5.dita"/>
-<topicref href="ly_level_2_5.dita"/>
-<topicref href="lytextregion.dita">
-<topicref href="lyAbsatz.dita"/>
-<topicref href="lyUeberschrift.dita"/>
-<topicref href="lyKolumnentitel.dita"/>
-<topicref href="lySeitenzahl.dita"/>
-<topicref href="lyMarginalie.dita"/>
-<topicref href="lyFussnote.dita"/>
-<topicref href="lyInitiale.dita"/>
-<topicref href="lyBogensignatur.dita"/>
-<topicref href="lyKustode.dita"/>
-<topicref href="lyDiskontinuierlich.dita"/>
-<topicref href="lyInhaltsverzeichnis.dita"/>
-</topicref>
-<topicref href="lyBildbereiche.dita"/>
-<topicref href="lyGraphik.dita"/>
-<topicref href="lySeparatoren.dita">
-<topicref href="level_1_1.dita"/>
-<topicref href="level_2_1.dita"/>
-</topicref>
-<topicref href="lyTabellen.dita"/>
-<topicref href="lyMathematische_Zeichen.dita"/>
-<topicref href="lyChemische_Symbole.dita"/>
-<topicref href="lyNotenzeichen.dita"/>
-<topicref href="lyWerbung.dita"/>
-<topicref href="lyRauschen.dita"/>
-<topicref href="lySonstiges.dita"/>
-</topicref>
-</part>
-<part href="structur_gt.dita">
-<topicref href="structur_gt.ditamap" format="ditamap"/>
-</part>
-    
-<!--<part href="trPage.dita">
-<topicref href="dok.ditamap" format="ditamap"/>
-</part>-->
-<part href="page_xml_erweiterungen.dita">
-<topicref href="exif_pagexml_konkordanz.dita"/>
-</part>
-<part href="impressum.dita"/>
+        <topicref href="lySeitentypen.dita"/>
+        <topicref href="lyTextregionen.dita">
+            <topicref href="ly_level_1_5.dita"/>
+            <topicref href="ly_level_2_5.dita"/>
+            <topicref href="lytextregion.dita">
+                <topicref href="lyAbsatz.dita"/>
+                <topicref href="lyUeberschrift.dita"/>
+                <topicref href="lyKolumnentitel.dita"/>
+                <topicref href="lySeitenzahl.dita"/>
+                <topicref href="lyMarginalie.dita"/>
+                <topicref href="lyFussnote.dita"/>
+                <topicref href="lyInitiale.dita"/>
+                <topicref href="lyBogensignatur.dita"/>
+                <topicref href="lyKustode.dita"/>
+                <topicref href="lyDiskontinuierlich.dita"/>
+                <topicref href="lyInhaltsverzeichnis.dita"/>
+            </topicref>
+            <topicref href="lyBildbereiche.dita"/>
+            <topicref href="lyGraphik.dita"/>
+            <topicref href="lySeparatoren.dita">
+                <topicref href="level_1_1.dita"/>
+                <topicref href="level_2_1.dita"/>
+            </topicref>
+            <topicref href="lyTabellen.dita"/>
+            <topicref href="lyMathematische_Zeichen.dita"/>
+            <topicref href="lyChemische_Symbole.dita"/>
+            <topicref href="lyNotenzeichen.dita"/>
+            <topicref href="lyWerbung.dita"/>
+            <topicref href="lyRauschen.dita"/>
+            <topicref href="lySonstiges.dita"/>
+        </topicref>
+    </part>
+    <part href="structur_gt.dita">
+        <topicref href="structur_gt.ditamap" format="ditamap"/>
+    </part>
+
+    <part href="trPage.dita">
+        <topicref href="dok.ditamap" format="ditamap"/>
+    </part>
+    <part href="page_xml_erweiterungen.dita">
+        <topicref href="exif_pagexml_konkordanz.dita"/>
+    </part>
+    <part href="impressum.dita"/>
 
 
 
