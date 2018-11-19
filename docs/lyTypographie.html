@@ -1,0 +1,142 @@
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta charset="UTF-8"><meta name="copyright" content="(C) Copyright 2018"><meta name="DC.rights.owner" content="(C) Copyright 2018"><meta name="DC.Type" content="topic"><meta name="DC.Relation" scheme="URI" content="layout.html"><meta name="DC.Relation" scheme="URI" content="lySchriftarten.html"><meta name="DC.Relation" scheme="URI" content="lyBesonderheiten.html"><meta name="DC.Relation" scheme="URI" content="trLigatur.html#trLigatur"><meta name="DC.Relation" scheme="URI" content="pagecontent_xsd_Complex_Type_pc_TextStyleType.html"><meta name="DC.Creator" content="Matthias Boenig OCR-D, Zentrum Sprache, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)"><meta name="DC.Date.Created" content="March, 2017"><meta name="DC.Format" content="HTML5"><meta name="DC.Identifier" content="lyTypographie"><link rel="stylesheet" type="text/css" href="commonltr.css"><title>Typographische Besonderheiten</title></head><body id="lyTypographie"><main role="main"><article role="article" aria-labelledby="ariaid-title1">
+    <h1 class="title topictitle1" id="ariaid-title1">Typographische Besonderheiten</h1>
+    <div class="body">
+<p class="p">Für alle Element-Bereiche (<code class="ph codeph">&lt;Word&gt;</code>, <code class="ph codeph">&lt;TextLine&gt;</code> und
+                <code class="ph codeph">&lt;TextRegion&gt;</code>)  gelten die folgenden typographischen
+            Auszeichnungswerte.  </p>
+        <p class="p">Vorrangig für die Dokumentation von typographischen Merkmalen ist das
+                <strong class="ph b">Element <code class="ph codeph">&lt;TextStyle&gt;</code></strong> zu verwenden. </p>
+        <p class="p">Parallel kann das <code class="ph codeph">custom</code> Attribut innerhalb von
+                <code class="ph codeph">&lt;Word&gt;</code>, <code class="ph codeph">&lt;TextLine&gt;</code> und
+                <code class="ph codeph">&lt;TextRegion&gt;</code> verwendet werden. In einigen Fällen kann nur mit
+            dem custom-Attribut eine typographische Besonderheit dokumentiert werden. Es sind
+            folgende <code class="ph codeph">@custom</code>-Attribut-Werte verfügbar. </p>
+
+
+<table class="table frame-all" id="lyTypographie__table_fbw_sqx_f1b"><caption></caption><colgroup><col style="width:20%"><col style="width:20%"><col style="width:20%"><col style="width:20%"><col style="width:20%"></colgroup><thead class="thead">
+                    <tr class="row">
+                        <th class="entry colsep-1 rowsep-1" id="lyTypographie__table_fbw_sqx_f1b__entry__1">Typographische Besonderheiten</th>
+                        <th class="entry colsep-1 rowsep-1" id="lyTypographie__table_fbw_sqx_f1b__entry__2">@custom Wert</th>
+                        <th class="entry colsep-1 rowsep-1" id="lyTypographie__table_fbw_sqx_f1b__entry__3">@custom Wert-Beispiel</th>
+                        <th class="entry colsep-1 rowsep-1" id="lyTypographie__table_fbw_sqx_f1b__entry__4">
+                            <code class="ph codeph">&lt;TextStyle&gt;</code> Element</th>
+                        <th class="entry colsep-1 rowsep-1" id="lyTypographie__table_fbw_sqx_f1b__entry__5">Hinweise</th>
+                    </tr>
+                </thead><tbody class="tbody">
+                    <tr class="row">
+                        <td class="entry colsep-1 rowsep-1" headers="lyTypographie__table_fbw_sqx_f1b__entry__1 ">Fettdruck</td>
+                        <td class="entry colsep-1 rowsep-1" headers="lyTypographie__table_fbw_sqx_f1b__entry__2 ">bold</td>
+                        <td class="entry colsep-1 rowsep-1" headers="lyTypographie__table_fbw_sqx_f1b__entry__3 ">
+                            <pre class="pre codeblock"><code>textStyle {offset:0; length:4;bold:true;}</code></pre>
+                        </td>
+                        <td class="entry colsep-1 rowsep-1" headers="lyTypographie__table_fbw_sqx_f1b__entry__4 ">
+                            <pre class="pre codeblock"><code>&lt;TextStyle bold="true"&gt;</code></pre>
+                        </td>
+                        <td class="entry colsep-1 rowsep-1" headers="lyTypographie__table_fbw_sqx_f1b__entry__5 "></td>
+                    </tr>
+                    <tr class="row">
+                        <td class="entry colsep-1 rowsep-1" headers="lyTypographie__table_fbw_sqx_f1b__entry__1 ">Kursivdruck</td>
+                        <td class="entry colsep-1 rowsep-1" headers="lyTypographie__table_fbw_sqx_f1b__entry__2 ">italic</td>
+                        <td class="entry colsep-1 rowsep-1" headers="lyTypographie__table_fbw_sqx_f1b__entry__3 ">
+                            <pre class="pre codeblock"><code>textStyle {offset:0; length:4;italic:true;}</code></pre>
+                        </td>
+                        <td class="entry colsep-1 rowsep-1" headers="lyTypographie__table_fbw_sqx_f1b__entry__4 ">
+                            <pre class="pre codeblock"><code>&lt;TextStyle italic="true"&gt;</code></pre>
+                        </td>
+                        <td class="entry colsep-1 rowsep-1" headers="lyTypographie__table_fbw_sqx_f1b__entry__5 "></td>
+                    </tr>
+                    <tr class="row">
+                        <td class="entry colsep-1 rowsep-1" headers="lyTypographie__table_fbw_sqx_f1b__entry__1 ">Sperrdruck</td>
+                        <td class="entry colsep-1 rowsep-1" headers="lyTypographie__table_fbw_sqx_f1b__entry__2 ">letterSpaced</td>
+                        <td class="entry colsep-1 rowsep-1" headers="lyTypographie__table_fbw_sqx_f1b__entry__3 ">
+                            <pre class="pre codeblock"><code>textStyle {offset:0; length:4;letterSpaced:true;}</code></pre>
+                        </td>
+                        <td class="entry colsep-1 rowsep-1" headers="lyTypographie__table_fbw_sqx_f1b__entry__4 ">
+                            <pre class="pre codeblock"><code>&lt;TextStyle letterSpaced="true"&gt;</code></pre>
+                        </td>
+                        <td class="entry colsep-1 rowsep-1" headers="lyTypographie__table_fbw_sqx_f1b__entry__5 "></td>
+                    </tr>
+                    <tr class="row">
+                        <td class="entry colsep-1 rowsep-1" headers="lyTypographie__table_fbw_sqx_f1b__entry__1 ">Kapitälchen</td>
+                        <td class="entry colsep-1 rowsep-1" headers="lyTypographie__table_fbw_sqx_f1b__entry__2 ">smallCaps</td>
+                        <td class="entry colsep-1 rowsep-1" headers="lyTypographie__table_fbw_sqx_f1b__entry__3 ">
+                            <pre class="pre codeblock"><code>textStyle {offset:0; length:4;smallCaps:true;}</code></pre>
+                        </td>
+                        <td class="entry colsep-1 rowsep-1" headers="lyTypographie__table_fbw_sqx_f1b__entry__4 ">
+                            <pre class="pre codeblock"><code>&lt;TextStyle smallCaps="true"&gt;</code></pre>
+                        </td>
+                        <td class="entry colsep-1 rowsep-1" headers="lyTypographie__table_fbw_sqx_f1b__entry__5 "></td>
+                    </tr>
+                    <tr class="row">
+                        <td class="entry colsep-1 rowsep-1" headers="lyTypographie__table_fbw_sqx_f1b__entry__1 ">gedruckte Unterstreichung</td>
+                        <td class="entry colsep-1 rowsep-1" headers="lyTypographie__table_fbw_sqx_f1b__entry__2 ">underlined</td>
+                        <td class="entry colsep-1 rowsep-1" headers="lyTypographie__table_fbw_sqx_f1b__entry__3 ">
+                            <pre class="pre codeblock"><code>textStyle {offset:0; length:4;underlined:true;}</code></pre>
+                        </td>
+                        <td class="entry colsep-1 rowsep-1" headers="lyTypographie__table_fbw_sqx_f1b__entry__4 ">
+                            <pre class="pre codeblock"><code>&lt;TextStyle underlined="true"&gt;</code></pre>
+                        </td>
+                        <td class="entry colsep-1 rowsep-1" headers="lyTypographie__table_fbw_sqx_f1b__entry__5 "></td>
+                    </tr>
+                    <tr class="row">
+                        <td class="entry colsep-1 rowsep-1" headers="lyTypographie__table_fbw_sqx_f1b__entry__1 ">doppelte Unterstreichung</td>
+                        <td class="entry colsep-1 rowsep-1" headers="lyTypographie__table_fbw_sqx_f1b__entry__2 ">doubleunderlined</td>
+                        <td class="entry colsep-1 rowsep-1" headers="lyTypographie__table_fbw_sqx_f1b__entry__3 ">
+                            <pre class="pre codeblock"><code>textStyle {offset:0; length:4;doubleunderlined:true;}</code></pre>
+                        </td>
+                        <td class="entry colsep-1 rowsep-1" headers="lyTypographie__table_fbw_sqx_f1b__entry__4 ">
+                            
+                        </td>
+                        <td class="entry colsep-1 rowsep-1" headers="lyTypographie__table_fbw_sqx_f1b__entry__5 "><p class="p">nur in custom zu definieren</p></td>
+                    </tr>
+                    <tr class="row">
+                        <td class="entry colsep-1 rowsep-1" headers="lyTypographie__table_fbw_sqx_f1b__entry__1 ">Durchgestrichen</td>
+                        <td class="entry colsep-1 rowsep-1" headers="lyTypographie__table_fbw_sqx_f1b__entry__2 ">strikethrough</td>
+                        <td class="entry colsep-1 rowsep-1" headers="lyTypographie__table_fbw_sqx_f1b__entry__3 ">
+                            <pre class="pre codeblock"><code>textStyle {offset:0; length:4;strikethrough:true;}</code></pre>
+                        </td>
+                        <td class="entry colsep-1 rowsep-1" headers="lyTypographie__table_fbw_sqx_f1b__entry__4 ">
+                            
+                        </td>
+                        <td class="entry colsep-1 rowsep-1" headers="lyTypographie__table_fbw_sqx_f1b__entry__5 "><p class="p">nur in custom zu definieren</p></td>
+                    </tr>
+                    <tr class="row">
+                        <td class="entry colsep-1 rowsep-1" headers="lyTypographie__table_fbw_sqx_f1b__entry__1 ">Hochstellung</td>
+                        <td class="entry colsep-1 rowsep-1" headers="lyTypographie__table_fbw_sqx_f1b__entry__2 ">superscript</td>
+                        <td class="entry colsep-1 rowsep-1" headers="lyTypographie__table_fbw_sqx_f1b__entry__3 ">
+                            <pre class="pre codeblock"><code>textStyle {offset:0; length:4;superscript:true;}</code></pre>
+                        </td>
+                        <td class="entry colsep-1 rowsep-1" headers="lyTypographie__table_fbw_sqx_f1b__entry__4 ">
+                            <pre class="pre codeblock"><code>&lt;TextStyle superscript="true"&gt;</code></pre>
+                        </td>
+                        <td class="entry colsep-1 rowsep-1" headers="lyTypographie__table_fbw_sqx_f1b__entry__5 "></td>
+                    </tr>
+                    <tr class="row">
+                        <td class="entry colsep-1 rowsep-1" headers="lyTypographie__table_fbw_sqx_f1b__entry__1 ">Tiefstellung</td>
+                        <td class="entry colsep-1 rowsep-1" headers="lyTypographie__table_fbw_sqx_f1b__entry__2 ">subscript</td>
+                        <td class="entry colsep-1 rowsep-1" headers="lyTypographie__table_fbw_sqx_f1b__entry__3 ">
+                            <pre class="pre codeblock"><code>textStyle {offset:0; length:4;subscript:true;}</code></pre>
+                        </td>
+                        <td class="entry colsep-1 rowsep-1" headers="lyTypographie__table_fbw_sqx_f1b__entry__4 ">
+                            <pre class="pre codeblock"><code>&lt;TextStyle subscript="true"&gt;</code></pre>
+                        </td>
+                        <td class="entry colsep-1 rowsep-1" headers="lyTypographie__table_fbw_sqx_f1b__entry__5 "></td>
+                    </tr>
+                    <tr class="row">
+                        <td class="entry colsep-1 rowsep-1" headers="lyTypographie__table_fbw_sqx_f1b__entry__1 ">Ligatur</td>
+                        <td class="entry colsep-1 rowsep-1" headers="lyTypographie__table_fbw_sqx_f1b__entry__2 ">ligatur</td>
+                        <td class="entry colsep-1 rowsep-1" headers="lyTypographie__table_fbw_sqx_f1b__entry__3 ">
+                            <pre class="pre codeblock"><code>textStyle {offset:0; length:2;ligatur:true;}</code></pre>
+                        </td>
+                        <td class="entry colsep-1 rowsep-1" headers="lyTypographie__table_fbw_sqx_f1b__entry__4 "></td>
+                        <td class="entry colsep-1 rowsep-1" headers="lyTypographie__table_fbw_sqx_f1b__entry__5 "><p class="p">nur in custom zu definieren</p><p class="p">Für die Erkennung, Verwendung und Transkription von Ligaturen siehe
+                            die Regelungen in <a class="xref" href="trLigatur.html#trLigatur">Ligaturen</a>.</p></td>
+                    </tr>
+                </tbody></table>
+
+
+    </div>
+<nav role="navigation" class="related-links"><ul class="ullinks"><li class="link ulchildlink"><strong><a href="lySchriftarten.html">Schriftarten</a></strong><br></li><li class="link ulchildlink"><strong><a href="lyBesonderheiten.html">Weitere Besonderheiten</a></strong><br></li></ul><div class="familylinks"><div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="layout.html" title="Richtlinien zur Erfassung des Layouts und der Struktur von gedruckten Texten für die Nutzung als Ground Truth">Layout und Struktur</a></div></div><div class="linklist relinfo"><strong>Related information</strong><br><ul class="linklist"><li class="linklist"><a class="link" href="trLigatur.html#trLigatur">Ligaturen</a></li><li class="linklist"><a class="link" href="pagecontent_xsd_Complex_Type_pc_TextStyleType.html">Complex Type pc:TextStyleType</a></li></ul></div></nav>
+</article></main></body></html>

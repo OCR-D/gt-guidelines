@@ -1,0 +1,64 @@
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta charset="UTF-8"><meta name="copyright" content="(C) Copyright 2018"><meta name="DC.rights.owner" content="(C) Copyright 2018"><meta name="DC.Type" content="topic"><meta name="DC.Relation" scheme="URI" content="lytextregion.html"><meta name="DC.Creator" content="Matthias Boenig OCR-D, Zentrum Sprache, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)"><meta name="DC.Date.Created" content="March, 2017"><meta name="DC.Format" content="HTML5"><meta name="DC.Identifier" content="lyInitiale"><link rel="stylesheet" type="text/css" href="commonltr.css"><title>Initiale (drop-capital)</title></head><body id="lyInitiale"><main role="main"><article role="article" aria-labelledby="ariaid-title1">
+    <h1 class="title topictitle1" id="ariaid-title1">Initiale (drop-capital)</h1>
+    <nav role="navigation" class="related-links"><div class="familylinks"><div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="lytextregion.html">Textregionen (TextRegion)</a></div></div></nav><article class="topic nested1" aria-labelledby="ariaid-title2" id="lyInitiale_textRegion"><h2 class="title topictitle2" id="ariaid-title2">TextRegion</h2><div class="body">
+<p class="p">Initialen werden als spezielle <code class="ph codeph">TextRegion</code> ausgezeichnet. Das gilt auch dann,
+            wenn sie stark graphisch verfremdet wurden. Sie erstrecken sich meistens über mehrere
+            Zeilen und es ist überwiegend der erste Buchstabe eines Absatzes, der graphisch
+            gestaltet oder farblich von der Schrift des Textes abgehoben wurde. In seltenen Fällen
+            sind ganze Wörter als Initialen gestaltet und werden auch dann als solche erfasst.</p>
+<p class="p"><img class="image" id="lyInitiale_textRegion__image_br1_hy3_r1b" height="450" src="images/lyInitiale.png" width="605"></p>
+</div>
+<nav role="navigation" class="related-links"><div class="linklist relinfo"><strong>Related information</strong><br><ul class="linklist"><li class="linklist"><a class="link" href="pagecontent_xsd_Complex_Type_pc_TextRegionType.html#TextRegionType">Complex Type pc:TextRegionType</a></li><li class="linklist"><a class="link" href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType">Complex Type pc:PageType</a></li><li class="linklist"><a class="link" href="pagecontent_xsd_Simple_Type_pc_TextTypeSimpleType.html#TextTypeSimpleType">Simple Type pc:TextTypeSimpleType</a></li></ul></div></nav>
+</article><article class="topic nested1" aria-labelledby="ariaid-title3" id="lyInitiale_Relation"><h2 class="title topictitle2" id="ariaid-title3">Relations</h2>
+    <div class="body">
+            <p class="p">Um die Beziehung u. a. von Initiale (<code class="ph codeph">&lt;textRegion type="drop-cap"&gt;</code>
+                und <code class="ph codeph">&lt;textRegion type="paragraph"&gt;</code>) und u. a. einem Paragraphen
+                zu dokumentieren ist das Element <code class="ph codeph">&lt;Relations&gt;</code> zu verwenden. Nach
+                der Dokumentation der <code class="ph codeph">&lt;ReadingOrder&gt;</code> kann mit dem Element
+                    <code class="ph codeph">&lt;relations&gt;</code> die Beziehung zwischen den Elementen und
+                Regionen dargestellt werden. </p><div class="example" id="lyInitiale_Relation__relations"><h3 class="title sectiontitle">Relations</h3><pre class="pre codeblock"><code>&lt;Relations&gt;
+            &lt;Relation type="join"&gt;
+                &lt;RegionRef regionRef="region_drop-cap1"/&gt;
+                &lt;RegionRef regionRef="paragraph_1"/&gt;
+            &lt;/Relation&gt;
+            &lt;Relation type="link"&gt;
+                &lt;RegionRef regionRef="region_drop-cap2"/&gt;
+                &lt;RegionRef regionRef="paragraph_2"/&gt;
+            &lt;/Relation&gt;
+        &lt;/Relations&gt;</code></pre></div>
+            <ol class="ol" id="lyInitiale_Relation__ol_hg1_54m_5fb">
+                <li class="li">Verwendung von <code class="ph codeph">join</code><ul class="ul">
+                        <li class="li">bei <code class="ph codeph">&lt;Word&gt;</code> und
+                                <code class="ph codeph">&lt;<code class="ph codeph">Word</code>&gt;</code>
+                            <p class="p">Dies trifft zu, wenn ein Wort am der Ende der Zeile
+                                getrennt und auf der darauffolgenden Zeile fortgesetzt
+                            wird.</p></li>
+                        <li class="li">bei <code class="ph codeph"><code class="ph codeph">&lt;textRegion type="drop-cap"&gt;</code></code>
+                            und <code class="ph codeph"><code class="ph codeph">&lt;textRegion type="paragraph"&gt;</code></code>
+                            <p class="p">Dies trifft zu, wenn die Initialie nur ein Zeichen
+                                oder Buchstaben umfasst und kein ganzes Wort ist.</p></li>
+                        <li class="li"> bei <code class="ph codeph"><code class="ph codeph">&lt;textRegion type="paragraph"&gt;</code></code>
+                            und <code class="ph codeph"><code class="ph codeph">&lt;textRegion type="paragraph"&gt;</code></code><p class="p">Dies trifft zu, wenn der Absatz in Spalten
+                                aufgeteilt wurde und das letzte Wort des Pragraphen wird im
+                                folgenden Absatz fortgesetzt.</p></li>
+                    </ul></li>
+                <li class="li">Verwendung von <code class="ph codeph">link</code><ul class="ul">
+                        <li class="li">bei <code class="ph codeph">caption</code> und <code class="ph codeph">image floating</code></li>
+                        <li class="li">bei <code class="ph codeph"><code class="ph codeph">&lt;textRegion type="paragraph"&gt;</code></code>
+                            und <code class="ph codeph"><code class="ph codeph">&lt;textRegion type="paragraph"&gt;</code></code>
+                            <p class="p">Dies trifft zu, wenn der Absatz in Spalten
+                                aufgeteilt wurde und das letzte Wort des Pragraphen nicht im
+                                folgenden Absatz fortgesetzt wird.</p></li>
+                        <li class="li">bei <code class="ph codeph"><code class="ph codeph">&lt;textRegion type="drop-cap"&gt;</code></code>
+                            und <code class="ph codeph"><code class="ph codeph">&lt;textRegion type="paragraph"&gt;</code></code>
+                            <p class="p">Dies trifft zu, wenn die drop-cap ein ganzes Wort
+                                ist.</p></li>
+                    </ul></li>
+            </ol>
+        </div>
+    
+    <nav role="navigation" class="related-links"><div class="linklist relinfo"><strong>Related information</strong><br><ul class="linklist"><li class="linklist"><a class="link" href="pagecontent_xsd_Complex_Type_pc_RelationsType.html">Complex Type pc:RelationsType</a></li></ul></div></nav>
+</article>
+    </article></main></body></html>

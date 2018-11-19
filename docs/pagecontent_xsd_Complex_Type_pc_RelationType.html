@@ -1,0 +1,356 @@
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta charset="UTF-8"><meta name="copyright" content="(C) Copyright 2018"><meta name="DC.rights.owner" content="(C) Copyright 2018"><meta name="DC.Type" content="topic"><meta name="DC.Relation" scheme="URI" content="Complex_Type.html"><meta name="DC.Creator" content="Matthias Boenig OCR-D, Zentrum Sprache, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)"><meta name="DC.Creator" content="Matthias Boenig OCR-D, Zentrum Sprache, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)"><meta name="DC.Creator" content="Matthias Boenig OCR-D, Zentrum Sprache, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)"><meta name="DC.Creator" content="Matthias Boenig OCR-D, Zentrum Sprache, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)"><meta name="DC.Creator" content="Matthias Boenig OCR-D, Zentrum Sprache, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)"><meta name="DC.Date.Created" content="March, 2017"><meta name="DC.Format" content="HTML5"><meta name="DC.Identifier" content="RelationType"><link rel="stylesheet" type="text/css" href="commonltr.css"><title>Complex Type pc:RelationType</title></head><body id="RelationType"><main role="main"><article role="article" aria-labelledby="ariaid-title1">
+   <h1 class="title topictitle1" id="ariaid-title1">Complex Type pc:RelationType</h1>
+   <div class="body">
+      <table class="table frame-all"><caption></caption><colgroup><col style="width:10.714285714285714%"><col style="width:89.28571428571429%"></colgroup><tbody class="tbody">
+               <tr class="row">
+                  <td class="entry align-left colsep-1 rowsep-1">Namespace</td>
+                  <td class="entry align-left colsep-1 rowsep-1">http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15</td>
+               </tr>
+               <tr class="row">
+                  <td class="entry align-left colsep-1 rowsep-1">Annotations</td>
+                  <td class="entry align-left colsep-1 rowsep-1">
+                     <pre class="pre codeblock language-xml"><code>One-to-one relation between to layout object. Use 'link'
+    			for loose relations and 'join' for strong relations
+    			(where something is fragmented for instance).
+
+    			Examples for 'link': caption - image floating -
+    			paragraph paragraph - paragraph (when a pragraph is
+    			split across columns and the last word of the first
+    			paragraph DOES NOT continue in the second paragraph)
+    			drop-cap - paragraph (when the drop-cap is a whole word)
+
+    			Examples for 'join': word - word (separated word at the
+    			end of a line) drop-cap - paragraph (when the drop-cap
+    			is not a whole word) paragraph - paragraph (when a
+    			pragraph is split across columns and the last word of
+    			the first paragraph DOES continue in the second
+    			paragraph)</code></pre>
+                  </td>
+               </tr>
+               <tr class="row">
+                  <td class="entry align-left colsep-1 rowsep-1">Diagram</td>
+                  <td class="entry align-left colsep-1 rowsep-1">
+                     <div class="p">
+                            
+                                    
+                                    <div class="fig imagemap" id="RelationType__pagecontent_xsd_Complex_Type_pc_RelationType"><img usemap="#d67598e205" border="0" class="image" src="img/pagecontent_xsd_Complex_Type_pc_RelationType.jpeg"><map name="d67598e205" id="d67598e205"><area href="#RelationType_type" alt="Attribute pc:RelationType / @type" title="Attribute pc:RelationType / @type" shape="rect" coords="183,39,344,83"><area href="#RelationType_custom" alt="Attribute pc:RelationType / @custom" title="Attribute pc:RelationType / @custom" shape="rect" coords="183,93,273,137"><area href="#RelationType_comments" alt="Attribute pc:RelationType / @comments" title="Attribute pc:RelationType / @comments" shape="rect" coords="183,178,282,222"><area href="#RelationType_RegionRef" alt="Element pc:RelationType / pc:RegionRef" title="Element pc:RelationType / pc:RegionRef" shape="rect" coords="240,239,392,283"></map></div>
+                        </div>
+                  </td>
+               </tr>
+               <tr class="row">
+                  <td class="entry align-left colsep-1 rowsep-1">Used by</td>
+                  <td class="entry align-left colsep-1 rowsep-1">
+                     <div class="p">
+                        <table class="table frame-all"><caption></caption><colgroup><col style="width:20%"><col style="width:80%"></colgroup><tbody class="tbody">
+                                 <tr class="row">
+                                    <td class="entry align-left colsep-1 rowsep-1">Element </td>
+                                    <td class="entry align-left colsep-1 rowsep-1">
+                                       <a class="xref" href="pagecontent_xsd_Complex_Type_pc_RelationsType.html#RelationsType_Relation">Element pc:RelationsType / pc:Relation</a>
+                                    </td>
+                                 </tr>
+                              </tbody></table>
+                     </div>
+                  </td>
+               </tr>
+               <tr class="row">
+                  <td class="entry align-left colsep-1 rowsep-1">Model</td>
+                  <td class="entry align-left colsep-1 rowsep-1">
+                     <a class="xref" href="#RelationType_RegionRef">Element pc:RelationType / pc:RegionRef</a>
+                  </td>
+               </tr>
+               <tr class="row">
+                  <td class="entry align-left colsep-1 rowsep-1">Children</td>
+                  <td class="entry align-left colsep-1 rowsep-1">
+                     <a class="xref" href="#RelationType_RegionRef">Element pc:RelationType / pc:RegionRef</a>
+                  </td>
+               </tr>
+               <tr class="row">
+                  <td class="entry align-left colsep-1 rowsep-1">Attributes</td>
+                  <td class="entry align-left colsep-1 rowsep-1">
+                     <div class="p">
+                        <table class="table frame-all"><caption></caption><colgroup><col style="width:42.857142857142854%"><col style="width:42.857142857142854%"><col style="width:14.285714285714285%"></colgroup><thead class="thead">
+                                 <tr class="row">
+                                    <th class="entry align-left colsep-1 rowsep-1" id="RelationType__entry__17">QName</th>
+                                    <th class="entry align-left colsep-1 rowsep-1" id="RelationType__entry__18">Type</th>
+                                    <th class="entry align-left colsep-1 rowsep-1" id="RelationType__entry__19">Use</th>
+                                 </tr>
+                              </thead><tbody class="tbody">
+                                 <tr class="row">
+                                    <td class="entry align-left colsep-1 rowsep-1" headers="RelationType__entry__17 ">
+                                       <a class="xref" href="#RelationType_comments">Attribute pc:RelationType / @comments</a>
+                                    </td>
+                                    <td class="entry align-left colsep-1 rowsep-1" headers="RelationType__entry__18 ">string</td>
+                                    <td class="entry align-left colsep-1 rowsep-1" headers="RelationType__entry__19 ">optional</td>
+                                 </tr>
+                                 <tr class="row">
+                                    <td class="entry align-left colsep-1 rowsep-1" headers="RelationType__entry__17 ">
+                                       <a class="xref" href="#RelationType_custom">Attribute pc:RelationType / @custom</a>
+                                    </td>
+                                    <td class="entry align-left colsep-1 rowsep-1" headers="RelationType__entry__18 ">string</td>
+                                    <td class="entry align-left colsep-1 rowsep-1" headers="RelationType__entry__19 ">optional</td>
+                                 </tr>
+                                 <tr class="row">
+                                    <td class="entry align-left colsep-1 rowsep-1" headers="RelationType__entry__17 RelationType__entry__18 RelationType__entry__19 " colspan="3">
+                                       <pre class="pre codeblock language-xml"><code>For generic use</code></pre>
+                                    </td>
+                                 </tr>
+                                 <tr class="row">
+                                    <td class="entry align-left colsep-1 rowsep-1" headers="RelationType__entry__17 ">
+                                       <a class="xref" href="#RelationType_type">Attribute pc:RelationType / @type</a>
+                                    </td>
+                                    <td class="entry align-left colsep-1 rowsep-1" headers="RelationType__entry__18 ">restriction of string</td>
+                                    <td class="entry align-left colsep-1 rowsep-1" headers="RelationType__entry__19 ">required</td>
+                                 </tr>
+                              </tbody></table>
+                     </div>
+                  </td>
+               </tr>
+               <tr class="row">
+                  <td class="entry align-left colsep-1 rowsep-1">Schema location</td>
+                  <td class="entry align-left colsep-1 rowsep-1">http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</td>
+               </tr>
+            </tbody></table>
+   </div>
+   <nav role="navigation" class="related-links"><div class="familylinks"><div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="Complex_Type.html" title="Here are the Global Complex Types">Complex Type</a></div></div></nav><article class="topic nested1" aria-labelledby="ariaid-title2" id="RelationType_type">
+      <h2 class="title topictitle2" id="ariaid-title2">Attribute pc:RelationType / @type</h2>
+      <div class="body">
+         <table class="table frame-all"><caption></caption><colgroup><col style="width:10.714285714285714%"><col style="width:89.28571428571429%"></colgroup><tbody class="tbody">
+                  <tr class="row">
+                     <td class="entry align-left colsep-1 rowsep-1">Namespace</td>
+                     <td class="entry align-left colsep-1 rowsep-1">No namespace</td>
+                  </tr>
+                  <tr class="row">
+                     <td class="entry align-left colsep-1 rowsep-1">Type</td>
+                     <td class="entry align-left colsep-1 rowsep-1">restriction of string</td>
+                  </tr>
+                  <tr class="row">
+                     <td class="entry align-left colsep-1 rowsep-1">Properties</td>
+                     <td class="entry align-left colsep-1 rowsep-1">
+                        <div class="p">
+                           <table class="table frame-all"><caption></caption><colgroup><col style="width:20%"><col style="width:80%"></colgroup><tbody class="tbody">
+                                    <tr class="row">
+                                       <td class="entry align-left colsep-1 rowsep-1">use: </td>
+                                       <td class="entry align-left colsep-1 rowsep-1">
+                                          <strong class="ph b">required</strong>
+                                       </td>
+                                    </tr>
+                                 </tbody></table>
+                        </div>
+                     </td>
+                  </tr>
+                  <tr class="row">
+                     <td class="entry align-left colsep-1 rowsep-1">Facets</td>
+                     <td class="entry align-left colsep-1 rowsep-1">
+                        <div class="p">
+                           <table class="table frame-all"><caption></caption><colgroup><col style="width:20%"><col style="width:30%"><col style="width:50%"></colgroup><tbody class="tbody">
+                                    <tr class="row">
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       <td class="entry align-left colsep-1 rowsep-1">link</td>
+                                       <td class="entry align-left colsep-1 rowsep-1"></td>
+                                    </tr>
+                                    <tr class="row">
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       <td class="entry align-left colsep-1 rowsep-1">join</td>
+                                       <td class="entry align-left colsep-1 rowsep-1"></td>
+                                    </tr>
+                                 </tbody></table>
+                        </div>
+                     </td>
+                  </tr>
+                  <tr class="row">
+                     <td class="entry align-left colsep-1 rowsep-1">Used by</td>
+                     <td class="entry align-left colsep-1 rowsep-1">
+                        <div class="p">
+                           <table class="table frame-all"><caption></caption><colgroup><col style="width:20%"><col style="width:80%"></colgroup><tbody class="tbody">
+                                    <tr class="row">
+                                       <td class="entry align-left colsep-1 rowsep-1">Complex Type </td>
+                                       <td class="entry align-left colsep-1 rowsep-1">
+                                          <a class="xref" href="#RelationType">Complex Type pc:RelationType</a>
+                                       </td>
+                                    </tr>
+                                 </tbody></table>
+                        </div>
+                     </td>
+                  </tr>
+                  <tr class="row">
+                     <td class="entry align-left colsep-1 rowsep-1">Schema location</td>
+                     <td class="entry align-left colsep-1 rowsep-1">http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</td>
+                  </tr>
+               </tbody></table>
+      </div>
+   <nav role="navigation" class="related-links"><div class="familylinks"><div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="Attribute.html" title="Here are the Global Attributes">Attribute</a></div></div></nav></article>
+   <article class="topic nested1" aria-labelledby="ariaid-title3" id="RelationType_custom">
+      <h2 class="title topictitle2" id="ariaid-title3">Attribute pc:RelationType / @custom</h2>
+      <div class="body">
+         <table class="table frame-all"><caption></caption><colgroup><col style="width:10.714285714285714%"><col style="width:89.28571428571429%"></colgroup><tbody class="tbody">
+                  <tr class="row">
+                     <td class="entry align-left colsep-1 rowsep-1">Namespace</td>
+                     <td class="entry align-left colsep-1 rowsep-1">No namespace</td>
+                  </tr>
+                  <tr class="row">
+                     <td class="entry align-left colsep-1 rowsep-1">Annotations</td>
+                     <td class="entry align-left colsep-1 rowsep-1">
+                        <pre class="pre codeblock language-xml"><code>For generic use</code></pre>
+                     </td>
+                  </tr>
+                  <tr class="row">
+                     <td class="entry align-left colsep-1 rowsep-1">Type</td>
+                     <td class="entry align-left colsep-1 rowsep-1">string</td>
+                  </tr>
+                  <tr class="row">
+                     <td class="entry align-left colsep-1 rowsep-1">Properties</td>
+                     <td class="entry align-left colsep-1 rowsep-1">
+                        <div class="p">
+                           <table class="table frame-all"><caption></caption><colgroup><col style="width:20%"><col style="width:80%"></colgroup><tbody class="tbody">
+                                    <tr class="row">
+                                       <td class="entry align-left colsep-1 rowsep-1">content: </td>
+                                       <td class="entry align-left colsep-1 rowsep-1">
+                                          <strong class="ph b">simple</strong>
+                                       </td>
+                                    </tr>
+                                 </tbody></table>
+                        </div>
+                     </td>
+                  </tr>
+                  <tr class="row">
+                     <td class="entry align-left colsep-1 rowsep-1">Used by</td>
+                     <td class="entry align-left colsep-1 rowsep-1">
+                        <div class="p">
+                           <table class="table frame-all"><caption></caption><colgroup><col style="width:20%"><col style="width:80%"></colgroup><tbody class="tbody">
+                                    <tr class="row">
+                                       <td class="entry align-left colsep-1 rowsep-1">Complex Type </td>
+                                       <td class="entry align-left colsep-1 rowsep-1">
+                                          <a class="xref" href="#RelationType">Complex Type pc:RelationType</a>
+                                       </td>
+                                    </tr>
+                                 </tbody></table>
+                        </div>
+                     </td>
+                  </tr>
+                  <tr class="row">
+                     <td class="entry align-left colsep-1 rowsep-1">Schema location</td>
+                     <td class="entry align-left colsep-1 rowsep-1">http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</td>
+                  </tr>
+               </tbody></table>
+      </div>
+   <nav role="navigation" class="related-links"><div class="familylinks"><div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="Attribute.html" title="Here are the Global Attributes">Attribute</a></div></div></nav></article>
+   <article class="topic nested1" aria-labelledby="ariaid-title4" id="RelationType_comments">
+      <h2 class="title topictitle2" id="ariaid-title4">Attribute pc:RelationType / @comments</h2>
+      <div class="body">
+         <table class="table frame-all"><caption></caption><colgroup><col style="width:10.714285714285714%"><col style="width:89.28571428571429%"></colgroup><tbody class="tbody">
+                  <tr class="row">
+                     <td class="entry align-left colsep-1 rowsep-1">Namespace</td>
+                     <td class="entry align-left colsep-1 rowsep-1">No namespace</td>
+                  </tr>
+                  <tr class="row">
+                     <td class="entry align-left colsep-1 rowsep-1">Type</td>
+                     <td class="entry align-left colsep-1 rowsep-1">string</td>
+                  </tr>
+                  <tr class="row">
+                     <td class="entry align-left colsep-1 rowsep-1">Properties</td>
+                     <td class="entry align-left colsep-1 rowsep-1">
+                        <div class="p">
+                           <table class="table frame-all"><caption></caption><colgroup><col style="width:20%"><col style="width:80%"></colgroup><tbody class="tbody">
+                                    <tr class="row">
+                                       <td class="entry align-left colsep-1 rowsep-1">content: </td>
+                                       <td class="entry align-left colsep-1 rowsep-1">
+                                          <strong class="ph b">simple</strong>
+                                       </td>
+                                    </tr>
+                                 </tbody></table>
+                        </div>
+                     </td>
+                  </tr>
+                  <tr class="row">
+                     <td class="entry align-left colsep-1 rowsep-1">Used by</td>
+                     <td class="entry align-left colsep-1 rowsep-1">
+                        <div class="p">
+                           <table class="table frame-all"><caption></caption><colgroup><col style="width:20%"><col style="width:80%"></colgroup><tbody class="tbody">
+                                    <tr class="row">
+                                       <td class="entry align-left colsep-1 rowsep-1">Complex Type </td>
+                                       <td class="entry align-left colsep-1 rowsep-1">
+                                          <a class="xref" href="#RelationType">Complex Type pc:RelationType</a>
+                                       </td>
+                                    </tr>
+                                 </tbody></table>
+                        </div>
+                     </td>
+                  </tr>
+                  <tr class="row">
+                     <td class="entry align-left colsep-1 rowsep-1">Schema location</td>
+                     <td class="entry align-left colsep-1 rowsep-1">http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</td>
+                  </tr>
+               </tbody></table>
+      </div>
+   <nav role="navigation" class="related-links"><div class="familylinks"><div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="Attribute.html" title="Here are the Global Attributes">Attribute</a></div></div></nav></article>
+   <article class="topic nested1" aria-labelledby="ariaid-title5" id="RelationType_RegionRef">
+      <h2 class="title topictitle2" id="ariaid-title5">Element pc:RelationType / pc:RegionRef</h2>
+      <div class="body">
+         <table class="table frame-all"><caption></caption><colgroup><col style="width:10.714285714285714%"><col style="width:89.28571428571429%"></colgroup><tbody class="tbody">
+                  <tr class="row">
+                     <td class="entry align-left colsep-1 rowsep-1">Namespace</td>
+                     <td class="entry align-left colsep-1 rowsep-1">http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15</td>
+                  </tr>
+                  <tr class="row">
+                     <td class="entry align-left colsep-1 rowsep-1">Diagram</td>
+                     <td class="entry align-left colsep-1 rowsep-1">
+                        <div class="p">
+                            
+                                    
+                                    <div class="fig imagemap" id="RelationType_RegionRef__pagecontent_xsd_Element_pc_RegionRef_3"><img usemap="#d67598e953" border="0" class="image" src="img/pagecontent_xsd_Element_pc_RegionRef_3.jpeg"><map name="d67598e953" id="d67598e953"><area href="pagecontent_xsd_Complex_Type_pc_RegionRefType.html#RegionRefType_regionRef" alt="Attribute pc:RegionRefType / @regionRef" title="Attribute pc:RegionRefType / @regionRef" shape="rect" coords="208,79,305,123"><area href="pagecontent_xsd_Complex_Type_pc_RegionRefType.html#RegionRefType" alt="Complex Type pc:RegionRefType" title="Complex Type pc:RegionRefType" shape="rect" coords="183,3,323,25"></map></div>
+                        </div>
+                     </td>
+                  </tr>
+                  <tr class="row">
+                     <td class="entry align-left colsep-1 rowsep-1">Type</td>
+                     <td class="entry align-left colsep-1 rowsep-1">
+                        <a class="xref" href="pagecontent_xsd_Complex_Type_pc_RegionRefType.html#RegionRefType">Complex Type pc:RegionRefType</a>
+                     </td>
+                  </tr>
+                  <tr class="row">
+                     <td class="entry align-left colsep-1 rowsep-1">Properties</td>
+                     <td class="entry align-left colsep-1 rowsep-1">
+                        <div class="p">
+                           <table class="table frame-all"><caption></caption><colgroup><col style="width:20%"><col style="width:80%"></colgroup><tbody class="tbody">
+                                    <tr class="row">
+                                       <td class="entry align-left colsep-1 rowsep-1">content: </td>
+                                       <td class="entry align-left colsep-1 rowsep-1">
+                                          <strong class="ph b">complex</strong>
+                                       </td>
+                                    </tr>
+                                 </tbody></table>
+                        </div>
+                     </td>
+                  </tr>
+                  <tr class="row">
+                     <td class="entry align-left colsep-1 rowsep-1">Attributes</td>
+                     <td class="entry align-left colsep-1 rowsep-1">
+                        <div class="p">
+                           <table class="table frame-all"><caption></caption><colgroup><col style="width:42.857142857142854%"><col style="width:42.857142857142854%"><col style="width:14.285714285714285%"></colgroup><thead class="thead">
+                                    <tr class="row">
+                                       <th class="entry align-left colsep-1 rowsep-1" id="RelationType_RegionRef__entry__13">QName</th>
+                                       <th class="entry align-left colsep-1 rowsep-1" id="RelationType_RegionRef__entry__14">Type</th>
+                                       <th class="entry align-left colsep-1 rowsep-1" id="RelationType_RegionRef__entry__15">Use</th>
+                                    </tr>
+                                 </thead><tbody class="tbody">
+                                    <tr class="row">
+                                       <td class="entry align-left colsep-1 rowsep-1" headers="RelationType_RegionRef__entry__13 ">
+                                          <a class="xref" href="pagecontent_xsd_Complex_Type_pc_RegionRefType.html#RegionRefType_regionRef">Attribute pc:RegionRefType / @regionRef</a>
+                                       </td>
+                                       <td class="entry align-left colsep-1 rowsep-1" headers="RelationType_RegionRef__entry__14 ">IDREF</td>
+                                       <td class="entry align-left colsep-1 rowsep-1" headers="RelationType_RegionRef__entry__15 ">required</td>
+                                    </tr>
+                                 </tbody></table>
+                        </div>
+                     </td>
+                  </tr>
+                  <tr class="row">
+                     <td class="entry align-left colsep-1 rowsep-1">Schema location</td>
+                     <td class="entry align-left colsep-1 rowsep-1">http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</td>
+                  </tr>
+               </tbody></table>
+      </div>
+   <nav role="navigation" class="related-links"><div class="familylinks"><div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="Element.html" title="Here are the Global Elements">Element</a></div></div></nav></article>
+</article></main></body></html>
