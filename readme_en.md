@@ -1,5 +1,4 @@
-# Transcription guidelines for the production of Ground-Truth for training and evaluation of OCR programs as well as documentation of existing Ground-Truth data within 
-the project OCR-D
+# Transcription guidelines for the production of Ground-Truth for training and evaluation of OCR programs as well as documentation of existing Ground-Truth data within the project OCR-D
 Version 1.0 2018-11-20 
 
 ## First Steps
