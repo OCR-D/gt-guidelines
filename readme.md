@@ -10,7 +10,7 @@ Für die Erstellung von Präsentationsformaten bietet sich das:
 [DITA-Open-tool-kit](http://www.dita-ot.org/) an.
 
 1. Im Ordner **documentation** befindet sich die Datei **ocrd.ditamap**, öffnen Sie diese Datei in einem XML-Editor (Empfehlung Oxygen-Editor).
-2. In der Ditamap **ocrd.ditamap** können Sie zum gewünschten Thema springen.
+2. In der Ditamap **ocrd.ditamap** können Sie zum gewünschten Thema der Dokumentation springen.
 3. Im Ordner **pagexml_dokumentation** befindet sich die automatisch erstellte PAGE-XML-Dokumentation.
 
 
