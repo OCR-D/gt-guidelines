@@ -4,7 +4,7 @@ Version 1.0 2018-20-20
 ## Erste Schritte
 ### Hinweis:
 Arbeiten Sie mit einem XML-Editor. Für die ersten Schritte genügt ein Oxygen-Editor mit trial-Lizenz, der volle Funktionsumfang wird auch mit dieser Version geboten. Alternativ zum Oxygen-Editor können Sie auch 
-[Eclipse](https://www.eclipse.org/) verwendet.
+[Eclipse](https://www.eclipse.org/) verwenden.
 
 Für die Erstellung von Präsentationsformaten bietet sich das:
 [DITA-Open-tool-kit](http://www.dita-ot.org/) an.
