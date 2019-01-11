@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="lyTypographie">
+    <title>Typographische Besonderheiten</title>
+    <body>
+<p>Für alle Element-Bereiche (<codeph>&lt;Word></codeph>, <codeph>&lt;TextLine></codeph> und
+                <codeph>&lt;TextRegion></codeph>)  gelten die folgenden typographischen
+            Auszeichnungswerte.  </p>
+        <note type="important">Vorrangig für die Dokumentation von typographischen Merkmalen ist das
+                <b>Element <codeph>&lt;TextStyle></codeph></b> zu verwenden. </note>
+        <p>Parallel kann das <codeph>custom</codeph> Attribut innerhalb von
+                <codeph>&lt;Word></codeph>, <codeph>&lt;TextLine></codeph> und
+                <codeph>&lt;TextRegion></codeph> verwendet werden. In einigen Fällen kann nur mit
+            dem custom-Attribut eine typographische Besonderheit dokumentiert werden. Es sind
+            folgende <codeph>@custom</codeph>-Attribut-Werte verfügbar. </p>
+
+
+<table frame="all" rowsep="1" colsep="1" id="table_fbw_sqx_f1b">
+<tgroup cols="5">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="newCol5" colnum="2" colwidth="1*"/>
+                <colspec colname="newCol4" colnum="3" colwidth="1*"/>
+                <colspec colname="c2" colnum="4" colwidth="1*"/>
+                <colspec colname="newCol3" colnum="5" colwidth="1*"/>
+                <thead>
+                    <row>
+                        <entry>Typographische Besonderheiten</entry>
+                        <entry>
+                            <codeph>&lt;TextStyle></codeph> Element-Beispiel</entry>
+                        <entry><codeph>@custom</codeph> Wert-Beispiel</entry>
+                        <entry><codeph>@custom</codeph> Wert</entry>
+                        <entry>Hinweise</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>Fettdruck</entry>
+                        <entry>
+                            <codeblock>&lt;TextStyle bold="true"></codeblock>
+                        </entry>
+                        <entry>
+                            <codeblock>textStyle {offset:0; length:4;bold:true;}</codeblock>
+                        </entry>
+                        <entry>bold</entry>
+                        <entry>
+                            <p importance="high"><codeph>@custom</codeph>-Wert kann zusätzlich
+                                definiert werden</p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>Kursivdruck</entry>
+                        <entry>
+                            <codeblock>&lt;TextStyle italic="true"></codeblock>
+                        </entry>
+                        <entry>
+                            <codeblock>textStyle {offset:0; length:4;italic:true;}</codeblock>
+                        </entry>
+                        <entry>italic</entry>
+                        <entry>
+                            <p importance="high"><codeph>@custom</codeph>-Wert kann zusätzlich
+                                definiert werden</p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>Sperrdruck</entry>
+                        <entry>
+                            <codeblock>&lt;TextStyle letterSpaced="true"></codeblock>
+                        </entry>
+                        <entry>
+                            <codeblock>textStyle {offset:0; length:4;letterSpaced:true;}</codeblock>
+                        </entry>
+                        <entry>letterSpaced</entry>
+                        <entry>
+                            <p importance="high"><codeph>@custom</codeph>-Wert kann zusätzlich
+                                definiert werden</p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>Kapitälchen</entry>
+                        <entry>
+                            <codeblock>&lt;TextStyle smallCaps="true"></codeblock>
+                        </entry>
+                        <entry>
+                            <codeblock>textStyle {offset:0; length:4;smallCaps:true;}</codeblock>
+                        </entry>
+                        <entry>smallCaps</entry>
+                        <entry>
+                            <p importance="high"><codeph>@custom</codeph>-Wert kann zusätzlich
+                                definiert werden</p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>gedruckte Unterstreichung</entry>
+                        <entry>
+                            <codeblock>&lt;TextStyle underlined="true"></codeblock>
+                        </entry>
+                        <entry>
+                            <codeblock>textStyle {offset:0; length:4;underlined:true;}</codeblock>
+                        </entry>
+                        <entry>underlined</entry>
+                        <entry>
+                            <p importance="high"><codeph>@custom</codeph>-Wert kann zusätzlich
+                                definiert werden</p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>doppelte Unterstreichung</entry>
+                        <entry> </entry>
+                        <entry>
+                            <codeblock>textStyle {offset:0; length:4;doubleunderlined:true;}</codeblock>
+                        </entry>
+                        <entry>doubleunderlined</entry>
+                        <entry>
+                            <p importance="high">nur in <codeph>@custom</codeph> zu definieren</p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>Durchgestrichen</entry>
+                        <entry> </entry>
+                        <entry>
+                            <codeblock>textStyle {offset:0; length:4;strikethrough:true;}</codeblock>
+                        </entry>
+                        <entry>strikethrough</entry>
+                        <entry>
+                            <p importance="high">nur in <codeph>@custom</codeph> zu definieren</p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>Hochstellung</entry>
+                        <entry>
+                            <codeblock>&lt;TextStyle superscript="true"></codeblock>
+                        </entry>
+                        <entry>
+                            <codeblock>textStyle {offset:0; length:4;superscript:true;}</codeblock>
+                        </entry>
+                        <entry>superscript</entry>
+                        <entry>
+                            <p importance="high"><codeph>@custom</codeph>-Wert kann zusätzlich
+                                definiert werden</p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>Tiefstellung</entry>
+                        <entry>
+                            <codeblock>&lt;TextStyle subscript="true"></codeblock>
+                        </entry>
+                        <entry>
+                            <codeblock>textStyle {offset:0; length:4;subscript:true;}</codeblock>
+                        </entry>
+                        <entry>subscript</entry>
+                        <entry>
+                            <p importance="high"><codeph>@custom</codeph>-Wert kann zusätzlich
+                                definiert werden</p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>Ligatur</entry>
+                        <entry/>
+                        <entry>
+                            <codeblock>textStyle {offset:0; length:2;ligatur:true;}</codeblock>
+                        </entry>
+                        <entry>ligatur</entry>
+                        <entry>
+                            <p importance="high">nur in custom zu definieren</p>
+                            <p>Für die Erkennung, Verwendung und Transkription von Ligaturen siehe
+                                die Regelungen in <xref href="trLigatur.dita#trLigatur"/>.</p>
+                        </entry>
+                    </row>
+                </tbody>
+            </tgroup>
+</table>
+
+
+    </body>
+<related-links>
+<link href="trLigatur.dita#trLigatur"/>
+        <link href="../pagexml_documentation/pagecontent_xsd_Complex_Type_pc_TextStyleType.dita"/>
+</related-links>
+</topic>

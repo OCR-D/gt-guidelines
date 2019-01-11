@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="TextDataTypeSimpleType">
+   <title>Simple Type pc:TextDataTypeSimpleType</title>
+   <body>
+      <table frame="all" rowsep="1" colsep="1">
+         <tgroup cols="2">
+            <colspec colwidth="3*" align="left"/>
+            <colspec colwidth="25*" align="left"/>
+            <tbody>
+               <row>
+                  <entry>Namespace</entry>
+                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15</entry>
+               </row>
+               <row>
+                  <entry>Diagram</entry>
+                  <entry>
+                     <p/>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Type</entry>
+                  <entry>restriction of string</entry>
+               </row>
+               <row>
+                  <entry>Facets</entry>
+                  <entry>
+                     <p>
+                        <table frame="all" rowsep="1" colsep="1">
+                           <tgroup cols="3">
+                              <colspec colwidth="2*" align="left"/>
+                              <colspec colwidth="3*" align="left"/>
+                              <colspec colwidth="5*" align="left"/>
+                              <tbody>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>xsd:decimal</entry>
+                                    <entry>
+                                       <codeblock outputclass="language-xml">Examples: "123.456", "+1234.456", "-1234.456", "-.456", "-456"</codeblock>
+                                    </entry>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>xsd:float</entry>
+                                    <entry>
+                                       <codeblock outputclass="language-xml">Examples: "123.456", "+1234.456", "-1.2344e56", "-.45E-6", "INF", "-INF", "NaN"</codeblock>
+                                    </entry>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>xsd:integer</entry>
+                                    <entry>
+                                       <codeblock outputclass="language-xml">Examples: "123456", "+00000012", "-1", "-456"</codeblock>
+                                    </entry>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>xsd:boolean</entry>
+                                    <entry>
+                                       <codeblock outputclass="language-xml">Examples: "true", "false", "1", "0"</codeblock>
+                                    </entry>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>xsd:date</entry>
+                                    <entry>
+                                       <codeblock outputclass="language-xml">Examples: "2001-10-26", "2001-10-26+02:00", "2001-10-26Z", "2001-10-26+00:00", "-2001-10-26", "-20000-04-01"</codeblock>
+                                    </entry>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>xsd:time</entry>
+                                    <entry>
+                                       <codeblock outputclass="language-xml">Examples: "21:32:52", "21:32:52+02:00", "19:32:52Z", "19:32:52+00:00", "21:32:52.12679"</codeblock>
+                                    </entry>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>xsd:dateTime</entry>
+                                    <entry>
+                                       <codeblock outputclass="language-xml">Examples: "2001-10-26T21:32:52", "2001-10-26T21:32:52+02:00", "2001-10-26T19:32:52Z", "2001-10-26T19:32:52+00:00", "-2001-10-26T21:32:52", "2001-10-26T21:32:52.12679"</codeblock>
+                                    </entry>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>xsd:string</entry>
+                                    <entry>
+                                       <codeblock outputclass="language-xml">Generic text string</codeblock>
+                                    </entry>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>other</entry>
+                                    <entry>
+                                       <codeblock outputclass="language-xml">An XSD type that is not listed or a custom type (use dataTypeDetails attribute)</codeblock>
+                                    </entry>
+                                 </row>
+                              </tbody>
+                           </tgroup>
+                        </table>
+                     </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Used by</entry>
+                  <entry>
+                     <p>
+                        <table frame="all" rowsep="1" colsep="1">
+                           <tgroup cols="2">
+                              <colspec colwidth="2*" align="left"/>
+                              <colspec colwidth="8*" align="left"/>
+                              <tbody>
+                                 <row>
+                                    <entry>Attribute </entry>
+                                    <entry>
+                                       <xref href="pagecontent_xsd_Complex_Type_pc_TextEquivType.dita#TextEquivType_dataType"/>
+                                    </entry>
+                                 </row>
+                              </tbody>
+                           </tgroup>
+                        </table>
+                     </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Schema location</entry>
+                  <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+   </body>
+</topic>

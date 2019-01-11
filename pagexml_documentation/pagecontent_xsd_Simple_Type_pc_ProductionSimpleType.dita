@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ProductionSimpleType">
+   <title>Simple Type pc:ProductionSimpleType</title>
+   <body>
+      <table frame="all" rowsep="1" colsep="1">
+         <tgroup cols="2">
+            <colspec colwidth="3*" align="left"/>
+            <colspec colwidth="25*" align="left"/>
+            <tbody>
+               <row>
+                  <entry>Namespace</entry>
+                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15</entry>
+               </row>
+               <row>
+                  <entry>Annotations</entry>
+                  <entry>
+                     <codeblock outputclass="language-xml">Text production type</codeblock>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Diagram</entry>
+                  <entry>
+                     <p/>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Type</entry>
+                  <entry>restriction of string</entry>
+               </row>
+               <row>
+                  <entry>Facets</entry>
+                  <entry>
+                     <p>
+                        <table frame="all" rowsep="1" colsep="1">
+                           <tgroup cols="3">
+                              <colspec colwidth="2*" align="left"/>
+                              <colspec colwidth="3*" align="left"/>
+                              <colspec colwidth="5*" align="left"/>
+                              <tbody>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>printed</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>typewritten</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>handwritten-cursive</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>handwritten-printscript</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>medieval-manuscript</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>other</entry>
+                                    <entry/>
+                                 </row>
+                              </tbody>
+                           </tgroup>
+                        </table>
+                     </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Used by</entry>
+                  <entry>
+                     <p>
+                        <table frame="all" rowsep="1" colsep="1">
+                           <tgroup cols="2">
+                              <colspec colwidth="2*" align="left"/>
+                              <colspec colwidth="8*" align="left"/>
+                              <tbody>
+                                 <row>
+                                    <entry>Attributes </entry>
+                                    <entry>
+                                       <xref href="pagecontent_xsd_Complex_Type_pc_GlyphType.dita#GlyphType_production"/>, <xref href="pagecontent_xsd_Complex_Type_pc_TextLineType.dita#TextLineType_production"/>, <xref href="pagecontent_xsd_Complex_Type_pc_TextRegionType.dita#TextRegionType_production"/>, <xref href="pagecontent_xsd_Complex_Type_pc_WordType.dita#WordType_production"/>
+                                    </entry>
+                                 </row>
+                              </tbody>
+                           </tgroup>
+                        </table>
+                     </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Schema location</entry>
+                  <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+   </body>
+</topic>

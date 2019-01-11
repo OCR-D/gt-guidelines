@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="tr_level_1_4">
+<title>Wie im Level 1 transkribieren</title>
+<body>
+<p>
+<ol id="ul_b3m_3yz_g1b">
+<li>Wenn der zu transkribierende Text mit Unicodezeichen umgesetzt werden kann, sind diese
+ausschließlich zu verwenden.</li>
+<li>Außer den vokalischen Ligaturen werden alle Ligaturen aufgespalten. </li>
+<li>Kann das Zeichen nur aus der Kombination von zwei Zeichen gebildet werden, ist diese Kombination
+zu verwenden.</li>
+<li>Kann das Zeichen nicht aus der Kombination von mehreren Zeichen gebildet werden und ist eine
+<xref href="http://folk.uib.no/hnooh/mufi/" format="html" scope="external">MUFI-Entsprechung</xref>
+vorhanden, ist <xref href="http://folk.uib.no/hnooh/mufi/" format="html" scope="external"
+>MUFI</xref> zu verwenden</li>
+<li>Können die Möglichkeiten 1, 2, 3 nicht gewählt werden, ist in Abstimmung mit dem
+OCR-D-Koordinierungsgremium eine Code-Definition in Nachnutzung gemeinsam getroffener Vereinbarungen
+internationaler Großprojekte wie IMPACT, EEBO, ECCO zu verwenden.</li>
+</ol>
+</p>
+</body>
+<related-links>
+<link href="ocr_d_koordinationsgremium_codierung.dita#ocr_d_koordinationsgremium_codierung"/>
+</related-links>
+</topic>

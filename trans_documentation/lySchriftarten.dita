@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="lySchriftarten">
+    <title>Schriftarten</title>
+    <body>
+        <p>Die Schriftinformationen (Typ) ist in allen drei Element-Bereichen
+                (<codeph>&lt;Word></codeph>, <codeph>&lt;TextLine></codeph> und
+                <codeph>&lt;TextRegion></codeph>) mit dem PAGE XML Element <tt>&lt;TextStyle></tt>
+            zu dokumentieren.</p>
+        <p/>
+        <example>
+            <codeblock>&lt;TextRegion type="heading" id="r_7_1"">
+            &lt;Coords points="542,306 569,306 569,342 542,342"/>
+            &lt;TextLine id="tl_4" primaryLanguage="German">
+                &lt;Coords points="543,307 568,307 568,341 543,341"/>
+                &lt;Baseline points="543,350 568,350"/>
+                &lt;Word id="w_w1aab1c13b2b1b1ab1" language="German">
+                    &lt;Coords points="543,307 568,307 568,341 543,341"/>
+                    &lt;TextEquiv>
+                        &lt;Unicode>I.&lt;/Unicode>
+                    &lt;/TextEquiv>
+                    &lt;TextStyle fontFamily="fraktur" fontSize="53.0" bold="true"/>
+                &lt;/Word>
+                &lt;TextEquiv>
+                    &lt;Unicode>I.&lt;/Unicode>
+                &lt;/TextEquiv>
+                &lt;TextStyle fontFamily="fraktur" fontSize="53.0" bold="true"/>
+            &lt;/TextLine>
+ &lt;/TextRegion></codeblock>
+            Siehe: <xref
+                href="http://www.ocr-d.de/sites/all/gt_guidelines/pagecontent_xsd_Complex_Type_pc_TextStyleType.html?hl=textstyle"
+                format="html" scope="external">Complex Type pc:TextStyleType</xref>
+        </example>
+    </body>
+    <topic id="lySchriftarten_cluster">
+        <title>Schriftarten-Cluster</title>
+        <body>
+            <p>Die eindeutige Identifikation einer bestimmten Schriftart ist bei Vorlagen aus dem
+                16.- 19. Jahrhundert nicht immer gegeben. Jedoch kann die Schriftart zu einer
+                bestimmten Schriftfamilie aus einem Cluster von verwandten Schriftgruppen zu
+                geordnet werden.</p>
+            <p importance="recommended">Wir empfehlen folgende Schriftfamilien für die Dokumentation
+                der @<tt>fontFamily</tt> zu nutzen: <ul id="ul_fts_ssx_1gb">
+                    <li><codeph>textura</codeph></li>
+                    <li><codeph>rotura</codeph></li>
+                    <li><codeph>bastarda</codeph></li>
+                    <li><codeph>antiqua</codeph></li>
+                    <li><codeph>greek</codeph></li>
+                    <li><codeph>hebrew</codeph></li>
+                    <li><codeph>italic</codeph></li>
+                    <li><codeph>fraktur</codeph></li>
+                </ul></p>
+            
+            <example>
+                <codeblock>&lt;Word>
+   &lt;TextStyle fontFamily="fraktur"/>
+&lt;/Word></codeblock>
+            </example> <note importance="high"><p>Diese Angabe schränkt die Benennung von Schriftfamilien nicht ein. </p></note>
+        </body>
+    </topic>
+   
+    <topic id="lySchriftarten_confidence">
+        <title>Schriftarten und Erkennungswahrscheinlichkeit (Konfidenz)</title>
+        <body>
+            <p>Mit der Angabe der Erkennungswahrscheinlichkeit (Konfidenz) im Anschluß an die
+                Nennung der Schriftart oder der Schriftfamilie können mehrere Zuordnungen zu
+                Schriftarten und -familien dokumentiert werden sowie eine entsprechende
+                Wahrscheinlichkeit ausgedrückt werden, zu welcher die vorliegende Schriftart und
+                -familie tendiert.</p>
+            <p>Die Verkettung von Schriftart und -familie und Konfidenz erfolgt mit einem
+                Doppelpunkt (:) gefolgt von einer Gleitkommazahl zwischen <b>0</b> (Informationen
+                sind eher unwahrscheinlich) und <b>1</b> (Informationen sind korrekt oder
+                wahrscheinlich).</p>
+            <p>Wenn eine Schriftart und -familie nicht mit einer Konfidenz versehen ist, ist vom
+                Wert <b>1</b> auszugehen.</p>
+            <note importance="high">
+                <p>Die Nennung von mehreren Schriftarten und -familien innerhalb des <b>PAGE
+                        XML-Elementes </b><tt><b>&lt;Word></b>
+                    </tt>bedeutet nicht, dass der Text vorrangig mit mehreren Schriftarten oder
+                    -familien gesetzt wurde. Sondern, dass der Text zu mehreren Schriftarten oder
+                    -familien zugeordnet werden kann. Die Konfidenz kann die präferierte Zuordnung
+                    dokumentieren.</p>
+                <p>Die Nennung von mehreren Schriftarten und -familien innerhalb des <b>PAGE
+                        XML-Elementes <tt>&lt;TextLine></tt> sowie </b><tt><b>&lt;TextRegion></b>
+                    </tt>bedeutet, dass der Text in unterschiedlichen Schriftarten oder -familien
+                    gesetzt wurde.</p>
+            </note>
+            <example>
+                <codeblock>        &lt;TextRegion type="paragraph" id="TextRegion_1476719787056_252">
+            &lt;Coords points="980,2090 1529,2090 1741,2098 1741,2149 1529,2156 980,2156"/>
+            &lt;TextLine id="tl_83" primaryLanguage="German">
+                &lt;Coords points="981,2091 1528,2091 1528,2155 981,2155"/>
+                &lt;Baseline points="981,2154 1528,2154"/>
+                &lt;Word id="w_w1aab1c99b2b1b1ab1" language="German">
+                    &lt;Coords points="981,2096 1109,2096 1109,2151 981,2151"/>
+                    &lt;TextEquiv>
+                        &lt;Unicode>Troſt&lt;/Unicode>
+                    &lt;/TextEquiv>
+                    &lt;TextStyle fontFamily="Rotunda:0.8,  Bastarda:0.8 " fontSize="53.0"/>
+                &lt;/Word>
+                &lt;Word id="w_w1aab1c99b2b1b1ac13" language="German">
+                    &lt;Coords points="1121,2097 1189,2097 1189,2139 1121,2139"/>
+                    &lt;TextEquiv>
+                        &lt;Unicode>der&lt;/Unicode>
+                    &lt;/TextEquiv>
+                    &lt;TextStyle fontFamily="Rotunda:0.8,  Bastarda:0.8 " fontSize="53.0"/>
+                &lt;/Word>
+                &lt;Word id="w_w1aab1c99b2b1b1ac21" language="German">
+                    &lt;Coords points="1209,2093 1540,2093 1540,2151 1209,2151"/>
+                    &lt;TextEquiv>
+                        &lt;Unicode>Seefahrenden.&lt;/Unicode>
+                    &lt;/TextEquiv>
+                    &lt;TextStyle fontFamily="Rotunda:0.8,  Bastarda:0.8 " fontSize="53.0"/>
+                &lt;/Word>
+                &lt;TextEquiv>
+                    &lt;Unicode>Troſt der Seefahrenden.&lt;/Unicode>
+                &lt;/TextEquiv>
+                &lt;TextStyle fontFamily="Rotunda:0.8,  Bastarda:0.8 " fontSize="53.0"/>
+            &lt;/TextLine>
+            &lt;TextLine id="line_1476720742138_2">
+                &lt;Coords points="1675,2107 1742,2107 1742,2148 1675,2148"/>
+                &lt;Baseline points="1676,2149 1738,2146"/>
+                &lt;Word id="word_1476721009045_26">
+                    &lt;Coords points="1673,2103 1740,2103 1740,2151 1673,2151"/>
+                    &lt;TextEquiv>
+                        &lt;Unicode>538&lt;/Unicode>
+                    &lt;/TextEquiv>
+                &lt;TextStyle fontFamily="antiqua:0.8" fontSize="53.0"/>
+                &lt;/Word>
+                &lt;TextEquiv>
+                    &lt;Unicode>538&lt;/Unicode>
+                &lt;/TextEquiv>
+              &lt;TextStyle fontFamily="antiqua:0.8" fontSize="53.0"/>
+            &lt;/TextLine>
+            &lt;TextEquiv>
+                &lt;Unicode>
+                  Troſt der Seefahrenden. 538
+                &lt;/Unicode>
+            &lt;/TextEquiv>
+         &lt;TextStyle fontFamily="rotunda:0.8,  bastarda:0.8, antiqua:0.8" fontSize="53.0"/>
+        &lt;/TextRegion>
+</codeblock>
+            </example>
+        </body>
+    </topic>
+</topic>

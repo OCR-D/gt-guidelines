@@ -1,0 +1,976 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ScriptSimpleType">
+   <title>Simple Type pc:ScriptSimpleType</title>
+   <body>
+      <table frame="all" rowsep="1" colsep="1">
+         <tgroup cols="2">
+            <colspec colwidth="3*" align="left"/>
+            <colspec colwidth="25*" align="left"/>
+            <tbody>
+               <row>
+                  <entry>Namespace</entry>
+                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15</entry>
+               </row>
+               <row>
+                  <entry>Diagram</entry>
+                  <entry>
+                     <p/>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Type</entry>
+                  <entry>restriction of string</entry>
+               </row>
+               <row>
+                  <entry>Facets</entry>
+                  <entry>
+                     <p>
+                        <table frame="all" rowsep="1" colsep="1">
+                           <tgroup cols="3">
+                              <colspec colwidth="2*" align="left"/>
+                              <colspec colwidth="3*" align="left"/>
+                              <colspec colwidth="5*" align="left"/>
+                              <tbody>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Adlm - Adlam</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Afak - Afaka</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Aghb - Caucasian Albanian</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Ahom - Ahom, Tai Ahom</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Arab - Arabic</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Aran - Arabic (Nastaliq variant)</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Armi - Imperial Aramaic</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Armn - Armenian</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Avst - Avestan</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Bali - Balinese</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Bamu - Bamum</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Bass - Bassa Vah</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Batk - Batak</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Beng - Bengali</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Bhks - Bhaiksuki</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Blis - Blissymbols</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Bopo - Bopomofo</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Brah - Brahmi</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Brai - Braille</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Bugi - Buginese</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Buhd - Buhid</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Cakm - Chakma</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Cans - Unified Canadian Aboriginal Syllabics</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Cari - Carian</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Cham - Cham</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Cher - Cherokee</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Cirt - Cirth</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Copt - Coptic</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Cprt - Cypriot</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Cyrl - Cyrillic</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Cyrs - Cyrillic (Old Church Slavonic variant)</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Deva - Devanagari (Nagari)</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Dsrt - Deseret (Mormon)</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Dupl - Duployan shorthand, Duployan stenography</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Egyd - Egyptian demotic</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Egyh - Egyptian hieratic</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Egyp - Egyptian hieroglyphs</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Elba - Elbasan</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Ethi - Ethiopic</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Geok - Khutsuri (Asomtavruli and Nuskhuri)</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Geor - Georgian (Mkhedruli)</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Glag - Glagolitic</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Goth - Gothic</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Gran - Grantha</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Grek - Greek</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Gujr - Gujarati</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Guru - Gurmukhi</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Hanb - Han with Bopomofo</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Hang - Hangul</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Hani - Han (Hanzi, Kanji, Hanja)</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Hano - Hanunoo (Hanunóo)</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Hans - Han (Simplified variant)</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Hant - Han (Traditional variant)</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Hatr - Hatran</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Hebr - Hebrew</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Hira - Hiragana</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Hluw - Anatolian Hieroglyphs</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Hmng - Pahawh Hmong</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Hrkt - Japanese syllabaries</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Hung - Old Hungarian (Hungarian Runic)</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Inds - Indus (Harappan)</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Ital - Old Italic (Etruscan, Oscan etc.)</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Jamo - Jamo</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Java - Javanese</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Jpan - Japanese</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Jurc - Jurchen</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Kali - Kayah Li</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Kana - Katakana</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Khar - Kharoshthi</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Khmr - Khmer</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Khoj - Khojki</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Kitl - Khitan large script</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Kits - Khitan small script</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Knda - Kannada</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Kore - Korean (alias for Hangul + Han)</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Kpel - Kpelle</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Kthi - Kaithi</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Lana - Tai Tham (Lanna)</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Laoo - Lao</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Latf - Latin (Fraktur variant)</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Latg - Latin (Gaelic variant)</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Latn - Latin</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Leke - Leke</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Lepc - Lepcha (Róng)</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Limb - Limbu</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Lina - Linear A</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Linb - Linear B</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Lisu - Lisu (Fraser)</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Loma - Loma</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Lyci - Lycian</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Lydi - Lydian</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Mahj - Mahajani</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Mand - Mandaic, Mandaean</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Mani - Manichaean</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Marc - Marchen</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Maya - Mayan hieroglyphs</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Mend - Mende Kikakui</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Merc - Meroitic Cursive</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Mero - Meroitic Hieroglyphs</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Mlym - Malayalam</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Modi - Modi, Moḍī</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Mong - Mongolian</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Moon - Moon (Moon code, Moon script, Moon type)</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Mroo - Mro, Mru</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Mtei - Meitei Mayek (Meithei, Meetei)</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Mult - Multani</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Mymr - Myanmar (Burmese)</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Narb - Old North Arabian (Ancient North Arabian)</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Nbat - Nabataean</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Newa - Newa, Newar, Newari</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Nkgb - Nakhi Geba</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Nkoo - N’Ko</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Nshu - Nüshu</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Ogam - Ogham</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Olck - Ol Chiki (Ol Cemet’, Ol, Santali)</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Orkh - Old Turkic, Orkhon Runic</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Orya - Oriya</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Osge - Osage</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Osma - Osmanya</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Palm - Palmyrene</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Pauc - Pau Cin Hau</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Perm - Old Permic</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Phag - Phags-pa</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Phli - Inscriptional Pahlavi</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Phlp - Psalter Pahlavi</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Phlv - Book Pahlavi</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Phnx - Phoenician</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Piqd - Klingon (KLI pIqaD)</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Plrd - Miao (Pollard)</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Prti - Inscriptional Parthian</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Rjng - Rejang (Redjang, Kaganga)</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Roro - Rongorongo</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Runr - Runic</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Samr - Samaritan</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Sara - Sarati</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Sarb - Old South Arabian</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Saur - Saurashtra</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Sgnw - SignWriting</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Shaw - Shavian (Shaw)</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Shrd - Sharada, Śāradā</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Sidd - Siddham</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Sind - Khudawadi, Sindhi</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Sinh - Sinhala</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Sora - Sora Sompeng</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Sund - Sundanese</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Sylo - Syloti Nagri</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Syrc - Syriac</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Syre - Syriac (Estrangelo variant)</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Syrj - Syriac (Western variant)</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Syrn - Syriac (Eastern variant)</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Tagb - Tagbanwa</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Takr - Takri</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Tale - Tai Le</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Talu - New Tai Lue</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Taml - Tamil</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Tang - Tangut</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Tavt - Tai Viet</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Telu - Telugu</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Teng - Tengwar</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Tfng - Tifinagh (Berber)</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Tglg - Tagalog (Baybayin, Alibata)</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Thaa - Thaana</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Thai - Thai</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Tibt - Tibetan</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Tirh - Tirhuta</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Ugar - Ugaritic</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Vaii - Vai</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Visp - Visible Speech</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Wara - Warang Citi (Varang Kshiti)</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Wole - Woleai</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Xpeo - Old Persian</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Xsux - Cuneiform, Sumero-Akkadian</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Yiii - Yi</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Zinh - Code for inherited script</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Zmth - Mathematical notation</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Zsye - Symbols (Emoji variant)</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Zsym - Symbols</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Zxxx - Code for unwritten documents</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Zyyy - Code for undetermined script</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>Zzzz - Code for uncoded script</entry>
+                                    <entry/>
+                                 </row>
+                                 <row>
+                                    <entry>enumeration</entry>
+                                    <entry>other</entry>
+                                    <entry/>
+                                 </row>
+                              </tbody>
+                           </tgroup>
+                        </table>
+                     </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Used by</entry>
+                  <entry>
+                     <p>
+                        <table frame="all" rowsep="1" colsep="1">
+                           <tgroup cols="2">
+                              <colspec colwidth="2*" align="left"/>
+                              <colspec colwidth="8*" align="left"/>
+                              <tbody>
+                                 <row>
+                                    <entry>Attributes </entry>
+                                    <entry>
+                                       <xref href="pagecontent_xsd_Complex_Type_pc_GlyphType.dita#GlyphType_script"/>, <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_primaryScript"/>, <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_secondaryScript"/>, <xref href="pagecontent_xsd_Complex_Type_pc_TextLineType.dita#TextLineType_primaryScript"/>, <xref href="pagecontent_xsd_Complex_Type_pc_TextLineType.dita#TextLineType_secondaryScript"/>, <xref href="pagecontent_xsd_Complex_Type_pc_TextRegionType.dita#TextRegionType_primaryScript"/>, <xref href="pagecontent_xsd_Complex_Type_pc_TextRegionType.dita#TextRegionType_secondaryScript"/>, <xref href="pagecontent_xsd_Complex_Type_pc_WordType.dita#WordType_primaryScript"/>, <xref href="pagecontent_xsd_Complex_Type_pc_WordType.dita#WordType_secondaryScript"/>
+                                    </entry>
+                                 </row>
+                              </tbody>
+                           </tgroup>
+                        </table>
+                     </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Schema location</entry>
+                  <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+   </body>
+</topic>
