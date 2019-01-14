@@ -1,6 +1,6 @@
 export
 
-DITA_OT_VERSION  = 3.0.4
+DITA_OT_VERSION  = 3.2.1
 DITA_OT_DIR      = dita-ot-$(DITA_OT_VERSION)
 DITA_OT_ZIP      = $(DITA_OT_DIR).zip
 DITA_OT_URL = https://github.com/dita-ot/dita-ot/releases/download/$(DITA_OT_VERSION)/$(DITA_OT_ZIP)
