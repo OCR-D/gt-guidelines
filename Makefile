@@ -1,20 +1,20 @@
 export
 
-DITA_OT_VERSION  = 3.2.1
+DITA_OT_VERSION  = 3.0.4
 DITA_OT_DIR      = dita-ot-$(DITA_OT_VERSION)
 DITA_OT_ZIP      = $(DITA_OT_DIR).zip
 DITA_OT_URL = https://github.com/dita-ot/dita-ot/releases/download/$(DITA_OT_VERSION)/$(DITA_OT_ZIP)
 
 PATH := $(PWD)/$(DITA_OT_DIR)/bin:$(PATH)
-DITA = dita
 
-TOPICMAP = $(PWD)/topicmap.tpl.xml
+# Options passed to dita, e..g -d. Default: '$(DITA_OPTS)'
+DITA_OPTS =
 
 # Options passed to ant in dita script. Default: '$(ANT_OPTS)'
 ANT_OPTS = "-Dhttp.proxySet=true" "-Dhttp.proxyHost=http-proxy.sbb.spk-berlin.de" "-Dhttps.proxyHost=http-proxy.sbb.spk-berlin.de" "-Dhttp.proxyPort=3128" "-Dhttps.proxyPort=3128"
 
-# Folder containing GT guidelines. Default: '$(GT_DOC_DITAMAP)'
-GT_DOC_DITAMAP = ocrd_ocrd.ditamap
+# Absolute path to ditamap. Default: '$(GT_DOC_DITAMAP)'
+GT_DOC_DITAMAP = $$repodir/ocrd_ocrd.ditamap
 
 # Folder to put OUTPUT in. Default: '$(GT_DOC_OUT)'
 GT_DOC_OUT = output
@@ -30,8 +30,9 @@ help:
 	@echo ""
 	@echo "  Variables"
 	@echo ""
+	@echo "    DITA_OPTS       Options passed to dita, e..g -d. Default: '$(DITA_OPTS)'"
 	@echo "    ANT_OPTS        Options passed to ant in dita script. Default: '$(ANT_OPTS)'"
-	@echo "    GT_DOC_DITAMAP  Folder containing GT guidelines. Default: '$(GT_DOC_DITAMAP)'"
+	@echo "    GT_DOC_DITAMAP  Absolute path to ditamap. Default: '$(GT_DOC_DITAMAP)'"
 	@echo "    GT_DOC_OUT      Folder to put OUTPUT in. Default: '$(GT_DOC_OUT)'"
 
 # END-EVAL
@@ -45,11 +46,11 @@ $(DITA_OT_DIR):
 
 # Build HTML
 build:
-	$(DITA) \
+	repodir=$(PWD); cd $(DITA_OT_DIR); ./bin/dita $(DITA_OPTS) \
 		--input="$(GT_DOC_DITAMAP)" \
 		--output="$(GT_DOC_OUT)" \
 		--format=html5 \
-		--args.input.dir=$(PWD) \
-		--propertyfile=properties/docs-build-html5_ocrd.properties
+		--args.input.dir="$$repodir" \
+		--propertyfile="$$repodir/properties/docs-build-html5_ocrd.properties"
 	cp -r resources/ $(GT_DOC_OUT)
 	cp redirecting-index.html $(GT_DOC_OUT)/index.html
