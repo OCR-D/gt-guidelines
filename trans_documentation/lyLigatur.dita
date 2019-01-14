@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="lyLigatur">
+    <title>Ligaturen (Level 2 und 3)</title>
+    <body>
+        <p>Bei der Transkription innerhalb des <b>Level 2 und 3</b> werden <b>drucktechnische
+                Ligaturen (konsonantische Ligaturen)</b> grundsätzlich <b>aufgespalten</b>. Die
+            Information Ligatur wird als Formatierungsangabe im Ground-Truth mit dem Attribut
+                <codeph>custom</codeph> mit der Angabe <codeph>textStyle</codeph> dokumentiert. </p>
+        
+            <table>
+                <tgroup cols="4">
+                    <tbody>
+                        <row>
+                            <entry>Ligatur</entry>
+                            <entry>
+                                <codeblock>custom="textStyle {offset:0; length:2;ligatur:true;}"</codeblock>
+                            </entry>
+                            <entry>ligatur</entry>
+                            <entry>
+                                <p importance="high">nur in custom zu definieren</p>
+                                <p>Für die Erkennung, Verwendung und Transkription von Ligaturen
+                                    siehe die Regelungen in <xref href="trLigatur.dita#trLigatur"
+                                    />.</p>
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+    </body>
+</topic>
