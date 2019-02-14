@@ -11,7 +11,7 @@
             <tbody>
                <row>
                   <entry>Namespace</entry>
-                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15</entry>
+                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
                </row>
                <row>
                   <entry>Annotations</entry>
@@ -80,8 +80,17 @@ front of another element with lower z-index.</codeblock>
                   </entry>
                </row>
                <row>
-                  <entry>Schema location</entry>
-                  <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                  <entry>Source</entry>
+                  <entry>
+                     <codeblock outputclass="language-xml">&lt;complexType name="LayersType"&gt;
+  &lt;annotation&gt;
+    &lt;documentation&gt;Can be used to express the z-index of overlapping regions. An element with a greater z-index is always in front of another element with lower z-index.&lt;/documentation&gt;
+  &lt;/annotation&gt;
+  &lt;sequence minOccurs="1" maxOccurs="unbounded"&gt;
+    &lt;element name="Layer" type="pc:LayerType"/&gt;
+  &lt;/sequence&gt;
+&lt;/complexType&gt;</codeblock>
+                  </entry>
                </row>
             </tbody>
          </tgroup>
@@ -97,7 +106,7 @@ front of another element with lower z-index.</codeblock>
                <tbody>
                   <row>
                      <entry>Namespace</entry>
-                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15</entry>
+                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
                   </row>
                   <row>
                      <entry>Diagram</entry>
@@ -211,7 +220,7 @@ front of another element with lower z-index.</codeblock>
                   <row>
                      <entry>Instance</entry>
                      <entry>
-                        <codeblock outputclass="language-xml">&lt;pc:Layer caption="" id="" zIndex="" xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15"&gt;
+                        <codeblock outputclass="language-xml">&lt;pc:Layer caption="" id="" zIndex="" xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15"&gt;
   &lt;pc:RegionRef regionRef=""&gt;{1,1}&lt;/pc:RegionRef&gt;
 &lt;/pc:Layer&gt;</codeblock>
                      </entry>
@@ -261,8 +270,10 @@ front of another element with lower z-index.</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;element name="Layer" type="pc:LayerType"/&gt;</codeblock>
+                     </entry>
                   </row>
                </tbody>
             </tgroup>

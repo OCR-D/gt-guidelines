@@ -11,7 +11,7 @@
             <tbody>
                <row>
                   <entry>Namespace</entry>
-                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15</entry>
+                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
                </row>
                <row>
                   <entry>Annotations</entry>
@@ -122,7 +122,17 @@
                                           
                                             <area>
                                                 <shape>rect</shape>
-                                                <coords>397,681,587,725</coords>
+                                                <coords>326,681,460,725</coords>
+                                                
+                                                
+                                                
+                                                        <xref href="#OrderedGroupIndexedType_Labels"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>397,766,587,810</coords>
                                                 
                                                 
                                                 
@@ -132,7 +142,7 @@
                                           
                                             <area>
                                                 <shape>rect</shape>
-                                                <coords>397,735,607,779</coords>
+                                                <coords>397,820,607,864</coords>
                                                 
                                                 
                                                 
@@ -142,7 +152,7 @@
                                           
                                             <area>
                                                 <shape>rect</shape>
-                                                <coords>397,789,618,833</coords>
+                                                <coords>397,874,618,918</coords>
                                                 
                                                 
                                                 
@@ -178,12 +188,12 @@
                <row>
                   <entry>Model</entry>
                   <entry>
-                     <xref href="#OrderedGroupIndexedType_UserDefined"/> , (<xref href="#OrderedGroupIndexedType_RegionRefIndexed"/> | <xref href="#OrderedGroupIndexedType_OrderedGroupIndexed"/> | <xref href="#OrderedGroupIndexedType_UnorderedGroupIndexed"/>)</entry>
+                     <xref href="#OrderedGroupIndexedType_UserDefined"/> , <xref href="#OrderedGroupIndexedType_Labels"/> , (<xref href="#OrderedGroupIndexedType_RegionRefIndexed"/> | <xref href="#OrderedGroupIndexedType_OrderedGroupIndexed"/> | <xref href="#OrderedGroupIndexedType_UnorderedGroupIndexed"/>)</entry>
                </row>
                <row>
                   <entry>Children</entry>
                   <entry>
-                     <xref href="#OrderedGroupIndexedType_OrderedGroupIndexed"/>, <xref href="#OrderedGroupIndexedType_RegionRefIndexed"/>, <xref href="#OrderedGroupIndexedType_UnorderedGroupIndexed"/>, <xref href="#OrderedGroupIndexedType_UserDefined"/>
+                     <xref href="#OrderedGroupIndexedType_Labels"/>, <xref href="#OrderedGroupIndexedType_OrderedGroupIndexed"/>, <xref href="#OrderedGroupIndexedType_RegionRefIndexed"/>, <xref href="#OrderedGroupIndexedType_UnorderedGroupIndexed"/>, <xref href="#OrderedGroupIndexedType_UserDefined"/>
                   </entry>
                </row>
                <row>
@@ -285,8 +295,51 @@ current hierarchy level.</codeblock>
                   </entry>
                </row>
                <row>
-                  <entry>Schema location</entry>
-                  <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                  <entry>Source</entry>
+                  <entry>
+                     <codeblock outputclass="language-xml">&lt;complexType name="OrderedGroupIndexedType"&gt;
+  &lt;annotation&gt;
+    &lt;documentation&gt;Indexed group containing ordered elements&lt;/documentation&gt;
+  &lt;/annotation&gt;
+  &lt;sequence&gt;
+    &lt;element name="UserDefined" type="pc:UserDefinedType" minOccurs="0" maxOccurs="1"&gt;
+    &lt;/element&gt;
+    &lt;element name="Labels" type="pc:LabelsType" minOccurs="0" maxOccurs="unbounded"&gt;
+      &lt;annotation&gt;
+        &lt;documentation&gt;Semantic labels / tags&lt;/documentation&gt;
+      &lt;/annotation&gt;
+    &lt;/element&gt;
+    &lt;choice minOccurs="1" maxOccurs="unbounded"&gt;
+      &lt;element name="RegionRefIndexed" type="pc:RegionRefIndexedType"&gt;
+      &lt;/element&gt;
+      &lt;element name="OrderedGroupIndexed" type="pc:OrderedGroupIndexedType"&gt;
+      &lt;/element&gt;
+      &lt;element name="UnorderedGroupIndexed" type="pc:UnorderedGroupIndexedType"&gt;
+      &lt;/element&gt;
+    &lt;/choice&gt;
+  &lt;/sequence&gt;
+  &lt;attribute name="id" type="ID" use="required"/&gt;
+  &lt;attribute name="regionRef" type="IDREF" use="optional"&gt;
+    &lt;annotation&gt;
+      &lt;documentation&gt;Optional link to a parent region of nested regions. The parent region doubles as reading order group. Only the nested regions should be allowed as group members.&lt;/documentation&gt;
+    &lt;/annotation&gt;
+  &lt;/attribute&gt;
+  &lt;attribute name="index" type="int" use="required"&gt;
+    &lt;annotation&gt;
+      &lt;documentation&gt;Position (order number) of this item within the current hierarchy level.&lt;/documentation&gt;
+    &lt;/annotation&gt;
+  &lt;/attribute&gt;
+  &lt;attribute name="caption" type="string"/&gt;
+  &lt;attribute name="type" type="pc:GroupTypeSimpleType"/&gt;
+  &lt;attribute name="continuation" type="boolean"&gt;
+    &lt;annotation&gt;
+      &lt;documentation&gt;Is this group a continuation of another group (from previous column or page, for example)?&lt;/documentation&gt;
+    &lt;/annotation&gt;
+  &lt;/attribute&gt;
+  &lt;attribute name="custom" type="string"/&gt;
+  &lt;attribute name="comments" type="string"/&gt;
+&lt;/complexType&gt;</codeblock>
+                  </entry>
                </row>
             </tbody>
          </tgroup>
@@ -351,8 +404,10 @@ current hierarchy level.</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;attribute name="id" type="ID" use="required"/&gt;</codeblock>
+                     </entry>
                   </row>
                </tbody>
             </tgroup>
@@ -424,8 +479,14 @@ current hierarchy level.</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;attribute name="regionRef" type="IDREF" use="optional"&gt;
+  &lt;annotation&gt;
+    &lt;documentation&gt;Optional link to a parent region of nested regions. The parent region doubles as reading order group. Only the nested regions should be allowed as group members.&lt;/documentation&gt;
+  &lt;/annotation&gt;
+&lt;/attribute&gt;</codeblock>
+                     </entry>
                   </row>
                </tbody>
             </tgroup>
@@ -498,8 +559,14 @@ current hierarchy level.</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;attribute name="index" type="int" use="required"&gt;
+  &lt;annotation&gt;
+    &lt;documentation&gt;Position (order number) of this item within the current hierarchy level.&lt;/documentation&gt;
+  &lt;/annotation&gt;
+&lt;/attribute&gt;</codeblock>
+                     </entry>
                   </row>
                </tbody>
             </tgroup>
@@ -565,8 +632,10 @@ current hierarchy level.</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;attribute name="caption" type="string"/&gt;</codeblock>
+                     </entry>
                   </row>
                </tbody>
             </tgroup>
@@ -685,8 +754,10 @@ current hierarchy level.</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;attribute name="type" type="pc:GroupTypeSimpleType"/&gt;</codeblock>
+                     </entry>
                   </row>
                </tbody>
             </tgroup>
@@ -759,8 +830,14 @@ previous column or page, for example)?</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;attribute name="continuation" type="boolean"&gt;
+  &lt;annotation&gt;
+    &lt;documentation&gt;Is this group a continuation of another group (from previous column or page, for example)?&lt;/documentation&gt;
+  &lt;/annotation&gt;
+&lt;/attribute&gt;</codeblock>
+                     </entry>
                   </row>
                </tbody>
             </tgroup>
@@ -826,8 +903,10 @@ previous column or page, for example)?</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;attribute name="custom" type="string"/&gt;</codeblock>
+                     </entry>
                   </row>
                </tbody>
             </tgroup>
@@ -893,8 +972,10 @@ previous column or page, for example)?</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;attribute name="comments" type="string"/&gt;</codeblock>
+                     </entry>
                   </row>
                </tbody>
             </tgroup>
@@ -911,7 +992,7 @@ previous column or page, for example)?</codeblock>
                <tbody>
                   <row>
                      <entry>Namespace</entry>
-                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15</entry>
+                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
                   </row>
                   <row>
                      <entry>Diagram</entry>
@@ -1004,14 +1085,256 @@ previous column or page, for example)?</codeblock>
                   <row>
                      <entry>Instance</entry>
                      <entry>
-                        <codeblock outputclass="language-xml">&lt;pc:UserDefined xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15"&gt;
+                        <codeblock outputclass="language-xml">&lt;pc:UserDefined xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15"&gt;
   &lt;pc:UserAttribute description="" name="" type="" value=""&gt;{1,unbounded}&lt;/pc:UserAttribute&gt;
 &lt;/pc:UserDefined&gt;</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;element name="UserDefined" type="pc:UserDefinedType" minOccurs="0" maxOccurs="1"&gt;
+&lt;/element&gt;</codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </body>
+   </topic>
+   <topic id="OrderedGroupIndexedType_Labels">
+      <title>Element pc:OrderedGroupIndexedType / pc:Labels</title>
+      <body>
+         <table frame="all" rowsep="1" colsep="1">
+            <tgroup cols="2">
+               <colspec colwidth="3*" align="left"/>
+               <colspec colwidth="25*" align="left"/>
+               <tbody>
+                  <row>
+                     <entry>Namespace</entry>
+                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
+                  </row>
+                  <row>
+                     <entry>Annotations</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">Semantic labels / tags</codeblock>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Diagram</entry>
+                     <entry>
+                        <p>
+                            
+                                    
+                                    <imagemap id="pagecontent_xsd_Element_pc_Labels_2">
+                                        
+                                        <image href="img/pagecontent_xsd_Element_pc_Labels_2.jpeg"/>
+                                        
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>210,79,327,123</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType_externalModel"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>210,164,307,208</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType_externalId"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>210,263,300,307</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType_prefix"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>210,348,309,392</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType_comments"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>287,409,415,453</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType_Label"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>185,3,307,25</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType"/>
+                                                    
+                                            </area>
+                                        
+                                    </imagemap>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Type</entry>
+                     <entry>
+                        <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType"/>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Properties</entry>
+                     <entry>
+                        <p>
+                           <table frame="all" rowsep="1" colsep="1">
+                              <tgroup cols="2">
+                                 <colspec colwidth="2*" align="left"/>
+                                 <colspec colwidth="8*" align="left"/>
+                                 <tbody>
+                                    <row>
+                                       <entry>content: </entry>
+                                       <entry>
+                                          <b>complex</b>
+                                       </entry>
+                                    </row>
+                                    <row>
+                                       <entry>minOccurs: </entry>
+                                       <entry>
+                                          <b>0</b>
+                                       </entry>
+                                    </row>
+                                    <row>
+                                       <entry>maxOccurs: </entry>
+                                       <entry>
+                                          <b>unbounded</b>
+                                       </entry>
+                                    </row>
+                                 </tbody>
+                              </tgroup>
+                           </table>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Model</entry>
+                     <entry>
+                        <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType_Label"/>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Children</entry>
+                     <entry>
+                        <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType_Label"/>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Instance</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;pc:Labels comments="" externalId="" externalModel="" prefix="" xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15"&gt;
+  &lt;pc:Label comments="" type="" value=""&gt;{0,unbounded}&lt;/pc:Label&gt;
+&lt;/pc:Labels&gt;</codeblock>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Attributes</entry>
+                     <entry>
+                        <p>
+                           <table frame="all" rowsep="1" colsep="1">
+                              <tgroup cols="3">
+                                 <colspec colnum="1" colname="col1" align="left" colwidth="3*"/>
+                                 <colspec colnum="2" colname="col2" align="left" colwidth="3*"/>
+                                 <colspec colnum="3" colname="col3" align="left" colwidth="1*"/>
+                                 <thead>
+                                    <row>
+                                       <entry>QName</entry>
+                                       <entry>Type</entry>
+                                       <entry>Use</entry>
+                                    </row>
+                                 </thead>
+                                 <tbody>
+                                    <row>
+                                       <entry>
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType_comments"/>
+                                       </entry>
+                                       <entry>string</entry>
+                                       <entry>optional</entry>
+                                    </row>
+                                    <row>
+                                       <entry>
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType_externalId"/>
+                                       </entry>
+                                       <entry>string</entry>
+                                       <entry>optional</entry>
+                                    </row>
+                                    <row>
+                                       <entry namest="col1" nameend="col3">
+                                          <codeblock outputclass="language-xml">E.g. an RDF resource identifier (to be used as subject or object of an RDF triple)</codeblock>
+                                       </entry>
+                                    </row>
+                                    <row>
+                                       <entry>
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType_externalModel"/>
+                                       </entry>
+                                       <entry>string</entry>
+                                       <entry>optional</entry>
+                                    </row>
+                                    <row>
+                                       <entry namest="col1" nameend="col3">
+                                          <codeblock outputclass="language-xml">Reference to external model / ontology / schema</codeblock>
+                                       </entry>
+                                    </row>
+                                    <row>
+                                       <entry>
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType_prefix"/>
+                                       </entry>
+                                       <entry>string</entry>
+                                       <entry>optional</entry>
+                                    </row>
+                                    <row>
+                                       <entry namest="col1" nameend="col3">
+                                          <codeblock outputclass="language-xml">Prefix for all labels (e.g. first part of an URI)</codeblock>
+                                       </entry>
+                                    </row>
+                                 </tbody>
+                              </tgroup>
+                           </table>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;element name="Labels" type="pc:LabelsType" minOccurs="0" maxOccurs="unbounded"&gt;
+  &lt;annotation&gt;
+    &lt;documentation&gt;Semantic labels / tags&lt;/documentation&gt;
+  &lt;/annotation&gt;
+&lt;/element&gt;</codeblock>
+                     </entry>
                   </row>
                </tbody>
             </tgroup>
@@ -1028,7 +1351,7 @@ previous column or page, for example)?</codeblock>
                <tbody>
                   <row>
                      <entry>Namespace</entry>
-                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15</entry>
+                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
                   </row>
                   <row>
                      <entry>Diagram</entry>
@@ -1148,8 +1471,11 @@ previous column or page, for example)?</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;element name="RegionRefIndexed" type="pc:RegionRefIndexedType"&gt;
+&lt;/element&gt;</codeblock>
+                     </entry>
                   </row>
                </tbody>
             </tgroup>
@@ -1166,7 +1492,7 @@ previous column or page, for example)?</codeblock>
                <tbody>
                   <row>
                      <entry>Namespace</entry>
-                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15</entry>
+                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
                   </row>
                   <row>
                      <entry>Diagram</entry>
@@ -1271,7 +1597,17 @@ previous column or page, for example)?</codeblock>
                                           
                                             <area>
                                                 <shape>rect</shape>
-                                                <coords>414,721,604,765</coords>
+                                                <coords>343,721,477,765</coords>
+                                                
+                                                
+                                                
+                                                        <xref href="#OrderedGroupIndexedType_Labels"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>414,806,604,850</coords>
                                                 
                                                 
                                                 
@@ -1281,7 +1617,7 @@ previous column or page, for example)?</codeblock>
                                           
                                             <area>
                                                 <shape>rect</shape>
-                                                <coords>414,775,613,819</coords>
+                                                <coords>414,860,613,904</coords>
                                                 
                                                 
                                                 
@@ -1291,7 +1627,7 @@ previous column or page, for example)?</codeblock>
                                           
                                             <area>
                                                 <shape>rect</shape>
-                                                <coords>414,829,635,873</coords>
+                                                <coords>414,914,635,958</coords>
                                                 
                                                 
                                                 
@@ -1343,19 +1679,20 @@ previous column or page, for example)?</codeblock>
                   <row>
                      <entry>Model</entry>
                      <entry>
-                        <xref href="#OrderedGroupIndexedType_UserDefined"/> , (<xref href="#OrderedGroupIndexedType_RegionRefIndexed"/> | <xref href="#OrderedGroupIndexedType_OrderedGroupIndexed"/> | <xref href="#OrderedGroupIndexedType_UnorderedGroupIndexed"/>)</entry>
+                        <xref href="#OrderedGroupIndexedType_UserDefined"/> , <xref href="#OrderedGroupIndexedType_Labels"/> , (<xref href="#OrderedGroupIndexedType_RegionRefIndexed"/> | <xref href="#OrderedGroupIndexedType_OrderedGroupIndexed"/> | <xref href="#OrderedGroupIndexedType_UnorderedGroupIndexed"/>)</entry>
                   </row>
                   <row>
                      <entry>Children</entry>
                      <entry>
-                        <xref href="#OrderedGroupIndexedType_OrderedGroupIndexed"/>, <xref href="#OrderedGroupIndexedType_RegionRefIndexed"/>, <xref href="#OrderedGroupIndexedType_UnorderedGroupIndexed"/>, <xref href="#OrderedGroupIndexedType_UserDefined"/>
+                        <xref href="#OrderedGroupIndexedType_Labels"/>, <xref href="#OrderedGroupIndexedType_OrderedGroupIndexed"/>, <xref href="#OrderedGroupIndexedType_RegionRefIndexed"/>, <xref href="#OrderedGroupIndexedType_UnorderedGroupIndexed"/>, <xref href="#OrderedGroupIndexedType_UserDefined"/>
                      </entry>
                   </row>
                   <row>
                      <entry>Instance</entry>
                      <entry>
-                        <codeblock outputclass="language-xml">&lt;pc:OrderedGroupIndexed caption="" comments="" continuation="" custom="" id="" index="" regionRef="" type="" xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15"&gt;
+                        <codeblock outputclass="language-xml">&lt;pc:OrderedGroupIndexed caption="" comments="" continuation="" custom="" id="" index="" regionRef="" type="" xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15"&gt;
   &lt;pc:UserDefined&gt;{0,1}&lt;/pc:UserDefined&gt;
+  &lt;pc:Labels comments="" externalId="" externalModel="" prefix=""&gt;{0,unbounded}&lt;/pc:Labels&gt;
   &lt;pc:RegionRefIndexed index="" regionRef=""&gt;{1,1}&lt;/pc:RegionRefIndexed&gt;
   &lt;pc:OrderedGroupIndexed caption="" comments="" continuation="" custom="" id="" index="" regionRef="" type=""&gt;{1,1}&lt;/pc:OrderedGroupIndexed&gt;
   &lt;pc:UnorderedGroupIndexed caption="" comments="" continuation="" custom="" id="" index="" regionRef="" type=""&gt;{1,1}&lt;/pc:UnorderedGroupIndexed&gt;
@@ -1461,8 +1798,11 @@ current hierarchy level.</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;element name="OrderedGroupIndexed" type="pc:OrderedGroupIndexedType"&gt;
+&lt;/element&gt;</codeblock>
+                     </entry>
                   </row>
                </tbody>
             </tgroup>
@@ -1479,7 +1819,7 @@ current hierarchy level.</codeblock>
                <tbody>
                   <row>
                      <entry>Namespace</entry>
-                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15</entry>
+                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
                   </row>
                   <row>
                      <entry>Diagram</entry>
@@ -1593,7 +1933,18 @@ current hierarchy level.</codeblock>
                                           
                                             <area>
                                                 <shape>rect</shape>
-                                                <coords>425,721,577,765</coords>
+                                                <coords>354,721,488,765</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_Labels"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>425,806,577,850</coords>
                                                 
                                                 
                                                 
@@ -1604,7 +1955,7 @@ current hierarchy level.</codeblock>
                                           
                                             <area>
                                                 <shape>rect</shape>
-                                                <coords>425,775,597,819</coords>
+                                                <coords>425,860,597,904</coords>
                                                 
                                                 
                                                 
@@ -1615,7 +1966,7 @@ current hierarchy level.</codeblock>
                                           
                                             <area>
                                                 <shape>rect</shape>
-                                                <coords>425,829,608,873</coords>
+                                                <coords>425,914,608,958</coords>
                                                 
                                                 
                                                 
@@ -1669,19 +2020,20 @@ current hierarchy level.</codeblock>
                   <row>
                      <entry>Model</entry>
                      <entry>
-                        <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_UserDefined"/> , (<xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_RegionRef"/> | <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_OrderedGroup"/> | <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_UnorderedGroup"/>)</entry>
+                        <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_UserDefined"/> , <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_Labels"/> , (<xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_RegionRef"/> | <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_OrderedGroup"/> | <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_UnorderedGroup"/>)</entry>
                   </row>
                   <row>
                      <entry>Children</entry>
                      <entry>
-                        <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_OrderedGroup"/>, <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_RegionRef"/>, <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_UnorderedGroup"/>, <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_UserDefined"/>
+                        <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_Labels"/>, <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_OrderedGroup"/>, <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_RegionRef"/>, <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_UnorderedGroup"/>, <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_UserDefined"/>
                      </entry>
                   </row>
                   <row>
                      <entry>Instance</entry>
                      <entry>
-                        <codeblock outputclass="language-xml">&lt;pc:UnorderedGroupIndexed caption="" comments="" continuation="" custom="" id="" index="" regionRef="" type="" xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15"&gt;
+                        <codeblock outputclass="language-xml">&lt;pc:UnorderedGroupIndexed caption="" comments="" continuation="" custom="" id="" index="" regionRef="" type="" xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15"&gt;
   &lt;pc:UserDefined&gt;{0,1}&lt;/pc:UserDefined&gt;
+  &lt;pc:Labels comments="" externalId="" externalModel="" prefix=""&gt;{0,unbounded}&lt;/pc:Labels&gt;
   &lt;pc:RegionRef regionRef=""&gt;{1,1}&lt;/pc:RegionRef&gt;
   &lt;pc:OrderedGroup caption="" comments="" continuation="" custom="" id="" regionRef="" type=""&gt;{1,1}&lt;/pc:OrderedGroup&gt;
   &lt;pc:UnorderedGroup caption="" comments="" continuation="" custom="" id="" regionRef="" type=""&gt;{1,1}&lt;/pc:UnorderedGroup&gt;
@@ -1786,8 +2138,11 @@ current hierarchy level.</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;element name="UnorderedGroupIndexed" type="pc:UnorderedGroupIndexedType"&gt;
+&lt;/element&gt;</codeblock>
+                     </entry>
                   </row>
                </tbody>
             </tgroup>

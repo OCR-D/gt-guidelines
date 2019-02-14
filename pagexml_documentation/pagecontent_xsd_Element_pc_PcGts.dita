@@ -11,7 +11,7 @@
             <tbody>
                <row>
                   <entry>Namespace</entry>
-                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15</entry>
+                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
                </row>
                <row>
                   <entry>Annotations</entry>
@@ -120,9 +120,9 @@
                <row>
                   <entry>Instance</entry>
                   <entry>
-                     <codeblock outputclass="language-xml">&lt;pc:PcGts pcGtsId="" xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15"&gt;
+                     <codeblock outputclass="language-xml">&lt;pc:PcGts pcGtsId="" xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15"&gt;
   &lt;pc:Metadata externalRef=""&gt;{1,1}&lt;/pc:Metadata&gt;
-  &lt;pc:Page custom="" imageFilename="" imageHeight="" imageWidth="" primaryLanguage="" primaryScript="" readingDirection="" secondaryLanguage="" secondaryScript="" textLineOrder="" type=""&gt;{1,1}&lt;/pc:Page&gt;
+  &lt;pc:Page conf="" custom="" imageFilename="" imageHeight="" imageResolutionUnit="" imageWidth="" imageXResolution="" imageYResolution="" primaryLanguage="" primaryScript="" readingDirection="" secondaryLanguage="" secondaryScript="" textLineOrder="" type=""&gt;{1,1}&lt;/pc:Page&gt;
 &lt;/pc:PcGts&gt;</codeblock>
                   </entry>
                </row>
@@ -157,8 +157,14 @@
                   </entry>
                </row>
                <row>
-                  <entry>Schema location</entry>
-                  <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                  <entry>Source</entry>
+                  <entry>
+                     <codeblock outputclass="language-xml">&lt;element name="PcGts" type="pc:PcGtsType"&gt;
+  &lt;annotation&gt;
+    &lt;documentation&gt;Page Content - Ground Truth and Storage&lt;/documentation&gt;
+  &lt;/annotation&gt;
+&lt;/element&gt;</codeblock>
+                  </entry>
                </row>
             </tbody>
          </tgroup>

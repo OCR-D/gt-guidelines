@@ -11,7 +11,7 @@
             <tbody>
                <row>
                   <entry>Namespace</entry>
-                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15</entry>
+                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
                </row>
                <row>
                   <entry>Annotations</entry>
@@ -78,8 +78,17 @@
                   </entry>
                </row>
                <row>
-                  <entry>Schema location</entry>
-                  <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                  <entry>Source</entry>
+                  <entry>
+                     <codeblock outputclass="language-xml">&lt;complexType name="BorderType"&gt;
+  &lt;annotation&gt;
+    &lt;documentation&gt;Border of the actual page (if the scanned image contains parts not belonging to the page).&lt;/documentation&gt;
+  &lt;/annotation&gt;
+  &lt;sequence&gt;
+    &lt;element name="Coords" type="pc:CoordsType"/&gt;
+  &lt;/sequence&gt;
+&lt;/complexType&gt;</codeblock>
+                  </entry>
                </row>
             </tbody>
          </tgroup>
@@ -95,7 +104,7 @@
                <tbody>
                   <row>
                      <entry>Namespace</entry>
-                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15</entry>
+                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
                   </row>
                   <row>
                      <entry>Diagram</entry>
@@ -116,6 +125,17 @@
                                                 
                                                         
                                                         <xref href="pagecontent_xsd_Complex_Type_pc_CoordsType.dita#CoordsType_points"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>193,164,349,208</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_CoordsType.dita#CoordsType_conf"/>
                                                     
                                             </area>
                                           
@@ -180,6 +200,20 @@
                                  <tbody>
                                     <row>
                                        <entry>
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_CoordsType.dita#CoordsType_conf"/>
+                                       </entry>
+                                       <entry>
+                                          <xref href="pagecontent_xsd_Simple_Type_pc_ConfSimpleType.dita#ConfSimpleType"/>
+                                       </entry>
+                                       <entry>optional</entry>
+                                    </row>
+                                    <row>
+                                       <entry namest="col1" nameend="col3">
+                                          <codeblock outputclass="language-xml">Confidence value (between 0 and 1)</codeblock>
+                                       </entry>
+                                    </row>
+                                    <row>
+                                       <entry>
                                           <xref href="pagecontent_xsd_Complex_Type_pc_CoordsType.dita#CoordsType_points"/>
                                        </entry>
                                        <entry>
@@ -199,8 +233,10 @@
                      </entry>
                   </row>
                   <row>
-                     <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;element name="Coords" type="pc:CoordsType"/&gt;</codeblock>
+                     </entry>
                   </row>
                </tbody>
             </tgroup>

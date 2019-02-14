@@ -11,7 +11,7 @@
             <tbody>
                <row>
                   <entry>Namespace</entry>
-                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15</entry>
+                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
                </row>
                <row>
                   <entry>Diagram</entry>
@@ -36,7 +36,7 @@
                                           
                                             <area>
                                                 <shape>rect</shape>
-                                                <coords>222,131,312,175</coords>
+                                                <coords>242,131,332,175</coords>
                                                 
                                                 
                                                 
@@ -46,7 +46,7 @@
                                           
                                             <area>
                                                 <shape>rect</shape>
-                                                <coords>222,185,328,229</coords>
+                                                <coords>242,185,348,229</coords>
                                                 
                                                 
                                                 
@@ -56,7 +56,7 @@
                                           
                                             <area>
                                                 <shape>rect</shape>
-                                                <coords>222,284,328,328</coords>
+                                                <coords>242,284,348,328</coords>
                                                 
                                                 
                                                 
@@ -66,7 +66,7 @@
                                           
                                             <area>
                                                 <shape>rect</shape>
-                                                <coords>222,383,312,427</coords>
+                                                <coords>242,383,332,427</coords>
                                                 
                                                 
                                                 
@@ -76,11 +76,21 @@
                                           
                                             <area>
                                                 <shape>rect</shape>
-                                                <coords>222,437,384,481</coords>
+                                                <coords>242,437,404,481</coords>
                                                 
                                                 
                                                 
                                                         <xref href="#MetadataType_UserDefined"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>242,491,407,535</coords>
+                                                
+                                                
+                                                
+                                                        <xref href="#MetadataType_MetadataItem"/>
                                                     
                                             </area>
                                         
@@ -112,13 +122,13 @@
                <row>
                   <entry>Model</entry>
                   <entry>
-                     <xref href="#MetadataType_Creator"/> , <xref href="#MetadataType_Created"/> , <xref href="#MetadataType_LastChange"/> , <xref href="#MetadataType_Comments"/> , <xref href="#MetadataType_UserDefined"/>
+                     <xref href="#MetadataType_Creator"/> , <xref href="#MetadataType_Created"/> , <xref href="#MetadataType_LastChange"/> , <xref href="#MetadataType_Comments"/> , <xref href="#MetadataType_UserDefined"/> , <xref href="#MetadataType_MetadataItem"/>
                   </entry>
                </row>
                <row>
                   <entry>Children</entry>
                   <entry>
-                     <xref href="#MetadataType_Comments"/>, <xref href="#MetadataType_Created"/>, <xref href="#MetadataType_Creator"/>, <xref href="#MetadataType_LastChange"/>, <xref href="#MetadataType_UserDefined"/>
+                     <xref href="#MetadataType_Comments"/>, <xref href="#MetadataType_Created"/>, <xref href="#MetadataType_Creator"/>, <xref href="#MetadataType_LastChange"/>, <xref href="#MetadataType_MetadataItem"/>, <xref href="#MetadataType_UserDefined"/>
                   </entry>
                </row>
                <row>
@@ -157,8 +167,34 @@
                   </entry>
                </row>
                <row>
-                  <entry>Schema location</entry>
-                  <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                  <entry>Source</entry>
+                  <entry>
+                     <codeblock outputclass="language-xml">&lt;complexType name="MetadataType"&gt;
+  &lt;sequence&gt;
+    &lt;element name="Creator" type="string"/&gt;
+    &lt;element name="Created" type="dateTime"&gt;
+      &lt;annotation&gt;
+        &lt;documentation&gt;The timestamp has to be in UTC (Coordinated Universal Time) and not local time.&lt;/documentation&gt;
+      &lt;/annotation&gt;
+    &lt;/element&gt;
+    &lt;element name="LastChange" type="dateTime"&gt;
+      &lt;annotation&gt;
+        &lt;documentation&gt;The timestamp has to be in UTC (Coordinated Universal Time) and not local time.&lt;/documentation&gt;
+      &lt;/annotation&gt;
+    &lt;/element&gt;
+    &lt;element name="Comments" type="string" minOccurs="0" maxOccurs="1"&gt;
+    &lt;/element&gt;
+    &lt;element name="UserDefined" type="pc:UserDefinedType" minOccurs="0" maxOccurs="1"&gt;
+    &lt;/element&gt;
+    &lt;element name="MetadataItem" type="pc:MetadataItemType" minOccurs="0" maxOccurs="unbounded"/&gt;
+  &lt;/sequence&gt;
+  &lt;attribute name="externalRef" type="string" use="optional"&gt;
+    &lt;annotation&gt;
+      &lt;documentation&gt;External reference of any kind&lt;/documentation&gt;
+    &lt;/annotation&gt;
+  &lt;/attribute&gt;
+&lt;/complexType&gt;</codeblock>
+                  </entry>
                </row>
             </tbody>
          </tgroup>
@@ -229,8 +265,14 @@
                      </entry>
                   </row>
                   <row>
-                     <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;attribute name="externalRef" type="string" use="optional"&gt;
+  &lt;annotation&gt;
+    &lt;documentation&gt;External reference of any kind&lt;/documentation&gt;
+  &lt;/annotation&gt;
+&lt;/attribute&gt;</codeblock>
+                     </entry>
                   </row>
                </tbody>
             </tgroup>
@@ -247,7 +289,7 @@
                <tbody>
                   <row>
                      <entry>Namespace</entry>
-                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15</entry>
+                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
                   </row>
                   <row>
                      <entry>Diagram</entry>
@@ -281,8 +323,10 @@
                      </entry>
                   </row>
                   <row>
-                     <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;element name="Creator" type="string"/&gt;</codeblock>
+                     </entry>
                   </row>
                </tbody>
             </tgroup>
@@ -299,7 +343,7 @@
                <tbody>
                   <row>
                      <entry>Namespace</entry>
-                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15</entry>
+                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
                   </row>
                   <row>
                      <entry>Annotations</entry>
@@ -340,8 +384,14 @@ Universal Time) and not local time.</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;element name="Created" type="dateTime"&gt;
+  &lt;annotation&gt;
+    &lt;documentation&gt;The timestamp has to be in UTC (Coordinated Universal Time) and not local time.&lt;/documentation&gt;
+  &lt;/annotation&gt;
+&lt;/element&gt;</codeblock>
+                     </entry>
                   </row>
                </tbody>
             </tgroup>
@@ -358,7 +408,7 @@ Universal Time) and not local time.</codeblock>
                <tbody>
                   <row>
                      <entry>Namespace</entry>
-                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15</entry>
+                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
                   </row>
                   <row>
                      <entry>Annotations</entry>
@@ -399,8 +449,14 @@ Universal Time) and not local time.</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;element name="LastChange" type="dateTime"&gt;
+  &lt;annotation&gt;
+    &lt;documentation&gt;The timestamp has to be in UTC (Coordinated Universal Time) and not local time.&lt;/documentation&gt;
+  &lt;/annotation&gt;
+&lt;/element&gt;</codeblock>
+                     </entry>
                   </row>
                </tbody>
             </tgroup>
@@ -417,7 +473,7 @@ Universal Time) and not local time.</codeblock>
                <tbody>
                   <row>
                      <entry>Namespace</entry>
-                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15</entry>
+                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
                   </row>
                   <row>
                      <entry>Diagram</entry>
@@ -463,8 +519,11 @@ Universal Time) and not local time.</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;element name="Comments" type="string" minOccurs="0" maxOccurs="1"&gt;
+&lt;/element&gt;</codeblock>
+                     </entry>
                   </row>
                </tbody>
             </tgroup>
@@ -481,7 +540,7 @@ Universal Time) and not local time.</codeblock>
                <tbody>
                   <row>
                      <entry>Namespace</entry>
-                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15</entry>
+                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
                   </row>
                   <row>
                      <entry>Diagram</entry>
@@ -574,14 +633,246 @@ Universal Time) and not local time.</codeblock>
                   <row>
                      <entry>Instance</entry>
                      <entry>
-                        <codeblock outputclass="language-xml">&lt;pc:UserDefined xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15"&gt;
+                        <codeblock outputclass="language-xml">&lt;pc:UserDefined xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15"&gt;
   &lt;pc:UserAttribute description="" name="" type="" value=""&gt;{1,unbounded}&lt;/pc:UserAttribute&gt;
 &lt;/pc:UserDefined&gt;</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;element name="UserDefined" type="pc:UserDefinedType" minOccurs="0" maxOccurs="1"&gt;
+&lt;/element&gt;</codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </body>
+   </topic>
+   <topic id="MetadataType_MetadataItem">
+      <title>Element pc:MetadataType / pc:MetadataItem</title>
+      <body>
+         <table frame="all" rowsep="1" colsep="1">
+            <tgroup cols="2">
+               <colspec colwidth="3*" align="left"/>
+               <colspec colwidth="25*" align="left"/>
+               <tbody>
+                  <row>
+                     <entry>Namespace</entry>
+                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
+                  </row>
+                  <row>
+                     <entry>Diagram</entry>
+                     <entry>
+                        <p>
+                            
+                                    
+                                    <imagemap id="pagecontent_xsd_Element_pc_MetadataItem">
+                                        
+                                        <image href="img/pagecontent_xsd_Element_pc_MetadataItem.jpeg"/>
+                                        
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>221,79,382,123</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_MetadataItemType.dita#MetadataItemType_type"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>221,164,311,208</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_MetadataItemType.dita#MetadataItemType_name"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>221,249,311,293</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_MetadataItemType.dita#MetadataItemType_value"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>221,334,327,378</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_MetadataItemType.dita#MetadataItemType_date"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>298,395,432,439</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_MetadataItemType.dita#MetadataItemType_Labels"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>196,3,349,25</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_MetadataItemType.dita#MetadataItemType"/>
+                                                    
+                                            </area>
+                                        
+                                    </imagemap>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Type</entry>
+                     <entry>
+                        <xref href="pagecontent_xsd_Complex_Type_pc_MetadataItemType.dita#MetadataItemType"/>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Properties</entry>
+                     <entry>
+                        <p>
+                           <table frame="all" rowsep="1" colsep="1">
+                              <tgroup cols="2">
+                                 <colspec colwidth="2*" align="left"/>
+                                 <colspec colwidth="8*" align="left"/>
+                                 <tbody>
+                                    <row>
+                                       <entry>content: </entry>
+                                       <entry>
+                                          <b>complex</b>
+                                       </entry>
+                                    </row>
+                                    <row>
+                                       <entry>minOccurs: </entry>
+                                       <entry>
+                                          <b>0</b>
+                                       </entry>
+                                    </row>
+                                    <row>
+                                       <entry>maxOccurs: </entry>
+                                       <entry>
+                                          <b>unbounded</b>
+                                       </entry>
+                                    </row>
+                                 </tbody>
+                              </tgroup>
+                           </table>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Model</entry>
+                     <entry>
+                        <xref href="pagecontent_xsd_Complex_Type_pc_MetadataItemType.dita#MetadataItemType_Labels"/>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Children</entry>
+                     <entry>
+                        <xref href="pagecontent_xsd_Complex_Type_pc_MetadataItemType.dita#MetadataItemType_Labels"/>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Instance</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;pc:MetadataItem date="" name="" type="" value="" xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15"&gt;
+  &lt;pc:Labels comments="" externalId="" externalModel="" prefix=""&gt;{0,unbounded}&lt;/pc:Labels&gt;
+&lt;/pc:MetadataItem&gt;</codeblock>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Attributes</entry>
+                     <entry>
+                        <p>
+                           <table frame="all" rowsep="1" colsep="1">
+                              <tgroup cols="3">
+                                 <colspec colnum="1" colname="col1" align="left" colwidth="3*"/>
+                                 <colspec colnum="2" colname="col2" align="left" colwidth="3*"/>
+                                 <colspec colnum="3" colname="col3" align="left" colwidth="1*"/>
+                                 <thead>
+                                    <row>
+                                       <entry>QName</entry>
+                                       <entry>Type</entry>
+                                       <entry>Use</entry>
+                                    </row>
+                                 </thead>
+                                 <tbody>
+                                    <row>
+                                       <entry>
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_MetadataItemType.dita#MetadataItemType_date"/>
+                                       </entry>
+                                       <entry>dateTime</entry>
+                                       <entry>optional</entry>
+                                    </row>
+                                    <row>
+                                       <entry>
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_MetadataItemType.dita#MetadataItemType_name"/>
+                                       </entry>
+                                       <entry>string</entry>
+                                       <entry>optional</entry>
+                                    </row>
+                                    <row>
+                                       <entry namest="col1" nameend="col3">
+                                          <codeblock outputclass="language-xml">E.g. imagePhotometricInterpretation</codeblock>
+                                       </entry>
+                                    </row>
+                                    <row>
+                                       <entry>
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_MetadataItemType.dita#MetadataItemType_type"/>
+                                       </entry>
+                                       <entry>restriction of string</entry>
+                                       <entry>optional</entry>
+                                    </row>
+                                    <row>
+                                       <entry namest="col1" nameend="col3">
+                                          <codeblock outputclass="language-xml">Type of metadata (e.g. author)</codeblock>
+                                       </entry>
+                                    </row>
+                                    <row>
+                                       <entry>
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_MetadataItemType.dita#MetadataItemType_value"/>
+                                       </entry>
+                                       <entry>string</entry>
+                                       <entry>required</entry>
+                                    </row>
+                                    <row>
+                                       <entry namest="col1" nameend="col3">
+                                          <codeblock outputclass="language-xml">E.g. RGB</codeblock>
+                                       </entry>
+                                    </row>
+                                 </tbody>
+                              </tgroup>
+                           </table>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;element name="MetadataItem" type="pc:MetadataItemType" minOccurs="0" maxOccurs="unbounded"/&gt;</codeblock>
+                     </entry>
                   </row>
                </tbody>
             </tgroup>

@@ -11,7 +11,7 @@
             <tbody>
                <row>
                   <entry>Namespace</entry>
-                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15</entry>
+                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
                </row>
                <row>
                   <entry>Diagram</entry>
@@ -31,6 +31,16 @@
                                                 
                                                 
                                                         <xref href="#BaselineType_points"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>162,93,318,137</coords>
+                                                
+                                                
+                                                
+                                                        <xref href="#BaselineType_conf"/>
                                                     
                                             </area>
                                         
@@ -78,6 +88,20 @@
                               <tbody>
                                  <row>
                                     <entry>
+                                       <xref href="#BaselineType_conf"/>
+                                    </entry>
+                                    <entry>
+                                       <xref href="pagecontent_xsd_Simple_Type_pc_ConfSimpleType.dita#ConfSimpleType"/>
+                                    </entry>
+                                    <entry>optional</entry>
+                                 </row>
+                                 <row>
+                                    <entry namest="col1" nameend="col3">
+                                       <codeblock outputclass="language-xml">Confidence value (between 0 and 1)</codeblock>
+                                    </entry>
+                                 </row>
+                                 <row>
+                                    <entry>
                                        <xref href="#BaselineType_points"/>
                                     </entry>
                                     <entry>
@@ -92,8 +116,17 @@
                   </entry>
                </row>
                <row>
-                  <entry>Schema location</entry>
-                  <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                  <entry>Source</entry>
+                  <entry>
+                     <codeblock outputclass="language-xml">&lt;complexType name="BaselineType"&gt;
+  &lt;attribute name="points" type="pc:PointsType" use="required"/&gt;
+  &lt;attribute name="conf" type="pc:ConfSimpleType" use="optional"&gt;
+    &lt;annotation&gt;
+      &lt;documentation&gt;Confidence value (between 0 and 1)&lt;/documentation&gt;
+    &lt;/annotation&gt;
+  &lt;/attribute&gt;
+&lt;/complexType&gt;</codeblock>
+                  </entry>
                </row>
             </tbody>
          </tgroup>
@@ -181,8 +214,117 @@
                      </entry>
                   </row>
                   <row>
-                     <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;attribute name="points" type="pc:PointsType" use="required"/&gt;</codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </body>
+   </topic>
+   <topic id="BaselineType_conf">
+      <title>Attribute pc:BaselineType / @conf</title>
+      <body>
+         <table frame="all" rowsep="1" colsep="1">
+            <tgroup cols="2">
+               <colspec colwidth="3*" align="left"/>
+               <colspec colwidth="25*" align="left"/>
+               <tbody>
+                  <row>
+                     <entry>Namespace</entry>
+                     <entry>No namespace</entry>
+                  </row>
+                  <row>
+                     <entry>Annotations</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">Confidence value (between 0 and 1)</codeblock>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Type</entry>
+                     <entry>
+                        <xref href="pagecontent_xsd_Simple_Type_pc_ConfSimpleType.dita#ConfSimpleType"/>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Properties</entry>
+                     <entry>
+                        <p>
+                           <table frame="all" rowsep="1" colsep="1">
+                              <tgroup cols="2">
+                                 <colspec colwidth="2*" align="left"/>
+                                 <colspec colwidth="8*" align="left"/>
+                                 <tbody>
+                                    <row>
+                                       <entry>use: </entry>
+                                       <entry>
+                                          <b>optional</b>
+                                       </entry>
+                                    </row>
+                                 </tbody>
+                              </tgroup>
+                           </table>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Facets</entry>
+                     <entry>
+                        <p>
+                           <table frame="all" rowsep="1" colsep="1">
+                              <tgroup cols="3">
+                                 <colspec colwidth="2*" align="left"/>
+                                 <colspec colwidth="3*" align="left"/>
+                                 <colspec colwidth="5*" align="left"/>
+                                 <tbody>
+                                    <row>
+                                       <entry>maxInclusive</entry>
+                                       <entry>1</entry>
+                                       <entry/>
+                                    </row>
+                                    <row>
+                                       <entry>minInclusive</entry>
+                                       <entry>0</entry>
+                                       <entry/>
+                                    </row>
+                                 </tbody>
+                              </tgroup>
+                           </table>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Used by</entry>
+                     <entry>
+                        <p>
+                           <table frame="all" rowsep="1" colsep="1">
+                              <tgroup cols="2">
+                                 <colspec colwidth="2*" align="left"/>
+                                 <colspec colwidth="8*" align="left"/>
+                                 <tbody>
+                                    <row>
+                                       <entry>Complex Type </entry>
+                                       <entry>
+                                          <xref href="#BaselineType"/>
+                                       </entry>
+                                    </row>
+                                 </tbody>
+                              </tgroup>
+                           </table>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;attribute name="conf" type="pc:ConfSimpleType" use="optional"&gt;
+  &lt;annotation&gt;
+    &lt;documentation&gt;Confidence value (between 0 and 1)&lt;/documentation&gt;
+  &lt;/annotation&gt;
+&lt;/attribute&gt;</codeblock>
+                     </entry>
                   </row>
                </tbody>
             </tgroup>

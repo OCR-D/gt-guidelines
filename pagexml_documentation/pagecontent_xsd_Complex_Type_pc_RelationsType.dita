@@ -11,7 +11,7 @@
             <tbody>
                <row>
                   <entry>Namespace</entry>
-                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15</entry>
+                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
                </row>
                <row>
                   <entry>Annotations</entry>
@@ -80,8 +80,17 @@ image)</codeblock>
                   </entry>
                </row>
                <row>
-                  <entry>Schema location</entry>
-                  <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                  <entry>Source</entry>
+                  <entry>
+                     <codeblock outputclass="language-xml">&lt;complexType name="RelationsType"&gt;
+  &lt;annotation&gt;
+    &lt;documentation&gt;Container for one-to-one relations between layout objects (for example: DropCap - paragraph, caption - image)&lt;/documentation&gt;
+  &lt;/annotation&gt;
+  &lt;sequence minOccurs="1" maxOccurs="unbounded"&gt;
+    &lt;element name="Relation" type="pc:RelationType"/&gt;
+  &lt;/sequence&gt;
+&lt;/complexType&gt;</codeblock>
+                  </entry>
                </row>
             </tbody>
          </tgroup>
@@ -97,7 +106,7 @@ image)</codeblock>
                <tbody>
                   <row>
                      <entry>Namespace</entry>
-                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15</entry>
+                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
                   </row>
                   <row>
                      <entry>Diagram</entry>
@@ -112,7 +121,18 @@ image)</codeblock>
                                           
                                             <area>
                                                 <shape>rect</shape>
-                                                <coords>200,79,361,123</coords>
+                                                <coords>196,79,279,123</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_RelationType.dita#RelationType_id"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>196,133,357,177</coords>
                                                 
                                                 
                                                 
@@ -123,7 +143,7 @@ image)</codeblock>
                                           
                                             <area>
                                                 <shape>rect</shape>
-                                                <coords>200,133,290,177</coords>
+                                                <coords>196,187,286,231</coords>
                                                 
                                                 
                                                 
@@ -134,7 +154,7 @@ image)</codeblock>
                                           
                                             <area>
                                                 <shape>rect</shape>
-                                                <coords>200,218,299,262</coords>
+                                                <coords>196,272,295,316</coords>
                                                 
                                                 
                                                 
@@ -145,18 +165,40 @@ image)</codeblock>
                                           
                                             <area>
                                                 <shape>rect</shape>
-                                                <coords>257,279,409,323</coords>
+                                                <coords>273,333,407,377</coords>
                                                 
                                                 
                                                 
                                                         
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_RelationType.dita#RelationType_RegionRef"/>
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_RelationType.dita#RelationType_Labels"/>
                                                     
                                             </area>
                                           
                                             <area>
                                                 <shape>rect</shape>
-                                                <coords>175,3,303,25</coords>
+                                                <coords>273,418,425,462</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_RelationType.dita#RelationType_SourceRegionRef"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>273,472,425,516</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_RelationType.dita#RelationType_TargetRegionRef"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>171,3,299,25</coords>
                                                 
                                                 
                                                 
@@ -199,20 +241,22 @@ image)</codeblock>
                   <row>
                      <entry>Model</entry>
                      <entry>
-                        <xref href="pagecontent_xsd_Complex_Type_pc_RelationType.dita#RelationType_RegionRef"/>
+                        <xref href="pagecontent_xsd_Complex_Type_pc_RelationType.dita#RelationType_Labels"/> , <xref href="pagecontent_xsd_Complex_Type_pc_RelationType.dita#RelationType_SourceRegionRef"/> , <xref href="pagecontent_xsd_Complex_Type_pc_RelationType.dita#RelationType_TargetRegionRef"/>
                      </entry>
                   </row>
                   <row>
                      <entry>Children</entry>
                      <entry>
-                        <xref href="pagecontent_xsd_Complex_Type_pc_RelationType.dita#RelationType_RegionRef"/>
+                        <xref href="pagecontent_xsd_Complex_Type_pc_RelationType.dita#RelationType_Labels"/>, <xref href="pagecontent_xsd_Complex_Type_pc_RelationType.dita#RelationType_SourceRegionRef"/>, <xref href="pagecontent_xsd_Complex_Type_pc_RelationType.dita#RelationType_TargetRegionRef"/>
                      </entry>
                   </row>
                   <row>
                      <entry>Instance</entry>
                      <entry>
-                        <codeblock outputclass="language-xml">&lt;pc:Relation comments="" custom="" type="" xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15"&gt;
-  &lt;pc:RegionRef regionRef=""&gt;{1,1}&lt;/pc:RegionRef&gt;
+                        <codeblock outputclass="language-xml">&lt;pc:Relation comments="" custom="" id="" type="" xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15"&gt;
+  &lt;pc:Labels comments="" externalId="" externalModel="" prefix=""&gt;{0,unbounded}&lt;/pc:Labels&gt;
+  &lt;pc:SourceRegionRef regionRef=""&gt;{1,1}&lt;/pc:SourceRegionRef&gt;
+  &lt;pc:TargetRegionRef regionRef=""&gt;{1,1}&lt;/pc:TargetRegionRef&gt;
 &lt;/pc:Relation&gt;</codeblock>
                      </entry>
                   </row>
@@ -254,10 +298,17 @@ image)</codeblock>
                                     </row>
                                     <row>
                                        <entry>
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_RelationType.dita#RelationType_id"/>
+                                       </entry>
+                                       <entry>ID</entry>
+                                       <entry>required</entry>
+                                    </row>
+                                    <row>
+                                       <entry>
                                           <xref href="pagecontent_xsd_Complex_Type_pc_RelationType.dita#RelationType_type"/>
                                        </entry>
                                        <entry>restriction of string</entry>
-                                       <entry>required</entry>
+                                       <entry>optional</entry>
                                     </row>
                                  </tbody>
                               </tgroup>
@@ -266,8 +317,10 @@ image)</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;element name="Relation" type="pc:RelationType"/&gt;</codeblock>
+                     </entry>
                   </row>
                </tbody>
             </tgroup>

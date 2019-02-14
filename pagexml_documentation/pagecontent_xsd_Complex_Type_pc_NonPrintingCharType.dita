@@ -11,7 +11,7 @@
             <tbody>
                <row>
                   <entry>Namespace</entry>
-                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15</entry>
+                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
                </row>
                <row>
                   <entry>Annotations</entry>
@@ -265,8 +265,17 @@
                   </entry>
                </row>
                <row>
-                  <entry>Schema location</entry>
-                  <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                  <entry>Source</entry>
+                  <entry>
+                     <codeblock outputclass="language-xml">&lt;complexType name="NonPrintingCharType"&gt;
+  &lt;annotation&gt;
+    &lt;documentation&gt;A glyph component without visual representation but with Unicode code point. Non-visual / non-printing / control character. Part of grapheme container (of glyph) or grapheme sub group.&lt;/documentation&gt;
+  &lt;/annotation&gt;
+  &lt;complexContent&gt;
+    &lt;extension base="pc:GraphemeBaseType"/&gt;
+  &lt;/complexContent&gt;
+&lt;/complexType&gt;</codeblock>
+                  </entry>
                </row>
             </tbody>
          </tgroup>

@@ -11,7 +11,7 @@
             <tbody>
                <row>
                   <entry>Namespace</entry>
-                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15</entry>
+                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
                </row>
                <row>
                   <entry>Annotations</entry>
@@ -147,8 +147,27 @@
                   </entry>
                </row>
                <row>
-                  <entry>Schema location</entry>
-                  <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                  <entry>Source</entry>
+                  <entry>
+                     <codeblock outputclass="language-xml">&lt;complexType name="UserAttributeType"&gt;
+  &lt;annotation&gt;
+    &lt;documentation&gt;Structured custom data defined by name, type and value.&lt;/documentation&gt;
+  &lt;/annotation&gt;
+  &lt;attribute name="name" type="string"/&gt;
+  &lt;attribute name="description" type="string"/&gt;
+  &lt;attribute name="type"&gt;
+    &lt;simpleType&gt;
+      &lt;restriction base="string"&gt;
+        &lt;enumeration value="xsd:string"/&gt;
+        &lt;enumeration value="xsd:integer"/&gt;
+        &lt;enumeration value="xsd:boolean"/&gt;
+        &lt;enumeration value="xsd:float"/&gt;
+      &lt;/restriction&gt;
+    &lt;/simpleType&gt;
+  &lt;/attribute&gt;
+  &lt;attribute name="value" type="string"/&gt;
+&lt;/complexType&gt;</codeblock>
+                  </entry>
                </row>
             </tbody>
          </tgroup>
@@ -213,8 +232,10 @@
                      </entry>
                   </row>
                   <row>
-                     <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;attribute name="name" type="string"/&gt;</codeblock>
+                     </entry>
                   </row>
                </tbody>
             </tgroup>
@@ -280,8 +301,10 @@
                      </entry>
                   </row>
                   <row>
-                     <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;attribute name="description" type="string"/&gt;</codeblock>
+                     </entry>
                   </row>
                </tbody>
             </tgroup>
@@ -383,8 +406,19 @@
                      </entry>
                   </row>
                   <row>
-                     <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;attribute name="type"&gt;
+  &lt;simpleType&gt;
+    &lt;restriction base="string"&gt;
+      &lt;enumeration value="xsd:string"/&gt;
+      &lt;enumeration value="xsd:integer"/&gt;
+      &lt;enumeration value="xsd:boolean"/&gt;
+      &lt;enumeration value="xsd:float"/&gt;
+    &lt;/restriction&gt;
+  &lt;/simpleType&gt;
+&lt;/attribute&gt;</codeblock>
+                     </entry>
                   </row>
                </tbody>
             </tgroup>
@@ -450,8 +484,10 @@
                      </entry>
                   </row>
                   <row>
-                     <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;attribute name="value" type="string"/&gt;</codeblock>
+                     </entry>
                   </row>
                </tbody>
             </tgroup>

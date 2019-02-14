@@ -11,7 +11,7 @@
             <tbody>
                <row>
                   <entry>Namespace</entry>
-                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15</entry>
+                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
                </row>
                <row>
                   <entry>Annotations</entry>
@@ -118,8 +118,20 @@
                   </entry>
                </row>
                <row>
-                  <entry>Schema location</entry>
-                  <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                  <entry>Source</entry>
+                  <entry>
+                     <codeblock outputclass="language-xml">&lt;complexType name="RegionRefIndexedType"&gt;
+  &lt;annotation&gt;
+    &lt;documentation&gt;Numbered region&lt;/documentation&gt;
+  &lt;/annotation&gt;
+  &lt;attribute name="index" type="int" use="required"&gt;
+    &lt;annotation&gt;
+      &lt;documentation&gt;Position (order number) of this item within the current hierarchy level.&lt;/documentation&gt;
+    &lt;/annotation&gt;
+  &lt;/attribute&gt;
+  &lt;attribute name="regionRef" type="IDREF" use="required"/&gt;
+&lt;/complexType&gt;</codeblock>
+                  </entry>
                </row>
             </tbody>
          </tgroup>
@@ -190,8 +202,14 @@
                      </entry>
                   </row>
                   <row>
-                     <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;attribute name="index" type="int" use="required"&gt;
+  &lt;annotation&gt;
+    &lt;documentation&gt;Position (order number) of this item within the current hierarchy level.&lt;/documentation&gt;
+  &lt;/annotation&gt;
+&lt;/attribute&gt;</codeblock>
+                     </entry>
                   </row>
                </tbody>
             </tgroup>
@@ -257,8 +275,10 @@
                      </entry>
                   </row>
                   <row>
-                     <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;attribute name="regionRef" type="IDREF" use="required"/&gt;</codeblock>
+                     </entry>
                   </row>
                </tbody>
             </tgroup>

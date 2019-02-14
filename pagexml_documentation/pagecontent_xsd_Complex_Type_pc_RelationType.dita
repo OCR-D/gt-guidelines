@@ -11,7 +11,7 @@
             <tbody>
                <row>
                   <entry>Namespace</entry>
-                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15</entry>
+                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
                </row>
                <row>
                   <entry>Annotations</entry>
@@ -21,7 +21,7 @@
     			(where something is fragmented for instance).
 
     			Examples for 'link': caption - image floating -
-    			paragraph paragraph - paragraph (when a pragraph is
+    			paragraph paragraph - paragraph (when a paragraph is
     			split across columns and the last word of the first
     			paragraph DOES NOT continue in the second paragraph)
     			drop-cap - paragraph (when the drop-cap is a whole word)
@@ -47,7 +47,17 @@
                                           
                                             <area>
                                                 <shape>rect</shape>
-                                                <coords>183,39,344,83</coords>
+                                                <coords>179,39,262,83</coords>
+                                                
+                                                
+                                                
+                                                        <xref href="#RelationType_id"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>179,93,340,137</coords>
                                                 
                                                 
                                                 
@@ -57,7 +67,7 @@
                                           
                                             <area>
                                                 <shape>rect</shape>
-                                                <coords>183,93,273,137</coords>
+                                                <coords>179,147,269,191</coords>
                                                 
                                                 
                                                 
@@ -67,7 +77,7 @@
                                           
                                             <area>
                                                 <shape>rect</shape>
-                                                <coords>183,178,282,222</coords>
+                                                <coords>179,232,278,276</coords>
                                                 
                                                 
                                                 
@@ -77,11 +87,31 @@
                                           
                                             <area>
                                                 <shape>rect</shape>
-                                                <coords>240,239,392,283</coords>
+                                                <coords>256,293,390,337</coords>
                                                 
                                                 
                                                 
-                                                        <xref href="#RelationType_RegionRef"/>
+                                                        <xref href="#RelationType_Labels"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>256,378,408,422</coords>
+                                                
+                                                
+                                                
+                                                        <xref href="#RelationType_SourceRegionRef"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>256,432,408,476</coords>
+                                                
+                                                
+                                                
+                                                        <xref href="#RelationType_TargetRegionRef"/>
                                                     
                                             </area>
                                         
@@ -113,13 +143,13 @@
                <row>
                   <entry>Model</entry>
                   <entry>
-                     <xref href="#RelationType_RegionRef"/>
+                     <xref href="#RelationType_Labels"/> , <xref href="#RelationType_SourceRegionRef"/> , <xref href="#RelationType_TargetRegionRef"/>
                   </entry>
                </row>
                <row>
                   <entry>Children</entry>
                   <entry>
-                     <xref href="#RelationType_RegionRef"/>
+                     <xref href="#RelationType_Labels"/>, <xref href="#RelationType_SourceRegionRef"/>, <xref href="#RelationType_TargetRegionRef"/>
                   </entry>
                </row>
                <row>
@@ -160,10 +190,17 @@
                                  </row>
                                  <row>
                                     <entry>
+                                       <xref href="#RelationType_id"/>
+                                    </entry>
+                                    <entry>ID</entry>
+                                    <entry>required</entry>
+                                 </row>
+                                 <row>
+                                    <entry>
                                        <xref href="#RelationType_type"/>
                                     </entry>
                                     <entry>restriction of string</entry>
-                                    <entry>required</entry>
+                                    <entry>optional</entry>
                                  </row>
                               </tbody>
                            </tgroup>
@@ -172,13 +209,112 @@
                   </entry>
                </row>
                <row>
-                  <entry>Schema location</entry>
-                  <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                  <entry>Source</entry>
+                  <entry>
+                     <codeblock outputclass="language-xml">&lt;complexType name="RelationType"&gt;
+  &lt;annotation&gt;
+    &lt;documentation&gt;One-to-one relation between to layout object. Use 'link' for loose relations and 'join' for strong relations (where something is fragmented for instance). Examples for 'link': caption - image floating - paragraph paragraph - paragraph (when a paragraph is split across columns and the last word of the first paragraph DOES NOT continue in the second paragraph) drop-cap - paragraph (when the drop-cap is a whole word) Examples for 'join': word - word (separated word at the end of a line) drop-cap - paragraph (when the drop-cap is not a whole word) paragraph - paragraph (when a pragraph is split across columns and the last word of the first paragraph DOES continue in the second paragraph)&lt;/documentation&gt;
+  &lt;/annotation&gt;
+  &lt;sequence&gt;
+    &lt;element name="Labels" type="pc:LabelsType" minOccurs="0" maxOccurs="unbounded"&gt;
+      &lt;annotation&gt;
+        &lt;documentation&gt;Semantic labels / tags&lt;/documentation&gt;
+      &lt;/annotation&gt;
+    &lt;/element&gt;
+    &lt;element name="SourceRegionRef" type="pc:RegionRefType" minOccurs="1" maxOccurs="1"/&gt;
+    &lt;element name="TargetRegionRef" type="pc:RegionRefType" minOccurs="1" maxOccurs="1"/&gt;
+  &lt;/sequence&gt;
+  &lt;attribute name="id" type="ID" use="required"/&gt;
+  &lt;attribute name="type" use="optional"&gt;
+    &lt;simpleType&gt;
+      &lt;restriction base="string"&gt;
+        &lt;enumeration value="link"/&gt;
+        &lt;enumeration value="join"/&gt;
+      &lt;/restriction&gt;
+    &lt;/simpleType&gt;
+  &lt;/attribute&gt;
+  &lt;attribute name="custom" type="string"&gt;
+    &lt;annotation&gt;
+      &lt;documentation&gt;For generic use&lt;/documentation&gt;
+    &lt;/annotation&gt;
+  &lt;/attribute&gt;
+  &lt;attribute name="comments" type="string"/&gt;
+&lt;/complexType&gt;</codeblock>
+                  </entry>
                </row>
             </tbody>
          </tgroup>
       </table>
    </body>
+   <topic id="RelationType_id">
+      <title>Attribute pc:RelationType / @id</title>
+      <body>
+         <table frame="all" rowsep="1" colsep="1">
+            <tgroup cols="2">
+               <colspec colwidth="3*" align="left"/>
+               <colspec colwidth="25*" align="left"/>
+               <tbody>
+                  <row>
+                     <entry>Namespace</entry>
+                     <entry>No namespace</entry>
+                  </row>
+                  <row>
+                     <entry>Type</entry>
+                     <entry>ID</entry>
+                  </row>
+                  <row>
+                     <entry>Properties</entry>
+                     <entry>
+                        <p>
+                           <table frame="all" rowsep="1" colsep="1">
+                              <tgroup cols="2">
+                                 <colspec colwidth="2*" align="left"/>
+                                 <colspec colwidth="8*" align="left"/>
+                                 <tbody>
+                                    <row>
+                                       <entry>use: </entry>
+                                       <entry>
+                                          <b>required</b>
+                                       </entry>
+                                    </row>
+                                 </tbody>
+                              </tgroup>
+                           </table>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Used by</entry>
+                     <entry>
+                        <p>
+                           <table frame="all" rowsep="1" colsep="1">
+                              <tgroup cols="2">
+                                 <colspec colwidth="2*" align="left"/>
+                                 <colspec colwidth="8*" align="left"/>
+                                 <tbody>
+                                    <row>
+                                       <entry>Complex Type </entry>
+                                       <entry>
+                                          <xref href="#RelationType"/>
+                                       </entry>
+                                    </row>
+                                 </tbody>
+                              </tgroup>
+                           </table>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;attribute name="id" type="ID" use="required"/&gt;</codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </body>
+   </topic>
    <topic id="RelationType_type">
       <title>Attribute pc:RelationType / @type</title>
       <body>
@@ -207,7 +343,7 @@
                                     <row>
                                        <entry>use: </entry>
                                        <entry>
-                                          <b>required</b>
+                                          <b>optional</b>
                                        </entry>
                                     </row>
                                  </tbody>
@@ -264,8 +400,17 @@
                      </entry>
                   </row>
                   <row>
-                     <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;attribute name="type" use="optional"&gt;
+  &lt;simpleType&gt;
+    &lt;restriction base="string"&gt;
+      &lt;enumeration value="link"/&gt;
+      &lt;enumeration value="join"/&gt;
+    &lt;/restriction&gt;
+  &lt;/simpleType&gt;
+&lt;/attribute&gt;</codeblock>
+                     </entry>
                   </row>
                </tbody>
             </tgroup>
@@ -337,8 +482,14 @@
                      </entry>
                   </row>
                   <row>
-                     <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;attribute name="custom" type="string"&gt;
+  &lt;annotation&gt;
+    &lt;documentation&gt;For generic use&lt;/documentation&gt;
+  &lt;/annotation&gt;
+&lt;/attribute&gt;</codeblock>
+                     </entry>
                   </row>
                </tbody>
             </tgroup>
@@ -404,16 +555,18 @@
                      </entry>
                   </row>
                   <row>
-                     <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;attribute name="comments" type="string"/&gt;</codeblock>
+                     </entry>
                   </row>
                </tbody>
             </tgroup>
          </table>
       </body>
    </topic>
-   <topic id="RelationType_RegionRef">
-      <title>Element pc:RelationType / pc:RegionRef</title>
+   <topic id="RelationType_Labels">
+      <title>Element pc:RelationType / pc:Labels</title>
       <body>
          <table frame="all" rowsep="1" colsep="1">
             <tgroup cols="2">
@@ -422,7 +575,13 @@
                <tbody>
                   <row>
                      <entry>Namespace</entry>
-                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15</entry>
+                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
+                  </row>
+                  <row>
+                     <entry>Annotations</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">Semantic labels / tags</codeblock>
+                     </entry>
                   </row>
                   <row>
                      <entry>Diagram</entry>
@@ -430,9 +589,242 @@
                         <p>
                             
                                     
-                                    <imagemap id="pagecontent_xsd_Element_pc_RegionRef_3">
+                                    <imagemap id="pagecontent_xsd_Element_pc_Labels_5">
                                         
-                                        <image href="img/pagecontent_xsd_Element_pc_RegionRef_3.jpeg"/>
+                                        <image href="img/pagecontent_xsd_Element_pc_Labels_5.jpeg"/>
+                                        
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>210,79,327,123</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType_externalModel"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>210,164,307,208</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType_externalId"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>210,263,300,307</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType_prefix"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>210,348,309,392</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType_comments"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>287,409,415,453</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType_Label"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>185,3,307,25</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType"/>
+                                                    
+                                            </area>
+                                        
+                                    </imagemap>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Type</entry>
+                     <entry>
+                        <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType"/>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Properties</entry>
+                     <entry>
+                        <p>
+                           <table frame="all" rowsep="1" colsep="1">
+                              <tgroup cols="2">
+                                 <colspec colwidth="2*" align="left"/>
+                                 <colspec colwidth="8*" align="left"/>
+                                 <tbody>
+                                    <row>
+                                       <entry>content: </entry>
+                                       <entry>
+                                          <b>complex</b>
+                                       </entry>
+                                    </row>
+                                    <row>
+                                       <entry>minOccurs: </entry>
+                                       <entry>
+                                          <b>0</b>
+                                       </entry>
+                                    </row>
+                                    <row>
+                                       <entry>maxOccurs: </entry>
+                                       <entry>
+                                          <b>unbounded</b>
+                                       </entry>
+                                    </row>
+                                 </tbody>
+                              </tgroup>
+                           </table>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Model</entry>
+                     <entry>
+                        <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType_Label"/>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Children</entry>
+                     <entry>
+                        <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType_Label"/>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Instance</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;pc:Labels comments="" externalId="" externalModel="" prefix="" xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15"&gt;
+  &lt;pc:Label comments="" type="" value=""&gt;{0,unbounded}&lt;/pc:Label&gt;
+&lt;/pc:Labels&gt;</codeblock>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Attributes</entry>
+                     <entry>
+                        <p>
+                           <table frame="all" rowsep="1" colsep="1">
+                              <tgroup cols="3">
+                                 <colspec colnum="1" colname="col1" align="left" colwidth="3*"/>
+                                 <colspec colnum="2" colname="col2" align="left" colwidth="3*"/>
+                                 <colspec colnum="3" colname="col3" align="left" colwidth="1*"/>
+                                 <thead>
+                                    <row>
+                                       <entry>QName</entry>
+                                       <entry>Type</entry>
+                                       <entry>Use</entry>
+                                    </row>
+                                 </thead>
+                                 <tbody>
+                                    <row>
+                                       <entry>
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType_comments"/>
+                                       </entry>
+                                       <entry>string</entry>
+                                       <entry>optional</entry>
+                                    </row>
+                                    <row>
+                                       <entry>
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType_externalId"/>
+                                       </entry>
+                                       <entry>string</entry>
+                                       <entry>optional</entry>
+                                    </row>
+                                    <row>
+                                       <entry namest="col1" nameend="col3">
+                                          <codeblock outputclass="language-xml">E.g. an RDF resource identifier (to be used as subject or object of an RDF triple)</codeblock>
+                                       </entry>
+                                    </row>
+                                    <row>
+                                       <entry>
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType_externalModel"/>
+                                       </entry>
+                                       <entry>string</entry>
+                                       <entry>optional</entry>
+                                    </row>
+                                    <row>
+                                       <entry namest="col1" nameend="col3">
+                                          <codeblock outputclass="language-xml">Reference to external model / ontology / schema</codeblock>
+                                       </entry>
+                                    </row>
+                                    <row>
+                                       <entry>
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType_prefix"/>
+                                       </entry>
+                                       <entry>string</entry>
+                                       <entry>optional</entry>
+                                    </row>
+                                    <row>
+                                       <entry namest="col1" nameend="col3">
+                                          <codeblock outputclass="language-xml">Prefix for all labels (e.g. first part of an URI)</codeblock>
+                                       </entry>
+                                    </row>
+                                 </tbody>
+                              </tgroup>
+                           </table>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;element name="Labels" type="pc:LabelsType" minOccurs="0" maxOccurs="unbounded"&gt;
+  &lt;annotation&gt;
+    &lt;documentation&gt;Semantic labels / tags&lt;/documentation&gt;
+  &lt;/annotation&gt;
+&lt;/element&gt;</codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </body>
+   </topic>
+   <topic id="RelationType_SourceRegionRef">
+      <title>Element pc:RelationType / pc:SourceRegionRef</title>
+      <body>
+         <table frame="all" rowsep="1" colsep="1">
+            <tgroup cols="2">
+               <colspec colwidth="3*" align="left"/>
+               <colspec colwidth="25*" align="left"/>
+               <tbody>
+                  <row>
+                     <entry>Namespace</entry>
+                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
+                  </row>
+                  <row>
+                     <entry>Diagram</entry>
+                     <entry>
+                        <p>
+                            
+                                    
+                                    <imagemap id="pagecontent_xsd_Element_pc_SourceRegionRef">
+                                        
+                                        <image href="img/pagecontent_xsd_Element_pc_SourceRegionRef.jpeg"/>
                                         
                                           
                                             <area>
@@ -482,6 +874,18 @@
                                           <b>complex</b>
                                        </entry>
                                     </row>
+                                    <row>
+                                       <entry>minOccurs: </entry>
+                                       <entry>
+                                          <b>1</b>
+                                       </entry>
+                                    </row>
+                                    <row>
+                                       <entry>maxOccurs: </entry>
+                                       <entry>
+                                          <b>1</b>
+                                       </entry>
+                                    </row>
                                  </tbody>
                               </tgroup>
                            </table>
@@ -519,8 +923,139 @@
                      </entry>
                   </row>
                   <row>
-                     <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;element name="SourceRegionRef" type="pc:RegionRefType" minOccurs="1" maxOccurs="1"/&gt;</codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </body>
+   </topic>
+   <topic id="RelationType_TargetRegionRef">
+      <title>Element pc:RelationType / pc:TargetRegionRef</title>
+      <body>
+         <table frame="all" rowsep="1" colsep="1">
+            <tgroup cols="2">
+               <colspec colwidth="3*" align="left"/>
+               <colspec colwidth="25*" align="left"/>
+               <tbody>
+                  <row>
+                     <entry>Namespace</entry>
+                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
+                  </row>
+                  <row>
+                     <entry>Diagram</entry>
+                     <entry>
+                        <p>
+                            
+                                    
+                                    <imagemap id="pagecontent_xsd_Element_pc_TargetRegionRef">
+                                        
+                                        <image href="img/pagecontent_xsd_Element_pc_TargetRegionRef.jpeg"/>
+                                        
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>208,79,305,123</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_RegionRefType.dita#RegionRefType_regionRef"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>183,3,323,25</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_RegionRefType.dita#RegionRefType"/>
+                                                    
+                                            </area>
+                                        
+                                    </imagemap>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Type</entry>
+                     <entry>
+                        <xref href="pagecontent_xsd_Complex_Type_pc_RegionRefType.dita#RegionRefType"/>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Properties</entry>
+                     <entry>
+                        <p>
+                           <table frame="all" rowsep="1" colsep="1">
+                              <tgroup cols="2">
+                                 <colspec colwidth="2*" align="left"/>
+                                 <colspec colwidth="8*" align="left"/>
+                                 <tbody>
+                                    <row>
+                                       <entry>content: </entry>
+                                       <entry>
+                                          <b>complex</b>
+                                       </entry>
+                                    </row>
+                                    <row>
+                                       <entry>minOccurs: </entry>
+                                       <entry>
+                                          <b>1</b>
+                                       </entry>
+                                    </row>
+                                    <row>
+                                       <entry>maxOccurs: </entry>
+                                       <entry>
+                                          <b>1</b>
+                                       </entry>
+                                    </row>
+                                 </tbody>
+                              </tgroup>
+                           </table>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Attributes</entry>
+                     <entry>
+                        <p>
+                           <table frame="all" rowsep="1" colsep="1">
+                              <tgroup cols="3">
+                                 <colspec colnum="1" colname="col1" align="left" colwidth="3*"/>
+                                 <colspec colnum="2" colname="col2" align="left" colwidth="3*"/>
+                                 <colspec colnum="3" colname="col3" align="left" colwidth="1*"/>
+                                 <thead>
+                                    <row>
+                                       <entry>QName</entry>
+                                       <entry>Type</entry>
+                                       <entry>Use</entry>
+                                    </row>
+                                 </thead>
+                                 <tbody>
+                                    <row>
+                                       <entry>
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_RegionRefType.dita#RegionRefType_regionRef"/>
+                                       </entry>
+                                       <entry>IDREF</entry>
+                                       <entry>required</entry>
+                                    </row>
+                                 </tbody>
+                              </tgroup>
+                           </table>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;element name="TargetRegionRef" type="pc:RegionRefType" minOccurs="1" maxOccurs="1"/&gt;</codeblock>
+                     </entry>
                   </row>
                </tbody>
             </tgroup>

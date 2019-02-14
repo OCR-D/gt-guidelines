@@ -11,7 +11,7 @@
             <tbody>
                <row>
                   <entry>Namespace</entry>
-                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15</entry>
+                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
                </row>
                <row>
                   <entry>Diagram</entry>
@@ -106,7 +106,27 @@
                                           
                                             <area>
                                                 <shape>rect</shape>
-                                                <coords>239,664,376,708</coords>
+                                                <coords>162,657,245,701</coords>
+                                                
+                                                
+                                                
+                                                        <xref href="#TextLineType_index"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>239,763,421,807</coords>
+                                                
+                                                
+                                                
+                                                        <xref href="#TextLineType_AlternativeImage"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>239,848,376,892</coords>
                                                 
                                                 
                                                 
@@ -116,7 +136,7 @@
                                           
                                             <area>
                                                 <shape>rect</shape>
-                                                <coords>239,718,382,762</coords>
+                                                <coords>239,902,382,946</coords>
                                                 
                                                 
                                                 
@@ -126,7 +146,7 @@
                                           
                                             <area>
                                                 <shape>rect</shape>
-                                                <coords>239,803,367,847</coords>
+                                                <coords>239,987,367,1031</coords>
                                                 
                                                 
                                                 
@@ -136,7 +156,7 @@
                                           
                                             <area>
                                                 <shape>rect</shape>
-                                                <coords>239,857,388,901</coords>
+                                                <coords>239,1041,388,1085</coords>
                                                 
                                                 
                                                 
@@ -146,7 +166,7 @@
                                           
                                             <area>
                                                 <shape>rect</shape>
-                                                <coords>239,911,386,955</coords>
+                                                <coords>239,1095,386,1139</coords>
                                                 
                                                 
                                                 
@@ -156,11 +176,21 @@
                                           
                                             <area>
                                                 <shape>rect</shape>
-                                                <coords>239,965,401,1009</coords>
+                                                <coords>239,1149,401,1193</coords>
                                                 
                                                 
                                                 
                                                         <xref href="#TextLineType_UserDefined"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>239,1203,373,1247</coords>
+                                                
+                                                
+                                                
+                                                        <xref href="#TextLineType_Labels"/>
                                                     
                                             </area>
                                         
@@ -192,13 +222,13 @@
                <row>
                   <entry>Model</entry>
                   <entry>
-                     <xref href="#TextLineType_Coords"/> , <xref href="#TextLineType_Baseline"/> , <xref href="#TextLineType_Word"/> , <xref href="#TextLineType_TextEquiv"/> , <xref href="#TextLineType_TextStyle"/> , <xref href="#TextLineType_UserDefined"/>
+                     <xref href="#TextLineType_AlternativeImage"/> , <xref href="#TextLineType_Coords"/> , <xref href="#TextLineType_Baseline"/> , <xref href="#TextLineType_Word"/> , <xref href="#TextLineType_TextEquiv"/> , <xref href="#TextLineType_TextStyle"/> , <xref href="#TextLineType_UserDefined"/> , <xref href="#TextLineType_Labels"/>
                   </entry>
                </row>
                <row>
                   <entry>Children</entry>
                   <entry>
-                     <xref href="#TextLineType_Baseline"/>, <xref href="#TextLineType_Coords"/>, <xref href="#TextLineType_TextEquiv"/>, <xref href="#TextLineType_TextStyle"/>, <xref href="#TextLineType_UserDefined"/>, <xref href="#TextLineType_Word"/>
+                     <xref href="#TextLineType_AlternativeImage"/>, <xref href="#TextLineType_Baseline"/>, <xref href="#TextLineType_Coords"/>, <xref href="#TextLineType_Labels"/>, <xref href="#TextLineType_TextEquiv"/>, <xref href="#TextLineType_TextStyle"/>, <xref href="#TextLineType_UserDefined"/>, <xref href="#TextLineType_Word"/>
                   </entry>
                </row>
                <row>
@@ -243,6 +273,19 @@
                                     </entry>
                                     <entry>ID</entry>
                                     <entry>required</entry>
+                                 </row>
+                                 <row>
+                                    <entry>
+                                       <xref href="#TextLineType_index"/>
+                                    </entry>
+                                    <entry>int</entry>
+                                    <entry>optional</entry>
+                                 </row>
+                                 <row>
+                                    <entry namest="col1" nameend="col3">
+                                       <codeblock outputclass="language-xml">Position (order number) of this text line within the
+parent text region.</codeblock>
+                                    </entry>
                                  </row>
                                  <row>
                                     <entry>
@@ -323,8 +366,73 @@ text region</codeblock>
                   </entry>
                </row>
                <row>
-                  <entry>Schema location</entry>
-                  <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                  <entry>Source</entry>
+                  <entry>
+                     <codeblock outputclass="language-xml">&lt;complexType name="TextLineType"&gt;
+  &lt;sequence&gt;
+    &lt;element name="AlternativeImage" type="pc:AlternativeImageType" minOccurs="0" maxOccurs="unbounded"&gt;
+      &lt;annotation&gt;
+        &lt;documentation&gt;Alternative text line images (e.g. black-and-white)&lt;/documentation&gt;
+      &lt;/annotation&gt;
+    &lt;/element&gt;
+    &lt;element name="Coords" type="pc:CoordsType"/&gt;
+    &lt;element name="Baseline" type="pc:BaselineType" minOccurs="0"&gt;
+      &lt;annotation&gt;
+        &lt;documentation&gt;Multiple connected points that mark the baseline of the glyphs&lt;/documentation&gt;
+      &lt;/annotation&gt;
+    &lt;/element&gt;
+    &lt;element name="Word" type="pc:WordType" minOccurs="0" maxOccurs="unbounded"&gt;
+    &lt;/element&gt;
+    &lt;element name="TextEquiv" type="pc:TextEquivType" minOccurs="0" maxOccurs="unbounded"&gt;
+    &lt;/element&gt;
+    &lt;element name="TextStyle" type="pc:TextStyleType" minOccurs="0"&gt;
+    &lt;/element&gt;
+    &lt;element name="UserDefined" type="pc:UserDefinedType" minOccurs="0" maxOccurs="1"/&gt;
+    &lt;element name="Labels" type="pc:LabelsType" minOccurs="0" maxOccurs="unbounded"&gt;
+      &lt;annotation&gt;
+        &lt;documentation&gt;Semantic labels / tags&lt;/documentation&gt;
+      &lt;/annotation&gt;
+    &lt;/element&gt;
+  &lt;/sequence&gt;
+  &lt;attribute name="id" type="ID" use="required"/&gt;
+  &lt;attribute name="primaryLanguage" type="pc:LanguageSimpleType"&gt;
+    &lt;annotation&gt;
+      &lt;documentation&gt;Overrides primaryLanguage attribute of parent text region&lt;/documentation&gt;
+    &lt;/annotation&gt;
+  &lt;/attribute&gt;
+  &lt;attribute name="primaryScript" type="pc:ScriptSimpleType" use="optional"&gt;
+    &lt;annotation&gt;
+      &lt;documentation&gt;The primary script used in the text line&lt;/documentation&gt;
+    &lt;/annotation&gt;
+  &lt;/attribute&gt;
+  &lt;attribute name="secondaryScript" type="pc:ScriptSimpleType" use="optional"&gt;
+    &lt;annotation&gt;
+      &lt;documentation&gt;The secondary script used in the text line&lt;/documentation&gt;
+    &lt;/annotation&gt;
+  &lt;/attribute&gt;
+  &lt;attribute name="readingDirection" type="pc:ReadingDirectionSimpleType" use="optional"&gt;
+    &lt;annotation&gt;
+      &lt;documentation&gt;The direction in which text in a text line should be read&lt;/documentation&gt;
+    &lt;/annotation&gt;
+  &lt;/attribute&gt;
+  &lt;attribute name="production" type="pc:ProductionSimpleType" use="optional"&gt;
+    &lt;annotation&gt;
+      &lt;documentation&gt;Overrides the production attribute of the parent text region&lt;/documentation&gt;
+    &lt;/annotation&gt;
+  &lt;/attribute&gt;
+  &lt;attribute name="custom" type="string"&gt;
+    &lt;annotation&gt;
+      &lt;documentation&gt;For generic use&lt;/documentation&gt;
+    &lt;/annotation&gt;
+  &lt;/attribute&gt;
+  &lt;attribute name="comments" type="string"/&gt;
+  &lt;attribute name="index" type="int" use="optional"&gt;
+    &lt;annotation&gt;
+      &lt;documentation&gt;Position (order number) of this text line within the parent text region.&lt;/documentation&gt;
+    &lt;/annotation&gt;
+  &lt;/attribute&gt;
+&lt;/complexType&gt;</codeblock>
+                  </entry>
                </row>
             </tbody>
          </tgroup>
@@ -389,8 +497,10 @@ text region</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;attribute name="id" type="ID" use="required"/&gt;</codeblock>
+                     </entry>
                   </row>
                </tbody>
             </tgroup>
@@ -1421,8 +1531,14 @@ region</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;attribute name="primaryLanguage" type="pc:LanguageSimpleType"&gt;
+  &lt;annotation&gt;
+    &lt;documentation&gt;Overrides primaryLanguage attribute of parent text region&lt;/documentation&gt;
+  &lt;/annotation&gt;
+&lt;/attribute&gt;</codeblock>
+                     </entry>
                   </row>
                </tbody>
             </tgroup>
@@ -2417,8 +2533,14 @@ region</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;attribute name="primaryScript" type="pc:ScriptSimpleType" use="optional"&gt;
+  &lt;annotation&gt;
+    &lt;documentation&gt;The primary script used in the text line&lt;/documentation&gt;
+  &lt;/annotation&gt;
+&lt;/attribute&gt;</codeblock>
+                     </entry>
                   </row>
                </tbody>
             </tgroup>
@@ -3413,8 +3535,14 @@ region</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;attribute name="secondaryScript" type="pc:ScriptSimpleType" use="optional"&gt;
+  &lt;annotation&gt;
+    &lt;documentation&gt;The secondary script used in the text line&lt;/documentation&gt;
+  &lt;/annotation&gt;
+&lt;/attribute&gt;</codeblock>
+                     </entry>
                   </row>
                </tbody>
             </tgroup>
@@ -3524,8 +3652,14 @@ region</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;attribute name="readingDirection" type="pc:ReadingDirectionSimpleType" use="optional"&gt;
+  &lt;annotation&gt;
+    &lt;documentation&gt;The direction in which text in a text line should be read&lt;/documentation&gt;
+  &lt;/annotation&gt;
+&lt;/attribute&gt;</codeblock>
+                     </entry>
                   </row>
                </tbody>
             </tgroup>
@@ -3646,8 +3780,14 @@ text region</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;attribute name="production" type="pc:ProductionSimpleType" use="optional"&gt;
+  &lt;annotation&gt;
+    &lt;documentation&gt;Overrides the production attribute of the parent text region&lt;/documentation&gt;
+  &lt;/annotation&gt;
+&lt;/attribute&gt;</codeblock>
+                     </entry>
                   </row>
                </tbody>
             </tgroup>
@@ -3719,8 +3859,14 @@ text region</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;attribute name="custom" type="string"&gt;
+  &lt;annotation&gt;
+    &lt;documentation&gt;For generic use&lt;/documentation&gt;
+  &lt;/annotation&gt;
+&lt;/attribute&gt;</codeblock>
+                     </entry>
                   </row>
                </tbody>
             </tgroup>
@@ -3786,8 +3932,273 @@ text region</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;attribute name="comments" type="string"/&gt;</codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </body>
+   </topic>
+   <topic id="TextLineType_index">
+      <title>Attribute pc:TextLineType / @index</title>
+      <body>
+         <table frame="all" rowsep="1" colsep="1">
+            <tgroup cols="2">
+               <colspec colwidth="3*" align="left"/>
+               <colspec colwidth="25*" align="left"/>
+               <tbody>
+                  <row>
+                     <entry>Namespace</entry>
+                     <entry>No namespace</entry>
+                  </row>
+                  <row>
+                     <entry>Annotations</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">Position (order number) of this text line within the
+parent text region.</codeblock>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Type</entry>
+                     <entry>int</entry>
+                  </row>
+                  <row>
+                     <entry>Properties</entry>
+                     <entry>
+                        <p>
+                           <table frame="all" rowsep="1" colsep="1">
+                              <tgroup cols="2">
+                                 <colspec colwidth="2*" align="left"/>
+                                 <colspec colwidth="8*" align="left"/>
+                                 <tbody>
+                                    <row>
+                                       <entry>use: </entry>
+                                       <entry>
+                                          <b>optional</b>
+                                       </entry>
+                                    </row>
+                                 </tbody>
+                              </tgroup>
+                           </table>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Used by</entry>
+                     <entry>
+                        <p>
+                           <table frame="all" rowsep="1" colsep="1">
+                              <tgroup cols="2">
+                                 <colspec colwidth="2*" align="left"/>
+                                 <colspec colwidth="8*" align="left"/>
+                                 <tbody>
+                                    <row>
+                                       <entry>Complex Type </entry>
+                                       <entry>
+                                          <xref href="#TextLineType"/>
+                                       </entry>
+                                    </row>
+                                 </tbody>
+                              </tgroup>
+                           </table>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;attribute name="index" type="int" use="optional"&gt;
+  &lt;annotation&gt;
+    &lt;documentation&gt;Position (order number) of this text line within the parent text region.&lt;/documentation&gt;
+  &lt;/annotation&gt;
+&lt;/attribute&gt;</codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </body>
+   </topic>
+   <topic id="TextLineType_AlternativeImage">
+      <title>Element pc:TextLineType / pc:AlternativeImage</title>
+      <body>
+         <table frame="all" rowsep="1" colsep="1">
+            <tgroup cols="2">
+               <colspec colwidth="3*" align="left"/>
+               <colspec colwidth="25*" align="left"/>
+               <tbody>
+                  <row>
+                     <entry>Namespace</entry>
+                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
+                  </row>
+                  <row>
+                     <entry>Annotations</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">Alternative text line images (e.g.
+black-and-white)</codeblock>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Diagram</entry>
+                     <entry>
+                        <p>
+                            
+                                    
+                                    <imagemap id="pagecontent_xsd_Element_pc_AlternativeImage_2">
+                                        
+                                        <image href="img/pagecontent_xsd_Element_pc_AlternativeImage_2.jpeg"/>
+                                        
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>258,79,348,123</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_AlternativeImageType.dita#AlternativeImageType_filename"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>258,133,357,177</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_AlternativeImageType.dita#AlternativeImageType_comments"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>258,187,414,231</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_AlternativeImageType.dita#AlternativeImageType_conf"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>233,3,403,25</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_AlternativeImageType.dita#AlternativeImageType"/>
+                                                    
+                                            </area>
+                                        
+                                    </imagemap>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Type</entry>
+                     <entry>
+                        <xref href="pagecontent_xsd_Complex_Type_pc_AlternativeImageType.dita#AlternativeImageType"/>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Properties</entry>
+                     <entry>
+                        <p>
+                           <table frame="all" rowsep="1" colsep="1">
+                              <tgroup cols="2">
+                                 <colspec colwidth="2*" align="left"/>
+                                 <colspec colwidth="8*" align="left"/>
+                                 <tbody>
+                                    <row>
+                                       <entry>content: </entry>
+                                       <entry>
+                                          <b>complex</b>
+                                       </entry>
+                                    </row>
+                                    <row>
+                                       <entry>minOccurs: </entry>
+                                       <entry>
+                                          <b>0</b>
+                                       </entry>
+                                    </row>
+                                    <row>
+                                       <entry>maxOccurs: </entry>
+                                       <entry>
+                                          <b>unbounded</b>
+                                       </entry>
+                                    </row>
+                                 </tbody>
+                              </tgroup>
+                           </table>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Attributes</entry>
+                     <entry>
+                        <p>
+                           <table frame="all" rowsep="1" colsep="1">
+                              <tgroup cols="3">
+                                 <colspec colnum="1" colname="col1" align="left" colwidth="3*"/>
+                                 <colspec colnum="2" colname="col2" align="left" colwidth="3*"/>
+                                 <colspec colnum="3" colname="col3" align="left" colwidth="1*"/>
+                                 <thead>
+                                    <row>
+                                       <entry>QName</entry>
+                                       <entry>Type</entry>
+                                       <entry>Use</entry>
+                                    </row>
+                                 </thead>
+                                 <tbody>
+                                    <row>
+                                       <entry>
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_AlternativeImageType.dita#AlternativeImageType_comments"/>
+                                       </entry>
+                                       <entry>string</entry>
+                                       <entry>optional</entry>
+                                    </row>
+                                    <row>
+                                       <entry>
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_AlternativeImageType.dita#AlternativeImageType_conf"/>
+                                       </entry>
+                                       <entry>
+                                          <xref href="pagecontent_xsd_Simple_Type_pc_ConfSimpleType.dita#ConfSimpleType"/>
+                                       </entry>
+                                       <entry>optional</entry>
+                                    </row>
+                                    <row>
+                                       <entry namest="col1" nameend="col3">
+                                          <codeblock outputclass="language-xml">Confidence value (between 0 and 1)</codeblock>
+                                       </entry>
+                                    </row>
+                                    <row>
+                                       <entry>
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_AlternativeImageType.dita#AlternativeImageType_filename"/>
+                                       </entry>
+                                       <entry>string</entry>
+                                       <entry>required</entry>
+                                    </row>
+                                 </tbody>
+                              </tgroup>
+                           </table>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;element name="AlternativeImage" type="pc:AlternativeImageType" minOccurs="0" maxOccurs="unbounded"&gt;
+  &lt;annotation&gt;
+    &lt;documentation&gt;Alternative text line images (e.g. black-and-white)&lt;/documentation&gt;
+  &lt;/annotation&gt;
+&lt;/element&gt;</codeblock>
+                     </entry>
                   </row>
                </tbody>
             </tgroup>
@@ -3804,7 +4215,7 @@ text region</codeblock>
                <tbody>
                   <row>
                      <entry>Namespace</entry>
-                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15</entry>
+                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
                   </row>
                   <row>
                      <entry>Diagram</entry>
@@ -3825,6 +4236,17 @@ text region</codeblock>
                                                 
                                                         
                                                         <xref href="pagecontent_xsd_Complex_Type_pc_CoordsType.dita#CoordsType_points"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>193,164,349,208</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_CoordsType.dita#CoordsType_conf"/>
                                                     
                                             </area>
                                           
@@ -3889,6 +4311,20 @@ text region</codeblock>
                                  <tbody>
                                     <row>
                                        <entry>
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_CoordsType.dita#CoordsType_conf"/>
+                                       </entry>
+                                       <entry>
+                                          <xref href="pagecontent_xsd_Simple_Type_pc_ConfSimpleType.dita#ConfSimpleType"/>
+                                       </entry>
+                                       <entry>optional</entry>
+                                    </row>
+                                    <row>
+                                       <entry namest="col1" nameend="col3">
+                                          <codeblock outputclass="language-xml">Confidence value (between 0 and 1)</codeblock>
+                                       </entry>
+                                    </row>
+                                    <row>
+                                       <entry>
                                           <xref href="pagecontent_xsd_Complex_Type_pc_CoordsType.dita#CoordsType_points"/>
                                        </entry>
                                        <entry>
@@ -3908,8 +4344,10 @@ text region</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;element name="Coords" type="pc:CoordsType"/&gt;</codeblock>
+                     </entry>
                   </row>
                </tbody>
             </tgroup>
@@ -3926,7 +4364,7 @@ text region</codeblock>
                <tbody>
                   <row>
                      <entry>Namespace</entry>
-                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15</entry>
+                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
                   </row>
                   <row>
                      <entry>Annotations</entry>
@@ -3954,6 +4392,17 @@ of the glyphs</codeblock>
                                                 
                                                         
                                                         <xref href="pagecontent_xsd_Complex_Type_pc_BaselineType.dita#BaselineType_points"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>219,133,375,177</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_BaselineType.dita#BaselineType_conf"/>
                                                     
                                             </area>
                                           
@@ -4024,6 +4473,20 @@ of the glyphs</codeblock>
                                  <tbody>
                                     <row>
                                        <entry>
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_BaselineType.dita#BaselineType_conf"/>
+                                       </entry>
+                                       <entry>
+                                          <xref href="pagecontent_xsd_Simple_Type_pc_ConfSimpleType.dita#ConfSimpleType"/>
+                                       </entry>
+                                       <entry>optional</entry>
+                                    </row>
+                                    <row>
+                                       <entry namest="col1" nameend="col3">
+                                          <codeblock outputclass="language-xml">Confidence value (between 0 and 1)</codeblock>
+                                       </entry>
+                                    </row>
+                                    <row>
+                                       <entry>
                                           <xref href="pagecontent_xsd_Complex_Type_pc_BaselineType.dita#BaselineType_points"/>
                                        </entry>
                                        <entry>
@@ -4038,8 +4501,14 @@ of the glyphs</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;element name="Baseline" type="pc:BaselineType" minOccurs="0"&gt;
+  &lt;annotation&gt;
+    &lt;documentation&gt;Multiple connected points that mark the baseline of the glyphs&lt;/documentation&gt;
+  &lt;/annotation&gt;
+&lt;/element&gt;</codeblock>
+                     </entry>
                   </row>
                </tbody>
             </tgroup>
@@ -4056,7 +4525,7 @@ of the glyphs</codeblock>
                <tbody>
                   <row>
                      <entry>Namespace</entry>
-                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15</entry>
+                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
                   </row>
                   <row>
                      <entry>Diagram</entry>
@@ -4159,7 +4628,18 @@ of the glyphs</codeblock>
                                           
                                             <area>
                                                 <shape>rect</shape>
-                                                <coords>261,704,398,748</coords>
+                                                <coords>261,704,443,748</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_WordType.dita#WordType_AlternativeImage"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>261,789,398,833</coords>
                                                 
                                                 
                                                 
@@ -4170,7 +4650,7 @@ of the glyphs</codeblock>
                                           
                                             <area>
                                                 <shape>rect</shape>
-                                                <coords>261,758,391,802</coords>
+                                                <coords>261,843,391,887</coords>
                                                 
                                                 
                                                 
@@ -4181,7 +4661,7 @@ of the glyphs</codeblock>
                                           
                                             <area>
                                                 <shape>rect</shape>
-                                                <coords>261,812,410,856</coords>
+                                                <coords>261,897,410,941</coords>
                                                 
                                                 
                                                 
@@ -4192,7 +4672,7 @@ of the glyphs</codeblock>
                                           
                                             <area>
                                                 <shape>rect</shape>
-                                                <coords>261,866,408,910</coords>
+                                                <coords>261,951,408,995</coords>
                                                 
                                                 
                                                 
@@ -4203,12 +4683,23 @@ of the glyphs</codeblock>
                                           
                                             <area>
                                                 <shape>rect</shape>
-                                                <coords>261,920,423,964</coords>
+                                                <coords>261,1005,423,1049</coords>
                                                 
                                                 
                                                 
                                                         
                                                         <xref href="pagecontent_xsd_Complex_Type_pc_WordType.dita#WordType_UserDefined"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>261,1059,395,1103</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_WordType.dita#WordType_Labels"/>
                                                     
                                             </area>
                                           
@@ -4269,24 +4760,26 @@ of the glyphs</codeblock>
                   <row>
                      <entry>Model</entry>
                      <entry>
-                        <xref href="pagecontent_xsd_Complex_Type_pc_WordType.dita#WordType_Coords"/> , <xref href="pagecontent_xsd_Complex_Type_pc_WordType.dita#WordType_Glyph"/> , <xref href="pagecontent_xsd_Complex_Type_pc_WordType.dita#WordType_TextEquiv"/> , <xref href="pagecontent_xsd_Complex_Type_pc_WordType.dita#WordType_TextStyle"/> , <xref href="pagecontent_xsd_Complex_Type_pc_WordType.dita#WordType_UserDefined"/>
+                        <xref href="pagecontent_xsd_Complex_Type_pc_WordType.dita#WordType_AlternativeImage"/> , <xref href="pagecontent_xsd_Complex_Type_pc_WordType.dita#WordType_Coords"/> , <xref href="pagecontent_xsd_Complex_Type_pc_WordType.dita#WordType_Glyph"/> , <xref href="pagecontent_xsd_Complex_Type_pc_WordType.dita#WordType_TextEquiv"/> , <xref href="pagecontent_xsd_Complex_Type_pc_WordType.dita#WordType_TextStyle"/> , <xref href="pagecontent_xsd_Complex_Type_pc_WordType.dita#WordType_UserDefined"/> , <xref href="pagecontent_xsd_Complex_Type_pc_WordType.dita#WordType_Labels"/>
                      </entry>
                   </row>
                   <row>
                      <entry>Children</entry>
                      <entry>
-                        <xref href="pagecontent_xsd_Complex_Type_pc_WordType.dita#WordType_Coords"/>, <xref href="pagecontent_xsd_Complex_Type_pc_WordType.dita#WordType_Glyph"/>, <xref href="pagecontent_xsd_Complex_Type_pc_WordType.dita#WordType_TextEquiv"/>, <xref href="pagecontent_xsd_Complex_Type_pc_WordType.dita#WordType_TextStyle"/>, <xref href="pagecontent_xsd_Complex_Type_pc_WordType.dita#WordType_UserDefined"/>
+                        <xref href="pagecontent_xsd_Complex_Type_pc_WordType.dita#WordType_AlternativeImage"/>, <xref href="pagecontent_xsd_Complex_Type_pc_WordType.dita#WordType_Coords"/>, <xref href="pagecontent_xsd_Complex_Type_pc_WordType.dita#WordType_Glyph"/>, <xref href="pagecontent_xsd_Complex_Type_pc_WordType.dita#WordType_Labels"/>, <xref href="pagecontent_xsd_Complex_Type_pc_WordType.dita#WordType_TextEquiv"/>, <xref href="pagecontent_xsd_Complex_Type_pc_WordType.dita#WordType_TextStyle"/>, <xref href="pagecontent_xsd_Complex_Type_pc_WordType.dita#WordType_UserDefined"/>
                      </entry>
                   </row>
                   <row>
                      <entry>Instance</entry>
                      <entry>
-                        <codeblock outputclass="language-xml">&lt;pc:Word comments="" custom="" id="" language="" primaryScript="" production="" readingDirection="" secondaryScript="" xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15"&gt;
-  &lt;pc:Coords points=""&gt;{1,1}&lt;/pc:Coords&gt;
+                        <codeblock outputclass="language-xml">&lt;pc:Word comments="" custom="" id="" language="" primaryScript="" production="" readingDirection="" secondaryScript="" xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15"&gt;
+  &lt;pc:AlternativeImage comments="" conf="" filename=""&gt;{0,unbounded}&lt;/pc:AlternativeImage&gt;
+  &lt;pc:Coords conf="" points=""&gt;{1,1}&lt;/pc:Coords&gt;
   &lt;pc:Glyph comments="" custom="" id="" ligature="" production="" script="" symbol=""&gt;{0,unbounded}&lt;/pc:Glyph&gt;
   &lt;pc:TextEquiv comments="" conf="" dataType="" dataTypeDetails="" index=""&gt;{0,unbounded}&lt;/pc:TextEquiv&gt;
   &lt;pc:TextStyle bgColour="" bgColourRgb="" bold="" fontFamily="" fontSize="" italic="" kerning="" letterSpaced="" monospace="" reverseVideo="" serif="" smallCaps="" strikethrough="" subscript="" superscript="" textColour="" textColourRgb="" underlined="" xHeight=""&gt;{0,1}&lt;/pc:TextStyle&gt;
   &lt;pc:UserDefined&gt;{0,1}&lt;/pc:UserDefined&gt;
+  &lt;pc:Labels comments="" externalId="" externalModel="" prefix=""&gt;{0,unbounded}&lt;/pc:Labels&gt;
 &lt;/pc:Word&gt;</codeblock>
                      </entry>
                   </row>
@@ -4412,8 +4905,11 @@ text line and/or text region.</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;element name="Word" type="pc:WordType" minOccurs="0" maxOccurs="unbounded"&gt;
+&lt;/element&gt;</codeblock>
+                     </entry>
                   </row>
                </tbody>
             </tgroup>
@@ -4430,7 +4926,7 @@ text line and/or text region.</codeblock>
                <tbody>
                   <row>
                      <entry>Namespace</entry>
-                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15</entry>
+                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
                   </row>
                   <row>
                      <entry>Diagram</entry>
@@ -4456,7 +4952,7 @@ text line and/or text region.</codeblock>
                                           
                                             <area>
                                                 <shape>rect</shape>
-                                                <coords>205,178,360,222</coords>
+                                                <coords>205,178,361,222</coords>
                                                 
                                                 
                                                 
@@ -4589,7 +5085,7 @@ text line and/or text region.</codeblock>
                   <row>
                      <entry>Instance</entry>
                      <entry>
-                        <codeblock outputclass="language-xml">&lt;pc:TextEquiv comments="" conf="" dataType="" dataTypeDetails="" index="" xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15"&gt;
+                        <codeblock outputclass="language-xml">&lt;pc:TextEquiv comments="" conf="" dataType="" dataTypeDetails="" index="" xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15"&gt;
   &lt;pc:PlainText&gt;{0,1}&lt;/pc:PlainText&gt;
   &lt;pc:Unicode&gt;{1,1}&lt;/pc:Unicode&gt;
 &lt;/pc:TextEquiv&gt;</codeblock>
@@ -4623,7 +5119,9 @@ text line and/or text region.</codeblock>
                                        <entry>
                                           <xref href="pagecontent_xsd_Complex_Type_pc_TextEquivType.dita#TextEquivType_conf"/>
                                        </entry>
-                                       <entry>restriction of float</entry>
+                                       <entry>
+                                          <xref href="pagecontent_xsd_Simple_Type_pc_ConfSimpleType.dita#ConfSimpleType"/>
+                                       </entry>
                                        <entry>optional</entry>
                                     </row>
                                     <row>
@@ -4677,8 +5175,11 @@ This is only a descriptive attribute, the text type is not checked during XML va
                      </entry>
                   </row>
                   <row>
-                     <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;element name="TextEquiv" type="pc:TextEquivType" minOccurs="0" maxOccurs="unbounded"&gt;
+&lt;/element&gt;</codeblock>
+                     </entry>
                   </row>
                </tbody>
             </tgroup>
@@ -4695,7 +5196,7 @@ This is only a descriptive attribute, the text type is not checked during XML va
                <tbody>
                   <row>
                      <entry>Namespace</entry>
-                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15</entry>
+                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
                   </row>
                   <row>
                      <entry>Diagram</entry>
@@ -5175,8 +5676,11 @@ reversed against a background colour</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;element name="TextStyle" type="pc:TextStyleType" minOccurs="0"&gt;
+&lt;/element&gt;</codeblock>
+                     </entry>
                   </row>
                </tbody>
             </tgroup>
@@ -5193,7 +5697,7 @@ reversed against a background colour</codeblock>
                <tbody>
                   <row>
                      <entry>Namespace</entry>
-                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15</entry>
+                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
                   </row>
                   <row>
                      <entry>Diagram</entry>
@@ -5286,14 +5790,255 @@ reversed against a background colour</codeblock>
                   <row>
                      <entry>Instance</entry>
                      <entry>
-                        <codeblock outputclass="language-xml">&lt;pc:UserDefined xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15"&gt;
+                        <codeblock outputclass="language-xml">&lt;pc:UserDefined xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15"&gt;
   &lt;pc:UserAttribute description="" name="" type="" value=""&gt;{1,unbounded}&lt;/pc:UserAttribute&gt;
 &lt;/pc:UserDefined&gt;</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;element name="UserDefined" type="pc:UserDefinedType" minOccurs="0" maxOccurs="1"/&gt;</codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </body>
+   </topic>
+   <topic id="TextLineType_Labels">
+      <title>Element pc:TextLineType / pc:Labels</title>
+      <body>
+         <table frame="all" rowsep="1" colsep="1">
+            <tgroup cols="2">
+               <colspec colwidth="3*" align="left"/>
+               <colspec colwidth="25*" align="left"/>
+               <tbody>
+                  <row>
+                     <entry>Namespace</entry>
+                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
+                  </row>
+                  <row>
+                     <entry>Annotations</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">Semantic labels / tags</codeblock>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Diagram</entry>
+                     <entry>
+                        <p>
+                            
+                                    
+                                    <imagemap id="pagecontent_xsd_Element_pc_Labels_10">
+                                        
+                                        <image href="img/pagecontent_xsd_Element_pc_Labels_10.jpeg"/>
+                                        
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>210,79,327,123</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType_externalModel"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>210,164,307,208</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType_externalId"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>210,263,300,307</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType_prefix"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>210,348,309,392</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType_comments"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>287,409,415,453</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType_Label"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>185,3,307,25</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType"/>
+                                                    
+                                            </area>
+                                        
+                                    </imagemap>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Type</entry>
+                     <entry>
+                        <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType"/>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Properties</entry>
+                     <entry>
+                        <p>
+                           <table frame="all" rowsep="1" colsep="1">
+                              <tgroup cols="2">
+                                 <colspec colwidth="2*" align="left"/>
+                                 <colspec colwidth="8*" align="left"/>
+                                 <tbody>
+                                    <row>
+                                       <entry>content: </entry>
+                                       <entry>
+                                          <b>complex</b>
+                                       </entry>
+                                    </row>
+                                    <row>
+                                       <entry>minOccurs: </entry>
+                                       <entry>
+                                          <b>0</b>
+                                       </entry>
+                                    </row>
+                                    <row>
+                                       <entry>maxOccurs: </entry>
+                                       <entry>
+                                          <b>unbounded</b>
+                                       </entry>
+                                    </row>
+                                 </tbody>
+                              </tgroup>
+                           </table>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Model</entry>
+                     <entry>
+                        <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType_Label"/>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Children</entry>
+                     <entry>
+                        <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType_Label"/>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Instance</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;pc:Labels comments="" externalId="" externalModel="" prefix="" xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15"&gt;
+  &lt;pc:Label comments="" type="" value=""&gt;{0,unbounded}&lt;/pc:Label&gt;
+&lt;/pc:Labels&gt;</codeblock>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Attributes</entry>
+                     <entry>
+                        <p>
+                           <table frame="all" rowsep="1" colsep="1">
+                              <tgroup cols="3">
+                                 <colspec colnum="1" colname="col1" align="left" colwidth="3*"/>
+                                 <colspec colnum="2" colname="col2" align="left" colwidth="3*"/>
+                                 <colspec colnum="3" colname="col3" align="left" colwidth="1*"/>
+                                 <thead>
+                                    <row>
+                                       <entry>QName</entry>
+                                       <entry>Type</entry>
+                                       <entry>Use</entry>
+                                    </row>
+                                 </thead>
+                                 <tbody>
+                                    <row>
+                                       <entry>
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType_comments"/>
+                                       </entry>
+                                       <entry>string</entry>
+                                       <entry>optional</entry>
+                                    </row>
+                                    <row>
+                                       <entry>
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType_externalId"/>
+                                       </entry>
+                                       <entry>string</entry>
+                                       <entry>optional</entry>
+                                    </row>
+                                    <row>
+                                       <entry namest="col1" nameend="col3">
+                                          <codeblock outputclass="language-xml">E.g. an RDF resource identifier (to be used as subject or object of an RDF triple)</codeblock>
+                                       </entry>
+                                    </row>
+                                    <row>
+                                       <entry>
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType_externalModel"/>
+                                       </entry>
+                                       <entry>string</entry>
+                                       <entry>optional</entry>
+                                    </row>
+                                    <row>
+                                       <entry namest="col1" nameend="col3">
+                                          <codeblock outputclass="language-xml">Reference to external model / ontology / schema</codeblock>
+                                       </entry>
+                                    </row>
+                                    <row>
+                                       <entry>
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType_prefix"/>
+                                       </entry>
+                                       <entry>string</entry>
+                                       <entry>optional</entry>
+                                    </row>
+                                    <row>
+                                       <entry namest="col1" nameend="col3">
+                                          <codeblock outputclass="language-xml">Prefix for all labels (e.g. first part of an URI)</codeblock>
+                                       </entry>
+                                    </row>
+                                 </tbody>
+                              </tgroup>
+                           </table>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;element name="Labels" type="pc:LabelsType" minOccurs="0" maxOccurs="unbounded"&gt;
+  &lt;annotation&gt;
+    &lt;documentation&gt;Semantic labels / tags&lt;/documentation&gt;
+  &lt;/annotation&gt;
+&lt;/element&gt;</codeblock>
+                     </entry>
                   </row>
                </tbody>
             </tgroup>

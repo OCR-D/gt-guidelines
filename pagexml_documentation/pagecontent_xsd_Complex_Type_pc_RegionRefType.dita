@@ -11,7 +11,7 @@
             <tbody>
                <row>
                   <entry>Namespace</entry>
-                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15</entry>
+                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
                </row>
                <row>
                   <entry>Diagram</entry>
@@ -50,7 +50,7 @@
                                  <row>
                                     <entry>Elements </entry>
                                     <entry>
-                                       <xref href="pagecontent_xsd_Complex_Type_pc_LayerType.dita#LayerType_RegionRef"/>, <xref href="pagecontent_xsd_Complex_Type_pc_RelationType.dita#RelationType_RegionRef"/>, <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_RegionRef"/>, <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupType.dita#UnorderedGroupType_RegionRef"/>
+                                       <xref href="pagecontent_xsd_Complex_Type_pc_LayerType.dita#LayerType_RegionRef"/>, <xref href="pagecontent_xsd_Complex_Type_pc_RelationType.dita#RelationType_SourceRegionRef"/>, <xref href="pagecontent_xsd_Complex_Type_pc_RelationType.dita#RelationType_TargetRegionRef"/>, <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_RegionRef"/>, <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupType.dita#UnorderedGroupType_RegionRef"/>
                                     </entry>
                                  </row>
                               </tbody>
@@ -90,8 +90,12 @@
                   </entry>
                </row>
                <row>
-                  <entry>Schema location</entry>
-                  <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                  <entry>Source</entry>
+                  <entry>
+                     <codeblock outputclass="language-xml">&lt;complexType name="RegionRefType"&gt;
+  &lt;attribute name="regionRef" type="IDREF" use="required"/&gt;
+&lt;/complexType&gt;</codeblock>
+                  </entry>
                </row>
             </tbody>
          </tgroup>
@@ -156,8 +160,10 @@
                      </entry>
                   </row>
                   <row>
-                     <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;attribute name="regionRef" type="IDREF" use="required"/&gt;</codeblock>
+                     </entry>
                   </row>
                </tbody>
             </tgroup>

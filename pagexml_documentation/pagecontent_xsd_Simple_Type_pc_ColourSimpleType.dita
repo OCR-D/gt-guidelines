@@ -11,7 +11,7 @@
             <tbody>
                <row>
                   <entry>Namespace</entry>
-                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15</entry>
+                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
                </row>
                <row>
                   <entry>Diagram</entry>
@@ -141,8 +141,29 @@
                   </entry>
                </row>
                <row>
-                  <entry>Schema location</entry>
-                  <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                  <entry>Source</entry>
+                  <entry>
+                     <codeblock outputclass="language-xml">&lt;simpleType name="ColourSimpleType"&gt;
+  &lt;restriction base="string"&gt;
+    &lt;enumeration value="black"/&gt;
+    &lt;enumeration value="blue"/&gt;
+    &lt;enumeration value="brown"/&gt;
+    &lt;enumeration value="cyan"/&gt;
+    &lt;enumeration value="green"/&gt;
+    &lt;enumeration value="grey"/&gt;
+    &lt;enumeration value="indigo"/&gt;
+    &lt;enumeration value="magenta"/&gt;
+    &lt;enumeration value="orange"/&gt;
+    &lt;enumeration value="pink"/&gt;
+    &lt;enumeration value="red"/&gt;
+    &lt;enumeration value="turquoise"/&gt;
+    &lt;enumeration value="violet"/&gt;
+    &lt;enumeration value="white"/&gt;
+    &lt;enumeration value="yellow"/&gt;
+    &lt;enumeration value="other"/&gt;
+  &lt;/restriction&gt;
+&lt;/simpleType&gt;</codeblock>
+                  </entry>
                </row>
             </tbody>
          </tgroup>

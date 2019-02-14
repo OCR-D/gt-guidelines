@@ -11,7 +11,7 @@
             <tbody>
                <row>
                   <entry>Namespace</entry>
-                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15</entry>
+                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
                </row>
                <row>
                   <entry>Diagram</entry>
@@ -151,8 +151,31 @@
                   </entry>
                </row>
                <row>
-                  <entry>Schema location</entry>
-                  <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                  <entry>Source</entry>
+                  <entry>
+                     <codeblock outputclass="language-xml">&lt;simpleType name="TextTypeSimpleType"&gt;
+  &lt;restriction base="string"&gt;
+    &lt;enumeration value="paragraph"/&gt;
+    &lt;enumeration value="heading"/&gt;
+    &lt;enumeration value="caption"/&gt;
+    &lt;enumeration value="header"/&gt;
+    &lt;enumeration value="footer"/&gt;
+    &lt;enumeration value="page-number"/&gt;
+    &lt;enumeration value="drop-capital"/&gt;
+    &lt;enumeration value="credit"/&gt;
+    &lt;enumeration value="floating"/&gt;
+    &lt;enumeration value="signature-mark"/&gt;
+    &lt;enumeration value="catch-word"/&gt;
+    &lt;enumeration value="marginalia"/&gt;
+    &lt;enumeration value="footnote"/&gt;
+    &lt;enumeration value="footnote-continued"/&gt;
+    &lt;enumeration value="endnote"/&gt;
+    &lt;enumeration value="TOC-entry"/&gt;
+    &lt;enumeration value="list-label"/&gt;
+    &lt;enumeration value="other"/&gt;
+  &lt;/restriction&gt;
+&lt;/simpleType&gt;</codeblock>
+                  </entry>
                </row>
             </tbody>
          </tgroup>

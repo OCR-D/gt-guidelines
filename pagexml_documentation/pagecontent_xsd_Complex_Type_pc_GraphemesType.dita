@@ -11,7 +11,7 @@
             <tbody>
                <row>
                   <entry>Namespace</entry>
-                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15</entry>
+                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
                </row>
                <row>
                   <entry>Annotations</entry>
@@ -99,8 +99,19 @@ non-printing characters</codeblock>
                   </entry>
                </row>
                <row>
-                  <entry>Schema location</entry>
-                  <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                  <entry>Source</entry>
+                  <entry>
+                     <codeblock outputclass="language-xml">&lt;complexType name="GraphemesType"&gt;
+  &lt;annotation&gt;
+    &lt;documentation&gt;Container for graphemes, grapheme groups and non-printing characters&lt;/documentation&gt;
+  &lt;/annotation&gt;
+  &lt;choice minOccurs="1" maxOccurs="unbounded"&gt;
+    &lt;element name="Grapheme" type="pc:GraphemeType"/&gt;
+    &lt;element name="NonPrintingChar" type="pc:NonPrintingCharType"/&gt;
+    &lt;element name="GraphemeGroup" type="pc:GraphemeGroupType"/&gt;
+  &lt;/choice&gt;
+&lt;/complexType&gt;</codeblock>
+                  </entry>
                </row>
             </tbody>
          </tgroup>
@@ -116,7 +127,7 @@ non-printing characters</codeblock>
                <tbody>
                   <row>
                      <entry>Namespace</entry>
-                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15</entry>
+                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
                   </row>
                   <row>
                      <entry>Diagram</entry>
@@ -304,9 +315,9 @@ non-printing characters</codeblock>
                   <row>
                      <entry>Instance</entry>
                      <entry>
-                        <codeblock outputclass="language-xml">&lt;pc:Grapheme charType="" comments="" custom="" id="" index="" ligature="" xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15"&gt;
+                        <codeblock outputclass="language-xml">&lt;pc:Grapheme charType="" comments="" custom="" id="" index="" ligature="" xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15"&gt;
   &lt;pc:TextEquiv comments="" conf="" dataType="" dataTypeDetails="" index=""&gt;{0,unbounded}&lt;/pc:TextEquiv&gt;
-  &lt;pc:Coords points=""&gt;{1,1}&lt;/pc:Coords&gt;
+  &lt;pc:Coords conf="" points=""&gt;{1,1}&lt;/pc:Coords&gt;
 &lt;/pc:Grapheme&gt;</codeblock>
                      </entry>
                   </row>
@@ -396,8 +407,10 @@ non-printing characters</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;element name="Grapheme" type="pc:GraphemeType"/&gt;</codeblock>
+                     </entry>
                   </row>
                </tbody>
             </tgroup>
@@ -414,7 +427,7 @@ non-printing characters</codeblock>
                <tbody>
                   <row>
                      <entry>Namespace</entry>
-                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15</entry>
+                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
                   </row>
                   <row>
                      <entry>Diagram</entry>
@@ -591,7 +604,7 @@ non-printing characters</codeblock>
                   <row>
                      <entry>Instance</entry>
                      <entry>
-                        <codeblock outputclass="language-xml">&lt;pc:NonPrintingChar charType="" comments="" custom="" id="" index="" ligature="" xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15"&gt;
+                        <codeblock outputclass="language-xml">&lt;pc:NonPrintingChar charType="" comments="" custom="" id="" index="" ligature="" xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15"&gt;
   &lt;pc:TextEquiv comments="" conf="" dataType="" dataTypeDetails="" index=""&gt;{0,unbounded}&lt;/pc:TextEquiv&gt;
 &lt;/pc:NonPrintingChar&gt;</codeblock>
                      </entry>
@@ -682,8 +695,10 @@ non-printing characters</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;element name="NonPrintingChar" type="pc:NonPrintingCharType"/&gt;</codeblock>
+                     </entry>
                   </row>
                </tbody>
             </tgroup>
@@ -700,7 +715,7 @@ non-printing characters</codeblock>
                <tbody>
                   <row>
                      <entry>Namespace</entry>
-                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15</entry>
+                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
                   </row>
                   <row>
                      <entry>Diagram</entry>
@@ -898,7 +913,7 @@ non-printing characters</codeblock>
                   <row>
                      <entry>Instance</entry>
                      <entry>
-                        <codeblock outputclass="language-xml">&lt;pc:GraphemeGroup charType="" comments="" custom="" id="" index="" ligature="" xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15"&gt;
+                        <codeblock outputclass="language-xml">&lt;pc:GraphemeGroup charType="" comments="" custom="" id="" index="" ligature="" xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15"&gt;
   &lt;pc:TextEquiv comments="" conf="" dataType="" dataTypeDetails="" index=""&gt;{0,unbounded}&lt;/pc:TextEquiv&gt;
   &lt;pc:Grapheme charType="" comments="" custom="" id="" index="" ligature=""&gt;{1,1}&lt;/pc:Grapheme&gt;
   &lt;pc:NonPrintingChar charType="" comments="" custom="" id="" index="" ligature=""&gt;{1,1}&lt;/pc:NonPrintingChar&gt;
@@ -991,8 +1006,10 @@ non-printing characters</codeblock>
                      </entry>
                   </row>
                   <row>
-                     <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;element name="GraphemeGroup" type="pc:GraphemeGroupType"/&gt;</codeblock>
+                     </entry>
                   </row>
                </tbody>
             </tgroup>

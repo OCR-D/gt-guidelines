@@ -11,7 +11,7 @@
             <tbody>
                <row>
                   <entry>Namespace</entry>
-                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15</entry>
+                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
                </row>
                <row>
                   <entry>Annotations</entry>
@@ -97,8 +97,22 @@
                   </entry>
                </row>
                <row>
-                  <entry>Schema location</entry>
-                  <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                  <entry>Source</entry>
+                  <entry>
+                     <codeblock outputclass="language-xml">&lt;simpleType name="ProductionSimpleType"&gt;
+  &lt;annotation&gt;
+    &lt;documentation&gt;Text production type&lt;/documentation&gt;
+  &lt;/annotation&gt;
+  &lt;restriction base="string"&gt;
+    &lt;enumeration value="printed"/&gt;
+    &lt;enumeration value="typewritten"/&gt;
+    &lt;enumeration value="handwritten-cursive"/&gt;
+    &lt;enumeration value="handwritten-printscript"/&gt;
+    &lt;enumeration value="medieval-manuscript"/&gt;
+    &lt;enumeration value="other"/&gt;
+  &lt;/restriction&gt;
+&lt;/simpleType&gt;</codeblock>
+                  </entry>
                </row>
             </tbody>
          </tgroup>

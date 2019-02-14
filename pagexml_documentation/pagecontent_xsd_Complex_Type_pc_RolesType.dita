@@ -11,7 +11,7 @@
             <tbody>
                <row>
                   <entry>Namespace</entry>
-                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15</entry>
+                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
                </row>
                <row>
                   <entry>Diagram</entry>
@@ -72,8 +72,18 @@
                   </entry>
                </row>
                <row>
-                  <entry>Schema location</entry>
-                  <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                  <entry>Source</entry>
+                  <entry>
+                     <codeblock outputclass="language-xml">&lt;complexType name="RolesType"&gt;
+  &lt;sequence&gt;
+    &lt;element name="TableCellRole" type="pc:TableCellRoleType" minOccurs="0" maxOccurs="1"&gt;
+      &lt;annotation&gt;
+        &lt;documentation&gt;Data for a region that takes on the role of a table cell within a parent table region&lt;/documentation&gt;
+      &lt;/annotation&gt;
+    &lt;/element&gt;
+  &lt;/sequence&gt;
+&lt;/complexType&gt;</codeblock>
+                  </entry>
                </row>
             </tbody>
          </tgroup>
@@ -89,7 +99,7 @@
                <tbody>
                   <row>
                      <entry>Namespace</entry>
-                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15</entry>
+                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
                   </row>
                   <row>
                      <entry>Annotations</entry>
@@ -149,6 +159,17 @@
                                                 
                                                         
                                                         <xref href="pagecontent_xsd_Complex_Type_pc_TableCellRoleType.dita#TableCellRoleType_colSpan"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>242,419,343,463</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_TableCellRoleType.dita#TableCellRoleType_header"/>
                                                     
                                             </area>
                                           
@@ -249,6 +270,18 @@
                                     </row>
                                     <row>
                                        <entry>
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_TableCellRoleType.dita#TableCellRoleType_header"/>
+                                       </entry>
+                                       <entry>boolean</entry>
+                                       <entry>optional</entry>
+                                    </row>
+                                    <row>
+                                       <entry namest="col1" nameend="col3">
+                                          <codeblock outputclass="language-xml">Is the cell a column or row header?</codeblock>
+                                       </entry>
+                                    </row>
+                                    <row>
+                                       <entry>
                                           <xref href="pagecontent_xsd_Complex_Type_pc_TableCellRoleType.dita#TableCellRoleType_rowIndex"/>
                                        </entry>
                                        <entry>int</entry>
@@ -278,8 +311,14 @@
                      </entry>
                   </row>
                   <row>
-                     <entry>Schema location</entry>
-                     <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;element name="TableCellRole" type="pc:TableCellRoleType" minOccurs="0" maxOccurs="1"&gt;
+  &lt;annotation&gt;
+    &lt;documentation&gt;Data for a region that takes on the role of a table cell within a parent table region&lt;/documentation&gt;
+  &lt;/annotation&gt;
+&lt;/element&gt;</codeblock>
+                     </entry>
                   </row>
                </tbody>
             </tgroup>

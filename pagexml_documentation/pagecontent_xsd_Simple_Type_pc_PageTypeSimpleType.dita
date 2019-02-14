@@ -11,7 +11,7 @@
             <tbody>
                <row>
                   <entry>Namespace</entry>
-                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2017-07-15</entry>
+                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
                </row>
                <row>
                   <entry>Diagram</entry>
@@ -101,8 +101,21 @@
                   </entry>
                </row>
                <row>
-                  <entry>Schema location</entry>
-                  <entry>http://www.primaresearch.org/schema/PAGE/gts/pagecontent/2017-07-15/pagecontent.xsd</entry>
+                  <entry>Source</entry>
+                  <entry>
+                     <codeblock outputclass="language-xml">&lt;simpleType name="PageTypeSimpleType"&gt;
+  &lt;restriction base="string"&gt;
+    &lt;enumeration value="front-cover"/&gt;
+    &lt;enumeration value="back-cover"/&gt;
+    &lt;enumeration value="title"/&gt;
+    &lt;enumeration value="table-of-contents"/&gt;
+    &lt;enumeration value="index"/&gt;
+    &lt;enumeration value="content"/&gt;
+    &lt;enumeration value="blank"/&gt;
+    &lt;enumeration value="other"/&gt;
+  &lt;/restriction&gt;
+&lt;/simpleType&gt;</codeblock>
+                  </entry>
                </row>
             </tbody>
          </tgroup>
