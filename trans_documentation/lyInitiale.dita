@@ -42,11 +42,12 @@ href="../pagexml_documentation/pagecontent_xsd_Simple_Type_pc_TextTypeSimpleType
               &lt;/OrderedGroup>
         &lt;/ReadingOrder>
         &lt;Relations>
-            &lt;Relation type="join">
-                &lt;RegionRef regionRef="region_1476719208569_209"/>
-                &lt;RegionRef regionRef="TextRegion_1476719753697_244"/>
+             &lt;Relation id="rel1" type="join">
+                &lt;SourceRegionRef regionRef="regionRef="region_1476719208569_209"/"/>
+                &lt;TargetRegionRef regionRef="TextRegion_1476719753697_244"/>
             &lt;/Relation>
         &lt;/Relations>
+
         ...
         &lt;TextRegion type="drop-capital" id="region_1476719208569_209">
             &lt;Coords points="202,421 264,421 264,511 202,511"/>
