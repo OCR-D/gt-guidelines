@@ -4,9 +4,9 @@
     <title>Übersicht und Konkordanz</title>
 
 <shortdesc>Die Übersicht und Konkordanz stellt im Vergleich Kodierungen von Zonen und Regionen im
-DTA Zot-Format, DTABf (TEI) und dem PAGE-Format dar. Der Verweis auf die Element im DTABf bezieht
-sich nur auf grundlegende Elemente und nicht deren Kontext. Aus diesem Grund sei auf die
-Dokumentation des DTABf hingewiesen.</shortdesc>
+    DTA Zot-Format, DTABf (TEI) und dem PAGE-Format dar. Der Verweis auf Elemente im DTABf und PAGE
+    bezieht sich nur auf grundlegende Elemente und nicht deren Kontext. Aus diesem Grund sei auf die
+    Dokumentationen des DTABf und PAGE hingewiesen.</shortdesc>
     <body>
         <table frame="all" rowsep="1" colsep="1" id="table_wws_hhn_ldb">
         <title>Übersicht und Konkordanz von Kodierungen</title>
@@ -21,7 +21,7 @@ Dokumentation des DTABf hingewiesen.</shortdesc>
 <thead>
 <row>
 <entry morerows="1" namest="c1" nameend="newCol2">Deutsches Textarchiv Zot-Format</entry>
-<entry morerows="1">DTABf</entry>
+<entry morerows="1">DTABf (TEI)</entry>
 <entry namest="c3" nameend="c5">PAGE-Format</entry>
 </row>
 <row>
@@ -210,7 +210,7 @@ Dokumentation des DTABf hingewiesen.</shortdesc>
 <entry>Seitennummer</entry>
 <entry>40</entry>
 <entry>
-<pre>&lt;pb facs="#f[Bildnummer]"n="[Seitenzahl]"<b>/></b></pre>
+<pre>&lt;pb facs="#f[Bildnummer]"n="[Seitenzahl]"/></pre>
 </entry>
 <entry/>
 <entry/>
@@ -231,7 +231,7 @@ Dokumentation des DTABf hingewiesen.</shortdesc>
 <row>
 <entry>abschließender Gruß (Brief)</entry>
 <entry>42</entry>
-<entry>&lt;closer></entry>
+<entry><pre>&lt;closer></pre></entry>
 <entry/>
 <entry/>
 <entry>other</entry>
@@ -250,7 +250,7 @@ Dokumentation des DTABf hingewiesen.</shortdesc>
 <entry>Strophe eines Gedicht</entry>
 <entry>44</entry>
 <entry>
-<pre>&lt;lg n="[Strophennummer]"<b>></b></pre>
+<pre>&lt;lg n="[Strophennummer]"></pre>
 </entry>
 <entry/>
 <entry/>
