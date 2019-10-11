@@ -2,21 +2,21 @@
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="structurmets2page">
     <title>Struktur-Konkordanz METS und PAGE</title>
-    <shortdesc>Mit METS wird die (Meta)-Struktur eines Dokumentes abgebildet. Eine
-        Meta-Strukturierung betrifft einzelne Kapitel, Abschnitte sowie besondere Abschnitte (wie
-        Widmungen, Errata). </shortdesc>
+    <shortdesc>Mit METS wird die (Logische)-Struktur eines Dokumentes abgebildet. Eine
+        Logische-Strukturierung betrifft einzelne Kapitel, Abschnitte sowie besondere Abschnitte
+        (wie Widmungen, Errata). </shortdesc>
     <body>
-        <p>Mit METS werden vorallem (Meta)-Strukturen eines Dokumentes abgebildet. Bei einer
-            Meta-Strukturierung werden die einzelnen Kapitel, Abschnitte sowie besondere Abschnitte
-            (wie Widmungen, Errata) in einer METS-Datei dokumentiert. Zwischen einer Überschrift und
-            dem eigentlichen Text kann in METS unterschieden werden. In der METS-Datei im Abschnitt
-                <codeph>&lt;mets:structMap TYPE="LOGICAL"></codeph> werden die Kapitel oder
+        <p>Mit METS werden vorallem (Logische)-Strukturen eines Dokumentes abgebildet. Bei einer
+            Logischen-Strukturierung werden die einzelnen Kapitel, Abschnitte sowie besondere
+            Abschnitte (wie Widmungen, Errata) in einer METS-Datei dokumentiert. In der METS-Datei
+            im Abschnitt <codeph>&lt;mets:structMap TYPE="LOGICAL"></codeph> werden die Kapitel oder
             Abschnitte beginnend mit den Überschriften der Kapitel oder Abschnitte eines
-            digitalisierten Dokumentes aufgelistet. Im PAGE-Standard ist nur das Element mit dem
+            digitalisierten Dokumentes (<codeph>&lt;mets:div TYPE="..." LABEL="[Text der
+                Überschrift]"/></codeph>) aufgelistet. Im PAGE-Standard ist nur das Element mit dem
             Type-Attribut-Wert <codeph>heading</codeph>
             <codeph>&lt;TextRegion type="heading"></codeph> für die Dokumentation der
-            Meta-Strukturierung dafür vorgesehen. Eine Unterscheidung zwischen spezifischen Kapitel
-            kann nur mit dem spezifischen Wert im custom-Attribut dokumentiert werden.</p>
+            Logischen-Strukturierung dafür vorgesehen. Eine Unterscheidung zwischen spezifischen
+            Kapitel kann nur mit dem spezifischen Wert im custom-Attribut dokumentiert werden.</p>
         
 
         <p>
