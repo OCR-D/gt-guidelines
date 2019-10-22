@@ -685,7 +685,7 @@ read (within lines)</codeblock>
                                  </row>
                                  <row>
                                     <entry namest="col1" nameend="col3">
-                                       <codeblock outputclass="language-xml">The angle the baseline of text withing a region has to be rotated (relative to the rectangle encapsulating the region) in clockwise direction in order to correct the present skew (negative values indicate anti-clockwise rotation).
+                                       <codeblock outputclass="language-xml">The angle the baseline of text within a region has to be rotated (relative to the rectangle encapsulating the region) in clockwise direction in order to correct the present skew (negative values indicate anti-clockwise rotation).
 Range: -179.999,180</codeblock>
                                     </entry>
                                  </row>
@@ -795,7 +795,7 @@ Range: -179.999,180</codeblock>
       &lt;/attribute&gt;
       &lt;attribute name="readingOrientation" type="float" use="optional"&gt;
         &lt;annotation&gt;
-          &lt;documentation&gt;The angle the baseline of text withing a region has to be rotated (relative to the rectangle encapsulating the region) in clockwise direction in order to correct the present skew (negative values indicate anti-clockwise rotation). Range: -179.999,180&lt;/documentation&gt;
+          &lt;documentation&gt;The angle the baseline of text within a region has to be rotated (relative to the rectangle encapsulating the region) in clockwise direction in order to correct the present skew (negative values indicate anti-clockwise rotation). Range: -179.999,180&lt;/documentation&gt;
         &lt;/annotation&gt;
       &lt;/attribute&gt;
       &lt;attribute name="indented" type="boolean" use="optional"&gt;
@@ -1435,7 +1435,7 @@ read (within lines)</codeblock>
                   <row>
                      <entry>Annotations</entry>
                      <entry>
-                        <codeblock outputclass="language-xml">The angle the baseline of text withing a region has to be rotated (relative to the rectangle encapsulating the region) in clockwise direction in order to correct the present skew (negative values indicate anti-clockwise rotation).
+                        <codeblock outputclass="language-xml">The angle the baseline of text within a region has to be rotated (relative to the rectangle encapsulating the region) in clockwise direction in order to correct the present skew (negative values indicate anti-clockwise rotation).
 Range: -179.999,180</codeblock>
                      </entry>
                   </row>
@@ -1490,7 +1490,7 @@ Range: -179.999,180</codeblock>
                      <entry>
                         <codeblock outputclass="language-xml">&lt;attribute name="readingOrientation" type="float" use="optional"&gt;
   &lt;annotation&gt;
-    &lt;documentation&gt;The angle the baseline of text withing a region has to be rotated (relative to the rectangle encapsulating the region) in clockwise direction in order to correct the present skew (negative values indicate anti-clockwise rotation). Range: -179.999,180&lt;/documentation&gt;
+    &lt;documentation&gt;The angle the baseline of text within a region has to be rotated (relative to the rectangle encapsulating the region) in clockwise direction in order to correct the present skew (negative values indicate anti-clockwise rotation). Range: -179.999,180&lt;/documentation&gt;
   &lt;/annotation&gt;
 &lt;/attribute&gt;</codeblock>
                      </entry>
