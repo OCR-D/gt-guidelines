@@ -23,7 +23,7 @@
 * [ ] level_2_und_3_1.dita
 * [ ] level_2_und_3_2.dita
 * [ ] level_2_und_3_3.dita
-* [ ] level_3.dita
+* [x] level_3.dita
 * [ ] level_3_1.dita
 * [ ] level_3_2.dita
 * [ ] lyAbsatz.dita
