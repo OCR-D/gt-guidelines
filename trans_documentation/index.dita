@@ -1,24 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="index">
-    <title>Die Ground-Truth-Guidelines</title>
+    <title>The Ground-Truth-Guidelines</title>
     <body>
-        <p>Der Einsatz von Referenzdaten für Training und Auswertung statistischer Annotations- und
-            Analyseverfahren ist ein Kernmerkmal empirischer Forschung. Die wichtigste Grundlage für
-            die erfolgreiche Verwendung solcher Verfahren liegt im Einsatz geeigneter, den
-            Algorithmen zugrunde liegender Modelle. Für deren Erstellung ist neben einem passenden
-            Lernverfahren das Vorhandensein von Ground Truth die wesentliche Voraussetzung.</p>
-        <p>Mit den OCR-D-Ground-Truth-Guidelines wurden Richtlinien geschaffen, die eine
-            Format-Dokumentation des vorhandenen Ground Truth darstellt und als Handlungsanweisung
-            für die Ground-Truth-Erstellung genutzt werden kann. Mit dieser Normierung ist eine
-            Operationalisierung möglich, die eine Validierung des Ground Truth beinhaltet und eine
-            einfache Möglichkeit der Kuratierung von vorhandenen Transkriptionen, die als Ground
-            Truth genutzt werden könnten, bietet.</p>
-        <p> Das Datenformat des OCR-D-Ground-Truth ist PAGE-XML. Dieses Format wurde initial durch
-            das PRImA Research Lab an der Universität Salford Greater Manchester entwickelt und
-            innerhalb des EU-Projektes IMPACT grundlegend erweitert. Zurzeit wird es vom PRImA
-            Research Lab betreut. Um eine Weiterentwicklung und Pflege dieses Formates zu
-            gewährleisten, wurde auf Initiative von OCR-D ein PAGE-XML-Board geschaffen.</p>
+        <p>Using reference data for training and evaluation of statistical annotation and analysis
+            methods is a core feature of empirical research. The most important basis for the
+            successful application of such methods is the employment of suitable models underlying
+            the algorithms. In addition to a suitable learning procedure, the existence of ground
+            truth is the essential prerequisite for the creation of such models.</p>
+        <p>The OCR-D-Ground-Truth-Guidelines contain a format documentation of the existing Ground
+            Truth and can be used as instructions for the compilation of further Ground Truth. With
+            this standardisation, Ground Truth can be technically validated. Furthermore, existing
+            transcriptions can be checked on the basis of this set of rules and, if necessary,
+            converted into Ground Truth data.</p>
+        <p>The data format of the OCR-D-Ground-Truth is PAGE-XML. This format was initially
+            developed by the PRImA Research Lab at the University of Salford Greater Manchester and
+            fundamentally extended within the EU project IMPACT. It is currently managed by the
+            PRImA Research Lab. In order to ensure further development and maintenance of this
+            format, a PAGE-XML board was created on the initiative of OCR-D.</p>
         
 
     </body>

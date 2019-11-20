@@ -1,6 +1,6 @@
 # TODO Translations
 
-* [ ] exif_pagexml_konkordanz.dita
+* [x] exif_pagexml_konkordanz.dita
 * [ ] impressum.dita
 * [ ] index.dita
 * [ ] layout.dita
