@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="level_2_und_3_3">
-    <title>Level 2</title>
+    <title>Level
+        <?oxy_comment_start author="engl" timestamp="20191121T120507+0100" comment="müsste das nicht Level 2 und 3 heißen (siehe Dateiname)"?>2<?oxy_comment_end?></title>
     <body>
-        <p>Umlaute werden entsprechend der Vorlage transkribiert, d.&#x202f;h. die Umlaute in den
-heute gebräuchlichen Formen <tt>Ä</tt>, <tt>Ö</tt>, <tt>Ü</tt>, <tt>ä</tt>, <tt>ö</tt>, <tt>ü</tt>
-werden von solchen, die durch ein hochgestelltes <tt>e</tt> über Vokal gekennzeichnet sind,
-unterschieden. Beim hochgestellten e über dem Vokal wird durch eine Kombination von zwei Zeichen der
-Graph gebildet (z.&#x202f;B. <codeph>u&amp;#x0364;</codeph>).</p>
+        <p>Umlauts are transcribed according to the original, i.&#x202f;e. the umlauts in the common
+            forms <tt>Ä</tt>, <tt>Ö</tt>, <tt>Ü</tt>, <tt>ä</tt>, <tt>ö</tt>, <tt>ü</tt> are
+            distinguished from those which are marked by a superscript <tt>e</tt> over a vowel. In
+            the superscript e over a vowel, the graph is formed by a combination of two characters
+            (e.&#x202f;g. <codeph>u&amp;#x0364;</codeph>).</p>
     </body>
 </topic>

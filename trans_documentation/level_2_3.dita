@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="level_2_3">
-    <title>Level 2 und 3</title>
+    <title>Level 2 and 3</title>
     <body>
-    <p>Die Transkription der Silbentrennung erfolgt nach Vorlage.</p>    
+    <p>The hyphenation is transcribed according to the original.</p>    
 <table>
     <tgroup cols="5">
     <colspec colnum="1" colname="c1" colwidth="2.48*"/>
@@ -13,11 +13,11 @@
     <colspec colname="newCol5" colnum="5" colwidth="3.35*"/>
     <thead>
     <row>
-    <entry>Vorlage</entry>
-    <entry>Zeichen</entry>
-    <entry>Entität</entry>
-    <entry>Beschreibung</entry>
-    <entry>Beispiel</entry>
+    <entry>Original</entry>
+    <entry>Sign</entry>
+    <entry>Entity</entry>
+    <entry>Description</entry>
+    <entry>Example</entry>
     </row>
     </thead>
     <tbody>
@@ -37,12 +37,14 @@
     <entry>herrlich&amp;#x2E17; Ankömm&amp;#x2E17;</entry>
     </row>
     <row>
-    <entry><image href="images/hypen_equal3.png" id="image_xwr_fwh_f1b" scale="50"/><p>Doppelbindestrich
-    in: Arno Schmidt: Erzählungen, Frankfurt am Main 1994, ISBN 3-10-373505-7. Detail des rechten Randes
-    der Seite 525 (mit Text aus der 1964 erstmals erschienenen Erzählung Caliban über Setebos) mit
-    Doppelbindestrich in dem Kompositwort "Zweideutigkeit" und üblichem Einfach-Bindestrich zur Trennung
-    des Wortes "wechselte".; Bildquelle:
-    https://commons.wikimedia.org/wiki/File:Double_Hyphen_in_a_work_from_Arno_Schmidt.png.</p></entry>
+    <entry><image href="images/hypen_equal3.png" id="image_xwr_fwh_f1b" scale="50"/><p>Double hyphen
+                                in: Arno Schmidt: Erzählungen, Frankfurt am Main 1994, ISBN
+                                3-10-373505-7. Detail of the right borger on page 525 (with text
+                                from the narration Caliban über Setebos, first published in 1964)
+                                with a double hyphen in the compound word "Zweideutigkeit" and the
+                                usual single hyphen for separating the word "wechselte".; image
+                                source:
+                                https://commons.wikimedia.org/wiki/File:Double_Hyphen_in_a_work_from_Arno_Schmidt.png.</p></entry>
     <entry><codeph>=</codeph></entry>
     <entry><codeph>U+003D</codeph></entry>
     <entry><codeph>EQUALS SIGN</codeph> </entry>

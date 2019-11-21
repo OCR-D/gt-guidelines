@@ -5,7 +5,7 @@
 * [x] index.dita
 * [x] layout.dita
 * [X] leerzeichen.dita
-* [ ] level_1.dita => wird gelöscht
+* [ ] level_1.dita => gelöscht
 * [x] level_1_1.dita
 * [x] level_1_2.dita
 * [x] level_1_3.dita
@@ -14,18 +14,18 @@
 * [x] level_1_6.dita
 * [x] level_1_7.dita
 * [x] level_1_8.dita
-* [ ] level_2.dita
-* [ ] level_2_1.dita
-* [ ] level_2_2.dita
-* [ ] level_2_3.dita
-* [ ] level_2_und_3.dita
-* [ ] level_2_und_3_0.dita
-* [ ] level_2_und_3_1.dita
-* [ ] level_2_und_3_2.dita
-* [ ] level_2_und_3_3.dita
-* [x] level_3.dita
-* [ ] level_3_1.dita
-* [ ] level_3_2.dita
+* [ ] level_2.dita => gelöscht
+* [x] level_2_1.dita
+* [x] level_2_2.dita
+* [x] level_2_3.dita
+* [x] level_2_und_3.dita
+* [x] level_2_und_3_0.dita
+* [x] level_2_und_3_1.dita
+* [x] level_2_und_3_2.dita
+* [x] level_2_und_3_3.dita
+* [ ] level_3.dita => gelöscht
+* [x] level_3_1.dita
+* [x] level_3_2.dita
 * [ ] lyAbsatz.dita
 * [ ] lyAllgemein.dita
 * [ ] lyBesonderheiten.dita

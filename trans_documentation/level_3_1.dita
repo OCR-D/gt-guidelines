@@ -3,16 +3,12 @@
 <topic id="level_3_1">
     <title>Level 3</title>
     <body>
-        <p>Eine <b>Interpretation</b> von <b>Graphen</b> wird <b>vollständig unterlassen</b>. Der
-            Graph wird als ein Codepoint unter Nutzung von <b>standardisierten Kodierungen</b>
-                (Unicode),<b> communitynormierten Kodierungen</b> (MUFI) und durch das
-            Koordinierungsgremium <b>festgelegten Kodierungen</b> abgebildet. Eine
-                <b>Kombination</b> von mehreren Kodierungen zu einem Graphen erfolgt
-            <b>nicht</b>.</p>
-        <p>Die Wiedergabe von Leerzeichen beschränkt sich darauf, dass diese ausschließlich Wörter
-            von einander trennen.</p>
-
-        <p>Satzzeichen werden immer an das vorangegangene Wort herangezogen.</p>
+        <p><b>Interpreting graphs</b> is <b>completely omitted</b>. The graph is displayed as a code
+            point using <b>standardized encodings</b> (Unicode),<b> communitynormalized codings</b>
+            (MUFI) and <b>encodings defined</b> by the coordination project. A <b>combination</b> of
+            several encodings to form a graph does <b>not</b> take place.</p>
+        <p>Spaces are only reproduced to separate words from each other.</p>
+        <p>Punctuation marks are always added to the preceding word.</p>
 
     </body>
 </topic>
