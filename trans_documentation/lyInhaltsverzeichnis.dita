@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="lyInhaltsverzeichnis">
-<title>Inhaltsverzeichnis (TOC-entry)</title>
+<title>Table of Content (TOC-entry)</title>
 <body>
-<p>Spezielles Layout besitzen Inhaltsverzeichnisse (PageTypeSimpleType <i>table-of-contens</i>), die
-meist am Anfang oder Ende des Werkes erscheinen und i. d. R. eine formale Überschrift besitzen.</p>
-<p>Während durch die Festlegung des Seitentyps bereits klar ist, dass es sich um ein
-Inhaltsverzeichnis handelt, werden die jeweils zusammenhängenden Zeilen des Verzeichnisses als
-einzelne TOC-entries ausgewiesen.</p>
+<p>Tables of Content have a particular layout (PageTypeSimpleType <i>table-of-contens</i>). They
+            usually appear at the beginning or end of a work and have a formal heading.</p>
+        <p>While it is already clear from the definition of the page type that this is a table of
+            contents, the lines of the table which are connected to each other are displayed as
+            individual TOC entries.</p>
 <p> </p>
 <p><image href="images/lyInhaltsverzeichnis.jpg" height="456" width="605" id="image_wlr_hcj_r1b"
 scale="50"/></p>

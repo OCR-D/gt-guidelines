@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="lyBesonderheiten">
-    <title>Weitere Besonderheiten</title>
-    <topic id="lyTypographie_schrift"><title>Allgemeine Angaben zur Schrift</title><body>
-        <p>Unter Besonderheiten wird eine Menge von spezifischen Ausprägungen verstanden, die eine
-            allgemeine Angabe der Schrift betrifft.</p>
+    <title>Further Particularities</title>
+    <topic id="lyTypographie_schrift"><title>General Font Information</title><body>
+        <p>Special features are considered a set of specific characteristics which concern a general
+                indication of the font.</p>
         
-<p>Für alle Texte gelten die folgenden Auszeichnungswerte für das Attribut <codeph>custom</codeph>: </p>
+<p>For all texts, the following markup values apply for the <codeph>custom</codeph> attribute: </p>
 
 
 <table frame="all" rowsep="1" colsep="1" id="table_fbw_sqx_f1b">
@@ -16,9 +16,9 @@
                 <colspec colname="newCol4" colnum="3" colwidth="1*"/>
                 <thead>
                     <row>
-                        <entry>Besonderheiten</entry>
-                        <entry>@custom Wert</entry>
-                        <entry>Beispiel</entry>
+                        <entry>Particularities</entry>
+                        <entry>@custom Value</entry>
+                        <entry>Example</entry>
                     </row>
                 </thead>
                 <tbody>
@@ -30,14 +30,14 @@
                         </entry>
                     </row>
                     <row>
-                        <entry>Frakturwechsel</entry>
+                        <entry>Black letter switch</entry>
                         <entry>fracturswitch</entry>
                         <entry>
                             <codeblock>textStyle {offset:0; length:4; fracturswitch:true;}</codeblock>
                         </entry>
                     </row>
                     <row>
-                        <entry>Fremdsprache</entry>
+                        <entry>Foreign language</entry>
                         <entry>forl</entry>
                         <entry>
                             <codeblock>textStyle {offset:0; length:4; forl:true;}</codeblock>
@@ -46,22 +46,25 @@
                 </tbody>
             </tgroup>
 </table></body></topic>
-    <topic id="lyTypographie_sprach"> <title>Angabe zur Sprachen</title><body><p>Die Angabe der Sprache kann auf den Ebenen:<ul id="ul_vhb_2cl_5fb">
+    <topic id="lyTypographie_sprach"> <title>Indication of the language</title><body><p>The language can be indicated on the following levels:<ul id="ul_vhb_2cl_5fb">
                     <li>
-                        <codeph>&lt;Word></codeph> mit dem <b>Attribut
-                        <codeph>language</codeph></b>,</li>
+                        <codeph>&lt;Word></codeph> with the <b>attribute
+                            <codeph>language</codeph></b>,</li>
                     <li>
-                        <codeph>&lt;TextLine></codeph> mit dem <b>Attribut
-                                <codeph>primaryLanguage</codeph></b> und </li>
-                    <li><codeph>&lt;TextRegion></codeph> mit den <b>Attributen
-                                <codeph>primaryLanguage</codeph></b> und
-                                <codeph><b>secondaryLanguage</b></codeph> erfolgen.</li>
+                        <codeph>&lt;TextLine></codeph> with the <b>attribute
+                                <codeph>primaryLanguage</codeph></b> and </li>
+                    <li><codeph>&lt;TextRegion></codeph> with the <b>attributes
+                                <codeph>primaryLanguage</codeph></b> and
+                                <codeph><b>secondaryLanguage</b></codeph></li>
                 </ul></p>
 
 
     </body>
 <related-links>
-<link href="trLigatur.dita#trLigatur"/>
-        <link href="../pagexml_documentation/pagecontent_xsd_Simple_Type_pc_LanguageSimpleType.dita"/>
-</related-links>
+            <?oxy_comment_start author="engl" timestamp="20191121T172254+0100" comment="Dieser tag wäre auch zu &quot;Related Information&quot; zu ändern"?>
+            <link href="trLigatur.dita#trLigatur"><?oxy_comment_end?></link>
+            <link
+                href="../pagexml_documentation/pagecontent_xsd_Simple_Type_pc_LanguageSimpleType.dita"
+            />
+        </related-links>
 </topic></topic>

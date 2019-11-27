@@ -26,41 +26,41 @@
 * [ ] level_3.dita => gelöscht
 * [x] level_3_1.dita
 * [x] level_3_2.dita
-* [ ] lyAbsatz.dita
-* [ ] lyAllgemein.dita
-* [ ] lyBesonderheiten.dita
-* [ ] lyBildbereiche.dita
-* [ ] lyBogensignatur.dita
-* [ ] lyChemische_Symbole.dita
-* [ ] lyDiskontinuierlich.dita
-* [ ] lyFussnote.dita
-* [ ] lyGraphik.dita
-* [ ] lyInhaltsverzeichnis.dita
-* [ ] lyInitiale.dita
-* [ ] lyKolumnentitel.dita
-* [ ] lyKustode.dita
-* [ ] lyLeserichtung.dita
-* [ ] lyLigatur.dita
-* [ ] lyMarginalie.dita
-* [ ] lyMathematische_Zeichen.dita
-* [ ] lyNotenzeichen.dita
-* [ ] lyRand.dita
-* [ ] lyRauschen.dita
-* [ ] lyRelationen.dita
-* [ ] lySatzspiegel.dita
-* [ ] lySchriftarten.dita
-* [ ] lySeitentypen.dita
-* [ ] lySeitenzahl.dita
-* [ ] lySeparatoren.dita
-* [ ] lySonstiges.dita
-* [ ] lyTabellen.dita
-* [ ] lyTextregionen.dita
-* [ ] lyTypographie.dita
-* [ ] lyUeberschrift.dita
-* [ ] lyWerbung.dita
-* [ ] ly_level_1_5.dita
-* [ ] ly_level_2_5.dita
-* [ ] lytextregion.dita
+* [x] lyAbsatz.dita
+* [x] lyAllgemein.dita
+* [x] lyBesonderheiten.dita
+* [x] lyBildbereiche.dita
+* [x] lyBogensignatur.dita
+* [x] lyChemische_Symbole.dita
+* [ ] lyDiskontinuierlich.dita => Kommentar
+* [ ] lyFussnote.dita => Kommentar
+* [x] lyGraphik.dita
+* [x] lyInhaltsverzeichnis.dita
+* [x] lyInitiale.dita
+* [x] lyKolumnentitel.dita
+* [ ] lyKustode.dita => Kommentar
+* [ ] lyLeserichtung.dita => Kommentar
+* [ ] lyLigatur.dita => Kommentar
+* [x] lyMarginalie.dita
+* [x] lyMathematische_Zeichen.dita
+* [x] lyNotenzeichen.dita
+* [ ] lyRand.dita => Kommentare
+* [ ] lyRauschen.dita => Kommentar
+* [x] lyRelationen.dita
+* [x] lySatzspiegel.dita
+* [x] lySchriftarten.dita
+* [x] lySeitentypen.dita
+* [x] lySeitenzahl.dita
+* [x] lySeparatoren.dita
+* [x] lySonstiges.dita
+* [x] lyTabellen.dita
+* [x] lyTextregionen.dita
+* [x] lyTypographie.dita
+* [x] lyUeberschrift.dita
+* [x] lyWerbung.dita
+* [x] ly_level_1_5.dita
+* [x] ly_level_2_5.dita
+* [x] lytextregion.dita
 * [ ] ocr_d_koordinationsgremium_codierung.dita
 * [ ] page_xml_erweiterungen.dita
 * [ ] structur_gt.dita

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="lyTabellen">
-    <title>Tabellen (TableRegion)</title>
+    <title>Tables (TableRegion)</title>
     <body>
-<p>Tabellen sind graphisch strukturierte Informationen, die in Spalten und Zeilen angeordnet wurden.
-Diese Anordnung kann durch Linien gekennzeichnet sein, jedoch ganz häufig fehlen diese Linien. In
-diesen Fällen wird die Trennung der Inhalte durch spezielle Tabs und Abstände kenntlich gemacht.
-Darüber hinaus gibt es viele Spielarten von Tabellen, die hier nicht beschrieben werden können.</p>
-<p>Wesentlich ist zunächst die Auszeichnung all dieser Zahlen oder Text enthaltenden Regionen als
-TableRegion. In Fällen einfach strukturierter Tabellen (wie eingangs beschrieben) sind folgende
-Informationen für die Tabelle zu erfassen (Anzahl Spalten, Anzahl Zeilen). Die Zelleninhalte selbst
-sind zeilenweise als TextRegion/paragraph durch Tabs getrennt zu erfassen.</p>
-<p>Inhalte unübersichtlicher Tabellen, die sich dem einfachen Schema entziehen, werden nicht
-erfasst. In diesen Fällen wird lediglich die TableRegion gekennzeichnet. </p>
+        <p>Tables are graphically structured information arranged in columns and rows. This
+            structure can be indicated by lines which are often left out though. In these cases, the
+            separation of the contents is made clear by special tabs and spaces. There are many
+            further variations of tables which cannot be described here.</p>
+        <p>It is essential that all these regions containing figures or text are labelled as
+            TableRegions. In cases of simply structured tables (as described above), the number of
+            the columns and rows must be entered for the table. The cell contents themselves are to
+            be recorded row by row as TextRegion/paragraph separated by tabs.</p>
+        <p>Contents of complex tables that exceed the simple scheme are not recorded. In these
+            cases, only the TableRegion is indicated. </p>
 <p/>
 <p>Attribute pc:TableRegionType /@columns</p>
 <p>Attribute pc:TableRegionType /@rows</p>

@@ -3,11 +3,10 @@
 <topic id="lyTypographie">
     <title>Typographische Besonderheiten</title>
     <body>
-<p>Für alle Element-Bereiche (<codeph>&lt;Word></codeph>, <codeph>&lt;TextLine></codeph> und
-                <codeph>&lt;TextRegion></codeph>)  gelten die folgenden typographischen
-            Auszeichnungswerte.  </p>
-        <note type="important">Vorrangig für die Dokumentation von typographischen Merkmalen ist das
-                <b>Element <codeph>&lt;TextStyle></codeph></b> zu verwenden. </note>
+<p>For all element sections (<codeph>&lt;Word></codeph>, <codeph>&lt;TextLine></codeph> and
+                <codeph>&lt;TextRegion></codeph>) the following typographic markup values apply. </p>
+        <note type="important">The <b>element <codeph>&lt;TextStyle></codeph></b> is to be used
+            primarily for the documentation of typographical features. </note>
 
 
 <table frame="all" rowsep="1" colsep="1" id="table_fbw_sqx_f1b">
@@ -16,56 +15,56 @@
                 <colspec colname="newCol5" colnum="2" colwidth="1*"/>
                 <thead>
                     <row>
-                        <entry>Typographische Besonderheiten</entry>
+                        <entry>Typographical Particularities</entry>
                         <entry>
-                            <codeph>&lt;TextStyle></codeph> Element-Beispiel</entry>
+                            <codeph>&lt;TextStyle></codeph> element example</entry>
                     </row>
                 </thead>
                 <tbody>
                     <row>
-                        <entry>Fettdruck</entry>
+                        <entry>Bold print</entry>
                         <entry>
                             <codeblock>&lt;TextStyle bold="true"></codeblock>
                         </entry>
                     </row>
                     <row>
-                        <entry>Kursivdruck</entry>
+                        <entry>Italic print</entry>
                         <entry>
                             <codeblock>&lt;TextStyle italic="true"></codeblock>
                         </entry>
                     </row>
                     <row>
-                        <entry>Sperrdruck</entry>
+                        <entry>Spaced letters</entry>
                         <entry>
                             <codeblock>&lt;TextStyle letterSpaced="true"></codeblock>
                         </entry>
                     </row>
                     <row>
-                        <entry>Kapitälchen</entry>
+                        <entry>Small capitals</entry>
                         <entry>
                             <codeblock>&lt;TextStyle smallCaps="true"></codeblock>
                         </entry>
                     </row>
                     <row>
-                        <entry>gedruckte Unterstreichung</entry>
+                        <entry>Printed underlining</entry>
                         <entry>
                             <codeblock>&lt;TextStyle underlined="true"></codeblock>
                         </entry>
                     </row>
                     <row>
-                        <entry>Durchgestrichen</entry>
+                        <entry>Strikethrough</entry>
                         <entry>
                             <codeblock>&lt;TextStyle strikethrough="true"></codeblock>
                         </entry>
                     </row>
                     <row>
-                        <entry>Hochstellung</entry>
+                        <entry>Superscript</entry>
                         <entry>
                             <codeblock>&lt;TextStyle superscript="true"></codeblock>
                         </entry>
                     </row>
                     <row>
-                        <entry>Tiefstellung</entry>
+                        <entry>Subscript</entry>
                         <entry>
                             <codeblock>&lt;TextStyle subscript="true"></codeblock>
                         </entry>

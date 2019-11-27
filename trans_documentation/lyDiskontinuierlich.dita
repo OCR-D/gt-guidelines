@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="lyDiskontinuierlich">
-    <title>Schwimmende Elemente im Satzspiegel (floating)</title>
+    <title>Floating Elements in the Print Space  (floating)</title>
     <body>
-        <p>Es kann vorkommen (bei Alten Drucken eher selten), dass Abbildungen oder Erläuterungen
-nicht an der sachlich korrekten Stelle gesetzt wurden, an der sie referenziert werden, sondern den
-Text an anderer Stelle willkürlich (aus Gründen des Layouts) unterbrechen. </p>
-<p>Im Grunde sind solche Elemente kaum zu erkennen. Sollte dennoch ein eindeutig schwimmendes
-Element erkannt werden, ist es entsprechend auszuzeichnen. </p>
+        <p>It can happen
+            <?oxy_comment_start author="engl" timestamp="20191122T161247+0100" comment="Das ist meiner Ansicht nach zumindest in Bezug auf Abbildungen falsch. Bilder wurden gerne irgendwo platziert. Häufig wurden aus ökonomischen Gründen auch Bilder verwendet, die mit dem Text gar nichts zu tun hatten. Das waren reine Deko-Elemente, die das Ausstattungsniveau anheben sollten."?>(rather
+            rarely with old prints)<?oxy_comment_end?> that illustrations or explanations are not
+            placed in the factually correct place where they are referenced, but interrupt the text
+            in another place arbitrarily (for layout reasons). </p>
+        <p>Basically, such elements are hardly recognizable. However, if a clearly floating element
+            is detected, it must be marked accordingly. </p>
     </body>
 <related-links>
 <link href="../pagexml_documentation/pagecontent_xsd_Complex_Type_pc_RelationType.dita#RelationType" format="dita"

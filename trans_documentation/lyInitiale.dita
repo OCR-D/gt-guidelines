@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="lyInitiale">
-    <title>Initiale (drop-capital)</title>
+    <title>Initial (drop-capital)</title>
     <topic id="lyInitiale_textRegion"><title>TextRegion</title><body>
-<p>Initialen werden als spezielle <codeph>TextRegion</codeph> ausgezeichnet. Das gilt auch dann,
-            wenn sie stark graphisch verfremdet wurden. Sie erstrecken sich meistens über mehrere
-            Zeilen und es ist überwiegend der erste Buchstabe eines Absatzes, der graphisch
-            gestaltet oder farblich von der Schrift des Textes abgehoben wurde. In seltenen Fällen
-            sind ganze Wörter als Initialen gestaltet und werden auch dann als solche erfasst.</p>
+<p>Initials are marked as a special <codeph>TextRegion</codeph>. This also applies if they have been
+                heavily graphically alienated. They usually extend over several lines and it is
+                predominantly the first letter of a paragraph which has been graphically designed or
+                colored to stand out from the font of the text. In rare cases, whole words are
+                designed as initials and are then recorded as such.</p>
 <p><image href="images/lyInitiale.png" height="450" width="605" id="image_br1_hy3_r1b" scale="50"
 /></p>
 </body>
@@ -20,14 +20,14 @@ href="../pagexml_documentation/pagecontent_xsd_Simple_Type_pc_TextTypeSimpleType
 />
 </related-links>
 </topic>
-    <topic id="lyInitiale_Relation"><title>Beziehung zwischen der Initiale und dem folgenden Paragraphen</title>
+    <topic id="lyInitiale_Relation"><title>Relationship between the Initial and the Following Paragraph</title>
         <body>
-            <p>Um die Beziehung von Initiale (<codeph>&lt;textRegion type="drop-cap"></codeph>) und
-                dem folgenden Paragraphen (<codeph>&lt;textRegion type="paragraph"></codeph>) zu
-                dokumentieren, ist das Element <codeph>&lt;Relations></codeph> zu verwenden. Nach
-                der Festlegung der <codeph>&lt;ReadingOrder></codeph> muss mit dem Element
-                    <codeph>&lt;Relations></codeph> die Beziehung zwischen den Regionen dargestellt
-                werden. </p><example id="relations">
+            <p>To document the relationshop between initial (<codeph>&lt;textRegion
+                    type="drop-cap"></codeph>) and the following paragraph (<codeph>&lt;textRegion
+                    type="paragraph"></codeph>), use the <codeph>&lt;Relations></codeph> element.
+                After the <codeph>&lt;ReadingOrder></codeph> has been defined, the
+                    <codeph>&lt;Relations></codeph> element must be used to display the relationship
+                between the regions.</p><example id="relations">
                 <title>Relations</title>
                 <codeblock>        &lt;ReadingOrder>
             &lt;OrderedGroup id="ro_1542737988725" caption="Regions reading order">

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="lyKolumnentitel">
-    <title>Kolumnentitel (header)</title>
+    <title>Column header (header)</title>
     <body>
-<p>In Zusammenhang mit der Ground-Truth-Erstellung sind unter dem Kolumnentitel „Kurztitelfassungen“
-der Kapitel-, Unterkapitelüberschriften, die zur Orientierung im Buch dienen, v. a. im Kopfsteg über
-dem eigentlichen Text zu verstehen. Sie können auch als Seitentitel bezeichnet werden. Oft sind sie
-vom eigentlichen Text durch einen Separator getrennt. Die Seitenzahl wird in diesem Zusammenhang
-nicht als Kolumnentitel ausgezeichnet, sondern separat als Textregion <i>page-number</i>.</p>
+        <p>In the context of Ground Truth compilation, the column title refers to "short title
+            versions" of chapters and subchapters which serve as orientation in the book, especially
+            in the page header above the actual text. They can also be referred to as page titles
+            and are often separated from the actual text by a separator. In this context, the page
+            number is not marked as column header, but separately as text region
+            <i>page-number</i>.</p>
 
     <p><fig>
-<title>Beispiel: Kolumnentitel</title>
+<title>Example: column header</title>
 <image href="images/lyKolumnentitel.png" id="image_xrt_cbj_r1b" scale="50"/>
 </fig></p>
     </body>

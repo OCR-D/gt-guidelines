@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="lyKustode">
-    <title>Kustode (catch-word)</title>
+    <title>Catch-word</title>
     <body>
-<p>Kustoden sind Wörter bzw. Silben im unteren rechten Seitenbereich, die das für den Textfluss
-notwendige nächste Wort bzw. die nächste Silbe vorweg anzeigen. Sie erscheinen rechtsbündig und im
-Falle des Vorhandenseins einer Bogensignatur in der Regel mit dieser in derselben Zeile.</p>
+        <p>Catch words are words or syllables in the lower right area of the page which indicate the
+            <?oxy_comment_start author="engl" timestamp="20191125T164744+0100" comment="diese Erklärung würde ich nicht verstehen. Änderungsvorschlag: 
+&quot;... which indicate the first word or syllable of the next page.&quot;"?>next
+            word or syllable necessary for the text flow<?oxy_comment_end?>. They appear
+            right-justified and, if a sheet signature is present, usually aligned with it.</p>
 <p><image href="images/lyKustode.png" height="269" width="605" id="image_ylr_x2j_r1b" scale="50"
 /></p>
 </body>

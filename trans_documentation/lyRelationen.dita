@@ -1,41 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-<topic id="lyRelation"><title>Verknüpfungen</title>
+<topic id="lyRelation"><title>Relations</title>
   <body>
-    <p>Um die Beziehung zwischen zusammenhängenden Regionen zu dokumentieren, ist das Element
-        <codeph>&lt;Relations></codeph> zu verwenden. Nach der Festlegung der
-        <codeph>&lt;ReadingOrder></codeph> muss mit dem Element <codeph>&lt;Relations></codeph> die
-      Beziehung zwischen den Elementen und Regionen dargestellt werden. Vorallem bei der
-      Dokumentation der Beziehung einer Initalie zum folgenden Paragraphen wird das Element
-        <codeph>&lt;Relations></codeph> verwendet.</p>
-    <p>Folgende Beziehungen sind zu dokumentieren. Dabei ist zwischen einem <codeph>join</codeph>
-      und einem <codeph>link</codeph> zu unterscheiden.</p>
+    <p>To document the relationship between contiguous regions, use the
+        <codeph>&lt;Relations></codeph> element. After defining the
+        <codeph>&lt;ReadingOrder></codeph>, the element <codeph>&lt;Relations></codeph> must be used
+      to indicate the relationship between the elements and regions. The element
+        <codeph>&lt;Relations></codeph> is mainly used to document the relationship of a drop
+      capital to the following paragraph.</p>
+    <p>The following relationships must be documented. Thereby you have to differentiate between a
+        <codeph>join</codeph> and a <codeph>link</codeph>.</p>
     <ol id="ol_hg1_54m_5fb">
-      <li>Verwendung von <codeph>join</codeph><ul>
-        <li>bei <codeph>&lt;Word&gt;</codeph> und <codeph>&lt;<codeph>Word</codeph>&gt;</codeph>
-            <p importance="high">Dies trifft zu, wenn ein Wort am Ende der Zeile getrennt und auf
-              der darauffolgenden Zeile fortgesetzt wird.</p></li>
-        <li>bei <codeph><codeph>&lt;textRegion type="drop-cap"></codeph></codeph> und
+      <li>Usage of <codeph>join</codeph><ul>
+          <li>for <codeph>&lt;Word&gt;</codeph> and <codeph>&lt;<codeph>Word</codeph>&gt;</codeph>
+            <p importance="high">This is the case if a word is separated at the end of the line and
+              continued on the next line.</p></li>
+          <li>for <codeph><codeph>&lt;textRegion type="drop-cap"></codeph></codeph> and
                 <codeph><codeph>&lt;textRegion type="paragraph"></codeph></codeph>
-            <p importance="high">Dies trifft zu, wenn die Initialie nur ein Zeichen oder Buchstaben
-              und kein ganzes Wort umfassen.</p></li>
-        <li> bei <codeph><codeph>&lt;textRegion type="paragraph"></codeph></codeph> und
+            <p importance="high">This is the case if the drop capital contains only one character or
+              letter and not a whole word.</p></li>
+          <li>for <codeph><codeph>&lt;textRegion type="paragraph"></codeph></codeph> and
                 <codeph><codeph>&lt;textRegion type="paragraph"></codeph></codeph><p
-              importance="high">Dies trifft zu, wenn der Absatz in Spalten aufgeteilt wurde und das
-              letzte Wort des Paragraphen wird im folgenden Absatz fortgesetzt.</p></li>
-      </ul></li>
-      <li>Verwendung von <codeph>link</codeph><ul>
-        <li>bei <codeph>caption</codeph> und <codeph>image floating</codeph></li>
-        <li>bei <codeph><codeph>&lt;textRegion type="paragraph"></codeph></codeph> und
+              importance="high">This applies when the paragraph has been split into columns and the
+              last word of the paragraph continues in the following paragraph.</p></li>
+        </ul></li>
+      <li>Usage of <codeph>link</codeph><ul>
+          <li>for <codeph>caption</codeph> and <codeph>image floating</codeph></li>
+          <li>for <codeph><codeph>&lt;textRegion type="paragraph"></codeph></codeph> and
+                <codeph><codeph>&lt;textRegion type="paragraph"></codeph></codeph> This is the case
+            when the paragraph is divided into columns and the last word of the pragraph is not
+            continued in the following paragraph. It is a continued paragraph.</li>
+          <li>for <codeph><codeph>&lt;textRegion type="drop-cap"></codeph></codeph> and
                 <codeph><codeph>&lt;textRegion type="paragraph"></codeph></codeph>
-            <p importance="high">Dies trifft zu, wenn der Absatz in Spalten aufgeteilt wurde und das
-              letzte Wort des Pragraphen nicht im folgenden Absatz fortgesetzt wird. Es handelt sich
-              dabei um einen fortgesetzten Paragraphen.</p></li>
-        <li>bei <codeph><codeph>&lt;textRegion type="drop-cap"></codeph></codeph> und
-                <codeph><codeph>&lt;textRegion type="paragraph"></codeph></codeph>
-            <p importance="high">Dies trifft zu, wenn die Initalie (drop-cap) ein ganzes Wort
-              umfasst.</p></li>
-      </ul></li>
+            <p importance="high">This is the case if the drop capital (drop-cap) contains a whole
+              word.</p></li>
+        </ul></li>
     </ol>
     <example id="relations">
       <title>Relations</title>
