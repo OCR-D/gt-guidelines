@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="structur_gtgrundlage">
-<title>Grundlage</title><shortdesc>Das OCR-D Struktur Ground-Truth-Korpus umfasst Publikationen aus dem Zeitraum 1500 - 1900.</shortdesc>
+<title>Grundlage</title><shortdesc>The OCR-D structure Ground Truth corpus contains publications from the period 1500 to
+        1900.</shortdesc>
     <body>
-<p>Der Inhalt des Korpus basiert auf manuell erfassten Zoning-Daten, die im Zuge des DFG Projektes
-Deutsches Textarchiv erfasst wurden. Diese Daten dienten der Unterstützung der manuellen
-Transkription im Double Keying-Verfahren. Die Zonen markieren ausschließlich quadratische Regionen
-auf dem Digitalisat. Eine Bearbeitung (Cropping, Dewarping) der Digitalisate wurde nicht
-vorgenommen. Die Daten wurden im Rahmen des DFG Projektes Deutsches Textarchiv im Unterschied zum
-Element-Repertoire des PAGE-Formates in Teilen tiefer erschlossen. Diese Tiefenerschließung ist als
-Wert des <tt>custom-Atributt</tt> festgehalten.</p>
+        <p>The content of the corpus is based on manually entered zoning data, which were compiled
+            in the course of the DFG project German Text Archive. This data was used to support
+            manual transcription using the double keying method. The zones mark exclusively
+            quadratic regions on the digital copy. The digital copies themselves were not altered
+            (cropped, dewarped). In contrast to the element repertoire of the PAGE format, parts of
+            the data were indexed more deeply as part of the DFG project German Text Archive. This
+            in-depth indexing is recorded as the value of the <tt>custom-Atribut</tt>.</p>
 </body>
 </topic>

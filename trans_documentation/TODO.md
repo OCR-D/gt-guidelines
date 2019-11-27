@@ -61,13 +61,13 @@
 * [x] ly_level_1_5.dita
 * [x] ly_level_2_5.dita
 * [x] lytextregion.dita
-* [ ] ocr_d_koordinationsgremium_codierung.dita
-* [ ] page_xml_erweiterungen.dita
-* [ ] structur_gt.dita
-* [ ] structur_gtdefinition.dita
-* [ ] structur_gtgrundlage.dita
-* [ ] structur_gtpageformat.dita
-* [ ] structurmets2page.dita
+* [x] ocr_d_koordinationsgremium_codierung.dita
+* [x] page_xml_erweiterungen.dita
+* [x] structur_gt.dita
+* [x] structur_gtdefinition.dita
+* [x] structur_gtgrundlage.dita
+* [ ] structur_gtpageformat.dita => Kommentar
+* [ ] structurmets2page.dita => Kommentar
 * [ ] trAnfZeichen.dita
 * [ ] trApostrophe.dita
 * [ ] trBeispiele.dita

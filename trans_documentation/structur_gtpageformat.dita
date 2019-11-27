@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="structur_gtpageformat">
-    <title>Übersicht und Konkordanz</title>
+    <title>Overview and Concordance</title>
 
-<shortdesc>Die Übersicht und Konkordanz stellt im Vergleich Kodierungen von Zonen und Regionen im
-    DTA Zot-Format, DTABf (TEI) und dem PAGE-Format dar.</shortdesc>
+<shortdesc>The overview and concordance shows in comparison the coding of zones and regions in DTA
+    Zot format, DTABf (TEI) and PAGE format.</shortdesc>
     <body>
-      <p>Die Übersicht und Konkordanz stellt im Vergleich Kodierungen von Zonen und Regionen im
-        DTA Zot-Format, DTABf (TEI) und dem PAGE-Format dar. Der Verweis auf Elemente im DTABf und PAGE
-        bezieht sich nur auf grundlegende Elemente und nicht deren Kontext. Aus diesem Grund sei auf die
-        Dokumentationen des DTABf und PAGE hingewiesen.</p>
+      <p><?oxy_comment_start author="engl" timestamp="20191127T130324+0100" comment="löschen, wird bei der Vollansicht gedoppelt, da dort auch die short description wiedergegen wird"?>Die
+      Übersicht und Konkordanz stellt im Vergleich Kodierungen von Zonen und Regionen im DTA
+      Zot-Format, DTABf (TEI) und dem PAGE-Format dar.<?oxy_comment_end?> The reference to elements
+      in DTABf and PAGE covers only basic elements and not their context. For more profound
+      information, please refer to the DTABf and PAGE documentation.</p>
         <table frame="all" rowsep="1" colsep="1" id="table_wws_hhn_ldb">
-        <title>Übersicht und Konkordanz von Kodierungen</title>
+        <title>Overview und Concordance of Codings</title>
 <tgroup cols="7">
 <colspec colname="c1" colnum="1" colwidth="1*"/>
 <colspec colname="newCol2" colnum="2" colwidth="1*"/>
@@ -22,7 +23,7 @@
 <colspec colname="c5" colnum="7" colwidth="1*"/>
 <thead>
 <row>
-<entry morerows="1" namest="c1" nameend="newCol2">Deutsches Textarchiv Zot-Format</entry>
+<entry morerows="1" namest="c1" nameend="newCol2">German Text Archive Zot-Format</entry>
 <entry morerows="1">DTABf (TEI)</entry>
 <entry namest="c3" nameend="c5">PAGE-Format</entry>
 </row>
@@ -35,7 +36,7 @@
 </thead>
 <tbody>
 <row>
-<entry>Text (Paragraph)</entry>
+<entry>Text (paragraph)</entry>
 <entry>10</entry>
 <entry>
 <pre>&lt;p>&lt;/p></pre>
@@ -46,7 +47,7 @@
 <entry/>
 </row>
 <row>
-<entry>Gedicht</entry>
+<entry>Poem</entry>
 <entry>11</entry>
 <entry>
 <pre>&lt;lg type="poem"></pre>
@@ -57,7 +58,7 @@
 <entry>poem</entry>
 </row>
 <row>
-<entry>Überschrift D1</entry>
+<entry>Heading D1</entry>
 <entry>20</entry>
 <entry>
 <pre>&lt;div n="1">&lt;head></pre>
@@ -68,7 +69,7 @@
 <entry>heading_level1</entry>
 </row>
 <row>
-<entry>Überschrift D2</entry>
+<entry>Heading D2</entry>
 <entry>21</entry>
 <entry>
 <pre>&lt;div n="2">&lt;head></pre>
@@ -79,7 +80,7 @@
 <entry>heading_level2</entry>
 </row>
 <row>
-<entry>Überschrift D3</entry>
+<entry>Heading D3</entry>
 <entry>22</entry>
 <entry>
 <pre>&lt;div n="3">&lt;head></pre>
@@ -90,7 +91,7 @@
 <entry>heading_level3</entry>
 </row>
 <row>
-<entry>Überschrift D4</entry>
+<entry>Heading D4</entry>
 <entry>23</entry>
 <entry>
 <pre>&lt;div n="4">&lt;head></pre>
@@ -101,7 +102,7 @@
 <entry>heading_level4</entry>
 </row>
 <row>
-<entry>Überschrift D5</entry>
+<entry>Heading D5</entry>
 <entry>24</entry>
 <entry>
 <pre>&lt;div n="5">&lt;head></pre>
@@ -112,7 +113,7 @@
 <entry>heading_level5</entry>
 </row>
 <row>
-<entry>Überschrift D6</entry>
+<entry>Heading D6</entry>
 <entry>25</entry>
 <entry>
 <pre>&lt;div n="6">&lt;head></pre>
@@ -123,7 +124,7 @@
 <entry>heading_level6</entry>
 </row>
 <row>
-<entry>Überschrift D7</entry>
+<entry>Heading D7</entry>
 <entry>26</entry>
 <entry>
 <pre>&lt;div n="7">&lt;head></pre>
@@ -134,7 +135,7 @@
 <entry>heading_level7</entry>
 </row>
 <row>
-<entry>Spalte</entry>
+<entry>Column</entry>
 <entry>30</entry>
 <entry>
 <pre>&lt;cb></pre>
@@ -145,7 +146,7 @@
 <entry>column</entry>
 </row>
 <row>
-<entry>Bildunterschrift</entry>
+<entry>Image caption</entry>
 <entry>31</entry>
 <entry>
 <pre>&lt;figure>&lt;head></pre>
@@ -156,7 +157,7 @@
 <entry/>
 </row>
 <row>
-<entry>Bühnenanweisung</entry>
+<entry>Stage directions</entry>
 <entry>32</entry>
 <entry>
 <pre>&lt;stage></pre>
@@ -167,7 +168,7 @@
 <entry>stage</entry>
 </row>
 <row>
-<entry>Liste</entry>
+<entry>List</entry>
 <entry>33</entry>
 <entry>
 <pre>&lt;list>&lt;item></pre>
@@ -178,7 +179,7 @@
 <entry>list_item</entry>
 </row>
 <row>
-<entry>Inhaltsverzeichnis</entry>
+<entry>Table of contents</entry>
 <entry/>
 <entry><pre>&lt;div type="contents"></pre>… <pre>&lt;list>&lt;item></pre></entry>
 <entry>table-of-contents</entry>
@@ -209,7 +210,7 @@
 <entry>back_paragraph</entry>
 </row>
 <row>
-<entry>Seitennummer</entry>
+<entry>Page number</entry>
 <entry>40</entry>
 <entry>
 <pre>&lt;pb facs="#f[Bildnummer]"n="[Seitenzahl]"/></pre>
@@ -220,7 +221,7 @@
 <entry/>
 </row>
 <row>
-<entry>Figurenaufstellung</entry>
+<entry>Cast list</entry>
 <entry>41</entry>
 <entry>
 <pre>&lt;castList>&lt;castItem></pre>
@@ -231,7 +232,7 @@
 <entry>castlist</entry>
 </row>
 <row>
-<entry>abschließender Gruß (Brief)</entry>
+<entry>Closing greeting (letter)</entry>
 <entry>42</entry>
 <entry><pre>&lt;closer></pre></entry>
 <entry/>
@@ -240,7 +241,7 @@
 <entry>closer</entry>
 </row>
 <row>
-<entry>Gedichttitel</entry>
+<entry>Poem title</entry>
 <entry>43</entry>
 <entry><pre>&lt;lg type="poem">&lt;head></pre> oder <pre>&lt;div type="poem">&lt;head></pre> </entry>
 <entry/>
@@ -249,7 +250,7 @@
 <entry>poem_heading</entry>
 </row>
 <row>
-<entry>Strophe eines Gedicht</entry>
+<entry>Verse of a poem</entry>
 <entry>44</entry>
 <entry>
 <pre>&lt;lg n="[Strophennummer]"></pre>
@@ -260,7 +261,7 @@
 <entry>poem_lg</entry>
 </row>
 <row>
-<entry>Anrede (Brief)</entry>
+<entry>Salutation (letter)</entry>
 <entry>45</entry>
 <entry>
 <pre>&lt;opener>&lt;salute></pre>
@@ -271,7 +272,7 @@
 <entry>salute</entry>
 </row>
 <row>
-<entry>Sprecher im Drama</entry>
+<entry>Drama speaker</entry>
 <entry>46</entry>
 <entry>
 <pre>&lt;speaker></pre>
@@ -282,7 +283,7 @@
 <entry>speaker</entry>
 </row>
 <row>
-<entry>Zitat</entry>
+<entry>Quote</entry>
 <entry>47</entry>
 <entry><pre>&lt;quote></pre> oder
 <pre>&lt;cit>
@@ -295,7 +296,7 @@
 <entry>cit</entry>
 </row>
 <row>
-<entry>Bogensignatur</entry>
+<entry>Sheet signature</entry>
 <entry>50</entry>
 <entry>
 <pre>&lt;fw type="sig" place="bottom">[Bogensignatur]&lt;/fw></pre>
@@ -306,7 +307,7 @@
 <entry/>
 </row>
 <row>
-<entry>Kolumnentitel</entry>
+<entry>Column header</entry>
 <entry>60</entry>
 <entry>
 <pre>&lt;fw type="header" place="top">[Kolumnentitel]&lt;/fw></pre>
@@ -317,7 +318,7 @@
 <entry/>
 </row>
 <row>
-<entry>Widmung</entry>
+<entry>Dedication</entry>
 <entry>61</entry>
 <entry>
 <pre>&lt;div type="dedication">&lt;p>[Widmungstext]&lt;/p>&lt;/div></pre>
@@ -328,7 +329,7 @@
 <entry>ded</entry>
 </row>
 <row>
-<entry>Überschift ohne Hierarchie</entry>
+            <entry>Header without hierarchy</entry>
 <entry>62</entry>
 <entry>
 <pre>&lt;div>&lt;head>[Titel]&lt;/head>&lt;/div></pre>
@@ -339,7 +340,7 @@
 <entry/>
 </row>
 <row>
-<entry>Kapitelzusammenfassung</entry>
+<entry>Chapter summary</entry>
 <entry>63</entry>
 <entry>
 <pre>&lt;argument>
@@ -352,7 +353,7 @@
 <entry>arg</entry>
 </row>
 <row>
-<entry>Briefdatum</entry>
+<entry>Date of letter</entry>
 <entry>64</entry>
 <entry>
 <pre>&lt;opener>&lt;dateline></pre> oder <pre>&lt;closer>&lt;dateline></pre>
@@ -363,7 +364,7 @@
 <entry/>
 </row>
 <row>
-<entry>Fußnote</entry>
+<entry>Footnote</entry>
 <entry>70</entry>
 <entry>
 <pre>&lt;note place="foot"n="[Fußnotenreferenz]">
@@ -376,7 +377,7 @@
 <entry/>
 </row>
 <row>
-<entry>fortlaufende Fußnote</entry>
+<entry>Continued footnote</entry>
 <entry>71</entry>
 <entry>
 <pre>&lt;note place="foot" 
@@ -406,7 +407,7 @@
 <entry/>
 </row>
 <row>
-<entry>Kustode</entry>
+<entry>Catch word</entry>
 <entry>90</entry>
 <entry>
 <pre>&lt;fw type="catch" place="bottom">[Kustode]&lt;/fw></pre>
@@ -417,7 +418,7 @@
 <entry/>
 </row>
 <row>
-<entry>Marginalie links</entry>
+<entry>Marginalia left</entry>
 <entry>91</entry>
 <entry>
 <pre>&lt;note place="left">
@@ -430,7 +431,7 @@
 <entry>margi_left</entry>
 </row>
 <row>
-<entry>Marginalie rechts</entry>
+<entry>Marginalia right</entry>
 <entry>92</entry>
 <entry>
 <pre>&lt;note place="right">
@@ -443,7 +444,7 @@
 <entry>margi_right</entry>
 </row>
 <row>
-<entry>Tabelle</entry>
+<entry>Table</entry>
 <entry>120</entry>
 <entry>
 <pre>&lt;table>
@@ -456,7 +457,7 @@
 <entry/>
 </row>
 <row>
-<entry>Auflistung</entry>
+<entry><?oxy_comment_start author="engl" timestamp="20191127T131513+0100" comment="was ist der Unterschied zwischen 130 (Auflistung) und 33 (Liste)?"?>List<?oxy_comment_end?>ing</entry>
 <entry>130</entry>
 <entry>
 <pre>&lt;list>&lt;item></pre>
@@ -467,7 +468,7 @@
 <entry>list</entry>
 </row>
 <row>
-<entry>math. Formel</entry>
+<entry>math. formula</entry>
 <entry>140</entry>
 <entry>
 <pre>&lt;formula></pre>
@@ -478,7 +479,7 @@
 <entry>formel</entry>
 </row>
 <row>
-<entry>horz. Linie</entry>
+<entry>horizontal line</entry>
 <entry>150</entry>
 <entry>
 <pre>&lt;milestone unit="section" rendition="#hr"/></pre>
@@ -489,7 +490,7 @@
 <entry/>
 </row>
 <row>
-<entry>SpezialText</entry>
+<entry>Special text</entry>
 <entry>333</entry>
 <entry>
 <pre>&lt;p>&lt;/p></pre>
@@ -500,7 +501,7 @@
 <entry/>
 </row>
 <row>
-<entry>Spezial Bild</entry>
+<entry>Special image</entry>
 <entry>444</entry>
 <entry><pre>&lt;figure></pre></entry>
 <entry/>
@@ -513,7 +514,7 @@
 </table>
     </body>
 <related-links>
-<link  href="http://www.deutschestextarchiv.de/doku/basisformat/" format="html" scope="external"><linktext>Dokumentation zum
-DTA-Basisformat</linktext></link>
+<link  href="http://www.deutschestextarchiv.de/doku/basisformat/" format="html" scope="external"><linktext>Documentation of the
+DTA basic format</linktext></link>
 </related-links>
 </topic>
