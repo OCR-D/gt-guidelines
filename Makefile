@@ -1,6 +1,6 @@
 export
 
-DITA_OT_VERSION  = 3.0.4
+DITA_OT_VERSION  = 3.4
 DITA_OT_DIR      = dita-ot-$(DITA_OT_VERSION)
 DITA_OT_ZIP      = $(DITA_OT_DIR).zip
 DITA_OT_URL = https://github.com/dita-ot/dita-ot/releases/download/$(DITA_OT_VERSION)/$(DITA_OT_ZIP)
@@ -17,7 +17,7 @@ ANT_OPTS = "-Dhttp.proxySet=true" "-Dhttp.proxyHost=http-proxy.sbb.spk-berlin.de
 GT_DOC_DITAMAP = $$repodir/ocrd_ocrd.ditamap
 
 # Folder to put OUTPUT in. Default: '$(GT_DOC_OUT)'
-GT_DOC_OUT = output
+GT_DOC_OUT = $(CURDIR)/output
 
 # BEGIN-EVAL makefile-parser --make-help Makefile
 
