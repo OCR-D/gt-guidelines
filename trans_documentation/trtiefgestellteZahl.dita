@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="trtiefgestellteZahl">
-    <title>Tiefgestellte Zahlen</title>
+    <title>Subscript Numbers</title>
     <body>
-        <p>Tiefgestellte Zahlen können u. a. in chemischen Formeln oder selten als Referenzzeichen
-vorkommen. </p>
-<p>Die Transkription erfolgt als spezifische tiefgestellte Zahl als <b>Unicode
-Hexadezimal-Entität</b>.</p>
+        <p>Subscript numbers can occur in chemical formulas or rarely as reference signs.  </p>
+<p>They are transcribed in the form of a specific subscript number as a <b>Unicode hexadecimal
+                entity</b>.</p>
 <p>
 <table id="table_vvk_krc_b1b">
 <tgroup cols="4">
@@ -70,15 +69,16 @@ Hexadezimal-Entität</b>.</p>
 <entry>Tiefgestellte Acht</entry>
 </row>
 <row>
-<entry>&amp;#x2089;</entry>
-<entry>₉</entry>
-<entry>SUBSCRIPT NINE</entry>
-<entry>Tiefgestellte Neun</entry>
-</row>
+                            <entry>&amp;#x2089;</entry>
+                            <entry>₉</entry>
+                            <entry>SUBSCRIPT NINE</entry>
+                            <?oxy_comment_start author="engl" timestamp="20191206T124014+0100" comment="letzte Spalte verdoppelt wieder die zweite Spalte =&gt; löschen?!"?>
+                            <entry>Tiefgestellte Neun</entry><?oxy_comment_end?>
+                        </row>
 </tbody>
 </tgroup>
 </table>
-</p><note>Zur Unicode-Kodierung siehe: <xref href="http://www.unicode.org/charts/PDF/U2070.pdf"
-format="pdf" scope="external">Superscripts and Subscripts</xref></note>
+</p><note>For the Unicode coding see: <xref href="http://www.unicode.org/charts/PDF/U2070.pdf"
+                format="pdf" scope="external">Superscripts and Subscripts</xref></note>
     </body>
 </topic>

@@ -3,35 +3,37 @@
 <topic id="level_1_0">
     <title>Level 1</title>
     <body>
-<p>Diakritika werden nach Möglichkeit mittels der Unicode-Entitäten aus dem <b>Combining Diacritical
-Marks</b> Unicodeblock realisiert, z. B. das hochgestellte <tt>o</tt> über <tt>u</tt> bzw.
-<tt>U</tt> (<tt>&amp;#x0366;, COMBINING LATIN SMALL LETTER O</tt>).</p>
-<p>Bei der Nutzung von kombinierbaren Zeichen ist zuerst das Grundzeichen und danach "nahtlos" das
-Diakritikum zu schreiben (z.B. u&amp;#x0366; u&#x0366;).</p>
-<p>Die Schreibung für das <tt>c-Cedille</tt> (<tt>ç, U+00E7, LATIN SMALL LETTER C WITH
-CEDILLA</tt>), die <tt>e caudata</tt> (<tt>ę, &amp;#x0119;, LATIN SMALL LETTER E WITH OGONEK</tt>)
-in der Bedeutung <tt>ae</tt> oder das <tt>e mit Trema</tt> (<tt>ë, &amp;#x00EB;, LATIN SMALL LETTER
-E WITH DIAERESIS</tt>) erfolgt nicht unter Nutzung er Combining Diacritical Marks.</p>
-<p>Die Grundlage für die Transkription bildet der deutsche bzw. lateinische Zeichensatz. Zeichen
-anderer Alphabete (Griechisch, Kyrillisch, Hebräisch etc.) werden mittels ihrer entsprechenden
-Unicode-Entitäten realisiert. Gültig ist der Unicode-Standard zum Zeitpunkt der Erfassung. Die
-Unicode-Listen, die eine Vielzahl der Fälle abdecken, finden sich unter <xref
-href="http://www.unicode.org/charts/" format="html" scope="external"
->http://www.unicode.org/charts/</xref>. </p>
-<p>Die wichtigsten Listen im Überblick:</p>
+<p>If possible, diacritics are realized using the Unicode entities from the <b>Combining Diacritical
+                Marks</b> Unicode block, e.g. the superscript <tt>o</tt> over <tt>u</tt> or
+                <tt>U</tt> (<tt>&amp;#x0366;, COMBINING LATIN SMALL LETTER O</tt>).</p>
+<p>When using combinable characters, write the basic character followed "seamlessly" by the
+            diacritic. (e.g. u&amp;#x0366; u&#x0366;).</p>
+<p>The spelling for the <tt>c-Cedille</tt> (<tt>ç, U+00E7, LATIN SMALL LETTER C WITH CEDILLA</tt>),
+            the <tt>e caudata</tt> (<tt>ę, &amp;#x0119;, LATIN SMALL LETTER E WITH OGONEK</tt>) in
+            the meaning <tt>ae</tt> or the <tt>e with trema</tt> (<tt>ë, &amp;#x00EB;, LATIN SMALL
+                LETTER E WITH DIAERESIS</tt>) is done without the
+            <?oxy_comment_start author="engl" timestamp="20191127T140032+0100" comment="noch auszeichnen (&lt;b&gt;)?"?>Combining
+            Diacritical Marks<?oxy_comment_end?>.</p>
+<p>The transcription is based on the German or Latin character set. Characters of other alphabets
+            (Greek, Cyrillic, Hebrew, etc.) are realized using their corresponding Unicode entities.
+            The respective Unicode standard which is valid at the time of the transcription is to be
+            applied. The Unicode lists, which cover a large number of different cases, can be found
+            at <xref href="http://www.unicode.org/charts/" format="html" scope="external"
+                >http://www.unicode.org/charts/</xref>. </p>
+<p>The most important lists at a glance:</p>
 <ul id="ul_jbd_jmt_s1b">
 <li> <xref href="http://www.unicode.org/charts/PDF/U0000.pdf" format="pdf" scope="external"
->Lateinische Buchstaben Standard (Controls and Basic Latin)</xref> </li>
+>Latin characters standard (Controls and Basic Latin)</xref> </li>
 <li> <xref href="http://www.unicode.org/charts/PDF/U0080.pdf" format="pdf" scope="external"
->Ergänzungen zum lateinischen Zeichensatz (Controls and Latin-1 Supplement)</xref> </li>
+>Supplement to the latin character set (Controls and Latin-1 Supplement)</xref> </li>
 <li> <xref href="http://www.unicode.org/charts/PDF/U0370.pdf" format="pdf" scope="external"
->griechischer Zeichensatz (Greek and Coptic)</xref> </li>
+>Greek character set (Greek and Coptic)</xref> </li>
 <li> <xref href="http://www.unicode.org/charts/PDF/U1F00.pdf" format="pdf" scope="external"
->erweiterter griechischer Zeichensatz (Greek extended)</xref> </li>
+>Extendet greek character set (Greek extended)</xref> </li>
 <li> <xref href="http://www.unicode.org/charts/PDF/U0400.pdf" format="pdf" scope="external"
->kyrillischer Zeichensatz (Cyrillic)</xref> </li>
+>Cyrillic character set (Cyrillic)</xref> </li>
 <li> <xref href="http://www.unicode.org/charts/PDF/U0300.pdf" format="pdf" scope="external"
->Kombinierte diakritische Zeichen (Combining diacritical marks)</xref> </li>
+>Combined diacritical marks (Combining diacritical marks)</xref> </li>
 </ul>
 </body>
 </topic>

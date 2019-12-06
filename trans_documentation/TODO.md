@@ -68,45 +68,45 @@
 * [x] structur_gtgrundlage.dita
 * [ ] structur_gtpageformat.dita => Kommentar
 * [ ] structurmets2page.dita => Kommentar
-* [ ] trAnfZeichen.dita
-* [ ] trApostrophe.dita
-* [ ] trBeispiele.dita
-* [ ] trBruch.dita
-* [ ] trDiakritika.dita
-* [ ] trDokuKonventionen.dita
-* [ ] trFremdsprache.dita
-* [ ] trGedankenstrich.dita
-* [ ] trGrundsaetze.dita
-* [ ] trHandschrift.dita
-* [ ] trHochgestellteZahl.dita
-* [ ] trLigatur.dita
-* [ ] trLigaturen2.dita
-* [ ] trNasalstrich.dita
-* [ ] trPage.dita
-* [ ] trRom.dita
-* [ ] trSchreibungIJ.dita
-* [ ] trSchreibungR.dita
-* [ ] trSchreibungS.dita
-* [ ] trSchreibungUV.dita
-* [ ] trSchreibweisen.dita
-* [ ] trSilbentrennung.dita
-* [ ] trSonderzeichen.dita
-* [ ] trTabellen.dita
-* [ ] trUmlaute.dita
-* [ ] trZeichensetzung.dita
-* [ ] tr_dia_level_1_0.dita
-* [ ] tr_dia_level_2_0.dita
-* [ ] tr_dia_level_3_0.dita
-* [ ] tr_level_1.dita
-* [ ] tr_level_1_3.dita
-* [ ] tr_level_1_4.dita
-* [ ] tr_level_2.dita
-* [ ] tr_level_2_3.dita
-* [ ] tr_level_2_4.dita
-* [ ] tr_level_3.dita
-* [ ] tr_level_3_4.dita
-* [ ] tr_nasal_level_1.dita
-* [ ] tr_nasal_level_2.dita
-* [ ] tr_nasal_level_3.dita
-* [ ] transkription.dita
-* [ ] trtiefgestellteZahl.dita
+* [x] trAnfZeichen.dita
+* [ ] trApostrophe.dita => Kommentar
+* [x] trBeispiele.dita
+* [x] trBruch.dita
+* [x] trDiakritika.dita
+* [x] trDokuKonventionen.dita
+* [x] trFremdsprache.dita
+* [x] trGedankenstrich.dita
+* [x] trGrundsaetze.dita
+* [x] trHandschrift.dita
+* [ ] trHochgestellteZahl.dita => Kommentar
+* [x] trLigatur.dita
+* [x] trLigaturen2.dita
+* [x] trNasalstrich.dita
+* [x] trPage.dita
+* [x] trRom.dita
+* [x] trSchreibungIJ.dita
+* [ ] trSchreibungR.dita => Kommentar
+* [x] trSchreibungS.dita
+* [x] trSchreibungUV.dita
+* [x] trSchreibweisen.dita
+* [x] trSilbentrennung.dita
+* [x] trSonderzeichen.dita
+* [x] trTabellen.dita
+* [x] trUmlaute.dita
+* [x] trZeichensetzung.dita
+* [ ] tr_dia_level_1_0.dita => Kommentar
+* [ ] tr_dia_level_2_0.dita => Kommentar
+* [x] tr_dia_level_3_0.dita
+* [x] tr_level_1.dita
+* [x] tr_level_1_3.dita
+* [x] tr_level_1_4.dita
+* [x] tr_level_2.dita
+* [ ] tr_level_2_3.dita => Kommentar
+* [ ] tr_level_2_4.dita => Kommentar
+* [x] tr_level_3.dita
+* [x] tr_level_3_4.dita
+* [x] tr_nasal_level_1.dita
+* [x] tr_nasal_level_2.dita
+* [x] tr_nasal_level_3.dita
+* [x] transkription.dita
+* [ ] trtiefgestellteZahl.dita => Kommentar

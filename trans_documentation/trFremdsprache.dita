@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="topic_t5h_w2m_gz">
-<title>Alphabete, Kürzungs- und Sonderzeichen</title>
+<title>Alphabets, Abbreviations and Special Characters </title>
   <body>
     <p>Alphabet</p>
 <table id="table_x5r_5fm_gz">
@@ -15,11 +15,11 @@
 <tbody>
 <row>
 <entry dir="ltr"/>
-<entry dir="ltr">Zeichen bzw. Unicode Hexadezimal-Entität</entry>
+<entry dir="ltr">character or Unicode hexadecimal entity</entry>
 <entry>Level 1</entry>
 <entry>Level 2</entry>
 <entry>Level 3</entry>
-<entry>Kommentar</entry>
+<entry>Comment</entry>
 </row>
 <row>
 <entry><image
@@ -57,9 +57,9 @@ height="45" width="20" id="image_evr_5fm_gz"/> </entry>
 <entry/>
 <entry/>
 <entry/>
-<entry>Kürzungsstriche (Balken oder geschlängelte Linie über Buchstaben als Substituenten für
-ausgelassene Zeichen, Nasalstrich) werden grundsätzlich mittels des Zeichens U+0303, COMBINING TILDE
-transkribiert. Es ist von einer Kodierung als Einzelzeichen abzusehen.</entry>
+<entry>Abbreviation lines (bars or wavy lines over letters as substituents for omitted characters,
+              nasal lines) are always transcribed using the character U+0303, COMBINING TILDE. They
+              must not be coded as a single character.</entry>
 </row>
 <row>
 <entry dir="ltr"><image
@@ -647,8 +647,8 @@ height="35" width="69" id="image_oyr_5fm_gz"/></entry>
 href="images/font_0110.png"
 height="59" width="44" id="image_pyr_5fm_gz"/></entry>
 <entry>
-<p dir="ltr">&amp;#x0111; Beispiel aus: 527796 - IMG 42, Mitte der ersten Zeile,</p>
-<p dir="ltr">abgekürzt für “der”.</p>
+<p dir="ltr">&amp;#x0111; example from: 527796 - IMG 42, middle of the first line,</p>
+<p dir="ltr">abbreviated for “der”.</p>
 </entry>
 <entry/>
 <entry/>
@@ -672,9 +672,9 @@ href="images/font_0113.png"
 height="55" width="22" id="image_ryr_5fm_gz"/></p>
 </entry>
 <entry>
-<p dir="ltr">&amp;#x03C4; befindet sich in der Wortmitte </p>
+<p dir="ltr">&amp;#x03C4; located in the centre of the word</p>
 <p dir="ltr"><image href="images/trFremdsprache_beispiel.png" id="image_syy_3hm_hz" scale="40"/> </p>
-<p dir="ltr">siehe <b>Seiler, Tobias: De praefixo vitae termino. [Görlitz], 1635.</b></p>
+<p dir="ltr">see <b>Seiler, Tobias: De praefixo vitae termino. [Görlitz], 1635.</b></p>
 <p dir="ltr"> <xref
 href="http://www.nbn-resolving.org/urn/resolver.pl?urn=urn:nbn:de:kobv:b4-200052-5" format="html"
 scope="external">urn:nbn:de:kobv:b4-200052-5</xref>[Blatt 25]</p>
@@ -690,9 +690,8 @@ href="images/font_0021.png"
 height="36" width="17" id="image_tyr_5fm_gz"/></entry>
 <entry>
 <p dir="ltr">&amp;#x03DA; </p>
-<p dir="ltr">Bsp. 509380_22 <image
-href="images/font_0132.png"
-height="36" width="167" id="image_uyr_5fm_gz"/></p>
+<p dir="ltr">e.g. 509380_22 <image href="images/font_0132.png" height="36" width="167"
+                  id="image_uyr_5fm_gz"/></p>
 <p dir="ltr"><b>Lindner, Abraham: Traur-und Trost Advent des HERREN JEsu/ Bey Christlichem
 Leichbegängnüs. Steinaw an der Oder, 1662. </b></p>
 <p dir="ltr"><xref
@@ -709,12 +708,11 @@ scope="external">urn:nbn:de:kobv:b4-202962-9</xref> [Blatt 22]</p>
 href="images/font_0068.png"
 height="36" width="34" id="image_vyr_5fm_gz"/></entry>
 <entry>
-<p dir="ltr">Ligatur aus byzantinischer Zeit</p>
-<p>kann nur aufgelöst werden in: </p>
+              <p>Byzantine ligature</p>
+              <p>can only be resolved in: </p>
 <p>&amp;#x03BF;&amp;#x03C2;</p>
-<p dir="ltr">Beispiel: <image
-href="images/font_0078.png"
-height="36" width="167" id="image_wyr_5fm_gz"/></p>
+<p dir="ltr">Example: <image href="images/font_0078.png" height="36" width="167"
+                  id="image_wyr_5fm_gz"/></p>
 </entry>
 <entry/>
 <entry/>

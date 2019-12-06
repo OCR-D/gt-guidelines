@@ -1,42 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="transkription">
-  <title>Richtlinien zur Transkription für Ground Truth</title>
-  <titlealts><navtitle>Transkription</navtitle></titlealts>
+  <title>Guidelines for the Ground Truth Transcription</title>
+  <titlealts><navtitle>Transcription</navtitle></titlealts>
     <abstract>
-<shortdesc>Richtlinien zur Transkription der Volltexte für die Nutzung als Ground Truth</shortdesc>
+<shortdesc>Transcription guidelines for full texts to be used as Ground Truth</shortdesc>
 </abstract>
   <body>
-<p>Das OCR-D Ground-Truth-Korpus umfasst Publikationen aus dem Zeitraum 1500 - 1900. Der Inhalt des
-Korpus basiert auf einer gezielten Auswahl aus dem Bestand des DFG-Projektes <xref
-href="http://www.deutschestextarchiv.de" format="html" scope="external">„Deutsches
-Textarchiv“</xref>, der <xref href="http://digital.staatsbibliothek-berlin.de/" format="html"
-scope="external">Digitalisierten Sammlungen der Staatsbibliothek zu Berlin</xref> und der <xref
-href="http://www.hab.de/de/home/bibliothek/digitale-bibliothek-wdb.html" format="html"
-scope="external">Wolfenbütteler Digitalen Bibliothek</xref> der Herzog August Bibliothek. Bestände
-von Projekten und digitalen Sammlungen anderer Bibliotheken sowie zusätzliche Ground-Truth-Daten,
-die zusammen mit Modulprojekten erarbeitet werden, können in Abstimmung mit dem
-OCR-D-Koordinierungsgremium in das Korpus als spezielle Erweiterungen aufgenommen werden. Sollten
-zusätzliche Annotationen oder spezifische Transkriptionsanweisungen für Texte notwendig sein, können
-diese in Abstimmung erstellt werden.</p>
-<p><b>Ziele</b> der Bereitstellung von Ground Truth Daten sind: <ul id="ul_ckm_mmm_gz">
-<li>Vorlagen und Daten zum Zweck des Trainings von OCR Programmen bereit zu stellen,</li>
-<li>sowie eine Prüfung und Evaluation der OCR-Erkennungsergebnisse vornehmen zu können.</li>
-</ul></p>
-<p>Diese Transkriptionsrichtlinien folgen in weiten Teilen den <xref
-href="http://deutschestextarchiv.de/doku/basisformat/transkription.html" format="html"
-scope="external">Richtlinien des Deutschen Textarchivs</xref>. Im folgenden werden dessen
-<b>grundlegenden Prinzipien</b> wiedergegeben, denen diese Richtlinien ebenfalls folgen: </p>
+<p>The Ground Truth corpus contains pages from publications printed between 1500 and 1900. The
+      content of the corpus is based on a particular selection from the holdings of the DFG project
+  <xref href="http://www.deutschestextarchiv.de" format="html" scope="external">„German Text Archive“</xref>, the <xref href="http://digital.staatsbibliothek-berlin.de/"
+    format="html" scope="external">Digitized Collections of the Staatsbibliothek zu Berlin</xref> and the <xref
+        href="http://www.hab.de/de/home/bibliothek/digitale-bibliothek-wdb.html" format="html"
+        scope="external">Wolfenbüttel Digital Library</xref> of the Duke August library. The
+      holdings of projects and digital collections of other libraries as well as additional Ground
+      Truth data, which are compiled together with module projects, can be included in the corpus as
+      special extensions in concertation with the OCR-D coordination project. If additional
+      annotations or texts are necessary, these can be created in consultation with the OCR-D
+      coordination project.</p>
+<p>The provision of Ground Truth data <b>aims</b> at: <ul id="ul_ckm_mmm_gz">
+        <li>making available templates and data for the purpose of training OCR programs,</li>
+        <li>as well as enabling an examination and evaluation of the OCR recognition results.</li>
+      </ul></p>
+<p>hese transcription guidelines largely follow the <xref
+        href="http://deutschestextarchiv.de/doku/basisformat/transkription.html" format="html"
+        scope="external">guidelines of the German Text Archive</xref>. Subsequently, its <b>basic
+        principles</b> are described, which are also followed by these guidelines: </p>
 <ul id="ul_wkt_mvj_gz">
-<li>"Die Erfassung der Texte erfolgt nach dem Prinzip der Wahrung des historischen Sprachstandes der
-Texte.</li>
-<li>Aufgrund dieser Zielsetzung wird darauf geachtet, bei der Texterfassung die Zahl der
-(unvermeidbaren) Interpretationen typographischer Gegebenheiten gering zu halten.</li>
-<li>Eine Druckfehlerkorrektur erfolgt nicht.</li>
-<li>Aus dem Prinzip größtmöglicher Bewahrung des Vorlagentextes bei gleichzeitiger Konzentration auf
-die lexikalischen Gegebenheiten ergeben sich für die Texterfassung die folgenden Richtlinien."</li>
-</ul><p>Das Korpus ist im Bezug auf die <b>Interpretation von einzelnen typographischen und
-graphematischen Phänomenen </b>in unterschiedlichen Leveln transkribiert bzw. kann transkribiert
-werden. Die Level werden im Weiteren näher erläutert.</p>
+<li>"The texts are transcribed under the principle of preserving the historical language level of
+        the texts.</li>
+<li>In order to achieve this objective, we aim to minimize the number of (unavoidable)
+        interpretations of typographical features.</li>
+<li>Printing errors are not corrected.</li>
+<li>The following guidelines result from the principle of preserving the original text as accurately
+        as possible while at the same time concentrating on the lexical situation."</li>
+</ul><p>The corpus is transcribed or can be transcribed in relation to the Das Korpus ist im Bezug auf
+      die <b>interpretation of individual typographic and graphematic phenomena</b> at different
+      levels. The levels are explained in more detail below.</p>
 </body>
 </topic>

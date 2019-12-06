@@ -1,40 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="trGedankenstrich">
-  <title>Gedankenstrich</title>
+  <title>Dash</title>
 <body>
-<p>Gedankenstriche können in verschiedenen Längen auftreten. Soweit sie in dieser Verschiedenheit
-erkannt werden, werden sie als folgende hexadezimale Unicode-Entitäten wiedergegeben: </p>
+    <p>Dashes can occur in different lengths. As far as this difference is recognized, they are
+      represented as the following hexadecimal Unicode entities: </p>
 
 <table>
   <tgroup cols="3"><thead><row>
-    <entry>Zeichen</entry>
-    <entry>Entität</entry>
-    <entry>Beschreibung</entry>
+    <entry>Sign</entry>
+    <entry>Entity</entry>
+    <entry>Description</entry>
   </row></thead>
   <tbody><row>
     <entry><codeph>-</codeph></entry>
     <entry><codeph>U+002D</codeph></entry>
-    <entry>Bindestrich/Silbentrennstrich/Minuszeichen (<codeph>HYPHEN-MINUS</codeph>)</entry>
+    <entry>Hyphen/syllable hyphen/minus character (<codeph>HYPHEN-MINUS</codeph>)</entry>
   </row>
   <row>
     <entry><codeph>‒</codeph></entry>
     <entry><codeph>U+2012</codeph></entry>
-    <entry>Ziffernstrich (<codeph>FIGURE DASH</codeph>)</entry>
+    <entry>Numeral dash (<codeph>FIGURE DASH</codeph>)</entry>
   </row>
   <row>
     <entry><codeph>–</codeph></entry>
     <entry><codeph>U+2013</codeph></entry>
-    <entry>Halbgeviertstrich (Gedankenstrich) (<codeph>EN DASH</codeph>)</entry>
+    <entry>En dash (<codeph>EN DASH</codeph>)</entry>
   </row>
   <row>
     <entry><codeph>—</codeph></entry>
     <entry><codeph>U+2014</codeph></entry>
-    <entry>Geviertstrich (langer Gedankenstrich) (<codeph>EM DASH</codeph>)</entry>
+    <entry>Em dash (<codeph>EM DASH</codeph>)</entry>
   </row></tbody></tgroup>
 </table>
 
-<p>Ist eine Unterscheidung der Länge des Gedankenstriches nicht erkennbar, wird dieser als
-Halbgeviertstrich erfasst. </p>
+<p>If it is not possible to distinguish the length of the dash, it shall be recorded as an en dash. </p>
 </body>
 </topic>

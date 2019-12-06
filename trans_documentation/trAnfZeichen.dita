@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="trAnfZeichen">
-  <title>Anführungszeichen</title>
+  <title>Quotation Marks</title>
 <body>
-<p>
-  Die Anführungszeichen im Text werden mit den entsprechenden Unicode-Entitäten
-  abgebildet, damit ihre eindeutige Zuordnung zum Text (linksanschmiegend,
-  rechtsanschmiegend, oben oder unten) festgelegt wird.
-</p>
+<p>The quotation marks in the text are represented with the corresponding Unicode entities to assign
+      them unambiguously to the text (left-facing, right-facing, top or bottom).</p>
 
 <table>
   <tgroup cols="3"><thead><row>
-    <entry>Zeichen</entry>
-    <entry>Entität</entry>
-    <entry>Beschreibung</entry>
+    <entry>Character</entry>
+    <entry>Entity</entry>
+    <entry>Description</entry>
   </row></thead>
   <tbody><row>
     <entry><tt>‘</tt></entry>
@@ -77,14 +74,14 @@
   </row></tbody></tgroup>
 </table>
 
-<p>
-  Für die einfachen und doppelten Anführungszeichen vgl. die Unicode-Tabelle
-  <xref href="http://www.unicode.org/charts/PDF/U2000.pdf" scope="external" format="pdf">General Punctuation</xref>
-</p>
+<p>For the single and double quotation marks, see the Unicode table <xref
+        href="http://www.unicode.org/charts/PDF/U2000.pdf" scope="external" format="pdf">General
+        Punctuation</xref>
+    </p>
 
-<p>
-  Für die französischen Anführungszeichen vgl. die Unicode-Tabelle <xref href="http://www.unicode.org/charts/PDF/U0080.pdf" scope="external" format="pdf">Controls
-  and Latin-1 Supplement</xref>
-</p>
+<p>For the French quotation marks, see the Unicode table <xref
+        href="http://www.unicode.org/charts/PDF/U0080.pdf" scope="external" format="pdf">Controls
+        and Latin-1 Supplement</xref>
+    </p>
 </body>
 </topic>

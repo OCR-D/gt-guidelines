@@ -4,14 +4,13 @@
     <title>Level 3</title>
     
 
-<body><p>Die Diakritika werden grundsätzlich und ausschließlich in Verbindung mit dem Grundzeichen und dem
-Diakritika als ein Zeichen angesehen. </p>
-<p>Bei Vorhandensein als einzelnes Zeichen wird der dafür passende Codepoint aus den
-standardisierten Kodierungstabellen (Unicode) verwendet. Ist keine standardisierte Unicodecodierung
-als einzelnes Zeichen vorhanden wird das Zeichen wird als ein Codepoint unter Nutzung von
-communitynormierten Kodierungen (MUFI) oder durch das Koordinierungsgremium festgelegte Kodierungen
-abgebildet. </p>
-<p>Eine Kombination von Zeichen zu einem Zeichen erfolgt nicht.</p>
+<body><p>The diacritics are generally and exclusively regarded as one sign consisting of a basic sign and
+            a diacritic.</p>
+<p>If the diacritics exist as a single character, the appropriate code point from the standardized
+            coding tables (Unicode) is used. If no Unicode decoding is available as a single
+            character, the character is mapped as a code point using communitynormalized encodings
+            (MUFI) or encodings defined by the coordination project.</p>
+<p>Multiple signs are not combined to form a single sign.</p>
 </body>
 
 
