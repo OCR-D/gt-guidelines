@@ -5,19 +5,14 @@
     <shortdesc>METS maps the (logical) structure of a document. A logical structuring concerns
         individual chapters, paragraphs as well as special paragraphs (such as dedications, errata). </shortdesc>
     <body>
-        <p><?oxy_comment_start author="engl" timestamp="20191127T132057+0100" comment="löschen, da gedoppelt"?>Mit
-            METS werden vorallem (Logische)-Strukturen eines Dokumentes abgebildet. Bei einer
-            Logischen-Strukturierung werden die einzelnen Kapitel, Abschnitte sowie besondere
-            Abschnitte (wie Widmungen, Errata) in einer METS-Datei dokumentiert.<?oxy_comment_end?>
-            In the METS file in the <codeph>&lt;mets:structMap TYPE="LOGICAL"></codeph> section, the
+        <p>In the METS file in the <codeph>&lt;mets:structMap TYPE="LOGICAL"></codeph> section, the
             chapters or paragraphs are listed starting with the headings of the chapters or
             paragraphs of a digitized document (<codeph>&lt;mets:div TYPE="..." LABEL="[Text der
                 Überschrift]"/></codeph>). In the PAGE standard, only the element with the type
             attribute value <codeph>heading</codeph>
             <codeph>&lt;TextRegion type="heading"></codeph>is intended for the documentation of the
             logical structuring. Particular chapters can only be distinguished with the specific
-            value in the
-            <?oxy_comment_start author="engl" timestamp="20191127T132646+0100" comment="noch als Code auszeichnen? (wurde in structur_gtgrundlage.dita gemacht)"?>custom-Attribut<?oxy_comment_end?>.</p>
+            value in the <codeph>custom</codeph>-Attribut.</p>
         
 
         <p>
@@ -34,14 +29,14 @@
     <row>
         <entry>Description</entry>
         <entry>XML <codeph>&lt;mets:div TYPE="..."/></codeph></entry>
-                            <entry><codeph>&lt;TextRegion type="heading"></codeph></entry>
+                            <entry><codeph>&lt;TextRegion type="..."></codeph></entry>
     </row>
 </thead>                    
 <tbody>
                         <row>
                             <entry>Preface</entry>
                             <entry><codeph>preface</codeph></entry>
-                            <entry morerows="11">heading</entry>
+                            <entry morerows="11"><codeph>heading</codeph></entry>
                         </row>
                         <row>
                             <entry>Dedication</entry>

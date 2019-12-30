@@ -6,11 +6,8 @@
 <shortdesc>The overview and concordance shows in comparison the coding of zones and regions in DTA
     Zot format, DTABf (TEI) and PAGE format.</shortdesc>
     <body>
-      <p><?oxy_comment_start author="engl" timestamp="20191127T130324+0100" comment="löschen, wird bei der Vollansicht gedoppelt, da dort auch die short description wiedergegen wird"?>Die
-      Übersicht und Konkordanz stellt im Vergleich Kodierungen von Zonen und Regionen im DTA
-      Zot-Format, DTABf (TEI) und dem PAGE-Format dar.<?oxy_comment_end?> The reference to elements
-      in DTABf and PAGE covers only basic elements and not their context. For more profound
-      information, please refer to the DTABf and PAGE documentation.</p>
+      <p>The reference to elements in DTABf and PAGE covers only basic elements and not their
+      context. For more profound information, please refer to the DTABf and PAGE documentation.</p>
         <table frame="all" rowsep="1" colsep="1" id="table_wws_hhn_ldb">
         <title>Overview und Concordance of Codings</title>
 <tgroup cols="7">
@@ -457,7 +454,7 @@
 <entry/>
 </row>
 <row>
-<entry><?oxy_comment_start author="engl" timestamp="20191127T131513+0100" comment="was ist der Unterschied zwischen 130 (Auflistung) und 33 (Liste)?"?>List<?oxy_comment_end?>ing</entry>
+<entry><?oxy_comment_start author="engl" timestamp="20191127T131513+0100" comment="was ist der Unterschied zwischen 130 (Auflistung) und 33 (Liste)?" id="m1f_4fl_fkb"?><?oxy_comment_start author="matthias" timestamp="20191230T150934+0100" comment="im Unterschied zu 33 wird diese Zone genutzt um in der Regel die gesamte Liste zu markieren " parentID="m1f_4fl_fkb" mid="1"?>List<?oxy_comment_end mid="1"?><?oxy_comment_end?>ing</entry>
 <entry>130</entry>
 <entry>
 <pre>&lt;list>&lt;item></pre>

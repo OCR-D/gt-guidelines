@@ -23,8 +23,9 @@
             counterclockwise fonts) and from top to bottom, taking column divisions into account. </p>
         <p>Elements which are situated outside the print space (e.g. marginalia or catch words)
             <?oxy_comment_start author="engl" timestamp="20191125T170536+0100" comment="das hab ich erst beim zweiten Lesen zusammen mit den Bildbeispielen verstanden. Vllt. besser: 
-&quot;Elements ... are always considered to be read after the print space contents.&quot;"?>must
-            always be viewed after "reading" the print space contents.<?oxy_comment_end?></p>
+&quot;Elements ... are always considered to be read after the print space contents.&quot;" id="hys_vpk_fkb"?><?oxy_comment_start author="matthias" timestamp="20191230T130955+0100" comment="Wenn es so verständlicher ist, ja." parentID="hys_vpk_fkb" mid="1"?>must
+            always be viewed after "reading" the print space
+            contents.<?oxy_comment_end mid="1"?><?oxy_comment_end?></p>
         <example><title>ReadingOrder in PAGE XML</title><codeblock>&lt;ReadingOrder>
             &lt;OrderedGroup id="ro_1542194237187" caption="Regions reading order">
             &lt;RegionRefIndexed index="0" regionRef="r_1"/>
