@@ -43,6 +43,7 @@ deps: $(DITA_OT_DIR)
 $(DITA_OT_DIR):
 	wget "$(DITA_OT_URL)"
 	unzip $(DITA_OT_ZIP)
+	sed -i 's/About this task/About this Task/' $(DITA_OT_DIR)/plugins/org.dita.base/xsl/common/*.xml
 
 # Build HTML
 build:
