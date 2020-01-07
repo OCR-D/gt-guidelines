@@ -4,13 +4,12 @@
     <title>General Information</title>
     
     <taskbody>
-        <context><?oxy_comment_start author="engl" timestamp="20191121T170808+0100" comment="Kann der angezeigte Text des taskbody verändert werden zu &quot;About this Task&quot;? (Großschreibung der Wörter in Überschriften)" id="f3d_slk_fkb"?><?oxy_comment_start author="matthias" timestamp="20191230T123824+0100" comment="ja, kann geändert werden. Dazu die Dateien string-en-ca.xml, string-en-gb.xml, string-en-us.xml in: dita-ot-3.4/plugins/org.dita.base/xsl/common editieren bzw. Korrektur anbringen  " parentID="f3d_slk_fkb" mid="1"?><p><?oxy_comment_end?><?oxy_comment_end mid="1"?>From
-                a structural point of view, a book consists of different page types and the pages
-                contain different regions with different structures and content. In particular, the
-                TextRegion can be specified in more detail as a column title, heading, paragraph
-                region, and so on... Within these regions, the individual texts can show
-                typographical features that can also be labelled..</p>The layout and structure
-            analysis should be done in the proposed steps:</context>
+        <context><p>From a structural point of view, a book consists of different page types and the
+                pages contain different regions with different structures and content. In
+                particular, the TextRegion can be specified in more detail as a column title,
+                heading, paragraph region, and so on... Within these regions, the individual texts
+                can show typographical features that can also be labelled..</p>The layout and
+            structure analysis should be done in the proposed steps:</context>
         <steps>
             <step>
                 <cmd>Marking of the type area</cmd>
