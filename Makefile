@@ -5,8 +5,7 @@ REPODIR:=$(shell dirname $(realpath $(firstword $(MAKEFILE_LIST))))
 
 DITA_OT_VERSION  = 3.4
 DITA_OT_DIR      = $(REPODIR)/dita-ot-$(DITA_OT_VERSION)
-DITA_OT_ZIP      = $(DITA_OT_DIR).zip
-DITA_OT_URL = https://github.com/dita-ot/dita-ot/releases/download/$(DITA_OT_VERSION)/$(DITA_OT_ZIP)
+DITA_OT_URL = https://github.com/dita-ot/dita-ot/releases/download/$(DITA_OT_VERSION)/dita-ot-$(DITA_OT_VERSION).zip
 
 # Options passed to dita, e..g -d. Default: '$(DITA_OPTS)'
 DITA_OPTS =
@@ -45,7 +44,7 @@ deps: $(DITA_OT_DIR)
 
 $(DITA_OT_DIR):
 	wget "$(DITA_OT_URL)"
-	unzip $(DITA_OT_ZIP)
+	unzip $(DITA_OT_DIR).zip
 	sed -i 's/About this task/About this Task/' $(DITA_OT_DIR)/plugins/org.dita.base/xsl/common/*.xml
 
 # Build Markdown
