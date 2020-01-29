@@ -1,10 +1,10 @@
 export
 
 # Repository containing the DITA sources. Default: $(REPODIR)
-REPODIR = $(PWD)
+REPODIR:=$(shell dirname $(realpath $(firstword $(MAKEFILE_LIST))))
 
 DITA_OT_VERSION  = 3.4
-DITA_OT_DIR      = $(REPODIR)dita-ot-$(DITA_OT_VERSION)
+DITA_OT_DIR      = $(REPODIR)/dita-ot-$(DITA_OT_VERSION)
 DITA_OT_ZIP      = $(DITA_OT_DIR).zip
 DITA_OT_URL = https://github.com/dita-ot/dita-ot/releases/download/$(DITA_OT_VERSION)/$(DITA_OT_ZIP)
 
@@ -32,11 +32,11 @@ help:
 	@echo ""
 	@echo "  Variables"
 	@echo ""
+	@echo "    REPODIR:        Repository containing the DITA sources. Default: $(REPODIR)"
 	@echo "    DITA_OPTS       Options passed to dita, e..g -d. Default: '$(DITA_OPTS)'"
 	@echo "    ANT_OPTS        Options passed to ant in dita script. Default: '$(ANT_OPTS)'"
 	@echo "    GT_DOC_DITAMAP  Absolute path to ditamap. Default: '$(GT_DOC_DITAMAP)'"
 	@echo "    GT_DOC_OUT      Folder to put OUTPUT in. Default: '$(GT_DOC_OUT)'"
-	@echo "    REPODIR         Repository containing the DITA sources. Default: $(REPODIR)"
 
 # END-EVAL
 
