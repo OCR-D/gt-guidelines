@@ -14,10 +14,13 @@ DITA_OPTS =
 ANT_OPTS = "-Dhttp.proxySet=true" "-Dhttp.proxyHost=http-proxy.sbb.spk-berlin.de" "-Dhttps.proxyHost=http-proxy.sbb.spk-berlin.de" "-Dhttp.proxyPort=3128" "-Dhttps.proxyPort=3128"
 
 # Absolute path to ditamap. Default: '$(GT_DOC_DITAMAP)'
-GT_DOC_DITAMAP = $$repodir/ocrd_ocrd.ditamap
+GT_DOC_DITAMAP = $(REPODIR)/ocrd_ocrd.ditamap
 
 # Folder to put OUTPUT in. Default: '$(GT_DOC_OUT)'
 GT_DOC_OUT = $(CURDIR)/output
+
+# Repository containing the DITA sources. Default: $(REPODIR)
+REPODIR = $(PWD)
 
 # BEGIN-EVAL makefile-parser --make-help Makefile
 
@@ -25,8 +28,9 @@ help:
 	@echo ""
 	@echo "  Targets"
 	@echo ""
-	@echo "    deps   Download DITA-OT dist"
-	@echo "    build  Build HTML"
+	@echo "    deps      Download DITA-OT dist"
+	@echo "    markdown  Build Markdown"
+	@echo "    build     Build HTML"
 	@echo ""
 	@echo "  Variables"
 	@echo ""
@@ -34,6 +38,7 @@ help:
 	@echo "    ANT_OPTS        Options passed to ant in dita script. Default: '$(ANT_OPTS)'"
 	@echo "    GT_DOC_DITAMAP  Absolute path to ditamap. Default: '$(GT_DOC_DITAMAP)'"
 	@echo "    GT_DOC_OUT      Folder to put OUTPUT in. Default: '$(GT_DOC_OUT)'"
+	@echo "    REPODIR         Repository containing the DITA sources. Default: $(REPODIR)"
 
 # END-EVAL
 
@@ -45,13 +50,23 @@ $(DITA_OT_DIR):
 	unzip $(DITA_OT_ZIP)
 	sed -i 's/About this task/About this Task/' $(DITA_OT_DIR)/plugins/org.dita.base/xsl/common/*.xml
 
+# Build Markdown
+markdown:
+	cd $(DITA_OT_DIR); ./bin/dita $(DITA_OPTS) \
+		--input="$(GT_DOC_DITAMAP)" \
+		--output="$(GT_DOC_OUT)" \
+		--format=markdown_github \
+		--args.input.dir="$(REPODIR)" \
+	cp -r resources/ $(GT_DOC_OUT)
+	cp redirecting-index.html $(GT_DOC_OUT)/index.html
+
 # Build HTML
 build:
-	repodir=$(PWD); cd $(DITA_OT_DIR); ./bin/dita $(DITA_OPTS) \
+	cd $(DITA_OT_DIR); ./bin/dita $(DITA_OPTS) \
 		--input="$(GT_DOC_DITAMAP)" \
 		--output="$(GT_DOC_OUT)" \
 		--format=html5 \
-		--args.input.dir="$$repodir" \
-		--propertyfile="$$repodir/properties/docs-build-html5_ocrd.properties"
+		--args.input.dir="$(REPODIR)" \
+		--propertyfile="$(REPODIR)/properties/docs-build-html5_ocrd.properties"
 	cp -r resources/ $(GT_DOC_OUT)
 	cp redirecting-index.html $(GT_DOC_OUT)/index.html
