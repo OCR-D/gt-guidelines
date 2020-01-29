@@ -53,7 +53,7 @@ markdown:
 		--input="$(GT_DOC_DITAMAP)" \
 		--output="$(GT_DOC_OUT)" \
 		--format=markdown_github \
-		--args.input.dir="$(REPODIR)" \
+		--args.input.dir="$(REPODIR)"
 	cp -r $(REPODIR)/resources/ $(GT_DOC_OUT)
 
 # Build HTML
