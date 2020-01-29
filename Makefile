@@ -1,11 +1,12 @@
 export
 
+# Repository containing the DITA sources. Default: $(REPODIR)
+REPODIR = $(PWD)
+
 DITA_OT_VERSION  = 3.4
-DITA_OT_DIR      = dita-ot-$(DITA_OT_VERSION)
+DITA_OT_DIR      = $(REPODIR)dita-ot-$(DITA_OT_VERSION)
 DITA_OT_ZIP      = $(DITA_OT_DIR).zip
 DITA_OT_URL = https://github.com/dita-ot/dita-ot/releases/download/$(DITA_OT_VERSION)/$(DITA_OT_ZIP)
-
-PATH := $(PWD)/$(DITA_OT_DIR)/bin:$(PATH)
 
 # Options passed to dita, e..g -d. Default: '$(DITA_OPTS)'
 DITA_OPTS =
@@ -18,9 +19,6 @@ GT_DOC_DITAMAP = $(REPODIR)/ocrd_ocrd.ditamap
 
 # Folder to put OUTPUT in. Default: '$(GT_DOC_OUT)'
 GT_DOC_OUT = $(CURDIR)/output
-
-# Repository containing the DITA sources. Default: $(REPODIR)
-REPODIR = $(PWD)
 
 # BEGIN-EVAL makefile-parser --make-help Makefile
 
@@ -57,8 +55,7 @@ markdown:
 		--output="$(GT_DOC_OUT)" \
 		--format=markdown_github \
 		--args.input.dir="$(REPODIR)" \
-	cp -r resources/ $(GT_DOC_OUT)
-	cp redirecting-index.html $(GT_DOC_OUT)/index.html
+	cp -r $(REPODIR)/resources/ $(GT_DOC_OUT)
 
 # Build HTML
 build:
@@ -68,5 +65,5 @@ build:
 		--format=html5 \
 		--args.input.dir="$(REPODIR)" \
 		--propertyfile="$(REPODIR)/properties/docs-build-html5_ocrd.properties"
-	cp -r resources/ $(GT_DOC_OUT)
-	cp redirecting-index.html $(GT_DOC_OUT)/index.html
+	cp -r $(REPODIR)/resources/ $(GT_DOC_OUT)
+	cp $(REPODIR)/redirecting-index.html $(GT_DOC_OUT)/index.html
