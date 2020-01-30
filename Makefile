@@ -7,6 +7,8 @@ DITA_OT_VERSION  = 3.4
 DITA_OT_DIR      = $(REPODIR)/dita-ot-$(DITA_OT_VERSION)
 DITA_OT_URL = https://github.com/dita-ot/dita-ot/releases/download/$(DITA_OT_VERSION)/dita-ot-$(DITA_OT_VERSION).zip
 
+DITA_PROPERTY_FILE = $(REPODIR)/properties/docs-build-html5_ocrd.properties
+
 # Options passed to dita, e..g -d. Default: '$(DITA_OPTS)'
 DITA_OPTS =
 
@@ -63,6 +65,6 @@ build:
 		--output="$(GT_DOC_OUT)" \
 		--format=html5 \
 		--args.input.dir="$(REPODIR)" \
-		--propertyfile="$(REPODIR)/properties/docs-build-html5_ocrd.properties"
+		--propertyfile="$(DITA_PROPERTY_FILE)"
 	cp -r $(REPODIR)/resources/ $(GT_DOC_OUT)
 	cp $(REPODIR)/redirecting-index.html $(GT_DOC_OUT)/index.html
