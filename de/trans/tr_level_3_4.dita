@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="level_3_4">
+<title>Wie im Level 3 transkribieren</title>
+<body>
+<p>
+<ol id="ol_ft2_tst_l1b">
+<li>Die Transkription erfolgt ausschließlich vorlagengetreu. Wenn der Graph mit Unicode umgesetzt
+werden kann, ist diese Kodierung ausschließlich zu verwenden. Eine Kombination von mehreren
+Kodierungen zu einem Graphen erfolgt nicht.</li>
+<li>Ist der Graph nicht als standardisierte Kodierung (Unicode) vorhanden, sondern über eine
+Community normierte Kodierung wie <xref href="http://folk.uib.no/hnooh/mufi/" format="html"
+scope="external">MUFI</xref> ist diese Kodierung zu verwenden.</li>
+<li>Können die Möglichkeiten 1 und 2 nicht gewählt werden, ist in Abstimmung mit dem
+OCR-D-Koordinierungsgremium eine OCR-D-Code-Definition in Nachnutzung gemeinsam getroffener
+Vereinbarungen internationaler Großprojekte wie IMPACT, EEBO, ECCO zu verwenden. </li>
+</ol>
+</p>
+</body>
+<related-links>
+<link href="ocr_d_koordinationsgremium_codierung.dita#ocr_d_koordinationsgremium_codierung"/>
+</related-links>
+</topic>

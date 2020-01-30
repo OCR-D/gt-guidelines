@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="lyChemische_Symbole">
+    <title>Chemische Symbole (ChemRegion)</title>
+    <body>
+<p>Chemische Zeichen und Formeln sind nicht als Textregionen, sondern als Region „Chemische Symbole“
+zu kennzeichnen. Einzelne Zeichen, die in Reaktionsgleichungen oder dergleichen lesbar sind, werden
+nicht als Text erfasst.</p>
+<p><image href="images/lyChemische_Symbole.png" id="image_yfn_shq_51b" scale="50"/></p>
+    </body>
+<related-links>
+<link
+href="../pagexml_documentation/pagecontent_xsd_Complex_Type_pc_ChemRegionType.dita#ChemRegionType" format="dita"/>
+</related-links>
+</topic>

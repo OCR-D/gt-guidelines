@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="trDiakritika">
+<title>Diakritika</title>
+<body>
+<p>Diakritika werden nach Vorlage transkribiert. Die folgenden Erfassungslevel (1-3) unterscheiden
+sich in der Kodierung und Interpretation der Zeichen.</p>
+<p>Die Grundlage für die Transkription bildet der deutsche bzw. lateinische Zeichensatz. Zeichen
+anderer Alphabete (Griechisch, Kyrillisch, Hebräisch etc.) werden mittels ihrer entsprechenden
+Codepoint unter Nutzung von standardisierten Kodierungen (Unicode), communitynormierten Kodierungen
+(MUFI) und durch das Koordinierungsgremium festgelegten Kodierungen abgebildet.</p>
+<p>Die wichtigsten Listen im Überblick:</p>
+<ul>
+<li><xref href="http://www.unicode.org/charts/PDF/U0000.pdf" format="pdf" scope="external"
+>Lateinische Buchstaben Standard (Controls and Basic Latin)</xref> </li>
+<li><xref href="http://www.unicode.org/charts/PDF/U0080.pdf" format="pdf" scope="external"
+>Ergänzungen zum lateinischen Zeichensatz (Controls and Latin-1 Supplement)</xref> </li>
+<li><xref href="http://www.unicode.org/charts/PDF/U0370.pdf" format="pdf" scope="external"
+>griechischer Zeichensatz (Greek and Coptic)</xref> </li>
+<li><xref href="http://www.unicode.org/charts/PDF/U1F00.pdf" format="pdf" scope="external"
+>erweiterter griechischer Zeichensatz (Greek extended)</xref> </li>
+<li><xref href="http://www.unicode.org/charts/PDF/U0400.pdf" format="pdf" scope="external"
+>kyrillischer Zeichensatz (Cyrillic)</xref> </li>
+<li><xref href="http://www.unicode.org/charts/PDF/U0300.pdf" format="pdf" scope="external"
+>Kombinierte diakritische Zeichen (Combining diacritical marks)</xref> </li>
+<li><xref href="http://folk.uib.no/hnooh/mufi/" format="html" scope="external">Medieval Unicode Font
+Initiative (MUFI)</xref></li>
+<li><xref href="http://hdl.handle.net/1956/10699" format="html" scope="external">MUFI character recommendation v. 4.0</xref></li>
+</ul>
+</body>
+
+
+</topic>

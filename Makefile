@@ -1,10 +1,14 @@
 export
 
+# Language to build. Default: $(LANG)
+LANG = en
+
 # Repository containing the DITA sources. Default: $(REPODIR)
-REPODIR:=$(shell dirname $(realpath $(firstword $(MAKEFILE_LIST))))
+MAKEFILE_DIR := $(shell dirname $(realpath $(firstword $(MAKEFILE_LIST))))
+REPODIR := $(MAKEFILE_DIR)/$(LANG)
 
 DITA_OT_VERSION  = 3.4
-DITA_OT_DIR      = $(REPODIR)/dita-ot-$(DITA_OT_VERSION)
+DITA_OT_DIR      = $(MAKEFILE_DIR)/dita-ot-$(DITA_OT_VERSION)
 DITA_OT_URL = https://github.com/dita-ot/dita-ot/releases/download/$(DITA_OT_VERSION)/dita-ot-$(DITA_OT_VERSION).zip
 
 DITA_PROPERTY_FILE = $(REPODIR)/properties/docs-build-html5_ocrd.properties
@@ -19,7 +23,7 @@ ANT_OPTS = "-Dhttp.proxySet=true" "-Dhttp.proxyHost=http-proxy.sbb.spk-berlin.de
 GT_DOC_DITAMAP = $(REPODIR)/ocrd_ocrd.ditamap
 
 # Folder to put OUTPUT in. Default: '$(GT_DOC_OUT)'
-GT_DOC_OUT = $(CURDIR)/output
+GT_DOC_OUT = $(CURDIR)/output/$(LANG)
 
 # BEGIN-EVAL makefile-parser --make-help Makefile
 
@@ -33,6 +37,7 @@ help:
 	@echo ""
 	@echo "  Variables"
 	@echo ""
+	@echo "    LANG            Language to build. Default: $(LANG)"
 	@echo "    REPODIR:        Repository containing the DITA sources. Default: $(REPODIR)"
 	@echo "    DITA_OPTS       Options passed to dita, e..g -d. Default: '$(DITA_OPTS)'"
 	@echo "    ANT_OPTS        Options passed to ant in dita script. Default: '$(ANT_OPTS)'"

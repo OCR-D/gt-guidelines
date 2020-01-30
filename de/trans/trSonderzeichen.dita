@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="trSonderz">
+  <title>Zahlen</title>
+<body>
+<p>Zahlen im gedruckten Text können verschiedene Funktionen haben. So bei hochgestellten Zahlen
+können diese Referenzen in Form von Fuß- oder Endnoten darstellen. Aber auch mathematische
+Funktionen können mit Zahlen ebenfalls dargestellt werden.</p>
+<p>Grundsätzlich sind Zahlen als solche zu transkribieren. Werden die Zahlen entsprechend hoch- oder
+tiefgestellt dargestellt werden diese als spezifische <b>Unicode Hexadezimal-Entität</b>
+wiedergegeben.</p>
+
+<p>Sind große <b>Zahlen in Blöcken</b> gedruckt, sind alle Leerzeichen auf Grundlage der Vorlage zu
+übernehmen. </p>
+<p>Bei <b>Zahlenblöcke mit Komma</b> wird <b>kein</b> Leerzeichen nach dem Komma gesetzt. Wenn ein
+Leerzeichen vorhanden ist, ist dieses zu transkribieren.</p>
+<p><image href="images/trZahlenBloecke_mit_Komma.png" id="image_aqs_bdl_gz"/></p>
+</body>
+</topic>

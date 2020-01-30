@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="level_2_4">
+    <title>Wie im Level 2 transkribieren</title>
+    <body>
+        <p>
+<ol id="ol_j1q_mzz_g1b">
+<li>Ist das Zeichen als eigenständiges Zeichen im Unicode-Standard definiert, ist dieses vorrangig
+zu verwenden. </li>
+<li>Kann das Zeichen nur aus der Kombination von zwei Zeichen im Rahmen des Unicode-Standards
+gebildet werden, ist diese Kombination zu verwenden.</li>
+<li>Außer den vokalischen Ligaturen werden alle Ligaturen aufgespalten. </li>
+<li>Typographische Besonderheiten sind als <xref href="lyTypographie.dita#lyTypographie"
+>Formatierungsangaben</xref> zu dokumentieren. Darunter sind auch alle nicht vokalischen Ligaturen
+zu verstehen.</li>
+<li>Kann das Zeichen nicht aus der Kombination von Zeichen gebildet werden und ist eine <xref
+href="http://folk.uib.no/hnooh/mufi/" format="html" scope="external">MUFI-Entsprechung</xref>
+vorhanden, ist <xref href="http://folk.uib.no/hnooh/mufi/" format="html" scope="external"
+>MUFI</xref> zu verwenden.</li>
+<li>Können die Möglichkeiten 1, 2, 4 nicht gewählt werden, ist in Abstimmung mit dem
+OCR-D-Koordinierungsgremium eine OCR-D-Code-Definition in Nachnutzung gemeinsam getroffener
+Vereinbarungen internationaler Großprojekte wie IMPACT, EEBO, ECCO zu verwenden. </li>
+</ol>
+</p>
+    </body>
+<related-links>
+<link href="ocr_d_koordinationsgremium_codierung.dita#ocr_d_koordinationsgremium_codierung"/>
+<link href="lyTypographie.dita#lyTypographie"/>
+<link href="trLigatur.dita#trLigatur"/>
+</related-links>
+</topic>
