@@ -31,14 +31,13 @@ help:
 	@echo ""
 	@echo "  Targets"
 	@echo ""
-	@echo "    deps      Download DITA-OT dist"
-	@echo "    markdown  Build Markdown"
-	@echo "    build     Build HTML"
+	@echo "    deps   Download DITA-OT dist"
+	@echo "    build  Build HTML"
 	@echo ""
 	@echo "  Variables"
 	@echo ""
 	@echo "    LANG            Language to build. Default: $(LANG)"
-	@echo "    REPODIR:        Repository containing the DITA sources. Default: $(REPODIR)"
+	@echo "    REPODIR         Repository containing the DITA sources. Default: $(REPODIR)"
 	@echo "    DITA_OPTS       Options passed to dita, e..g -d. Default: '$(DITA_OPTS)'"
 	@echo "    ANT_OPTS        Options passed to ant in dita script. Default: '$(ANT_OPTS)'"
 	@echo "    GT_DOC_DITAMAP  Absolute path to ditamap. Default: '$(GT_DOC_DITAMAP)'"
@@ -54,15 +53,6 @@ $(DITA_OT_DIR):
 	unzip $(DITA_OT_DIR).zip
 	sed -i 's/About this task/About this Task/' $(DITA_OT_DIR)/plugins/org.dita.base/xsl/common/*.xml
 
-# Build Markdown
-markdown:
-	cd $(DITA_OT_DIR); ./bin/dita $(DITA_OPTS) \
-		--input="$(GT_DOC_DITAMAP)" \
-		--output="$(GT_DOC_OUT)" \
-		--format=markdown_github \
-		--args.input.dir="$(REPODIR)"
-	cp -r $(REPODIR)/resources/ $(GT_DOC_OUT)
-
 # Build HTML
 build:
 	cd $(DITA_OT_DIR); ./bin/dita $(DITA_OPTS) \
@@ -72,4 +62,3 @@ build:
 		--args.input.dir="$(REPODIR)" \
 		--propertyfile="$(DITA_PROPERTY_FILE)"
 	cp -r $(REPODIR)/resources/ $(GT_DOC_OUT)
-	cp $(REPODIR)/redirecting-index.html $(GT_DOC_OUT)/index.html
