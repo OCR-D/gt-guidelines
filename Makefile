@@ -3,6 +3,12 @@ export
 # Repository containing the DITA sources. Default: $(REPODIR)
 REPODIR:=$(shell dirname $(realpath $(firstword $(MAKEFILE_LIST))))
 
+DITA_OT_VERSION  = 3.3.4
+DITA_OT_DIR      = dita-ot-$(DITA_OT_VERSION)
+DITA_OT_ZIP      = $(DITA_OT_DIR).zip
+DITA_OT_URL = https://github.com/dita-ot/dita-ot/releases/download/$(DITA_OT_VERSION)/$(DITA_OT_ZIP)
+
+
 DITA_OT_VERSION  = 3.4
 DITA_OT_DIR      = $(REPODIR)/dita-ot-$(DITA_OT_VERSION)
 DITA_OT_URL = https://github.com/dita-ot/dita-ot/releases/download/$(DITA_OT_VERSION)/dita-ot-$(DITA_OT_VERSION).zip
