@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="trTabellen">
+    <title>Tabellen</title>
+    <body>
+<p>Die Erfassung des Textes in Tabellen erfolgt grundsätzlich vorlagengetreu im Unicode-Format
+(Kodierung in UTF-8) des zum Zeitpunkt der Erfassung gültigen Unicode-Standards. Die Schreibung von
+Zeichen, die nicht auf der Tastatur abgebildet sind, erfolgt entweder </p>
+<ul id="ul_ynb_lcs_b1b">
+<li>als Unicode Hexadezimal-Entität oder </li>
+<li>als Zeichen.</li>
+</ul>
+<p>Eine Mischung von verschiedenen Unicode-Schreibungen ist zu vermeiden. Auf modernisierende
+Veränderungen ist zu verzichten, sowie Druckfehler sind zu übernehmen.</p>
+<p>Ausnahmen und Abweichungen davon werden ausführlich in diesem Dokument besprochen.</p>
+<p>Die Struktur der Tabelle wird als Attributwerte im Element <b><xref
+href="../pagexml_documentation/pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_TableRegion" format="dita"
+>TableRegion</xref></b> angegeben. Sie dazu die Dokumentation des PageXML-Formates.</p>
+</body>
+<related-links>
+<link href="../pagexml_documentation/pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_TextRegion" format="dita"/>
+</related-links>
+</topic>

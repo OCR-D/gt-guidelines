@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="lyTypographie">
+    <title>Typographische Besonderheiten</title>
+    <body>
+<p>Für alle Element-Bereiche (<codeph>&lt;Word></codeph>, <codeph>&lt;TextLine></codeph> und
+                <codeph>&lt;TextRegion></codeph>)  gelten die folgenden typographischen
+            Auszeichnungswerte.  </p>
+        <note type="important">Vorrangig für die Dokumentation von typographischen Merkmalen ist das
+                <b>Element <codeph>&lt;TextStyle></codeph></b> zu verwenden. </note>
+
+
+<table frame="all" rowsep="1" colsep="1" id="table_fbw_sqx_f1b">
+<tgroup cols="2">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="newCol5" colnum="2" colwidth="1*"/>
+                <thead>
+                    <row>
+                        <entry>Typographische Besonderheiten</entry>
+                        <entry>
+                            <codeph>&lt;TextStyle></codeph> Element-Beispiel</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>Fettdruck</entry>
+                        <entry>
+                            <codeblock>&lt;TextStyle bold="true"></codeblock>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>Kursivdruck</entry>
+                        <entry>
+                            <codeblock>&lt;TextStyle italic="true"></codeblock>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>Sperrdruck</entry>
+                        <entry>
+                            <codeblock>&lt;TextStyle letterSpaced="true"></codeblock>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>Kapitälchen</entry>
+                        <entry>
+                            <codeblock>&lt;TextStyle smallCaps="true"></codeblock>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>gedruckte Unterstreichung</entry>
+                        <entry>
+                            <codeblock>&lt;TextStyle underlined="true"></codeblock>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>Durchgestrichen</entry>
+                        <entry>
+                            <codeblock>&lt;TextStyle strikethrough="true"></codeblock>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>Hochstellung</entry>
+                        <entry>
+                            <codeblock>&lt;TextStyle superscript="true"></codeblock>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>Tiefstellung</entry>
+                        <entry>
+                            <codeblock>&lt;TextStyle subscript="true"></codeblock>
+                        </entry>
+                    </row>
+                </tbody>
+            </tgroup>
+</table>
+
+
+    </body>
+<related-links>
+
+        <link href="../pagexml_documentation/pagecontent_xsd_Complex_Type_pc_TextStyleType.dita"/>
+</related-links>
+</topic>

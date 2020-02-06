@@ -1,0 +1,1178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="PcGtsType">
+   <title>Complex Type pc:PcGtsType</title>
+   <body>
+      <table frame="all" rowsep="1" colsep="1">
+         <tgroup cols="2">
+            <colspec colwidth="3*" align="left"/>
+            <colspec colwidth="25*" align="left"/>
+            <tbody>
+               <row>
+                  <entry>Namespace</entry>
+                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
+               </row>
+               <row>
+                  <entry>Diagram</entry>
+                  <entry>
+                     <p>
+                            
+                                    
+                                    <imagemap id="pagecontent_xsd_Complex_Type_pc_PcGtsType">
+                                        
+                                        <image href="img/pagecontent_xsd_Complex_Type_pc_PcGtsType.jpeg"/>
+                                        
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>150,39,237,83</coords>
+                                                
+                                                
+                                                
+                                                        <xref href="#PcGtsType_pcGtsId"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>207,100,353,144</coords>
+                                                
+                                                
+                                                
+                                                        <xref href="#PcGtsType_Metadata"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>207,154,333,198</coords>
+                                                
+                                                
+                                                
+                                                        <xref href="#PcGtsType_Page"/>
+                                                    
+                                            </area>
+                                        
+                                    </imagemap>
+                        </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Used by</entry>
+                  <entry>
+                     <p>
+                        <table frame="all" rowsep="1" colsep="1">
+                           <tgroup cols="2">
+                              <colspec colwidth="2*" align="left"/>
+                              <colspec colwidth="8*" align="left"/>
+                              <tbody>
+                                 <row>
+                                    <entry>Element </entry>
+                                    <entry>
+                                       <xref href="pagecontent_xsd_Element_pc_PcGts.dita#PcGts"/>
+                                    </entry>
+                                 </row>
+                              </tbody>
+                           </tgroup>
+                        </table>
+                     </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Model</entry>
+                  <entry>
+                     <xref href="#PcGtsType_Metadata"/> , <xref href="#PcGtsType_Page"/>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Children</entry>
+                  <entry>
+                     <xref href="#PcGtsType_Metadata"/>, <xref href="#PcGtsType_Page"/>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Attributes</entry>
+                  <entry>
+                     <p>
+                        <table frame="all" rowsep="1" colsep="1">
+                           <tgroup cols="3">
+                              <colspec colnum="1" colname="col1" align="left" colwidth="3*"/>
+                              <colspec colnum="2" colname="col2" align="left" colwidth="3*"/>
+                              <colspec colnum="3" colname="col3" align="left" colwidth="1*"/>
+                              <thead>
+                                 <row>
+                                    <entry>QName</entry>
+                                    <entry>Type</entry>
+                                    <entry>Use</entry>
+                                 </row>
+                              </thead>
+                              <tbody>
+                                 <row>
+                                    <entry>
+                                       <xref href="#PcGtsType_pcGtsId"/>
+                                    </entry>
+                                    <entry>ID</entry>
+                                    <entry>optional</entry>
+                                 </row>
+                              </tbody>
+                           </tgroup>
+                        </table>
+                     </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Source</entry>
+                  <entry>
+                     <codeblock outputclass="language-xml">&lt;complexType name="PcGtsType"&gt;
+  &lt;sequence&gt;
+    &lt;element name="Metadata" type="pc:MetadataType"/&gt;
+    &lt;element name="Page" type="pc:PageType"/&gt;
+  &lt;/sequence&gt;
+  &lt;attribute name="pcGtsId" type="ID" use="optional"/&gt;
+&lt;/complexType&gt;</codeblock>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+   </body>
+   <topic id="PcGtsType_pcGtsId">
+      <title>Attribute pc:PcGtsType / @pcGtsId</title>
+      <body>
+         <table frame="all" rowsep="1" colsep="1">
+            <tgroup cols="2">
+               <colspec colwidth="3*" align="left"/>
+               <colspec colwidth="25*" align="left"/>
+               <tbody>
+                  <row>
+                     <entry>Namespace</entry>
+                     <entry>No namespace</entry>
+                  </row>
+                  <row>
+                     <entry>Type</entry>
+                     <entry>ID</entry>
+                  </row>
+                  <row>
+                     <entry>Properties</entry>
+                     <entry>
+                        <p>
+                           <table frame="all" rowsep="1" colsep="1">
+                              <tgroup cols="2">
+                                 <colspec colwidth="2*" align="left"/>
+                                 <colspec colwidth="8*" align="left"/>
+                                 <tbody>
+                                    <row>
+                                       <entry>use: </entry>
+                                       <entry>
+                                          <b>optional</b>
+                                       </entry>
+                                    </row>
+                                 </tbody>
+                              </tgroup>
+                           </table>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Used by</entry>
+                     <entry>
+                        <p>
+                           <table frame="all" rowsep="1" colsep="1">
+                              <tgroup cols="2">
+                                 <colspec colwidth="2*" align="left"/>
+                                 <colspec colwidth="8*" align="left"/>
+                                 <tbody>
+                                    <row>
+                                       <entry>Complex Type </entry>
+                                       <entry>
+                                          <xref href="#PcGtsType"/>
+                                       </entry>
+                                    </row>
+                                 </tbody>
+                              </tgroup>
+                           </table>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;attribute name="pcGtsId" type="ID" use="optional"/&gt;</codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </body>
+   </topic>
+   <topic id="PcGtsType_Metadata">
+      <title>Element pc:PcGtsType / pc:Metadata</title>
+      <body>
+         <table frame="all" rowsep="1" colsep="1">
+            <tgroup cols="2">
+               <colspec colwidth="3*" align="left"/>
+               <colspec colwidth="25*" align="left"/>
+               <tbody>
+                  <row>
+                     <entry>Namespace</entry>
+                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
+                  </row>
+                  <row>
+                     <entry>Diagram</entry>
+                     <entry>
+                        <p>
+                            
+                                    
+                                    <imagemap id="pagecontent_xsd_Element_pc_Metadata">
+                                        
+                                        <image href="img/pagecontent_xsd_Element_pc_Metadata.jpeg"/>
+                                        
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>202,79,308,123</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_MetadataType.dita#MetadataType_externalRef"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>279,171,369,215</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_MetadataType.dita#MetadataType_Creator"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>279,225,385,269</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_MetadataType.dita#MetadataType_Created"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>279,324,385,368</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_MetadataType.dita#MetadataType_LastChange"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>279,423,369,467</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_MetadataType.dita#MetadataType_Comments"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>279,477,441,521</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_MetadataType.dita#MetadataType_UserDefined"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>279,531,444,575</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_MetadataType.dita#MetadataType_MetadataItem"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>177,3,311,25</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_MetadataType.dita#MetadataType"/>
+                                                    
+                                            </area>
+                                        
+                                    </imagemap>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Type</entry>
+                     <entry>
+                        <xref href="pagecontent_xsd_Complex_Type_pc_MetadataType.dita#MetadataType"/>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Properties</entry>
+                     <entry>
+                        <p>
+                           <table frame="all" rowsep="1" colsep="1">
+                              <tgroup cols="2">
+                                 <colspec colwidth="2*" align="left"/>
+                                 <colspec colwidth="8*" align="left"/>
+                                 <tbody>
+                                    <row>
+                                       <entry>content: </entry>
+                                       <entry>
+                                          <b>complex</b>
+                                       </entry>
+                                    </row>
+                                 </tbody>
+                              </tgroup>
+                           </table>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Model</entry>
+                     <entry>
+                        <xref href="pagecontent_xsd_Complex_Type_pc_MetadataType.dita#MetadataType_Creator"/> , <xref href="pagecontent_xsd_Complex_Type_pc_MetadataType.dita#MetadataType_Created"/> , <xref href="pagecontent_xsd_Complex_Type_pc_MetadataType.dita#MetadataType_LastChange"/> , <xref href="pagecontent_xsd_Complex_Type_pc_MetadataType.dita#MetadataType_Comments"/> , <xref href="pagecontent_xsd_Complex_Type_pc_MetadataType.dita#MetadataType_UserDefined"/> , <xref href="pagecontent_xsd_Complex_Type_pc_MetadataType.dita#MetadataType_MetadataItem"/>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Children</entry>
+                     <entry>
+                        <xref href="pagecontent_xsd_Complex_Type_pc_MetadataType.dita#MetadataType_Comments"/>, <xref href="pagecontent_xsd_Complex_Type_pc_MetadataType.dita#MetadataType_Created"/>, <xref href="pagecontent_xsd_Complex_Type_pc_MetadataType.dita#MetadataType_Creator"/>, <xref href="pagecontent_xsd_Complex_Type_pc_MetadataType.dita#MetadataType_LastChange"/>, <xref href="pagecontent_xsd_Complex_Type_pc_MetadataType.dita#MetadataType_MetadataItem"/>, <xref href="pagecontent_xsd_Complex_Type_pc_MetadataType.dita#MetadataType_UserDefined"/>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Instance</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;pc:Metadata externalRef="" xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15"&gt;
+  &lt;pc:Creator&gt;{1,1}&lt;/pc:Creator&gt;
+  &lt;pc:Created&gt;{1,1}&lt;/pc:Created&gt;
+  &lt;pc:LastChange&gt;{1,1}&lt;/pc:LastChange&gt;
+  &lt;pc:Comments&gt;{0,1}&lt;/pc:Comments&gt;
+  &lt;pc:UserDefined&gt;{0,1}&lt;/pc:UserDefined&gt;
+  &lt;pc:MetadataItem date="" name="" type="" value=""&gt;{0,unbounded}&lt;/pc:MetadataItem&gt;
+&lt;/pc:Metadata&gt;</codeblock>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Attributes</entry>
+                     <entry>
+                        <p>
+                           <table frame="all" rowsep="1" colsep="1">
+                              <tgroup cols="3">
+                                 <colspec colnum="1" colname="col1" align="left" colwidth="3*"/>
+                                 <colspec colnum="2" colname="col2" align="left" colwidth="3*"/>
+                                 <colspec colnum="3" colname="col3" align="left" colwidth="1*"/>
+                                 <thead>
+                                    <row>
+                                       <entry>QName</entry>
+                                       <entry>Type</entry>
+                                       <entry>Use</entry>
+                                    </row>
+                                 </thead>
+                                 <tbody>
+                                    <row>
+                                       <entry>
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_MetadataType.dita#MetadataType_externalRef"/>
+                                       </entry>
+                                       <entry>string</entry>
+                                       <entry>optional</entry>
+                                    </row>
+                                    <row>
+                                       <entry namest="col1" nameend="col3">
+                                          <codeblock outputclass="language-xml">External reference of any kind</codeblock>
+                                       </entry>
+                                    </row>
+                                 </tbody>
+                              </tgroup>
+                           </table>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;element name="Metadata" type="pc:MetadataType"/&gt;</codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </body>
+   </topic>
+   <topic id="PcGtsType_Page">
+      <title>Element pc:PcGtsType / pc:Page</title>
+      <body>
+         <table frame="all" rowsep="1" colsep="1">
+            <tgroup cols="2">
+               <colspec colwidth="3*" align="left"/>
+               <colspec colwidth="25*" align="left"/>
+               <tbody>
+                  <row>
+                     <entry>Namespace</entry>
+                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
+                  </row>
+                  <row>
+                     <entry>Diagram</entry>
+                     <entry>
+                        <p>
+                            
+                                    
+                                    <imagemap id="pagecontent_xsd_Element_pc_Page">
+                                        
+                                        <image href="img/pagecontent_xsd_Element_pc_Page.jpeg"/>
+                                        
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>182,79,302,123</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_imageFilename"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>182,164,287,208</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_imageWidth"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>182,249,290,293</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_imageHeight"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>182,334,317,378</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_imageXResolution"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>182,419,318,463</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_imageYResolution"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>182,504,343,548</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_imageResolutionUnit"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>182,603,272,647</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_custom"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>182,688,363,732</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_type"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>182,773,363,817</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_primaryLanguage"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>182,872,363,916</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_secondaryLanguage"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>182,971,343,1015</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_primaryScript"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>182,1070,343,1114</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_secondaryScript"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>182,1169,396,1213</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_readingDirection"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>182,1268,384,1312</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_textLineOrder"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>182,1367,338,1411</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_conf"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>259,1459,441,1503</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_AlternativeImage"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>259,1544,394,1588</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_Border"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>259,1598,413,1642</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_PrintSpace"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>259,1652,428,1696</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_ReadingOrder"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>259,1706,395,1750</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_Layers"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>259,1805,405,1849</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_Relations"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>259,1859,421,1903</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_UserDefined"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>259,1913,393,1957</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_Labels"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>330,1998,486,2042</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_TextRegion"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>330,2052,493,2096</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_ImageRegion"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>330,2106,526,2150</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_LineDrawingRegion"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>330,2160,503,2204</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_GraphicRegion"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>330,2214,491,2258</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_TableRegion"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>330,2268,491,2312</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_ChartRegion"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>330,2322,485,2366</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_MapRegion"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>330,2376,513,2420</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_SeparatorRegion"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>330,2430,494,2474</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_MathsRegion"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>330,2484,492,2528</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_ChemRegion"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>330,2538,493,2582</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_MusicRegion"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>330,2592,498,2636</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_AdvertRegion"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>330,2646,492,2690</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_NoiseRegion"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>330,2700,511,2744</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_UnknownRegion"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>330,2754,501,2798</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_CustomRegion"/>
+                                                    
+                                            </area>
+                                          
+                                            <area>
+                                                <shape>rect</shape>
+                                                <coords>157,3,271,25</coords>
+                                                
+                                                
+                                                
+                                                        
+                                                        <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType"/>
+                                                    
+                                            </area>
+                                        
+                                    </imagemap>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Type</entry>
+                     <entry>
+                        <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType"/>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Properties</entry>
+                     <entry>
+                        <p>
+                           <table frame="all" rowsep="1" colsep="1">
+                              <tgroup cols="2">
+                                 <colspec colwidth="2*" align="left"/>
+                                 <colspec colwidth="8*" align="left"/>
+                                 <tbody>
+                                    <row>
+                                       <entry>content: </entry>
+                                       <entry>
+                                          <b>complex</b>
+                                       </entry>
+                                    </row>
+                                 </tbody>
+                              </tgroup>
+                           </table>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Model</entry>
+                     <entry>
+                        <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_AlternativeImage"/> , <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_Border"/> , <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_PrintSpace"/> , <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_ReadingOrder"/> , <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_Layers"/> , <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_Relations"/> , <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_UserDefined"/> , <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_Labels"/> , (<xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_TextRegion"/> | <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_ImageRegion"/> | <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_LineDrawingRegion"/> | <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_GraphicRegion"/> | <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_TableRegion"/> | <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_ChartRegion"/> | <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_MapRegion"/> | <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_SeparatorRegion"/> | <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_MathsRegion"/> | <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_ChemRegion"/> | <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_MusicRegion"/> | <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_AdvertRegion"/> | <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_NoiseRegion"/> | <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_UnknownRegion"/> | <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_CustomRegion"/>)</entry>
+                  </row>
+                  <row>
+                     <entry>Children</entry>
+                     <entry>
+                        <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_AdvertRegion"/>, <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_AlternativeImage"/>, <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_Border"/>, <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_ChartRegion"/>, <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_ChemRegion"/>, <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_CustomRegion"/>, <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_GraphicRegion"/>, <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_ImageRegion"/>, <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_Labels"/>, <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_Layers"/>, <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_LineDrawingRegion"/>, <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_MapRegion"/>, <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_MathsRegion"/>, <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_MusicRegion"/>, <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_NoiseRegion"/>, <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_PrintSpace"/>, <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_ReadingOrder"/>, <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_Relations"/>, <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_SeparatorRegion"/>, <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_TableRegion"/>, <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_TextRegion"/>, <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_UnknownRegion"/>, <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_UserDefined"/>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Instance</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;pc:Page conf="" custom="" imageFilename="" imageHeight="" imageResolutionUnit="" imageWidth="" imageXResolution="" imageYResolution="" primaryLanguage="" primaryScript="" readingDirection="" secondaryLanguage="" secondaryScript="" textLineOrder="" type="" xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15"&gt;
+  &lt;pc:AlternativeImage comments="" conf="" filename=""&gt;{0,unbounded}&lt;/pc:AlternativeImage&gt;
+  &lt;pc:Border&gt;{0,1}&lt;/pc:Border&gt;
+  &lt;pc:PrintSpace&gt;{0,1}&lt;/pc:PrintSpace&gt;
+  &lt;pc:ReadingOrder conf=""&gt;{0,1}&lt;/pc:ReadingOrder&gt;
+  &lt;pc:Layers&gt;{0,1}&lt;/pc:Layers&gt;
+  &lt;pc:Relations&gt;{0,1}&lt;/pc:Relations&gt;
+  &lt;pc:UserDefined&gt;{0,1}&lt;/pc:UserDefined&gt;
+  &lt;pc:Labels comments="" externalId="" externalModel="" prefix=""&gt;{0,unbounded}&lt;/pc:Labels&gt;
+  &lt;pc:TextRegion align="" comments="" continuation="" custom="" id="" indented="" leading="" orientation="" primaryLanguage="" primaryScript="" production="" readingDirection="" readingOrientation="" secondaryLanguage="" secondaryScript="" textLineOrder="" type=""&gt;{1,1}&lt;/pc:TextRegion&gt;
+  &lt;pc:ImageRegion bgColour="" colourDepth="" comments="" continuation="" custom="" embText="" id="" orientation=""&gt;{1,1}&lt;/pc:ImageRegion&gt;
+  &lt;pc:LineDrawingRegion bgColour="" comments="" continuation="" custom="" embText="" id="" orientation="" penColour=""&gt;{1,1}&lt;/pc:LineDrawingRegion&gt;
+  &lt;pc:GraphicRegion comments="" continuation="" custom="" embText="" id="" numColours="" orientation="" type=""&gt;{1,1}&lt;/pc:GraphicRegion&gt;
+  &lt;pc:TableRegion bgColour="" columns="" comments="" continuation="" custom="" embText="" id="" lineColour="" lineSeparators="" orientation="" rows=""&gt;{1,1}&lt;/pc:TableRegion&gt;
+  &lt;pc:ChartRegion bgColour="" comments="" continuation="" custom="" embText="" id="" numColours="" orientation="" type=""&gt;{1,1}&lt;/pc:ChartRegion&gt;
+  &lt;pc:MapRegion comments="" continuation="" custom="" id="" orientation=""&gt;{1,1}&lt;/pc:MapRegion&gt;
+  &lt;pc:SeparatorRegion colour="" comments="" continuation="" custom="" id="" orientation=""&gt;{1,1}&lt;/pc:SeparatorRegion&gt;
+  &lt;pc:MathsRegion bgColour="" comments="" continuation="" custom="" id="" orientation=""&gt;{1,1}&lt;/pc:MathsRegion&gt;
+  &lt;pc:ChemRegion bgColour="" comments="" continuation="" custom="" id="" orientation=""&gt;{1,1}&lt;/pc:ChemRegion&gt;
+  &lt;pc:MusicRegion bgColour="" comments="" continuation="" custom="" id="" orientation=""&gt;{1,1}&lt;/pc:MusicRegion&gt;
+  &lt;pc:AdvertRegion bgColour="" comments="" continuation="" custom="" id="" orientation=""&gt;{1,1}&lt;/pc:AdvertRegion&gt;
+  &lt;pc:NoiseRegion comments="" continuation="" custom="" id=""&gt;{1,1}&lt;/pc:NoiseRegion&gt;
+  &lt;pc:UnknownRegion comments="" continuation="" custom="" id=""&gt;{1,1}&lt;/pc:UnknownRegion&gt;
+  &lt;pc:CustomRegion comments="" continuation="" custom="" id="" type=""&gt;{1,1}&lt;/pc:CustomRegion&gt;
+&lt;/pc:Page&gt;</codeblock>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Attributes</entry>
+                     <entry>
+                        <p>
+                           <table frame="all" rowsep="1" colsep="1">
+                              <tgroup cols="3">
+                                 <colspec colnum="1" colname="col1" align="left" colwidth="3*"/>
+                                 <colspec colnum="2" colname="col2" align="left" colwidth="3*"/>
+                                 <colspec colnum="3" colname="col3" align="left" colwidth="1*"/>
+                                 <thead>
+                                    <row>
+                                       <entry>QName</entry>
+                                       <entry>Type</entry>
+                                       <entry>Use</entry>
+                                    </row>
+                                 </thead>
+                                 <tbody>
+                                    <row>
+                                       <entry>
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_conf"/>
+                                       </entry>
+                                       <entry>
+                                          <xref href="pagecontent_xsd_Simple_Type_pc_ConfSimpleType.dita#ConfSimpleType"/>
+                                       </entry>
+                                       <entry>optional</entry>
+                                    </row>
+                                    <row>
+                                       <entry namest="col1" nameend="col3">
+                                          <codeblock outputclass="language-xml">Confidence value for whole page (between 0 and 1)</codeblock>
+                                       </entry>
+                                    </row>
+                                    <row>
+                                       <entry>
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_custom"/>
+                                       </entry>
+                                       <entry>string</entry>
+                                       <entry>optional</entry>
+                                    </row>
+                                    <row>
+                                       <entry namest="col1" nameend="col3">
+                                          <codeblock outputclass="language-xml">For generic use</codeblock>
+                                       </entry>
+                                    </row>
+                                    <row>
+                                       <entry>
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_imageFilename"/>
+                                       </entry>
+                                       <entry>string</entry>
+                                       <entry>required</entry>
+                                    </row>
+                                    <row>
+                                       <entry namest="col1" nameend="col3">
+                                          <codeblock outputclass="language-xml">Contains the image file name including the file extension.</codeblock>
+                                       </entry>
+                                    </row>
+                                    <row>
+                                       <entry>
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_imageHeight"/>
+                                       </entry>
+                                       <entry>int</entry>
+                                       <entry>required</entry>
+                                    </row>
+                                    <row>
+                                       <entry namest="col1" nameend="col3">
+                                          <codeblock outputclass="language-xml">Specifies the height of the image.</codeblock>
+                                       </entry>
+                                    </row>
+                                    <row>
+                                       <entry>
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_imageResolutionUnit"/>
+                                       </entry>
+                                       <entry>restriction of string</entry>
+                                       <entry>optional</entry>
+                                    </row>
+                                    <row>
+                                       <entry namest="col1" nameend="col3">
+                                          <codeblock outputclass="language-xml">Specifies the unit of the resolution information
+referring to a standardised unit of measurement (pixels per inch, pixels per centimeter or other).</codeblock>
+                                       </entry>
+                                    </row>
+                                    <row>
+                                       <entry>
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_imageWidth"/>
+                                       </entry>
+                                       <entry>int</entry>
+                                       <entry>required</entry>
+                                    </row>
+                                    <row>
+                                       <entry namest="col1" nameend="col3">
+                                          <codeblock outputclass="language-xml">Specifies the width of the image.</codeblock>
+                                       </entry>
+                                    </row>
+                                    <row>
+                                       <entry>
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_imageXResolution"/>
+                                       </entry>
+                                       <entry>float</entry>
+                                       <entry>optional</entry>
+                                    </row>
+                                    <row>
+                                       <entry namest="col1" nameend="col3">
+                                          <codeblock outputclass="language-xml">Specifies the image resolution in width.</codeblock>
+                                       </entry>
+                                    </row>
+                                    <row>
+                                       <entry>
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_imageYResolution"/>
+                                       </entry>
+                                       <entry>float</entry>
+                                       <entry>optional</entry>
+                                    </row>
+                                    <row>
+                                       <entry namest="col1" nameend="col3">
+                                          <codeblock outputclass="language-xml">Specifies the image resolution in height.</codeblock>
+                                       </entry>
+                                    </row>
+                                    <row>
+                                       <entry>
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_primaryLanguage"/>
+                                       </entry>
+                                       <entry>
+                                          <xref href="pagecontent_xsd_Simple_Type_pc_LanguageSimpleType.dita#LanguageSimpleType"/>
+                                       </entry>
+                                       <entry>optional</entry>
+                                    </row>
+                                    <row>
+                                       <entry namest="col1" nameend="col3">
+                                          <codeblock outputclass="language-xml">The primary language used in the page (lower-level definitions override the page-level definition)</codeblock>
+                                       </entry>
+                                    </row>
+                                    <row>
+                                       <entry>
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_primaryScript"/>
+                                       </entry>
+                                       <entry>
+                                          <xref href="pagecontent_xsd_Simple_Type_pc_ScriptSimpleType.dita#ScriptSimpleType"/>
+                                       </entry>
+                                       <entry>optional</entry>
+                                    </row>
+                                    <row>
+                                       <entry namest="col1" nameend="col3">
+                                          <codeblock outputclass="language-xml">The primary script used in the page (lower-level definitions override the page-level definition)</codeblock>
+                                       </entry>
+                                    </row>
+                                    <row>
+                                       <entry>
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_readingDirection"/>
+                                       </entry>
+                                       <entry>
+                                          <xref href="pagecontent_xsd_Simple_Type_pc_ReadingDirectionSimpleType.dita#ReadingDirectionSimpleType"/>
+                                       </entry>
+                                       <entry>optional</entry>
+                                    </row>
+                                    <row>
+                                       <entry namest="col1" nameend="col3">
+                                          <codeblock outputclass="language-xml">The direction in which text in a region should be
+read (within lines) (lower-level definitions override the page-level definition)</codeblock>
+                                       </entry>
+                                    </row>
+                                    <row>
+                                       <entry>
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_secondaryLanguage"/>
+                                       </entry>
+                                       <entry>
+                                          <xref href="pagecontent_xsd_Simple_Type_pc_LanguageSimpleType.dita#LanguageSimpleType"/>
+                                       </entry>
+                                       <entry>optional</entry>
+                                    </row>
+                                    <row>
+                                       <entry namest="col1" nameend="col3">
+                                          <codeblock outputclass="language-xml">The secondary language used in the page (lower-level definitions override the page-level definition)</codeblock>
+                                       </entry>
+                                    </row>
+                                    <row>
+                                       <entry>
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_secondaryScript"/>
+                                       </entry>
+                                       <entry>
+                                          <xref href="pagecontent_xsd_Simple_Type_pc_ScriptSimpleType.dita#ScriptSimpleType"/>
+                                       </entry>
+                                       <entry>optional</entry>
+                                    </row>
+                                    <row>
+                                       <entry namest="col1" nameend="col3">
+                                          <codeblock outputclass="language-xml">The secondary script used in the page (lower-level definitions override the page-level definition)</codeblock>
+                                       </entry>
+                                    </row>
+                                    <row>
+                                       <entry>
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_textLineOrder"/>
+                                       </entry>
+                                       <entry>
+                                          <xref href="pagecontent_xsd_Simple_Type_pc_TextLineOrderSimpleType.dita#TextLineOrderSimpleType"/>
+                                       </entry>
+                                       <entry>optional</entry>
+                                    </row>
+                                    <row>
+                                       <entry namest="col1" nameend="col3">
+                                          <codeblock outputclass="language-xml">Inner-block order of text lines (in addition to “readingDirection” which is the inner-text line order of words and characters) (lower-level definitions override the page-level definition)</codeblock>
+                                       </entry>
+                                    </row>
+                                    <row>
+                                       <entry>
+                                          <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_type"/>
+                                       </entry>
+                                       <entry>
+                                          <xref href="pagecontent_xsd_Simple_Type_pc_PageTypeSimpleType.dita#PageTypeSimpleType"/>
+                                       </entry>
+                                       <entry>optional</entry>
+                                    </row>
+                                    <row>
+                                       <entry namest="col1" nameend="col3">
+                                          <codeblock outputclass="language-xml">Page type</codeblock>
+                                       </entry>
+                                    </row>
+                                 </tbody>
+                              </tgroup>
+                           </table>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Source</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">&lt;element name="Page" type="pc:PageType"/&gt;</codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </body>
+   </topic>
+</topic>

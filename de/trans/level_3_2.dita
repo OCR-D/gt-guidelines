@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="level_3_2">
+    <title>Level 3</title>
+    <body>
+        <p>Umlaute werden entsprechend der Vorlage transkribiert, d.&#x202f;h. die Umlaute in den
+heute gebräuchlichen Formen <tt>Ä</tt>, <tt>Ö</tt>, <tt>Ü</tt>, <tt>ä</tt>, <tt>ö</tt>, <tt>ü</tt>
+werden von solchen, die durch ein hochgestelltes <tt>e</tt> über Vokal gekennzeichnet sind,
+unterschieden. Beim hochgestellten e über dem Vokal wird dieses Zeichen durch einen Codepoint
+transkribiert. Für die Kodierung ist zu verwenden, sofern in der jeweiligen Kodetabelle ein
+spezifischer Codepoint vorhanden ist die standardisierte Kodierung (Unicode) oder die Community
+normierte Kodierung wie <xref href="http://folk.uib.no/hnooh/mufi/" format="html" scope="external"
+>MUFI</xref> oder die in Abstimmung mit dem OCR-D-Koordinierungsgremium genutzte
+OCR-D-Code-Definition in Nachnutzung gemeinsam getroffener Vereinbarungen internationaler
+Großprojekte wie IMPACT, EEBO, ECCO. Die Unicode-Kodierung ist den anderen Kodierungen
+vorzuziehen.</p>
+<p>
+<simpletable frame="all" relcolwidth="1* 1*" id="simpletable_etj_rhq_mbb">
+<sthead>
+<stentry>Beispiel</stentry>
+<stentry>Kodierung</stentry>
+</sthead>
+<strow>
+<stentry><image href="images/E42C.png" id="image_ljb_3jq_mbb"/></stentry>
+<stentry>&amp;#E42C;</stentry>
+</strow>
+<strow>
+<stentry><image href="images/E644.png" id="image_g1n_mjq_mbb"/></stentry>
+<stentry>&amp;#E644;</stentry>
+</strow>
+<strow>
+<stentry><image href="images/E72B.png" id="image_g1n_mjq_mbx"/></stentry>
+<stentry>&amp;#E72B;</stentry>
+</strow>
+</simpletable>
+</p>
+    </body>
+</topic>

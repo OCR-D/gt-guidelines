@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="lyRelation"><title>Verknüpfungen</title>
+  <body>
+    <p>Um die Beziehung zwischen zusammenhängenden Regionen zu dokumentieren, ist das Element
+        <codeph>&lt;Relations></codeph> zu verwenden. Nach der Festlegung der
+        <codeph>&lt;ReadingOrder></codeph> muss mit dem Element <codeph>&lt;Relations></codeph> die
+      Beziehung zwischen den Elementen und Regionen dargestellt werden. Vorallem bei der
+      Dokumentation der Beziehung einer Initalie zum folgenden Paragraphen wird das Element
+        <codeph>&lt;Relations></codeph> verwendet.</p>
+    <p>Folgende Beziehungen sind zu dokumentieren. Dabei ist zwischen einem <codeph>join</codeph>
+      und einem <codeph>link</codeph> zu unterscheiden.</p>
+    <ol id="ol_hg1_54m_5fb">
+      <li>Verwendung von <codeph>join</codeph><ul>
+        <li>bei <codeph>&lt;Word&gt;</codeph> und <codeph>&lt;<codeph>Word</codeph>&gt;</codeph>
+            <p importance="high">Dies trifft zu, wenn ein Wort am Ende der Zeile getrennt und auf
+              der darauffolgenden Zeile fortgesetzt wird.</p></li>
+        <li>bei <codeph><codeph>&lt;textRegion type="drop-cap"></codeph></codeph> und
+                <codeph><codeph>&lt;textRegion type="paragraph"></codeph></codeph>
+            <p importance="high">Dies trifft zu, wenn die Initialie nur ein Zeichen oder Buchstaben
+              und kein ganzes Wort umfassen.</p></li>
+        <li> bei <codeph><codeph>&lt;textRegion type="paragraph"></codeph></codeph> und
+                <codeph><codeph>&lt;textRegion type="paragraph"></codeph></codeph><p
+              importance="high">Dies trifft zu, wenn der Absatz in Spalten aufgeteilt wurde und das
+              letzte Wort des Paragraphen wird im folgenden Absatz fortgesetzt.</p></li>
+      </ul></li>
+      <li>Verwendung von <codeph>link</codeph><ul>
+        <li>bei <codeph>caption</codeph> und <codeph>image floating</codeph></li>
+        <li>bei <codeph><codeph>&lt;textRegion type="paragraph"></codeph></codeph> und
+                <codeph><codeph>&lt;textRegion type="paragraph"></codeph></codeph>
+            <p importance="high">Dies trifft zu, wenn der Absatz in Spalten aufgeteilt wurde und das
+              letzte Wort des Pragraphen nicht im folgenden Absatz fortgesetzt wird. Es handelt sich
+              dabei um einen fortgesetzten Paragraphen.</p></li>
+        <li>bei <codeph><codeph>&lt;textRegion type="drop-cap"></codeph></codeph> und
+                <codeph><codeph>&lt;textRegion type="paragraph"></codeph></codeph>
+            <p importance="high">Dies trifft zu, wenn die Initalie (drop-cap) ein ganzes Wort
+              umfasst.</p></li>
+      </ul></li>
+    </ol>
+    <example id="relations">
+      <title>Relations</title>
+      <codeblock>&lt;ReadingOrder>
+            &lt;OrderedGroup id="ro_1542737988725" caption="Regions reading order">
+                &lt;RegionRefIndexed index="1" regionRef="TextRegion_1476719248728_212"/>
+                &lt;RegionRefIndexed index="2" regionRef="r_7_1"/>
+                &lt;RegionRefIndexed index="3" regionRef="region_1476719221656_210"/>
+                &lt;RegionRefIndexed index="4" regionRef="region_1476719208569_209"/>
+                &lt;RegionRefIndexed index="5" regionRef="TextRegion_1476719753697_244"/>
+                &lt;RegionRefIndexed index="6" regionRef="r_13_1"/>
+                &lt;RegionRefIndexed index="7" regionRef="r_15_1"/>
+              &lt;/OrderedGroup>
+        &lt;/ReadingOrder>
+        &lt;Relations>
+            &lt;Relation type="join">
+                &lt;RegionRef regionRef="region_1476719208569_209"/>
+                &lt;RegionRef regionRef="TextRegion_1476719753697_244"/>
+            &lt;/Relation>
+ &lt;/Relations></codeblock>
+     <image href="images/lyRelationen.jpg" id="image_pxh_vmf_wfb"/></example>
+   
+   
+  </body>
+  
+  <related-links>
+    <link
+      href="../pagexml_documentation/pagecontent_xsd_Complex_Type_pc_RelationsType.dita"
+      format="dita" />
+    <link href="lyInitiale.dita#lyInitiale_Relation"/>
+  </related-links>
+</topic>
