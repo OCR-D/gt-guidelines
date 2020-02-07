@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="structur_gtpageformat">
+    <title>Übersicht und Konkordanz</title>
+
+<shortdesc>Die Übersicht und Konkordanz stellt im Vergleich Kodierungen von Zonen und Regionen im
+    DTA Zot-Format, DTABf (TEI) und dem PAGE-Format dar.</shortdesc>
+    <body>
+      <p>Die Übersicht und Konkordanz stellt im Vergleich Kodierungen von Zonen und Regionen im
+        DTA Zot-Format, DTABf (TEI) und dem PAGE-Format dar. Der Verweis auf Elemente im DTABf und PAGE
+        bezieht sich nur auf grundlegende Elemente und nicht deren Kontext. Aus diesem Grund sei auf die
+        Dokumentationen des DTABf und PAGE hingewiesen.</p>
+        <table frame="all" rowsep="1" colsep="1" id="table_wws_hhn_ldb">
+        <title>Übersicht und Konkordanz von Kodierungen</title>
+<tgroup cols="7">
+<colspec colname="c1" colnum="1" colwidth="1*"/>
+<colspec colname="newCol2" colnum="2" colwidth="1*"/>
+<colspec colname="c2" colnum="3" colwidth="1*"/>
+<colspec colname="c3" colnum="4" colwidth="1*"/>
+<colspec colname="newCol4" colnum="5" colwidth="1*"/>
+<colspec colname="c4" colnum="6" colwidth="1*"/>
+<colspec colname="c5" colnum="7" colwidth="1*"/>
+<thead>
+<row>
+<entry morerows="1" namest="c1" nameend="newCol2">Deutsches Textarchiv Zot-Format</entry>
+<entry morerows="1">DTABf (TEI)</entry>
+<entry namest="c3" nameend="c5">PAGE-Format</entry>
+</row>
+<row>
+<entry>Page <codeblock>type="{Wert}"</codeblock></entry>
+<entry>spez. Region</entry>
+<entry>TextRegion <codeblock>type="{Wert}"</codeblock></entry>
+<entry>TextRegion <codeblock>custom="ocr-d-structure {type:Wert;}"</codeblock></entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>Text (Paragraph)</entry>
+<entry>10</entry>
+<entry>
+<pre>&lt;p>&lt;/p></pre>
+</entry>
+<entry/>
+<entry/>
+<entry>paragraph</entry>
+<entry/>
+</row>
+<row>
+<entry>Gedicht</entry>
+<entry>11</entry>
+<entry>
+<pre>&lt;lg type="poem"></pre>
+</entry>
+<entry/>
+<entry/>
+<entry>paragraph</entry>
+<entry>poem</entry>
+</row>
+<row>
+<entry>Überschrift D1</entry>
+<entry>20</entry>
+<entry>
+<pre>&lt;div n="1">&lt;head></pre>
+</entry>
+<entry/>
+<entry/>
+<entry>heading</entry>
+<entry>heading_level1</entry>
+</row>
+<row>
+<entry>Überschrift D2</entry>
+<entry>21</entry>
+<entry>
+<pre>&lt;div n="2">&lt;head></pre>
+</entry>
+<entry/>
+<entry/>
+<entry>heading</entry>
+<entry>heading_level2</entry>
+</row>
+<row>
+<entry>Überschrift D3</entry>
+<entry>22</entry>
+<entry>
+<pre>&lt;div n="3">&lt;head></pre>
+</entry>
+<entry/>
+<entry/>
+<entry>heading</entry>
+<entry>heading_level3</entry>
+</row>
+<row>
+<entry>Überschrift D4</entry>
+<entry>23</entry>
+<entry>
+<pre>&lt;div n="4">&lt;head></pre>
+</entry>
+<entry/>
+<entry/>
+<entry>heading</entry>
+<entry>heading_level4</entry>
+</row>
+<row>
+<entry>Überschrift D5</entry>
+<entry>24</entry>
+<entry>
+<pre>&lt;div n="5">&lt;head></pre>
+</entry>
+<entry/>
+<entry/>
+<entry>heading</entry>
+<entry>heading_level5</entry>
+</row>
+<row>
+<entry>Überschrift D6</entry>
+<entry>25</entry>
+<entry>
+<pre>&lt;div n="6">&lt;head></pre>
+</entry>
+<entry/>
+<entry/>
+<entry>heading</entry>
+<entry>heading_level6</entry>
+</row>
+<row>
+<entry>Überschrift D7</entry>
+<entry>26</entry>
+<entry>
+<pre>&lt;div n="7">&lt;head></pre>
+</entry>
+<entry/>
+<entry/>
+<entry>heading</entry>
+<entry>heading_level7</entry>
+</row>
+<row>
+<entry>Spalte</entry>
+<entry>30</entry>
+<entry>
+<pre>&lt;cb></pre>
+</entry>
+<entry/>
+<entry/>
+<entry>paragraph</entry>
+<entry>column</entry>
+</row>
+<row>
+<entry>Bildunterschrift</entry>
+<entry>31</entry>
+<entry>
+<pre>&lt;figure>&lt;head></pre>
+</entry>
+<entry/>
+<entry/>
+<entry>paragraph</entry>
+<entry/>
+</row>
+<row>
+<entry>Bühnenanweisung</entry>
+<entry>32</entry>
+<entry>
+<pre>&lt;stage></pre>
+</entry>
+<entry/>
+<entry/>
+<entry>paragraph</entry>
+<entry>stage</entry>
+</row>
+<row>
+<entry>Liste</entry>
+<entry>33</entry>
+<entry>
+<pre>&lt;list>&lt;item></pre>
+</entry>
+<entry/>
+<entry/>
+<entry>paragraph</entry>
+<entry>list_item</entry>
+</row>
+<row>
+<entry>Inhaltsverzeichnis</entry>
+<entry/>
+<entry><pre>&lt;div type="contents"></pre>… <pre>&lt;list>&lt;item></pre></entry>
+<entry>table-of-contents</entry>
+<entry/>
+<entry>paragraph</entry>
+<entry/>
+</row>
+<row>
+<entry>Front</entry>
+<entry>35</entry>
+<entry>
+<pre>&lt;front></pre>
+</entry>
+<entry>title</entry>
+<entry/>
+<entry>other</entry>
+<entry/>
+</row>
+<row>
+<entry>Back</entry>
+<entry>36</entry>
+<entry>
+<pre>&lt;back></pre>
+</entry>
+<entry/>
+<entry/>
+<entry>other</entry>
+<entry>back_paragraph</entry>
+</row>
+<row>
+<entry>Seitennummer</entry>
+<entry>40</entry>
+<entry>
+<pre>&lt;pb facs="#f[Bildnummer]"n="[Seitenzahl]"/></pre>
+</entry>
+<entry/>
+<entry/>
+<entry>page-number</entry>
+<entry/>
+</row>
+<row>
+<entry>Figurenaufstellung</entry>
+<entry>41</entry>
+<entry>
+<pre>&lt;castList>&lt;castItem></pre>
+</entry>
+<entry/>
+<entry/>
+<entry>paragraph</entry>
+<entry>castlist</entry>
+</row>
+<row>
+<entry>abschließender Gruß (Brief)</entry>
+<entry>42</entry>
+<entry><pre>&lt;closer></pre></entry>
+<entry/>
+<entry/>
+<entry>other</entry>
+<entry>closer</entry>
+</row>
+<row>
+<entry>Gedichttitel</entry>
+<entry>43</entry>
+<entry><pre>&lt;lg type="poem">&lt;head></pre> oder <pre>&lt;div type="poem">&lt;head></pre> </entry>
+<entry/>
+<entry/>
+<entry>paragraph</entry>
+<entry>poem_heading</entry>
+</row>
+<row>
+<entry>Strophe eines Gedicht</entry>
+<entry>44</entry>
+<entry>
+<pre>&lt;lg n="[Strophennummer]"></pre>
+</entry>
+<entry/>
+<entry/>
+<entry>paragraph</entry>
+<entry>poem_lg</entry>
+</row>
+<row>
+<entry>Anrede (Brief)</entry>
+<entry>45</entry>
+<entry>
+<pre>&lt;opener>&lt;salute></pre>
+</entry>
+<entry/>
+<entry/>
+<entry>other</entry>
+<entry>salute</entry>
+</row>
+<row>
+<entry>Sprecher im Drama</entry>
+<entry>46</entry>
+<entry>
+<pre>&lt;speaker></pre>
+</entry>
+<entry/>
+<entry/>
+<entry>other</entry>
+<entry>speaker</entry>
+</row>
+<row>
+<entry>Zitat</entry>
+<entry>47</entry>
+<entry><pre>&lt;quote></pre> oder
+<pre>&lt;cit>
+  &lt;quote>[Zitattext]&lt;/quote>
+  &lt;bibl>[Urheber des Zitats]&lt;/bibl>
+&lt;/cit></pre> </entry>
+<entry/>
+<entry/>
+<entry>paragraph</entry>
+<entry>cit</entry>
+</row>
+<row>
+<entry>Bogensignatur</entry>
+<entry>50</entry>
+<entry>
+<pre>&lt;fw type="sig" place="bottom">[Bogensignatur]&lt;/fw></pre>
+</entry>
+<entry/>
+<entry/>
+<entry>signature-mark</entry>
+<entry/>
+</row>
+<row>
+<entry>Kolumnentitel</entry>
+<entry>60</entry>
+<entry>
+<pre>&lt;fw type="header" place="top">[Kolumnentitel]&lt;/fw></pre>
+</entry>
+<entry/>
+<entry/>
+<entry>header</entry>
+<entry/>
+</row>
+<row>
+<entry>Widmung</entry>
+<entry>61</entry>
+<entry>
+<pre>&lt;div type="dedication">&lt;p>[Widmungstext]&lt;/p>&lt;/div></pre>
+</entry>
+<entry/>
+<entry/>
+<entry>paragraph</entry>
+<entry>ded</entry>
+</row>
+<row>
+<entry>Überschift ohne Hierarchie</entry>
+<entry>62</entry>
+<entry>
+<pre>&lt;div>&lt;head>[Titel]&lt;/head>&lt;/div></pre>
+</entry>
+<entry/>
+<entry/>
+<entry>heading</entry>
+<entry/>
+</row>
+<row>
+<entry>Kapitelzusammenfassung</entry>
+<entry>63</entry>
+<entry>
+<pre>&lt;argument>
+  &lt;p>[Inhaltszusammenfassung Fließtext]&lt;/p>
+&lt;/argument></pre>
+</entry>
+<entry/>
+<entry/>
+<entry>paragraph</entry>
+<entry>arg</entry>
+</row>
+<row>
+<entry>Briefdatum</entry>
+<entry>64</entry>
+<entry>
+<pre>&lt;opener>&lt;dateline></pre> oder <pre>&lt;closer>&lt;dateline></pre>
+</entry>
+<entry/>
+<entry/>
+<entry>paragraph</entry>
+<entry/>
+</row>
+<row>
+<entry>Fußnote</entry>
+<entry>70</entry>
+<entry>
+<pre>&lt;note place="foot"n="[Fußnotenreferenz]">
+  [Fußnotentext]
+&lt;/note></pre>
+</entry>
+<entry/>
+<entry/>
+<entry>footnote</entry>
+<entry/>
+</row>
+<row>
+<entry>fortlaufende Fußnote</entry>
+<entry>71</entry>
+<entry>
+<pre>&lt;note place="foot" 
+  n="[Fußnotenreferenz]"
+  xml:id="[ID 01]"next="#[ID 02]">
+  [Fußnotentext]
+&lt;/note></pre>
+</entry>
+<entry/>
+<entry/>
+<entry>footnote-continued</entry>
+<entry/>
+</row>
+<row>
+<entry>Endnote</entry>
+<entry>80</entry>
+<entry>
+<pre>&lt;note place="end"
+  n="[Endnotenreferenz]"
+  xml:id="[ID 02]"prev="#[ID 01]">
+  [Endnotentext]
+&lt;/note></pre>
+</entry>
+<entry/>
+<entry/>
+<entry>endnote</entry>
+<entry/>
+</row>
+<row>
+<entry>Kustode</entry>
+<entry>90</entry>
+<entry>
+<pre>&lt;fw type="catch" place="bottom">[Kustode]&lt;/fw></pre>
+</entry>
+<entry/>
+<entry/>
+<entry>catch-word</entry>
+<entry/>
+</row>
+<row>
+<entry>Marginalie links</entry>
+<entry>91</entry>
+<entry>
+<pre>&lt;note place="left">
+  [links vom Text stehende Marginalien]
+&lt;/note></pre>
+</entry>
+<entry/>
+<entry/>
+<entry>marginalia</entry>
+<entry>margi_left</entry>
+</row>
+<row>
+<entry>Marginalie rechts</entry>
+<entry>92</entry>
+<entry>
+<pre>&lt;note place="right">
+  [rechts vom Text stehende Marginalien]
+&lt;/note></pre>
+</entry>
+<entry/>
+<entry/>
+<entry>marginalia</entry>
+<entry>margi_right</entry>
+</row>
+<row>
+<entry>Tabelle</entry>
+<entry>120</entry>
+<entry>
+<pre>&lt;table>
+  &lt;head>[ggf. Titel der Tabelle]&lt;/head>
+&lt;row>&lt;cell></pre>
+</entry>
+<entry/>
+<entry>TableRegion</entry>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry>Auflistung</entry>
+<entry>130</entry>
+<entry>
+<pre>&lt;list>&lt;item></pre>
+</entry>
+<entry/>
+<entry/>
+<entry>paragraph</entry>
+<entry>list</entry>
+</row>
+<row>
+<entry>math. Formel</entry>
+<entry>140</entry>
+<entry>
+<pre>&lt;formula></pre>
+</entry>
+<entry/>
+<entry>MathsRegion</entry>
+<entry/>
+<entry>formel</entry>
+</row>
+<row>
+<entry>horz. Linie</entry>
+<entry>150</entry>
+<entry>
+<pre>&lt;milestone unit="section" rendition="#hr"/></pre>
+</entry>
+<entry/>
+<entry>SeparatorRegion</entry>
+<entry/>
+<entry/>
+</row>
+<row>
+<entry>SpezialText</entry>
+<entry>333</entry>
+<entry>
+<pre>&lt;p>&lt;/p></pre>
+</entry>
+<entry/>
+<entry/>
+<entry>paragraph</entry>
+<entry/>
+</row>
+<row>
+<entry>Spezial Bild</entry>
+<entry>444</entry>
+<entry><pre>&lt;figure></pre></entry>
+<entry/>
+<entry>GraphicRegion</entry>
+<entry/>
+<entry/>
+</row>
+</tbody>
+</tgroup>
+</table>
+    </body>
+<related-links>
+<link  href="http://www.deutschestextarchiv.de/doku/basisformat/" format="html" scope="external"><linktext>Dokumentation zum
+DTA-Basisformat</linktext></link>
+</related-links>
+</topic>

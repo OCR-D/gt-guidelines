@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="lyTabellen">
+    <title>Tabellen (TableRegion)</title>
+    <body>
+<p>Tabellen sind graphisch strukturierte Informationen, die in Spalten und Zeilen angeordnet wurden.
+Diese Anordnung kann durch Linien gekennzeichnet sein, jedoch ganz häufig fehlen diese Linien. In
+diesen Fällen wird die Trennung der Inhalte durch spezielle Tabs und Abstände kenntlich gemacht.
+Darüber hinaus gibt es viele Spielarten von Tabellen, die hier nicht beschrieben werden können.</p>
+<p>Wesentlich ist zunächst die Auszeichnung all dieser Zahlen oder Text enthaltenden Regionen als
+TableRegion. In Fällen einfach strukturierter Tabellen (wie eingangs beschrieben) sind folgende
+Informationen für die Tabelle zu erfassen (Anzahl Spalten, Anzahl Zeilen). Die Zelleninhalte selbst
+sind zeilenweise als TextRegion/paragraph durch Tabs getrennt zu erfassen.</p>
+<p>Inhalte unübersichtlicher Tabellen, die sich dem einfachen Schema entziehen, werden nicht
+erfasst. In diesen Fällen wird lediglich die TableRegion gekennzeichnet. </p>
+<p/>
+<p>Attribute pc:TableRegionType /@columns</p>
+<p>Attribute pc:TableRegionType /@rows</p>
+<p><image href="images/lyTabellen1.png" id="image_jb5_lnw_t1b" scale="50"/></p>
+<p><image href="images/lyTabellen2.png" id="image_yqq_mnw_t1b" scale="50"/></p>
+<p><image href="images/lyTabellen3.png" id="image_o14_nnw_t1b" scale="50"/></p>
+    </body>
+<related-links>
+<link
+href="../pagexml_documentation/pagecontent_xsd_Complex_Type_pc_TableRegionType.dita#TableRegionType" format="dita"
+/>
+</related-links>
+</topic>

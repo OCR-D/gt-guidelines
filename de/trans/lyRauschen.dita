@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="lyRauschen">
+<title>Schäden, Schmutz, Verfärbungen, Rauschen (NoiseRegion)</title>
+    <body>
+    <p>Schäden, Schmutz, Verfärbungen, Artefakte die durch verschiedene Faktoren (Beleuchtung,
+Spiegelungen, Scannen) hervorgerufen werden, sind mit der <tt>NoiseRegion</tt> zu kennzeichnen. Mit
+der Kennzeichnung dieser Regionen werden diese beim Trainingsprozess nicht für die Texterkennung
+genutzt.</p>
+<p><image href="images/lyRauschen.png" id="image_a52_t5r_51b"/></p>
+    <fig>
+<title>Beispiel für Brandschäden und partielle Übergangsschäden</title>
+<desc>Joan Blaeu [Public domain],<xref
+href="https://commons.wikimedia.org/wiki/File%3APartially_burned_Rerum_per_Octennium_in_Brasila.jpg"
+format="jpg" scope="external">via Wikimedia Commons</xref></desc>
+<image href="images/lyRauschen2.png" id="image_rl3_sxr_51b" scale="50"/>
+</fig>
+    </body>
+<related-links>
+<link href="../pagexml_documentation/pagecontent_xsd_Complex_Type_pc_NoiseRegionType.dita" format="dita"/>
+</related-links>
+</topic>

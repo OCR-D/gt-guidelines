@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="trRom">
+    <title>Römische Zahlen</title>
+    <body>
+<p>Große Römische Zahlen werden mit den lateinischen Großbuchstaben I (1), V (5), X (10), L (50), C
+(100), D (500) und M (1000) gebildet und so wiedergegeben.</p>
+<p>Kleine römische Zahlen werden mit den kleinen lateinischen Buchstaben gebildet.</p>
+<p><b>Sonderformen</b></p>
+<p>Folgende römische Zahlen werden ebenfalls mit lateinischen Großbuchstaben oder kleinen
+lateinischen Buchstaben und <b>Unicode Hexadezimal-Entität</b> transkribiert.</p>
+    <fig><title>Beispiel Angabe einer Jahreszahl 1647</title><image placement="inline" align="right"
+href="images/trRom1.png"
+height="23" width="155" id="image_j5c_vq3_b1b" ></image></fig>
+<p>
+<table frame="all" rowsep="1" colsep="1" id="table_mfp_dnd_b1b">
+<tgroup cols="4">
+<colspec colname="newCol3" colnum="1" colwidth="1*"/>
+<colspec colname="c1" colnum="2" colwidth="1*"/>
+<colspec colname="newCol2" colnum="3" colwidth="1*"/>
+<colspec colname="c2" colnum="4" colwidth="1*"/>
+<tbody>
+<row>
+<entry/>
+<entry>cIↄ</entry>
+<entry>cI&amp;#x2184;</entry>
+<entry>1000</entry>
+</row>
+<row>
+<entry/>
+<entry>Iↄ</entry>
+<entry>I&amp;#x2184;</entry>
+<entry>500</entry>
+</row>
+<row>
+<entry/>
+<entry>c</entry>
+<entry>c</entry>
+<entry>100</entry>
+</row>
+<row>
+<entry/>
+<entry>ↄ </entry>
+<entry>&amp;#x2184;</entry>
+<entry>100</entry>
+</row>
+<row>
+<entry namest="newCol3" nameend="c2"><b>weitere Formen</b></entry>
+</row>
+<row>
+<entry/>
+<entry>ↁ </entry>
+<entry>&amp;#x2181;</entry>
+<entry>5000</entry>
+</row>
+<row>
+<entry/>
+<entry>ↂ</entry>
+<entry>&amp;#x2182;</entry>
+<entry>10.000</entry>
+</row>
+<row>
+<entry/>
+<entry>ↇ</entry>
+<entry>&amp;#x2187;</entry>
+<entry>50.000</entry>
+</row>
+<row>
+<entry/>
+<entry>ↈ</entry>
+<entry>&amp;#x2188;</entry>
+<entry>100.000</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</p>
+</body>
+</topic>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="lyFußnote">
+    <title>Fußnote (footnote / footnote-continued / endnote)</title>
+    <body>
+        <p>Fußnoten erscheinen im unteren Seitenbereich des Satzspiegels (zuweilen auch außerhalb).
+            Zumeist bilden sie die letzte gedruckte Passage auf der Seite. Nur Bogensignaturen
+            werden üblicherweise noch darunter aufgeführt. Fußnoten sind häufig gezählt und werden
+            in den meisten Fällen mit einer Nummer eingeleitet, können aber auch ungezählt
+            erscheinen; sie enden in der Regel mit einem Punkt. Manchmal leiten Separatoren den
+            Fußnotenbereich ein. Fußnoten beziehen sich immer auf Referenzen der betreffenden Seite
+            und sind von Endnoten, die sich auf ganze Abschnitte beziehen, zu unterscheiden. Eine
+            Fußnote kann einen Absatz oder mehrere Absätze (paragraphen) umfassen. Die Absätze sind
+            ebenfalls als diese zu erfassen.</p>
+        <p>Lange Fußnotentexte können sich über mehrere Seiten erstrecken. In diesem Fall sind diese
+            Fußnoten als fortlaufende Fußnote auszuzeichnen.</p>
+        <fig id="fig_vmq_pfj_r1b">
+            <title>Beispiel: Einfache Fußnoten ohne Referenzzeichen (unnummeriert)</title>
+            <image href="images/lyFussnote1.png" height="697" width="605" id="image_xr4_2fj_r1b"
+                scale="50"/>
+        </fig>
+        <fig id="fig_clw_tfj_r1b">
+            <title>Beispiel: mehrere einfache Fußnoten (nummeriert), eingeleitet mit einer
+                Seperatorlinie</title>
+            <image href="images/lyFussnote2.png" height="382" width="605" id="image_yr4_2fj_r1b"
+                scale="50"/>
+        </fig>
+        <fig id="fig_vlm_yfj_r1b">
+            <title>Beispiel: fortlaufende Fußnote</title>
+            <image href="images/lyFussnote3.png" height="281" width="678" id="image_zr4_2fj_r1b"
+                scale="50"/>
+        </fig>
+        <fig id="fig_vlm_yfj_r1b2">
+            <title>Beispiel: fortgesetzte Fußnote mit mehreren Paragraphen</title>
+            <image href="images/lyFussnote.jpg" id="image_wnj_nzn_3jb" scale="50"/>
+        </fig>
+        <fig id="fig_vlm_yfj_r1b3">
+            <title>Beispiel: Fußnote mit einem Paragraphen</title>
+            <image href="images/lyFussnote4.jpg" id="image_cwv_114_3jb" scale="50"/>
+        </fig>
+        
+    </body>
+<related-links>
+<link href="lySeparatoren.dita#lySeparatoren"/>
+<link href="../pagexml_documentation/pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType" format="dita"/>
+<link
+href="../pagexml_documentation/pagecontent_xsd_Simple_Type_pc_TextTypeSimpleType.dita#TextTypeSimpleType" format="dita"
+/>
+</related-links>
+</topic>
