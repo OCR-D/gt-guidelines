@@ -1,9 +1,21 @@
 # Steps
 
-1. Install DITA Open Toolkit (see https://www.dita-ot.org/)
-1. Produce the HTML5 output as follow:
+1. Download the DITA Open Toolkit (see https://www.dita-ot.org/)
+2. Install the DITA Open Toolkit into the documentation on the same level as the directories ``en`` and ``de``.
+3. Use the Makefile for produce the HTML output. (You must change the rights for the program **dita** maybe. For UNIX systems: ``chmod +x dita``.)
 
-# HTML 5 output
+# HTML 5 output for English
+```
+make build
+```
+
+# HTML 5 output for German
+```
+make LANG=de build
+```
+
+
+# HTML 5 output without makefile
 ```
 dita --input=ocrd_ocrd.ditamap \
      --format=html5 \
