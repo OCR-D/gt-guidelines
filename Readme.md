@@ -1,9 +1,12 @@
 # Steps
+1. Use the Makefile for download and install the DITA Open Toolkit.
+2. Use the Makefile to produce the HTML output.<br/>
 
-1. Download the DITA Open Toolkit (see https://www.dita-ot.org/)
-2. Install the DITA Open Toolkit into the documentation on the same level as the directories ``en`` and ``de``.
-3. Use the Makefile to produce the HTML output.<br/>
-***Note: You must change the rights for the program **dita** maybe. For UNIX systems: ``chmod +x dita``.***
+
+# Download and install the DITA Open Toolkit 
+```
+make deps
+```
 
 # HTML 5 output for English
 ```
