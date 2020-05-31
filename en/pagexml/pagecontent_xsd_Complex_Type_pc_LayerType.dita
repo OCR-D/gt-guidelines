@@ -11,61 +11,36 @@
             <tbody>
                <row>
                   <entry>Namespace</entry>
-                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
+                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15</entry>
                </row>
                <row>
                   <entry>Diagram</entry>
                   <entry>
                      <p>
-                            
-                                    
-                                    <imagemap id="pagecontent_xsd_Complex_Type_pc_LayerType">
-                                        
-                                        <image href="img/pagecontent_xsd_Complex_Type_pc_LayerType.jpeg"/>
-                                        
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>169,39,252,83</coords>
-                                                
-                                                
-                                                
-                                                        <xref href="#LayerType_id"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>169,93,252,137</coords>
-                                                
-                                                
-                                                
-                                                        <xref href="#LayerType_zIndex"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>169,147,259,191</coords>
-                                                
-                                                
-                                                
-                                                        <xref href="#LayerType_caption"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>226,208,378,252</coords>
-                                                
-                                                
-                                                
-                                                        <xref href="#LayerType_RegionRef"/>
-                                                    
-                                            </area>
-                                        
-                                    </imagemap>
-                        </p>
+                        <imagemap id="pagecontent_xsd_Complex_Type_pc_LayerType">
+                           <image href="img/pagecontent_xsd_Complex_Type_pc_LayerType.jpeg"/>
+                           <area>
+                              <shape>rect</shape>
+                              <coords>338,75,487,161</coords>
+                              <xref href="#LayerType_id"/>
+                           </area>
+                           <area>
+                              <shape>rect</shape>
+                              <coords>338,181,500,267</coords>
+                              <xref href="#LayerType_zIndex"/>
+                           </area>
+                           <area>
+                              <shape>rect</shape>
+                              <coords>338,287,517,373</coords>
+                              <xref href="#LayerType_caption"/>
+                           </area>
+                           <area>
+                              <shape>rect</shape>
+                              <coords>452,407,761,493</coords>
+                              <xref href="#LayerType_RegionRef"/>
+                           </area>
+                        </imagemap>
+                     </p>
                   </entry>
                </row>
                <row>
@@ -379,42 +354,25 @@
                <tbody>
                   <row>
                      <entry>Namespace</entry>
-                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
+                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15</entry>
                   </row>
                   <row>
                      <entry>Diagram</entry>
                      <entry>
                         <p>
-                            
-                                    
-                                    <imagemap id="pagecontent_xsd_Element_pc_RegionRef_2">
-                                        
-                                        <image href="img/pagecontent_xsd_Element_pc_RegionRef_2.jpeg"/>
-                                        
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>208,79,305,123</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_RegionRefType.dita#RegionRefType_regionRef"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>183,3,323,25</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_RegionRefType.dita#RegionRefType"/>
-                                                    
-                                            </area>
-                                        
-                                    </imagemap>
+                           <imagemap id="pagecontent_xsd_Element_pc_RegionRef_2">
+                              <image href="img/pagecontent_xsd_Element_pc_RegionRef_2.jpeg"/>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>421,153,616,239</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_RegionRefType.dita#RegionRefType_regionRef"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>371,6,655,50</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_RegionRefType.dita#RegionRefType"/>
+                              </area>
+                           </imagemap>
                         </p>
                      </entry>
                   </row>

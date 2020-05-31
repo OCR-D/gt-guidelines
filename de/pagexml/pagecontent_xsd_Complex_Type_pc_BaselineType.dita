@@ -11,41 +11,26 @@
             <tbody>
                <row>
                   <entry>Namespace</entry>
-                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
+                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15</entry>
                </row>
                <row>
                   <entry>Diagram</entry>
                   <entry>
                      <p>
-                            
-                                    
-                                    <imagemap id="pagecontent_xsd_Complex_Type_pc_BaselineType">
-                                        
-                                        <image href="img/pagecontent_xsd_Complex_Type_pc_BaselineType.jpeg"/>
-                                        
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>162,39,293,83</coords>
-                                                
-                                                
-                                                
-                                                        <xref href="#BaselineType_points"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>162,93,318,137</coords>
-                                                
-                                                
-                                                
-                                                        <xref href="#BaselineType_conf"/>
-                                                    
-                                            </area>
-                                        
-                                    </imagemap>
-                        </p>
+                        <imagemap id="pagecontent_xsd_Complex_Type_pc_BaselineType">
+                           <image href="img/pagecontent_xsd_Complex_Type_pc_BaselineType.jpeg"/>
+                           <area>
+                              <shape>rect</shape>
+                              <coords>325,75,591,161</coords>
+                              <xref href="#BaselineType_points"/>
+                           </area>
+                           <area>
+                              <shape>rect</shape>
+                              <coords>325,181,643,267</coords>
+                              <xref href="#BaselineType_conf"/>
+                           </area>
+                        </imagemap>
+                     </p>
                   </entry>
                </row>
                <row>
@@ -119,8 +104,9 @@
                   <entry>Source</entry>
                   <entry>
                      <codeblock outputclass="language-xml">&lt;complexType name="BaselineType"&gt;
-  &lt;attribute name="points" type="pc:PointsType" use="required"/&gt;
-  &lt;attribute name="conf" type="pc:ConfSimpleType" use="optional"&gt;
+  &lt;attribute name="points" type="pc:PointsType" use="required"&gt;
+  &lt;/attribute&gt;
+  &lt;attribute name="conf" type="pc:ConfSimpleType"&gt;
     &lt;annotation&gt;
       &lt;documentation&gt;Confidence value (between 0 and 1)&lt;/documentation&gt;
     &lt;/annotation&gt;
@@ -216,7 +202,8 @@
                   <row>
                      <entry>Source</entry>
                      <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="points" type="pc:PointsType" use="required"/&gt;</codeblock>
+                        <codeblock outputclass="language-xml">&lt;attribute name="points" type="pc:PointsType" use="required"&gt;
+&lt;/attribute&gt;</codeblock>
                      </entry>
                   </row>
                </tbody>
@@ -258,9 +245,9 @@
                                  <colspec colwidth="8*" align="left"/>
                                  <tbody>
                                     <row>
-                                       <entry>use: </entry>
+                                       <entry>content: </entry>
                                        <entry>
-                                          <b>optional</b>
+                                          <b>simple</b>
                                        </entry>
                                     </row>
                                  </tbody>
@@ -319,7 +306,7 @@
                   <row>
                      <entry>Source</entry>
                      <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="conf" type="pc:ConfSimpleType" use="optional"&gt;
+                        <codeblock outputclass="language-xml">&lt;attribute name="conf" type="pc:ConfSimpleType"&gt;
   &lt;annotation&gt;
     &lt;documentation&gt;Confidence value (between 0 and 1)&lt;/documentation&gt;
   &lt;/annotation&gt;

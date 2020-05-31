@@ -11,58 +11,38 @@
             <tbody>
                <row>
                   <entry>Namespace</entry>
-                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
+                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15</entry>
                </row>
                <row>
                   <entry>Annotations</entry>
                   <entry>
                      <codeblock outputclass="language-xml">Container for graphemes, grapheme groups and
-non-printing characters</codeblock>
+non-printing characters.</codeblock>
                   </entry>
                </row>
                <row>
                   <entry>Diagram</entry>
                   <entry>
                      <p>
-                            
-                                    
-                                    <imagemap id="pagecontent_xsd_Complex_Type_pc_GraphemesType">
-                                        
-                                        <image href="img/pagecontent_xsd_Complex_Type_pc_GraphemesType.jpeg"/>
-                                        
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>274,0,426,44</coords>
-                                                
-                                                
-                                                
-                                                        <xref href="#GraphemesType_Grapheme"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>274,54,453,98</coords>
-                                                
-                                                
-                                                
-                                                        <xref href="#GraphemesType_NonPrintingChar"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>274,108,456,152</coords>
-                                                
-                                                
-                                                
-                                                        <xref href="#GraphemesType_GraphemeGroup"/>
-                                                    
-                                            </area>
-                                        
-                                    </imagemap>
-                        </p>
+                        <imagemap id="pagecontent_xsd_Complex_Type_pc_GraphemesType">
+                           <image href="img/pagecontent_xsd_Complex_Type_pc_GraphemesType.jpeg"/>
+                           <area>
+                              <shape>rect</shape>
+                              <coords>530,0,836,86</coords>
+                              <xref href="#GraphemesType_Grapheme"/>
+                           </area>
+                           <area>
+                              <shape>rect</shape>
+                              <coords>530,106,893,192</coords>
+                              <xref href="#GraphemesType_NonPrintingChar"/>
+                           </area>
+                           <area>
+                              <shape>rect</shape>
+                              <coords>530,212,896,298</coords>
+                              <xref href="#GraphemesType_GraphemeGroup"/>
+                           </area>
+                        </imagemap>
+                     </p>
                   </entry>
                </row>
                <row>
@@ -103,7 +83,7 @@ non-printing characters</codeblock>
                   <entry>
                      <codeblock outputclass="language-xml">&lt;complexType name="GraphemesType"&gt;
   &lt;annotation&gt;
-    &lt;documentation&gt;Container for graphemes, grapheme groups and non-printing characters&lt;/documentation&gt;
+    &lt;documentation&gt;Container for graphemes, grapheme groups and non-printing characters.&lt;/documentation&gt;
   &lt;/annotation&gt;
   &lt;choice minOccurs="1" maxOccurs="unbounded"&gt;
     &lt;element name="Grapheme" type="pc:GraphemeType"/&gt;
@@ -127,130 +107,65 @@ non-printing characters</codeblock>
                <tbody>
                   <row>
                      <entry>Namespace</entry>
-                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
+                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15</entry>
                   </row>
                   <row>
                      <entry>Diagram</entry>
                      <entry>
                         <p>
-                            
-                                    
-                                    <imagemap id="pagecontent_xsd_Element_pc_Grapheme">
-                                        
-                                        <image href="img/pagecontent_xsd_Element_pc_Grapheme.jpeg"/>
-                                        
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>222,138,305,182</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_id"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>222,192,367,236</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_index"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>222,291,323,335</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_ligature"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>222,345,383,389</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_charType"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>222,444,312,488</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_custom"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>222,529,321,573</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_comments"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>299,621,448,665</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_TextEquiv"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>197,62,447,84</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>265,713,402,757</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeType.dita#GraphemeType_Coords"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>183,3,384,44</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeType.dita#GraphemeType"/>
-                                                    
-                                            </area>
-                                        
-                                    </imagemap>
+                           <imagemap id="pagecontent_xsd_Element_pc_Grapheme">
+                              <image href="img/pagecontent_xsd_Element_pc_Grapheme.jpeg"/>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>446,305,595,391</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_id"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>446,411,738,497</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_index"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>446,619,650,705</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_ligature"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>446,725,768,811</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_charType"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>446,907,625,993</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_custom"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>446,1063,646,1149</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_comments"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>601,1233,902,1319</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_TextEquiv"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>396,121,891,202</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>532,1429,809,1515</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeType.dita#GraphemeType_Coords"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>368,6,772,87</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeType.dita#GraphemeType"/>
+                              </area>
+                           </imagemap>
                         </p>
                      </entry>
                   </row>
@@ -315,7 +230,7 @@ non-printing characters</codeblock>
                   <row>
                      <entry>Instance</entry>
                      <entry>
-                        <codeblock outputclass="language-xml">&lt;pc:Grapheme charType="" comments="" custom="" id="" index="" ligature="" xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15"&gt;
+                        <codeblock outputclass="language-xml">&lt;pc:Grapheme charType="" comments="" custom="" id="" index="" ligature="" xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15"&gt;
   &lt;pc:TextEquiv comments="" conf="" dataType="" dataTypeDetails="" index=""&gt;{0,unbounded}&lt;/pc:TextEquiv&gt;
   &lt;pc:Coords conf="" points=""&gt;{1,1}&lt;/pc:Coords&gt;
 &lt;/pc:Grapheme&gt;</codeblock>
@@ -347,7 +262,8 @@ non-printing characters</codeblock>
                                     </row>
                                     <row>
                                        <entry namest="col1" nameend="col3">
-                                          <codeblock outputclass="language-xml">Type of character represented by the grapheme/group/non-printing character element</codeblock>
+                                          <codeblock outputclass="language-xml">Type of character represented by the
+grapheme, group, or non-printing character element.</codeblock>
                                        </entry>
                                     </row>
                                     <row>
@@ -390,7 +306,8 @@ non-printing characters</codeblock>
                                     </row>
                                     <row>
                                        <entry namest="col1" nameend="col3">
-                                          <codeblock outputclass="language-xml">Order index of grapheme, group, or non-printing character within the parent container (graphemes or glyph or grapheme group)</codeblock>
+                                          <codeblock outputclass="language-xml">Order index of grapheme, group, or non-printing character
+within the parent container (graphemes or glyph or grapheme group).</codeblock>
                                        </entry>
                                     </row>
                                     <row>
@@ -427,119 +344,60 @@ non-printing characters</codeblock>
                <tbody>
                   <row>
                      <entry>Namespace</entry>
-                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
+                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15</entry>
                   </row>
                   <row>
                      <entry>Diagram</entry>
                      <entry>
                         <p>
-                            
-                                    
-                                    <imagemap id="pagecontent_xsd_Element_pc_NonPrintingChar">
-                                        
-                                        <image href="img/pagecontent_xsd_Element_pc_NonPrintingChar.jpeg"/>
-                                        
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>249,138,332,182</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_id"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>249,192,394,236</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_index"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>249,291,350,335</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_ligature"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>249,345,410,389</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_charType"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>249,444,339,488</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_custom"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>249,529,348,573</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_comments"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>326,621,475,665</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_TextEquiv"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>224,62,474,84</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>210,3,411,44</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_NonPrintingCharType.dita#NonPrintingCharType"/>
-                                                    
-                                            </area>
-                                        
-                                    </imagemap>
+                           <imagemap id="pagecontent_xsd_Element_pc_NonPrintingChar">
+                              <image href="img/pagecontent_xsd_Element_pc_NonPrintingChar.jpeg"/>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>503,305,652,391</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_id"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>503,411,795,497</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_index"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>503,619,707,705</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_ligature"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>503,725,825,811</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_charType"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>503,907,682,993</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_custom"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>503,1063,703,1149</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_comments"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>658,1233,959,1319</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_TextEquiv"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>453,121,948,202</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>425,6,829,87</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_NonPrintingCharType.dita#NonPrintingCharType"/>
+                              </area>
+                           </imagemap>
                         </p>
                      </entry>
                   </row>
@@ -604,7 +462,7 @@ non-printing characters</codeblock>
                   <row>
                      <entry>Instance</entry>
                      <entry>
-                        <codeblock outputclass="language-xml">&lt;pc:NonPrintingChar charType="" comments="" custom="" id="" index="" ligature="" xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15"&gt;
+                        <codeblock outputclass="language-xml">&lt;pc:NonPrintingChar charType="" comments="" custom="" id="" index="" ligature="" xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15"&gt;
   &lt;pc:TextEquiv comments="" conf="" dataType="" dataTypeDetails="" index=""&gt;{0,unbounded}&lt;/pc:TextEquiv&gt;
 &lt;/pc:NonPrintingChar&gt;</codeblock>
                      </entry>
@@ -635,7 +493,8 @@ non-printing characters</codeblock>
                                     </row>
                                     <row>
                                        <entry namest="col1" nameend="col3">
-                                          <codeblock outputclass="language-xml">Type of character represented by the grapheme/group/non-printing character element</codeblock>
+                                          <codeblock outputclass="language-xml">Type of character represented by the
+grapheme, group, or non-printing character element.</codeblock>
                                        </entry>
                                     </row>
                                     <row>
@@ -678,7 +537,8 @@ non-printing characters</codeblock>
                                     </row>
                                     <row>
                                        <entry namest="col1" nameend="col3">
-                                          <codeblock outputclass="language-xml">Order index of grapheme, group, or non-printing character within the parent container (graphemes or glyph or grapheme group)</codeblock>
+                                          <codeblock outputclass="language-xml">Order index of grapheme, group, or non-printing character
+within the parent container (graphemes or glyph or grapheme group).</codeblock>
                                        </entry>
                                     </row>
                                     <row>
@@ -715,141 +575,70 @@ non-printing characters</codeblock>
                <tbody>
                   <row>
                      <entry>Namespace</entry>
-                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
+                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15</entry>
                   </row>
                   <row>
                      <entry>Diagram</entry>
                      <entry>
                         <p>
-                            
-                                    
-                                    <imagemap id="pagecontent_xsd_Element_pc_GraphemeGroup">
-                                        
-                                        <image href="img/pagecontent_xsd_Element_pc_GraphemeGroup.jpeg"/>
-                                        
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>272,138,355,182</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_id"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>272,192,417,236</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_index"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>272,291,373,335</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_ligature"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>272,345,433,389</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_charType"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>272,444,362,488</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_custom"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>272,529,371,573</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_comments"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>349,621,498,665</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_TextEquiv"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>247,62,497,84</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>315,713,467,757</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeGroupType.dita#GraphemeGroupType_Grapheme"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>315,767,494,811</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeGroupType.dita#GraphemeGroupType_NonPrintingChar"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>233,3,434,44</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeGroupType.dita#GraphemeGroupType"/>
-                                                    
-                                            </area>
-                                        
-                                    </imagemap>
+                           <imagemap id="pagecontent_xsd_Element_pc_GraphemeGroup">
+                              <image href="img/pagecontent_xsd_Element_pc_GraphemeGroup.jpeg"/>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>547,305,696,391</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_id"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>547,411,839,497</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_index"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>547,619,751,705</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_ligature"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>547,725,869,811</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_charType"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>547,907,726,993</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_custom"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>547,1063,747,1149</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_comments"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>702,1233,1003,1319</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_TextEquiv"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>497,121,992,202</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>633,1429,939,1515</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeGroupType.dita#GraphemeGroupType_Grapheme"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>633,1535,996,1621</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeGroupType.dita#GraphemeGroupType_NonPrintingChar"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>469,6,873,87</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeGroupType.dita#GraphemeGroupType"/>
+                              </area>
+                           </imagemap>
                         </p>
                      </entry>
                   </row>
@@ -913,7 +702,7 @@ non-printing characters</codeblock>
                   <row>
                      <entry>Instance</entry>
                      <entry>
-                        <codeblock outputclass="language-xml">&lt;pc:GraphemeGroup charType="" comments="" custom="" id="" index="" ligature="" xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15"&gt;
+                        <codeblock outputclass="language-xml">&lt;pc:GraphemeGroup charType="" comments="" custom="" id="" index="" ligature="" xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15"&gt;
   &lt;pc:TextEquiv comments="" conf="" dataType="" dataTypeDetails="" index=""&gt;{0,unbounded}&lt;/pc:TextEquiv&gt;
   &lt;pc:Grapheme charType="" comments="" custom="" id="" index="" ligature=""&gt;{1,1}&lt;/pc:Grapheme&gt;
   &lt;pc:NonPrintingChar charType="" comments="" custom="" id="" index="" ligature=""&gt;{1,1}&lt;/pc:NonPrintingChar&gt;
@@ -946,7 +735,8 @@ non-printing characters</codeblock>
                                     </row>
                                     <row>
                                        <entry namest="col1" nameend="col3">
-                                          <codeblock outputclass="language-xml">Type of character represented by the grapheme/group/non-printing character element</codeblock>
+                                          <codeblock outputclass="language-xml">Type of character represented by the
+grapheme, group, or non-printing character element.</codeblock>
                                        </entry>
                                     </row>
                                     <row>
@@ -989,7 +779,8 @@ non-printing characters</codeblock>
                                     </row>
                                     <row>
                                        <entry namest="col1" nameend="col3">
-                                          <codeblock outputclass="language-xml">Order index of grapheme, group, or non-printing character within the parent container (graphemes or glyph or grapheme group)</codeblock>
+                                          <codeblock outputclass="language-xml">Order index of grapheme, group, or non-printing character
+within the parent container (graphemes or glyph or grapheme group).</codeblock>
                                        </entry>
                                     </row>
                                     <row>

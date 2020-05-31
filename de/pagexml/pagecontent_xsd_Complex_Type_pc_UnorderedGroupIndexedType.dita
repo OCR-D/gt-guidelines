@@ -11,7 +11,7 @@
             <tbody>
                <row>
                   <entry>Namespace</entry>
-                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
+                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15</entry>
                </row>
                <row>
                   <entry>Annotations</entry>
@@ -23,145 +23,75 @@
                   <entry>Diagram</entry>
                   <entry>
                      <p>
-                            
-                                    
-                                    <imagemap id="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType">
-                                        
-                                        <image href="img/pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.jpeg"/>
-                                        
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>260,39,343,83</coords>
-                                                
-                                                
-                                                
-                                                        <xref href="#UnorderedGroupIndexedType_id"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>260,93,357,137</coords>
-                                                
-                                                
-                                                
-                                                        <xref href="#NO_NAMESPACE_UnorderedGroupIndexedType_regionRef"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>260,206,343,250</coords>
-                                                
-                                                
-                                                
-                                                        <xref href="#UnorderedGroupIndexedType_index"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>260,305,350,349</coords>
-                                                
-                                                
-                                                
-                                                        <xref href="#UnorderedGroupIndexedType_caption"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>260,359,447,403</coords>
-                                                
-                                                
-                                                
-                                                        <xref href="#UnorderedGroupIndexedType_type"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>260,413,368,457</coords>
-                                                
-                                                
-                                                
-                                                        <xref href="#UnorderedGroupIndexedType_continuation"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>260,512,350,556</coords>
-                                                
-                                                
-                                                
-                                                        <xref href="#UnorderedGroupIndexedType_custom"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>260,566,359,610</coords>
-                                                
-                                                
-                                                
-                                                        <xref href="#UnorderedGroupIndexedType_comments"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>337,627,499,671</coords>
-                                                
-                                                
-                                                
-                                                        <xref href="#UnorderedGroupIndexedType_UserDefined"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>337,681,471,725</coords>
-                                                
-                                                
-                                                
-                                                        <xref href="#UnorderedGroupIndexedType_Labels"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>408,766,560,810</coords>
-                                                
-                                                
-                                                
-                                                        <xref href="#UnorderedGroupIndexedType_RegionRef"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>408,820,580,864</coords>
-                                                
-                                                
-                                                
-                                                        <xref href="#UnorderedGroupIndexedType_OrderedGroup"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>408,874,591,918</coords>
-                                                
-                                                
-                                                
-                                                        <xref href="#UnorderedGroupIndexedType_UnorderedGroup"/>
-                                                    
-                                            </area>
-                                        
-                                    </imagemap>
-                        </p>
+                        <imagemap id="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType">
+                           <image href="img/pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.jpeg"/>
+                           <area>
+                              <shape>rect</shape>
+                              <coords>500,75,649,161</coords>
+                              <xref href="#UnorderedGroupIndexedType_id"/>
+                           </area>
+                           <area>
+                              <shape>rect</shape>
+                              <coords>500,181,695,267</coords>
+                              <xref href="#NO_NAMESPACE_UnorderedGroupIndexedType_regionRef"/>
+                           </area>
+                           <area>
+                              <shape>rect</shape>
+                              <coords>500,415,650,501</coords>
+                              <xref href="#UnorderedGroupIndexedType_index"/>
+                           </area>
+                           <area>
+                              <shape>rect</shape>
+                              <coords>500,597,679,683</coords>
+                              <xref href="#UnorderedGroupIndexedType_caption"/>
+                           </area>
+                           <area>
+                              <shape>rect</shape>
+                              <coords>500,703,880,789</coords>
+                              <xref href="#UnorderedGroupIndexedType_type"/>
+                           </area>
+                           <area>
+                              <shape>rect</shape>
+                              <coords>500,809,715,895</coords>
+                              <xref href="#UnorderedGroupIndexedType_continuation"/>
+                           </area>
+                           <area>
+                              <shape>rect</shape>
+                              <coords>500,1017,679,1103</coords>
+                              <xref href="#UnorderedGroupIndexedType_custom"/>
+                           </area>
+                           <area>
+                              <shape>rect</shape>
+                              <coords>500,1173,700,1259</coords>
+                              <xref href="#UnorderedGroupIndexedType_comments"/>
+                           </area>
+                           <area>
+                              <shape>rect</shape>
+                              <coords>655,1293,981,1379</coords>
+                              <xref href="#UnorderedGroupIndexedType_UserDefined"/>
+                           </area>
+                           <area>
+                              <shape>rect</shape>
+                              <coords>655,1399,923,1485</coords>
+                              <xref href="#UnorderedGroupIndexedType_Labels"/>
+                           </area>
+                           <area>
+                              <shape>rect</shape>
+                              <coords>797,1555,1106,1641</coords>
+                              <xref href="#UnorderedGroupIndexedType_RegionRef"/>
+                           </area>
+                           <area>
+                              <shape>rect</shape>
+                              <coords>797,1661,1141,1747</coords>
+                              <xref href="#UnorderedGroupIndexedType_OrderedGroup"/>
+                           </area>
+                           <area>
+                              <shape>rect</shape>
+                              <coords>797,1767,1164,1853</coords>
+                              <xref href="#UnorderedGroupIndexedType_UnorderedGroup"/>
+                           </area>
+                        </imagemap>
+                     </p>
                   </entry>
                </row>
                <row>
@@ -236,7 +166,8 @@
                                  </row>
                                  <row>
                                     <entry namest="col1" nameend="col3">
-                                       <codeblock outputclass="language-xml">Is this group a continuation of another group (from previous column or page, for example)?</codeblock>
+                                       <codeblock outputclass="language-xml">Is this group a continuation of another group
+(from previous column or page, for example)?</codeblock>
                                     </entry>
                                  </row>
                                  <row>
@@ -245,6 +176,11 @@
                                     </entry>
                                     <entry>string</entry>
                                     <entry>optional</entry>
+                                 </row>
+                                 <row>
+                                    <entry namest="col1" nameend="col3">
+                                       <codeblock outputclass="language-xml">For generic use</codeblock>
+                                    </entry>
                                  </row>
                                  <row>
                                     <entry>
@@ -275,7 +211,9 @@ current hierarchy level.</codeblock>
                                  </row>
                                  <row>
                                     <entry namest="col1" nameend="col3">
-                                       <codeblock outputclass="language-xml">Optional link to a parent region of nested regions. The parent region doubles as reading order group. Only the nested regions should be allowed as group members.</codeblock>
+                                       <codeblock outputclass="language-xml">Optional link to a parent region of nested regions.
+The parent region doubles as reading order group.
+Only the nested regions should be allowed as group members.</codeblock>
                                     </entry>
                                  </row>
                                  <row>
@@ -310,14 +248,12 @@ current hierarchy level.</codeblock>
     &lt;/element&gt;
     &lt;choice minOccurs="1" maxOccurs="unbounded"&gt;
       &lt;element name="RegionRef" type="pc:RegionRefType"/&gt;
-      &lt;element name="OrderedGroup" type="pc:OrderedGroupType"&gt;
-      &lt;/element&gt;
-      &lt;element name="UnorderedGroup" type="pc:UnorderedGroupType"&gt;
-      &lt;/element&gt;
+      &lt;element name="OrderedGroup" type="pc:OrderedGroupType"/&gt;
+      &lt;element name="UnorderedGroup" type="pc:UnorderedGroupType"/&gt;
     &lt;/choice&gt;
   &lt;/sequence&gt;
   &lt;attribute name="id" type="ID" use="required"/&gt;
-  &lt;attribute name="regionRef" type="IDREF" use="optional"&gt;
+  &lt;attribute name="regionRef" type="IDREF"&gt;
     &lt;annotation&gt;
       &lt;documentation&gt;Optional link to a parent region of nested regions. The parent region doubles as reading order group. Only the nested regions should be allowed as group members.&lt;/documentation&gt;
     &lt;/annotation&gt;
@@ -334,7 +270,11 @@ current hierarchy level.</codeblock>
       &lt;documentation&gt;Is this group a continuation of another group (from previous column or page, for example)?&lt;/documentation&gt;
     &lt;/annotation&gt;
   &lt;/attribute&gt;
-  &lt;attribute name="custom" type="string"/&gt;
+  &lt;attribute name="custom" type="string"&gt;
+    &lt;annotation&gt;
+      &lt;documentation&gt;For generic use&lt;/documentation&gt;
+    &lt;/annotation&gt;
+  &lt;/attribute&gt;
   &lt;attribute name="comments" type="string"/&gt;
 &lt;/complexType&gt;</codeblock>
                   </entry>
@@ -427,7 +367,9 @@ current hierarchy level.</codeblock>
                   <row>
                      <entry>Annotations</entry>
                      <entry>
-                        <codeblock outputclass="language-xml">Optional link to a parent region of nested regions. The parent region doubles as reading order group. Only the nested regions should be allowed as group members.</codeblock>
+                        <codeblock outputclass="language-xml">Optional link to a parent region of nested regions.
+The parent region doubles as reading order group.
+Only the nested regions should be allowed as group members.</codeblock>
                      </entry>
                   </row>
                   <row>
@@ -444,9 +386,9 @@ current hierarchy level.</codeblock>
                                  <colspec colwidth="8*" align="left"/>
                                  <tbody>
                                     <row>
-                                       <entry>use: </entry>
+                                       <entry>content: </entry>
                                        <entry>
-                                          <b>optional</b>
+                                          <b>simple</b>
                                        </entry>
                                     </row>
                                  </tbody>
@@ -479,7 +421,7 @@ current hierarchy level.</codeblock>
                   <row>
                      <entry>Source</entry>
                      <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="regionRef" type="IDREF" use="optional"&gt;
+                        <codeblock outputclass="language-xml">&lt;attribute name="regionRef" type="IDREF"&gt;
   &lt;annotation&gt;
     &lt;documentation&gt;Optional link to a parent region of nested regions. The parent region doubles as reading order group. Only the nested regions should be allowed as group members.&lt;/documentation&gt;
   &lt;/annotation&gt;
@@ -777,7 +719,8 @@ current hierarchy level.</codeblock>
                   <row>
                      <entry>Annotations</entry>
                      <entry>
-                        <codeblock outputclass="language-xml">Is this group a continuation of another group (from previous column or page, for example)?</codeblock>
+                        <codeblock outputclass="language-xml">Is this group a continuation of another group
+(from previous column or page, for example)?</codeblock>
                      </entry>
                   </row>
                   <row>
@@ -854,6 +797,12 @@ current hierarchy level.</codeblock>
                      <entry>No namespace</entry>
                   </row>
                   <row>
+                     <entry>Annotations</entry>
+                     <entry>
+                        <codeblock outputclass="language-xml">For generic use</codeblock>
+                     </entry>
+                  </row>
+                  <row>
                      <entry>Type</entry>
                      <entry>string</entry>
                   </row>
@@ -902,7 +851,11 @@ current hierarchy level.</codeblock>
                   <row>
                      <entry>Source</entry>
                      <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="custom" type="string"/&gt;</codeblock>
+                        <codeblock outputclass="language-xml">&lt;attribute name="custom" type="string"&gt;
+  &lt;annotation&gt;
+    &lt;documentation&gt;For generic use&lt;/documentation&gt;
+  &lt;/annotation&gt;
+&lt;/attribute&gt;</codeblock>
                      </entry>
                   </row>
                </tbody>
@@ -989,42 +942,25 @@ current hierarchy level.</codeblock>
                <tbody>
                   <row>
                      <entry>Namespace</entry>
-                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
+                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15</entry>
                   </row>
                   <row>
                      <entry>Diagram</entry>
                      <entry>
                         <p>
-                            
-                                    
-                                    <imagemap id="pagecontent_xsd_Element_pc_UserDefined_3">
-                                        
-                                        <image href="img/pagecontent_xsd_Element_pc_UserDefined_3.jpeg"/>
-                                        
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>295,40,461,84</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita#UserDefinedType_UserAttribute"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>193,3,343,25</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita#UserDefinedType"/>
-                                                    
-                                            </area>
-                                        
-                                    </imagemap>
+                           <imagemap id="pagecontent_xsd_Element_pc_UserDefined_3">
+                              <image href="img/pagecontent_xsd_Element_pc_UserDefined_3.jpeg"/>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>593,78,924,164</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita#UserDefinedType_UserAttribute"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>388,6,689,50</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita#UserDefinedType"/>
+                              </area>
+                           </imagemap>
                         </p>
                      </entry>
                   </row>
@@ -1082,7 +1018,7 @@ current hierarchy level.</codeblock>
                   <row>
                      <entry>Instance</entry>
                      <entry>
-                        <codeblock outputclass="language-xml">&lt;pc:UserDefined xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15"&gt;
+                        <codeblock outputclass="language-xml">&lt;pc:UserDefined xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15"&gt;
   &lt;pc:UserAttribute description="" name="" type="" value=""&gt;{1,unbounded}&lt;/pc:UserAttribute&gt;
 &lt;/pc:UserDefined&gt;</codeblock>
                      </entry>
@@ -1109,7 +1045,7 @@ current hierarchy level.</codeblock>
                <tbody>
                   <row>
                      <entry>Namespace</entry>
-                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
+                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15</entry>
                   </row>
                   <row>
                      <entry>Annotations</entry>
@@ -1121,80 +1057,39 @@ current hierarchy level.</codeblock>
                      <entry>Diagram</entry>
                      <entry>
                         <p>
-                            
-                                    
-                                    <imagemap id="pagecontent_xsd_Element_pc_Labels_3">
-                                        
-                                        <image href="img/pagecontent_xsd_Element_pc_Labels_3.jpeg"/>
-                                        
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>210,79,327,123</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType_externalModel"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>210,164,307,208</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType_externalId"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>210,263,300,307</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType_prefix"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>210,348,309,392</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType_comments"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>287,409,415,453</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType_Label"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>185,3,307,25</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType"/>
-                                                    
-                                            </area>
-                                        
-                                    </imagemap>
+                           <imagemap id="pagecontent_xsd_Element_pc_Labels_3">
+                              <image href="img/pagecontent_xsd_Element_pc_Labels_3.jpeg"/>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>400,153,634,239</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType_externalModel"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>400,335,592,421</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType_externalId"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>400,543,579,629</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType_prefix"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>400,725,600,811</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType_comments"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>555,845,812,931</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType_Label"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>350,6,593,50</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType"/>
+                              </area>
+                           </imagemap>
                         </p>
                      </entry>
                   </row>
@@ -1252,7 +1147,7 @@ current hierarchy level.</codeblock>
                   <row>
                      <entry>Instance</entry>
                      <entry>
-                        <codeblock outputclass="language-xml">&lt;pc:Labels comments="" externalId="" externalModel="" prefix="" xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15"&gt;
+                        <codeblock outputclass="language-xml">&lt;pc:Labels comments="" externalId="" externalModel="" prefix="" xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15"&gt;
   &lt;pc:Label comments="" type="" value=""&gt;{0,unbounded}&lt;/pc:Label&gt;
 &lt;/pc:Labels&gt;</codeblock>
                      </entry>
@@ -1290,7 +1185,8 @@ current hierarchy level.</codeblock>
                                     </row>
                                     <row>
                                        <entry namest="col1" nameend="col3">
-                                          <codeblock outputclass="language-xml">E.g. an RDF resource identifier (to be used as subject or object of an RDF triple)</codeblock>
+                                          <codeblock outputclass="language-xml">E.g. an RDF resource identifier
+(to be used as subject or object of an RDF triple)</codeblock>
                                        </entry>
                                     </row>
                                     <row>
@@ -1348,42 +1244,25 @@ current hierarchy level.</codeblock>
                <tbody>
                   <row>
                      <entry>Namespace</entry>
-                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
+                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15</entry>
                   </row>
                   <row>
                      <entry>Diagram</entry>
                      <entry>
                         <p>
-                            
-                                    
-                                    <imagemap id="pagecontent_xsd_Element_pc_RegionRef">
-                                        
-                                        <image href="img/pagecontent_xsd_Element_pc_RegionRef.jpeg"/>
-                                        
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>208,79,305,123</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_RegionRefType.dita#RegionRefType_regionRef"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>183,3,323,25</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_RegionRefType.dita#RegionRefType"/>
-                                                    
-                                            </area>
-                                        
-                                    </imagemap>
+                           <imagemap id="pagecontent_xsd_Element_pc_RegionRef">
+                              <image href="img/pagecontent_xsd_Element_pc_RegionRef.jpeg"/>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>421,153,616,239</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_RegionRefType.dita#RegionRefType_regionRef"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>371,6,655,50</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_RegionRefType.dita#RegionRefType"/>
+                              </area>
+                           </imagemap>
                         </p>
                      </entry>
                   </row>
@@ -1465,163 +1344,80 @@ current hierarchy level.</codeblock>
                <tbody>
                   <row>
                      <entry>Namespace</entry>
-                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
+                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15</entry>
                   </row>
                   <row>
                      <entry>Diagram</entry>
                      <entry>
                         <p>
-                            
-                                    
-                                    <imagemap id="pagecontent_xsd_Element_pc_OrderedGroup_1">
-                                        
-                                        <image href="img/pagecontent_xsd_Element_pc_OrderedGroup_1.jpeg"/>
-                                        
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>228,79,311,123</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType_id"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>228,133,325,177</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType_regionRef"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>228,246,318,290</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType_caption"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>228,300,415,344</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType_type"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>228,354,336,398</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType_continuation"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>228,453,318,497</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType_custom"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>228,507,327,551</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType_comments"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>305,568,467,612</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType_UserDefined"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>305,622,439,666</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType_Labels"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>376,707,566,751</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType_RegionRefIndexed"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>376,761,586,805</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType_OrderedGroupIndexed"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>376,815,597,859</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType_UnorderedGroupIndexed"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>203,3,363,25</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType"/>
-                                                    
-                                            </area>
-                                        
-                                    </imagemap>
+                           <imagemap id="pagecontent_xsd_Element_pc_OrderedGroup_1">
+                              <image href="img/pagecontent_xsd_Element_pc_OrderedGroup_1.jpeg"/>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>456,153,605,239</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType_id"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>456,259,651,345</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType_regionRef"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>456,493,635,579</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType_caption"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>456,599,836,685</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType_type"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>456,705,671,791</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType_continuation"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>456,913,635,999</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType_custom"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>456,1069,656,1155</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType_comments"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>611,1189,937,1275</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType_UserDefined"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>611,1295,879,1381</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType_Labels"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>753,1451,1137,1537</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType_RegionRefIndexed"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>753,1557,1172,1643</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType_OrderedGroupIndexed"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>753,1663,1195,1749</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType_UnorderedGroupIndexed"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>406,6,725,50</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType"/>
+                              </area>
+                           </imagemap>
                         </p>
                      </entry>
                   </row>
@@ -1666,7 +1462,7 @@ current hierarchy level.</codeblock>
                   <row>
                      <entry>Instance</entry>
                      <entry>
-                        <codeblock outputclass="language-xml">&lt;pc:OrderedGroup caption="" comments="" continuation="" custom="" id="" regionRef="" type="" xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15"&gt;
+                        <codeblock outputclass="language-xml">&lt;pc:OrderedGroup caption="" comments="" continuation="" custom="" id="" regionRef="" type="" xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15"&gt;
   &lt;pc:UserDefined&gt;{0,1}&lt;/pc:UserDefined&gt;
   &lt;pc:Labels comments="" externalId="" externalModel="" prefix=""&gt;{0,unbounded}&lt;/pc:Labels&gt;
   &lt;pc:RegionRefIndexed index="" regionRef=""&gt;{1,1}&lt;/pc:RegionRefIndexed&gt;
@@ -1715,7 +1511,8 @@ current hierarchy level.</codeblock>
                                     </row>
                                     <row>
                                        <entry namest="col1" nameend="col3">
-                                          <codeblock outputclass="language-xml">Is this group a continuation of another group (from previous column or page, for example)?</codeblock>
+                                          <codeblock outputclass="language-xml">Is this group a continuation of another group
+(from previous column or page, for example)?</codeblock>
                                        </entry>
                                     </row>
                                     <row>
@@ -1724,6 +1521,11 @@ current hierarchy level.</codeblock>
                                        </entry>
                                        <entry>string</entry>
                                        <entry>optional</entry>
+                                    </row>
+                                    <row>
+                                       <entry namest="col1" nameend="col3">
+                                          <codeblock outputclass="language-xml">For generic use</codeblock>
+                                       </entry>
                                     </row>
                                     <row>
                                        <entry>
@@ -1741,7 +1543,9 @@ current hierarchy level.</codeblock>
                                     </row>
                                     <row>
                                        <entry namest="col1" nameend="col3">
-                                          <codeblock outputclass="language-xml">Optional link to a parent region of nested regions. The parent region doubles as reading order group. Only the nested regions should be allowed as group members.</codeblock>
+                                          <codeblock outputclass="language-xml">Optional link to a parent region of nested regions.
+The parent region doubles as reading order group.
+Only the nested regions should be allowed as group members.</codeblock>
                                        </entry>
                                     </row>
                                     <row>
@@ -1762,8 +1566,7 @@ current hierarchy level.</codeblock>
                   <row>
                      <entry>Source</entry>
                      <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="OrderedGroup" type="pc:OrderedGroupType"&gt;
-&lt;/element&gt;</codeblock>
+                        <codeblock outputclass="language-xml">&lt;element name="OrderedGroup" type="pc:OrderedGroupType"/&gt;</codeblock>
                      </entry>
                   </row>
                </tbody>
@@ -1781,163 +1584,80 @@ current hierarchy level.</codeblock>
                <tbody>
                   <row>
                      <entry>Namespace</entry>
-                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
+                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15</entry>
                   </row>
                   <row>
                      <entry>Diagram</entry>
                      <entry>
                         <p>
-                            
-                                    
-                                    <imagemap id="pagecontent_xsd_Element_pc_UnorderedGroup">
-                                        
-                                        <image href="img/pagecontent_xsd_Element_pc_UnorderedGroup.jpeg"/>
-                                        
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>239,79,322,123</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupType.dita#UnorderedGroupType_id"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>239,133,336,177</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupType.dita#NO_NAMESPACE_UnorderedGroupType_regionRef"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>239,246,329,290</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupType.dita#UnorderedGroupType_caption"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>239,300,426,344</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupType.dita#UnorderedGroupType_type"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>239,354,347,398</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupType.dita#UnorderedGroupType_continuation"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>239,453,329,497</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupType.dita#UnorderedGroupType_custom"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>239,507,338,551</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupType.dita#UnorderedGroupType_comments"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>316,568,478,612</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupType.dita#UnorderedGroupType_UserDefined"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>316,622,450,666</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupType.dita#UnorderedGroupType_Labels"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>387,707,539,751</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupType.dita#UnorderedGroupType_RegionRef"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>387,761,559,805</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupType.dita#UnorderedGroupType_OrderedGroup"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>387,815,570,859</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupType.dita#UnorderedGroupType_UnorderedGroup"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>214,3,385,25</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupType.dita#UnorderedGroupType"/>
-                                                    
-                                            </area>
-                                        
-                                    </imagemap>
+                           <imagemap id="pagecontent_xsd_Element_pc_UnorderedGroup">
+                              <image href="img/pagecontent_xsd_Element_pc_UnorderedGroup.jpeg"/>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>479,153,628,239</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupType.dita#UnorderedGroupType_id"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>479,259,674,345</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupType.dita#NO_NAMESPACE_UnorderedGroupType_regionRef"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>479,493,658,579</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupType.dita#UnorderedGroupType_caption"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>479,599,859,685</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupType.dita#UnorderedGroupType_type"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>479,705,694,791</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupType.dita#UnorderedGroupType_continuation"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>479,913,658,999</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupType.dita#UnorderedGroupType_custom"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>479,1069,679,1155</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupType.dita#UnorderedGroupType_comments"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>634,1189,960,1275</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupType.dita#UnorderedGroupType_UserDefined"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>634,1295,902,1381</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupType.dita#UnorderedGroupType_Labels"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>776,1451,1085,1537</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupType.dita#UnorderedGroupType_RegionRef"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>776,1557,1120,1643</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupType.dita#UnorderedGroupType_OrderedGroup"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>776,1663,1143,1749</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupType.dita#UnorderedGroupType_UnorderedGroup"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>429,6,771,50</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupType.dita#UnorderedGroupType"/>
+                              </area>
+                           </imagemap>
                         </p>
                      </entry>
                   </row>
@@ -1982,7 +1702,7 @@ current hierarchy level.</codeblock>
                   <row>
                      <entry>Instance</entry>
                      <entry>
-                        <codeblock outputclass="language-xml">&lt;pc:UnorderedGroup caption="" comments="" continuation="" custom="" id="" regionRef="" type="" xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15"&gt;
+                        <codeblock outputclass="language-xml">&lt;pc:UnorderedGroup caption="" comments="" continuation="" custom="" id="" regionRef="" type="" xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15"&gt;
   &lt;pc:UserDefined&gt;{0,1}&lt;/pc:UserDefined&gt;
   &lt;pc:Labels comments="" externalId="" externalModel="" prefix=""&gt;{0,unbounded}&lt;/pc:Labels&gt;
   &lt;pc:RegionRef regionRef=""&gt;{1,1}&lt;/pc:RegionRef&gt;
@@ -2031,7 +1751,8 @@ current hierarchy level.</codeblock>
                                     </row>
                                     <row>
                                        <entry namest="col1" nameend="col3">
-                                          <codeblock outputclass="language-xml">Is this group a continuation of another group (from previous column or page, for example)?</codeblock>
+                                          <codeblock outputclass="language-xml">Is this group a continuation of another group
+(from previous column or page, for example)?</codeblock>
                                        </entry>
                                     </row>
                                     <row>
@@ -2040,6 +1761,11 @@ current hierarchy level.</codeblock>
                                        </entry>
                                        <entry>string</entry>
                                        <entry>optional</entry>
+                                    </row>
+                                    <row>
+                                       <entry namest="col1" nameend="col3">
+                                          <codeblock outputclass="language-xml">For generic use</codeblock>
+                                       </entry>
                                     </row>
                                     <row>
                                        <entry>
@@ -2057,7 +1783,9 @@ current hierarchy level.</codeblock>
                                     </row>
                                     <row>
                                        <entry namest="col1" nameend="col3">
-                                          <codeblock outputclass="language-xml">Optional link to a parent region of nested regions. The parent region doubles as reading order group. Only the nested regions should be allowed as group members.</codeblock>
+                                          <codeblock outputclass="language-xml">Optional link to a parent region of nested regions.
+The parent region doubles as reading order group.
+Only the nested regions should be allowed as group members.</codeblock>
                                        </entry>
                                     </row>
                                     <row>
@@ -2078,8 +1806,7 @@ current hierarchy level.</codeblock>
                   <row>
                      <entry>Source</entry>
                      <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="UnorderedGroup" type="pc:UnorderedGroupType"&gt;
-&lt;/element&gt;</codeblock>
+                        <codeblock outputclass="language-xml">&lt;element name="UnorderedGroup" type="pc:UnorderedGroupType"/&gt;</codeblock>
                      </entry>
                   </row>
                </tbody>

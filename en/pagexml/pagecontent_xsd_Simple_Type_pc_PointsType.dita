@@ -11,12 +11,17 @@
             <tbody>
                <row>
                   <entry>Namespace</entry>
-                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
+                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15</entry>
                </row>
                <row>
                   <entry>Annotations</entry>
                   <entry>
-                     <codeblock outputclass="language-xml">Point list with format "x1,y1 x2,y2 ..."</codeblock>
+                     <codeblock outputclass="language-xml">Point list with format "x1,y1 x2,y2 ...", where
+"x" / "y" refer to the horizontal / vertical
+pixel positions in a coordinate system which always
+references the root PageType/@imageFilename, with
+"0,0" in the upper left corner of the root image and
+"imageWidth,imageHeight" in the lower right.</codeblock>
                   </entry>
                </row>
                <row>
@@ -76,7 +81,7 @@
                   <entry>
                      <codeblock outputclass="language-xml">&lt;simpleType name="PointsType"&gt;
   &lt;annotation&gt;
-    &lt;documentation&gt;Point list with format "x1,y1 x2,y2 ..."&lt;/documentation&gt;
+    &lt;documentation&gt;Point list with format "x1,y1 x2,y2 ...", where "x" / "y" refer to the horizontal / vertical pixel positions in a coordinate system which always references the root PageType/@imageFilename, with "0,0" in the upper left corner of the root image and "imageWidth,imageHeight" in the lower right.&lt;/documentation&gt;
   &lt;/annotation&gt;
   &lt;restriction base="string"&gt;
     &lt;pattern value="([0-9]+,[0-9]+ )+([0-9]+,[0-9]+)"/&gt;

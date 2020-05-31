@@ -11,41 +11,26 @@
             <tbody>
                <row>
                   <entry>Namespace</entry>
-                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
+                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15</entry>
                </row>
                <row>
                   <entry>Diagram</entry>
                   <entry>
                      <p>
-                            
-                                    
-                                    <imagemap id="pagecontent_xsd_Complex_Type_pc_CoordsType">
-                                        
-                                        <image href="img/pagecontent_xsd_Complex_Type_pc_CoordsType.jpeg"/>
-                                        
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>156,39,287,83</coords>
-                                                
-                                                
-                                                
-                                                        <xref href="#CoordsType_points"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>156,124,312,168</coords>
-                                                
-                                                
-                                                
-                                                        <xref href="#CoordsType_conf"/>
-                                                    
-                                            </area>
-                                        
-                                    </imagemap>
-                        </p>
+                        <imagemap id="pagecontent_xsd_Complex_Type_pc_CoordsType">
+                           <image href="img/pagecontent_xsd_Complex_Type_pc_CoordsType.jpeg"/>
+                           <area>
+                              <shape>rect</shape>
+                              <coords>315,75,581,161</coords>
+                              <xref href="#CoordsType_points"/>
+                           </area>
+                           <area>
+                              <shape>rect</shape>
+                              <coords>315,283,633,369</coords>
+                              <xref href="#CoordsType_conf"/>
+                           </area>
+                        </imagemap>
+                     </p>
                   </entry>
                </row>
                <row>
@@ -111,7 +96,13 @@
                                  </row>
                                  <row>
                                     <entry namest="col1" nameend="col3">
-                                       <codeblock outputclass="language-xml">Point list with format "x1,y1 x2,y2 ..."</codeblock>
+                                       <codeblock outputclass="language-xml">Polygon outline of the element as a path of points.
+No points may lie outside the outline of its parent,
+which in the case of Border is the bounding rectangle
+of the root image. Paths are closed by convention,
+i.e. the last point logically connects with the first
+(and at least 3 points are required to span an area).
+Paths must be planar (i.e. must not self-intersect).</codeblock>
                                     </entry>
                                  </row>
                               </tbody>
@@ -124,12 +115,12 @@
                   <entry>Source</entry>
                   <entry>
                      <codeblock outputclass="language-xml">&lt;complexType name="CoordsType"&gt;
-  &lt;attribute name="points" use="required" type="pc:PointsType"&gt;
+  &lt;attribute name="points" type="pc:PointsType" use="required"&gt;
     &lt;annotation&gt;
-      &lt;documentation&gt;Point list with format "x1,y1 x2,y2 ..."&lt;/documentation&gt;
+      &lt;documentation&gt;Polygon outline of the element as a path of points. No points may lie outside the outline of its parent, which in the case of Border is the bounding rectangle of the root image. Paths are closed by convention, i.e. the last point logically connects with the first (and at least 3 points are required to span an area). Paths must be planar (i.e. must not self-intersect).&lt;/documentation&gt;
     &lt;/annotation&gt;
   &lt;/attribute&gt;
-  &lt;attribute name="conf" type="pc:ConfSimpleType" use="optional"&gt;
+  &lt;attribute name="conf" type="pc:ConfSimpleType"&gt;
     &lt;annotation&gt;
       &lt;documentation&gt;Confidence value (between 0 and 1)&lt;/documentation&gt;
     &lt;/annotation&gt;
@@ -156,7 +147,13 @@
                   <row>
                      <entry>Annotations</entry>
                      <entry>
-                        <codeblock outputclass="language-xml">Point list with format "x1,y1 x2,y2 ..."</codeblock>
+                        <codeblock outputclass="language-xml">Polygon outline of the element as a path of points.
+No points may lie outside the outline of its parent,
+which in the case of Border is the bounding rectangle
+of the root image. Paths are closed by convention,
+i.e. the last point logically connects with the first
+(and at least 3 points are required to span an area).
+Paths must be planar (i.e. must not self-intersect).</codeblock>
                      </entry>
                   </row>
                   <row>
@@ -231,9 +228,9 @@
                   <row>
                      <entry>Source</entry>
                      <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="points" use="required" type="pc:PointsType"&gt;
+                        <codeblock outputclass="language-xml">&lt;attribute name="points" type="pc:PointsType" use="required"&gt;
   &lt;annotation&gt;
-    &lt;documentation&gt;Point list with format "x1,y1 x2,y2 ..."&lt;/documentation&gt;
+    &lt;documentation&gt;Polygon outline of the element as a path of points. No points may lie outside the outline of its parent, which in the case of Border is the bounding rectangle of the root image. Paths are closed by convention, i.e. the last point logically connects with the first (and at least 3 points are required to span an area). Paths must be planar (i.e. must not self-intersect).&lt;/documentation&gt;
   &lt;/annotation&gt;
 &lt;/attribute&gt;</codeblock>
                      </entry>
@@ -277,9 +274,9 @@
                                  <colspec colwidth="8*" align="left"/>
                                  <tbody>
                                     <row>
-                                       <entry>use: </entry>
+                                       <entry>content: </entry>
                                        <entry>
-                                          <b>optional</b>
+                                          <b>simple</b>
                                        </entry>
                                     </row>
                                  </tbody>
@@ -338,7 +335,7 @@
                   <row>
                      <entry>Source</entry>
                      <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="conf" type="pc:ConfSimpleType" use="optional"&gt;
+                        <codeblock outputclass="language-xml">&lt;attribute name="conf" type="pc:ConfSimpleType"&gt;
   &lt;annotation&gt;
     &lt;documentation&gt;Confidence value (between 0 and 1)&lt;/documentation&gt;
   &lt;/annotation&gt;

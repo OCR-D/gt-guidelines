@@ -11,31 +11,21 @@
             <tbody>
                <row>
                   <entry>Namespace</entry>
-                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
+                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15</entry>
                </row>
                <row>
                   <entry>Diagram</entry>
                   <entry>
                      <p>
-                            
-                                    
-                                    <imagemap id="pagecontent_xsd_Complex_Type_pc_RolesType">
-                                        
-                                        <image href="img/pagecontent_xsd_Complex_Type_pc_RolesType.jpeg"/>
-                                        
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>205,0,371,44</coords>
-                                                
-                                                
-                                                
-                                                        <xref href="#RolesType_TableCellRole"/>
-                                                    
-                                            </area>
-                                        
-                                    </imagemap>
-                        </p>
+                        <imagemap id="pagecontent_xsd_Complex_Type_pc_RolesType">
+                           <image href="img/pagecontent_xsd_Complex_Type_pc_RolesType.jpeg"/>
+                           <area>
+                              <shape>rect</shape>
+                              <coords>413,0,753,86</coords>
+                              <xref href="#RolesType_TableCellRole"/>
+                           </area>
+                        </imagemap>
+                     </p>
                   </entry>
                </row>
                <row>
@@ -78,7 +68,7 @@
   &lt;sequence&gt;
     &lt;element name="TableCellRole" type="pc:TableCellRoleType" minOccurs="0" maxOccurs="1"&gt;
       &lt;annotation&gt;
-        &lt;documentation&gt;Data for a region that takes on the role of a table cell within a parent table region&lt;/documentation&gt;
+        &lt;documentation&gt;Data for a region that takes on the role of a table cell within a parent table region.&lt;/documentation&gt;
       &lt;/annotation&gt;
     &lt;/element&gt;
   &lt;/sequence&gt;
@@ -99,92 +89,52 @@
                <tbody>
                   <row>
                      <entry>Namespace</entry>
-                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
+                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15</entry>
                   </row>
                   <row>
                      <entry>Annotations</entry>
                      <entry>
-                        <codeblock outputclass="language-xml">Data for a region that takes on the role of a table cell within a parent table region</codeblock>
+                        <codeblock outputclass="language-xml">Data for a region that takes on the role
+of a table cell within a parent table region.</codeblock>
                      </entry>
                   </row>
                   <row>
                      <entry>Diagram</entry>
                      <entry>
                         <p>
-                            
-                                    
-                                    <imagemap id="pagecontent_xsd_Element_pc_TableCellRole">
-                                        
-                                        <image href="img/pagecontent_xsd_Element_pc_TableCellRole.jpeg"/>
-                                        
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>242,79,338,123</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_TableCellRoleType.dita#TableCellRoleType_rowIndex"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>242,164,352,208</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_TableCellRoleType.dita#TableCellRoleType_columnIndex"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>242,249,337,293</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_TableCellRoleType.dita#TableCellRoleType_rowSpan"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>242,334,331,378</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_TableCellRoleType.dita#TableCellRoleType_colSpan"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>242,419,343,463</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_TableCellRoleType.dita#TableCellRoleType_header"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>217,3,371,25</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_TableCellRoleType.dita#TableCellRoleType"/>
-                                                    
-                                            </area>
-                                        
-                                    </imagemap>
+                           <imagemap id="pagecontent_xsd_Element_pc_TableCellRole">
+                              <image href="img/pagecontent_xsd_Element_pc_TableCellRole.jpeg"/>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>472,153,658,239</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_TableCellRoleType.dita#TableCellRoleType_rowIndex"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>472,309,691,395</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_TableCellRoleType.dita#TableCellRoleType_columnIndex"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>472,465,657,551</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_TableCellRoleType.dita#TableCellRoleType_rowSpan"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>472,647,650,733</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_TableCellRoleType.dita#TableCellRoleType_colSpan"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>472,829,676,915</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_TableCellRoleType.dita#TableCellRoleType_header"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>422,6,737,50</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_TableCellRoleType.dita#TableCellRoleType"/>
+                              </area>
+                           </imagemap>
                         </p>
                      </entry>
                   </row>
@@ -315,7 +265,7 @@
                      <entry>
                         <codeblock outputclass="language-xml">&lt;element name="TableCellRole" type="pc:TableCellRoleType" minOccurs="0" maxOccurs="1"&gt;
   &lt;annotation&gt;
-    &lt;documentation&gt;Data for a region that takes on the role of a table cell within a parent table region&lt;/documentation&gt;
+    &lt;documentation&gt;Data for a region that takes on the role of a table cell within a parent table region.&lt;/documentation&gt;
   &lt;/annotation&gt;
 &lt;/element&gt;</codeblock>
                      </entry>

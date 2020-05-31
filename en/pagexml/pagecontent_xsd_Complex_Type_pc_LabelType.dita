@@ -11,7 +11,7 @@
             <tbody>
                <row>
                   <entry>Namespace</entry>
-                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
+                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15</entry>
                </row>
                <row>
                   <entry>Annotations</entry>
@@ -23,45 +23,25 @@
                   <entry>Diagram</entry>
                   <entry>
                      <p>
-                            
-                                    
-                                    <imagemap id="pagecontent_xsd_Complex_Type_pc_LabelType">
-                                        
-                                        <image href="img/pagecontent_xsd_Complex_Type_pc_LabelType.jpeg"/>
-                                        
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>167,39,257,83</coords>
-                                                
-                                                
-                                                
-                                                        <xref href="#LabelType_value"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>167,138,257,182</coords>
-                                                
-                                                
-                                                
-                                                        <xref href="#LabelType_type"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>167,251,266,295</coords>
-                                                
-                                                
-                                                
-                                                        <xref href="#LabelType_comments"/>
-                                                    
-                                            </area>
-                                        
-                                    </imagemap>
-                        </p>
+                        <imagemap id="pagecontent_xsd_Complex_Type_pc_LabelType">
+                           <image href="img/pagecontent_xsd_Complex_Type_pc_LabelType.jpeg"/>
+                           <area>
+                              <shape>rect</shape>
+                              <coords>315,75,494,161</coords>
+                              <xref href="#LabelType_value"/>
+                           </area>
+                           <area>
+                              <shape>rect</shape>
+                              <coords>315,283,494,369</coords>
+                              <xref href="#LabelType_type"/>
+                           </area>
+                           <area>
+                              <shape>rect</shape>
+                              <coords>315,517,515,603</coords>
+                              <xref href="#LabelType_comments"/>
+                           </area>
+                        </imagemap>
+                     </p>
                   </entry>
                </row>
                <row>
@@ -118,7 +98,9 @@
                                  </row>
                                  <row>
                                     <entry namest="col1" nameend="col3">
-                                       <codeblock outputclass="language-xml">Additional information on the label (e.g. 'YYYY-mm-dd' for a date label). Can be used as predicate of an RDF triple.</codeblock>
+                                       <codeblock outputclass="language-xml">Additional information on the label
+(e.g. 'YYYY-mm-dd' for a date label).
+Can be used as predicate of an RDF triple.</codeblock>
                                     </entry>
                                  </row>
                                  <row>
@@ -130,7 +112,9 @@
                                  </row>
                                  <row>
                                     <entry namest="col1" nameend="col3">
-                                       <codeblock outputclass="language-xml">The label / tag (e.g. 'person'). Can be an RDF resource identifier (e.g. object of an RDF triple).</codeblock>
+                                       <codeblock outputclass="language-xml">The label / tag (e.g. 'person').
+Can be an RDF resource identifier
+(e.g. object of an RDF triple).</codeblock>
                                     </entry>
                                  </row>
                               </tbody>
@@ -151,12 +135,12 @@
       &lt;documentation&gt;The label / tag (e.g. 'person'). Can be an RDF resource identifier (e.g. object of an RDF triple).&lt;/documentation&gt;
     &lt;/annotation&gt;
   &lt;/attribute&gt;
-  &lt;attribute name="type" type="string" use="optional"&gt;
+  &lt;attribute name="type" type="string"&gt;
     &lt;annotation&gt;
       &lt;documentation&gt;Additional information on the label (e.g. 'YYYY-mm-dd' for a date label). Can be used as predicate of an RDF triple.&lt;/documentation&gt;
     &lt;/annotation&gt;
   &lt;/attribute&gt;
-  &lt;attribute name="comments" type="string" use="optional"&gt;
+  &lt;attribute name="comments" type="string"&gt;
   &lt;/attribute&gt;
 &lt;/complexType&gt;</codeblock>
                   </entry>
@@ -180,7 +164,9 @@
                   <row>
                      <entry>Annotations</entry>
                      <entry>
-                        <codeblock outputclass="language-xml">The label / tag (e.g. 'person'). Can be an RDF resource identifier (e.g. object of an RDF triple).</codeblock>
+                        <codeblock outputclass="language-xml">The label / tag (e.g. 'person').
+Can be an RDF resource identifier
+(e.g. object of an RDF triple).</codeblock>
                      </entry>
                   </row>
                   <row>
@@ -259,7 +245,9 @@
                   <row>
                      <entry>Annotations</entry>
                      <entry>
-                        <codeblock outputclass="language-xml">Additional information on the label (e.g. 'YYYY-mm-dd' for a date label). Can be used as predicate of an RDF triple.</codeblock>
+                        <codeblock outputclass="language-xml">Additional information on the label
+(e.g. 'YYYY-mm-dd' for a date label).
+Can be used as predicate of an RDF triple.</codeblock>
                      </entry>
                   </row>
                   <row>
@@ -276,9 +264,9 @@
                                  <colspec colwidth="8*" align="left"/>
                                  <tbody>
                                     <row>
-                                       <entry>use: </entry>
+                                       <entry>content: </entry>
                                        <entry>
-                                          <b>optional</b>
+                                          <b>simple</b>
                                        </entry>
                                     </row>
                                  </tbody>
@@ -311,7 +299,7 @@
                   <row>
                      <entry>Source</entry>
                      <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="type" type="string" use="optional"&gt;
+                        <codeblock outputclass="language-xml">&lt;attribute name="type" type="string"&gt;
   &lt;annotation&gt;
     &lt;documentation&gt;Additional information on the label (e.g. 'YYYY-mm-dd' for a date label). Can be used as predicate of an RDF triple.&lt;/documentation&gt;
   &lt;/annotation&gt;
@@ -349,9 +337,9 @@
                                  <colspec colwidth="8*" align="left"/>
                                  <tbody>
                                     <row>
-                                       <entry>use: </entry>
+                                       <entry>content: </entry>
                                        <entry>
-                                          <b>optional</b>
+                                          <b>simple</b>
                                        </entry>
                                     </row>
                                  </tbody>
@@ -384,7 +372,7 @@
                   <row>
                      <entry>Source</entry>
                      <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="comments" type="string" use="optional"&gt;
+                        <codeblock outputclass="language-xml">&lt;attribute name="comments" type="string"&gt;
 &lt;/attribute&gt;</codeblock>
                      </entry>
                   </row>

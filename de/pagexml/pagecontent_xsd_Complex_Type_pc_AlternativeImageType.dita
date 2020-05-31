@@ -11,51 +11,31 @@
             <tbody>
                <row>
                   <entry>Namespace</entry>
-                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
+                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15</entry>
                </row>
                <row>
                   <entry>Diagram</entry>
                   <entry>
                      <p>
-                            
-                                    
-                                    <imagemap id="pagecontent_xsd_Complex_Type_pc_AlternativeImageType">
-                                        
-                                        <image href="img/pagecontent_xsd_Complex_Type_pc_AlternativeImageType.jpeg"/>
-                                        
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>201,39,291,83</coords>
-                                                
-                                                
-                                                
-                                                        <xref href="#AlternativeImageType_filename"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>201,93,300,137</coords>
-                                                
-                                                
-                                                
-                                                        <xref href="#AlternativeImageType_comments"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>201,147,357,191</coords>
-                                                
-                                                
-                                                
-                                                        <xref href="#AlternativeImageType_conf"/>
-                                                    
-                                            </area>
-                                        
-                                    </imagemap>
-                        </p>
+                        <imagemap id="pagecontent_xsd_Complex_Type_pc_AlternativeImageType">
+                           <image href="img/pagecontent_xsd_Complex_Type_pc_AlternativeImageType.jpeg"/>
+                           <area>
+                              <shape>rect</shape>
+                              <coords>404,75,585,161</coords>
+                              <xref href="#AlternativeImageType_filename"/>
+                           </area>
+                           <area>
+                              <shape>rect</shape>
+                              <coords>404,181,604,267</coords>
+                              <xref href="#AlternativeImageType_comments"/>
+                           </area>
+                           <area>
+                              <shape>rect</shape>
+                              <coords>404,287,722,373</coords>
+                              <xref href="#AlternativeImageType_conf"/>
+                           </area>
+                        </imagemap>
+                     </p>
                   </entry>
                </row>
                <row>
@@ -136,7 +116,7 @@
                      <codeblock outputclass="language-xml">&lt;complexType name="AlternativeImageType"&gt;
   &lt;attribute name="filename" type="string" use="required"/&gt;
   &lt;attribute name="comments" type="string"/&gt;
-  &lt;attribute name="conf" type="pc:ConfSimpleType" use="optional"&gt;
+  &lt;attribute name="conf" type="pc:ConfSimpleType"&gt;
     &lt;annotation&gt;
       &lt;documentation&gt;Confidence value (between 0 and 1)&lt;/documentation&gt;
     &lt;/annotation&gt;
@@ -320,9 +300,9 @@
                                  <colspec colwidth="8*" align="left"/>
                                  <tbody>
                                     <row>
-                                       <entry>use: </entry>
+                                       <entry>content: </entry>
                                        <entry>
-                                          <b>optional</b>
+                                          <b>simple</b>
                                        </entry>
                                     </row>
                                  </tbody>
@@ -381,7 +361,7 @@
                   <row>
                      <entry>Source</entry>
                      <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="conf" type="pc:ConfSimpleType" use="optional"&gt;
+                        <codeblock outputclass="language-xml">&lt;attribute name="conf" type="pc:ConfSimpleType"&gt;
   &lt;annotation&gt;
     &lt;documentation&gt;Confidence value (between 0 and 1)&lt;/documentation&gt;
   &lt;/annotation&gt;

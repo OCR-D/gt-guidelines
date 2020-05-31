@@ -11,7 +11,7 @@
             <tbody>
                <row>
                   <entry>Namespace</entry>
-                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
+                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15</entry>
                </row>
                <row>
                   <entry>Annotations</entry>
@@ -23,35 +23,20 @@
                   <entry>Diagram</entry>
                   <entry>
                      <p>
-                            
-                                    
-                                    <imagemap id="pagecontent_xsd_Complex_Type_pc_RegionRefIndexedType">
-                                        
-                                        <image href="img/pagecontent_xsd_Complex_Type_pc_RegionRefIndexedType.jpeg"/>
-                                        
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>229,39,312,83</coords>
-                                                
-                                                
-                                                
-                                                        <xref href="#RegionRefIndexedType_index"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>229,138,326,182</coords>
-                                                
-                                                
-                                                
-                                                        <xref href="#RegionRefIndexedType_regionRef"/>
-                                                    
-                                            </area>
-                                        
-                                    </imagemap>
-                        </p>
+                        <imagemap id="pagecontent_xsd_Complex_Type_pc_RegionRefIndexedType">
+                           <image href="img/pagecontent_xsd_Complex_Type_pc_RegionRefIndexedType.jpeg"/>
+                           <area>
+                              <shape>rect</shape>
+                              <coords>442,75,592,161</coords>
+                              <xref href="#RegionRefIndexedType_index"/>
+                           </area>
+                           <area>
+                              <shape>rect</shape>
+                              <coords>442,257,637,343</coords>
+                              <xref href="#RegionRefIndexedType_regionRef"/>
+                           </area>
+                        </imagemap>
+                     </p>
                   </entry>
                </row>
                <row>

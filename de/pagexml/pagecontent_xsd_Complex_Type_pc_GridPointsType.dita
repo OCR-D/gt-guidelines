@@ -11,7 +11,7 @@
             <tbody>
                <row>
                   <entry>Namespace</entry>
-                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
+                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15</entry>
                </row>
                <row>
                   <entry>Annotations</entry>
@@ -23,35 +23,20 @@
                   <entry>Diagram</entry>
                   <entry>
                      <p>
-                            
-                                    
-                                    <imagemap id="pagecontent_xsd_Complex_Type_pc_GridPointsType">
-                                        
-                                        <image href="img/pagecontent_xsd_Complex_Type_pc_GridPointsType.jpeg"/>
-                                        
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>190,39,273,83</coords>
-                                                
-                                                
-                                                
-                                                        <xref href="#GridPointsType_index"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>190,124,321,168</coords>
-                                                
-                                                
-                                                
-                                                        <xref href="#GridPointsType_points"/>
-                                                    
-                                            </area>
-                                        
-                                    </imagemap>
-                        </p>
+                        <imagemap id="pagecontent_xsd_Complex_Type_pc_GridPointsType">
+                           <image href="img/pagecontent_xsd_Complex_Type_pc_GridPointsType.jpeg"/>
+                           <area>
+                              <shape>rect</shape>
+                              <coords>365,75,515,161</coords>
+                              <xref href="#GridPointsType_index"/>
+                           </area>
+                           <area>
+                              <shape>rect</shape>
+                              <coords>365,231,631,317</coords>
+                              <xref href="#GridPointsType_points"/>
+                           </area>
+                        </imagemap>
+                     </p>
                   </entry>
                </row>
                <row>

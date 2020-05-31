@@ -11,39 +11,29 @@
             <tbody>
                <row>
                   <entry>Namespace</entry>
-                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
+                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15</entry>
                </row>
                <row>
                   <entry>Annotations</entry>
                   <entry>
                      <codeblock outputclass="language-xml">Container for one-to-one relations between layout
 objects (for example: DropCap - paragraph, caption -
-image)</codeblock>
+image).</codeblock>
                   </entry>
                </row>
                <row>
                   <entry>Diagram</entry>
                   <entry>
                      <p>
-                            
-                                    
-                                    <imagemap id="pagecontent_xsd_Complex_Type_pc_RelationsType">
-                                        
-                                        <image href="img/pagecontent_xsd_Complex_Type_pc_RelationsType.jpeg"/>
-                                        
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>262,0,402,44</coords>
-                                                
-                                                
-                                                
-                                                        <xref href="#RelationsType_Relation"/>
-                                                    
-                                            </area>
-                                        
-                                    </imagemap>
-                        </p>
+                        <imagemap id="pagecontent_xsd_Complex_Type_pc_RelationsType">
+                           <image href="img/pagecontent_xsd_Complex_Type_pc_RelationsType.jpeg"/>
+                           <area>
+                              <shape>rect</shape>
+                              <coords>508,0,792,86</coords>
+                              <xref href="#RelationsType_Relation"/>
+                           </area>
+                        </imagemap>
+                     </p>
                   </entry>
                </row>
                <row>
@@ -84,7 +74,7 @@ image)</codeblock>
                   <entry>
                      <codeblock outputclass="language-xml">&lt;complexType name="RelationsType"&gt;
   &lt;annotation&gt;
-    &lt;documentation&gt;Container for one-to-one relations between layout objects (for example: DropCap - paragraph, caption - image)&lt;/documentation&gt;
+    &lt;documentation&gt;Container for one-to-one relations between layout objects (for example: DropCap - paragraph, caption - image).&lt;/documentation&gt;
   &lt;/annotation&gt;
   &lt;sequence minOccurs="1" maxOccurs="unbounded"&gt;
     &lt;element name="Relation" type="pc:RelationType"/&gt;
@@ -106,108 +96,55 @@ image)</codeblock>
                <tbody>
                   <row>
                      <entry>Namespace</entry>
-                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
+                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15</entry>
                   </row>
                   <row>
                      <entry>Diagram</entry>
                      <entry>
                         <p>
-                            
-                                    
-                                    <imagemap id="pagecontent_xsd_Element_pc_Relation">
-                                        
-                                        <image href="img/pagecontent_xsd_Element_pc_Relation.jpeg"/>
-                                        
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>196,79,279,123</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_RelationType.dita#RelationType_id"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>196,133,357,177</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_RelationType.dita#RelationType_type"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>196,187,286,231</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_RelationType.dita#RelationType_custom"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>196,272,295,316</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_RelationType.dita#RelationType_comments"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>273,333,407,377</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_RelationType.dita#RelationType_Labels"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>273,418,425,462</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_RelationType.dita#RelationType_SourceRegionRef"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>273,472,425,516</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_RelationType.dita#RelationType_TargetRegionRef"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>171,3,299,25</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_RelationType.dita#RelationType"/>
-                                                    
-                                            </area>
-                                        
-                                    </imagemap>
+                           <imagemap id="pagecontent_xsd_Element_pc_Relation">
+                              <image href="img/pagecontent_xsd_Element_pc_Relation.jpeg"/>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>396,153,545,239</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_RelationType.dita#RelationType_id"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>396,259,718,345</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_RelationType.dita#RelationType_type"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>396,365,575,451</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_RelationType.dita#RelationType_custom"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>396,521,596,607</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_RelationType.dita#RelationType_comments"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>551,641,819,727</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_RelationType.dita#RelationType_Labels"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>551,797,860,883</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_RelationType.dita#RelationType_SourceRegionRef"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>551,903,860,989</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_RelationType.dita#RelationType_TargetRegionRef"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>346,6,605,50</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_RelationType.dita#RelationType"/>
+                              </area>
+                           </imagemap>
                         </p>
                      </entry>
                   </row>
@@ -253,7 +190,7 @@ image)</codeblock>
                   <row>
                      <entry>Instance</entry>
                      <entry>
-                        <codeblock outputclass="language-xml">&lt;pc:Relation comments="" custom="" id="" type="" xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15"&gt;
+                        <codeblock outputclass="language-xml">&lt;pc:Relation comments="" custom="" id="" type="" xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15"&gt;
   &lt;pc:Labels comments="" externalId="" externalModel="" prefix=""&gt;{0,unbounded}&lt;/pc:Labels&gt;
   &lt;pc:SourceRegionRef regionRef=""&gt;{1,1}&lt;/pc:SourceRegionRef&gt;
   &lt;pc:TargetRegionRef regionRef=""&gt;{1,1}&lt;/pc:TargetRegionRef&gt;

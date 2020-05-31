@@ -11,97 +11,78 @@
             <tbody>
                <row>
                   <entry>Namespace</entry>
-                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
+                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15</entry>
                </row>
                <row>
                   <entry>Annotations</entry>
                   <entry>
-                     <codeblock outputclass="language-xml">Base type for graphemes, grapheme groups and non-printing characters</codeblock>
+                     <codeblock outputclass="language-xml">Base type for graphemes, grapheme groups and non-printing characters.</codeblock>
                   </entry>
                </row>
                <row>
                   <entry>Diagram</entry>
                   <entry>
                      <p>
-                            
-                                    
-                                    <imagemap id="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType">
-                                        
-                                        <image href="img/pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.jpeg"/>
-                                        
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>216,39,299,83</coords>
-                                                
-                                                
-                                                
-                                                        <xref href="#GraphemeBaseType_id"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>216,93,361,137</coords>
-                                                
-                                                
-                                                
-                                                        <xref href="#GraphemeBaseType_index"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>216,192,317,236</coords>
-                                                
-                                                
-                                                
-                                                        <xref href="#GraphemeBaseType_ligature"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>216,246,377,290</coords>
-                                                
-                                                
-                                                
-                                                        <xref href="#GraphemeBaseType_charType"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>216,345,306,389</coords>
-                                                
-                                                
-                                                
-                                                        <xref href="#GraphemeBaseType_custom"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>216,430,315,474</coords>
-                                                
-                                                
-                                                
-                                                        <xref href="#GraphemeBaseType_comments"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>293,522,442,566</coords>
-                                                
-                                                
-                                                
-                                                        <xref href="#GraphemeBaseType_TextEquiv"/>
-                                                    
-                                            </area>
-                                        
-                                    </imagemap>
-                        </p>
+                        <imagemap id="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType">
+                           <image href="img/pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.jpeg"/>
+                           <area>
+                              <shape>rect</shape>
+                              <coords>414,75,563,161</coords>
+                              <xref href="#GraphemeBaseType_id"/>
+                           </area>
+                           <area>
+                              <shape>rect</shape>
+                              <coords>414,181,706,267</coords>
+                              <xref href="#GraphemeBaseType_index"/>
+                           </area>
+                           <area>
+                              <shape>rect</shape>
+                              <coords>414,389,618,475</coords>
+                              <xref href="#GraphemeBaseType_ligature"/>
+                           </area>
+                           <area>
+                              <shape>rect</shape>
+                              <coords>414,495,736,581</coords>
+                              <xref href="#GraphemeBaseType_charType"/>
+                           </area>
+                           <area>
+                              <shape>rect</shape>
+                              <coords>414,677,593,763</coords>
+                              <xref href="#GraphemeBaseType_custom"/>
+                           </area>
+                           <area>
+                              <shape>rect</shape>
+                              <coords>414,833,614,919</coords>
+                              <xref href="#GraphemeBaseType_comments"/>
+                           </area>
+                           <area>
+                              <shape>rect</shape>
+                              <coords>569,1003,870,1089</coords>
+                              <xref href="#GraphemeBaseType_TextEquiv"/>
+                           </area>
+                        </imagemap>
+                     </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Properties</entry>
+                  <entry>
+                     <p>
+                        <table frame="all" rowsep="1" colsep="1">
+                           <tgroup cols="2">
+                              <colspec colwidth="2*" align="left"/>
+                              <colspec colwidth="8*" align="left"/>
+                              <tbody>
+                                 <row>
+                                    <entry>abstract: </entry>
+                                    <entry>
+                                       <b>true</b>
+                                    </entry>
+                                 </row>
+                              </tbody>
+                           </tgroup>
+                        </table>
+                     </p>
                   </entry>
                </row>
                <row>
@@ -163,7 +144,8 @@
                                  </row>
                                  <row>
                                     <entry namest="col1" nameend="col3">
-                                       <codeblock outputclass="language-xml">Type of character represented by the grapheme/group/non-printing character element</codeblock>
+                                       <codeblock outputclass="language-xml">Type of character represented by the
+grapheme, group, or non-printing character element.</codeblock>
                                     </entry>
                                  </row>
                                  <row>
@@ -206,7 +188,8 @@
                                  </row>
                                  <row>
                                     <entry namest="col1" nameend="col3">
-                                       <codeblock outputclass="language-xml">Order index of grapheme, group, or non-printing character within the parent container (graphemes or glyph or grapheme group)</codeblock>
+                                       <codeblock outputclass="language-xml">Order index of grapheme, group, or non-printing character
+within the parent container (graphemes or glyph or grapheme group).</codeblock>
                                     </entry>
                                  </row>
                                  <row>
@@ -225,18 +208,17 @@
                <row>
                   <entry>Source</entry>
                   <entry>
-                     <codeblock outputclass="language-xml">&lt;complexType name="GraphemeBaseType"&gt;
+                     <codeblock outputclass="language-xml">&lt;complexType name="GraphemeBaseType" abstract="true"&gt;
   &lt;annotation&gt;
-    &lt;documentation&gt;Base type for graphemes, grapheme groups and non-printing characters&lt;/documentation&gt;
+    &lt;documentation&gt;Base type for graphemes, grapheme groups and non-printing characters.&lt;/documentation&gt;
   &lt;/annotation&gt;
   &lt;sequence&gt;
-    &lt;element name="TextEquiv" type="pc:TextEquivType" minOccurs="0" maxOccurs="unbounded"&gt;
-    &lt;/element&gt;
+    &lt;element name="TextEquiv" type="pc:TextEquivType" minOccurs="0" maxOccurs="unbounded"/&gt;
   &lt;/sequence&gt;
   &lt;attribute name="id" type="ID" use="required"/&gt;
   &lt;attribute name="index" use="required"&gt;
     &lt;annotation&gt;
-      &lt;documentation&gt;Order index of grapheme, group, or non-printing character within the parent container (graphemes or glyph or grapheme group)&lt;/documentation&gt;
+      &lt;documentation&gt;Order index of grapheme, group, or non-printing character within the parent container (graphemes or glyph or grapheme group).&lt;/documentation&gt;
     &lt;/annotation&gt;
     &lt;simpleType&gt;
       &lt;restriction base="int"&gt;
@@ -247,7 +229,7 @@
   &lt;attribute name="ligature" type="boolean"/&gt;
   &lt;attribute name="charType"&gt;
     &lt;annotation&gt;
-      &lt;documentation&gt;Type of character represented by the grapheme/group/non-printing character element&lt;/documentation&gt;
+      &lt;documentation&gt;Type of character represented by the grapheme, group, or non-printing character element.&lt;/documentation&gt;
     &lt;/annotation&gt;
     &lt;simpleType&gt;
       &lt;restriction base="string"&gt;
@@ -357,7 +339,8 @@
                   <row>
                      <entry>Annotations</entry>
                      <entry>
-                        <codeblock outputclass="language-xml">Order index of grapheme, group, or non-printing character within the parent container (graphemes or glyph or grapheme group)</codeblock>
+                        <codeblock outputclass="language-xml">Order index of grapheme, group, or non-printing character
+within the parent container (graphemes or glyph or grapheme group).</codeblock>
                      </entry>
                   </row>
                   <row>
@@ -432,7 +415,7 @@
                      <entry>
                         <codeblock outputclass="language-xml">&lt;attribute name="index" use="required"&gt;
   &lt;annotation&gt;
-    &lt;documentation&gt;Order index of grapheme, group, or non-printing character within the parent container (graphemes or glyph or grapheme group)&lt;/documentation&gt;
+    &lt;documentation&gt;Order index of grapheme, group, or non-printing character within the parent container (graphemes or glyph or grapheme group).&lt;/documentation&gt;
   &lt;/annotation&gt;
   &lt;simpleType&gt;
     &lt;restriction base="int"&gt;
@@ -531,7 +514,8 @@
                   <row>
                      <entry>Annotations</entry>
                      <entry>
-                        <codeblock outputclass="language-xml">Type of character represented by the grapheme/group/non-printing character element</codeblock>
+                        <codeblock outputclass="language-xml">Type of character represented by the
+grapheme, group, or non-printing character element.</codeblock>
                      </entry>
                   </row>
                   <row>
@@ -611,7 +595,7 @@
                      <entry>
                         <codeblock outputclass="language-xml">&lt;attribute name="charType"&gt;
   &lt;annotation&gt;
-    &lt;documentation&gt;Type of character represented by the grapheme/group/non-printing character element&lt;/documentation&gt;
+    &lt;documentation&gt;Type of character represented by the grapheme, group, or non-printing character element.&lt;/documentation&gt;
   &lt;/annotation&gt;
   &lt;simpleType&gt;
     &lt;restriction base="string"&gt;
@@ -795,108 +779,55 @@
                <tbody>
                   <row>
                      <entry>Namespace</entry>
-                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
+                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15</entry>
                   </row>
                   <row>
                      <entry>Diagram</entry>
                      <entry>
                         <p>
-                            
-                                    
-                                    <imagemap id="pagecontent_xsd_Element_pc_TextEquiv">
-                                        
-                                        <image href="img/pagecontent_xsd_Element_pc_TextEquiv.jpeg"/>
-                                        
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>205,79,372,123</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_TextEquivType.dita#TextEquivType_index"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>205,178,361,222</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_TextEquivType.dita#TextEquivType_conf"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>205,263,405,307</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_TextEquivType.dita#TextEquivType_dataType"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>205,362,332,406</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_TextEquivType.dita#TextEquivType_dataTypeDetails"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>205,461,304,505</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_TextEquivType.dita#TextEquivType_comments"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>262,522,352,566</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_TextEquivType.dita#TextEquivType_PlainText"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>262,635,352,679</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_TextEquivType.dita#TextEquivType_Unicode"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>180,3,317,25</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_TextEquivType.dita#TextEquivType"/>
-                                                    
-                                            </area>
-                                        
-                                    </imagemap>
+                           <imagemap id="pagecontent_xsd_Element_pc_TextEquiv">
+                              <image href="img/pagecontent_xsd_Element_pc_TextEquiv.jpeg"/>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>413,153,748,239</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_TextEquivType.dita#TextEquivType_index"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>413,361,731,447</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_TextEquivType.dita#TextEquivType_conf"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>413,517,821,603</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_TextEquivType.dita#TextEquivType_dataType"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>413,699,670,785</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_TextEquivType.dita#TextEquivType_dataTypeDetails"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>413,881,613,967</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_TextEquivType.dita#TextEquivType_comments"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>527,1001,706,1087</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_TextEquivType.dita#TextEquivType_PlainText"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>527,1235,706,1321</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_TextEquivType.dita#TextEquivType_Unicode"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>363,6,639,50</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_TextEquivType.dita#TextEquivType"/>
+                              </area>
+                           </imagemap>
                         </p>
                      </entry>
                   </row>
@@ -954,7 +885,7 @@
                   <row>
                      <entry>Instance</entry>
                      <entry>
-                        <codeblock outputclass="language-xml">&lt;pc:TextEquiv comments="" conf="" dataType="" dataTypeDetails="" index="" xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15"&gt;
+                        <codeblock outputclass="language-xml">&lt;pc:TextEquiv comments="" conf="" dataType="" dataTypeDetails="" index="" xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15"&gt;
   &lt;pc:PlainText&gt;{0,1}&lt;/pc:PlainText&gt;
   &lt;pc:Unicode&gt;{1,1}&lt;/pc:Unicode&gt;
 &lt;/pc:TextEquiv&gt;</codeblock>
@@ -1009,8 +940,9 @@
                                     </row>
                                     <row>
                                        <entry namest="col1" nameend="col3">
-                                          <codeblock outputclass="language-xml">Type of text content (is it free text or a number, for instance)
-This is only a descriptive attribute, the text type is not checked during XML validation</codeblock>
+                                          <codeblock outputclass="language-xml">Type of text content (is it free text or a number, for instance).
+This is only a descriptive attribute, the text type
+is not checked during XML validation.</codeblock>
                                        </entry>
                                     </row>
                                     <row>
@@ -1034,7 +966,9 @@ This is only a descriptive attribute, the text type is not checked during XML va
                                     </row>
                                     <row>
                                        <entry namest="col1" nameend="col3">
-                                          <codeblock outputclass="language-xml">Used for sort order in case multiple TextEquivs are defined. The text content with the lowest index should be interpreted as the main text content.</codeblock>
+                                          <codeblock outputclass="language-xml">Used for sort order in case multiple TextEquivs are defined.
+The text content with the lowest index should be interpreted
+as the main text content.</codeblock>
                                        </entry>
                                     </row>
                                  </tbody>
@@ -1046,8 +980,7 @@ This is only a descriptive attribute, the text type is not checked during XML va
                   <row>
                      <entry>Source</entry>
                      <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="TextEquiv" type="pc:TextEquivType" minOccurs="0" maxOccurs="unbounded"&gt;
-&lt;/element&gt;</codeblock>
+                        <codeblock outputclass="language-xml">&lt;element name="TextEquiv" type="pc:TextEquivType" minOccurs="0" maxOccurs="unbounded"/&gt;</codeblock>
                      </entry>
                   </row>
                </tbody>

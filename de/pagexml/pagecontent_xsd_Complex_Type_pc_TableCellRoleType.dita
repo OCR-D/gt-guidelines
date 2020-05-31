@@ -11,71 +11,41 @@
             <tbody>
                <row>
                   <entry>Namespace</entry>
-                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
+                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15</entry>
                </row>
                <row>
                   <entry>Diagram</entry>
                   <entry>
                      <p>
-                            
-                                    
-                                    <imagemap id="pagecontent_xsd_Complex_Type_pc_TableCellRoleType">
-                                        
-                                        <image href="img/pagecontent_xsd_Complex_Type_pc_TableCellRoleType.jpeg"/>
-                                        
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>185,39,281,83</coords>
-                                                
-                                                
-                                                
-                                                        <xref href="#TableCellRoleType_rowIndex"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>185,124,295,168</coords>
-                                                
-                                                
-                                                
-                                                        <xref href="#TableCellRoleType_columnIndex"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>185,209,280,253</coords>
-                                                
-                                                
-                                                
-                                                        <xref href="#TableCellRoleType_rowSpan"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>185,294,274,338</coords>
-                                                
-                                                
-                                                
-                                                        <xref href="#TableCellRoleType_colSpan"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>185,379,286,423</coords>
-                                                
-                                                
-                                                
-                                                        <xref href="#TableCellRoleType_header"/>
-                                                    
-                                            </area>
-                                        
-                                    </imagemap>
-                        </p>
+                        <imagemap id="pagecontent_xsd_Complex_Type_pc_TableCellRoleType">
+                           <image href="img/pagecontent_xsd_Complex_Type_pc_TableCellRoleType.jpeg"/>
+                           <area>
+                              <shape>rect</shape>
+                              <coords>378,75,564,161</coords>
+                              <xref href="#TableCellRoleType_rowIndex"/>
+                           </area>
+                           <area>
+                              <shape>rect</shape>
+                              <coords>378,231,597,317</coords>
+                              <xref href="#TableCellRoleType_columnIndex"/>
+                           </area>
+                           <area>
+                              <shape>rect</shape>
+                              <coords>378,387,563,473</coords>
+                              <xref href="#TableCellRoleType_rowSpan"/>
+                           </area>
+                           <area>
+                              <shape>rect</shape>
+                              <coords>378,569,556,655</coords>
+                              <xref href="#TableCellRoleType_colSpan"/>
+                           </area>
+                           <area>
+                              <shape>rect</shape>
+                              <coords>378,751,582,837</coords>
+                              <xref href="#TableCellRoleType_header"/>
+                           </area>
+                        </imagemap>
+                     </p>
                   </entry>
                </row>
                <row>
@@ -196,17 +166,17 @@
       &lt;documentation&gt;Cell position in table starting with column 0&lt;/documentation&gt;
     &lt;/annotation&gt;
   &lt;/attribute&gt;
-  &lt;attribute name="rowSpan" type="int" use="optional"&gt;
+  &lt;attribute name="rowSpan" type="int"&gt;
     &lt;annotation&gt;
       &lt;documentation&gt;Number of rows the cell spans (optional; default is 1)&lt;/documentation&gt;
     &lt;/annotation&gt;
   &lt;/attribute&gt;
-  &lt;attribute name="colSpan" type="int" use="optional"&gt;
+  &lt;attribute name="colSpan" type="int"&gt;
     &lt;annotation&gt;
       &lt;documentation&gt;Number of columns the cell spans (optional; default is 1)&lt;/documentation&gt;
     &lt;/annotation&gt;
   &lt;/attribute&gt;
-  &lt;attribute name="header" type="boolean" use="optional"&gt;
+  &lt;attribute name="header" type="boolean"&gt;
     &lt;annotation&gt;
       &lt;documentation&gt;Is the cell a column or row header?&lt;/documentation&gt;
     &lt;/annotation&gt;
@@ -408,9 +378,9 @@
                                  <colspec colwidth="8*" align="left"/>
                                  <tbody>
                                     <row>
-                                       <entry>use: </entry>
+                                       <entry>content: </entry>
                                        <entry>
-                                          <b>optional</b>
+                                          <b>simple</b>
                                        </entry>
                                     </row>
                                  </tbody>
@@ -443,7 +413,7 @@
                   <row>
                      <entry>Source</entry>
                      <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="rowSpan" type="int" use="optional"&gt;
+                        <codeblock outputclass="language-xml">&lt;attribute name="rowSpan" type="int"&gt;
   &lt;annotation&gt;
     &lt;documentation&gt;Number of rows the cell spans (optional; default is 1)&lt;/documentation&gt;
   &lt;/annotation&gt;
@@ -487,9 +457,9 @@
                                  <colspec colwidth="8*" align="left"/>
                                  <tbody>
                                     <row>
-                                       <entry>use: </entry>
+                                       <entry>content: </entry>
                                        <entry>
-                                          <b>optional</b>
+                                          <b>simple</b>
                                        </entry>
                                     </row>
                                  </tbody>
@@ -522,7 +492,7 @@
                   <row>
                      <entry>Source</entry>
                      <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="colSpan" type="int" use="optional"&gt;
+                        <codeblock outputclass="language-xml">&lt;attribute name="colSpan" type="int"&gt;
   &lt;annotation&gt;
     &lt;documentation&gt;Number of columns the cell spans (optional; default is 1)&lt;/documentation&gt;
   &lt;/annotation&gt;
@@ -566,9 +536,9 @@
                                  <colspec colwidth="8*" align="left"/>
                                  <tbody>
                                     <row>
-                                       <entry>use: </entry>
+                                       <entry>content: </entry>
                                        <entry>
-                                          <b>optional</b>
+                                          <b>simple</b>
                                        </entry>
                                     </row>
                                  </tbody>
@@ -601,7 +571,7 @@
                   <row>
                      <entry>Source</entry>
                      <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="header" type="boolean" use="optional"&gt;
+                        <codeblock outputclass="language-xml">&lt;attribute name="header" type="boolean"&gt;
   &lt;annotation&gt;
     &lt;documentation&gt;Is the cell a column or row header?&lt;/documentation&gt;
   &lt;/annotation&gt;

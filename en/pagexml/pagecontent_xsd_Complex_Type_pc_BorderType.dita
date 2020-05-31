@@ -11,37 +11,28 @@
             <tbody>
                <row>
                   <entry>Namespace</entry>
-                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
+                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15</entry>
                </row>
                <row>
                   <entry>Annotations</entry>
                   <entry>
-                     <codeblock outputclass="language-xml">Border of the actual page (if the scanned image contains parts not belonging to the page).</codeblock>
+                     <codeblock outputclass="language-xml">Border of the actual page (if the scanned image
+contains parts not belonging to the page).</codeblock>
                   </entry>
                </row>
                <row>
                   <entry>Diagram</entry>
                   <entry>
                      <p>
-                            
-                                    
-                                    <imagemap id="pagecontent_xsd_Complex_Type_pc_BorderType">
-                                        
-                                        <image href="img/pagecontent_xsd_Complex_Type_pc_BorderType.jpeg"/>
-                                        
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>231,0,368,44</coords>
-                                                
-                                                
-                                                
-                                                        <xref href="#BorderType_Coords"/>
-                                                    
-                                            </area>
-                                        
-                                    </imagemap>
-                        </p>
+                        <imagemap id="pagecontent_xsd_Complex_Type_pc_BorderType">
+                           <image href="img/pagecontent_xsd_Complex_Type_pc_BorderType.jpeg"/>
+                           <area>
+                              <shape>rect</shape>
+                              <coords>443,0,720,86</coords>
+                              <xref href="#BorderType_Coords"/>
+                           </area>
+                        </imagemap>
+                     </p>
                   </entry>
                </row>
                <row>
@@ -104,53 +95,30 @@
                <tbody>
                   <row>
                      <entry>Namespace</entry>
-                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
+                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15</entry>
                   </row>
                   <row>
                      <entry>Diagram</entry>
                      <entry>
                         <p>
-                            
-                                    
-                                    <imagemap id="pagecontent_xsd_Element_pc_Coords">
-                                        
-                                        <image href="img/pagecontent_xsd_Element_pc_Coords.jpeg"/>
-                                        
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>193,79,324,123</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_CoordsType.dita#CoordsType_points"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>193,164,349,208</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_CoordsType.dita#CoordsType_conf"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>168,3,293,25</coords>
-                                                
-                                                
-                                                
-                                                        
-                                                        <xref href="pagecontent_xsd_Complex_Type_pc_CoordsType.dita#CoordsType"/>
-                                                    
-                                            </area>
-                                        
-                                    </imagemap>
+                           <imagemap id="pagecontent_xsd_Element_pc_Coords">
+                              <image href="img/pagecontent_xsd_Element_pc_Coords.jpeg"/>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>389,153,655,239</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_CoordsType.dita#CoordsType_points"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>389,361,707,447</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_CoordsType.dita#CoordsType_conf"/>
+                              </area>
+                              <area>
+                                 <shape>rect</shape>
+                                 <coords>339,6,591,50</coords>
+                                 <xref href="pagecontent_xsd_Complex_Type_pc_CoordsType.dita#CoordsType"/>
+                              </area>
+                           </imagemap>
                         </p>
                      </entry>
                   </row>
@@ -223,7 +191,13 @@
                                     </row>
                                     <row>
                                        <entry namest="col1" nameend="col3">
-                                          <codeblock outputclass="language-xml">Point list with format "x1,y1 x2,y2 ..."</codeblock>
+                                          <codeblock outputclass="language-xml">Polygon outline of the element as a path of points.
+No points may lie outside the outline of its parent,
+which in the case of Border is the bounding rectangle
+of the root image. Paths are closed by convention,
+i.e. the last point logically connects with the first
+(and at least 3 points are required to span an area).
+Paths must be planar (i.e. must not self-intersect).</codeblock>
                                        </entry>
                                     </row>
                                  </tbody>

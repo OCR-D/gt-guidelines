@@ -11,7 +11,7 @@
             <tbody>
                <row>
                   <entry>Namespace</entry>
-                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2018-07-15</entry>
+                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15</entry>
                </row>
                <row>
                   <entry>Annotations</entry>
@@ -23,55 +23,30 @@
                   <entry>Diagram</entry>
                   <entry>
                      <p>
-                            
-                                    
-                                    <imagemap id="pagecontent_xsd_Complex_Type_pc_UserAttributeType">
-                                        
-                                        <image href="img/pagecontent_xsd_Complex_Type_pc_UserAttributeType.jpeg"/>
-                                        
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>205,39,295,83</coords>
-                                                
-                                                
-                                                
-                                                        <xref href="#UserAttributeType_name"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>205,93,308,137</coords>
-                                                
-                                                
-                                                
-                                                        <xref href="#UserAttributeType_description"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>205,147,366,191</coords>
-                                                
-                                                
-                                                
-                                                        <xref href="#UserAttributeType_type"/>
-                                                    
-                                            </area>
-                                          
-                                            <area>
-                                                <shape>rect</shape>
-                                                <coords>205,201,295,245</coords>
-                                                
-                                                
-                                                
-                                                        <xref href="#UserAttributeType_value"/>
-                                                    
-                                            </area>
-                                        
-                                    </imagemap>
-                        </p>
+                        <imagemap id="pagecontent_xsd_Complex_Type_pc_UserAttributeType">
+                           <image href="img/pagecontent_xsd_Complex_Type_pc_UserAttributeType.jpeg"/>
+                           <area>
+                              <shape>rect</shape>
+                              <coords>389,75,568,161</coords>
+                              <xref href="#UserAttributeType_name"/>
+                           </area>
+                           <area>
+                              <shape>rect</shape>
+                              <coords>389,181,594,267</coords>
+                              <xref href="#UserAttributeType_description"/>
+                           </area>
+                           <area>
+                              <shape>rect</shape>
+                              <coords>389,287,711,373</coords>
+                              <xref href="#UserAttributeType_type"/>
+                           </area>
+                           <area>
+                              <shape>rect</shape>
+                              <coords>389,393,568,479</coords>
+                              <xref href="#UserAttributeType_value"/>
+                           </area>
+                        </imagemap>
+                     </p>
                   </entry>
                </row>
                <row>
