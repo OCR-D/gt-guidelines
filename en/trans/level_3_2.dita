@@ -1,38 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="level_3_2">
-    <title>Level 3</title>
-    <body>
-        <p>Umlauts are transcribed according to the original, i.&#x202f;e. the umlauts in the common
+  <title>Level 3</title>
+  <body>
+    <p>Umlauts are transcribed according to the original, i. e. the umlauts in the common
             forms <tt>Ä</tt>, <tt>Ö</tt>, <tt>Ü</tt>, <tt>ä</tt>, <tt>ö</tt>, <tt>ü</tt> are
             distinguished from those which are marked by a superscript <tt>e</tt> over a vowel. In
             the case of the superscript e over the vowel, this sign is transcribed by a code point.
             If there is a specific code point in the respective code table, the standardized coding
-            (Unicode) or the community standardized coding such as <xref
-                href="http://folk.uib.no/hnooh/mufi/" format="html" scope="external">MUFI</xref> or
+            (Unicode) or the community standardized coding such as <xref href="http://folk.uib.no/hnooh/mufi/" format="html" scope="external">MUFI</xref> or
             the OCR-D code definition used in coordination with the OCR-D coordination project shall
             be used for the coding in subsequent use of jointly concluded agreements of major
             international projects such as IMPACT, EEBO, ECCO. The Unicode encoding is preferable to
             other encodings.</p>
-<p>
-<simpletable frame="all" relcolwidth="1* 1*" id="simpletable_etj_rhq_mbb">
-<sthead>
-<stentry>Example</stentry>
-<stentry>Code</stentry>
-</sthead>
-<strow>
-<stentry><image href="images/E42C.png" id="image_ljb_3jq_mbb"/></stentry>
-<stentry>&amp;#E42C;</stentry>
-</strow>
-<strow>
-<stentry><image href="images/E644.png" id="image_g1n_mjq_mbb"/></stentry>
-<stentry>&amp;#E644;</stentry>
-</strow>
-<strow>
-<stentry><image href="images/E72B.png" id="image_g1n_mjq_mbx"/></stentry>
-<stentry>&amp;#E72B;</stentry>
-</strow>
-</simpletable>
-</p>
-    </body>
+    <p>
+      <simpletable frame="all" relcolwidth="1* 1*" id="simpletable_etj_rhq_mbb">
+        <sthead>
+          <stentry>Example</stentry>
+          <stentry>Code</stentry>
+        </sthead>
+        <strow>
+          <stentry>
+            <image href="images/E42C.png" id="image_ljb_3jq_mbb"/>
+          </stentry>
+          <stentry>&amp;#E42C;</stentry>
+        </strow>
+        <strow>
+          <stentry>
+            <image href="images/E644.png" id="image_g1n_mjq_mbb"/>
+          </stentry>
+          <stentry>&amp;#E644;</stentry>
+        </strow>
+        <strow>
+          <stentry>
+            <image href="images/E72B.png" id="image_g1n_mjq_mbx"/>
+          </stentry>
+          <stentry>&amp;#E72B;</stentry>
+        </strow>
+      </simpletable>
+    </p>
+  </body>
 </topic>

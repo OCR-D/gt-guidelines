@@ -1,23 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="lyBogensignatur">
-    <title>Bogensignatur (signature-mark)</title>
-    <body>
-<p>Bogensignaturen befinden sich wie Kustoden unterhalb des Satzspiegels. Sie bezeichnen den Bogen
+  <title>Bogensignatur (signature-mark)</title>
+  <body>
+    <p>Bogensignaturen befinden sich wie Kustoden unterhalb des Satzspiegels. Sie bezeichnen den Bogen
 oder die Lage im Buch und dienen somit dem Buchbinder als Vorgabe für die Realisierung der korrekten
 Reihenfolge. Diese Angabe (aus Buchstaben und Ziffern bestehend) befindet sich zumeist auf gleicher
 Höhe mit der evtl. existierenden Kustode und ist fast immer mittig angeordnet. Ausnahmen bilden ggf.
 einleitende Bandangaben bei mehrbändigen Werken, die am Zeilenbeginn stehen.</p>
-<p>Fußnoten können jedoch noch darunter erscheinen, sodass die Zeile nicht in jedem Fall die letzte
+    <p>Fußnoten können jedoch noch darunter erscheinen, sodass die Zeile nicht in jedem Fall die letzte
 Information auf der gedruckten Seite darstellt.</p>
-
-<fig>
-<title>Beispiel: Bogensignatur</title>
-<image href="images/lyBogensignatur.png" id="image_i23_5sf_h1b" scale="50"/>
-</fig>
-    </body>
-<related-links><link href="../pagexml/pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType" format="dita"/>
-<link
-href="../pagexml/pagecontent_xsd_Simple_Type_pc_TextTypeSimpleType.dita#TextTypeSimpleType" format="dita"
-/></related-links>
+    <fig>
+      <title>Beispiel: Bogensignatur</title>
+      <image href="images/lyBogensignatur.png" id="image_i23_5sf_h1b" scale="50"/>
+    </fig>
+  </body>
+  <related-links>
+    <link href="../pagexml/pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType" format="dita"/>
+    <link href="../pagexml/pagecontent_xsd_Simple_Type_pc_TextTypeSimpleType.dita#TextTypeSimpleType" format="dita"/>
+  </related-links>
 </topic>

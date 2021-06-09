@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="lyChemische_Symbole">
-    <title>Chemical symbols (ChemRegion)</title>
-    <body>
-        <p>Chemical symbols and formulae shall not be labelled as text regions, but as region
+  <title>Chemical symbols (ChemRegion)</title>
+  <body>
+    <p>Chemical symbols and formulae shall not be labelled as text regions, but as region
             "chemical symbols". Individual characters which are used in reaction equations or the
             like are not recorded as text.</p>
-<p><image href="images/lyChemische_Symbole.png" id="image_yfn_shq_51b" scale="50"/></p>
-    </body>
-<related-links>
-<link
-href="../pagexml/pagecontent_xsd_Complex_Type_pc_ChemRegionType.dita#ChemRegionType" format="dita"/>
-</related-links>
+    <p>
+      <image href="images/lyChemische_Symbole.png" id="image_yfn_shq_51b" scale="50"/>
+    </p>
+  </body>
+  <related-links>
+    <link href="../pagexml/pagecontent_xsd_Complex_Type_pc_ChemRegionType.dita#ChemRegionType" format="dita"/>
+  </related-links>
 </topic>

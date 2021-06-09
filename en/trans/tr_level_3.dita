@@ -1,30 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="tr_level_3">
-<title>Level 3</title>
-<body>
-<p>Both the consonant ligatures (tz, ct, ts, ff etc.) as well as the ligature ij and the ligatures
+  <title>Level 3</title>
+  <body>
+    <p>Both the consonant ligatures (tz, ct, ts, ff etc.) as well as the ligature ij and the ligatures
             commonly used in German-language texts such as ﬁ, ﬂ, ft, their derivatives, as well as
             fk, fj, fh, fb, fz, ll, mm, nn, st, ch, ck, ct, th, tt, tz, kk, Qu, ſi, ſſ, ﬅ, ſch are
             to be represented as code points using <b>standardised codes</b> (Unicode), <b>Community
-                standardised codes</b> (<xref href="http://folk.uib.no/hnooh/mufi/" format="html"
-                scope="external">MUFI</xref>) and codes defined by the coordination project in
+                standardised codes</b> (<xref href="http://folk.uib.no/hnooh/mufi/" format="html" scope="external">MUFI</xref>) and codes defined by the coordination project in
             agreements with major international projects. Several encodings are not combined to form
             one character.</p>
-</body>
-<related-links>
-<linklist>
-<link href="ocr_d_koordinationsgremium_codierung.dita#ocr_d_koordinationsgremium_codierung"/>
-</linklist>
-<linklist>
-<title>The Unicode Consortium</title>
-<link href="http://www.unicode.org/" format="html" scope="external"/>
-</linklist>
-<linklist>
-<title>Medieval Unicode Font Initiative</title>
-<link href="http://folk.uib.no/hnooh/mufi/" format="html" scope="external"/>
-
-
-</linklist>
-</related-links>
+  </body>
+  <related-links>
+    <linklist>
+      <link href="ocr_d_koordinationsgremium_codierung.dita#ocr_d_koordinationsgremium_codierung"/>
+    </linklist>
+    <linklist>
+      <title>The Unicode Consortium</title>
+      <link href="http://www.unicode.org/" format="html" scope="external"/>
+    </linklist>
+    <linklist>
+      <title>Medieval Unicode Font Initiative</title>
+      <link href="http://folk.uib.no/hnooh/mufi/" format="html" scope="external"/>
+    </linklist>
+  </related-links>
 </topic>

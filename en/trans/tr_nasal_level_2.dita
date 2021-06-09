@@ -1,30 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="tr_nasal_level_2">
-    <title>Level 2</title>
-    <body>
-<p>Abbreviation lines, which appear as bars or wavy lines above letters and as substituents for
+  <title>Level 2</title>
+  <body>
+    <p>Abbreviation lines, which appear as bars or wavy lines above letters and as substituents for
             omitted characters, are generally regarded as a combination of two characters. A
             character combination is formed from the grapheme and the superimposed tilde. For this
-            the Unicode <tt>U+0303, COMBINING TILDE</tt> is used.</p> <table>
-<tgroup cols="2">
-<thead>
-<row>
-<entry>Original</entry>
-<entry>Transcription</entry>
-</row>
-</thead>
-<tbody>
-<row>
-<entry><image href="images/frommen.jpg"/></entry>
-<entry><codeph>from&amp;#x0303;en</codeph></entry>
-</row>
-                    <row>
-                        <entry><image href="images/und_macht.jpg" id="image_cdk_dcb_pbb"/></entry>
-                        <entry><codeph>Un&amp;#x0303; macht</codeph></entry>
-                    </row>
-</tbody>
-</tgroup>
-</table>
-    </body>
+            the Unicode <tt>U+0303, COMBINING TILDE</tt> is used.</p>
+    <table>
+      <tgroup cols="2">
+        <thead>
+          <row>
+            <entry>Original</entry>
+            <entry>Transcription</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>
+              <image href="images/frommen.jpg"/>
+            </entry>
+            <entry>
+              <tt>from&#x0303;en</tt>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <image href="images/und_macht.jpg" id="image_cdk_dcb_pbb"/>
+            </entry>
+            <entry>
+              <tt>Un&#x0303; macht</tt>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </body>
 </topic>

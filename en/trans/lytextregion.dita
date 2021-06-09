@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="textregionen__textregion_">
-    <title>TextRegion</title>
-    <body>
-<p>The <tt>TextRegion</tt> is divided into further sub-specifications, which are to be defined in
+  <title>TextRegion</title>
+  <body>
+    <p>The <tt>TextRegion</tt> is divided into further sub-specifications, which are to be defined in
             more detail, such as column headers, headings, paragraph regions... Within these
             regions, the individual texts may have typographical peculiarities that can also be
             labelled.</p>
-</body>
-<related-links>
-<link href="lyTypographie.dita#lyTypographie"/>
-<link
-href="../pagexml/pagecontent_xsd_Complex_Type_pc_TextRegionType.dita#TextRegionType" format="dita"/>
-</related-links>
+  </body>
+  <related-links>
+    <link href="lyTypographie.dita#lyTypographie"/>
+    <link href="../pagexml/pagecontent_xsd_Complex_Type_pc_TextRegionType.dita#TextRegionType" format="dita"/>
+  </related-links>
 </topic>

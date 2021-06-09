@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="trHandschrift">
-    <title>Handschriftliche Anmerkungen</title>
-<body>
-        <p>Handschriftliche Anmerkungen sind unter anderem alle zusätzlichen zum gedruckten Text
+  <title>Handschriftliche Anmerkungen</title>
+  <body>
+    <p>Handschriftliche Anmerkungen sind unter anderem alle zusätzlichen zum gedruckten Text
 hinzugesetzten Zeichen, Text(e), Unterstreichungen sowie Durchstreichungen. Diese Anmerkungen sind
 nicht zu transkribieren. </p>
-<p>Handschriftliche Anmerkungen werden als <codeph>GraphicRegion
+    <p>Handschriftliche Anmerkungen werden als <codeph>GraphicRegion
 type="handwritten-annotation"</codeph> gekennzeichnet.</p>
-    </body>
-<related-links>
-<link format="dita"
-href="../pagexml/pagecontent_xsd_Complex_Type_pc_GraphicRegionType.dita#GraphicRegionType"/>
-</related-links>
-
+  </body>
+  <related-links>
+    <link format="dita" href="../pagexml/pagecontent_xsd_Complex_Type_pc_GraphicRegionType.dita#GraphicRegionType"/>
+  </related-links>
 </topic>

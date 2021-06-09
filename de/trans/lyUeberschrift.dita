@@ -1,22 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="lyÜberschrift">
-<title>Überschrift (heading)</title>
-<body>
-<p>Überschriften aller Art, die sich auf folgende Textabschnitte beziehen, sind als solche
+  <title>Überschrift (heading)</title>
+  <body>
+    <p>Überschriften aller Art, die sich auf folgende Textabschnitte beziehen, sind als solche
 auszuzeichnen. Werden Überschriften als Kolumnentitel wieder aufgenommen bzw. erscheinen sie als
 Einträge in Inhaltsverzeichnissen, werden sie nicht als Überschrift erfasst, sondern als
 Kolumnentitel bzw. als TOC-entry eines Inhaltsverzeichnisses.</p>
-
-<p><image href="images/lyUeberschrift.jpg" height="597" width="605" id="image_xt1_k2j_r1b"
-scale="50"/></p>
-</body>
-<related-links>
-<link href="lyInhaltsverzeichnis.dita#lyInhaltsverzeichnis"/>
-<link href="lyKolumnentitel.dita#lyKolumnentitel"/>
-<link href="../pagexml/pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType" format="dita"/>
-<link
-href="../pagexml/pagecontent_xsd_Simple_Type_pc_TextTypeSimpleType.dita#TextTypeSimpleType" format="dita"
-/>
-</related-links>
+    <p>
+      <image href="images/lyUeberschrift.jpg" height="597" width="605" id="image_xt1_k2j_r1b" scale="50"/>
+    </p>
+  </body>
+  <related-links>
+    <link href="lyInhaltsverzeichnis.dita#lyInhaltsverzeichnis"/>
+    <link href="lyKolumnentitel.dita#lyKolumnentitel"/>
+    <link href="../pagexml/pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType" format="dita"/>
+    <link href="../pagexml/pagecontent_xsd_Simple_Type_pc_TextTypeSimpleType.dita#TextTypeSimpleType" format="dita"/>
+  </related-links>
 </topic>

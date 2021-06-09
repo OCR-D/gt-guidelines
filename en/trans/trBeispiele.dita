@@ -2,17 +2,22 @@
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="Uebersichten">
   <title>Overviews and Examples</title>
-<shortdesc>The following overviews of alphabets, abbreviations, special characters and ligatures are
+  <shortdesc>The following overviews of alphabets, abbreviations, special characters and ligatures are
     intended as examples and for the identification of individual characters.</shortdesc>
-<body>
-<p>If a character or sign has not been defined by the Unicode Consortium, but by the <b>M</b>edieval
+  <body>
+    <p>If a character or sign has not been defined by the Unicode Consortium, but by the <b>M</b>edieval
         <b>U</b>nicode <b>F</b>ont <b>I</b>nitiative (MUFI) as a fixed code point within the Private
       Use Area (PUA), only the so-called Mufi entity may be used for transcription.</p>
     <p>The rules defined here apply to the transcription of ligatures.</p>
-</body>
-<related-links>
-<linklist><title>Medieval Unicode Font Initiative</title><link href="http://folk.uib.no/hnooh/mufi/" format="html" scope="external"/></linklist>
-<linklist><title>MUFI character recommendation v. 4.0 </title><link href="http://hdl.handle.net/1956/10699" format="html" scope="external"/>
-</linklist>
-</related-links>
+  </body>
+  <related-links>
+    <linklist>
+      <title>Medieval Unicode Font Initiative</title>
+      <link href="http://folk.uib.no/hnooh/mufi/" format="html" scope="external"/>
+    </linklist>
+    <linklist>
+      <title>MUFI character recommendation v. 4.0 </title>
+      <link href="http://hdl.handle.net/1956/10699" format="html" scope="external"/>
+    </linklist>
+  </related-links>
 </topic>

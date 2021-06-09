@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="layout">
-    <title>Layout and Structure</title>
-<titlealts><navtitle>Layout and Structure</navtitle></titlealts>
-<abstract>
-<shortdesc>Guidelines for the layout and structure of printed texts for use as Ground
+  <title>Layout and Structure</title>
+  <titlealts>
+    <navtitle>Layout and Structure</navtitle>
+  </titlealts>
+  <abstract>
+    <shortdesc>Guidelines for the layout and structure of printed texts for use as Ground
             Truth</shortdesc>
-</abstract>
-    <body>
-        <p>The purpose of providing Ground-Truth with layout and structure information is to ensure
+  </abstract>
+  <body>
+    <p>The purpose of providing Ground-Truth with layout and structure information is to ensure
             that both in the training process and in the end result of text recognition (OCR+OLR),
             all regions recognizable on a page can be recognized and classified according to the
             requirements. The trained models should contribute to realizing the full text
@@ -16,6 +18,5 @@
             the text accuracy in the overall result of the text recognition process to meet the
             highest scientific requirements. As with the text transcription, the Ground-Truth can be
             available in different recognition depths (levels). </p>
-    </body>
+  </body>
 </topic>
-

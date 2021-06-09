@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="level_2_2">
-    <title>Level 2</title>
-    <body>
-        <p>The <b>technical printing conditions</b> are reproduced and an interpretation of signs is
+  <title>Level 2</title>
+  <body>
+    <p>The <b>technical printing conditions</b> are reproduced and an interpretation of signs is
             oriented towards their <b>use in the language and writing system</b>. For example,
             regarding ligatures, <b>only independent graphemes (vocal ligatures)</b> with a specific
             code point are reproduced using <b>standardized codes</b> (Unicode). <b>Ligatures
                 resulting from the printing technology (consonant ligatures)</b> are generally
                 <b>split up</b>. The information ligature is documented as a formatting
             specification (such as bold, italic...) in the Ground Truth. </p>
-        <p>If the character can only be formed from a combination of two characters within the
+    <p>If the character can only be formed from a combination of two characters within the
             Unicode standard, this combination shall be used and preferred to the encodings defined
             by the coordinating project.</p>
-        <p>Spaces are only reproduced as separators of words.</p>
-        <p>Punctuation marks are always added to the preceding word.</p>
-
-
-
-
-    </body>
+    <p>Spaces are only reproduced as separators of words.</p>
+    <p>Punctuation marks are always added to the preceding word.</p>
+  </body>
 </topic>

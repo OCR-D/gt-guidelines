@@ -1,47 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic
-  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="pagecontent.xsd">
-   <title>Main schema pagecontent.xsd</title>
-   <body>
-      <table frame="all" rowsep="1" colsep="1">
-         <tgroup cols="2">
-            <colspec colwidth="3*" align="left"/>
-            <colspec colwidth="25*" align="left"/>
-            <tbody>
-               <row>
-                  <entry>Namespace</entry>
-                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15</entry>
-               </row>
-               <row>
-                  <entry>Properties</entry>
-                  <entry>
-                     <p>
-                        <table frame="all" rowsep="1" colsep="1">
-                           <tgroup cols="2">
-                              <colspec colwidth="2*" align="left"/>
-                              <colspec colwidth="8*" align="left"/>
-                              <tbody>
-                                 <row>
-                                    <entry>attribute form default: </entry>
-                                    <entry>
-                                       <b>unqualified</b>
-                                    </entry>
-                                 </row>
-                                 <row>
-                                    <entry>element form default: </entry>
-                                    <entry>
-                                       <b>qualified</b>
-                                    </entry>
-                                 </row>
-                              </tbody>
-                           </tgroup>
-                        </table>
-                     </p>
-                  </entry>
-               </row>
-            </tbody>
-         </tgroup>
-      </table>
-   </body>
+  <title>Main schema pagecontent.xsd</title>
+  <body>
+    <table frame="all" rowsep="1" colsep="1">
+      <tgroup cols="2">
+        <colspec colwidth="3*" align="left"/>
+        <colspec colwidth="25*" align="left"/>
+        <tbody>
+          <row>
+            <entry>Namespace</entry>
+            <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15</entry>
+          </row>
+          <row>
+            <entry>Properties</entry>
+            <entry>
+              <p>
+                <table frame="all" rowsep="1" colsep="1">
+                  <tgroup cols="2">
+                    <colspec colwidth="2*" align="left"/>
+                    <colspec colwidth="8*" align="left"/>
+                    <tbody>
+                      <row>
+                        <entry>attribute form default: </entry>
+                        <entry>
+                          <b>unqualified</b>
+                        </entry>
+                      </row>
+                      <row>
+                        <entry>element form default: </entry>
+                        <entry>
+                          <b>qualified</b>
+                        </entry>
+                      </row>
+                    </tbody>
+                  </tgroup>
+                </table>
+              </p>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </body>
 </topic>

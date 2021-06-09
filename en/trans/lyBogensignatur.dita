@@ -1,23 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="lyBogensignatur">
-    <title>Signature mark</title>
-    <body>
-        <p>Like catch words, sheet signatures are located below the print space. They designate the
+  <title>Signature mark</title>
+  <body>
+    <p>Like catch words, sheet signatures are located below the print space. They designate the
             sheet or the position in the book and thus serve the bookbinder as a guideline for the
             realization of the correct sequence. This information (consisting of letters and
             numbers) is usually on the same height as the possibly existing catch word and is almost
             always positioned in the centre.</p>
-        <p>However, footnotes may still appear below, so that the line does not always represent the
+    <p>However, footnotes may still appear below, so that the line does not always represent the
             last piece of information on the printed page.</p>
-
-<fig>
-<title>Example: signature mark</title>
-<image href="images/lyBogensignatur.png" id="image_i23_5sf_h1b" scale="50"/>
-</fig>
-    </body>
-<related-links><link href="../pagexml/pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType" format="dita"/>
-<link
-href="../pagexml/pagecontent_xsd_Simple_Type_pc_TextTypeSimpleType.dita#TextTypeSimpleType" format="dita"
-/></related-links>
+    <fig>
+      <title>Example: signature mark</title>
+      <image href="images/lyBogensignatur.png" id="image_i23_5sf_h1b" scale="50"/>
+    </fig>
+  </body>
+  <related-links>
+    <link href="../pagexml/pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType" format="dita"/>
+    <link href="../pagexml/pagecontent_xsd_Simple_Type_pc_TextTypeSimpleType.dita#TextTypeSimpleType" format="dita"/>
+  </related-links>
 </topic>

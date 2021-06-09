@@ -1,85 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic
-  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="PointsType">
-   <title>Simple Type pc:PointsType</title>
-   <body>
-      <table frame="all" rowsep="1" colsep="1">
-         <tgroup cols="2">
-            <colspec colwidth="3*" align="left"/>
-            <colspec colwidth="25*" align="left"/>
-            <tbody>
-               <row>
-                  <entry>Namespace</entry>
-                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15</entry>
-               </row>
-               <row>
-                  <entry>Annotations</entry>
-                  <entry>
-                     <codeblock outputclass="language-xml">Point list with format "x1,y1 x2,y2 ...", where
+  <title>Simple Type pc:PointsType</title>
+  <body>
+    <table frame="all" rowsep="1" colsep="1">
+      <tgroup cols="2">
+        <colspec colwidth="3*" align="left"/>
+        <colspec colwidth="25*" align="left"/>
+        <tbody>
+          <row>
+            <entry>Namespace</entry>
+            <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15</entry>
+          </row>
+          <row>
+            <entry>Annotations</entry>
+            <entry>
+              <codeblock outputclass="language-xml">Point list with format "x1,y1 x2,y2 ...", where
 "x" / "y" refer to the horizontal / vertical
 pixel positions in a coordinate system which always
 references the root PageType/@imageFilename, with
 "0,0" in the upper left corner of the root image and
 "imageWidth,imageHeight" in the lower right.</codeblock>
-                  </entry>
-               </row>
-               <row>
-                  <entry>Diagram</entry>
-                  <entry>
-                     <p/>
-                  </entry>
-               </row>
-               <row>
-                  <entry>Type</entry>
-                  <entry>restriction of string</entry>
-               </row>
-               <row>
-                  <entry>Facets</entry>
-                  <entry>
-                     <p>
-                        <table frame="all" rowsep="1" colsep="1">
-                           <tgroup cols="3">
-                              <colspec colwidth="2*" align="left"/>
-                              <colspec colwidth="3*" align="left"/>
-                              <colspec colwidth="5*" align="left"/>
-                              <tbody>
-                                 <row>
-                                    <entry>pattern</entry>
-                                    <entry>([0-9]+,[0-9]+ )+([0-9]+,[0-9]+)</entry>
-                                    <entry/>
-                                 </row>
-                              </tbody>
-                           </tgroup>
-                        </table>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>Used by</entry>
-                  <entry>
-                     <p>
-                        <table frame="all" rowsep="1" colsep="1">
-                           <tgroup cols="2">
-                              <colspec colwidth="2*" align="left"/>
-                              <colspec colwidth="8*" align="left"/>
-                              <tbody>
-                                 <row>
-                                    <entry>Attributes </entry>
-                                    <entry>
-                                       <xref href="pagecontent_xsd_Complex_Type_pc_BaselineType.dita#BaselineType_points"/>, <xref href="pagecontent_xsd_Complex_Type_pc_CoordsType.dita#CoordsType_points"/>, <xref href="pagecontent_xsd_Complex_Type_pc_GridPointsType.dita#GridPointsType_points"/>
-                                    </entry>
-                                 </row>
-                              </tbody>
-                           </tgroup>
-                        </table>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>Source</entry>
-                  <entry>
-                     <codeblock outputclass="language-xml">&lt;simpleType name="PointsType"&gt;
+            </entry>
+          </row>
+          <row>
+            <entry>Diagram</entry>
+            <entry>
+              <p/>
+            </entry>
+          </row>
+          <row>
+            <entry>Type</entry>
+            <entry>restriction of string</entry>
+          </row>
+          <row>
+            <entry>Facets</entry>
+            <entry>
+              <p>
+                <table frame="all" rowsep="1" colsep="1">
+                  <tgroup cols="3">
+                    <colspec colwidth="2*" align="left"/>
+                    <colspec colwidth="3*" align="left"/>
+                    <colspec colwidth="5*" align="left"/>
+                    <tbody>
+                      <row>
+                        <entry>pattern</entry>
+                        <entry>([0-9]+,[0-9]+ )+([0-9]+,[0-9]+)</entry>
+                        <entry/>
+                      </row>
+                    </tbody>
+                  </tgroup>
+                </table>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>Used by</entry>
+            <entry>
+              <p>
+                <table frame="all" rowsep="1" colsep="1">
+                  <tgroup cols="2">
+                    <colspec colwidth="2*" align="left"/>
+                    <colspec colwidth="8*" align="left"/>
+                    <tbody>
+                      <row>
+                        <entry>Attributes </entry>
+                        <entry><xref href="pagecontent_xsd_Complex_Type_pc_BaselineType.dita#BaselineType_points"/>, <xref href="pagecontent_xsd_Complex_Type_pc_CoordsType.dita#CoordsType_points"/>, <xref href="pagecontent_xsd_Complex_Type_pc_GridPointsType.dita#GridPointsType_points"/></entry>
+                      </row>
+                    </tbody>
+                  </tgroup>
+                </table>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>Source</entry>
+            <entry>
+              <codeblock outputclass="language-xml">&lt;simpleType name="PointsType"&gt;
   &lt;annotation&gt;
     &lt;documentation&gt;Point list with format "x1,y1 x2,y2 ...", where "x" / "y" refer to the horizontal / vertical pixel positions in a coordinate system which always references the root PageType/@imageFilename, with "0,0" in the upper left corner of the root image and "imageWidth,imageHeight" in the lower right.&lt;/documentation&gt;
   &lt;/annotation&gt;
@@ -87,10 +84,10 @@ references the root PageType/@imageFilename, with
     &lt;pattern value="([0-9]+,[0-9]+ )+([0-9]+,[0-9]+)"/&gt;
   &lt;/restriction&gt;
 &lt;/simpleType&gt;</codeblock>
-                  </entry>
-               </row>
-            </tbody>
-         </tgroup>
-      </table>
-   </body>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </body>
 </topic>

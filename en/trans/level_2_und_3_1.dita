@@ -1,51 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="level_2_und_3_1">
-    <title>Level 2 and 3</title>
-    <body>
-        <p>In both black letter and antiqua texts, two forms of the lower case letter <tt>s</tt> can
+  <title>Level 2 and 3</title>
+  <body>
+    <p>In both black letter and antiqua texts, two forms of the lower case letter <tt>s</tt> can
             occur: the <tt>long-s</tt> (<tt>ſ, U+017F, LATIN SMALL LETTER LONG S</tt>) and the
                 <tt>round s</tt> (<tt>s, U+0073, LATIN SMALL LETTER S</tt>). They are differentiated
             in the transcription. </p>
-<p>The ligature of <tt>long-s</tt> and <tt>z</tt> is <b>not to dissolve</b> but to transcribe as ß
+    <p>The ligature of <tt>long-s</tt> and <tt>z</tt> is <b>not to dissolve</b> but to transcribe as ß
             (spoken sz). Exceptions and particularities are shown in the following table.</p>
-<p>
-<table frame="all" rowsep="1" colsep="1" id="table_j52_dhl_gz">
-<title>Particularities concerning the transcription of <tt>sz</tt></title>
-<tgroup cols="3">
-<colspec colname="c1" colnum="1" colwidth="1.0*"/>
-<colspec colname="c2" colnum="2" colwidth="1.0*"/>
-<colspec colname="newCol3" colnum="3" colwidth="1*"/>
-<thead>
-<row>
-<entry>Original</entry>
-<entry>Explanation</entry>
-<entry>Transcription</entry>
-</row>
-</thead>
-<tbody>
-<row>
-<entry><image href="images/trSchreibungS1.png" id="image_oyw_g5l_gz"/></entry>
-<entry>A <tt>long-s</tt> followed by a <tt>s</tt> is reproduced true to the original as
-                                    <codeph>&amp;#x017F;s</codeph>. </entry>
-<entry><tt>daſs</tt></entry>
-</row>
-<row>
-<entry><image href="images/trSchreibungS2.png" id="image_hv2_yhl_gz"/></entry>
-<entry>A <tt>long-s</tt> followed by a <tt>z</tt>  is reproduced true to the original as
-                                    <codeph>&amp;#x017F;s</codeph>.</entry>
-<entry><tt>hauſſzen</tt></entry>
-</row>
-<row>
-<entry><image href="images/trSchreibungS3.png" id="image_wlc_l5l_gz"/></entry>
-<entry>The ligature <tt>long-s + z</tt>  is reproduced true to the original as <tt>ß</tt>. </entry>
-<entry><tt>daß</tt></entry>
-</row>
-</tbody>
-</tgroup>
-</table>
-</p>
-<p/>
-<p/>
-    </body>
+    <p>
+      <table frame="all" rowsep="1" colsep="1" id="table_j52_dhl_gz">
+        <title>Particularities concerning the transcription of <tt>sz</tt></title>
+        <tgroup cols="3">
+          <colspec colname="c1" colnum="1" colwidth="1.0*"/>
+          <colspec colname="c2" colnum="2" colwidth="1.0*"/>
+          <colspec colname="newCol3" colnum="3" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry>Original</entry>
+              <entry>Explanation</entry>
+              <entry>Transcription</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>
+                <image href="images/trSchreibungS1.png" id="image_oyw_g5l_gz"/>
+              </entry>
+              <entry>A <tt>long-s</tt> followed by a <tt>s</tt> is reproduced true to the original as
+                                    <tt>&#x017F;s</tt>. </entry>
+              <entry>
+                <tt>daſs</tt>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <image href="images/trSchreibungS2.png" id="image_hv2_yhl_gz"/>
+              </entry>
+              <entry>A <tt>long-s</tt> followed by a <tt>z</tt>  is reproduced true to the original as
+                                    <tt>&#x017F;s</tt>.</entry>
+              <entry>
+                <tt>hauſſzen</tt>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <image href="images/trSchreibungS3.png" id="image_wlc_l5l_gz"/>
+              </entry>
+              <entry>The ligature <tt>long-s + z</tt>  is reproduced true to the original as <tt>ß</tt>. </entry>
+              <entry>
+                <tt>daß</tt>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </p>
+    <p/>
+    <p/>
+  </body>
 </topic>

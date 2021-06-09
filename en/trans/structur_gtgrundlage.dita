@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="structur_gtgrundlage">
-<title>Background</title><shortdesc>The OCR-D structure Ground Truth corpus contains publications from the period 1500 to
+  <title>Background</title>
+  <shortdesc>The OCR-D structure Ground Truth corpus contains publications from the period 1500 to
         1900.</shortdesc>
-    <body>
-        <p>The content of the corpus is based on manually entered zoning data, which were compiled
+  <body>
+    <p>The content of the corpus is based on manually entered zoning data, which were compiled
             in the course of the DFG project German Text Archive. This data was used to support
             manual transcription using the double keying method. The zones mark exclusively
             quadratic regions on the digital copy. The digital copies themselves were not altered
             (cropped, dewarped). In contrast to the element repertoire of the PAGE format, parts of
             the data were indexed more deeply as part of the DFG project German Text Archive. This
             in-depth indexing is recorded as the value of the <tt>custom-Atribut</tt>.</p>
-</body>
+  </body>
 </topic>

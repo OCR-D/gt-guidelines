@@ -1,31 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="lyGraphik">
-    <title>Book decoration, drawings (GraphicRegion)</title>
-    <body>
+  <title>Book decoration, drawings (GraphicRegion)</title>
+  <body>
     <p>A <tt>graphicRegion</tt> is used to mark simple graphics, handwritten notes and perforations,
-            among other things. The following elements are considered to be a simple graphic: <ul
-                id="ul_ohy_wt3_t1b">
-                <li>logo</li>
-                <li>letterhead with graphic design (letterhead)</li>
-                <li>decoration</li>
-                <li>frame</li>
-                <li>handwritten-annotation</li>
-                <li>stamp</li>
-                <li>signature</li>
-                <li>barcode</li>
-                <li>paper-grow</li>
-                <li>punch-hole</li>
-                <li>other</li>
-            </ul>
-            <fig>
-                <title>Examples for GraphicRegion: logo, different stamps and signatures</title>
-                <image href="images/lyGraphik.png" id="image_mcp_tv3_t1b" scale="40"/>
-            </fig></p>
-    </body>
-<related-links>
-<link
-href="../pagexml/pagecontent_xsd_Complex_Type_pc_GraphicRegionType.dita#GraphicRegionType" format="dita"
-/>
-</related-links>
+            among other things. The following elements are considered to be a simple graphic: <ul id="ul_ohy_wt3_t1b"><li>logo</li><li>letterhead with graphic design (letterhead)</li><li>decoration</li><li>frame</li><li>handwritten-annotation</li><li>stamp</li><li>signature</li><li>barcode</li><li>paper-grow</li><li>punch-hole</li><li>other</li></ul>
+            <fig><title>Examples for GraphicRegion: logo, different stamps and signatures</title><image href="images/lyGraphik.png" id="image_mcp_tv3_t1b" scale="40"/></fig></p>
+  </body>
+  <related-links>
+    <link href="../pagexml/pagecontent_xsd_Complex_Type_pc_GraphicRegionType.dita#GraphicRegionType" format="dita"/>
+  </related-links>
 </topic>

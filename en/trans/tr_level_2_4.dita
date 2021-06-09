@@ -1,31 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="level_2_4">
-    <title>How to Transcribe in Level 2</title>
-    <body>
-        <p>
-<ol id="ol_j1q_mzz_g1b">
-<li>If the text to be transcribed can be recorded with Unicode characters, these must be used
+  <title>How to Transcribe in Level 2</title>
+  <body>
+    <p>
+      <ol id="ol_j1q_mzz_g1b">
+        <li>If the text to be transcribed can be recorded with Unicode characters, these must be used
                     exclusively.</li>
-<li>If the character can only be formed by combining two characters, this combination must be
+        <li>If the character can only be formed by combining two characters, this combination must be
                     used.</li>
-<li>Apart from the vocal ligatures, all ligatures are split. </li>
-<li>Typographical peculiarities are to be documented as <xref
-                        href="lyTypographie.dita#lyTypographie">formatting details</xref>. This
+        <li>Apart from the vocal ligatures, all ligatures are split. </li>
+        <li>Typographical peculiarities are to be documented as <xref href="lyTypographie.dita#lyTypographie">formatting details</xref>. This
                     includes all non-vocal ligatures.</li>
-<li>If the character cannot be formed from the combination of several characters and if a <xref
-                        href="http://folk.uib.no/hnooh/mufi/" format="html" scope="external">MUFI
-                        equivalent</xref> exists, use <xref href="http://folk.uib.no/hnooh/mufi/"
-                        format="html" scope="external">MUFI</xref>.</li>
-<li>If options 1, 2, 4 are not possible, a code definition shall be used in consultation with the
+        <li>If the character cannot be formed from the combination of several characters and if a <xref href="http://folk.uib.no/hnooh/mufi/" format="html" scope="external">MUFI
+                        equivalent</xref> exists, use <xref href="http://folk.uib.no/hnooh/mufi/" format="html" scope="external">MUFI</xref>.</li>
+        <li>If options 1, 2, 4 are not possible, a code definition shall be used in consultation with the
                     OCR-D Coordination project following the joint agreements reached on major
                     international projects such as IMPACT, EEBO, ECCO.</li>
-</ol>
-</p>
-    </body>
-<related-links>
-<link href="ocr_d_koordinationsgremium_codierung.dita#ocr_d_koordinationsgremium_codierung"/>
-<link href="lyTypographie.dita#lyTypographie"/>
-<link href="trLigatur.dita#trLigatur"/>
-</related-links>
+      </ol>
+    </p>
+  </body>
+  <related-links>
+    <link href="ocr_d_koordinationsgremium_codierung.dita#ocr_d_koordinationsgremium_codierung"/>
+    <link href="lyTypographie.dita#lyTypographie"/>
+    <link href="trLigatur.dita#trLigatur"/>
+  </related-links>
 </topic>

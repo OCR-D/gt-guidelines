@@ -2,17 +2,18 @@
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="trSonderz">
   <title>Numbers</title>
-<body>
-<p>Numbers in printed text can have different functions. E.g. superscript numbers can represent
+  <body>
+    <p>Numbers in printed text can have different functions. E.g. superscript numbers can represent
       references in the form of footnotes or endnotes. Mathematical functions can also be expressed
       with numbers.</p>
-<p>Generally, numbers are to be transcribed as such. If the numbers are set superscript or
+    <p>Generally, numbers are to be transcribed as such. If the numbers are set superscript or
       subscript, they are transcribed as specific <b>Unicode hexadecimal entity</b>.</p>
-
-<p>If <b>large numbers</b> are printed <b>in blocks</b>, all spaces are to be copied according to
+    <p>If <b>large numbers</b> are printed <b>in blocks</b>, all spaces are to be copied according to
       the original.  </p>
-<p>For <b>numeric blocks with a comma, no</b> space is set after the comma. If there is a space,
+    <p>For <b>numeric blocks with a comma, no</b> space is set after the comma. If there is a space,
       transcribe it.</p>
-<p><image href="images/trZahlenBloecke_mit_Komma.png" id="image_aqs_bdl_gz"/></p>
-</body>
+    <p>
+      <image href="images/trZahlenBloecke_mit_Komma.png" id="image_aqs_bdl_gz"/>
+    </p>
+  </body>
 </topic>

@@ -1,69 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-<topic id="lyRelation"><title>Relations</title>
+<topic id="lyRelation">
+  <title>Relations</title>
   <body>
     <p>To document the relationship between contiguous regions, use the
-        <codeph>&lt;Relations></codeph> element. After defining the
-        <codeph>&lt;ReadingOrder></codeph>, the element <codeph>&lt;Relations></codeph> must be used
+        <codeph>&lt;Relations&gt;</codeph> element. After defining the
+        <codeph>&lt;ReadingOrder&gt;</codeph>, the element <codeph>&lt;Relations&gt;</codeph> must be used
       to indicate the relationship between the elements and regions. The element
-        <codeph>&lt;Relations></codeph> is mainly used to document the relationship of a drop
+        <codeph>&lt;Relations&gt;</codeph> is mainly used to document the relationship of a drop
       capital to the following paragraph.</p>
     <p>The following relationships must be documented. Thereby you have to differentiate between a
         <codeph>join</codeph> and a <codeph>link</codeph>.</p>
     <ol id="ol_hg1_54m_5fb">
-      <li>Usage of <codeph>join</codeph><ul>
-          <li>for <codeph>&lt;Word&gt;</codeph> and <codeph>&lt;<codeph>Word</codeph>&gt;</codeph>
+      <li>Usage of <codeph>join</codeph><ul><li>for <codeph>&lt;Word&gt;</codeph> and <codeph>&lt;<codeph>Word</codeph>&gt;</codeph>
             <p importance="high">This is the case if a word is separated at the end of the line and
-              continued on the next line.</p></li>
-          <li>for <codeph><codeph>&lt;textRegion type="drop-cap"></codeph></codeph> and
-                <codeph><codeph>&lt;textRegion type="paragraph"></codeph></codeph>
+              continued on the next line.</p></li><li>for <codeph><codeph>&lt;textRegion type="drop-cap"&gt;</codeph></codeph> and
+                <codeph><codeph>&lt;textRegion type="paragraph"&gt;</codeph></codeph>
             <p importance="high">This is the case if the drop capital contains only one character or
-              letter and not a whole word.</p></li>
-          <li>for <codeph><codeph>&lt;textRegion type="paragraph"></codeph></codeph> and
-                <codeph><codeph>&lt;textRegion type="paragraph"></codeph></codeph><p
-              importance="high">This applies when the paragraph has been split into columns and the
-              last word of the paragraph continues in the following paragraph.</p></li>
-        </ul></li>
-      <li>Usage of <codeph>link</codeph><ul>
-          <li>for <codeph>caption</codeph> and <codeph>image floating</codeph></li>
-          <li>for <codeph><codeph>&lt;textRegion type="paragraph"></codeph></codeph> and
-                <codeph><codeph>&lt;textRegion type="paragraph"></codeph></codeph> This is the case
+              letter and not a whole word.</p></li><li>for <codeph><codeph>&lt;textRegion type="paragraph"&gt;</codeph></codeph> and
+                <codeph><codeph>&lt;textRegion type="paragraph"&gt;</codeph></codeph><p importance="high">This applies when the paragraph has been split into columns and the
+              last word of the paragraph continues in the following paragraph.</p></li></ul></li>
+      <li>Usage of <codeph>link</codeph><ul><li>for <codeph>caption</codeph> and <codeph>image floating</codeph></li><li>for <codeph><codeph>&lt;textRegion type="paragraph"&gt;</codeph></codeph> and
+                <codeph><codeph>&lt;textRegion type="paragraph"&gt;</codeph></codeph> This is the case
             when the paragraph is divided into columns and the last word of the pragraph is not
-            continued in the following paragraph. It is a continued paragraph.</li>
-          <li>for <codeph><codeph>&lt;textRegion type="drop-cap"></codeph></codeph> and
-                <codeph><codeph>&lt;textRegion type="paragraph"></codeph></codeph>
+            continued in the following paragraph. It is a continued paragraph.</li><li>for <codeph><codeph>&lt;textRegion type="drop-cap"&gt;</codeph></codeph> and
+                <codeph><codeph>&lt;textRegion type="paragraph"&gt;</codeph></codeph>
             <p importance="high">This is the case if the drop capital (drop-cap) contains a whole
-              word.</p></li>
-        </ul></li>
+              word.</p></li></ul></li>
     </ol>
     <example id="relations">
       <title>Relations</title>
-      <codeblock>&lt;ReadingOrder>
-            &lt;OrderedGroup id="ro_1542737988725" caption="Regions reading order">
-                &lt;RegionRefIndexed index="1" regionRef="TextRegion_1476719248728_212"/>
-                &lt;RegionRefIndexed index="2" regionRef="r_7_1"/>
-                &lt;RegionRefIndexed index="3" regionRef="region_1476719221656_210"/>
-                &lt;RegionRefIndexed index="4" regionRef="region_1476719208569_209"/>
-                &lt;RegionRefIndexed index="5" regionRef="TextRegion_1476719753697_244"/>
-                &lt;RegionRefIndexed index="6" regionRef="r_13_1"/>
-                &lt;RegionRefIndexed index="7" regionRef="r_15_1"/>
-              &lt;/OrderedGroup>
-        &lt;/ReadingOrder>
-        &lt;Relations>
-            &lt;Relation type="join">
-                &lt;RegionRef regionRef="region_1476719208569_209"/>
-                &lt;RegionRef regionRef="TextRegion_1476719753697_244"/>
-            &lt;/Relation>
- &lt;/Relations></codeblock>
-     <image href="images/lyRelationen.jpg" id="image_pxh_vmf_wfb"/></example>
-   
-   
+      <codeblock>&lt;ReadingOrder&gt;
+            &lt;OrderedGroup id="ro_1542737988725" caption="Regions reading order"&gt;
+                &lt;RegionRefIndexed index="1" regionRef="TextRegion_1476719248728_212"/&gt;
+                &lt;RegionRefIndexed index="2" regionRef="r_7_1"/&gt;
+                &lt;RegionRefIndexed index="3" regionRef="region_1476719221656_210"/&gt;
+                &lt;RegionRefIndexed index="4" regionRef="region_1476719208569_209"/&gt;
+                &lt;RegionRefIndexed index="5" regionRef="TextRegion_1476719753697_244"/&gt;
+                &lt;RegionRefIndexed index="6" regionRef="r_13_1"/&gt;
+                &lt;RegionRefIndexed index="7" regionRef="r_15_1"/&gt;
+              &lt;/OrderedGroup&gt;
+        &lt;/ReadingOrder&gt;
+        &lt;Relations&gt;
+            &lt;Relation type="join"&gt;
+                &lt;RegionRef regionRef="region_1476719208569_209"/&gt;
+                &lt;RegionRef regionRef="TextRegion_1476719753697_244"/&gt;
+            &lt;/Relation&gt;
+ &lt;/Relations&gt;</codeblock>
+      <image href="images/lyRelationen.jpg" id="image_pxh_vmf_wfb"/>
+    </example>
   </body>
-  
   <related-links>
-    <link
-      href="../pagexml/pagecontent_xsd_Complex_Type_pc_RelationsType.dita"
-      format="dita" />
+    <link href="../pagexml/pagecontent_xsd_Complex_Type_pc_RelationsType.dita" format="dita"/>
     <link href="lyInitiale.dita#lyInitiale_Relation"/>
   </related-links>
 </topic>

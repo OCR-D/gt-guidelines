@@ -1,24 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="trTabellen">
-    <title>Tables</title>
-    <body>
-<p>Text in tables is always transcribed true to the original in Unicode format (coding in UTF-8) of
+  <title>Tables</title>
+  <body>
+    <p>Text in tables is always transcribed true to the original in Unicode format (coding in UTF-8) of
             the Unicode standard valid at the time of the transcription. Characters which are not
             displayed on the keyboard are written either</p>
-<ul id="ul_ynb_lcs_b1b">
-<li>as a Unicode hexadecimal entity or </li>
-<li>as a sign.</li>
-</ul>
-<p>Mixing different Unicode spellings should be avoided. Nothing should be modernized, printing
+    <ul id="ul_ynb_lcs_b1b">
+      <li>as a Unicode hexadecimal entity or </li>
+      <li>as a sign.</li>
+    </ul>
+    <p>Mixing different Unicode spellings should be avoided. Nothing should be modernized, printing
             errors are to be accepted.</p>
-        <p>Exceptions and deviations are discussed in detail in this document.</p>
-<p>The structure of the table is specified as attribute values in the <b><xref
-                    href="../pagexml/pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_TableRegion"
-                    format="dita">TableRegion</xref></b> element. For more information, see the
+    <p>Exceptions and deviations are discussed in detail in this document.</p>
+    <p>The structure of the table is specified as attribute values in the <b><xref href="../pagexml/pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_TableRegion" format="dita">TableRegion</xref></b> element. For more information, see the
             documentation for the PageXML format.</p>
-</body>
-<related-links>
-<link href="../pagexml/pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_TextRegion" format="dita"/>
-</related-links>
+  </body>
+  <related-links>
+    <link href="../pagexml/pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_TextRegion" format="dita"/>
+  </related-links>
 </topic>

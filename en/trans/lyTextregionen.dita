@@ -1,35 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="lyTextregionen">
-<title>Second Step: Page Regions</title>
-<body>
-        <p>On one page there are structurally and contentwise different regions. Once the print
+  <title>Second Step: Page Regions</title>
+  <body>
+    <p>On one page there are structurally and contentwise different regions. Once the print
             space has been determined and labelled, the layout is analyzed. Different regions have
             to be distinguished and labelled as such:</p>
-<ul id="ul_uxc_wdj_r1b">
-<li><xref href="lytextregion.dita#textregionen__textregion_">Text region</xref> : TextRegion, </li>
-<li><xref href="lyBildbereiche.dita#lyBildbereiche">Illustrations, photos</xref> : ImageRegion,</li>
-<li><xref href="lyGraphik.dita#lyGraphik">Book decoration, drawings</xref> : GraphicRegion, </li>
-<li><xref href="lySeparatoren.dita#lySeparatoren">Separator lines, separators</xref> :
+    <ul id="ul_uxc_wdj_r1b">
+      <li><xref href="lytextregion.dita#textregionen__textregion_">Text region</xref> : TextRegion, </li>
+      <li><xref href="lyBildbereiche.dita#lyBildbereiche">Illustrations, photos</xref> : ImageRegion,</li>
+      <li><xref href="lyGraphik.dita#lyGraphik">Book decoration, drawings</xref> : GraphicRegion, </li>
+      <li><xref href="lySeparatoren.dita#lySeparatoren">Separator lines, separators</xref> :
 SeparatorRegion,</li>
-<li><xref href="lyTabellen.dita#lyTabellen">Tables</xref> : TableRegion, </li>
-<li>Line drawing : LineDrawingRegion,</li>
-        <li><xref href="lyKarten.dita#lyKarten">Maps</xref> : MapRegion</li>
-<li><xref href="lyMathematische_Zeichen.dita#lyMathematische_Zeichen">Mathematical formula</xref> :
+      <li><xref href="lyTabellen.dita#lyTabellen">Tables</xref> : TableRegion, </li>
+      <li>Line drawing : LineDrawingRegion,</li>
+      <li><xref href="lyKarten.dita#lyKarten">Maps</xref> : MapRegion</li>
+      <li><xref href="lyMathematische_Zeichen.dita#lyMathematische_Zeichen">Mathematical formula</xref> :
 MathsRegion, </li>
-<li><xref href="lyChemische_Symbole.dita#lyChemische_Symbole">Chemical formula</xref> : ChemRegion, </li>
-<li><xref href="lyNotenzeichen.dita#lyNotenzeichen">Muscial notes</xref> : MusicRegion, </li>
-<li><xref href="lyWerbung.dita#lyWerbung">Advertisement</xref> : AdvertRegion und </li>
-<li><xref href="lyRauschen.dita#lyRauschen">Dirt, stains, noise</xref> : NoiseRegion </li>
-</ul>
-        <p>How profoundly a text can be transcribed is determined by the transcription level.</p>
-<note type="important">It is not sufficient to identify the entire print space as a TextRegion as
+      <li><xref href="lyChemische_Symbole.dita#lyChemische_Symbole">Chemical formula</xref> : ChemRegion, </li>
+      <li><xref href="lyNotenzeichen.dita#lyNotenzeichen">Muscial notes</xref> : MusicRegion, </li>
+      <li><xref href="lyWerbung.dita#lyWerbung">Advertisement</xref> : AdvertRegion und </li>
+      <li><xref href="lyRauschen.dita#lyRauschen">Dirt, stains, noise</xref> : NoiseRegion </li>
+    </ul>
+    <p>How profoundly a text can be transcribed is determined by the transcription level.</p>
+    <note type="important">It is not sufficient to identify the entire print space as a TextRegion as
             the individually delimitable blocks must be localized. This also makes it possible to
             clearly distinguish between textual and non-textual segments.</note>
-
-</body>
-<related-links>
-<link href="ly_level_1_5.dita#ly_level_1_5"/>
-<link href="ly_level_2_5.dita#level_2_5"/>
-</related-links>
+  </body>
+  <related-links>
+    <link href="ly_level_1_5.dita#ly_level_1_5"/>
+    <link href="ly_level_2_5.dita#level_2_5"/>
+  </related-links>
 </topic>

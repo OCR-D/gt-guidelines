@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="lyRand">
-    <title>Page Margin</title>
-    <body>
-        <p>The page margin delimits the entire page (including column headers, page numbers and
+  <title>Page Margin</title>
+  <body>
+    <p>The page margin delimits the entire page (including column headers, page numbers and
             sheet signatures) from parts that do not belong to the text (including handwritten
             additions) or the whitespace. We encourage to just mark the page margin, not the print
             space. </p>
-        <p>
-            <fig>
-                <title>Example: page margin</title>
-                <image href="images/lyRand1.jpg" id="image_u2l_fvn_3jb"/>
-            </fig>
-        </p>
-        
-        <fig><title>Example: handwritten additions</title><image href="images/lyRand2.jpg" id="image_xll_cwn_3jb"/><p>This example also shows a particularity.
-            In this case the addition "1885" is included within the page.</p></fig>
-    </body>
+    <p>
+      <fig>
+        <title>Example: page margin</title>
+        <image href="images/lyRand1.jpg" id="image_u2l_fvn_3jb"/>
+      </fig>
+    </p>
+    <fig>
+      <title>Example: handwritten additions</title>
+      <image href="images/lyRand2.jpg" id="image_xll_cwn_3jb"/>
+      <p>This example also shows a particularity.
+            In this case the addition "1885" is included within the page.</p>
+    </fig>
+  </body>
 </topic>

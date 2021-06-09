@@ -1,94 +1,118 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="structurmets2page">
-    <title>Struktur-Konkordanz METS und PAGE</title>
-    <shortdesc>Mit METS wird die (Logische)-Struktur eines Dokumentes abgebildet. Eine
+  <title>Struktur-Konkordanz METS und PAGE</title>
+  <shortdesc>Mit METS wird die (Logische)-Struktur eines Dokumentes abgebildet. Eine
         Logische-Strukturierung betrifft einzelne Kapitel, Abschnitte sowie besondere Abschnitte
         (wie Widmungen, Errata). </shortdesc>
-    <body>
-        <p>Mit METS werden vorallem (Logische)-Strukturen eines Dokumentes abgebildet. Bei einer
+  <body>
+    <p>Mit METS werden vorallem (Logische)-Strukturen eines Dokumentes abgebildet. Bei einer
             Logischen-Strukturierung werden die einzelnen Kapitel, Abschnitte sowie besondere
             Abschnitte (wie Widmungen, Errata) in einer METS-Datei dokumentiert. In der METS-Datei
-            im Abschnitt <codeph>&lt;mets:structMap TYPE="LOGICAL"></codeph> werden die Kapitel oder
+            im Abschnitt <codeph>&lt;mets:structMap TYPE="LOGICAL"&gt;</codeph> werden die Kapitel oder
             Abschnitte beginnend mit den Überschriften der Kapitel oder Abschnitte eines
             digitalisierten Dokumentes (<codeph>&lt;mets:div TYPE="..." LABEL="[Text der
-                Überschrift]"/></codeph>) aufgelistet. Im PAGE-Standard ist nur das Element mit dem
+                Überschrift]"/&gt;</codeph>) aufgelistet. Im PAGE-Standard ist nur das Element mit dem
             Type-Attribut-Wert <codeph>heading</codeph>
-            <codeph>&lt;TextRegion type="heading"></codeph> für die Dokumentation der
+            <codeph>&lt;TextRegion type="heading"&gt;</codeph> für die Dokumentation der
             Logischen-Strukturierung dafür vorgesehen. Eine Unterscheidung zwischen spezifischen
             Kapitel kann nur mit dem spezifischen Wert im custom-Attribut dokumentiert werden.</p>
-        
-
-        <p>
-            <table id="table_w1d_ykm_3jb">
-                <tgroup cols="3">
-                    <colspec colnum="1" colname="col1" colwidth="1*"/>
-                    <colspec colnum="2" colname="col3" colwidth="4.41*"/>
-                    <colspec colname="newCol3" colnum="3" colwidth="1*"/>
-<thead>
-    <row>
-        <entry namest="col1" nameend="col3">METS</entry>
-        <entry>PAGE</entry>
-    </row>
-    <row>
-        <entry>Beschreibung</entry>
-        <entry>XML <codeph>&lt;mets:div TYPE="..."/></codeph></entry>
-                            <entry><codeph>&lt;TextRegion type="heading"></codeph></entry>
-    </row>
-</thead>                    
-<tbody>
-                        <row>
-                            <entry>Vorwort</entry>
-                            <entry><codeph>preface</codeph></entry>
-                            <entry morerows="11">heading</entry>
-                        </row>
-                        <row>
-                            <entry>Widmung</entry>
-                            <entry><codeph>dedication</codeph></entry>
-                        </row>
-                        <row>
-                            <entry>Kapitel</entry>
-                            <entry><codeph>chapter</codeph></entry>
-                        </row>
-                        <row>
-                            <entry>Abschnitt</entry>
-                            <entry><codeph>section</codeph></entry>
-                        </row>
-                        <row>
-                            <entry>Brief</entry>
-                            <entry><codeph>letter</codeph></entry>
-                        </row>
-                        <row>
-                            <entry>Tabelle</entry>
-                            <entry><codeph>table</codeph></entry>
-                        </row>
-                        <row>
-                            <entry>Karte</entry>
-                            <entry><codeph>map</codeph></entry>
-                        </row>
-                        <row>
-                            <entry>Impressum</entry>
-                            <entry><codeph>imprint</codeph></entry>
-                        </row>
-                        <row>
-                            <entry>Errata</entry>
-                            <entry><codeph>corrigenda</codeph></entry>
-                        </row>
-                        <row>
-                            <entry>Artikel</entry>
-                            <entry><codeph>article</codeph></entry>
-                        </row>
-                        <row>
-                            <entry>Beilage</entry>
-                            <entry><codeph>additional</codeph></entry>
-                        </row>
-                        <row>
-                            <entry>Bericht</entry>
-                            <entry><codeph>report</codeph></entry>
-                        </row>
-                    </tbody>
-                </tgroup>
-            </table>
-        </p>
-    </body>
+    <p>
+      <table id="table_w1d_ykm_3jb">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="col1" colwidth="1*"/>
+          <colspec colnum="2" colname="col3" colwidth="4.41*"/>
+          <colspec colname="newCol3" colnum="3" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry namest="col1" nameend="col3">METS</entry>
+              <entry>PAGE</entry>
+            </row>
+            <row>
+              <entry>Beschreibung</entry>
+              <entry>XML <codeph>&lt;mets:div TYPE="..."/&gt;</codeph></entry>
+              <entry>
+                <codeph>&lt;TextRegion type="heading"&gt;</codeph>
+              </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>Vorwort</entry>
+              <entry>
+                <tt>preface</tt>
+              </entry>
+              <entry morerows="11">heading</entry>
+            </row>
+            <row>
+              <entry>Widmung</entry>
+              <entry>
+                <tt>dedication</tt>
+              </entry>
+            </row>
+            <row>
+              <entry>Kapitel</entry>
+              <entry>
+                <tt>chapter</tt>
+              </entry>
+            </row>
+            <row>
+              <entry>Abschnitt</entry>
+              <entry>
+                <tt>section</tt>
+              </entry>
+            </row>
+            <row>
+              <entry>Brief</entry>
+              <entry>
+                <tt>letter</tt>
+              </entry>
+            </row>
+            <row>
+              <entry>Tabelle</entry>
+              <entry>
+                <tt>table</tt>
+              </entry>
+            </row>
+            <row>
+              <entry>Karte</entry>
+              <entry>
+                <tt>map</tt>
+              </entry>
+            </row>
+            <row>
+              <entry>Impressum</entry>
+              <entry>
+                <tt>imprint</tt>
+              </entry>
+            </row>
+            <row>
+              <entry>Errata</entry>
+              <entry>
+                <tt>corrigenda</tt>
+              </entry>
+            </row>
+            <row>
+              <entry>Artikel</entry>
+              <entry>
+                <tt>article</tt>
+              </entry>
+            </row>
+            <row>
+              <entry>Beilage</entry>
+              <entry>
+                <tt>additional</tt>
+              </entry>
+            </row>
+            <row>
+              <entry>Bericht</entry>
+              <entry>
+                <tt>report</tt>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </p>
+  </body>
 </topic>

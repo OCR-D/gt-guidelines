@@ -1,28 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="lyKolumnentitel">
-    <title>Column header (header)</title>
-    <body>
-        <p>In the context of Ground Truth compilation, the column title refers to "short title
+  <title>Column header (header)</title>
+  <body>
+    <p>In the context of Ground Truth compilation, the column title refers to "short title
             versions" of chapters and subchapters which serve as orientation in the book, especially
             in the page header above the actual text. They can also be referred to as page titles
             and are often separated from the actual text by a separator. In this context, the page
             number is not marked as column header, but separately as text region
             <i>page-number</i>.</p>
-
-    <p><fig>
-<title>Example: column header</title>
-<image href="images/lyKolumnentitel.png" id="image_xrt_cbj_r1b" scale="50"/>
-</fig></p>
-    </body>
-<related-links>
-<link
-href="../pagexml/pagecontent_xsd_Simple_Type_pc_TextTypeSimpleType.dita#TextTypeSimpleType" format="dita"/>
-<link href="lySeparatoren.dita#lySeparatoren"/>
-<link href="lySeitenzahl.dita#lySeitenzahl"/>
-<link href="../pagexml/pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType" format="dita"/>
-<link
-href="../pagexml/pagecontent_xsd_Simple_Type_pc_TextTypeSimpleType.dita#TextTypeSimpleType" format="dita"
-/>
-</related-links>
+    <p>
+      <fig>
+        <title>Example: column header</title>
+        <image href="images/lyKolumnentitel.png" id="image_xrt_cbj_r1b" scale="50"/>
+      </fig>
+    </p>
+  </body>
+  <related-links>
+    <link href="../pagexml/pagecontent_xsd_Simple_Type_pc_TextTypeSimpleType.dita#TextTypeSimpleType" format="dita"/>
+    <link href="lySeparatoren.dita#lySeparatoren"/>
+    <link href="lySeitenzahl.dita#lySeitenzahl"/>
+    <link href="../pagexml/pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType" format="dita"/>
+    <link href="../pagexml/pagecontent_xsd_Simple_Type_pc_TextTypeSimpleType.dita#TextTypeSimpleType" format="dita"/>
+  </related-links>
 </topic>

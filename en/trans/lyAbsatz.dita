@@ -1,30 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="lyAbsatz">
-    <title> Paragraph</title>
-    <body>
-        <p>Individual connected text regions are marked as paragraphs. Initials and marginal notes,
+  <title> Paragraph</title>
+  <body>
+    <p>Individual connected text regions are marked as paragraphs. Initials and marginal notes,
             tables, headings, column titles, captions, footnotes and endnotes as well as page
             numbers or sheet signatures are separate structures and should not be confused with
             paragraphs. Transitions between individual paragraphs can be identified by blank lines
             or indentations at the beginning of a new paragraph in the case of justification. If a
             text region cannot be assigned to a specific structure, it is considered a paragraph.
             Paragraphs are not structured hierarchically.</p>
-    <p><fig><title>simple paragraphs</title><image href="images/lyAbsatz.png" height="703" width="605" id="image_vd4_q2j_r1b"/></fig><fig id="fig_qpl_vpj_r1b">
-<title>polygonal paragraph segments, source: Deutscher Sprachschatz geordnet nach Begriffen zur
+    <p>
+      <fig>
+        <title>simple paragraphs</title>
+        <image href="images/lyAbsatz.png" height="703" width="605" id="image_vd4_q2j_r1b"/>
+      </fig>
+      <fig id="fig_qpl_vpj_r1b">
+        <title>polygonal paragraph segments, source: Deutscher Sprachschatz geordnet nach Begriffen zur
                     leichten Auffindung und Auswahl des passenden Ausdrucks. Ein stilistisches
                     Hülfsbuch für jeden Deutsch Schreibenden. Bd. 1. Hamburg, 1873.</title>
-<desc>Link: <xref href="https://archive.org/details/deutschersprachs01sanduoft" format="html"
-scope="external">https://archive.org/details/deutschersprachs01sanduoft</xref>, Seite 2</desc>
-<image
-    href="images/lyAbsatz2.png"
-height="151" width="602" id="image_wj5_hyz_l1b" scale="50"/>
-</fig></p>
-    </body>
-<related-links>
+        <desc>Link: <xref href="https://archive.org/details/deutschersprachs01sanduoft" format="html" scope="external">https://archive.org/details/deutschersprachs01sanduoft</xref>, Seite 2</desc>
+        <image href="images/lyAbsatz2.png" height="151" width="602" id="image_wj5_hyz_l1b" scale="50"/>
+      </fig>
+    </p>
+  </body>
+  <related-links>
     <link href="../pagexml/pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType" format="dita"/>
-<link
-href="../pagexml/pagecontent_xsd_Simple_Type_pc_TextTypeSimpleType.dita#TextTypeSimpleType" format="dita"
-/>
-</related-links>
+    <link href="../pagexml/pagecontent_xsd_Simple_Type_pc_TextTypeSimpleType.dita#TextTypeSimpleType" format="dita"/>
+  </related-links>
 </topic>

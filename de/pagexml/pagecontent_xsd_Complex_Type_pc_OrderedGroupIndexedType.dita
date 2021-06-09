@@ -1,240 +1,234 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic
-  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="OrderedGroupIndexedType">
-   <title>Complex Type pc:OrderedGroupIndexedType</title>
-   <body>
-      <table frame="all" rowsep="1" colsep="1">
-         <tgroup cols="2">
-            <colspec colwidth="3*" align="left"/>
-            <colspec colwidth="25*" align="left"/>
-            <tbody>
-               <row>
-                  <entry>Namespace</entry>
-                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15</entry>
-               </row>
-               <row>
-                  <entry>Annotations</entry>
-                  <entry>
-                     <codeblock outputclass="language-xml">Indexed group containing ordered elements</codeblock>
-                  </entry>
-               </row>
-               <row>
-                  <entry>Diagram</entry>
-                  <entry>
-                     <p>
-                        <imagemap id="pagecontent_xsd_Complex_Type_pc_OrderedGroupIndexedType">
-                           <image href="img/pagecontent_xsd_Complex_Type_pc_OrderedGroupIndexedType.jpeg"/>
-                           <area>
-                              <shape>rect</shape>
-                              <coords>477,75,626,161</coords>
-                              <xref href="#OrderedGroupIndexedType_id"/>
-                           </area>
-                           <area>
-                              <shape>rect</shape>
-                              <coords>477,181,672,267</coords>
-                              <xref href="#OrderedGroupIndexedType_regionRef"/>
-                           </area>
-                           <area>
-                              <shape>rect</shape>
-                              <coords>477,415,627,501</coords>
-                              <xref href="#OrderedGroupIndexedType_index"/>
-                           </area>
-                           <area>
-                              <shape>rect</shape>
-                              <coords>477,597,656,683</coords>
-                              <xref href="#OrderedGroupIndexedType_caption"/>
-                           </area>
-                           <area>
-                              <shape>rect</shape>
-                              <coords>477,703,857,789</coords>
-                              <xref href="#OrderedGroupIndexedType_type"/>
-                           </area>
-                           <area>
-                              <shape>rect</shape>
-                              <coords>477,809,692,895</coords>
-                              <xref href="#OrderedGroupIndexedType_continuation"/>
-                           </area>
-                           <area>
-                              <shape>rect</shape>
-                              <coords>477,1017,656,1103</coords>
-                              <xref href="#OrderedGroupIndexedType_custom"/>
-                           </area>
-                           <area>
-                              <shape>rect</shape>
-                              <coords>477,1173,677,1259</coords>
-                              <xref href="#OrderedGroupIndexedType_comments"/>
-                           </area>
-                           <area>
-                              <shape>rect</shape>
-                              <coords>632,1293,958,1379</coords>
-                              <xref href="#OrderedGroupIndexedType_UserDefined"/>
-                           </area>
-                           <area>
-                              <shape>rect</shape>
-                              <coords>632,1399,900,1485</coords>
-                              <xref href="#OrderedGroupIndexedType_Labels"/>
-                           </area>
-                           <area>
-                              <shape>rect</shape>
-                              <coords>774,1555,1158,1641</coords>
-                              <xref href="#OrderedGroupIndexedType_RegionRefIndexed"/>
-                           </area>
-                           <area>
-                              <shape>rect</shape>
-                              <coords>774,1661,1193,1747</coords>
-                              <xref href="#OrderedGroupIndexedType_OrderedGroupIndexed"/>
-                           </area>
-                           <area>
-                              <shape>rect</shape>
-                              <coords>774,1767,1216,1853</coords>
-                              <xref href="#OrderedGroupIndexedType_UnorderedGroupIndexed"/>
-                           </area>
-                        </imagemap>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>Used by</entry>
-                  <entry>
-                     <p>
-                        <table frame="all" rowsep="1" colsep="1">
-                           <tgroup cols="2">
-                              <colspec colwidth="2*" align="left"/>
-                              <colspec colwidth="8*" align="left"/>
-                              <tbody>
-                                 <row>
-                                    <entry>Elements </entry>
-                                    <entry>
-                                       <xref href="#OrderedGroupIndexedType_OrderedGroupIndexed"/>, <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType_OrderedGroupIndexed"/>
-                                    </entry>
-                                 </row>
-                              </tbody>
-                           </tgroup>
-                        </table>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>Model</entry>
-                  <entry>
-                     <xref href="#OrderedGroupIndexedType_UserDefined"/> , <xref href="#OrderedGroupIndexedType_Labels"/> , (<xref href="#OrderedGroupIndexedType_RegionRefIndexed"/> | <xref href="#OrderedGroupIndexedType_OrderedGroupIndexed"/> | <xref href="#OrderedGroupIndexedType_UnorderedGroupIndexed"/>)</entry>
-               </row>
-               <row>
-                  <entry>Children</entry>
-                  <entry>
-                     <xref href="#OrderedGroupIndexedType_Labels"/>, <xref href="#OrderedGroupIndexedType_OrderedGroupIndexed"/>, <xref href="#OrderedGroupIndexedType_RegionRefIndexed"/>, <xref href="#OrderedGroupIndexedType_UnorderedGroupIndexed"/>, <xref href="#OrderedGroupIndexedType_UserDefined"/>
-                  </entry>
-               </row>
-               <row>
-                  <entry>Attributes</entry>
-                  <entry>
-                     <p>
-                        <table frame="all" rowsep="1" colsep="1">
-                           <tgroup cols="3">
-                              <colspec colnum="1" colname="col1" align="left" colwidth="3*"/>
-                              <colspec colnum="2" colname="col2" align="left" colwidth="3*"/>
-                              <colspec colnum="3" colname="col3" align="left" colwidth="1*"/>
-                              <thead>
-                                 <row>
-                                    <entry>QName</entry>
-                                    <entry>Type</entry>
-                                    <entry>Use</entry>
-                                 </row>
-                              </thead>
-                              <tbody>
-                                 <row>
-                                    <entry>
-                                       <xref href="#OrderedGroupIndexedType_caption"/>
-                                    </entry>
-                                    <entry>string</entry>
-                                    <entry>optional</entry>
-                                 </row>
-                                 <row>
-                                    <entry>
-                                       <xref href="#OrderedGroupIndexedType_comments"/>
-                                    </entry>
-                                    <entry>string</entry>
-                                    <entry>optional</entry>
-                                 </row>
-                                 <row>
-                                    <entry>
-                                       <xref href="#OrderedGroupIndexedType_continuation"/>
-                                    </entry>
-                                    <entry>boolean</entry>
-                                    <entry>optional</entry>
-                                 </row>
-                                 <row>
-                                    <entry namest="col1" nameend="col3">
-                                       <codeblock outputclass="language-xml">Is this group a continuation of another group (from
+  <title>Complex Type pc:OrderedGroupIndexedType</title>
+  <body>
+    <table frame="all" rowsep="1" colsep="1">
+      <tgroup cols="2">
+        <colspec colwidth="3*" align="left"/>
+        <colspec colwidth="25*" align="left"/>
+        <tbody>
+          <row>
+            <entry>Namespace</entry>
+            <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15</entry>
+          </row>
+          <row>
+            <entry>Annotations</entry>
+            <entry>
+              <codeblock outputclass="language-xml">Indexed group containing ordered elements</codeblock>
+            </entry>
+          </row>
+          <row>
+            <entry>Diagram</entry>
+            <entry>
+              <p>
+                <imagemap id="pagecontent_xsd_Complex_Type_pc_OrderedGroupIndexedType">
+                  <image href="img/pagecontent_xsd_Complex_Type_pc_OrderedGroupIndexedType.jpeg"/>
+                  <area>
+                    <shape>rect</shape>
+                    <coords>477,75,626,161</coords>
+                    <xref href="#OrderedGroupIndexedType_id"/>
+                  </area>
+                  <area>
+                    <shape>rect</shape>
+                    <coords>477,181,672,267</coords>
+                    <xref href="#OrderedGroupIndexedType_regionRef"/>
+                  </area>
+                  <area>
+                    <shape>rect</shape>
+                    <coords>477,415,627,501</coords>
+                    <xref href="#OrderedGroupIndexedType_index"/>
+                  </area>
+                  <area>
+                    <shape>rect</shape>
+                    <coords>477,597,656,683</coords>
+                    <xref href="#OrderedGroupIndexedType_caption"/>
+                  </area>
+                  <area>
+                    <shape>rect</shape>
+                    <coords>477,703,857,789</coords>
+                    <xref href="#OrderedGroupIndexedType_type"/>
+                  </area>
+                  <area>
+                    <shape>rect</shape>
+                    <coords>477,809,692,895</coords>
+                    <xref href="#OrderedGroupIndexedType_continuation"/>
+                  </area>
+                  <area>
+                    <shape>rect</shape>
+                    <coords>477,1017,656,1103</coords>
+                    <xref href="#OrderedGroupIndexedType_custom"/>
+                  </area>
+                  <area>
+                    <shape>rect</shape>
+                    <coords>477,1173,677,1259</coords>
+                    <xref href="#OrderedGroupIndexedType_comments"/>
+                  </area>
+                  <area>
+                    <shape>rect</shape>
+                    <coords>632,1293,958,1379</coords>
+                    <xref href="#OrderedGroupIndexedType_UserDefined"/>
+                  </area>
+                  <area>
+                    <shape>rect</shape>
+                    <coords>632,1399,900,1485</coords>
+                    <xref href="#OrderedGroupIndexedType_Labels"/>
+                  </area>
+                  <area>
+                    <shape>rect</shape>
+                    <coords>774,1555,1158,1641</coords>
+                    <xref href="#OrderedGroupIndexedType_RegionRefIndexed"/>
+                  </area>
+                  <area>
+                    <shape>rect</shape>
+                    <coords>774,1661,1193,1747</coords>
+                    <xref href="#OrderedGroupIndexedType_OrderedGroupIndexed"/>
+                  </area>
+                  <area>
+                    <shape>rect</shape>
+                    <coords>774,1767,1216,1853</coords>
+                    <xref href="#OrderedGroupIndexedType_UnorderedGroupIndexed"/>
+                  </area>
+                </imagemap>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>Used by</entry>
+            <entry>
+              <p>
+                <table frame="all" rowsep="1" colsep="1">
+                  <tgroup cols="2">
+                    <colspec colwidth="2*" align="left"/>
+                    <colspec colwidth="8*" align="left"/>
+                    <tbody>
+                      <row>
+                        <entry>Elements </entry>
+                        <entry><xref href="#OrderedGroupIndexedType_OrderedGroupIndexed"/>, <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType_OrderedGroupIndexed"/></entry>
+                      </row>
+                    </tbody>
+                  </tgroup>
+                </table>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>Model</entry>
+            <entry><xref href="#OrderedGroupIndexedType_UserDefined"/> , <xref href="#OrderedGroupIndexedType_Labels"/> , (<xref href="#OrderedGroupIndexedType_RegionRefIndexed"/> | <xref href="#OrderedGroupIndexedType_OrderedGroupIndexed"/> | <xref href="#OrderedGroupIndexedType_UnorderedGroupIndexed"/>)</entry>
+          </row>
+          <row>
+            <entry>Children</entry>
+            <entry><xref href="#OrderedGroupIndexedType_Labels"/>, <xref href="#OrderedGroupIndexedType_OrderedGroupIndexed"/>, <xref href="#OrderedGroupIndexedType_RegionRefIndexed"/>, <xref href="#OrderedGroupIndexedType_UnorderedGroupIndexed"/>, <xref href="#OrderedGroupIndexedType_UserDefined"/></entry>
+          </row>
+          <row>
+            <entry>Attributes</entry>
+            <entry>
+              <p>
+                <table frame="all" rowsep="1" colsep="1">
+                  <tgroup cols="3">
+                    <colspec colnum="1" colname="col1" align="left" colwidth="3*"/>
+                    <colspec colnum="2" colname="col2" align="left" colwidth="3*"/>
+                    <colspec colnum="3" colname="col3" align="left" colwidth="1*"/>
+                    <thead>
+                      <row>
+                        <entry>QName</entry>
+                        <entry>Type</entry>
+                        <entry>Use</entry>
+                      </row>
+                    </thead>
+                    <tbody>
+                      <row>
+                        <entry>
+                          <xref href="#OrderedGroupIndexedType_caption"/>
+                        </entry>
+                        <entry>string</entry>
+                        <entry>optional</entry>
+                      </row>
+                      <row>
+                        <entry>
+                          <xref href="#OrderedGroupIndexedType_comments"/>
+                        </entry>
+                        <entry>string</entry>
+                        <entry>optional</entry>
+                      </row>
+                      <row>
+                        <entry>
+                          <xref href="#OrderedGroupIndexedType_continuation"/>
+                        </entry>
+                        <entry>boolean</entry>
+                        <entry>optional</entry>
+                      </row>
+                      <row>
+                        <entry namest="col1" nameend="col3">
+                          <codeblock outputclass="language-xml">Is this group a continuation of another group (from
 previous column or page, for example)?</codeblock>
-                                    </entry>
-                                 </row>
-                                 <row>
-                                    <entry>
-                                       <xref href="#OrderedGroupIndexedType_custom"/>
-                                    </entry>
-                                    <entry>string</entry>
-                                    <entry>optional</entry>
-                                 </row>
-                                 <row>
-                                    <entry namest="col1" nameend="col3">
-                                       <codeblock outputclass="language-xml">For generic use</codeblock>
-                                    </entry>
-                                 </row>
-                                 <row>
-                                    <entry>
-                                       <xref href="#OrderedGroupIndexedType_id"/>
-                                    </entry>
-                                    <entry>ID</entry>
-                                    <entry>required</entry>
-                                 </row>
-                                 <row>
-                                    <entry>
-                                       <xref href="#OrderedGroupIndexedType_index"/>
-                                    </entry>
-                                    <entry>int</entry>
-                                    <entry>required</entry>
-                                 </row>
-                                 <row>
-                                    <entry namest="col1" nameend="col3">
-                                       <codeblock outputclass="language-xml">Position (order number) of this item within the
+                        </entry>
+                      </row>
+                      <row>
+                        <entry>
+                          <xref href="#OrderedGroupIndexedType_custom"/>
+                        </entry>
+                        <entry>string</entry>
+                        <entry>optional</entry>
+                      </row>
+                      <row>
+                        <entry namest="col1" nameend="col3">
+                          <codeblock outputclass="language-xml">For generic use</codeblock>
+                        </entry>
+                      </row>
+                      <row>
+                        <entry>
+                          <xref href="#OrderedGroupIndexedType_id"/>
+                        </entry>
+                        <entry>ID</entry>
+                        <entry>required</entry>
+                      </row>
+                      <row>
+                        <entry>
+                          <xref href="#OrderedGroupIndexedType_index"/>
+                        </entry>
+                        <entry>int</entry>
+                        <entry>required</entry>
+                      </row>
+                      <row>
+                        <entry namest="col1" nameend="col3">
+                          <codeblock outputclass="language-xml">Position (order number) of this item within the
 current hierarchy level.</codeblock>
-                                    </entry>
-                                 </row>
-                                 <row>
-                                    <entry>
-                                       <xref href="#OrderedGroupIndexedType_regionRef"/>
-                                    </entry>
-                                    <entry>IDREF</entry>
-                                    <entry>optional</entry>
-                                 </row>
-                                 <row>
-                                    <entry namest="col1" nameend="col3">
-                                       <codeblock outputclass="language-xml">Optional link to a parent region of nested regions.
+                        </entry>
+                      </row>
+                      <row>
+                        <entry>
+                          <xref href="#OrderedGroupIndexedType_regionRef"/>
+                        </entry>
+                        <entry>IDREF</entry>
+                        <entry>optional</entry>
+                      </row>
+                      <row>
+                        <entry namest="col1" nameend="col3">
+                          <codeblock outputclass="language-xml">Optional link to a parent region of nested regions.
 The parent region doubles as reading order group.
 Only the nested regions should be allowed as group members.</codeblock>
-                                    </entry>
-                                 </row>
-                                 <row>
-                                    <entry>
-                                       <xref href="#OrderedGroupIndexedType_type"/>
-                                    </entry>
-                                    <entry>
-                                       <xref href="pagecontent_xsd_Simple_Type_pc_GroupTypeSimpleType.dita#GroupTypeSimpleType"/>
-                                    </entry>
-                                    <entry>optional</entry>
-                                 </row>
-                              </tbody>
-                           </tgroup>
-                        </table>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>Source</entry>
-                  <entry>
-                     <codeblock outputclass="language-xml">&lt;complexType name="OrderedGroupIndexedType"&gt;
+                        </entry>
+                      </row>
+                      <row>
+                        <entry>
+                          <xref href="#OrderedGroupIndexedType_type"/>
+                        </entry>
+                        <entry>
+                          <xref href="pagecontent_xsd_Simple_Type_pc_GroupTypeSimpleType.dita#GroupTypeSimpleType"/>
+                        </entry>
+                        <entry>optional</entry>
+                      </row>
+                    </tbody>
+                  </tgroup>
+                </table>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>Source</entry>
+            <entry>
+              <codeblock outputclass="language-xml">&lt;complexType name="OrderedGroupIndexedType"&gt;
   &lt;annotation&gt;
     &lt;documentation&gt;Indexed group containing ordered elements&lt;/documentation&gt;
   &lt;/annotation&gt;
@@ -276,1593 +270,1587 @@ Only the nested regions should be allowed as group members.</codeblock>
   &lt;/attribute&gt;
   &lt;attribute name="comments" type="string"/&gt;
 &lt;/complexType&gt;</codeblock>
-                  </entry>
-               </row>
-            </tbody>
-         </tgroup>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </body>
+  <topic id="OrderedGroupIndexedType_id">
+    <title>Attribute pc:OrderedGroupIndexedType / @id</title>
+    <body>
+      <table frame="all" rowsep="1" colsep="1">
+        <tgroup cols="2">
+          <colspec colwidth="3*" align="left"/>
+          <colspec colwidth="25*" align="left"/>
+          <tbody>
+            <row>
+              <entry>Namespace</entry>
+              <entry>No namespace</entry>
+            </row>
+            <row>
+              <entry>Type</entry>
+              <entry>ID</entry>
+            </row>
+            <row>
+              <entry>Properties</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>use: </entry>
+                          <entry>
+                            <b>required</b>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Used by</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>Complex Type </entry>
+                          <entry>
+                            <xref href="#OrderedGroupIndexedType"/>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Source</entry>
+              <entry>
+                <codeblock outputclass="language-xml">&lt;attribute name="id" type="ID" use="required"/&gt;</codeblock>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
       </table>
-   </body>
-   <topic id="OrderedGroupIndexedType_id">
-      <title>Attribute pc:OrderedGroupIndexedType / @id</title>
-      <body>
-         <table frame="all" rowsep="1" colsep="1">
-            <tgroup cols="2">
-               <colspec colwidth="3*" align="left"/>
-               <colspec colwidth="25*" align="left"/>
-               <tbody>
-                  <row>
-                     <entry>Namespace</entry>
-                     <entry>No namespace</entry>
-                  </row>
-                  <row>
-                     <entry>Type</entry>
-                     <entry>ID</entry>
-                  </row>
-                  <row>
-                     <entry>Properties</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>use: </entry>
-                                       <entry>
-                                          <b>required</b>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Used by</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>Complex Type </entry>
-                                       <entry>
-                                          <xref href="#OrderedGroupIndexedType"/>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="id" type="ID" use="required"/&gt;</codeblock>
-                     </entry>
-                  </row>
-               </tbody>
-            </tgroup>
-         </table>
-      </body>
-   </topic>
-   <topic id="OrderedGroupIndexedType_regionRef">
-      <title>Attribute pc:OrderedGroupIndexedType / @regionRef</title>
-      <body>
-         <table frame="all" rowsep="1" colsep="1">
-            <tgroup cols="2">
-               <colspec colwidth="3*" align="left"/>
-               <colspec colwidth="25*" align="left"/>
-               <tbody>
-                  <row>
-                     <entry>Namespace</entry>
-                     <entry>No namespace</entry>
-                  </row>
-                  <row>
-                     <entry>Annotations</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">Optional link to a parent region of nested regions.
+    </body>
+  </topic>
+  <topic id="OrderedGroupIndexedType_regionRef">
+    <title>Attribute pc:OrderedGroupIndexedType / @regionRef</title>
+    <body>
+      <table frame="all" rowsep="1" colsep="1">
+        <tgroup cols="2">
+          <colspec colwidth="3*" align="left"/>
+          <colspec colwidth="25*" align="left"/>
+          <tbody>
+            <row>
+              <entry>Namespace</entry>
+              <entry>No namespace</entry>
+            </row>
+            <row>
+              <entry>Annotations</entry>
+              <entry>
+                <codeblock outputclass="language-xml">Optional link to a parent region of nested regions.
 The parent region doubles as reading order group.
 Only the nested regions should be allowed as group members.</codeblock>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Type</entry>
-                     <entry>IDREF</entry>
-                  </row>
-                  <row>
-                     <entry>Properties</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>content: </entry>
-                                       <entry>
-                                          <b>simple</b>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Used by</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>Complex Type </entry>
-                                       <entry>
-                                          <xref href="#OrderedGroupIndexedType"/>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="regionRef" type="IDREF"&gt;
+              </entry>
+            </row>
+            <row>
+              <entry>Type</entry>
+              <entry>IDREF</entry>
+            </row>
+            <row>
+              <entry>Properties</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>content: </entry>
+                          <entry>
+                            <b>simple</b>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Used by</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>Complex Type </entry>
+                          <entry>
+                            <xref href="#OrderedGroupIndexedType"/>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Source</entry>
+              <entry>
+                <codeblock outputclass="language-xml">&lt;attribute name="regionRef" type="IDREF"&gt;
   &lt;annotation&gt;
     &lt;documentation&gt;Optional link to a parent region of nested regions. The parent region doubles as reading order group. Only the nested regions should be allowed as group members.&lt;/documentation&gt;
   &lt;/annotation&gt;
 &lt;/attribute&gt;</codeblock>
-                     </entry>
-                  </row>
-               </tbody>
-            </tgroup>
-         </table>
-      </body>
-   </topic>
-   <topic id="OrderedGroupIndexedType_index">
-      <title>Attribute pc:OrderedGroupIndexedType / @index</title>
-      <body>
-         <table frame="all" rowsep="1" colsep="1">
-            <tgroup cols="2">
-               <colspec colwidth="3*" align="left"/>
-               <colspec colwidth="25*" align="left"/>
-               <tbody>
-                  <row>
-                     <entry>Namespace</entry>
-                     <entry>No namespace</entry>
-                  </row>
-                  <row>
-                     <entry>Annotations</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">Position (order number) of this item within the
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </body>
+  </topic>
+  <topic id="OrderedGroupIndexedType_index">
+    <title>Attribute pc:OrderedGroupIndexedType / @index</title>
+    <body>
+      <table frame="all" rowsep="1" colsep="1">
+        <tgroup cols="2">
+          <colspec colwidth="3*" align="left"/>
+          <colspec colwidth="25*" align="left"/>
+          <tbody>
+            <row>
+              <entry>Namespace</entry>
+              <entry>No namespace</entry>
+            </row>
+            <row>
+              <entry>Annotations</entry>
+              <entry>
+                <codeblock outputclass="language-xml">Position (order number) of this item within the
 current hierarchy level.</codeblock>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Type</entry>
-                     <entry>int</entry>
-                  </row>
-                  <row>
-                     <entry>Properties</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>use: </entry>
-                                       <entry>
-                                          <b>required</b>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Used by</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>Complex Type </entry>
-                                       <entry>
-                                          <xref href="#OrderedGroupIndexedType"/>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="index" type="int" use="required"&gt;
+              </entry>
+            </row>
+            <row>
+              <entry>Type</entry>
+              <entry>int</entry>
+            </row>
+            <row>
+              <entry>Properties</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>use: </entry>
+                          <entry>
+                            <b>required</b>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Used by</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>Complex Type </entry>
+                          <entry>
+                            <xref href="#OrderedGroupIndexedType"/>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Source</entry>
+              <entry>
+                <codeblock outputclass="language-xml">&lt;attribute name="index" type="int" use="required"&gt;
   &lt;annotation&gt;
     &lt;documentation&gt;Position (order number) of this item within the current hierarchy level.&lt;/documentation&gt;
   &lt;/annotation&gt;
 &lt;/attribute&gt;</codeblock>
-                     </entry>
-                  </row>
-               </tbody>
-            </tgroup>
-         </table>
-      </body>
-   </topic>
-   <topic id="OrderedGroupIndexedType_caption">
-      <title>Attribute pc:OrderedGroupIndexedType / @caption</title>
-      <body>
-         <table frame="all" rowsep="1" colsep="1">
-            <tgroup cols="2">
-               <colspec colwidth="3*" align="left"/>
-               <colspec colwidth="25*" align="left"/>
-               <tbody>
-                  <row>
-                     <entry>Namespace</entry>
-                     <entry>No namespace</entry>
-                  </row>
-                  <row>
-                     <entry>Type</entry>
-                     <entry>string</entry>
-                  </row>
-                  <row>
-                     <entry>Properties</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>content: </entry>
-                                       <entry>
-                                          <b>simple</b>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Used by</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>Complex Type </entry>
-                                       <entry>
-                                          <xref href="#OrderedGroupIndexedType"/>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="caption" type="string"/&gt;</codeblock>
-                     </entry>
-                  </row>
-               </tbody>
-            </tgroup>
-         </table>
-      </body>
-   </topic>
-   <topic id="OrderedGroupIndexedType_type">
-      <title>Attribute pc:OrderedGroupIndexedType / @type</title>
-      <body>
-         <table frame="all" rowsep="1" colsep="1">
-            <tgroup cols="2">
-               <colspec colwidth="3*" align="left"/>
-               <colspec colwidth="25*" align="left"/>
-               <tbody>
-                  <row>
-                     <entry>Namespace</entry>
-                     <entry>No namespace</entry>
-                  </row>
-                  <row>
-                     <entry>Type</entry>
-                     <entry>
-                        <xref href="pagecontent_xsd_Simple_Type_pc_GroupTypeSimpleType.dita#GroupTypeSimpleType"/>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Properties</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>content: </entry>
-                                       <entry>
-                                          <b>simple</b>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Facets</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="3">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="3*" align="left"/>
-                                 <colspec colwidth="5*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>enumeration</entry>
-                                       <entry>paragraph</entry>
-                                       <entry/>
-                                    </row>
-                                    <row>
-                                       <entry>enumeration</entry>
-                                       <entry>list</entry>
-                                       <entry/>
-                                    </row>
-                                    <row>
-                                       <entry>enumeration</entry>
-                                       <entry>list-item</entry>
-                                       <entry/>
-                                    </row>
-                                    <row>
-                                       <entry>enumeration</entry>
-                                       <entry>figure</entry>
-                                       <entry/>
-                                    </row>
-                                    <row>
-                                       <entry>enumeration</entry>
-                                       <entry>article</entry>
-                                       <entry/>
-                                    </row>
-                                    <row>
-                                       <entry>enumeration</entry>
-                                       <entry>div</entry>
-                                       <entry/>
-                                    </row>
-                                    <row>
-                                       <entry>enumeration</entry>
-                                       <entry>other</entry>
-                                       <entry/>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Used by</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>Complex Type </entry>
-                                       <entry>
-                                          <xref href="#OrderedGroupIndexedType"/>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="type" type="pc:GroupTypeSimpleType"/&gt;</codeblock>
-                     </entry>
-                  </row>
-               </tbody>
-            </tgroup>
-         </table>
-      </body>
-   </topic>
-   <topic id="OrderedGroupIndexedType_continuation">
-      <title>Attribute pc:OrderedGroupIndexedType / @continuation</title>
-      <body>
-         <table frame="all" rowsep="1" colsep="1">
-            <tgroup cols="2">
-               <colspec colwidth="3*" align="left"/>
-               <colspec colwidth="25*" align="left"/>
-               <tbody>
-                  <row>
-                     <entry>Namespace</entry>
-                     <entry>No namespace</entry>
-                  </row>
-                  <row>
-                     <entry>Annotations</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">Is this group a continuation of another group (from
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </body>
+  </topic>
+  <topic id="OrderedGroupIndexedType_caption">
+    <title>Attribute pc:OrderedGroupIndexedType / @caption</title>
+    <body>
+      <table frame="all" rowsep="1" colsep="1">
+        <tgroup cols="2">
+          <colspec colwidth="3*" align="left"/>
+          <colspec colwidth="25*" align="left"/>
+          <tbody>
+            <row>
+              <entry>Namespace</entry>
+              <entry>No namespace</entry>
+            </row>
+            <row>
+              <entry>Type</entry>
+              <entry>string</entry>
+            </row>
+            <row>
+              <entry>Properties</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>content: </entry>
+                          <entry>
+                            <b>simple</b>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Used by</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>Complex Type </entry>
+                          <entry>
+                            <xref href="#OrderedGroupIndexedType"/>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Source</entry>
+              <entry>
+                <codeblock outputclass="language-xml">&lt;attribute name="caption" type="string"/&gt;</codeblock>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </body>
+  </topic>
+  <topic id="OrderedGroupIndexedType_type">
+    <title>Attribute pc:OrderedGroupIndexedType / @type</title>
+    <body>
+      <table frame="all" rowsep="1" colsep="1">
+        <tgroup cols="2">
+          <colspec colwidth="3*" align="left"/>
+          <colspec colwidth="25*" align="left"/>
+          <tbody>
+            <row>
+              <entry>Namespace</entry>
+              <entry>No namespace</entry>
+            </row>
+            <row>
+              <entry>Type</entry>
+              <entry>
+                <xref href="pagecontent_xsd_Simple_Type_pc_GroupTypeSimpleType.dita#GroupTypeSimpleType"/>
+              </entry>
+            </row>
+            <row>
+              <entry>Properties</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>content: </entry>
+                          <entry>
+                            <b>simple</b>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Facets</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="3">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="3*" align="left"/>
+                      <colspec colwidth="5*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>enumeration</entry>
+                          <entry>paragraph</entry>
+                          <entry/>
+                        </row>
+                        <row>
+                          <entry>enumeration</entry>
+                          <entry>list</entry>
+                          <entry/>
+                        </row>
+                        <row>
+                          <entry>enumeration</entry>
+                          <entry>list-item</entry>
+                          <entry/>
+                        </row>
+                        <row>
+                          <entry>enumeration</entry>
+                          <entry>figure</entry>
+                          <entry/>
+                        </row>
+                        <row>
+                          <entry>enumeration</entry>
+                          <entry>article</entry>
+                          <entry/>
+                        </row>
+                        <row>
+                          <entry>enumeration</entry>
+                          <entry>div</entry>
+                          <entry/>
+                        </row>
+                        <row>
+                          <entry>enumeration</entry>
+                          <entry>other</entry>
+                          <entry/>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Used by</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>Complex Type </entry>
+                          <entry>
+                            <xref href="#OrderedGroupIndexedType"/>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Source</entry>
+              <entry>
+                <codeblock outputclass="language-xml">&lt;attribute name="type" type="pc:GroupTypeSimpleType"/&gt;</codeblock>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </body>
+  </topic>
+  <topic id="OrderedGroupIndexedType_continuation">
+    <title>Attribute pc:OrderedGroupIndexedType / @continuation</title>
+    <body>
+      <table frame="all" rowsep="1" colsep="1">
+        <tgroup cols="2">
+          <colspec colwidth="3*" align="left"/>
+          <colspec colwidth="25*" align="left"/>
+          <tbody>
+            <row>
+              <entry>Namespace</entry>
+              <entry>No namespace</entry>
+            </row>
+            <row>
+              <entry>Annotations</entry>
+              <entry>
+                <codeblock outputclass="language-xml">Is this group a continuation of another group (from
 previous column or page, for example)?</codeblock>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Type</entry>
-                     <entry>boolean</entry>
-                  </row>
-                  <row>
-                     <entry>Properties</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>content: </entry>
-                                       <entry>
-                                          <b>simple</b>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Used by</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>Complex Type </entry>
-                                       <entry>
-                                          <xref href="#OrderedGroupIndexedType"/>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="continuation" type="boolean"&gt;
+              </entry>
+            </row>
+            <row>
+              <entry>Type</entry>
+              <entry>boolean</entry>
+            </row>
+            <row>
+              <entry>Properties</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>content: </entry>
+                          <entry>
+                            <b>simple</b>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Used by</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>Complex Type </entry>
+                          <entry>
+                            <xref href="#OrderedGroupIndexedType"/>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Source</entry>
+              <entry>
+                <codeblock outputclass="language-xml">&lt;attribute name="continuation" type="boolean"&gt;
   &lt;annotation&gt;
     &lt;documentation&gt;Is this group a continuation of another group (from previous column or page, for example)?&lt;/documentation&gt;
   &lt;/annotation&gt;
 &lt;/attribute&gt;</codeblock>
-                     </entry>
-                  </row>
-               </tbody>
-            </tgroup>
-         </table>
-      </body>
-   </topic>
-   <topic id="OrderedGroupIndexedType_custom">
-      <title>Attribute pc:OrderedGroupIndexedType / @custom</title>
-      <body>
-         <table frame="all" rowsep="1" colsep="1">
-            <tgroup cols="2">
-               <colspec colwidth="3*" align="left"/>
-               <colspec colwidth="25*" align="left"/>
-               <tbody>
-                  <row>
-                     <entry>Namespace</entry>
-                     <entry>No namespace</entry>
-                  </row>
-                  <row>
-                     <entry>Annotations</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">For generic use</codeblock>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Type</entry>
-                     <entry>string</entry>
-                  </row>
-                  <row>
-                     <entry>Properties</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>content: </entry>
-                                       <entry>
-                                          <b>simple</b>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Used by</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>Complex Type </entry>
-                                       <entry>
-                                          <xref href="#OrderedGroupIndexedType"/>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="custom" type="string"&gt;
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </body>
+  </topic>
+  <topic id="OrderedGroupIndexedType_custom">
+    <title>Attribute pc:OrderedGroupIndexedType / @custom</title>
+    <body>
+      <table frame="all" rowsep="1" colsep="1">
+        <tgroup cols="2">
+          <colspec colwidth="3*" align="left"/>
+          <colspec colwidth="25*" align="left"/>
+          <tbody>
+            <row>
+              <entry>Namespace</entry>
+              <entry>No namespace</entry>
+            </row>
+            <row>
+              <entry>Annotations</entry>
+              <entry>
+                <codeblock outputclass="language-xml">For generic use</codeblock>
+              </entry>
+            </row>
+            <row>
+              <entry>Type</entry>
+              <entry>string</entry>
+            </row>
+            <row>
+              <entry>Properties</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>content: </entry>
+                          <entry>
+                            <b>simple</b>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Used by</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>Complex Type </entry>
+                          <entry>
+                            <xref href="#OrderedGroupIndexedType"/>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Source</entry>
+              <entry>
+                <codeblock outputclass="language-xml">&lt;attribute name="custom" type="string"&gt;
   &lt;annotation&gt;
     &lt;documentation&gt;For generic use&lt;/documentation&gt;
   &lt;/annotation&gt;
 &lt;/attribute&gt;</codeblock>
-                     </entry>
-                  </row>
-               </tbody>
-            </tgroup>
-         </table>
-      </body>
-   </topic>
-   <topic id="OrderedGroupIndexedType_comments">
-      <title>Attribute pc:OrderedGroupIndexedType / @comments</title>
-      <body>
-         <table frame="all" rowsep="1" colsep="1">
-            <tgroup cols="2">
-               <colspec colwidth="3*" align="left"/>
-               <colspec colwidth="25*" align="left"/>
-               <tbody>
-                  <row>
-                     <entry>Namespace</entry>
-                     <entry>No namespace</entry>
-                  </row>
-                  <row>
-                     <entry>Type</entry>
-                     <entry>string</entry>
-                  </row>
-                  <row>
-                     <entry>Properties</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>content: </entry>
-                                       <entry>
-                                          <b>simple</b>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Used by</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>Complex Type </entry>
-                                       <entry>
-                                          <xref href="#OrderedGroupIndexedType"/>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="comments" type="string"/&gt;</codeblock>
-                     </entry>
-                  </row>
-               </tbody>
-            </tgroup>
-         </table>
-      </body>
-   </topic>
-   <topic id="OrderedGroupIndexedType_UserDefined">
-      <title>Element pc:OrderedGroupIndexedType / pc:UserDefined</title>
-      <body>
-         <table frame="all" rowsep="1" colsep="1">
-            <tgroup cols="2">
-               <colspec colwidth="3*" align="left"/>
-               <colspec colwidth="25*" align="left"/>
-               <tbody>
-                  <row>
-                     <entry>Namespace</entry>
-                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15</entry>
-                  </row>
-                  <row>
-                     <entry>Diagram</entry>
-                     <entry>
-                        <p>
-                           <imagemap id="pagecontent_xsd_Element_pc_UserDefined_2">
-                              <image href="img/pagecontent_xsd_Element_pc_UserDefined_2.jpeg"/>
-                              <area>
-                                 <shape>rect</shape>
-                                 <coords>593,78,924,164</coords>
-                                 <xref href="pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita#UserDefinedType_UserAttribute"/>
-                              </area>
-                              <area>
-                                 <shape>rect</shape>
-                                 <coords>388,6,689,50</coords>
-                                 <xref href="pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita#UserDefinedType"/>
-                              </area>
-                           </imagemap>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Type</entry>
-                     <entry>
-                        <xref href="pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita#UserDefinedType"/>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Properties</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>content: </entry>
-                                       <entry>
-                                          <b>complex</b>
-                                       </entry>
-                                    </row>
-                                    <row>
-                                       <entry>minOccurs: </entry>
-                                       <entry>
-                                          <b>0</b>
-                                       </entry>
-                                    </row>
-                                    <row>
-                                       <entry>maxOccurs: </entry>
-                                       <entry>
-                                          <b>1</b>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Model</entry>
-                     <entry>
-                        <xref href="pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita#UserDefinedType_UserAttribute"/>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Children</entry>
-                     <entry>
-                        <xref href="pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita#UserDefinedType_UserAttribute"/>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Instance</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;pc:UserDefined xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15"&gt;
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </body>
+  </topic>
+  <topic id="OrderedGroupIndexedType_comments">
+    <title>Attribute pc:OrderedGroupIndexedType / @comments</title>
+    <body>
+      <table frame="all" rowsep="1" colsep="1">
+        <tgroup cols="2">
+          <colspec colwidth="3*" align="left"/>
+          <colspec colwidth="25*" align="left"/>
+          <tbody>
+            <row>
+              <entry>Namespace</entry>
+              <entry>No namespace</entry>
+            </row>
+            <row>
+              <entry>Type</entry>
+              <entry>string</entry>
+            </row>
+            <row>
+              <entry>Properties</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>content: </entry>
+                          <entry>
+                            <b>simple</b>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Used by</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>Complex Type </entry>
+                          <entry>
+                            <xref href="#OrderedGroupIndexedType"/>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Source</entry>
+              <entry>
+                <codeblock outputclass="language-xml">&lt;attribute name="comments" type="string"/&gt;</codeblock>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </body>
+  </topic>
+  <topic id="OrderedGroupIndexedType_UserDefined">
+    <title>Element pc:OrderedGroupIndexedType / pc:UserDefined</title>
+    <body>
+      <table frame="all" rowsep="1" colsep="1">
+        <tgroup cols="2">
+          <colspec colwidth="3*" align="left"/>
+          <colspec colwidth="25*" align="left"/>
+          <tbody>
+            <row>
+              <entry>Namespace</entry>
+              <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15</entry>
+            </row>
+            <row>
+              <entry>Diagram</entry>
+              <entry>
+                <p>
+                  <imagemap id="pagecontent_xsd_Element_pc_UserDefined_2">
+                    <image href="img/pagecontent_xsd_Element_pc_UserDefined_2.jpeg"/>
+                    <area>
+                      <shape>rect</shape>
+                      <coords>593,78,924,164</coords>
+                      <xref href="pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita#UserDefinedType_UserAttribute"/>
+                    </area>
+                    <area>
+                      <shape>rect</shape>
+                      <coords>388,6,689,50</coords>
+                      <xref href="pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita#UserDefinedType"/>
+                    </area>
+                  </imagemap>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Type</entry>
+              <entry>
+                <xref href="pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita#UserDefinedType"/>
+              </entry>
+            </row>
+            <row>
+              <entry>Properties</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>content: </entry>
+                          <entry>
+                            <b>complex</b>
+                          </entry>
+                        </row>
+                        <row>
+                          <entry>minOccurs: </entry>
+                          <entry>
+                            <b>0</b>
+                          </entry>
+                        </row>
+                        <row>
+                          <entry>maxOccurs: </entry>
+                          <entry>
+                            <b>1</b>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Model</entry>
+              <entry>
+                <xref href="pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita#UserDefinedType_UserAttribute"/>
+              </entry>
+            </row>
+            <row>
+              <entry>Children</entry>
+              <entry>
+                <xref href="pagecontent_xsd_Complex_Type_pc_UserDefinedType.dita#UserDefinedType_UserAttribute"/>
+              </entry>
+            </row>
+            <row>
+              <entry>Instance</entry>
+              <entry>
+                <codeblock outputclass="language-xml">&lt;pc:UserDefined xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15"&gt;
   &lt;pc:UserAttribute description="" name="" type="" value=""&gt;{1,unbounded}&lt;/pc:UserAttribute&gt;
 &lt;/pc:UserDefined&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="UserDefined" type="pc:UserDefinedType" minOccurs="0" maxOccurs="1"/&gt;</codeblock>
-                     </entry>
-                  </row>
-               </tbody>
-            </tgroup>
-         </table>
-      </body>
-   </topic>
-   <topic id="OrderedGroupIndexedType_Labels">
-      <title>Element pc:OrderedGroupIndexedType / pc:Labels</title>
-      <body>
-         <table frame="all" rowsep="1" colsep="1">
-            <tgroup cols="2">
-               <colspec colwidth="3*" align="left"/>
-               <colspec colwidth="25*" align="left"/>
-               <tbody>
-                  <row>
-                     <entry>Namespace</entry>
-                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15</entry>
-                  </row>
-                  <row>
-                     <entry>Annotations</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">Semantic labels / tags</codeblock>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Diagram</entry>
-                     <entry>
-                        <p>
-                           <imagemap id="pagecontent_xsd_Element_pc_Labels_2">
-                              <image href="img/pagecontent_xsd_Element_pc_Labels_2.jpeg"/>
-                              <area>
-                                 <shape>rect</shape>
-                                 <coords>400,153,634,239</coords>
-                                 <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType_externalModel"/>
-                              </area>
-                              <area>
-                                 <shape>rect</shape>
-                                 <coords>400,335,592,421</coords>
-                                 <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType_externalId"/>
-                              </area>
-                              <area>
-                                 <shape>rect</shape>
-                                 <coords>400,543,579,629</coords>
-                                 <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType_prefix"/>
-                              </area>
-                              <area>
-                                 <shape>rect</shape>
-                                 <coords>400,725,600,811</coords>
-                                 <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType_comments"/>
-                              </area>
-                              <area>
-                                 <shape>rect</shape>
-                                 <coords>555,845,812,931</coords>
-                                 <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType_Label"/>
-                              </area>
-                              <area>
-                                 <shape>rect</shape>
-                                 <coords>350,6,593,50</coords>
-                                 <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType"/>
-                              </area>
-                           </imagemap>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Type</entry>
-                     <entry>
-                        <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType"/>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Properties</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>content: </entry>
-                                       <entry>
-                                          <b>complex</b>
-                                       </entry>
-                                    </row>
-                                    <row>
-                                       <entry>minOccurs: </entry>
-                                       <entry>
-                                          <b>0</b>
-                                       </entry>
-                                    </row>
-                                    <row>
-                                       <entry>maxOccurs: </entry>
-                                       <entry>
-                                          <b>unbounded</b>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Model</entry>
-                     <entry>
-                        <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType_Label"/>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Children</entry>
-                     <entry>
-                        <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType_Label"/>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Instance</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;pc:Labels comments="" externalId="" externalModel="" prefix="" xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15"&gt;
+              </entry>
+            </row>
+            <row>
+              <entry>Source</entry>
+              <entry>
+                <codeblock outputclass="language-xml">&lt;element name="UserDefined" type="pc:UserDefinedType" minOccurs="0" maxOccurs="1"/&gt;</codeblock>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </body>
+  </topic>
+  <topic id="OrderedGroupIndexedType_Labels">
+    <title>Element pc:OrderedGroupIndexedType / pc:Labels</title>
+    <body>
+      <table frame="all" rowsep="1" colsep="1">
+        <tgroup cols="2">
+          <colspec colwidth="3*" align="left"/>
+          <colspec colwidth="25*" align="left"/>
+          <tbody>
+            <row>
+              <entry>Namespace</entry>
+              <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15</entry>
+            </row>
+            <row>
+              <entry>Annotations</entry>
+              <entry>
+                <codeblock outputclass="language-xml">Semantic labels / tags</codeblock>
+              </entry>
+            </row>
+            <row>
+              <entry>Diagram</entry>
+              <entry>
+                <p>
+                  <imagemap id="pagecontent_xsd_Element_pc_Labels_2">
+                    <image href="img/pagecontent_xsd_Element_pc_Labels_2.jpeg"/>
+                    <area>
+                      <shape>rect</shape>
+                      <coords>400,153,634,239</coords>
+                      <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType_externalModel"/>
+                    </area>
+                    <area>
+                      <shape>rect</shape>
+                      <coords>400,335,592,421</coords>
+                      <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType_externalId"/>
+                    </area>
+                    <area>
+                      <shape>rect</shape>
+                      <coords>400,543,579,629</coords>
+                      <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType_prefix"/>
+                    </area>
+                    <area>
+                      <shape>rect</shape>
+                      <coords>400,725,600,811</coords>
+                      <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType_comments"/>
+                    </area>
+                    <area>
+                      <shape>rect</shape>
+                      <coords>555,845,812,931</coords>
+                      <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType_Label"/>
+                    </area>
+                    <area>
+                      <shape>rect</shape>
+                      <coords>350,6,593,50</coords>
+                      <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType"/>
+                    </area>
+                  </imagemap>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Type</entry>
+              <entry>
+                <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType"/>
+              </entry>
+            </row>
+            <row>
+              <entry>Properties</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>content: </entry>
+                          <entry>
+                            <b>complex</b>
+                          </entry>
+                        </row>
+                        <row>
+                          <entry>minOccurs: </entry>
+                          <entry>
+                            <b>0</b>
+                          </entry>
+                        </row>
+                        <row>
+                          <entry>maxOccurs: </entry>
+                          <entry>
+                            <b>unbounded</b>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Model</entry>
+              <entry>
+                <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType_Label"/>
+              </entry>
+            </row>
+            <row>
+              <entry>Children</entry>
+              <entry>
+                <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType_Label"/>
+              </entry>
+            </row>
+            <row>
+              <entry>Instance</entry>
+              <entry>
+                <codeblock outputclass="language-xml">&lt;pc:Labels comments="" externalId="" externalModel="" prefix="" xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15"&gt;
   &lt;pc:Label comments="" type="" value=""&gt;{0,unbounded}&lt;/pc:Label&gt;
 &lt;/pc:Labels&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Attributes</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="3">
-                                 <colspec colnum="1" colname="col1" align="left" colwidth="3*"/>
-                                 <colspec colnum="2" colname="col2" align="left" colwidth="3*"/>
-                                 <colspec colnum="3" colname="col3" align="left" colwidth="1*"/>
-                                 <thead>
-                                    <row>
-                                       <entry>QName</entry>
-                                       <entry>Type</entry>
-                                       <entry>Use</entry>
-                                    </row>
-                                 </thead>
-                                 <tbody>
-                                    <row>
-                                       <entry>
-                                          <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType_comments"/>
-                                       </entry>
-                                       <entry>string</entry>
-                                       <entry>optional</entry>
-                                    </row>
-                                    <row>
-                                       <entry>
-                                          <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType_externalId"/>
-                                       </entry>
-                                       <entry>string</entry>
-                                       <entry>optional</entry>
-                                    </row>
-                                    <row>
-                                       <entry namest="col1" nameend="col3">
-                                          <codeblock outputclass="language-xml">E.g. an RDF resource identifier
+              </entry>
+            </row>
+            <row>
+              <entry>Attributes</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="3">
+                      <colspec colnum="1" colname="col1" align="left" colwidth="3*"/>
+                      <colspec colnum="2" colname="col2" align="left" colwidth="3*"/>
+                      <colspec colnum="3" colname="col3" align="left" colwidth="1*"/>
+                      <thead>
+                        <row>
+                          <entry>QName</entry>
+                          <entry>Type</entry>
+                          <entry>Use</entry>
+                        </row>
+                      </thead>
+                      <tbody>
+                        <row>
+                          <entry>
+                            <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType_comments"/>
+                          </entry>
+                          <entry>string</entry>
+                          <entry>optional</entry>
+                        </row>
+                        <row>
+                          <entry>
+                            <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType_externalId"/>
+                          </entry>
+                          <entry>string</entry>
+                          <entry>optional</entry>
+                        </row>
+                        <row>
+                          <entry namest="col1" nameend="col3">
+                            <codeblock outputclass="language-xml">E.g. an RDF resource identifier
 (to be used as subject or object of an RDF triple)</codeblock>
-                                       </entry>
-                                    </row>
-                                    <row>
-                                       <entry>
-                                          <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType_externalModel"/>
-                                       </entry>
-                                       <entry>string</entry>
-                                       <entry>optional</entry>
-                                    </row>
-                                    <row>
-                                       <entry namest="col1" nameend="col3">
-                                          <codeblock outputclass="language-xml">Reference to external model / ontology / schema</codeblock>
-                                       </entry>
-                                    </row>
-                                    <row>
-                                       <entry>
-                                          <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType_prefix"/>
-                                       </entry>
-                                       <entry>string</entry>
-                                       <entry>optional</entry>
-                                    </row>
-                                    <row>
-                                       <entry namest="col1" nameend="col3">
-                                          <codeblock outputclass="language-xml">Prefix for all labels (e.g. first part of an URI)</codeblock>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="Labels" type="pc:LabelsType" minOccurs="0" maxOccurs="unbounded"&gt;
+                          </entry>
+                        </row>
+                        <row>
+                          <entry>
+                            <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType_externalModel"/>
+                          </entry>
+                          <entry>string</entry>
+                          <entry>optional</entry>
+                        </row>
+                        <row>
+                          <entry namest="col1" nameend="col3">
+                            <codeblock outputclass="language-xml">Reference to external model / ontology / schema</codeblock>
+                          </entry>
+                        </row>
+                        <row>
+                          <entry>
+                            <xref href="pagecontent_xsd_Complex_Type_pc_LabelsType.dita#LabelsType_prefix"/>
+                          </entry>
+                          <entry>string</entry>
+                          <entry>optional</entry>
+                        </row>
+                        <row>
+                          <entry namest="col1" nameend="col3">
+                            <codeblock outputclass="language-xml">Prefix for all labels (e.g. first part of an URI)</codeblock>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Source</entry>
+              <entry>
+                <codeblock outputclass="language-xml">&lt;element name="Labels" type="pc:LabelsType" minOccurs="0" maxOccurs="unbounded"&gt;
   &lt;annotation&gt;
     &lt;documentation&gt;Semantic labels / tags&lt;/documentation&gt;
   &lt;/annotation&gt;
 &lt;/element&gt;</codeblock>
-                     </entry>
-                  </row>
-               </tbody>
-            </tgroup>
-         </table>
-      </body>
-   </topic>
-   <topic id="OrderedGroupIndexedType_RegionRefIndexed">
-      <title>Element pc:OrderedGroupIndexedType / pc:RegionRefIndexed</title>
-      <body>
-         <table frame="all" rowsep="1" colsep="1">
-            <tgroup cols="2">
-               <colspec colwidth="3*" align="left"/>
-               <colspec colwidth="25*" align="left"/>
-               <tbody>
-                  <row>
-                     <entry>Namespace</entry>
-                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15</entry>
-                  </row>
-                  <row>
-                     <entry>Diagram</entry>
-                     <entry>
-                        <p>
-                           <imagemap id="pagecontent_xsd_Element_pc_RegionRefIndexed_1">
-                              <image href="img/pagecontent_xsd_Element_pc_RegionRefIndexed_1.jpeg"/>
-                              <area>
-                                 <shape>rect</shape>
-                                 <coords>496,153,646,239</coords>
-                                 <xref href="pagecontent_xsd_Complex_Type_pc_RegionRefIndexedType.dita#RegionRefIndexedType_index"/>
-                              </area>
-                              <area>
-                                 <shape>rect</shape>
-                                 <coords>496,335,691,421</coords>
-                                 <xref href="pagecontent_xsd_Complex_Type_pc_RegionRefIndexedType.dita#RegionRefIndexedType_regionRef"/>
-                              </area>
-                              <area>
-                                 <shape>rect</shape>
-                                 <coords>446,6,805,50</coords>
-                                 <xref href="pagecontent_xsd_Complex_Type_pc_RegionRefIndexedType.dita#RegionRefIndexedType"/>
-                              </area>
-                           </imagemap>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Type</entry>
-                     <entry>
-                        <xref href="pagecontent_xsd_Complex_Type_pc_RegionRefIndexedType.dita#RegionRefIndexedType"/>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Properties</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>content: </entry>
-                                       <entry>
-                                          <b>complex</b>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Attributes</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="3">
-                                 <colspec colnum="1" colname="col1" align="left" colwidth="3*"/>
-                                 <colspec colnum="2" colname="col2" align="left" colwidth="3*"/>
-                                 <colspec colnum="3" colname="col3" align="left" colwidth="1*"/>
-                                 <thead>
-                                    <row>
-                                       <entry>QName</entry>
-                                       <entry>Type</entry>
-                                       <entry>Use</entry>
-                                    </row>
-                                 </thead>
-                                 <tbody>
-                                    <row>
-                                       <entry>
-                                          <xref href="pagecontent_xsd_Complex_Type_pc_RegionRefIndexedType.dita#RegionRefIndexedType_index"/>
-                                       </entry>
-                                       <entry>int</entry>
-                                       <entry>required</entry>
-                                    </row>
-                                    <row>
-                                       <entry namest="col1" nameend="col3">
-                                          <codeblock outputclass="language-xml">Position (order number) of this item within the current hierarchy level.</codeblock>
-                                       </entry>
-                                    </row>
-                                    <row>
-                                       <entry>
-                                          <xref href="pagecontent_xsd_Complex_Type_pc_RegionRefIndexedType.dita#RegionRefIndexedType_regionRef"/>
-                                       </entry>
-                                       <entry>IDREF</entry>
-                                       <entry>required</entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="RegionRefIndexed" type="pc:RegionRefIndexedType"/&gt;</codeblock>
-                     </entry>
-                  </row>
-               </tbody>
-            </tgroup>
-         </table>
-      </body>
-   </topic>
-   <topic id="OrderedGroupIndexedType_OrderedGroupIndexed">
-      <title>Element pc:OrderedGroupIndexedType / pc:OrderedGroupIndexed</title>
-      <body>
-         <table frame="all" rowsep="1" colsep="1">
-            <tgroup cols="2">
-               <colspec colwidth="3*" align="left"/>
-               <colspec colwidth="25*" align="left"/>
-               <tbody>
-                  <row>
-                     <entry>Namespace</entry>
-                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15</entry>
-                  </row>
-                  <row>
-                     <entry>Diagram</entry>
-                     <entry>
-                        <p>
-                           <imagemap id="pagecontent_xsd_Element_pc_OrderedGroupIndexed_1">
-                              <image href="img/pagecontent_xsd_Element_pc_OrderedGroupIndexed_1.jpeg"/>
-                              <area>
-                                 <shape>rect</shape>
-                                 <coords>531,153,680,239</coords>
-                                 <xref href="#OrderedGroupIndexedType_id"/>
-                              </area>
-                              <area>
-                                 <shape>rect</shape>
-                                 <coords>531,259,726,345</coords>
-                                 <xref href="#OrderedGroupIndexedType_regionRef"/>
-                              </area>
-                              <area>
-                                 <shape>rect</shape>
-                                 <coords>531,493,681,579</coords>
-                                 <xref href="#OrderedGroupIndexedType_index"/>
-                              </area>
-                              <area>
-                                 <shape>rect</shape>
-                                 <coords>531,675,710,761</coords>
-                                 <xref href="#OrderedGroupIndexedType_caption"/>
-                              </area>
-                              <area>
-                                 <shape>rect</shape>
-                                 <coords>531,781,911,867</coords>
-                                 <xref href="#OrderedGroupIndexedType_type"/>
-                              </area>
-                              <area>
-                                 <shape>rect</shape>
-                                 <coords>531,887,746,973</coords>
-                                 <xref href="#OrderedGroupIndexedType_continuation"/>
-                              </area>
-                              <area>
-                                 <shape>rect</shape>
-                                 <coords>531,1095,710,1181</coords>
-                                 <xref href="#OrderedGroupIndexedType_custom"/>
-                              </area>
-                              <area>
-                                 <shape>rect</shape>
-                                 <coords>531,1251,731,1337</coords>
-                                 <xref href="#OrderedGroupIndexedType_comments"/>
-                              </area>
-                              <area>
-                                 <shape>rect</shape>
-                                 <coords>686,1371,1012,1457</coords>
-                                 <xref href="#OrderedGroupIndexedType_UserDefined"/>
-                              </area>
-                              <area>
-                                 <shape>rect</shape>
-                                 <coords>686,1477,954,1563</coords>
-                                 <xref href="#OrderedGroupIndexedType_Labels"/>
-                              </area>
-                              <area>
-                                 <shape>rect</shape>
-                                 <coords>828,1633,1212,1719</coords>
-                                 <xref href="#OrderedGroupIndexedType_RegionRefIndexed"/>
-                              </area>
-                              <area>
-                                 <shape>rect</shape>
-                                 <coords>828,1739,1225,1825</coords>
-                                 <xref href="#OrderedGroupIndexedType_OrderedGroupIndexed"/>
-                              </area>
-                              <area>
-                                 <shape>rect</shape>
-                                 <coords>828,1845,1270,1931</coords>
-                                 <xref href="#OrderedGroupIndexedType_UnorderedGroupIndexed"/>
-                              </area>
-                              <area>
-                                 <shape>rect</shape>
-                                 <coords>481,6,875,50</coords>
-                                 <xref href="#OrderedGroupIndexedType"/>
-                              </area>
-                           </imagemap>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Type</entry>
-                     <entry>
-                        <xref href="#OrderedGroupIndexedType"/>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Properties</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>content: </entry>
-                                       <entry>
-                                          <b>complex</b>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Model</entry>
-                     <entry>
-                        <xref href="#OrderedGroupIndexedType_UserDefined"/> , <xref href="#OrderedGroupIndexedType_Labels"/> , (<xref href="#OrderedGroupIndexedType_RegionRefIndexed"/> | <xref href="#OrderedGroupIndexedType_OrderedGroupIndexed"/> | <xref href="#OrderedGroupIndexedType_UnorderedGroupIndexed"/>)</entry>
-                  </row>
-                  <row>
-                     <entry>Children</entry>
-                     <entry>
-                        <xref href="#OrderedGroupIndexedType_Labels"/>, <xref href="#OrderedGroupIndexedType_OrderedGroupIndexed"/>, <xref href="#OrderedGroupIndexedType_RegionRefIndexed"/>, <xref href="#OrderedGroupIndexedType_UnorderedGroupIndexed"/>, <xref href="#OrderedGroupIndexedType_UserDefined"/>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Instance</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;pc:OrderedGroupIndexed caption="" comments="" continuation="" custom="" id="" index="" regionRef="" type="" xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15"&gt;
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </body>
+  </topic>
+  <topic id="OrderedGroupIndexedType_RegionRefIndexed">
+    <title>Element pc:OrderedGroupIndexedType / pc:RegionRefIndexed</title>
+    <body>
+      <table frame="all" rowsep="1" colsep="1">
+        <tgroup cols="2">
+          <colspec colwidth="3*" align="left"/>
+          <colspec colwidth="25*" align="left"/>
+          <tbody>
+            <row>
+              <entry>Namespace</entry>
+              <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15</entry>
+            </row>
+            <row>
+              <entry>Diagram</entry>
+              <entry>
+                <p>
+                  <imagemap id="pagecontent_xsd_Element_pc_RegionRefIndexed_1">
+                    <image href="img/pagecontent_xsd_Element_pc_RegionRefIndexed_1.jpeg"/>
+                    <area>
+                      <shape>rect</shape>
+                      <coords>496,153,646,239</coords>
+                      <xref href="pagecontent_xsd_Complex_Type_pc_RegionRefIndexedType.dita#RegionRefIndexedType_index"/>
+                    </area>
+                    <area>
+                      <shape>rect</shape>
+                      <coords>496,335,691,421</coords>
+                      <xref href="pagecontent_xsd_Complex_Type_pc_RegionRefIndexedType.dita#RegionRefIndexedType_regionRef"/>
+                    </area>
+                    <area>
+                      <shape>rect</shape>
+                      <coords>446,6,805,50</coords>
+                      <xref href="pagecontent_xsd_Complex_Type_pc_RegionRefIndexedType.dita#RegionRefIndexedType"/>
+                    </area>
+                  </imagemap>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Type</entry>
+              <entry>
+                <xref href="pagecontent_xsd_Complex_Type_pc_RegionRefIndexedType.dita#RegionRefIndexedType"/>
+              </entry>
+            </row>
+            <row>
+              <entry>Properties</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>content: </entry>
+                          <entry>
+                            <b>complex</b>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Attributes</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="3">
+                      <colspec colnum="1" colname="col1" align="left" colwidth="3*"/>
+                      <colspec colnum="2" colname="col2" align="left" colwidth="3*"/>
+                      <colspec colnum="3" colname="col3" align="left" colwidth="1*"/>
+                      <thead>
+                        <row>
+                          <entry>QName</entry>
+                          <entry>Type</entry>
+                          <entry>Use</entry>
+                        </row>
+                      </thead>
+                      <tbody>
+                        <row>
+                          <entry>
+                            <xref href="pagecontent_xsd_Complex_Type_pc_RegionRefIndexedType.dita#RegionRefIndexedType_index"/>
+                          </entry>
+                          <entry>int</entry>
+                          <entry>required</entry>
+                        </row>
+                        <row>
+                          <entry namest="col1" nameend="col3">
+                            <codeblock outputclass="language-xml">Position (order number) of this item within the current hierarchy level.</codeblock>
+                          </entry>
+                        </row>
+                        <row>
+                          <entry>
+                            <xref href="pagecontent_xsd_Complex_Type_pc_RegionRefIndexedType.dita#RegionRefIndexedType_regionRef"/>
+                          </entry>
+                          <entry>IDREF</entry>
+                          <entry>required</entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Source</entry>
+              <entry>
+                <codeblock outputclass="language-xml">&lt;element name="RegionRefIndexed" type="pc:RegionRefIndexedType"/&gt;</codeblock>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </body>
+  </topic>
+  <topic id="OrderedGroupIndexedType_OrderedGroupIndexed">
+    <title>Element pc:OrderedGroupIndexedType / pc:OrderedGroupIndexed</title>
+    <body>
+      <table frame="all" rowsep="1" colsep="1">
+        <tgroup cols="2">
+          <colspec colwidth="3*" align="left"/>
+          <colspec colwidth="25*" align="left"/>
+          <tbody>
+            <row>
+              <entry>Namespace</entry>
+              <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15</entry>
+            </row>
+            <row>
+              <entry>Diagram</entry>
+              <entry>
+                <p>
+                  <imagemap id="pagecontent_xsd_Element_pc_OrderedGroupIndexed_1">
+                    <image href="img/pagecontent_xsd_Element_pc_OrderedGroupIndexed_1.jpeg"/>
+                    <area>
+                      <shape>rect</shape>
+                      <coords>531,153,680,239</coords>
+                      <xref href="#OrderedGroupIndexedType_id"/>
+                    </area>
+                    <area>
+                      <shape>rect</shape>
+                      <coords>531,259,726,345</coords>
+                      <xref href="#OrderedGroupIndexedType_regionRef"/>
+                    </area>
+                    <area>
+                      <shape>rect</shape>
+                      <coords>531,493,681,579</coords>
+                      <xref href="#OrderedGroupIndexedType_index"/>
+                    </area>
+                    <area>
+                      <shape>rect</shape>
+                      <coords>531,675,710,761</coords>
+                      <xref href="#OrderedGroupIndexedType_caption"/>
+                    </area>
+                    <area>
+                      <shape>rect</shape>
+                      <coords>531,781,911,867</coords>
+                      <xref href="#OrderedGroupIndexedType_type"/>
+                    </area>
+                    <area>
+                      <shape>rect</shape>
+                      <coords>531,887,746,973</coords>
+                      <xref href="#OrderedGroupIndexedType_continuation"/>
+                    </area>
+                    <area>
+                      <shape>rect</shape>
+                      <coords>531,1095,710,1181</coords>
+                      <xref href="#OrderedGroupIndexedType_custom"/>
+                    </area>
+                    <area>
+                      <shape>rect</shape>
+                      <coords>531,1251,731,1337</coords>
+                      <xref href="#OrderedGroupIndexedType_comments"/>
+                    </area>
+                    <area>
+                      <shape>rect</shape>
+                      <coords>686,1371,1012,1457</coords>
+                      <xref href="#OrderedGroupIndexedType_UserDefined"/>
+                    </area>
+                    <area>
+                      <shape>rect</shape>
+                      <coords>686,1477,954,1563</coords>
+                      <xref href="#OrderedGroupIndexedType_Labels"/>
+                    </area>
+                    <area>
+                      <shape>rect</shape>
+                      <coords>828,1633,1212,1719</coords>
+                      <xref href="#OrderedGroupIndexedType_RegionRefIndexed"/>
+                    </area>
+                    <area>
+                      <shape>rect</shape>
+                      <coords>828,1739,1225,1825</coords>
+                      <xref href="#OrderedGroupIndexedType_OrderedGroupIndexed"/>
+                    </area>
+                    <area>
+                      <shape>rect</shape>
+                      <coords>828,1845,1270,1931</coords>
+                      <xref href="#OrderedGroupIndexedType_UnorderedGroupIndexed"/>
+                    </area>
+                    <area>
+                      <shape>rect</shape>
+                      <coords>481,6,875,50</coords>
+                      <xref href="#OrderedGroupIndexedType"/>
+                    </area>
+                  </imagemap>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Type</entry>
+              <entry>
+                <xref href="#OrderedGroupIndexedType"/>
+              </entry>
+            </row>
+            <row>
+              <entry>Properties</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>content: </entry>
+                          <entry>
+                            <b>complex</b>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Model</entry>
+              <entry><xref href="#OrderedGroupIndexedType_UserDefined"/> , <xref href="#OrderedGroupIndexedType_Labels"/> , (<xref href="#OrderedGroupIndexedType_RegionRefIndexed"/> | <xref href="#OrderedGroupIndexedType_OrderedGroupIndexed"/> | <xref href="#OrderedGroupIndexedType_UnorderedGroupIndexed"/>)</entry>
+            </row>
+            <row>
+              <entry>Children</entry>
+              <entry><xref href="#OrderedGroupIndexedType_Labels"/>, <xref href="#OrderedGroupIndexedType_OrderedGroupIndexed"/>, <xref href="#OrderedGroupIndexedType_RegionRefIndexed"/>, <xref href="#OrderedGroupIndexedType_UnorderedGroupIndexed"/>, <xref href="#OrderedGroupIndexedType_UserDefined"/></entry>
+            </row>
+            <row>
+              <entry>Instance</entry>
+              <entry>
+                <codeblock outputclass="language-xml">&lt;pc:OrderedGroupIndexed caption="" comments="" continuation="" custom="" id="" index="" regionRef="" type="" xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15"&gt;
   &lt;pc:UserDefined&gt;{0,1}&lt;/pc:UserDefined&gt;
   &lt;pc:Labels comments="" externalId="" externalModel="" prefix=""&gt;{0,unbounded}&lt;/pc:Labels&gt;
   &lt;pc:RegionRefIndexed index="" regionRef=""&gt;{1,1}&lt;/pc:RegionRefIndexed&gt;
   &lt;pc:OrderedGroupIndexed caption="" comments="" continuation="" custom="" id="" index="" regionRef="" type=""&gt;{1,1}&lt;/pc:OrderedGroupIndexed&gt;
   &lt;pc:UnorderedGroupIndexed caption="" comments="" continuation="" custom="" id="" index="" regionRef="" type=""&gt;{1,1}&lt;/pc:UnorderedGroupIndexed&gt;
 &lt;/pc:OrderedGroupIndexed&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Attributes</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="3">
-                                 <colspec colnum="1" colname="col1" align="left" colwidth="3*"/>
-                                 <colspec colnum="2" colname="col2" align="left" colwidth="3*"/>
-                                 <colspec colnum="3" colname="col3" align="left" colwidth="1*"/>
-                                 <thead>
-                                    <row>
-                                       <entry>QName</entry>
-                                       <entry>Type</entry>
-                                       <entry>Use</entry>
-                                    </row>
-                                 </thead>
-                                 <tbody>
-                                    <row>
-                                       <entry>
-                                          <xref href="#OrderedGroupIndexedType_caption"/>
-                                       </entry>
-                                       <entry>string</entry>
-                                       <entry>optional</entry>
-                                    </row>
-                                    <row>
-                                       <entry>
-                                          <xref href="#OrderedGroupIndexedType_comments"/>
-                                       </entry>
-                                       <entry>string</entry>
-                                       <entry>optional</entry>
-                                    </row>
-                                    <row>
-                                       <entry>
-                                          <xref href="#OrderedGroupIndexedType_continuation"/>
-                                       </entry>
-                                       <entry>boolean</entry>
-                                       <entry>optional</entry>
-                                    </row>
-                                    <row>
-                                       <entry namest="col1" nameend="col3">
-                                          <codeblock outputclass="language-xml">Is this group a continuation of another group (from
+              </entry>
+            </row>
+            <row>
+              <entry>Attributes</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="3">
+                      <colspec colnum="1" colname="col1" align="left" colwidth="3*"/>
+                      <colspec colnum="2" colname="col2" align="left" colwidth="3*"/>
+                      <colspec colnum="3" colname="col3" align="left" colwidth="1*"/>
+                      <thead>
+                        <row>
+                          <entry>QName</entry>
+                          <entry>Type</entry>
+                          <entry>Use</entry>
+                        </row>
+                      </thead>
+                      <tbody>
+                        <row>
+                          <entry>
+                            <xref href="#OrderedGroupIndexedType_caption"/>
+                          </entry>
+                          <entry>string</entry>
+                          <entry>optional</entry>
+                        </row>
+                        <row>
+                          <entry>
+                            <xref href="#OrderedGroupIndexedType_comments"/>
+                          </entry>
+                          <entry>string</entry>
+                          <entry>optional</entry>
+                        </row>
+                        <row>
+                          <entry>
+                            <xref href="#OrderedGroupIndexedType_continuation"/>
+                          </entry>
+                          <entry>boolean</entry>
+                          <entry>optional</entry>
+                        </row>
+                        <row>
+                          <entry namest="col1" nameend="col3">
+                            <codeblock outputclass="language-xml">Is this group a continuation of another group (from
 previous column or page, for example)?</codeblock>
-                                       </entry>
-                                    </row>
-                                    <row>
-                                       <entry>
-                                          <xref href="#OrderedGroupIndexedType_custom"/>
-                                       </entry>
-                                       <entry>string</entry>
-                                       <entry>optional</entry>
-                                    </row>
-                                    <row>
-                                       <entry namest="col1" nameend="col3">
-                                          <codeblock outputclass="language-xml">For generic use</codeblock>
-                                       </entry>
-                                    </row>
-                                    <row>
-                                       <entry>
-                                          <xref href="#OrderedGroupIndexedType_id"/>
-                                       </entry>
-                                       <entry>ID</entry>
-                                       <entry>required</entry>
-                                    </row>
-                                    <row>
-                                       <entry>
-                                          <xref href="#OrderedGroupIndexedType_index"/>
-                                       </entry>
-                                       <entry>int</entry>
-                                       <entry>required</entry>
-                                    </row>
-                                    <row>
-                                       <entry namest="col1" nameend="col3">
-                                          <codeblock outputclass="language-xml">Position (order number) of this item within the
+                          </entry>
+                        </row>
+                        <row>
+                          <entry>
+                            <xref href="#OrderedGroupIndexedType_custom"/>
+                          </entry>
+                          <entry>string</entry>
+                          <entry>optional</entry>
+                        </row>
+                        <row>
+                          <entry namest="col1" nameend="col3">
+                            <codeblock outputclass="language-xml">For generic use</codeblock>
+                          </entry>
+                        </row>
+                        <row>
+                          <entry>
+                            <xref href="#OrderedGroupIndexedType_id"/>
+                          </entry>
+                          <entry>ID</entry>
+                          <entry>required</entry>
+                        </row>
+                        <row>
+                          <entry>
+                            <xref href="#OrderedGroupIndexedType_index"/>
+                          </entry>
+                          <entry>int</entry>
+                          <entry>required</entry>
+                        </row>
+                        <row>
+                          <entry namest="col1" nameend="col3">
+                            <codeblock outputclass="language-xml">Position (order number) of this item within the
 current hierarchy level.</codeblock>
-                                       </entry>
-                                    </row>
-                                    <row>
-                                       <entry>
-                                          <xref href="#OrderedGroupIndexedType_regionRef"/>
-                                       </entry>
-                                       <entry>IDREF</entry>
-                                       <entry>optional</entry>
-                                    </row>
-                                    <row>
-                                       <entry namest="col1" nameend="col3">
-                                          <codeblock outputclass="language-xml">Optional link to a parent region of nested regions.
+                          </entry>
+                        </row>
+                        <row>
+                          <entry>
+                            <xref href="#OrderedGroupIndexedType_regionRef"/>
+                          </entry>
+                          <entry>IDREF</entry>
+                          <entry>optional</entry>
+                        </row>
+                        <row>
+                          <entry namest="col1" nameend="col3">
+                            <codeblock outputclass="language-xml">Optional link to a parent region of nested regions.
 The parent region doubles as reading order group.
 Only the nested regions should be allowed as group members.</codeblock>
-                                       </entry>
-                                    </row>
-                                    <row>
-                                       <entry>
-                                          <xref href="#OrderedGroupIndexedType_type"/>
-                                       </entry>
-                                       <entry>
-                                          <xref href="pagecontent_xsd_Simple_Type_pc_GroupTypeSimpleType.dita#GroupTypeSimpleType"/>
-                                       </entry>
-                                       <entry>optional</entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="OrderedGroupIndexed" type="pc:OrderedGroupIndexedType"/&gt;</codeblock>
-                     </entry>
-                  </row>
-               </tbody>
-            </tgroup>
-         </table>
-      </body>
-   </topic>
-   <topic id="OrderedGroupIndexedType_UnorderedGroupIndexed">
-      <title>Element pc:OrderedGroupIndexedType / pc:UnorderedGroupIndexed</title>
-      <body>
-         <table frame="all" rowsep="1" colsep="1">
-            <tgroup cols="2">
-               <colspec colwidth="3*" align="left"/>
-               <colspec colwidth="25*" align="left"/>
-               <tbody>
-                  <row>
-                     <entry>Namespace</entry>
-                     <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15</entry>
-                  </row>
-                  <row>
-                     <entry>Diagram</entry>
-                     <entry>
-                        <p>
-                           <imagemap id="pagecontent_xsd_Element_pc_UnorderedGroupIndexed">
-                              <image href="img/pagecontent_xsd_Element_pc_UnorderedGroupIndexed.jpeg"/>
-                              <area>
-                                 <shape>rect</shape>
-                                 <coords>554,153,703,239</coords>
-                                 <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_id"/>
-                              </area>
-                              <area>
-                                 <shape>rect</shape>
-                                 <coords>554,259,749,345</coords>
-                                 <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#NO_NAMESPACE_UnorderedGroupIndexedType_regionRef"/>
-                              </area>
-                              <area>
-                                 <shape>rect</shape>
-                                 <coords>554,493,704,579</coords>
-                                 <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_index"/>
-                              </area>
-                              <area>
-                                 <shape>rect</shape>
-                                 <coords>554,675,733,761</coords>
-                                 <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_caption"/>
-                              </area>
-                              <area>
-                                 <shape>rect</shape>
-                                 <coords>554,781,934,867</coords>
-                                 <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_type"/>
-                              </area>
-                              <area>
-                                 <shape>rect</shape>
-                                 <coords>554,887,769,973</coords>
-                                 <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_continuation"/>
-                              </area>
-                              <area>
-                                 <shape>rect</shape>
-                                 <coords>554,1095,733,1181</coords>
-                                 <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_custom"/>
-                              </area>
-                              <area>
-                                 <shape>rect</shape>
-                                 <coords>554,1251,754,1337</coords>
-                                 <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_comments"/>
-                              </area>
-                              <area>
-                                 <shape>rect</shape>
-                                 <coords>709,1371,1035,1457</coords>
-                                 <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_UserDefined"/>
-                              </area>
-                              <area>
-                                 <shape>rect</shape>
-                                 <coords>709,1477,977,1563</coords>
-                                 <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_Labels"/>
-                              </area>
-                              <area>
-                                 <shape>rect</shape>
-                                 <coords>851,1633,1160,1719</coords>
-                                 <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_RegionRef"/>
-                              </area>
-                              <area>
-                                 <shape>rect</shape>
-                                 <coords>851,1739,1195,1825</coords>
-                                 <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_OrderedGroup"/>
-                              </area>
-                              <area>
-                                 <shape>rect</shape>
-                                 <coords>851,1845,1218,1931</coords>
-                                 <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_UnorderedGroup"/>
-                              </area>
-                              <area>
-                                 <shape>rect</shape>
-                                 <coords>504,6,921,50</coords>
-                                 <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType"/>
-                              </area>
-                           </imagemap>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Type</entry>
-                     <entry>
-                        <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType"/>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Properties</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>content: </entry>
-                                       <entry>
-                                          <b>complex</b>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Model</entry>
-                     <entry>
-                        <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_UserDefined"/> , <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_Labels"/> , (<xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_RegionRef"/> | <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_OrderedGroup"/> | <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_UnorderedGroup"/>)</entry>
-                  </row>
-                  <row>
-                     <entry>Children</entry>
-                     <entry>
-                        <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_Labels"/>, <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_OrderedGroup"/>, <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_RegionRef"/>, <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_UnorderedGroup"/>, <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_UserDefined"/>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Instance</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;pc:UnorderedGroupIndexed caption="" comments="" continuation="" custom="" id="" index="" regionRef="" type="" xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15"&gt;
+                          </entry>
+                        </row>
+                        <row>
+                          <entry>
+                            <xref href="#OrderedGroupIndexedType_type"/>
+                          </entry>
+                          <entry>
+                            <xref href="pagecontent_xsd_Simple_Type_pc_GroupTypeSimpleType.dita#GroupTypeSimpleType"/>
+                          </entry>
+                          <entry>optional</entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Source</entry>
+              <entry>
+                <codeblock outputclass="language-xml">&lt;element name="OrderedGroupIndexed" type="pc:OrderedGroupIndexedType"/&gt;</codeblock>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </body>
+  </topic>
+  <topic id="OrderedGroupIndexedType_UnorderedGroupIndexed">
+    <title>Element pc:OrderedGroupIndexedType / pc:UnorderedGroupIndexed</title>
+    <body>
+      <table frame="all" rowsep="1" colsep="1">
+        <tgroup cols="2">
+          <colspec colwidth="3*" align="left"/>
+          <colspec colwidth="25*" align="left"/>
+          <tbody>
+            <row>
+              <entry>Namespace</entry>
+              <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15</entry>
+            </row>
+            <row>
+              <entry>Diagram</entry>
+              <entry>
+                <p>
+                  <imagemap id="pagecontent_xsd_Element_pc_UnorderedGroupIndexed">
+                    <image href="img/pagecontent_xsd_Element_pc_UnorderedGroupIndexed.jpeg"/>
+                    <area>
+                      <shape>rect</shape>
+                      <coords>554,153,703,239</coords>
+                      <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_id"/>
+                    </area>
+                    <area>
+                      <shape>rect</shape>
+                      <coords>554,259,749,345</coords>
+                      <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#NO_NAMESPACE_UnorderedGroupIndexedType_regionRef"/>
+                    </area>
+                    <area>
+                      <shape>rect</shape>
+                      <coords>554,493,704,579</coords>
+                      <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_index"/>
+                    </area>
+                    <area>
+                      <shape>rect</shape>
+                      <coords>554,675,733,761</coords>
+                      <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_caption"/>
+                    </area>
+                    <area>
+                      <shape>rect</shape>
+                      <coords>554,781,934,867</coords>
+                      <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_type"/>
+                    </area>
+                    <area>
+                      <shape>rect</shape>
+                      <coords>554,887,769,973</coords>
+                      <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_continuation"/>
+                    </area>
+                    <area>
+                      <shape>rect</shape>
+                      <coords>554,1095,733,1181</coords>
+                      <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_custom"/>
+                    </area>
+                    <area>
+                      <shape>rect</shape>
+                      <coords>554,1251,754,1337</coords>
+                      <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_comments"/>
+                    </area>
+                    <area>
+                      <shape>rect</shape>
+                      <coords>709,1371,1035,1457</coords>
+                      <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_UserDefined"/>
+                    </area>
+                    <area>
+                      <shape>rect</shape>
+                      <coords>709,1477,977,1563</coords>
+                      <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_Labels"/>
+                    </area>
+                    <area>
+                      <shape>rect</shape>
+                      <coords>851,1633,1160,1719</coords>
+                      <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_RegionRef"/>
+                    </area>
+                    <area>
+                      <shape>rect</shape>
+                      <coords>851,1739,1195,1825</coords>
+                      <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_OrderedGroup"/>
+                    </area>
+                    <area>
+                      <shape>rect</shape>
+                      <coords>851,1845,1218,1931</coords>
+                      <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_UnorderedGroup"/>
+                    </area>
+                    <area>
+                      <shape>rect</shape>
+                      <coords>504,6,921,50</coords>
+                      <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType"/>
+                    </area>
+                  </imagemap>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Type</entry>
+              <entry>
+                <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType"/>
+              </entry>
+            </row>
+            <row>
+              <entry>Properties</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>content: </entry>
+                          <entry>
+                            <b>complex</b>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Model</entry>
+              <entry><xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_UserDefined"/> , <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_Labels"/> , (<xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_RegionRef"/> | <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_OrderedGroup"/> | <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_UnorderedGroup"/>)</entry>
+            </row>
+            <row>
+              <entry>Children</entry>
+              <entry><xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_Labels"/>, <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_OrderedGroup"/>, <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_RegionRef"/>, <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_UnorderedGroup"/>, <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_UserDefined"/></entry>
+            </row>
+            <row>
+              <entry>Instance</entry>
+              <entry>
+                <codeblock outputclass="language-xml">&lt;pc:UnorderedGroupIndexed caption="" comments="" continuation="" custom="" id="" index="" regionRef="" type="" xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15"&gt;
   &lt;pc:UserDefined&gt;{0,1}&lt;/pc:UserDefined&gt;
   &lt;pc:Labels comments="" externalId="" externalModel="" prefix=""&gt;{0,unbounded}&lt;/pc:Labels&gt;
   &lt;pc:RegionRef regionRef=""&gt;{1,1}&lt;/pc:RegionRef&gt;
   &lt;pc:OrderedGroup caption="" comments="" continuation="" custom="" id="" regionRef="" type=""&gt;{1,1}&lt;/pc:OrderedGroup&gt;
   &lt;pc:UnorderedGroup caption="" comments="" continuation="" custom="" id="" regionRef="" type=""&gt;{1,1}&lt;/pc:UnorderedGroup&gt;
 &lt;/pc:UnorderedGroupIndexed&gt;</codeblock>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Attributes</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="3">
-                                 <colspec colnum="1" colname="col1" align="left" colwidth="3*"/>
-                                 <colspec colnum="2" colname="col2" align="left" colwidth="3*"/>
-                                 <colspec colnum="3" colname="col3" align="left" colwidth="1*"/>
-                                 <thead>
-                                    <row>
-                                       <entry>QName</entry>
-                                       <entry>Type</entry>
-                                       <entry>Use</entry>
-                                    </row>
-                                 </thead>
-                                 <tbody>
-                                    <row>
-                                       <entry>
-                                          <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_caption"/>
-                                       </entry>
-                                       <entry>string</entry>
-                                       <entry>optional</entry>
-                                    </row>
-                                    <row>
-                                       <entry>
-                                          <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_comments"/>
-                                       </entry>
-                                       <entry>string</entry>
-                                       <entry>optional</entry>
-                                    </row>
-                                    <row>
-                                       <entry>
-                                          <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_continuation"/>
-                                       </entry>
-                                       <entry>boolean</entry>
-                                       <entry>optional</entry>
-                                    </row>
-                                    <row>
-                                       <entry namest="col1" nameend="col3">
-                                          <codeblock outputclass="language-xml">Is this group a continuation of another group
+              </entry>
+            </row>
+            <row>
+              <entry>Attributes</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="3">
+                      <colspec colnum="1" colname="col1" align="left" colwidth="3*"/>
+                      <colspec colnum="2" colname="col2" align="left" colwidth="3*"/>
+                      <colspec colnum="3" colname="col3" align="left" colwidth="1*"/>
+                      <thead>
+                        <row>
+                          <entry>QName</entry>
+                          <entry>Type</entry>
+                          <entry>Use</entry>
+                        </row>
+                      </thead>
+                      <tbody>
+                        <row>
+                          <entry>
+                            <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_caption"/>
+                          </entry>
+                          <entry>string</entry>
+                          <entry>optional</entry>
+                        </row>
+                        <row>
+                          <entry>
+                            <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_comments"/>
+                          </entry>
+                          <entry>string</entry>
+                          <entry>optional</entry>
+                        </row>
+                        <row>
+                          <entry>
+                            <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_continuation"/>
+                          </entry>
+                          <entry>boolean</entry>
+                          <entry>optional</entry>
+                        </row>
+                        <row>
+                          <entry namest="col1" nameend="col3">
+                            <codeblock outputclass="language-xml">Is this group a continuation of another group
 (from previous column or page, for example)?</codeblock>
-                                       </entry>
-                                    </row>
-                                    <row>
-                                       <entry>
-                                          <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_custom"/>
-                                       </entry>
-                                       <entry>string</entry>
-                                       <entry>optional</entry>
-                                    </row>
-                                    <row>
-                                       <entry namest="col1" nameend="col3">
-                                          <codeblock outputclass="language-xml">For generic use</codeblock>
-                                       </entry>
-                                    </row>
-                                    <row>
-                                       <entry>
-                                          <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_id"/>
-                                       </entry>
-                                       <entry>ID</entry>
-                                       <entry>required</entry>
-                                    </row>
-                                    <row>
-                                       <entry>
-                                          <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_index"/>
-                                       </entry>
-                                       <entry>int</entry>
-                                       <entry>required</entry>
-                                    </row>
-                                    <row>
-                                       <entry namest="col1" nameend="col3">
-                                          <codeblock outputclass="language-xml">Position (order number) of this item within the
+                          </entry>
+                        </row>
+                        <row>
+                          <entry>
+                            <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_custom"/>
+                          </entry>
+                          <entry>string</entry>
+                          <entry>optional</entry>
+                        </row>
+                        <row>
+                          <entry namest="col1" nameend="col3">
+                            <codeblock outputclass="language-xml">For generic use</codeblock>
+                          </entry>
+                        </row>
+                        <row>
+                          <entry>
+                            <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_id"/>
+                          </entry>
+                          <entry>ID</entry>
+                          <entry>required</entry>
+                        </row>
+                        <row>
+                          <entry>
+                            <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_index"/>
+                          </entry>
+                          <entry>int</entry>
+                          <entry>required</entry>
+                        </row>
+                        <row>
+                          <entry namest="col1" nameend="col3">
+                            <codeblock outputclass="language-xml">Position (order number) of this item within the
 current hierarchy level.</codeblock>
-                                       </entry>
-                                    </row>
-                                    <row>
-                                       <entry>
-                                          <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#NO_NAMESPACE_UnorderedGroupIndexedType_regionRef"/>
-                                       </entry>
-                                       <entry>IDREF</entry>
-                                       <entry>optional</entry>
-                                    </row>
-                                    <row>
-                                       <entry namest="col1" nameend="col3">
-                                          <codeblock outputclass="language-xml">Optional link to a parent region of nested regions.
+                          </entry>
+                        </row>
+                        <row>
+                          <entry>
+                            <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#NO_NAMESPACE_UnorderedGroupIndexedType_regionRef"/>
+                          </entry>
+                          <entry>IDREF</entry>
+                          <entry>optional</entry>
+                        </row>
+                        <row>
+                          <entry namest="col1" nameend="col3">
+                            <codeblock outputclass="language-xml">Optional link to a parent region of nested regions.
 The parent region doubles as reading order group.
 Only the nested regions should be allowed as group members.</codeblock>
-                                       </entry>
-                                    </row>
-                                    <row>
-                                       <entry>
-                                          <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_type"/>
-                                       </entry>
-                                       <entry>
-                                          <xref href="pagecontent_xsd_Simple_Type_pc_GroupTypeSimpleType.dita#GroupTypeSimpleType"/>
-                                       </entry>
-                                       <entry>optional</entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;element name="UnorderedGroupIndexed" type="pc:UnorderedGroupIndexedType"/&gt;</codeblock>
-                     </entry>
-                  </row>
-               </tbody>
-            </tgroup>
-         </table>
-      </body>
-   </topic>
+                          </entry>
+                        </row>
+                        <row>
+                          <entry>
+                            <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_type"/>
+                          </entry>
+                          <entry>
+                            <xref href="pagecontent_xsd_Simple_Type_pc_GroupTypeSimpleType.dita#GroupTypeSimpleType"/>
+                          </entry>
+                          <entry>optional</entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Source</entry>
+              <entry>
+                <codeblock outputclass="language-xml">&lt;element name="UnorderedGroupIndexed" type="pc:UnorderedGroupIndexedType"/&gt;</codeblock>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </body>
+  </topic>
 </topic>

@@ -1,82 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="lyTypographie">
-    <title>Typographical Peculiarities</title>
-    <body>
-<p>For all element sections (<codeph>&lt;Word></codeph>, <codeph>&lt;TextLine></codeph> and
-                <codeph>&lt;TextRegion></codeph>) the following typographic markup values apply. </p>
-        <note type="important">The <b>element <codeph>&lt;TextStyle></codeph></b> is to be used
+  <title>Typographical Peculiarities</title>
+  <body>
+    <p>For all element sections (<codeph>&lt;Word&gt;</codeph>, <codeph>&lt;TextLine&gt;</codeph> and
+                <codeph>&lt;TextRegion&gt;</codeph>) the following typographic markup values apply. </p>
+    <note type="important">The <b>element <codeph>&lt;TextStyle&gt;</codeph></b> is to be used
             primarily for the documentation of typographical features. </note>
-
-
-<table frame="all" rowsep="1" colsep="1" id="table_fbw_sqx_f1b">
-<tgroup cols="2">
-                <colspec colname="c1" colnum="1" colwidth="1*"/>
-                <colspec colname="newCol5" colnum="2" colwidth="1*"/>
-                <thead>
-                    <row>
-                        <entry>Typographical Particularities</entry>
-                        <entry>
-                            <codeph>&lt;TextStyle></codeph> element example</entry>
-                    </row>
-                </thead>
-                <tbody>
-                    <row>
-                        <entry>Bold print</entry>
-                        <entry>
-                            <codeblock>&lt;TextStyle bold="true"></codeblock>
-                        </entry>
-                    </row>
-                    <row>
-                        <entry>Italic print</entry>
-                        <entry>
-                            <codeblock>&lt;TextStyle italic="true"></codeblock>
-                        </entry>
-                    </row>
-                    <row>
-                        <entry>Spaced letters</entry>
-                        <entry>
-                            <codeblock>&lt;TextStyle letterSpaced="true"></codeblock>
-                        </entry>
-                    </row>
-                    <row>
-                        <entry>Small capitals</entry>
-                        <entry>
-                            <codeblock>&lt;TextStyle smallCaps="true"></codeblock>
-                        </entry>
-                    </row>
-                    <row>
-                        <entry>Printed underlining</entry>
-                        <entry>
-                            <codeblock>&lt;TextStyle underlined="true"></codeblock>
-                        </entry>
-                    </row>
-                    <row>
-                        <entry>Strikethrough</entry>
-                        <entry>
-                            <codeblock>&lt;TextStyle strikethrough="true"></codeblock>
-                        </entry>
-                    </row>
-                    <row>
-                        <entry>Superscript</entry>
-                        <entry>
-                            <codeblock>&lt;TextStyle superscript="true"></codeblock>
-                        </entry>
-                    </row>
-                    <row>
-                        <entry>Subscript</entry>
-                        <entry>
-                            <codeblock>&lt;TextStyle subscript="true"></codeblock>
-                        </entry>
-                    </row>
-                </tbody>
-            </tgroup>
-</table>
-
-
-    </body>
-<related-links>
-
-        <link href="../pagexml/pagecontent_xsd_Complex_Type_pc_TextStyleType.dita"/>
-</related-links>
+    <table frame="all" rowsep="1" colsep="1" id="table_fbw_sqx_f1b">
+      <tgroup cols="2">
+        <colspec colname="c1" colnum="1" colwidth="1*"/>
+        <colspec colname="newCol5" colnum="2" colwidth="1*"/>
+        <thead>
+          <row>
+            <entry>Typographical Particularities</entry>
+            <entry><codeph>&lt;TextStyle&gt;</codeph> element example</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>Bold print</entry>
+            <entry>
+              <codeblock>&lt;TextStyle bold="true"&gt;</codeblock>
+            </entry>
+          </row>
+          <row>
+            <entry>Italic print</entry>
+            <entry>
+              <codeblock>&lt;TextStyle italic="true"&gt;</codeblock>
+            </entry>
+          </row>
+          <row>
+            <entry>Spaced letters</entry>
+            <entry>
+              <codeblock>&lt;TextStyle letterSpaced="true"&gt;</codeblock>
+            </entry>
+          </row>
+          <row>
+            <entry>Small capitals</entry>
+            <entry>
+              <codeblock>&lt;TextStyle smallCaps="true"&gt;</codeblock>
+            </entry>
+          </row>
+          <row>
+            <entry>Printed underlining</entry>
+            <entry>
+              <codeblock>&lt;TextStyle underlined="true"&gt;</codeblock>
+            </entry>
+          </row>
+          <row>
+            <entry>Strikethrough</entry>
+            <entry>
+              <codeblock>&lt;TextStyle strikethrough="true"&gt;</codeblock>
+            </entry>
+          </row>
+          <row>
+            <entry>Superscript</entry>
+            <entry>
+              <codeblock>&lt;TextStyle superscript="true"&gt;</codeblock>
+            </entry>
+          </row>
+          <row>
+            <entry>Subscript</entry>
+            <entry>
+              <codeblock>&lt;TextStyle subscript="true"&gt;</codeblock>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </body>
+  <related-links>
+    <link href="../pagexml/pagecontent_xsd_Complex_Type_pc_TextStyleType.dita"/>
+  </related-links>
 </topic>

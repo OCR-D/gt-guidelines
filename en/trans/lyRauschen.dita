@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="lyRauschen">
-<title>Damage, Dirt, Stains, Noise (NoiseRegion)</title>
-    <body>
-        <p>Damage, dirt, stains and other artefacts caused by various factors (e.g. lighting,
+  <title>Damage, Dirt, Stains, Noise (NoiseRegion)</title>
+  <body>
+    <p>Damage, dirt, stains and other artefacts caused by various factors (e.g. lighting,
             reflections, scanning) must be marked with the <tt>NoiseRegion</tt>. Being marked this
             way, they are not used for text recognition during the training process.</p>
-<p><image href="images/lyRauschen.png" id="image_a52_t5r_51b"/></p>
+    <p>
+      <image href="images/lyRauschen.png" id="image_a52_t5r_51b"/>
+    </p>
     <fig>
-<title>Example of fire damage</title>
-<desc>Joan Blaeu [Public domain],<xref
-href="https://commons.wikimedia.org/wiki/File%3APartially_burned_Rerum_per_Octennium_in_Brasila.jpg"
-format="jpg" scope="external">via Wikimedia Commons</xref></desc>
-<image href="images/lyRauschen2.png" id="image_rl3_sxr_51b" scale="50"/>
-</fig>
-    </body>
-<related-links>
-<link href="../pagexml/pagecontent_xsd_Complex_Type_pc_NoiseRegionType.dita" format="dita"/>
-</related-links>
+      <title>Example of fire damage</title>
+      <desc>Joan Blaeu [Public domain],<xref href="https://commons.wikimedia.org/wiki/File%3APartially_burned_Rerum_per_Octennium_in_Brasila.jpg" format="jpg" scope="external">via Wikimedia Commons</xref></desc>
+      <image href="images/lyRauschen2.png" id="image_rl3_sxr_51b" scale="50"/>
+    </fig>
+  </body>
+  <related-links>
+    <link href="../pagexml/pagecontent_xsd_Complex_Type_pc_NoiseRegionType.dita" format="dita"/>
+  </related-links>
 </topic>

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="lyMathematische_Zeichen">
-    <title>Mathematical characters (MathsRegion)</title>
-    <body>
-<p>Equations, formulas, mathematical expressions (even if individual characters could be
+  <title>Mathematical characters (MathsRegion)</title>
+  <body>
+    <p>Equations, formulas, mathematical expressions (even if individual characters could be
             represented) are not recorded as text, but marked as MathsRegion.</p>
-<p><image href="images/lyMathematische_Zeichen.png" id="image_jbf_phq_51b" scale="50"/></p>
-    </body>
-<related-links>
-<link
-href="../pagexml/pagecontent_xsd_Complex_Type_pc_MathsRegionType.dita#MathsRegionType" format="dita"
-/>
-</related-links>
+    <p>
+      <image href="images/lyMathematische_Zeichen.png" id="image_jbf_phq_51b" scale="50"/>
+    </p>
+  </body>
+  <related-links>
+    <link href="../pagexml/pagecontent_xsd_Complex_Type_pc_MathsRegionType.dita#MathsRegionType" format="dita"/>
+  </related-links>
 </topic>
