@@ -5,12 +5,12 @@
   <body>
     <p>Diakritika werden nach Möglichkeit mittels der Unicode-Entitäten aus dem <b>Combining Diacritical
 Marks</b> Unicodeblock realisiert, z. B. das hochgestellte <tt>o</tt> über <tt>u</tt> bzw.
-<tt>U</tt> (<tt>&amp;#x0366;, COMBINING LATIN SMALL LETTER O</tt>).</p>
+<tt>U</tt> (<tt>&#x0366;, COMBINING LATIN SMALL LETTER O</tt>).</p>
     <p>Bei der Nutzung von kombinierbaren Zeichen ist zuerst das Grundzeichen und danach "nahtlos" das
-Diakritikum zu schreiben (z.B. u&amp;#x0366; uͦ).</p>
+Diakritikum zu schreiben (z.B. u&#x0366; uͦ).</p>
     <p>Die Schreibung für das <tt>c-Cedille</tt> (<tt>ç, U+00E7, LATIN SMALL LETTER C WITH
-CEDILLA</tt>), die <tt>e caudata</tt> (<tt>ę, &amp;#x0119;, LATIN SMALL LETTER E WITH OGONEK</tt>)
-in der Bedeutung <tt>ae</tt> oder das <tt>e mit Trema</tt> (<tt>ë, &amp;#x00EB;, LATIN SMALL LETTER
+CEDILLA</tt>), die <tt>e caudata</tt> (<tt>ę, &#x0119;, LATIN SMALL LETTER E WITH OGONEK</tt>)
+in der Bedeutung <tt>ae</tt> oder das <tt>e mit Trema</tt> (<tt>ë, &#x00EB;, LATIN SMALL LETTER
 E WITH DIAERESIS</tt>) erfolgt nicht unter Nutzung er Combining Diacritical Marks.</p>
     <p>Die Grundlage für die Transkription bildet der deutsche bzw. lateinische Zeichensatz. Zeichen
 anderer Alphabete (Griechisch, Kyrillisch, Hebräisch etc.) werden mittels ihrer entsprechenden

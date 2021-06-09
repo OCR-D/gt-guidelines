@@ -8,13 +8,13 @@
             standardized coding tables (Unicode) is used. If no Unicode decoding is available as a
             single character, a character combination is realized by using the Unicode entities from
             the <b>Combining Diacritical Marks</b> Unicode block, e.g. the superscript <tt>o</tt>
-            over <tt>u</tt> or <tt>U</tt> (<tt>&amp;#x0366;, COMBINING LATIN SMALL LETTER
+            over <tt>u</tt> or <tt>U</tt> (<tt>&#x0366;, COMBINING LATIN SMALL LETTER
             O</tt>).</p>
     <p>When using combinable characters, write the basic character followed "seamlessly" by the
-            diacritic. (e.g. u&amp;#x0366; uͦ).</p>
+            diacritic. (e.g. u&#x0366; uͦ).</p>
     <p>The spelling for the <tt>c-Cedille</tt> (<tt>ç, U+00E7, LATIN SMALL LETTER C WITH CEDILLA</tt>),
-            the <tt>e caudata</tt> (<tt>ę, &amp;#x0119;, LATIN SMALL LETTER E WITH OGONEK</tt>) in
-            the meaning <tt>ae</tt> or the <tt>e with trema</tt> (<tt>ë, &amp;#x00EB;, LATIN SMALL
+            the <tt>e caudata</tt> (<tt>ę, &#x0119;, LATIN SMALL LETTER E WITH OGONEK</tt>) in
+            the meaning <tt>ae</tt> or the <tt>e with trema</tt> (<tt>ë, &#x00EB;, LATIN SMALL
                 LETTER E WITH DIAERESIS</tt>) is done without the <b>Combining Diacritical
             Marks</b>.</p>
     <p>The transcription is based on the German or Latin character set. Characters of other
