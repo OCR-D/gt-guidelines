@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="lyLigatur">
-    <title>Ligaturen (Level 1 und 2)</title>
-    <body>
-        <p>Bei der Transkription innerhalb des <b>Level 1 und 2</b> werden <b>drucktechnische
+  <title>Ligaturen (Level 1 und 2)</title>
+  <body>
+    <p>Bei der Transkription innerhalb des <b>Level 1 und 2</b> werden <b>drucktechnische
                 Ligaturen (konsonantische Ligaturen)</b> grundsätzlich <b>aufgespalten</b>. Die
             Information Ligatur wird durch das Attribut <codeph>ligature</codeph> mit der Angabe
                 <codeph>true</codeph> dokumentiert.</p>
-        <p><codeph>&lt;Glyph id="'Angabe einer eindeutigen ID'" ligature="true"></codeph>
-        </p>
-    </body>
+    <p>
+      <codeph>&lt;Glyph id="'Angabe einer eindeutigen ID'" ligature="true"&gt;</codeph>
+    </p>
+  </body>
 </topic>

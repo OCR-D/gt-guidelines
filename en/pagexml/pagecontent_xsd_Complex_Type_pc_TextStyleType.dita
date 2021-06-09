@@ -1,388 +1,385 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic
-  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="TextStyleType">
-   <title>Complex Type pc:TextStyleType</title>
-   <body>
-      <table frame="all" rowsep="1" colsep="1">
-         <tgroup cols="2">
-            <colspec colwidth="3*" align="left"/>
-            <colspec colwidth="25*" align="left"/>
-            <tbody>
-               <row>
-                  <entry>Namespace</entry>
-                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15</entry>
-               </row>
-               <row>
-                  <entry>Annotations</entry>
-                  <entry>
-                     <codeblock outputclass="language-xml">Monospace (fixed-pitch, non-proportional) or
+  <title>Complex Type pc:TextStyleType</title>
+  <body>
+    <table frame="all" rowsep="1" colsep="1">
+      <tgroup cols="2">
+        <colspec colwidth="3*" align="left"/>
+        <colspec colwidth="25*" align="left"/>
+        <tbody>
+          <row>
+            <entry>Namespace</entry>
+            <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15</entry>
+          </row>
+          <row>
+            <entry>Annotations</entry>
+            <entry>
+              <codeblock outputclass="language-xml">Monospace (fixed-pitch, non-proportional) or
 proportional font.</codeblock>
-                  </entry>
-               </row>
-               <row>
-                  <entry>Diagram</entry>
-                  <entry>
-                     <p>
-                        <imagemap id="pagecontent_xsd_Complex_Type_pc_TextStyleType">
-                           <image href="img/pagecontent_xsd_Complex_Type_pc_TextStyleType.jpeg"/>
-                           <area>
-                              <shape>rect</shape>
-                              <coords>353,75,553,161</coords>
-                              <xref href="#TextStyleType_fontFamily"/>
-                           </area>
-                           <area>
-                              <shape>rect</shape>
-                              <coords>353,283,557,369</coords>
-                              <xref href="#TextStyleType_serif"/>
-                           </area>
-                           <area>
-                              <shape>rect</shape>
-                              <coords>353,439,566,525</coords>
-                              <xref href="#TextStyleType_monospace"/>
-                           </area>
-                           <area>
-                              <shape>rect</shape>
-                              <coords>353,545,533,631</coords>
-                              <xref href="#TextStyleType_fontSize"/>
-                           </area>
-                           <area>
-                              <shape>rect</shape>
-                              <coords>353,701,545,787</coords>
-                              <xref href="#TextStyleType_xHeight"/>
-                           </area>
-                           <area>
-                              <shape>rect</shape>
-                              <coords>353,909,521,995</coords>
-                              <xref href="#TextStyleType_kerning"/>
-                           </area>
-                           <area>
-                              <shape>rect</shape>
-                              <coords>353,1117,688,1203</coords>
-                              <xref href="#TextStyleType_textColour"/>
-                           </area>
-                           <area>
-                              <shape>rect</shape>
-                              <coords>353,1223,591,1309</coords>
-                              <xref href="#TextStyleType_textColourRgb"/>
-                           </area>
-                           <area>
-                              <shape>rect</shape>
-                              <coords>353,1431,688,1517</coords>
-                              <xref href="#TextStyleType_bgColour"/>
-                           </area>
-                           <area>
-                              <shape>rect</shape>
-                              <coords>353,1587,581,1673</coords>
-                              <xref href="#TextStyleType_bgColourRgb"/>
-                           </area>
-                           <area>
-                              <shape>rect</shape>
-                              <coords>353,1795,582,1881</coords>
-                              <xref href="#TextStyleType_reverseVideo"/>
-                           </area>
-                           <area>
-                              <shape>rect</shape>
-                              <coords>353,2003,557,2089</coords>
-                              <xref href="#TextStyleType_bold"/>
-                           </area>
-                           <area>
-                              <shape>rect</shape>
-                              <coords>353,2109,557,2195</coords>
-                              <xref href="#TextStyleType_italic"/>
-                           </area>
-                           <area>
-                              <shape>rect</shape>
-                              <coords>353,2215,557,2301</coords>
-                              <xref href="#TextStyleType_underlined"/>
-                           </area>
-                           <area>
-                              <shape>rect</shape>
-                              <coords>353,2321,762,2407</coords>
-                              <xref href="#TextStyleType_underlineStyle"/>
-                           </area>
-                           <area>
-                              <shape>rect</shape>
-                              <coords>353,2477,557,2563</coords>
-                              <xref href="#TextStyleType_subscript"/>
-                           </area>
-                           <area>
-                              <shape>rect</shape>
-                              <coords>353,2583,558,2669</coords>
-                              <xref href="#TextStyleType_superscript"/>
-                           </area>
-                           <area>
-                              <shape>rect</shape>
-                              <coords>353,2689,575,2775</coords>
-                              <xref href="#TextStyleType_strikethrough"/>
-                           </area>
-                           <area>
-                              <shape>rect</shape>
-                              <coords>353,2795,557,2881</coords>
-                              <xref href="#TextStyleType_smallCaps"/>
-                           </area>
-                           <area>
-                              <shape>rect</shape>
-                              <coords>353,2901,574,2987</coords>
-                              <xref href="#TextStyleType_letterSpaced"/>
-                           </area>
-                        </imagemap>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>Used by</entry>
-                  <entry>
-                     <p>
-                        <table frame="all" rowsep="1" colsep="1">
-                           <tgroup cols="2">
-                              <colspec colwidth="2*" align="left"/>
-                              <colspec colwidth="8*" align="left"/>
-                              <tbody>
-                                 <row>
-                                    <entry>Elements </entry>
-                                    <entry>
-                                       <xref href="pagecontent_xsd_Complex_Type_pc_GlyphType.dita#GlyphType_TextStyle"/>, <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_TextStyle"/>, <xref href="pagecontent_xsd_Complex_Type_pc_TextLineType.dita#TextLineType_TextStyle"/>, <xref href="pagecontent_xsd_Complex_Type_pc_TextRegionType.dita#TextRegionType_TextStyle"/>, <xref href="pagecontent_xsd_Complex_Type_pc_WordType.dita#WordType_TextStyle"/>
-                                    </entry>
-                                 </row>
-                              </tbody>
-                           </tgroup>
-                        </table>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>Attributes</entry>
-                  <entry>
-                     <p>
-                        <table frame="all" rowsep="1" colsep="1">
-                           <tgroup cols="3">
-                              <colspec colnum="1" colname="col1" align="left" colwidth="3*"/>
-                              <colspec colnum="2" colname="col2" align="left" colwidth="3*"/>
-                              <colspec colnum="3" colname="col3" align="left" colwidth="1*"/>
-                              <thead>
-                                 <row>
-                                    <entry>QName</entry>
-                                    <entry>Type</entry>
-                                    <entry>Use</entry>
-                                 </row>
-                              </thead>
-                              <tbody>
-                                 <row>
-                                    <entry>
-                                       <xref href="#TextStyleType_bgColour"/>
-                                    </entry>
-                                    <entry>
-                                       <xref href="pagecontent_xsd_Simple_Type_pc_ColourSimpleType.dita#ColourSimpleType"/>
-                                    </entry>
-                                    <entry>optional</entry>
-                                 </row>
-                                 <row>
-                                    <entry namest="col1" nameend="col3">
-                                       <codeblock outputclass="language-xml">Background colour</codeblock>
-                                    </entry>
-                                 </row>
-                                 <row>
-                                    <entry>
-                                       <xref href="#TextStyleType_bgColourRgb"/>
-                                    </entry>
-                                    <entry>integer</entry>
-                                    <entry>optional</entry>
-                                 </row>
-                                 <row>
-                                    <entry namest="col1" nameend="col3">
-                                       <codeblock outputclass="language-xml">Background colour in RGB encoded format
+            </entry>
+          </row>
+          <row>
+            <entry>Diagram</entry>
+            <entry>
+              <p>
+                <imagemap id="pagecontent_xsd_Complex_Type_pc_TextStyleType">
+                  <image href="img/pagecontent_xsd_Complex_Type_pc_TextStyleType.jpeg"/>
+                  <area>
+                    <shape>rect</shape>
+                    <coords>353,75,553,161</coords>
+                    <xref href="#TextStyleType_fontFamily"/>
+                  </area>
+                  <area>
+                    <shape>rect</shape>
+                    <coords>353,283,557,369</coords>
+                    <xref href="#TextStyleType_serif"/>
+                  </area>
+                  <area>
+                    <shape>rect</shape>
+                    <coords>353,439,566,525</coords>
+                    <xref href="#TextStyleType_monospace"/>
+                  </area>
+                  <area>
+                    <shape>rect</shape>
+                    <coords>353,545,533,631</coords>
+                    <xref href="#TextStyleType_fontSize"/>
+                  </area>
+                  <area>
+                    <shape>rect</shape>
+                    <coords>353,701,545,787</coords>
+                    <xref href="#TextStyleType_xHeight"/>
+                  </area>
+                  <area>
+                    <shape>rect</shape>
+                    <coords>353,909,521,995</coords>
+                    <xref href="#TextStyleType_kerning"/>
+                  </area>
+                  <area>
+                    <shape>rect</shape>
+                    <coords>353,1117,688,1203</coords>
+                    <xref href="#TextStyleType_textColour"/>
+                  </area>
+                  <area>
+                    <shape>rect</shape>
+                    <coords>353,1223,591,1309</coords>
+                    <xref href="#TextStyleType_textColourRgb"/>
+                  </area>
+                  <area>
+                    <shape>rect</shape>
+                    <coords>353,1431,688,1517</coords>
+                    <xref href="#TextStyleType_bgColour"/>
+                  </area>
+                  <area>
+                    <shape>rect</shape>
+                    <coords>353,1587,581,1673</coords>
+                    <xref href="#TextStyleType_bgColourRgb"/>
+                  </area>
+                  <area>
+                    <shape>rect</shape>
+                    <coords>353,1795,582,1881</coords>
+                    <xref href="#TextStyleType_reverseVideo"/>
+                  </area>
+                  <area>
+                    <shape>rect</shape>
+                    <coords>353,2003,557,2089</coords>
+                    <xref href="#TextStyleType_bold"/>
+                  </area>
+                  <area>
+                    <shape>rect</shape>
+                    <coords>353,2109,557,2195</coords>
+                    <xref href="#TextStyleType_italic"/>
+                  </area>
+                  <area>
+                    <shape>rect</shape>
+                    <coords>353,2215,557,2301</coords>
+                    <xref href="#TextStyleType_underlined"/>
+                  </area>
+                  <area>
+                    <shape>rect</shape>
+                    <coords>353,2321,762,2407</coords>
+                    <xref href="#TextStyleType_underlineStyle"/>
+                  </area>
+                  <area>
+                    <shape>rect</shape>
+                    <coords>353,2477,557,2563</coords>
+                    <xref href="#TextStyleType_subscript"/>
+                  </area>
+                  <area>
+                    <shape>rect</shape>
+                    <coords>353,2583,558,2669</coords>
+                    <xref href="#TextStyleType_superscript"/>
+                  </area>
+                  <area>
+                    <shape>rect</shape>
+                    <coords>353,2689,575,2775</coords>
+                    <xref href="#TextStyleType_strikethrough"/>
+                  </area>
+                  <area>
+                    <shape>rect</shape>
+                    <coords>353,2795,557,2881</coords>
+                    <xref href="#TextStyleType_smallCaps"/>
+                  </area>
+                  <area>
+                    <shape>rect</shape>
+                    <coords>353,2901,574,2987</coords>
+                    <xref href="#TextStyleType_letterSpaced"/>
+                  </area>
+                </imagemap>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>Used by</entry>
+            <entry>
+              <p>
+                <table frame="all" rowsep="1" colsep="1">
+                  <tgroup cols="2">
+                    <colspec colwidth="2*" align="left"/>
+                    <colspec colwidth="8*" align="left"/>
+                    <tbody>
+                      <row>
+                        <entry>Elements </entry>
+                        <entry><xref href="pagecontent_xsd_Complex_Type_pc_GlyphType.dita#GlyphType_TextStyle"/>, <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_TextStyle"/>, <xref href="pagecontent_xsd_Complex_Type_pc_TextLineType.dita#TextLineType_TextStyle"/>, <xref href="pagecontent_xsd_Complex_Type_pc_TextRegionType.dita#TextRegionType_TextStyle"/>, <xref href="pagecontent_xsd_Complex_Type_pc_WordType.dita#WordType_TextStyle"/></entry>
+                      </row>
+                    </tbody>
+                  </tgroup>
+                </table>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>Attributes</entry>
+            <entry>
+              <p>
+                <table frame="all" rowsep="1" colsep="1">
+                  <tgroup cols="3">
+                    <colspec colnum="1" colname="col1" align="left" colwidth="3*"/>
+                    <colspec colnum="2" colname="col2" align="left" colwidth="3*"/>
+                    <colspec colnum="3" colname="col3" align="left" colwidth="1*"/>
+                    <thead>
+                      <row>
+                        <entry>QName</entry>
+                        <entry>Type</entry>
+                        <entry>Use</entry>
+                      </row>
+                    </thead>
+                    <tbody>
+                      <row>
+                        <entry>
+                          <xref href="#TextStyleType_bgColour"/>
+                        </entry>
+                        <entry>
+                          <xref href="pagecontent_xsd_Simple_Type_pc_ColourSimpleType.dita#ColourSimpleType"/>
+                        </entry>
+                        <entry>optional</entry>
+                      </row>
+                      <row>
+                        <entry namest="col1" nameend="col3">
+                          <codeblock outputclass="language-xml">Background colour</codeblock>
+                        </entry>
+                      </row>
+                      <row>
+                        <entry>
+                          <xref href="#TextStyleType_bgColourRgb"/>
+                        </entry>
+                        <entry>integer</entry>
+                        <entry>optional</entry>
+                      </row>
+                      <row>
+                        <entry namest="col1" nameend="col3">
+                          <codeblock outputclass="language-xml">Background colour in RGB encoded format
 (red value) + (256 x green value) + (65536 x blue value).</codeblock>
-                                    </entry>
-                                 </row>
-                                 <row>
-                                    <entry>
-                                       <xref href="#TextStyleType_bold"/>
-                                    </entry>
-                                    <entry>boolean</entry>
-                                    <entry>optional</entry>
-                                 </row>
-                                 <row>
-                                    <entry>
-                                       <xref href="#TextStyleType_fontFamily"/>
-                                    </entry>
-                                    <entry>string</entry>
-                                    <entry>optional</entry>
-                                 </row>
-                                 <row>
-                                    <entry namest="col1" nameend="col3">
-                                       <codeblock outputclass="language-xml">For instance: Arial, Times New Roman.
+                        </entry>
+                      </row>
+                      <row>
+                        <entry>
+                          <xref href="#TextStyleType_bold"/>
+                        </entry>
+                        <entry>boolean</entry>
+                        <entry>optional</entry>
+                      </row>
+                      <row>
+                        <entry>
+                          <xref href="#TextStyleType_fontFamily"/>
+                        </entry>
+                        <entry>string</entry>
+                        <entry>optional</entry>
+                      </row>
+                      <row>
+                        <entry namest="col1" nameend="col3">
+                          <codeblock outputclass="language-xml">For instance: Arial, Times New Roman.
 Add more information if necessary
 (e.g. blackletter, antiqua).</codeblock>
-                                    </entry>
-                                 </row>
-                                 <row>
-                                    <entry>
-                                       <xref href="#TextStyleType_fontSize"/>
-                                    </entry>
-                                    <entry>float</entry>
-                                    <entry>optional</entry>
-                                 </row>
-                                 <row>
-                                    <entry namest="col1" nameend="col3">
-                                       <codeblock outputclass="language-xml">The size of the characters in points.</codeblock>
-                                    </entry>
-                                 </row>
-                                 <row>
-                                    <entry>
-                                       <xref href="#TextStyleType_italic"/>
-                                    </entry>
-                                    <entry>boolean</entry>
-                                    <entry>optional</entry>
-                                 </row>
-                                 <row>
-                                    <entry>
-                                       <xref href="#TextStyleType_kerning"/>
-                                    </entry>
-                                    <entry>int</entry>
-                                    <entry>optional</entry>
-                                 </row>
-                                 <row>
-                                    <entry namest="col1" nameend="col3">
-                                       <codeblock outputclass="language-xml">The degree of space (in points) between
+                        </entry>
+                      </row>
+                      <row>
+                        <entry>
+                          <xref href="#TextStyleType_fontSize"/>
+                        </entry>
+                        <entry>float</entry>
+                        <entry>optional</entry>
+                      </row>
+                      <row>
+                        <entry namest="col1" nameend="col3">
+                          <codeblock outputclass="language-xml">The size of the characters in points.</codeblock>
+                        </entry>
+                      </row>
+                      <row>
+                        <entry>
+                          <xref href="#TextStyleType_italic"/>
+                        </entry>
+                        <entry>boolean</entry>
+                        <entry>optional</entry>
+                      </row>
+                      <row>
+                        <entry>
+                          <xref href="#TextStyleType_kerning"/>
+                        </entry>
+                        <entry>int</entry>
+                        <entry>optional</entry>
+                      </row>
+                      <row>
+                        <entry namest="col1" nameend="col3">
+                          <codeblock outputclass="language-xml">The degree of space (in points) between
 the characters in a string of text.</codeblock>
-                                    </entry>
-                                 </row>
-                                 <row>
-                                    <entry>
-                                       <xref href="#TextStyleType_letterSpaced"/>
-                                    </entry>
-                                    <entry>boolean</entry>
-                                    <entry>optional</entry>
-                                 </row>
-                                 <row>
-                                    <entry>
-                                       <xref href="#TextStyleType_monospace"/>
-                                    </entry>
-                                    <entry>boolean</entry>
-                                    <entry>optional</entry>
-                                 </row>
-                                 <row>
-                                    <entry>
-                                       <xref href="#TextStyleType_reverseVideo"/>
-                                    </entry>
-                                    <entry>boolean</entry>
-                                    <entry>optional</entry>
-                                 </row>
-                                 <row>
-                                    <entry namest="col1" nameend="col3">
-                                       <codeblock outputclass="language-xml">Specifies whether the colour of the text appears
+                        </entry>
+                      </row>
+                      <row>
+                        <entry>
+                          <xref href="#TextStyleType_letterSpaced"/>
+                        </entry>
+                        <entry>boolean</entry>
+                        <entry>optional</entry>
+                      </row>
+                      <row>
+                        <entry>
+                          <xref href="#TextStyleType_monospace"/>
+                        </entry>
+                        <entry>boolean</entry>
+                        <entry>optional</entry>
+                      </row>
+                      <row>
+                        <entry>
+                          <xref href="#TextStyleType_reverseVideo"/>
+                        </entry>
+                        <entry>boolean</entry>
+                        <entry>optional</entry>
+                      </row>
+                      <row>
+                        <entry namest="col1" nameend="col3">
+                          <codeblock outputclass="language-xml">Specifies whether the colour of the text appears
 reversed against a background colour.</codeblock>
-                                    </entry>
-                                 </row>
-                                 <row>
-                                    <entry>
-                                       <xref href="#TextStyleType_serif"/>
-                                    </entry>
-                                    <entry>boolean</entry>
-                                    <entry>optional</entry>
-                                 </row>
-                                 <row>
-                                    <entry namest="col1" nameend="col3">
-                                       <codeblock outputclass="language-xml">Serif or sans-serif typeface.</codeblock>
-                                    </entry>
-                                 </row>
-                                 <row>
-                                    <entry>
-                                       <xref href="#TextStyleType_smallCaps"/>
-                                    </entry>
-                                    <entry>boolean</entry>
-                                    <entry>optional</entry>
-                                 </row>
-                                 <row>
-                                    <entry>
-                                       <xref href="#TextStyleType_strikethrough"/>
-                                    </entry>
-                                    <entry>boolean</entry>
-                                    <entry>optional</entry>
-                                 </row>
-                                 <row>
-                                    <entry>
-                                       <xref href="#TextStyleType_subscript"/>
-                                    </entry>
-                                    <entry>boolean</entry>
-                                    <entry>optional</entry>
-                                 </row>
-                                 <row>
-                                    <entry>
-                                       <xref href="#TextStyleType_superscript"/>
-                                    </entry>
-                                    <entry>boolean</entry>
-                                    <entry>optional</entry>
-                                 </row>
-                                 <row>
-                                    <entry>
-                                       <xref href="#TextStyleType_textColour"/>
-                                    </entry>
-                                    <entry>
-                                       <xref href="pagecontent_xsd_Simple_Type_pc_ColourSimpleType.dita#ColourSimpleType"/>
-                                    </entry>
-                                    <entry>optional</entry>
-                                 </row>
-                                 <row>
-                                    <entry>
-                                       <xref href="#TextStyleType_textColourRgb"/>
-                                    </entry>
-                                    <entry>integer</entry>
-                                    <entry>optional</entry>
-                                 </row>
-                                 <row>
-                                    <entry namest="col1" nameend="col3">
-                                       <codeblock outputclass="language-xml">Text colour in RGB encoded format
+                        </entry>
+                      </row>
+                      <row>
+                        <entry>
+                          <xref href="#TextStyleType_serif"/>
+                        </entry>
+                        <entry>boolean</entry>
+                        <entry>optional</entry>
+                      </row>
+                      <row>
+                        <entry namest="col1" nameend="col3">
+                          <codeblock outputclass="language-xml">Serif or sans-serif typeface.</codeblock>
+                        </entry>
+                      </row>
+                      <row>
+                        <entry>
+                          <xref href="#TextStyleType_smallCaps"/>
+                        </entry>
+                        <entry>boolean</entry>
+                        <entry>optional</entry>
+                      </row>
+                      <row>
+                        <entry>
+                          <xref href="#TextStyleType_strikethrough"/>
+                        </entry>
+                        <entry>boolean</entry>
+                        <entry>optional</entry>
+                      </row>
+                      <row>
+                        <entry>
+                          <xref href="#TextStyleType_subscript"/>
+                        </entry>
+                        <entry>boolean</entry>
+                        <entry>optional</entry>
+                      </row>
+                      <row>
+                        <entry>
+                          <xref href="#TextStyleType_superscript"/>
+                        </entry>
+                        <entry>boolean</entry>
+                        <entry>optional</entry>
+                      </row>
+                      <row>
+                        <entry>
+                          <xref href="#TextStyleType_textColour"/>
+                        </entry>
+                        <entry>
+                          <xref href="pagecontent_xsd_Simple_Type_pc_ColourSimpleType.dita#ColourSimpleType"/>
+                        </entry>
+                        <entry>optional</entry>
+                      </row>
+                      <row>
+                        <entry>
+                          <xref href="#TextStyleType_textColourRgb"/>
+                        </entry>
+                        <entry>integer</entry>
+                        <entry>optional</entry>
+                      </row>
+                      <row>
+                        <entry namest="col1" nameend="col3">
+                          <codeblock outputclass="language-xml">Text colour in RGB encoded format
 (red value) + (256 x green value) + (65536 x blue value).</codeblock>
-                                    </entry>
-                                 </row>
-                                 <row>
-                                    <entry>
-                                       <xref href="#TextStyleType_underlineStyle"/>
-                                    </entry>
-                                    <entry>
-                                       <xref href="pagecontent_xsd_Simple_Type_pc_UnderlineStyleSimpleType.dita#UnderlineStyleSimpleType"/>
-                                    </entry>
-                                    <entry>optional</entry>
-                                 </row>
-                                 <row>
-                                    <entry namest="col1" nameend="col3">
-                                       <codeblock outputclass="language-xml">Line style details if "underlined" is TRUE</codeblock>
-                                    </entry>
-                                 </row>
-                                 <row>
-                                    <entry>
-                                       <xref href="#TextStyleType_underlined"/>
-                                    </entry>
-                                    <entry>boolean</entry>
-                                    <entry>optional</entry>
-                                 </row>
-                                 <row>
-                                    <entry>
-                                       <xref href="#TextStyleType_xHeight"/>
-                                    </entry>
-                                    <entry>integer</entry>
-                                    <entry>optional</entry>
-                                 </row>
-                                 <row>
-                                    <entry namest="col1" nameend="col3">
-                                       <codeblock outputclass="language-xml">The x-height or corpus size refers to the distance
+                        </entry>
+                      </row>
+                      <row>
+                        <entry>
+                          <xref href="#TextStyleType_underlineStyle"/>
+                        </entry>
+                        <entry>
+                          <xref href="pagecontent_xsd_Simple_Type_pc_UnderlineStyleSimpleType.dita#UnderlineStyleSimpleType"/>
+                        </entry>
+                        <entry>optional</entry>
+                      </row>
+                      <row>
+                        <entry namest="col1" nameend="col3">
+                          <codeblock outputclass="language-xml">Line style details if "underlined" is TRUE</codeblock>
+                        </entry>
+                      </row>
+                      <row>
+                        <entry>
+                          <xref href="#TextStyleType_underlined"/>
+                        </entry>
+                        <entry>boolean</entry>
+                        <entry>optional</entry>
+                      </row>
+                      <row>
+                        <entry>
+                          <xref href="#TextStyleType_xHeight"/>
+                        </entry>
+                        <entry>integer</entry>
+                        <entry>optional</entry>
+                      </row>
+                      <row>
+                        <entry namest="col1" nameend="col3">
+                          <codeblock outputclass="language-xml">The x-height or corpus size refers to the distance
 between the baseline and the mean line of
 lower-case letters in a typeface.
 The unit is assumed to be pixels.</codeblock>
-                                    </entry>
-                                 </row>
-                              </tbody>
-                           </tgroup>
-                        </table>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>Source</entry>
-                  <entry>
-                     <codeblock outputclass="language-xml">&lt;complexType name="TextStyleType"&gt;
+                        </entry>
+                      </row>
+                    </tbody>
+                  </tgroup>
+                </table>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>Source</entry>
+            <entry>
+              <codeblock outputclass="language-xml">&lt;complexType name="TextStyleType"&gt;
   &lt;annotation&gt;
     &lt;documentation&gt;Monospace (fixed-pitch, non-proportional) or proportional font.&lt;/documentation&gt;
   &lt;/annotation&gt;
@@ -447,1728 +444,1728 @@ The unit is assumed to be pixels.</codeblock>
   &lt;attribute name="smallCaps" type="boolean"/&gt;
   &lt;attribute name="letterSpaced" type="boolean"/&gt;
 &lt;/complexType&gt;</codeblock>
-                  </entry>
-               </row>
-            </tbody>
-         </tgroup>
-      </table>
-   </body>
-   <topic id="TextStyleType_fontFamily">
-      <title>Attribute pc:TextStyleType / @fontFamily</title>
-      <body>
-         <table frame="all" rowsep="1" colsep="1">
-            <tgroup cols="2">
-               <colspec colwidth="3*" align="left"/>
-               <colspec colwidth="25*" align="left"/>
-               <tbody>
-                  <row>
-                     <entry>Namespace</entry>
-                     <entry>No namespace</entry>
-                  </row>
-                  <row>
-                     <entry>Annotations</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">For instance: Arial, Times New Roman.
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </body>
+  <topic id="TextStyleType_fontFamily">
+    <title>Attribute pc:TextStyleType / @fontFamily</title>
+    <body>
+      <table frame="all" rowsep="1" colsep="1">
+        <tgroup cols="2">
+          <colspec colwidth="3*" align="left"/>
+          <colspec colwidth="25*" align="left"/>
+          <tbody>
+            <row>
+              <entry>Namespace</entry>
+              <entry>No namespace</entry>
+            </row>
+            <row>
+              <entry>Annotations</entry>
+              <entry>
+                <codeblock outputclass="language-xml">For instance: Arial, Times New Roman.
 Add more information if necessary
 (e.g. blackletter, antiqua).</codeblock>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Type</entry>
-                     <entry>string</entry>
-                  </row>
-                  <row>
-                     <entry>Properties</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>content: </entry>
-                                       <entry>
-                                          <b>simple</b>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Used by</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>Complex Type </entry>
-                                       <entry>
-                                          <xref href="#TextStyleType"/>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="fontFamily" type="string"&gt;
+              </entry>
+            </row>
+            <row>
+              <entry>Type</entry>
+              <entry>string</entry>
+            </row>
+            <row>
+              <entry>Properties</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>content: </entry>
+                          <entry>
+                            <b>simple</b>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Used by</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>Complex Type </entry>
+                          <entry>
+                            <xref href="#TextStyleType"/>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Source</entry>
+              <entry>
+                <codeblock outputclass="language-xml">&lt;attribute name="fontFamily" type="string"&gt;
   &lt;annotation&gt;
     &lt;documentation&gt;For instance: Arial, Times New Roman. Add more information if necessary (e.g. blackletter, antiqua).&lt;/documentation&gt;
   &lt;/annotation&gt;
 &lt;/attribute&gt;</codeblock>
-                     </entry>
-                  </row>
-               </tbody>
-            </tgroup>
-         </table>
-      </body>
-   </topic>
-   <topic id="TextStyleType_serif">
-      <title>Attribute pc:TextStyleType / @serif</title>
-      <body>
-         <table frame="all" rowsep="1" colsep="1">
-            <tgroup cols="2">
-               <colspec colwidth="3*" align="left"/>
-               <colspec colwidth="25*" align="left"/>
-               <tbody>
-                  <row>
-                     <entry>Namespace</entry>
-                     <entry>No namespace</entry>
-                  </row>
-                  <row>
-                     <entry>Annotations</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">Serif or sans-serif typeface.</codeblock>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Type</entry>
-                     <entry>boolean</entry>
-                  </row>
-                  <row>
-                     <entry>Properties</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>content: </entry>
-                                       <entry>
-                                          <b>simple</b>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Used by</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>Complex Type </entry>
-                                       <entry>
-                                          <xref href="#TextStyleType"/>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="serif" type="boolean"&gt;
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </body>
+  </topic>
+  <topic id="TextStyleType_serif">
+    <title>Attribute pc:TextStyleType / @serif</title>
+    <body>
+      <table frame="all" rowsep="1" colsep="1">
+        <tgroup cols="2">
+          <colspec colwidth="3*" align="left"/>
+          <colspec colwidth="25*" align="left"/>
+          <tbody>
+            <row>
+              <entry>Namespace</entry>
+              <entry>No namespace</entry>
+            </row>
+            <row>
+              <entry>Annotations</entry>
+              <entry>
+                <codeblock outputclass="language-xml">Serif or sans-serif typeface.</codeblock>
+              </entry>
+            </row>
+            <row>
+              <entry>Type</entry>
+              <entry>boolean</entry>
+            </row>
+            <row>
+              <entry>Properties</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>content: </entry>
+                          <entry>
+                            <b>simple</b>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Used by</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>Complex Type </entry>
+                          <entry>
+                            <xref href="#TextStyleType"/>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Source</entry>
+              <entry>
+                <codeblock outputclass="language-xml">&lt;attribute name="serif" type="boolean"&gt;
   &lt;annotation&gt;
     &lt;documentation&gt;Serif or sans-serif typeface.&lt;/documentation&gt;
   &lt;/annotation&gt;
 &lt;/attribute&gt;</codeblock>
-                     </entry>
-                  </row>
-               </tbody>
-            </tgroup>
-         </table>
-      </body>
-   </topic>
-   <topic id="TextStyleType_monospace">
-      <title>Attribute pc:TextStyleType / @monospace</title>
-      <body>
-         <table frame="all" rowsep="1" colsep="1">
-            <tgroup cols="2">
-               <colspec colwidth="3*" align="left"/>
-               <colspec colwidth="25*" align="left"/>
-               <tbody>
-                  <row>
-                     <entry>Namespace</entry>
-                     <entry>No namespace</entry>
-                  </row>
-                  <row>
-                     <entry>Type</entry>
-                     <entry>boolean</entry>
-                  </row>
-                  <row>
-                     <entry>Properties</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>content: </entry>
-                                       <entry>
-                                          <b>simple</b>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Used by</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>Complex Type </entry>
-                                       <entry>
-                                          <xref href="#TextStyleType"/>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="monospace" type="boolean"/&gt;</codeblock>
-                     </entry>
-                  </row>
-               </tbody>
-            </tgroup>
-         </table>
-      </body>
-   </topic>
-   <topic id="TextStyleType_fontSize">
-      <title>Attribute pc:TextStyleType / @fontSize</title>
-      <body>
-         <table frame="all" rowsep="1" colsep="1">
-            <tgroup cols="2">
-               <colspec colwidth="3*" align="left"/>
-               <colspec colwidth="25*" align="left"/>
-               <tbody>
-                  <row>
-                     <entry>Namespace</entry>
-                     <entry>No namespace</entry>
-                  </row>
-                  <row>
-                     <entry>Annotations</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">The size of the characters in points.</codeblock>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Type</entry>
-                     <entry>float</entry>
-                  </row>
-                  <row>
-                     <entry>Properties</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>content: </entry>
-                                       <entry>
-                                          <b>simple</b>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Used by</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>Complex Type </entry>
-                                       <entry>
-                                          <xref href="#TextStyleType"/>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="fontSize" type="float"&gt;
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </body>
+  </topic>
+  <topic id="TextStyleType_monospace">
+    <title>Attribute pc:TextStyleType / @monospace</title>
+    <body>
+      <table frame="all" rowsep="1" colsep="1">
+        <tgroup cols="2">
+          <colspec colwidth="3*" align="left"/>
+          <colspec colwidth="25*" align="left"/>
+          <tbody>
+            <row>
+              <entry>Namespace</entry>
+              <entry>No namespace</entry>
+            </row>
+            <row>
+              <entry>Type</entry>
+              <entry>boolean</entry>
+            </row>
+            <row>
+              <entry>Properties</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>content: </entry>
+                          <entry>
+                            <b>simple</b>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Used by</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>Complex Type </entry>
+                          <entry>
+                            <xref href="#TextStyleType"/>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Source</entry>
+              <entry>
+                <codeblock outputclass="language-xml">&lt;attribute name="monospace" type="boolean"/&gt;</codeblock>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </body>
+  </topic>
+  <topic id="TextStyleType_fontSize">
+    <title>Attribute pc:TextStyleType / @fontSize</title>
+    <body>
+      <table frame="all" rowsep="1" colsep="1">
+        <tgroup cols="2">
+          <colspec colwidth="3*" align="left"/>
+          <colspec colwidth="25*" align="left"/>
+          <tbody>
+            <row>
+              <entry>Namespace</entry>
+              <entry>No namespace</entry>
+            </row>
+            <row>
+              <entry>Annotations</entry>
+              <entry>
+                <codeblock outputclass="language-xml">The size of the characters in points.</codeblock>
+              </entry>
+            </row>
+            <row>
+              <entry>Type</entry>
+              <entry>float</entry>
+            </row>
+            <row>
+              <entry>Properties</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>content: </entry>
+                          <entry>
+                            <b>simple</b>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Used by</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>Complex Type </entry>
+                          <entry>
+                            <xref href="#TextStyleType"/>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Source</entry>
+              <entry>
+                <codeblock outputclass="language-xml">&lt;attribute name="fontSize" type="float"&gt;
   &lt;annotation&gt;
     &lt;documentation&gt;The size of the characters in points.&lt;/documentation&gt;
   &lt;/annotation&gt;
 &lt;/attribute&gt;</codeblock>
-                     </entry>
-                  </row>
-               </tbody>
-            </tgroup>
-         </table>
-      </body>
-   </topic>
-   <topic id="TextStyleType_xHeight">
-      <title>Attribute pc:TextStyleType / @xHeight</title>
-      <body>
-         <table frame="all" rowsep="1" colsep="1">
-            <tgroup cols="2">
-               <colspec colwidth="3*" align="left"/>
-               <colspec colwidth="25*" align="left"/>
-               <tbody>
-                  <row>
-                     <entry>Namespace</entry>
-                     <entry>No namespace</entry>
-                  </row>
-                  <row>
-                     <entry>Annotations</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">The x-height or corpus size refers to the distance
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </body>
+  </topic>
+  <topic id="TextStyleType_xHeight">
+    <title>Attribute pc:TextStyleType / @xHeight</title>
+    <body>
+      <table frame="all" rowsep="1" colsep="1">
+        <tgroup cols="2">
+          <colspec colwidth="3*" align="left"/>
+          <colspec colwidth="25*" align="left"/>
+          <tbody>
+            <row>
+              <entry>Namespace</entry>
+              <entry>No namespace</entry>
+            </row>
+            <row>
+              <entry>Annotations</entry>
+              <entry>
+                <codeblock outputclass="language-xml">The x-height or corpus size refers to the distance
 between the baseline and the mean line of
 lower-case letters in a typeface.
 The unit is assumed to be pixels.</codeblock>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Type</entry>
-                     <entry>integer</entry>
-                  </row>
-                  <row>
-                     <entry>Properties</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>content: </entry>
-                                       <entry>
-                                          <b>simple</b>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Used by</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>Complex Type </entry>
-                                       <entry>
-                                          <xref href="#TextStyleType"/>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="xHeight" type="integer"&gt;
+              </entry>
+            </row>
+            <row>
+              <entry>Type</entry>
+              <entry>integer</entry>
+            </row>
+            <row>
+              <entry>Properties</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>content: </entry>
+                          <entry>
+                            <b>simple</b>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Used by</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>Complex Type </entry>
+                          <entry>
+                            <xref href="#TextStyleType"/>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Source</entry>
+              <entry>
+                <codeblock outputclass="language-xml">&lt;attribute name="xHeight" type="integer"&gt;
   &lt;annotation&gt;
     &lt;documentation&gt;The x-height or corpus size refers to the distance between the baseline and the mean line of lower-case letters in a typeface. The unit is assumed to be pixels.&lt;/documentation&gt;
   &lt;/annotation&gt;
 &lt;/attribute&gt;</codeblock>
-                     </entry>
-                  </row>
-               </tbody>
-            </tgroup>
-         </table>
-      </body>
-   </topic>
-   <topic id="TextStyleType_kerning">
-      <title>Attribute pc:TextStyleType / @kerning</title>
-      <body>
-         <table frame="all" rowsep="1" colsep="1">
-            <tgroup cols="2">
-               <colspec colwidth="3*" align="left"/>
-               <colspec colwidth="25*" align="left"/>
-               <tbody>
-                  <row>
-                     <entry>Namespace</entry>
-                     <entry>No namespace</entry>
-                  </row>
-                  <row>
-                     <entry>Annotations</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">The degree of space (in points) between
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </body>
+  </topic>
+  <topic id="TextStyleType_kerning">
+    <title>Attribute pc:TextStyleType / @kerning</title>
+    <body>
+      <table frame="all" rowsep="1" colsep="1">
+        <tgroup cols="2">
+          <colspec colwidth="3*" align="left"/>
+          <colspec colwidth="25*" align="left"/>
+          <tbody>
+            <row>
+              <entry>Namespace</entry>
+              <entry>No namespace</entry>
+            </row>
+            <row>
+              <entry>Annotations</entry>
+              <entry>
+                <codeblock outputclass="language-xml">The degree of space (in points) between
 the characters in a string of text.</codeblock>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Type</entry>
-                     <entry>int</entry>
-                  </row>
-                  <row>
-                     <entry>Properties</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>content: </entry>
-                                       <entry>
-                                          <b>simple</b>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Used by</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>Complex Type </entry>
-                                       <entry>
-                                          <xref href="#TextStyleType"/>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="kerning" type="int"&gt;
+              </entry>
+            </row>
+            <row>
+              <entry>Type</entry>
+              <entry>int</entry>
+            </row>
+            <row>
+              <entry>Properties</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>content: </entry>
+                          <entry>
+                            <b>simple</b>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Used by</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>Complex Type </entry>
+                          <entry>
+                            <xref href="#TextStyleType"/>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Source</entry>
+              <entry>
+                <codeblock outputclass="language-xml">&lt;attribute name="kerning" type="int"&gt;
   &lt;annotation&gt;
     &lt;documentation&gt;The degree of space (in points) between the characters in a string of text.&lt;/documentation&gt;
   &lt;/annotation&gt;
 &lt;/attribute&gt;</codeblock>
-                     </entry>
-                  </row>
-               </tbody>
-            </tgroup>
-         </table>
-      </body>
-   </topic>
-   <topic id="TextStyleType_textColour">
-      <title>Attribute pc:TextStyleType / @textColour</title>
-      <body>
-         <table frame="all" rowsep="1" colsep="1">
-            <tgroup cols="2">
-               <colspec colwidth="3*" align="left"/>
-               <colspec colwidth="25*" align="left"/>
-               <tbody>
-                  <row>
-                     <entry>Namespace</entry>
-                     <entry>No namespace</entry>
-                  </row>
-                  <row>
-                     <entry>Type</entry>
-                     <entry>
-                        <xref href="pagecontent_xsd_Simple_Type_pc_ColourSimpleType.dita#ColourSimpleType"/>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Properties</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>content: </entry>
-                                       <entry>
-                                          <b>simple</b>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Facets</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="3">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="3*" align="left"/>
-                                 <colspec colwidth="5*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>enumeration</entry>
-                                       <entry>black</entry>
-                                       <entry/>
-                                    </row>
-                                    <row>
-                                       <entry>enumeration</entry>
-                                       <entry>blue</entry>
-                                       <entry/>
-                                    </row>
-                                    <row>
-                                       <entry>enumeration</entry>
-                                       <entry>brown</entry>
-                                       <entry/>
-                                    </row>
-                                    <row>
-                                       <entry>enumeration</entry>
-                                       <entry>cyan</entry>
-                                       <entry/>
-                                    </row>
-                                    <row>
-                                       <entry>enumeration</entry>
-                                       <entry>green</entry>
-                                       <entry/>
-                                    </row>
-                                    <row>
-                                       <entry>enumeration</entry>
-                                       <entry>grey</entry>
-                                       <entry/>
-                                    </row>
-                                    <row>
-                                       <entry>enumeration</entry>
-                                       <entry>indigo</entry>
-                                       <entry/>
-                                    </row>
-                                    <row>
-                                       <entry>enumeration</entry>
-                                       <entry>magenta</entry>
-                                       <entry/>
-                                    </row>
-                                    <row>
-                                       <entry>enumeration</entry>
-                                       <entry>orange</entry>
-                                       <entry/>
-                                    </row>
-                                    <row>
-                                       <entry>enumeration</entry>
-                                       <entry>pink</entry>
-                                       <entry/>
-                                    </row>
-                                    <row>
-                                       <entry>enumeration</entry>
-                                       <entry>red</entry>
-                                       <entry/>
-                                    </row>
-                                    <row>
-                                       <entry>enumeration</entry>
-                                       <entry>turquoise</entry>
-                                       <entry/>
-                                    </row>
-                                    <row>
-                                       <entry>enumeration</entry>
-                                       <entry>violet</entry>
-                                       <entry/>
-                                    </row>
-                                    <row>
-                                       <entry>enumeration</entry>
-                                       <entry>white</entry>
-                                       <entry/>
-                                    </row>
-                                    <row>
-                                       <entry>enumeration</entry>
-                                       <entry>yellow</entry>
-                                       <entry/>
-                                    </row>
-                                    <row>
-                                       <entry>enumeration</entry>
-                                       <entry>other</entry>
-                                       <entry/>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Used by</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>Complex Type </entry>
-                                       <entry>
-                                          <xref href="#TextStyleType"/>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="textColour" type="pc:ColourSimpleType"/&gt;</codeblock>
-                     </entry>
-                  </row>
-               </tbody>
-            </tgroup>
-         </table>
-      </body>
-   </topic>
-   <topic id="TextStyleType_textColourRgb">
-      <title>Attribute pc:TextStyleType / @textColourRgb</title>
-      <body>
-         <table frame="all" rowsep="1" colsep="1">
-            <tgroup cols="2">
-               <colspec colwidth="3*" align="left"/>
-               <colspec colwidth="25*" align="left"/>
-               <tbody>
-                  <row>
-                     <entry>Namespace</entry>
-                     <entry>No namespace</entry>
-                  </row>
-                  <row>
-                     <entry>Annotations</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">Text colour in RGB encoded format
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </body>
+  </topic>
+  <topic id="TextStyleType_textColour">
+    <title>Attribute pc:TextStyleType / @textColour</title>
+    <body>
+      <table frame="all" rowsep="1" colsep="1">
+        <tgroup cols="2">
+          <colspec colwidth="3*" align="left"/>
+          <colspec colwidth="25*" align="left"/>
+          <tbody>
+            <row>
+              <entry>Namespace</entry>
+              <entry>No namespace</entry>
+            </row>
+            <row>
+              <entry>Type</entry>
+              <entry>
+                <xref href="pagecontent_xsd_Simple_Type_pc_ColourSimpleType.dita#ColourSimpleType"/>
+              </entry>
+            </row>
+            <row>
+              <entry>Properties</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>content: </entry>
+                          <entry>
+                            <b>simple</b>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Facets</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="3">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="3*" align="left"/>
+                      <colspec colwidth="5*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>enumeration</entry>
+                          <entry>black</entry>
+                          <entry/>
+                        </row>
+                        <row>
+                          <entry>enumeration</entry>
+                          <entry>blue</entry>
+                          <entry/>
+                        </row>
+                        <row>
+                          <entry>enumeration</entry>
+                          <entry>brown</entry>
+                          <entry/>
+                        </row>
+                        <row>
+                          <entry>enumeration</entry>
+                          <entry>cyan</entry>
+                          <entry/>
+                        </row>
+                        <row>
+                          <entry>enumeration</entry>
+                          <entry>green</entry>
+                          <entry/>
+                        </row>
+                        <row>
+                          <entry>enumeration</entry>
+                          <entry>grey</entry>
+                          <entry/>
+                        </row>
+                        <row>
+                          <entry>enumeration</entry>
+                          <entry>indigo</entry>
+                          <entry/>
+                        </row>
+                        <row>
+                          <entry>enumeration</entry>
+                          <entry>magenta</entry>
+                          <entry/>
+                        </row>
+                        <row>
+                          <entry>enumeration</entry>
+                          <entry>orange</entry>
+                          <entry/>
+                        </row>
+                        <row>
+                          <entry>enumeration</entry>
+                          <entry>pink</entry>
+                          <entry/>
+                        </row>
+                        <row>
+                          <entry>enumeration</entry>
+                          <entry>red</entry>
+                          <entry/>
+                        </row>
+                        <row>
+                          <entry>enumeration</entry>
+                          <entry>turquoise</entry>
+                          <entry/>
+                        </row>
+                        <row>
+                          <entry>enumeration</entry>
+                          <entry>violet</entry>
+                          <entry/>
+                        </row>
+                        <row>
+                          <entry>enumeration</entry>
+                          <entry>white</entry>
+                          <entry/>
+                        </row>
+                        <row>
+                          <entry>enumeration</entry>
+                          <entry>yellow</entry>
+                          <entry/>
+                        </row>
+                        <row>
+                          <entry>enumeration</entry>
+                          <entry>other</entry>
+                          <entry/>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Used by</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>Complex Type </entry>
+                          <entry>
+                            <xref href="#TextStyleType"/>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Source</entry>
+              <entry>
+                <codeblock outputclass="language-xml">&lt;attribute name="textColour" type="pc:ColourSimpleType"/&gt;</codeblock>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </body>
+  </topic>
+  <topic id="TextStyleType_textColourRgb">
+    <title>Attribute pc:TextStyleType / @textColourRgb</title>
+    <body>
+      <table frame="all" rowsep="1" colsep="1">
+        <tgroup cols="2">
+          <colspec colwidth="3*" align="left"/>
+          <colspec colwidth="25*" align="left"/>
+          <tbody>
+            <row>
+              <entry>Namespace</entry>
+              <entry>No namespace</entry>
+            </row>
+            <row>
+              <entry>Annotations</entry>
+              <entry>
+                <codeblock outputclass="language-xml">Text colour in RGB encoded format
 (red value) + (256 x green value) + (65536 x blue value).</codeblock>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Type</entry>
-                     <entry>integer</entry>
-                  </row>
-                  <row>
-                     <entry>Properties</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>content: </entry>
-                                       <entry>
-                                          <b>simple</b>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Used by</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>Complex Type </entry>
-                                       <entry>
-                                          <xref href="#TextStyleType"/>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="textColourRgb" type="integer"&gt;
+              </entry>
+            </row>
+            <row>
+              <entry>Type</entry>
+              <entry>integer</entry>
+            </row>
+            <row>
+              <entry>Properties</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>content: </entry>
+                          <entry>
+                            <b>simple</b>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Used by</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>Complex Type </entry>
+                          <entry>
+                            <xref href="#TextStyleType"/>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Source</entry>
+              <entry>
+                <codeblock outputclass="language-xml">&lt;attribute name="textColourRgb" type="integer"&gt;
   &lt;annotation&gt;
     &lt;documentation&gt;Text colour in RGB encoded format (red value) + (256 x green value) + (65536 x blue value).&lt;/documentation&gt;
   &lt;/annotation&gt;
 &lt;/attribute&gt;</codeblock>
-                     </entry>
-                  </row>
-               </tbody>
-            </tgroup>
-         </table>
-      </body>
-   </topic>
-   <topic id="TextStyleType_bgColour">
-      <title>Attribute pc:TextStyleType / @bgColour</title>
-      <body>
-         <table frame="all" rowsep="1" colsep="1">
-            <tgroup cols="2">
-               <colspec colwidth="3*" align="left"/>
-               <colspec colwidth="25*" align="left"/>
-               <tbody>
-                  <row>
-                     <entry>Namespace</entry>
-                     <entry>No namespace</entry>
-                  </row>
-                  <row>
-                     <entry>Annotations</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">Background colour</codeblock>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Type</entry>
-                     <entry>
-                        <xref href="pagecontent_xsd_Simple_Type_pc_ColourSimpleType.dita#ColourSimpleType"/>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Properties</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>content: </entry>
-                                       <entry>
-                                          <b>simple</b>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Facets</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="3">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="3*" align="left"/>
-                                 <colspec colwidth="5*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>enumeration</entry>
-                                       <entry>black</entry>
-                                       <entry/>
-                                    </row>
-                                    <row>
-                                       <entry>enumeration</entry>
-                                       <entry>blue</entry>
-                                       <entry/>
-                                    </row>
-                                    <row>
-                                       <entry>enumeration</entry>
-                                       <entry>brown</entry>
-                                       <entry/>
-                                    </row>
-                                    <row>
-                                       <entry>enumeration</entry>
-                                       <entry>cyan</entry>
-                                       <entry/>
-                                    </row>
-                                    <row>
-                                       <entry>enumeration</entry>
-                                       <entry>green</entry>
-                                       <entry/>
-                                    </row>
-                                    <row>
-                                       <entry>enumeration</entry>
-                                       <entry>grey</entry>
-                                       <entry/>
-                                    </row>
-                                    <row>
-                                       <entry>enumeration</entry>
-                                       <entry>indigo</entry>
-                                       <entry/>
-                                    </row>
-                                    <row>
-                                       <entry>enumeration</entry>
-                                       <entry>magenta</entry>
-                                       <entry/>
-                                    </row>
-                                    <row>
-                                       <entry>enumeration</entry>
-                                       <entry>orange</entry>
-                                       <entry/>
-                                    </row>
-                                    <row>
-                                       <entry>enumeration</entry>
-                                       <entry>pink</entry>
-                                       <entry/>
-                                    </row>
-                                    <row>
-                                       <entry>enumeration</entry>
-                                       <entry>red</entry>
-                                       <entry/>
-                                    </row>
-                                    <row>
-                                       <entry>enumeration</entry>
-                                       <entry>turquoise</entry>
-                                       <entry/>
-                                    </row>
-                                    <row>
-                                       <entry>enumeration</entry>
-                                       <entry>violet</entry>
-                                       <entry/>
-                                    </row>
-                                    <row>
-                                       <entry>enumeration</entry>
-                                       <entry>white</entry>
-                                       <entry/>
-                                    </row>
-                                    <row>
-                                       <entry>enumeration</entry>
-                                       <entry>yellow</entry>
-                                       <entry/>
-                                    </row>
-                                    <row>
-                                       <entry>enumeration</entry>
-                                       <entry>other</entry>
-                                       <entry/>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Used by</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>Complex Type </entry>
-                                       <entry>
-                                          <xref href="#TextStyleType"/>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="bgColour" type="pc:ColourSimpleType"&gt;
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </body>
+  </topic>
+  <topic id="TextStyleType_bgColour">
+    <title>Attribute pc:TextStyleType / @bgColour</title>
+    <body>
+      <table frame="all" rowsep="1" colsep="1">
+        <tgroup cols="2">
+          <colspec colwidth="3*" align="left"/>
+          <colspec colwidth="25*" align="left"/>
+          <tbody>
+            <row>
+              <entry>Namespace</entry>
+              <entry>No namespace</entry>
+            </row>
+            <row>
+              <entry>Annotations</entry>
+              <entry>
+                <codeblock outputclass="language-xml">Background colour</codeblock>
+              </entry>
+            </row>
+            <row>
+              <entry>Type</entry>
+              <entry>
+                <xref href="pagecontent_xsd_Simple_Type_pc_ColourSimpleType.dita#ColourSimpleType"/>
+              </entry>
+            </row>
+            <row>
+              <entry>Properties</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>content: </entry>
+                          <entry>
+                            <b>simple</b>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Facets</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="3">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="3*" align="left"/>
+                      <colspec colwidth="5*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>enumeration</entry>
+                          <entry>black</entry>
+                          <entry/>
+                        </row>
+                        <row>
+                          <entry>enumeration</entry>
+                          <entry>blue</entry>
+                          <entry/>
+                        </row>
+                        <row>
+                          <entry>enumeration</entry>
+                          <entry>brown</entry>
+                          <entry/>
+                        </row>
+                        <row>
+                          <entry>enumeration</entry>
+                          <entry>cyan</entry>
+                          <entry/>
+                        </row>
+                        <row>
+                          <entry>enumeration</entry>
+                          <entry>green</entry>
+                          <entry/>
+                        </row>
+                        <row>
+                          <entry>enumeration</entry>
+                          <entry>grey</entry>
+                          <entry/>
+                        </row>
+                        <row>
+                          <entry>enumeration</entry>
+                          <entry>indigo</entry>
+                          <entry/>
+                        </row>
+                        <row>
+                          <entry>enumeration</entry>
+                          <entry>magenta</entry>
+                          <entry/>
+                        </row>
+                        <row>
+                          <entry>enumeration</entry>
+                          <entry>orange</entry>
+                          <entry/>
+                        </row>
+                        <row>
+                          <entry>enumeration</entry>
+                          <entry>pink</entry>
+                          <entry/>
+                        </row>
+                        <row>
+                          <entry>enumeration</entry>
+                          <entry>red</entry>
+                          <entry/>
+                        </row>
+                        <row>
+                          <entry>enumeration</entry>
+                          <entry>turquoise</entry>
+                          <entry/>
+                        </row>
+                        <row>
+                          <entry>enumeration</entry>
+                          <entry>violet</entry>
+                          <entry/>
+                        </row>
+                        <row>
+                          <entry>enumeration</entry>
+                          <entry>white</entry>
+                          <entry/>
+                        </row>
+                        <row>
+                          <entry>enumeration</entry>
+                          <entry>yellow</entry>
+                          <entry/>
+                        </row>
+                        <row>
+                          <entry>enumeration</entry>
+                          <entry>other</entry>
+                          <entry/>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Used by</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>Complex Type </entry>
+                          <entry>
+                            <xref href="#TextStyleType"/>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Source</entry>
+              <entry>
+                <codeblock outputclass="language-xml">&lt;attribute name="bgColour" type="pc:ColourSimpleType"&gt;
   &lt;annotation&gt;
     &lt;documentation&gt;Background colour&lt;/documentation&gt;
   &lt;/annotation&gt;
 &lt;/attribute&gt;</codeblock>
-                     </entry>
-                  </row>
-               </tbody>
-            </tgroup>
-         </table>
-      </body>
-   </topic>
-   <topic id="TextStyleType_bgColourRgb">
-      <title>Attribute pc:TextStyleType / @bgColourRgb</title>
-      <body>
-         <table frame="all" rowsep="1" colsep="1">
-            <tgroup cols="2">
-               <colspec colwidth="3*" align="left"/>
-               <colspec colwidth="25*" align="left"/>
-               <tbody>
-                  <row>
-                     <entry>Namespace</entry>
-                     <entry>No namespace</entry>
-                  </row>
-                  <row>
-                     <entry>Annotations</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">Background colour in RGB encoded format
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </body>
+  </topic>
+  <topic id="TextStyleType_bgColourRgb">
+    <title>Attribute pc:TextStyleType / @bgColourRgb</title>
+    <body>
+      <table frame="all" rowsep="1" colsep="1">
+        <tgroup cols="2">
+          <colspec colwidth="3*" align="left"/>
+          <colspec colwidth="25*" align="left"/>
+          <tbody>
+            <row>
+              <entry>Namespace</entry>
+              <entry>No namespace</entry>
+            </row>
+            <row>
+              <entry>Annotations</entry>
+              <entry>
+                <codeblock outputclass="language-xml">Background colour in RGB encoded format
 (red value) + (256 x green value) + (65536 x blue value).</codeblock>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Type</entry>
-                     <entry>integer</entry>
-                  </row>
-                  <row>
-                     <entry>Properties</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>content: </entry>
-                                       <entry>
-                                          <b>simple</b>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Used by</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>Complex Type </entry>
-                                       <entry>
-                                          <xref href="#TextStyleType"/>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="bgColourRgb" type="integer"&gt;
+              </entry>
+            </row>
+            <row>
+              <entry>Type</entry>
+              <entry>integer</entry>
+            </row>
+            <row>
+              <entry>Properties</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>content: </entry>
+                          <entry>
+                            <b>simple</b>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Used by</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>Complex Type </entry>
+                          <entry>
+                            <xref href="#TextStyleType"/>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Source</entry>
+              <entry>
+                <codeblock outputclass="language-xml">&lt;attribute name="bgColourRgb" type="integer"&gt;
   &lt;annotation&gt;
     &lt;documentation&gt;Background colour in RGB encoded format (red value) + (256 x green value) + (65536 x blue value).&lt;/documentation&gt;
   &lt;/annotation&gt;
 &lt;/attribute&gt;</codeblock>
-                     </entry>
-                  </row>
-               </tbody>
-            </tgroup>
-         </table>
-      </body>
-   </topic>
-   <topic id="TextStyleType_reverseVideo">
-      <title>Attribute pc:TextStyleType / @reverseVideo</title>
-      <body>
-         <table frame="all" rowsep="1" colsep="1">
-            <tgroup cols="2">
-               <colspec colwidth="3*" align="left"/>
-               <colspec colwidth="25*" align="left"/>
-               <tbody>
-                  <row>
-                     <entry>Namespace</entry>
-                     <entry>No namespace</entry>
-                  </row>
-                  <row>
-                     <entry>Annotations</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">Specifies whether the colour of the text appears
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </body>
+  </topic>
+  <topic id="TextStyleType_reverseVideo">
+    <title>Attribute pc:TextStyleType / @reverseVideo</title>
+    <body>
+      <table frame="all" rowsep="1" colsep="1">
+        <tgroup cols="2">
+          <colspec colwidth="3*" align="left"/>
+          <colspec colwidth="25*" align="left"/>
+          <tbody>
+            <row>
+              <entry>Namespace</entry>
+              <entry>No namespace</entry>
+            </row>
+            <row>
+              <entry>Annotations</entry>
+              <entry>
+                <codeblock outputclass="language-xml">Specifies whether the colour of the text appears
 reversed against a background colour.</codeblock>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Type</entry>
-                     <entry>boolean</entry>
-                  </row>
-                  <row>
-                     <entry>Properties</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>content: </entry>
-                                       <entry>
-                                          <b>simple</b>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Used by</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>Complex Type </entry>
-                                       <entry>
-                                          <xref href="#TextStyleType"/>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="reverseVideo" type="boolean"&gt;
+              </entry>
+            </row>
+            <row>
+              <entry>Type</entry>
+              <entry>boolean</entry>
+            </row>
+            <row>
+              <entry>Properties</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>content: </entry>
+                          <entry>
+                            <b>simple</b>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Used by</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>Complex Type </entry>
+                          <entry>
+                            <xref href="#TextStyleType"/>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Source</entry>
+              <entry>
+                <codeblock outputclass="language-xml">&lt;attribute name="reverseVideo" type="boolean"&gt;
   &lt;annotation&gt;
     &lt;documentation&gt;Specifies whether the colour of the text appears reversed against a background colour.&lt;/documentation&gt;
   &lt;/annotation&gt;
 &lt;/attribute&gt;</codeblock>
-                     </entry>
-                  </row>
-               </tbody>
-            </tgroup>
-         </table>
-      </body>
-   </topic>
-   <topic id="TextStyleType_bold">
-      <title>Attribute pc:TextStyleType / @bold</title>
-      <body>
-         <table frame="all" rowsep="1" colsep="1">
-            <tgroup cols="2">
-               <colspec colwidth="3*" align="left"/>
-               <colspec colwidth="25*" align="left"/>
-               <tbody>
-                  <row>
-                     <entry>Namespace</entry>
-                     <entry>No namespace</entry>
-                  </row>
-                  <row>
-                     <entry>Type</entry>
-                     <entry>boolean</entry>
-                  </row>
-                  <row>
-                     <entry>Properties</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>content: </entry>
-                                       <entry>
-                                          <b>simple</b>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Used by</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>Complex Type </entry>
-                                       <entry>
-                                          <xref href="#TextStyleType"/>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="bold" type="boolean"/&gt;</codeblock>
-                     </entry>
-                  </row>
-               </tbody>
-            </tgroup>
-         </table>
-      </body>
-   </topic>
-   <topic id="TextStyleType_italic">
-      <title>Attribute pc:TextStyleType / @italic</title>
-      <body>
-         <table frame="all" rowsep="1" colsep="1">
-            <tgroup cols="2">
-               <colspec colwidth="3*" align="left"/>
-               <colspec colwidth="25*" align="left"/>
-               <tbody>
-                  <row>
-                     <entry>Namespace</entry>
-                     <entry>No namespace</entry>
-                  </row>
-                  <row>
-                     <entry>Type</entry>
-                     <entry>boolean</entry>
-                  </row>
-                  <row>
-                     <entry>Properties</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>content: </entry>
-                                       <entry>
-                                          <b>simple</b>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Used by</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>Complex Type </entry>
-                                       <entry>
-                                          <xref href="#TextStyleType"/>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="italic" type="boolean"/&gt;</codeblock>
-                     </entry>
-                  </row>
-               </tbody>
-            </tgroup>
-         </table>
-      </body>
-   </topic>
-   <topic id="TextStyleType_underlined">
-      <title>Attribute pc:TextStyleType / @underlined</title>
-      <body>
-         <table frame="all" rowsep="1" colsep="1">
-            <tgroup cols="2">
-               <colspec colwidth="3*" align="left"/>
-               <colspec colwidth="25*" align="left"/>
-               <tbody>
-                  <row>
-                     <entry>Namespace</entry>
-                     <entry>No namespace</entry>
-                  </row>
-                  <row>
-                     <entry>Type</entry>
-                     <entry>boolean</entry>
-                  </row>
-                  <row>
-                     <entry>Properties</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>content: </entry>
-                                       <entry>
-                                          <b>simple</b>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Used by</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>Complex Type </entry>
-                                       <entry>
-                                          <xref href="#TextStyleType"/>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="underlined" type="boolean"/&gt;</codeblock>
-                     </entry>
-                  </row>
-               </tbody>
-            </tgroup>
-         </table>
-      </body>
-   </topic>
-   <topic id="TextStyleType_underlineStyle">
-      <title>Attribute pc:TextStyleType / @underlineStyle</title>
-      <body>
-         <table frame="all" rowsep="1" colsep="1">
-            <tgroup cols="2">
-               <colspec colwidth="3*" align="left"/>
-               <colspec colwidth="25*" align="left"/>
-               <tbody>
-                  <row>
-                     <entry>Namespace</entry>
-                     <entry>No namespace</entry>
-                  </row>
-                  <row>
-                     <entry>Annotations</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">Line style details if "underlined" is TRUE</codeblock>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Type</entry>
-                     <entry>
-                        <xref href="pagecontent_xsd_Simple_Type_pc_UnderlineStyleSimpleType.dita#UnderlineStyleSimpleType"/>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Properties</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>use: </entry>
-                                       <entry>
-                                          <b>optional</b>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Facets</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="3">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="3*" align="left"/>
-                                 <colspec colwidth="5*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>enumeration</entry>
-                                       <entry>singleLine</entry>
-                                       <entry/>
-                                    </row>
-                                    <row>
-                                       <entry>enumeration</entry>
-                                       <entry>doubleLine</entry>
-                                       <entry/>
-                                    </row>
-                                    <row>
-                                       <entry>enumeration</entry>
-                                       <entry>other</entry>
-                                       <entry/>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Used by</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>Complex Type </entry>
-                                       <entry>
-                                          <xref href="#TextStyleType"/>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="underlineStyle" type="pc:UnderlineStyleSimpleType" use="optional"&gt;
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </body>
+  </topic>
+  <topic id="TextStyleType_bold">
+    <title>Attribute pc:TextStyleType / @bold</title>
+    <body>
+      <table frame="all" rowsep="1" colsep="1">
+        <tgroup cols="2">
+          <colspec colwidth="3*" align="left"/>
+          <colspec colwidth="25*" align="left"/>
+          <tbody>
+            <row>
+              <entry>Namespace</entry>
+              <entry>No namespace</entry>
+            </row>
+            <row>
+              <entry>Type</entry>
+              <entry>boolean</entry>
+            </row>
+            <row>
+              <entry>Properties</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>content: </entry>
+                          <entry>
+                            <b>simple</b>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Used by</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>Complex Type </entry>
+                          <entry>
+                            <xref href="#TextStyleType"/>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Source</entry>
+              <entry>
+                <codeblock outputclass="language-xml">&lt;attribute name="bold" type="boolean"/&gt;</codeblock>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </body>
+  </topic>
+  <topic id="TextStyleType_italic">
+    <title>Attribute pc:TextStyleType / @italic</title>
+    <body>
+      <table frame="all" rowsep="1" colsep="1">
+        <tgroup cols="2">
+          <colspec colwidth="3*" align="left"/>
+          <colspec colwidth="25*" align="left"/>
+          <tbody>
+            <row>
+              <entry>Namespace</entry>
+              <entry>No namespace</entry>
+            </row>
+            <row>
+              <entry>Type</entry>
+              <entry>boolean</entry>
+            </row>
+            <row>
+              <entry>Properties</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>content: </entry>
+                          <entry>
+                            <b>simple</b>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Used by</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>Complex Type </entry>
+                          <entry>
+                            <xref href="#TextStyleType"/>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Source</entry>
+              <entry>
+                <codeblock outputclass="language-xml">&lt;attribute name="italic" type="boolean"/&gt;</codeblock>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </body>
+  </topic>
+  <topic id="TextStyleType_underlined">
+    <title>Attribute pc:TextStyleType / @underlined</title>
+    <body>
+      <table frame="all" rowsep="1" colsep="1">
+        <tgroup cols="2">
+          <colspec colwidth="3*" align="left"/>
+          <colspec colwidth="25*" align="left"/>
+          <tbody>
+            <row>
+              <entry>Namespace</entry>
+              <entry>No namespace</entry>
+            </row>
+            <row>
+              <entry>Type</entry>
+              <entry>boolean</entry>
+            </row>
+            <row>
+              <entry>Properties</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>content: </entry>
+                          <entry>
+                            <b>simple</b>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Used by</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>Complex Type </entry>
+                          <entry>
+                            <xref href="#TextStyleType"/>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Source</entry>
+              <entry>
+                <codeblock outputclass="language-xml">&lt;attribute name="underlined" type="boolean"/&gt;</codeblock>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </body>
+  </topic>
+  <topic id="TextStyleType_underlineStyle">
+    <title>Attribute pc:TextStyleType / @underlineStyle</title>
+    <body>
+      <table frame="all" rowsep="1" colsep="1">
+        <tgroup cols="2">
+          <colspec colwidth="3*" align="left"/>
+          <colspec colwidth="25*" align="left"/>
+          <tbody>
+            <row>
+              <entry>Namespace</entry>
+              <entry>No namespace</entry>
+            </row>
+            <row>
+              <entry>Annotations</entry>
+              <entry>
+                <codeblock outputclass="language-xml">Line style details if "underlined" is TRUE</codeblock>
+              </entry>
+            </row>
+            <row>
+              <entry>Type</entry>
+              <entry>
+                <xref href="pagecontent_xsd_Simple_Type_pc_UnderlineStyleSimpleType.dita#UnderlineStyleSimpleType"/>
+              </entry>
+            </row>
+            <row>
+              <entry>Properties</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>use: </entry>
+                          <entry>
+                            <b>optional</b>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Facets</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="3">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="3*" align="left"/>
+                      <colspec colwidth="5*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>enumeration</entry>
+                          <entry>singleLine</entry>
+                          <entry/>
+                        </row>
+                        <row>
+                          <entry>enumeration</entry>
+                          <entry>doubleLine</entry>
+                          <entry/>
+                        </row>
+                        <row>
+                          <entry>enumeration</entry>
+                          <entry>other</entry>
+                          <entry/>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Used by</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>Complex Type </entry>
+                          <entry>
+                            <xref href="#TextStyleType"/>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Source</entry>
+              <entry>
+                <codeblock outputclass="language-xml">&lt;attribute name="underlineStyle" type="pc:UnderlineStyleSimpleType" use="optional"&gt;
   &lt;annotation&gt;
     &lt;documentation&gt;Line style details if "underlined" is TRUE&lt;/documentation&gt;
   &lt;/annotation&gt;
 &lt;/attribute&gt;</codeblock>
-                     </entry>
-                  </row>
-               </tbody>
-            </tgroup>
-         </table>
-      </body>
-   </topic>
-   <topic id="TextStyleType_subscript">
-      <title>Attribute pc:TextStyleType / @subscript</title>
-      <body>
-         <table frame="all" rowsep="1" colsep="1">
-            <tgroup cols="2">
-               <colspec colwidth="3*" align="left"/>
-               <colspec colwidth="25*" align="left"/>
-               <tbody>
-                  <row>
-                     <entry>Namespace</entry>
-                     <entry>No namespace</entry>
-                  </row>
-                  <row>
-                     <entry>Type</entry>
-                     <entry>boolean</entry>
-                  </row>
-                  <row>
-                     <entry>Properties</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>content: </entry>
-                                       <entry>
-                                          <b>simple</b>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Used by</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>Complex Type </entry>
-                                       <entry>
-                                          <xref href="#TextStyleType"/>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="subscript" type="boolean"/&gt;</codeblock>
-                     </entry>
-                  </row>
-               </tbody>
-            </tgroup>
-         </table>
-      </body>
-   </topic>
-   <topic id="TextStyleType_superscript">
-      <title>Attribute pc:TextStyleType / @superscript</title>
-      <body>
-         <table frame="all" rowsep="1" colsep="1">
-            <tgroup cols="2">
-               <colspec colwidth="3*" align="left"/>
-               <colspec colwidth="25*" align="left"/>
-               <tbody>
-                  <row>
-                     <entry>Namespace</entry>
-                     <entry>No namespace</entry>
-                  </row>
-                  <row>
-                     <entry>Type</entry>
-                     <entry>boolean</entry>
-                  </row>
-                  <row>
-                     <entry>Properties</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>content: </entry>
-                                       <entry>
-                                          <b>simple</b>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Used by</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>Complex Type </entry>
-                                       <entry>
-                                          <xref href="#TextStyleType"/>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="superscript" type="boolean"/&gt;</codeblock>
-                     </entry>
-                  </row>
-               </tbody>
-            </tgroup>
-         </table>
-      </body>
-   </topic>
-   <topic id="TextStyleType_strikethrough">
-      <title>Attribute pc:TextStyleType / @strikethrough</title>
-      <body>
-         <table frame="all" rowsep="1" colsep="1">
-            <tgroup cols="2">
-               <colspec colwidth="3*" align="left"/>
-               <colspec colwidth="25*" align="left"/>
-               <tbody>
-                  <row>
-                     <entry>Namespace</entry>
-                     <entry>No namespace</entry>
-                  </row>
-                  <row>
-                     <entry>Type</entry>
-                     <entry>boolean</entry>
-                  </row>
-                  <row>
-                     <entry>Properties</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>content: </entry>
-                                       <entry>
-                                          <b>simple</b>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Used by</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>Complex Type </entry>
-                                       <entry>
-                                          <xref href="#TextStyleType"/>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="strikethrough" type="boolean"/&gt;</codeblock>
-                     </entry>
-                  </row>
-               </tbody>
-            </tgroup>
-         </table>
-      </body>
-   </topic>
-   <topic id="TextStyleType_smallCaps">
-      <title>Attribute pc:TextStyleType / @smallCaps</title>
-      <body>
-         <table frame="all" rowsep="1" colsep="1">
-            <tgroup cols="2">
-               <colspec colwidth="3*" align="left"/>
-               <colspec colwidth="25*" align="left"/>
-               <tbody>
-                  <row>
-                     <entry>Namespace</entry>
-                     <entry>No namespace</entry>
-                  </row>
-                  <row>
-                     <entry>Type</entry>
-                     <entry>boolean</entry>
-                  </row>
-                  <row>
-                     <entry>Properties</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>content: </entry>
-                                       <entry>
-                                          <b>simple</b>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Used by</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>Complex Type </entry>
-                                       <entry>
-                                          <xref href="#TextStyleType"/>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="smallCaps" type="boolean"/&gt;</codeblock>
-                     </entry>
-                  </row>
-               </tbody>
-            </tgroup>
-         </table>
-      </body>
-   </topic>
-   <topic id="TextStyleType_letterSpaced">
-      <title>Attribute pc:TextStyleType / @letterSpaced</title>
-      <body>
-         <table frame="all" rowsep="1" colsep="1">
-            <tgroup cols="2">
-               <colspec colwidth="3*" align="left"/>
-               <colspec colwidth="25*" align="left"/>
-               <tbody>
-                  <row>
-                     <entry>Namespace</entry>
-                     <entry>No namespace</entry>
-                  </row>
-                  <row>
-                     <entry>Type</entry>
-                     <entry>boolean</entry>
-                  </row>
-                  <row>
-                     <entry>Properties</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>content: </entry>
-                                       <entry>
-                                          <b>simple</b>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Used by</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>Complex Type </entry>
-                                       <entry>
-                                          <xref href="#TextStyleType"/>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="letterSpaced" type="boolean"/&gt;</codeblock>
-                     </entry>
-                  </row>
-               </tbody>
-            </tgroup>
-         </table>
-      </body>
-   </topic>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </body>
+  </topic>
+  <topic id="TextStyleType_subscript">
+    <title>Attribute pc:TextStyleType / @subscript</title>
+    <body>
+      <table frame="all" rowsep="1" colsep="1">
+        <tgroup cols="2">
+          <colspec colwidth="3*" align="left"/>
+          <colspec colwidth="25*" align="left"/>
+          <tbody>
+            <row>
+              <entry>Namespace</entry>
+              <entry>No namespace</entry>
+            </row>
+            <row>
+              <entry>Type</entry>
+              <entry>boolean</entry>
+            </row>
+            <row>
+              <entry>Properties</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>content: </entry>
+                          <entry>
+                            <b>simple</b>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Used by</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>Complex Type </entry>
+                          <entry>
+                            <xref href="#TextStyleType"/>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Source</entry>
+              <entry>
+                <codeblock outputclass="language-xml">&lt;attribute name="subscript" type="boolean"/&gt;</codeblock>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </body>
+  </topic>
+  <topic id="TextStyleType_superscript">
+    <title>Attribute pc:TextStyleType / @superscript</title>
+    <body>
+      <table frame="all" rowsep="1" colsep="1">
+        <tgroup cols="2">
+          <colspec colwidth="3*" align="left"/>
+          <colspec colwidth="25*" align="left"/>
+          <tbody>
+            <row>
+              <entry>Namespace</entry>
+              <entry>No namespace</entry>
+            </row>
+            <row>
+              <entry>Type</entry>
+              <entry>boolean</entry>
+            </row>
+            <row>
+              <entry>Properties</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>content: </entry>
+                          <entry>
+                            <b>simple</b>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Used by</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>Complex Type </entry>
+                          <entry>
+                            <xref href="#TextStyleType"/>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Source</entry>
+              <entry>
+                <codeblock outputclass="language-xml">&lt;attribute name="superscript" type="boolean"/&gt;</codeblock>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </body>
+  </topic>
+  <topic id="TextStyleType_strikethrough">
+    <title>Attribute pc:TextStyleType / @strikethrough</title>
+    <body>
+      <table frame="all" rowsep="1" colsep="1">
+        <tgroup cols="2">
+          <colspec colwidth="3*" align="left"/>
+          <colspec colwidth="25*" align="left"/>
+          <tbody>
+            <row>
+              <entry>Namespace</entry>
+              <entry>No namespace</entry>
+            </row>
+            <row>
+              <entry>Type</entry>
+              <entry>boolean</entry>
+            </row>
+            <row>
+              <entry>Properties</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>content: </entry>
+                          <entry>
+                            <b>simple</b>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Used by</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>Complex Type </entry>
+                          <entry>
+                            <xref href="#TextStyleType"/>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Source</entry>
+              <entry>
+                <codeblock outputclass="language-xml">&lt;attribute name="strikethrough" type="boolean"/&gt;</codeblock>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </body>
+  </topic>
+  <topic id="TextStyleType_smallCaps">
+    <title>Attribute pc:TextStyleType / @smallCaps</title>
+    <body>
+      <table frame="all" rowsep="1" colsep="1">
+        <tgroup cols="2">
+          <colspec colwidth="3*" align="left"/>
+          <colspec colwidth="25*" align="left"/>
+          <tbody>
+            <row>
+              <entry>Namespace</entry>
+              <entry>No namespace</entry>
+            </row>
+            <row>
+              <entry>Type</entry>
+              <entry>boolean</entry>
+            </row>
+            <row>
+              <entry>Properties</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>content: </entry>
+                          <entry>
+                            <b>simple</b>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Used by</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>Complex Type </entry>
+                          <entry>
+                            <xref href="#TextStyleType"/>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Source</entry>
+              <entry>
+                <codeblock outputclass="language-xml">&lt;attribute name="smallCaps" type="boolean"/&gt;</codeblock>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </body>
+  </topic>
+  <topic id="TextStyleType_letterSpaced">
+    <title>Attribute pc:TextStyleType / @letterSpaced</title>
+    <body>
+      <table frame="all" rowsep="1" colsep="1">
+        <tgroup cols="2">
+          <colspec colwidth="3*" align="left"/>
+          <colspec colwidth="25*" align="left"/>
+          <tbody>
+            <row>
+              <entry>Namespace</entry>
+              <entry>No namespace</entry>
+            </row>
+            <row>
+              <entry>Type</entry>
+              <entry>boolean</entry>
+            </row>
+            <row>
+              <entry>Properties</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>content: </entry>
+                          <entry>
+                            <b>simple</b>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Used by</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>Complex Type </entry>
+                          <entry>
+                            <xref href="#TextStyleType"/>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Source</entry>
+              <entry>
+                <codeblock outputclass="language-xml">&lt;attribute name="letterSpaced" type="boolean"/&gt;</codeblock>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </body>
+  </topic>
 </topic>

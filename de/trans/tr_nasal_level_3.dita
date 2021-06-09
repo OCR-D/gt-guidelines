@@ -1,33 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="tr_nasal_level_3">
-    <title>Level 3</title>
-    <body>
-<p>Kürzungsstriche, die als Balken oder geschlängelte Linie über Buchstaben stehen und als
+  <title>Level 3</title>
+  <body>
+    <p>Kürzungsstriche, die als Balken oder geschlängelte Linie über Buchstaben stehen und als
             Substituenten für ausgelassene Zeichen stehen, werden als ein Codepoint unter Nutzung
             von standardisierten Kodierungen (Unicode), Community normierten Kodierungen (MUFI) oder
             durch das Koordinierungsgremium festgelegte OCR-D-Code-Definition in Nachnutzung
             gemeinsam getroffener Vereinbarungen internationaler Großprojekte wie IMPACT, EEBO, ECCO
             abgebildet. Eine Kombination von mehreren Kodierungen zu einem Zeichen erfolgt
-            nicht.</p><table>
-<tgroup cols="2">
-<thead>
-<row>
-<entry>Vorlage</entry>
-<entry>Transkription</entry>
-</row>
-</thead>
-<tbody>
-<row>
-<entry><image href="images/frommen.jpg"/></entry>
-<entry><codeph>fro&amp;#xF519;en</codeph></entry>
-</row>
-                    <row>
-                        <entry><image href="images/und_macht.jpg" id="image_pxn_fcb_pbb"/></entry>
-                        <entry><codeph>U&amp;#x00F1; macht</codeph></entry>
-                    </row>
-</tbody>
-</tgroup>
-</table>
-</body>
+            nicht.</p>
+    <table>
+      <tgroup cols="2">
+        <thead>
+          <row>
+            <entry>Vorlage</entry>
+            <entry>Transkription</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>
+              <image href="images/frommen.jpg"/>
+            </entry>
+            <entry>
+              <codeph>fro&amp;#xF519;en</codeph>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <image href="images/und_macht.jpg" id="image_pxn_fcb_pbb"/>
+            </entry>
+            <entry>
+              <codeph>U&amp;#x00F1; macht</codeph>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </body>
 </topic>

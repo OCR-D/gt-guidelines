@@ -1,119 +1,116 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic
-  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="AlternativeImageType">
-   <title>Complex Type pc:AlternativeImageType</title>
-   <body>
-      <table frame="all" rowsep="1" colsep="1">
-         <tgroup cols="2">
-            <colspec colwidth="3*" align="left"/>
-            <colspec colwidth="25*" align="left"/>
-            <tbody>
-               <row>
-                  <entry>Namespace</entry>
-                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15</entry>
-               </row>
-               <row>
-                  <entry>Diagram</entry>
-                  <entry>
-                     <p>
-                        <imagemap id="pagecontent_xsd_Complex_Type_pc_AlternativeImageType">
-                           <image href="img/pagecontent_xsd_Complex_Type_pc_AlternativeImageType.jpeg"/>
-                           <area>
-                              <shape>rect</shape>
-                              <coords>404,75,585,161</coords>
-                              <xref href="#AlternativeImageType_filename"/>
-                           </area>
-                           <area>
-                              <shape>rect</shape>
-                              <coords>404,181,604,267</coords>
-                              <xref href="#AlternativeImageType_comments"/>
-                           </area>
-                           <area>
-                              <shape>rect</shape>
-                              <coords>404,287,722,373</coords>
-                              <xref href="#AlternativeImageType_conf"/>
-                           </area>
-                        </imagemap>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>Used by</entry>
-                  <entry>
-                     <p>
-                        <table frame="all" rowsep="1" colsep="1">
-                           <tgroup cols="2">
-                              <colspec colwidth="2*" align="left"/>
-                              <colspec colwidth="8*" align="left"/>
-                              <tbody>
-                                 <row>
-                                    <entry>Elements </entry>
-                                    <entry>
-                                       <xref href="pagecontent_xsd_Complex_Type_pc_GlyphType.dita#GlyphType_AlternativeImage"/>, <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_AlternativeImage"/>, <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_AlternativeImage"/>, <xref href="pagecontent_xsd_Complex_Type_pc_TextLineType.dita#TextLineType_AlternativeImage"/>, <xref href="pagecontent_xsd_Complex_Type_pc_WordType.dita#WordType_AlternativeImage"/>
-                                    </entry>
-                                 </row>
-                              </tbody>
-                           </tgroup>
-                        </table>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>Attributes</entry>
-                  <entry>
-                     <p>
-                        <table frame="all" rowsep="1" colsep="1">
-                           <tgroup cols="3">
-                              <colspec colnum="1" colname="col1" align="left" colwidth="3*"/>
-                              <colspec colnum="2" colname="col2" align="left" colwidth="3*"/>
-                              <colspec colnum="3" colname="col3" align="left" colwidth="1*"/>
-                              <thead>
-                                 <row>
-                                    <entry>QName</entry>
-                                    <entry>Type</entry>
-                                    <entry>Use</entry>
-                                 </row>
-                              </thead>
-                              <tbody>
-                                 <row>
-                                    <entry>
-                                       <xref href="#AlternativeImageType_comments"/>
-                                    </entry>
-                                    <entry>string</entry>
-                                    <entry>optional</entry>
-                                 </row>
-                                 <row>
-                                    <entry>
-                                       <xref href="#AlternativeImageType_conf"/>
-                                    </entry>
-                                    <entry>
-                                       <xref href="pagecontent_xsd_Simple_Type_pc_ConfSimpleType.dita#ConfSimpleType"/>
-                                    </entry>
-                                    <entry>optional</entry>
-                                 </row>
-                                 <row>
-                                    <entry namest="col1" nameend="col3">
-                                       <codeblock outputclass="language-xml">Confidence value (between 0 and 1)</codeblock>
-                                    </entry>
-                                 </row>
-                                 <row>
-                                    <entry>
-                                       <xref href="#AlternativeImageType_filename"/>
-                                    </entry>
-                                    <entry>string</entry>
-                                    <entry>required</entry>
-                                 </row>
-                              </tbody>
-                           </tgroup>
-                        </table>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>Source</entry>
-                  <entry>
-                     <codeblock outputclass="language-xml">&lt;complexType name="AlternativeImageType"&gt;
+  <title>Complex Type pc:AlternativeImageType</title>
+  <body>
+    <table frame="all" rowsep="1" colsep="1">
+      <tgroup cols="2">
+        <colspec colwidth="3*" align="left"/>
+        <colspec colwidth="25*" align="left"/>
+        <tbody>
+          <row>
+            <entry>Namespace</entry>
+            <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15</entry>
+          </row>
+          <row>
+            <entry>Diagram</entry>
+            <entry>
+              <p>
+                <imagemap id="pagecontent_xsd_Complex_Type_pc_AlternativeImageType">
+                  <image href="img/pagecontent_xsd_Complex_Type_pc_AlternativeImageType.jpeg"/>
+                  <area>
+                    <shape>rect</shape>
+                    <coords>404,75,585,161</coords>
+                    <xref href="#AlternativeImageType_filename"/>
+                  </area>
+                  <area>
+                    <shape>rect</shape>
+                    <coords>404,181,604,267</coords>
+                    <xref href="#AlternativeImageType_comments"/>
+                  </area>
+                  <area>
+                    <shape>rect</shape>
+                    <coords>404,287,722,373</coords>
+                    <xref href="#AlternativeImageType_conf"/>
+                  </area>
+                </imagemap>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>Used by</entry>
+            <entry>
+              <p>
+                <table frame="all" rowsep="1" colsep="1">
+                  <tgroup cols="2">
+                    <colspec colwidth="2*" align="left"/>
+                    <colspec colwidth="8*" align="left"/>
+                    <tbody>
+                      <row>
+                        <entry>Elements </entry>
+                        <entry><xref href="pagecontent_xsd_Complex_Type_pc_GlyphType.dita#GlyphType_AlternativeImage"/>, <xref href="pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType_AlternativeImage"/>, <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_AlternativeImage"/>, <xref href="pagecontent_xsd_Complex_Type_pc_TextLineType.dita#TextLineType_AlternativeImage"/>, <xref href="pagecontent_xsd_Complex_Type_pc_WordType.dita#WordType_AlternativeImage"/></entry>
+                      </row>
+                    </tbody>
+                  </tgroup>
+                </table>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>Attributes</entry>
+            <entry>
+              <p>
+                <table frame="all" rowsep="1" colsep="1">
+                  <tgroup cols="3">
+                    <colspec colnum="1" colname="col1" align="left" colwidth="3*"/>
+                    <colspec colnum="2" colname="col2" align="left" colwidth="3*"/>
+                    <colspec colnum="3" colname="col3" align="left" colwidth="1*"/>
+                    <thead>
+                      <row>
+                        <entry>QName</entry>
+                        <entry>Type</entry>
+                        <entry>Use</entry>
+                      </row>
+                    </thead>
+                    <tbody>
+                      <row>
+                        <entry>
+                          <xref href="#AlternativeImageType_comments"/>
+                        </entry>
+                        <entry>string</entry>
+                        <entry>optional</entry>
+                      </row>
+                      <row>
+                        <entry>
+                          <xref href="#AlternativeImageType_conf"/>
+                        </entry>
+                        <entry>
+                          <xref href="pagecontent_xsd_Simple_Type_pc_ConfSimpleType.dita#ConfSimpleType"/>
+                        </entry>
+                        <entry>optional</entry>
+                      </row>
+                      <row>
+                        <entry namest="col1" nameend="col3">
+                          <codeblock outputclass="language-xml">Confidence value (between 0 and 1)</codeblock>
+                        </entry>
+                      </row>
+                      <row>
+                        <entry>
+                          <xref href="#AlternativeImageType_filename"/>
+                        </entry>
+                        <entry>string</entry>
+                        <entry>required</entry>
+                      </row>
+                    </tbody>
+                  </tgroup>
+                </table>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>Source</entry>
+            <entry>
+              <codeblock outputclass="language-xml">&lt;complexType name="AlternativeImageType"&gt;
   &lt;attribute name="filename" type="string" use="required"/&gt;
   &lt;attribute name="comments" type="string"/&gt;
   &lt;attribute name="conf" type="pc:ConfSimpleType"&gt;
@@ -122,255 +119,255 @@
     &lt;/annotation&gt;
   &lt;/attribute&gt;
 &lt;/complexType&gt;</codeblock>
-                  </entry>
-               </row>
-            </tbody>
-         </tgroup>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </body>
+  <topic id="AlternativeImageType_filename">
+    <title>Attribute pc:AlternativeImageType / @filename</title>
+    <body>
+      <table frame="all" rowsep="1" colsep="1">
+        <tgroup cols="2">
+          <colspec colwidth="3*" align="left"/>
+          <colspec colwidth="25*" align="left"/>
+          <tbody>
+            <row>
+              <entry>Namespace</entry>
+              <entry>No namespace</entry>
+            </row>
+            <row>
+              <entry>Type</entry>
+              <entry>string</entry>
+            </row>
+            <row>
+              <entry>Properties</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>use: </entry>
+                          <entry>
+                            <b>required</b>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Used by</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>Complex Type </entry>
+                          <entry>
+                            <xref href="#AlternativeImageType"/>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Source</entry>
+              <entry>
+                <codeblock outputclass="language-xml">&lt;attribute name="filename" type="string" use="required"/&gt;</codeblock>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
       </table>
-   </body>
-   <topic id="AlternativeImageType_filename">
-      <title>Attribute pc:AlternativeImageType / @filename</title>
-      <body>
-         <table frame="all" rowsep="1" colsep="1">
-            <tgroup cols="2">
-               <colspec colwidth="3*" align="left"/>
-               <colspec colwidth="25*" align="left"/>
-               <tbody>
-                  <row>
-                     <entry>Namespace</entry>
-                     <entry>No namespace</entry>
-                  </row>
-                  <row>
-                     <entry>Type</entry>
-                     <entry>string</entry>
-                  </row>
-                  <row>
-                     <entry>Properties</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>use: </entry>
-                                       <entry>
-                                          <b>required</b>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Used by</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>Complex Type </entry>
-                                       <entry>
-                                          <xref href="#AlternativeImageType"/>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="filename" type="string" use="required"/&gt;</codeblock>
-                     </entry>
-                  </row>
-               </tbody>
-            </tgroup>
-         </table>
-      </body>
-   </topic>
-   <topic id="AlternativeImageType_comments">
-      <title>Attribute pc:AlternativeImageType / @comments</title>
-      <body>
-         <table frame="all" rowsep="1" colsep="1">
-            <tgroup cols="2">
-               <colspec colwidth="3*" align="left"/>
-               <colspec colwidth="25*" align="left"/>
-               <tbody>
-                  <row>
-                     <entry>Namespace</entry>
-                     <entry>No namespace</entry>
-                  </row>
-                  <row>
-                     <entry>Type</entry>
-                     <entry>string</entry>
-                  </row>
-                  <row>
-                     <entry>Properties</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>content: </entry>
-                                       <entry>
-                                          <b>simple</b>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Used by</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>Complex Type </entry>
-                                       <entry>
-                                          <xref href="#AlternativeImageType"/>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="comments" type="string"/&gt;</codeblock>
-                     </entry>
-                  </row>
-               </tbody>
-            </tgroup>
-         </table>
-      </body>
-   </topic>
-   <topic id="AlternativeImageType_conf">
-      <title>Attribute pc:AlternativeImageType / @conf</title>
-      <body>
-         <table frame="all" rowsep="1" colsep="1">
-            <tgroup cols="2">
-               <colspec colwidth="3*" align="left"/>
-               <colspec colwidth="25*" align="left"/>
-               <tbody>
-                  <row>
-                     <entry>Namespace</entry>
-                     <entry>No namespace</entry>
-                  </row>
-                  <row>
-                     <entry>Annotations</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">Confidence value (between 0 and 1)</codeblock>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Type</entry>
-                     <entry>
-                        <xref href="pagecontent_xsd_Simple_Type_pc_ConfSimpleType.dita#ConfSimpleType"/>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Properties</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>content: </entry>
-                                       <entry>
-                                          <b>simple</b>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Facets</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="3">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="3*" align="left"/>
-                                 <colspec colwidth="5*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>maxInclusive</entry>
-                                       <entry>1</entry>
-                                       <entry/>
-                                    </row>
-                                    <row>
-                                       <entry>minInclusive</entry>
-                                       <entry>0</entry>
-                                       <entry/>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Used by</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>Complex Type </entry>
-                                       <entry>
-                                          <xref href="#AlternativeImageType"/>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="conf" type="pc:ConfSimpleType"&gt;
+    </body>
+  </topic>
+  <topic id="AlternativeImageType_comments">
+    <title>Attribute pc:AlternativeImageType / @comments</title>
+    <body>
+      <table frame="all" rowsep="1" colsep="1">
+        <tgroup cols="2">
+          <colspec colwidth="3*" align="left"/>
+          <colspec colwidth="25*" align="left"/>
+          <tbody>
+            <row>
+              <entry>Namespace</entry>
+              <entry>No namespace</entry>
+            </row>
+            <row>
+              <entry>Type</entry>
+              <entry>string</entry>
+            </row>
+            <row>
+              <entry>Properties</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>content: </entry>
+                          <entry>
+                            <b>simple</b>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Used by</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>Complex Type </entry>
+                          <entry>
+                            <xref href="#AlternativeImageType"/>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Source</entry>
+              <entry>
+                <codeblock outputclass="language-xml">&lt;attribute name="comments" type="string"/&gt;</codeblock>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </body>
+  </topic>
+  <topic id="AlternativeImageType_conf">
+    <title>Attribute pc:AlternativeImageType / @conf</title>
+    <body>
+      <table frame="all" rowsep="1" colsep="1">
+        <tgroup cols="2">
+          <colspec colwidth="3*" align="left"/>
+          <colspec colwidth="25*" align="left"/>
+          <tbody>
+            <row>
+              <entry>Namespace</entry>
+              <entry>No namespace</entry>
+            </row>
+            <row>
+              <entry>Annotations</entry>
+              <entry>
+                <codeblock outputclass="language-xml">Confidence value (between 0 and 1)</codeblock>
+              </entry>
+            </row>
+            <row>
+              <entry>Type</entry>
+              <entry>
+                <xref href="pagecontent_xsd_Simple_Type_pc_ConfSimpleType.dita#ConfSimpleType"/>
+              </entry>
+            </row>
+            <row>
+              <entry>Properties</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>content: </entry>
+                          <entry>
+                            <b>simple</b>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Facets</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="3">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="3*" align="left"/>
+                      <colspec colwidth="5*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>maxInclusive</entry>
+                          <entry>1</entry>
+                          <entry/>
+                        </row>
+                        <row>
+                          <entry>minInclusive</entry>
+                          <entry>0</entry>
+                          <entry/>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Used by</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>Complex Type </entry>
+                          <entry>
+                            <xref href="#AlternativeImageType"/>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Source</entry>
+              <entry>
+                <codeblock outputclass="language-xml">&lt;attribute name="conf" type="pc:ConfSimpleType"&gt;
   &lt;annotation&gt;
     &lt;documentation&gt;Confidence value (between 0 and 1)&lt;/documentation&gt;
   &lt;/annotation&gt;
 &lt;/attribute&gt;</codeblock>
-                     </entry>
-                  </row>
-               </tbody>
-            </tgroup>
-         </table>
-      </body>
-   </topic>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </body>
+  </topic>
 </topic>

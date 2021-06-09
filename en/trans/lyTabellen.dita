@@ -1,28 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="lyTabellen">
-    <title>Tables (TableRegion)</title>
-    <body>
-        <p>Tables are graphically structured information arranged in columns and rows. This
+  <title>Tables (TableRegion)</title>
+  <body>
+    <p>Tables are graphically structured information arranged in columns and rows. This
             structure can be indicated by lines which are often left out though. In these cases, the
             separation of the contents is made clear by special tabs and spaces. There are many
             further variations of tables which cannot be described here.</p>
-        <p>It is essential that all these regions containing figures or text are labelled as
+    <p>It is essential that all these regions containing figures or text are labelled as
             TableRegions. In cases of simply structured tables (as described above), the number of
             the columns and rows must be entered for the table. The cell contents themselves are to
             be recorded row by row as TextRegion/paragraph separated by tabs.</p>
-        <p>Contents of complex tables that exceed the simple scheme are not recorded. In these
+    <p>Contents of complex tables that exceed the simple scheme are not recorded. In these
             cases, only the TableRegion is indicated. </p>
-<p/>
-<p>Attribute pc:TableRegionType /@columns</p>
-<p>Attribute pc:TableRegionType /@rows</p>
-<p><image href="images/lyTabellen1.png" id="image_jb5_lnw_t1b" scale="50"/></p>
-<p><image href="images/lyTabellen2.png" id="image_yqq_mnw_t1b" scale="50"/></p>
-<p><image href="images/lyTabellen3.png" id="image_o14_nnw_t1b" scale="50"/></p>
-    </body>
-<related-links>
-<link
-href="../pagexml/pagecontent_xsd_Complex_Type_pc_TableRegionType.dita#TableRegionType" format="dita"
-/>
-</related-links>
+    <p/>
+    <p>Attribute pc:TableRegionType /@columns</p>
+    <p>Attribute pc:TableRegionType /@rows</p>
+    <p>
+      <image href="images/lyTabellen1.png" id="image_jb5_lnw_t1b" scale="50"/>
+    </p>
+    <p>
+      <image href="images/lyTabellen2.png" id="image_yqq_mnw_t1b" scale="50"/>
+    </p>
+    <p>
+      <image href="images/lyTabellen3.png" id="image_o14_nnw_t1b" scale="50"/>
+    </p>
+  </body>
+  <related-links>
+    <link href="../pagexml/pagecontent_xsd_Complex_Type_pc_TableRegionType.dita#TableRegionType" format="dita"/>
+  </related-links>
 </topic>

@@ -2,34 +2,25 @@
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="trDokuKonv">
   <title>Conventions for these Guidelines</title>
-<shortdesc>The conventions define and explain individual terms, formatting and specific uses applied
+  <shortdesc>The conventions define and explain individual terms, formatting and specific uses applied
     in the text of the directives.</shortdesc>
   <body>
-<dl>
-<dlentry>
-<dt>Fonts</dt>
-<dd>The <tt>monospaced font</tt> is used with:<ul>
-            <li>the indication of transcription examples,</li>
-            <li>the specification of tags or code examples.</li>
-          </ul></dd>
-</dlentry><dlentry>
-<dt>Unicode</dt>
-<dd>The notation <codeph>U+NNNN</codeph> refers to a corresponding Unicode character. Furthermore,
+    <dl>
+      <dlentry>
+        <dt>Fonts</dt>
+        <dd>The <tt>monospaced font</tt> is used with:<ul><li>the indication of transcription examples,</li><li>the specification of tags or code examples.</li></ul></dd>
+      </dlentry>
+      <dlentry>
+        <dt>Unicode</dt>
+        <dd>The notation <codeph>U+NNNN</codeph> refers to a corresponding Unicode character. Furthermore,
           in the transcription examples for higher Unicode characters, the XML-derived notation form
             <codeph>&amp;#xNNNN;</codeph> is used.</dd>
-</dlentry>
-<dlentry>
-<dt>Source</dt>
-<dd>Unless otherwise stated, the <b>original</b> is to be understood as the digital facsimiles of a
+      </dlentry>
+      <dlentry>
+        <dt>Source</dt>
+        <dd>Unless otherwise stated, the <b>original</b> is to be understood as the digital facsimiles of a
           book.</dd>
-</dlentry>
-
-</dl>
-  
-
-
-
-
-
-</body>
+      </dlentry>
+    </dl>
+  </body>
 </topic>

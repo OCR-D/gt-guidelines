@@ -1,29 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="tr_nasal_level_1">
-    <title>Level 1</title>
-    <body>
-        <p>Kürzungsstriche, die als Balken oder geschlängelte Linie über Buchstaben stehen und als
+  <title>Level 1</title>
+  <body>
+    <p>Kürzungsstriche, die als Balken oder geschlängelte Linie über Buchstaben stehen und als
 Substituenten für ausgelassene Zeichen stehen, sind bei Transkription aufzulösen. </p>
     <table>
-    <tgroup cols="2">
-    <thead>
-    <row>
-    <entry>Vorlage</entry>
-    <entry>Transkription</entry>
-    </row>
-    </thead>
-    <tbody>
-    <row>
-    <entry><image href="images/frommen.jpg"/></entry>
-    <entry><codeph>frommen</codeph></entry>
-    </row>
-    <row>
-    <entry><image href="images/und_macht.jpg"/></entry>
-    <entry><codeph>Und macht</codeph></entry>
-    </row>
-    </tbody>
-    </tgroup>
+      <tgroup cols="2">
+        <thead>
+          <row>
+            <entry>Vorlage</entry>
+            <entry>Transkription</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>
+              <image href="images/frommen.jpg"/>
+            </entry>
+            <entry>
+              <codeph>frommen</codeph>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <image href="images/und_macht.jpg"/>
+            </entry>
+            <entry>
+              <codeph>Und macht</codeph>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
     </table>
-    </body>
+  </body>
 </topic>

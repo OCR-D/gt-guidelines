@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="index">
-    <title>Die Ground-Truth-Guidelines</title>
-    <body>
-        <p>Der Einsatz von Referenzdaten für Training und Auswertung statistischer Annotations- und
+  <title>Die Ground-Truth-Guidelines</title>
+  <body>
+    <p>Der Einsatz von Referenzdaten für Training und Auswertung statistischer Annotations- und
             Analyseverfahren ist ein Kernmerkmal empirischer Forschung. Die wichtigste Grundlage für
             die erfolgreiche Verwendung solcher Verfahren liegt im Einsatz geeigneter, den
             Algorithmen zugrunde liegender Modelle. Für deren Erstellung ist neben einem passenden
             Lernverfahren das Vorhandensein von Ground Truth die wesentliche Voraussetzung.</p>
-        <p>Mit den OCR-D-Ground-Truth-Guidelines wurden Richtlinien geschaffen, die eine
-            Format-Dokumentation des vorhandenen <xref href="https://ocr-d.github.io/en/data"
-                format="html" scope="external">OCR-D-Ground-Truth</xref> darstellt und als
+    <p>Mit den OCR-D-Ground-Truth-Guidelines wurden Richtlinien geschaffen, die eine
+            Format-Dokumentation des vorhandenen <xref href="https://ocr-d.github.io/en/data" format="html" scope="external">OCR-D-Ground-Truth</xref> darstellt und als
             Handlungsanweisung für die Ground-Truth-Erstellung genutzt werden kann. Mit dieser
             Normierung kann der Ground-Truth technisch validiert werden. Darüber hinaus können
             vorhandene Transkriptionen auf Grundlage dieses Regelwerkes überprüft und gegebenfalls
             in Ground-Truth-Daten umgewandelt werden.</p>
-        <p> Das Datenformat des OCR-D-Ground-Truth ist PAGE-XML. Dieses Format wurde initial durch
+    <p> Das Datenformat des OCR-D-Ground-Truth ist PAGE-XML. Dieses Format wurde initial durch
             das PRImA Research Lab an der Universität Salford Greater Manchester entwickelt und
             innerhalb des EU-Projektes IMPACT grundlegend erweitert. Zurzeit wird es vom PRImA
             Research Lab betreut. Um eine Weiterentwicklung und Pflege dieses Formates zu
             gewährleisten, wurde auf Initiative von OCR-D ein PAGE-XML-Board geschaffen.</p>
-        
-
-    </body>
-    <related-links><linklist outputclass="linklist_index"><title>Die Guidelines gliedern sich in folgende Bereiche:</title>
-        <link href="transkription.dita"/>
-        <link href="layout.dita"/>
-        <link href="structur_gt.dita"/>
-        <link href="trPage.dita"/>
-        <link href="page_xml_erweiterungen.dita"/></linklist>
-    </related-links>
+  </body>
+  <related-links>
+    <linklist outputclass="linklist_index">
+      <title>Die Guidelines gliedern sich in folgende Bereiche:</title>
+      <link href="transkription.dita"/>
+      <link href="layout.dita"/>
+      <link href="structur_gt.dita"/>
+      <link href="trPage.dita"/>
+      <link href="page_xml_erweiterungen.dita"/>
+    </linklist>
+  </related-links>
 </topic>

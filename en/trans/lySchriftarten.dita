@@ -1,140 +1,127 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="lySchriftarten">
-    <title>Typeface (TextStyle)</title>
-    <body>
-        <p>The information on the font (type) must be documented in all three element areas
-                (<codeph>&lt;Word></codeph>, <codeph>&lt;TextLine></codeph> and
-                <codeph>&lt;TextRegion></codeph>) with the PAGE XML element
-            <tt>&lt;TextStyle></tt>.</p>
-        <p/>
-        <example>
-            <codeblock>&lt;TextRegion type="heading" id="r_7_1"">
-            &lt;Coords points="542,306 569,306 569,342 542,342"/>
-            &lt;TextLine id="tl_4" primaryLanguage="German">
-                &lt;Coords points="543,307 568,307 568,341 543,341"/>
-                &lt;Baseline points="543,350 568,350"/>
-                &lt;Word id="w_w1aab1c13b2b1b1ab1" language="German">
-                    &lt;Coords points="543,307 568,307 568,341 543,341"/>
-                    &lt;TextEquiv>
-                        &lt;Unicode>I.&lt;/Unicode>
-                    &lt;/TextEquiv>
-                    &lt;TextStyle fontFamily="fraktur" fontSize="53.0" bold="true"/>
-                &lt;/Word>
-                &lt;TextEquiv>
-                    &lt;Unicode>I.&lt;/Unicode>
-                &lt;/TextEquiv>
-                &lt;TextStyle fontFamily="fraktur" fontSize="53.0" bold="true"/>
-            &lt;/TextLine>
- &lt;/TextRegion></codeblock>
-            Siehe: <xref
-                href="http://www.ocr-d.de/sites/all/gt_guidelines/pagecontent_xsd_Complex_Type_pc_TextStyleType.html?hl=textstyle"
-                format="html" scope="external">Complex Type pc:TextStyleType</xref>
+  <title>Typeface (TextStyle)</title>
+  <body>
+    <p>The information on the font (type) must be documented in all three element areas
+                (<codeph>&lt;Word&gt;</codeph>, <codeph>&lt;TextLine&gt;</codeph> and
+                <codeph>&lt;TextRegion&gt;</codeph>) with the PAGE XML element
+            <tt>&lt;TextStyle&gt;</tt>.</p>
+    <p/>
+    <example><codeblock>&lt;TextRegion type="heading" id="r_7_1""&gt;
+            &lt;Coords points="542,306 569,306 569,342 542,342"/&gt;
+            &lt;TextLine id="tl_4" primaryLanguage="German"&gt;
+                &lt;Coords points="543,307 568,307 568,341 543,341"/&gt;
+                &lt;Baseline points="543,350 568,350"/&gt;
+                &lt;Word id="w_w1aab1c13b2b1b1ab1" language="German"&gt;
+                    &lt;Coords points="543,307 568,307 568,341 543,341"/&gt;
+                    &lt;TextEquiv&gt;
+                        &lt;Unicode&gt;I.&lt;/Unicode&gt;
+                    &lt;/TextEquiv&gt;
+                    &lt;TextStyle fontFamily="fraktur" fontSize="53.0" bold="true"/&gt;
+                &lt;/Word&gt;
+                &lt;TextEquiv&gt;
+                    &lt;Unicode&gt;I.&lt;/Unicode&gt;
+                &lt;/TextEquiv&gt;
+                &lt;TextStyle fontFamily="fraktur" fontSize="53.0" bold="true"/&gt;
+            &lt;/TextLine&gt;
+ &lt;/TextRegion&gt;</codeblock>
+            Siehe: <xref href="http://www.ocr-d.de/sites/all/gt_guidelines/pagecontent_xsd_Complex_Type_pc_TextStyleType.html?hl=textstyle" format="html" scope="external">Complex Type pc:TextStyleType</xref>
         </example>
-    </body>
-    <topic id="lySchriftarten_cluster">
-        <title>Font Family Cluster</title>
-        <body>
-            <p>With originals from the 16th to 19th century, the typeface cannot always be
+  </body>
+  <topic id="lySchriftarten_cluster">
+    <title>Font Family Cluster</title>
+    <body>
+      <p>With originals from the 16th to 19th century, the typeface cannot always be
                 identified unambiguously. However, the font can be assigned to a particular font
                 family from a cluster of related font groups.</p>
-            <p importance="recommended">We recommend to use the following font families for the
-                documentation of the @<tt>fontFamily</tt>: <ul id="ul_fts_ssx_1gb">
-                    <li><codeph>textura</codeph></li>
-                    <li><codeph>rotura</codeph></li>
-                    <li><codeph>bastarda</codeph></li>
-                    <li><codeph>antiqua</codeph></li>
-                    <li><codeph>greek</codeph></li>
-                    <li><codeph>hebrew</codeph></li>
-                    <li><codeph>italic</codeph></li>
-                    <li><codeph>fraktur</codeph></li>
-                </ul></p>
-            
-            <example>
-                <codeblock>&lt;Word>
-   &lt;TextStyle fontFamily="fraktur"/>
-&lt;/Word></codeblock>
-            </example> <note importance="high"><p>This specification does not restrict the naming of font families. </p></note>
-        </body>
-    </topic>
-   
-    <topic id="lySchriftarten_confidence">
-        <title>Typefaces and Probability of Recognition (Confidence)</title>
-        <body>
-            <p>By indicating the probability of recognition (confidence) after naming the typeface
+      <p importance="recommended">We recommend to use the following font families for the
+                documentation of the @<tt>fontFamily</tt>: <ul id="ul_fts_ssx_1gb"><li><codeph>textura</codeph></li><li><codeph>rotura</codeph></li><li><codeph>bastarda</codeph></li><li><codeph>antiqua</codeph></li><li><codeph>greek</codeph></li><li><codeph>hebrew</codeph></li><li><codeph>italic</codeph></li><li><codeph>fraktur</codeph></li></ul></p>
+      <example>
+        <codeblock>&lt;Word&gt;
+   &lt;TextStyle fontFamily="fraktur"/&gt;
+&lt;/Word&gt;</codeblock>
+      </example>
+      <note importance="high">
+        <p>This specification does not restrict the naming of font families. </p>
+      </note>
+    </body>
+  </topic>
+  <topic id="lySchriftarten_confidence">
+    <title>Typefaces and Probability of Recognition (Confidence)</title>
+    <body>
+      <p>By indicating the probability of recognition (confidence) after naming the typeface
                 or font family, several probable typefaces and font families can be named and rated
                 according to their probability.</p>
-            <p>Typeface, font family and confidence are concatenated with a colon (:) followed by a
+      <p>Typeface, font family and confidence are concatenated with a colon (:) followed by a
                 floating point number between <b>0</b> (information is unlikely) and <b>1</b>
                 (information is correct or likely).</p>
-            <p>If the confidence of a typeface or font family is not indicated, the value 1 is to be
+      <p>If the confidence of a typeface or font family is not indicated, the value 1 is to be
                 assumed.</p>
-            <note importance="high">
-                <p>Naming multiple typefaces and font families within the <b>PAGE XML-element
-                            </b><tt><b>&lt;Word></b>
-                    </tt>does not mean that the text was set with multiple fonts or families. It
+      <note importance="high">
+        <p>Naming multiple typefaces and font families within the <b>PAGE XML-element
+                            </b><tt><b>&lt;Word&gt;</b></tt>does not mean that the text was set with multiple fonts or families. It
                     means instead that the text can be assigned to typefaces or font families. The
                     confidence value shows the most likely match.</p>
-                <p>Naming multiple typefaces and font families within the PAGE XML element <b>PAGE
-                        XML-element <tt>&lt;TextLine></tt> and </b><tt><b>&lt;TextRegion></b>
-                    </tt>means that the text was set in different fonts or families.</p>
-            </note>
-            <example>
-                <codeblock>        &lt;TextRegion type="paragraph" id="TextRegion_1476719787056_252">
-            &lt;Coords points="980,2090 1529,2090 1741,2098 1741,2149 1529,2156 980,2156"/>
-            &lt;TextLine id="tl_83" primaryLanguage="German">
-                &lt;Coords points="981,2091 1528,2091 1528,2155 981,2155"/>
-                &lt;Baseline points="981,2154 1528,2154"/>
-                &lt;Word id="w_w1aab1c99b2b1b1ab1" language="German">
-                    &lt;Coords points="981,2096 1109,2096 1109,2151 981,2151"/>
-                    &lt;TextEquiv>
-                        &lt;Unicode>Troſt&lt;/Unicode>
-                    &lt;/TextEquiv>
-                    &lt;TextStyle fontFamily="Rotunda:0.8,  Bastarda:0.8 " fontSize="53.0"/>
-                &lt;/Word>
-                &lt;Word id="w_w1aab1c99b2b1b1ac13" language="German">
-                    &lt;Coords points="1121,2097 1189,2097 1189,2139 1121,2139"/>
-                    &lt;TextEquiv>
-                        &lt;Unicode>der&lt;/Unicode>
-                    &lt;/TextEquiv>
-                    &lt;TextStyle fontFamily="Rotunda:0.8,  Bastarda:0.8 " fontSize="53.0"/>
-                &lt;/Word>
-                &lt;Word id="w_w1aab1c99b2b1b1ac21" language="German">
-                    &lt;Coords points="1209,2093 1540,2093 1540,2151 1209,2151"/>
-                    &lt;TextEquiv>
-                        &lt;Unicode>Seefahrenden.&lt;/Unicode>
-                    &lt;/TextEquiv>
-                    &lt;TextStyle fontFamily="Rotunda:0.8,  Bastarda:0.8 " fontSize="53.0"/>
-                &lt;/Word>
-                &lt;TextEquiv>
-                    &lt;Unicode>Troſt der Seefahrenden.&lt;/Unicode>
-                &lt;/TextEquiv>
-                &lt;TextStyle fontFamily="Rotunda:0.8,  Bastarda:0.8 " fontSize="53.0"/>
-            &lt;/TextLine>
-            &lt;TextLine id="line_1476720742138_2">
-                &lt;Coords points="1675,2107 1742,2107 1742,2148 1675,2148"/>
-                &lt;Baseline points="1676,2149 1738,2146"/>
-                &lt;Word id="word_1476721009045_26">
-                    &lt;Coords points="1673,2103 1740,2103 1740,2151 1673,2151"/>
-                    &lt;TextEquiv>
-                        &lt;Unicode>538&lt;/Unicode>
-                    &lt;/TextEquiv>
-                &lt;TextStyle fontFamily="antiqua:0.8" fontSize="53.0"/>
-                &lt;/Word>
-                &lt;TextEquiv>
-                    &lt;Unicode>538&lt;/Unicode>
-                &lt;/TextEquiv>
-              &lt;TextStyle fontFamily="antiqua:0.8" fontSize="53.0"/>
-            &lt;/TextLine>
-            &lt;TextEquiv>
-                &lt;Unicode>
+        <p>Naming multiple typefaces and font families within the PAGE XML element <b>PAGE
+                        XML-element <tt>&lt;TextLine&gt;</tt> and </b><tt><b>&lt;TextRegion&gt;</b></tt>means that the text was set in different fonts or families.</p>
+      </note>
+      <example>
+        <codeblock>        &lt;TextRegion type="paragraph" id="TextRegion_1476719787056_252"&gt;
+            &lt;Coords points="980,2090 1529,2090 1741,2098 1741,2149 1529,2156 980,2156"/&gt;
+            &lt;TextLine id="tl_83" primaryLanguage="German"&gt;
+                &lt;Coords points="981,2091 1528,2091 1528,2155 981,2155"/&gt;
+                &lt;Baseline points="981,2154 1528,2154"/&gt;
+                &lt;Word id="w_w1aab1c99b2b1b1ab1" language="German"&gt;
+                    &lt;Coords points="981,2096 1109,2096 1109,2151 981,2151"/&gt;
+                    &lt;TextEquiv&gt;
+                        &lt;Unicode&gt;Troſt&lt;/Unicode&gt;
+                    &lt;/TextEquiv&gt;
+                    &lt;TextStyle fontFamily="Rotunda:0.8,  Bastarda:0.8 " fontSize="53.0"/&gt;
+                &lt;/Word&gt;
+                &lt;Word id="w_w1aab1c99b2b1b1ac13" language="German"&gt;
+                    &lt;Coords points="1121,2097 1189,2097 1189,2139 1121,2139"/&gt;
+                    &lt;TextEquiv&gt;
+                        &lt;Unicode&gt;der&lt;/Unicode&gt;
+                    &lt;/TextEquiv&gt;
+                    &lt;TextStyle fontFamily="Rotunda:0.8,  Bastarda:0.8 " fontSize="53.0"/&gt;
+                &lt;/Word&gt;
+                &lt;Word id="w_w1aab1c99b2b1b1ac21" language="German"&gt;
+                    &lt;Coords points="1209,2093 1540,2093 1540,2151 1209,2151"/&gt;
+                    &lt;TextEquiv&gt;
+                        &lt;Unicode&gt;Seefahrenden.&lt;/Unicode&gt;
+                    &lt;/TextEquiv&gt;
+                    &lt;TextStyle fontFamily="Rotunda:0.8,  Bastarda:0.8 " fontSize="53.0"/&gt;
+                &lt;/Word&gt;
+                &lt;TextEquiv&gt;
+                    &lt;Unicode&gt;Troſt der Seefahrenden.&lt;/Unicode&gt;
+                &lt;/TextEquiv&gt;
+                &lt;TextStyle fontFamily="Rotunda:0.8,  Bastarda:0.8 " fontSize="53.0"/&gt;
+            &lt;/TextLine&gt;
+            &lt;TextLine id="line_1476720742138_2"&gt;
+                &lt;Coords points="1675,2107 1742,2107 1742,2148 1675,2148"/&gt;
+                &lt;Baseline points="1676,2149 1738,2146"/&gt;
+                &lt;Word id="word_1476721009045_26"&gt;
+                    &lt;Coords points="1673,2103 1740,2103 1740,2151 1673,2151"/&gt;
+                    &lt;TextEquiv&gt;
+                        &lt;Unicode&gt;538&lt;/Unicode&gt;
+                    &lt;/TextEquiv&gt;
+                &lt;TextStyle fontFamily="antiqua:0.8" fontSize="53.0"/&gt;
+                &lt;/Word&gt;
+                &lt;TextEquiv&gt;
+                    &lt;Unicode&gt;538&lt;/Unicode&gt;
+                &lt;/TextEquiv&gt;
+              &lt;TextStyle fontFamily="antiqua:0.8" fontSize="53.0"/&gt;
+            &lt;/TextLine&gt;
+            &lt;TextEquiv&gt;
+                &lt;Unicode&gt;
                   Troſt der Seefahrenden. 538
-                &lt;/Unicode>
-            &lt;/TextEquiv>
-         &lt;TextStyle fontFamily="rotunda:0.8,  bastarda:0.8, antiqua:0.8" fontSize="53.0"/>
-        &lt;/TextRegion>
+                &lt;/Unicode&gt;
+            &lt;/TextEquiv&gt;
+         &lt;TextStyle fontFamily="rotunda:0.8,  bastarda:0.8, antiqua:0.8" fontSize="53.0"/&gt;
+        &lt;/TextRegion&gt;
 </codeblock>
-            </example>
-        </body>
-    </topic>
+      </example>
+    </body>
+  </topic>
 </topic>

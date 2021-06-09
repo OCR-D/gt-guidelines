@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="lySeitenzahl">
-    <title>Page-number</title>
-    <body>
-        <p>Page numbers are treated as a distinct text region and marked as page numbers no matter
+  <title>Page-number</title>
+  <body>
+    <p>Page numbers are treated as a distinct text region and marked as page numbers no matter
             where they are placed on the page. Although it is actually a dead column header, in the
             context of ground truth trancription it is always treated as a page number, separately
             from any other column headers.</p>
-    <p><image href="images/lySeitenzahl1.jpg" height="560" width="604" id="image_g4w_1cj_r1b"
-scale="50"/></p>
-    <p><image href="images/lySeitenzahl2.jpg" height="240" width="604" id="image_h4w_1cj_r1b"
-scale="50"/></p>
-    </body>
-<related-links>
-<link href="lyKolumnentitel.dita#lyKolumnentitel"/>
-<link href="../pagexml/pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType" format="dita"/>
-<link
-href="../pagexml/pagecontent_xsd_Simple_Type_pc_TextTypeSimpleType.dita#TextTypeSimpleType" format="dita" 
-/>
-</related-links>
+    <p>
+      <image href="images/lySeitenzahl1.jpg" height="560" width="604" id="image_g4w_1cj_r1b" scale="50"/>
+    </p>
+    <p>
+      <image href="images/lySeitenzahl2.jpg" height="240" width="604" id="image_h4w_1cj_r1b" scale="50"/>
+    </p>
+  </body>
+  <related-links>
+    <link href="lyKolumnentitel.dita#lyKolumnentitel"/>
+    <link href="../pagexml/pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType" format="dita"/>
+    <link href="../pagexml/pagecontent_xsd_Simple_Type_pc_TextTypeSimpleType.dita#TextTypeSimpleType" format="dita"/>
+  </related-links>
 </topic>

@@ -1,27 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="lyKolumnentitel">
-    <title>Kolumnentitel (header)</title>
-    <body>
-<p>In Zusammenhang mit der Ground-Truth-Erstellung sind unter dem Kolumnentitel „Kurztitelfassungen“
+  <title>Kolumnentitel (header)</title>
+  <body>
+    <p>In Zusammenhang mit der Ground-Truth-Erstellung sind unter dem Kolumnentitel „Kurztitelfassungen“
 der Kapitel-, Unterkapitelüberschriften, die zur Orientierung im Buch dienen, v. a. im Kopfsteg über
 dem eigentlichen Text zu verstehen. Sie können auch als Seitentitel bezeichnet werden. Oft sind sie
 vom eigentlichen Text durch einen Separator getrennt. Die Seitenzahl wird in diesem Zusammenhang
 nicht als Kolumnentitel ausgezeichnet, sondern separat als Textregion <i>page-number</i>.</p>
-
-    <p><fig>
-<title>Beispiel: Kolumnentitel</title>
-<image href="images/lyKolumnentitel.png" id="image_xrt_cbj_r1b" scale="50"/>
-</fig></p>
-    </body>
-<related-links>
-<link
-href="../pagexml/pagecontent_xsd_Simple_Type_pc_TextTypeSimpleType.dita#TextTypeSimpleType" format="dita"/>
-<link href="lySeparatoren.dita#lySeparatoren"/>
-<link href="lySeitenzahl.dita#lySeitenzahl"/>
-<link href="../pagexml/pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType" format="dita"/>
-<link
-href="../pagexml/pagecontent_xsd_Simple_Type_pc_TextTypeSimpleType.dita#TextTypeSimpleType" format="dita"
-/>
-</related-links>
+    <p>
+      <fig>
+        <title>Beispiel: Kolumnentitel</title>
+        <image href="images/lyKolumnentitel.png" id="image_xrt_cbj_r1b" scale="50"/>
+      </fig>
+    </p>
+  </body>
+  <related-links>
+    <link href="../pagexml/pagecontent_xsd_Simple_Type_pc_TextTypeSimpleType.dita#TextTypeSimpleType" format="dita"/>
+    <link href="lySeparatoren.dita#lySeparatoren"/>
+    <link href="lySeitenzahl.dita#lySeitenzahl"/>
+    <link href="../pagexml/pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType" format="dita"/>
+    <link href="../pagexml/pagecontent_xsd_Simple_Type_pc_TextTypeSimpleType.dita#TextTypeSimpleType" format="dita"/>
+  </related-links>
 </topic>

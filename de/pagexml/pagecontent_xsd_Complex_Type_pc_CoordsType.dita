@@ -1,120 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic
-  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="CoordsType">
-   <title>Complex Type pc:CoordsType</title>
-   <body>
-      <table frame="all" rowsep="1" colsep="1">
-         <tgroup cols="2">
-            <colspec colwidth="3*" align="left"/>
-            <colspec colwidth="25*" align="left"/>
-            <tbody>
-               <row>
-                  <entry>Namespace</entry>
-                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15</entry>
-               </row>
-               <row>
-                  <entry>Diagram</entry>
-                  <entry>
-                     <p>
-                        <imagemap id="pagecontent_xsd_Complex_Type_pc_CoordsType">
-                           <image href="img/pagecontent_xsd_Complex_Type_pc_CoordsType.jpeg"/>
-                           <area>
-                              <shape>rect</shape>
-                              <coords>315,75,581,161</coords>
-                              <xref href="#CoordsType_points"/>
-                           </area>
-                           <area>
-                              <shape>rect</shape>
-                              <coords>315,283,633,369</coords>
-                              <xref href="#CoordsType_conf"/>
-                           </area>
-                        </imagemap>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>Used by</entry>
-                  <entry>
-                     <p>
-                        <table frame="all" rowsep="1" colsep="1">
-                           <tgroup cols="2">
-                              <colspec colwidth="2*" align="left"/>
-                              <colspec colwidth="8*" align="left"/>
-                              <tbody>
-                                 <row>
-                                    <entry>Elements </entry>
-                                    <entry>
-                                       <xref href="pagecontent_xsd_Complex_Type_pc_BorderType.dita#BorderType_Coords"/>, <xref href="pagecontent_xsd_Complex_Type_pc_GlyphType.dita#GlyphType_Coords"/>, <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeType.dita#GraphemeType_Coords"/>, <xref href="pagecontent_xsd_Complex_Type_pc_PrintSpaceType.dita#PrintSpaceType_Coords"/>, <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_Coords"/>, <xref href="pagecontent_xsd_Complex_Type_pc_TextLineType.dita#TextLineType_Coords"/>, <xref href="pagecontent_xsd_Complex_Type_pc_WordType.dita#WordType_Coords"/>
-                                    </entry>
-                                 </row>
-                              </tbody>
-                           </tgroup>
-                        </table>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>Attributes</entry>
-                  <entry>
-                     <p>
-                        <table frame="all" rowsep="1" colsep="1">
-                           <tgroup cols="3">
-                              <colspec colnum="1" colname="col1" align="left" colwidth="3*"/>
-                              <colspec colnum="2" colname="col2" align="left" colwidth="3*"/>
-                              <colspec colnum="3" colname="col3" align="left" colwidth="1*"/>
-                              <thead>
-                                 <row>
-                                    <entry>QName</entry>
-                                    <entry>Type</entry>
-                                    <entry>Use</entry>
-                                 </row>
-                              </thead>
-                              <tbody>
-                                 <row>
-                                    <entry>
-                                       <xref href="#CoordsType_conf"/>
-                                    </entry>
-                                    <entry>
-                                       <xref href="pagecontent_xsd_Simple_Type_pc_ConfSimpleType.dita#ConfSimpleType"/>
-                                    </entry>
-                                    <entry>optional</entry>
-                                 </row>
-                                 <row>
-                                    <entry namest="col1" nameend="col3">
-                                       <codeblock outputclass="language-xml">Confidence value (between 0 and 1)</codeblock>
-                                    </entry>
-                                 </row>
-                                 <row>
-                                    <entry>
-                                       <xref href="#CoordsType_points"/>
-                                    </entry>
-                                    <entry>
-                                       <xref href="pagecontent_xsd_Simple_Type_pc_PointsType.dita#PointsType"/>
-                                    </entry>
-                                    <entry>required</entry>
-                                 </row>
-                                 <row>
-                                    <entry namest="col1" nameend="col3">
-                                       <codeblock outputclass="language-xml">Polygon outline of the element as a path of points.
+  <title>Complex Type pc:CoordsType</title>
+  <body>
+    <table frame="all" rowsep="1" colsep="1">
+      <tgroup cols="2">
+        <colspec colwidth="3*" align="left"/>
+        <colspec colwidth="25*" align="left"/>
+        <tbody>
+          <row>
+            <entry>Namespace</entry>
+            <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15</entry>
+          </row>
+          <row>
+            <entry>Diagram</entry>
+            <entry>
+              <p>
+                <imagemap id="pagecontent_xsd_Complex_Type_pc_CoordsType">
+                  <image href="img/pagecontent_xsd_Complex_Type_pc_CoordsType.jpeg"/>
+                  <area>
+                    <shape>rect</shape>
+                    <coords>315,75,581,161</coords>
+                    <xref href="#CoordsType_points"/>
+                  </area>
+                  <area>
+                    <shape>rect</shape>
+                    <coords>315,283,633,369</coords>
+                    <xref href="#CoordsType_conf"/>
+                  </area>
+                </imagemap>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>Used by</entry>
+            <entry>
+              <p>
+                <table frame="all" rowsep="1" colsep="1">
+                  <tgroup cols="2">
+                    <colspec colwidth="2*" align="left"/>
+                    <colspec colwidth="8*" align="left"/>
+                    <tbody>
+                      <row>
+                        <entry>Elements </entry>
+                        <entry><xref href="pagecontent_xsd_Complex_Type_pc_BorderType.dita#BorderType_Coords"/>, <xref href="pagecontent_xsd_Complex_Type_pc_GlyphType.dita#GlyphType_Coords"/>, <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeType.dita#GraphemeType_Coords"/>, <xref href="pagecontent_xsd_Complex_Type_pc_PrintSpaceType.dita#PrintSpaceType_Coords"/>, <xref href="pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_Coords"/>, <xref href="pagecontent_xsd_Complex_Type_pc_TextLineType.dita#TextLineType_Coords"/>, <xref href="pagecontent_xsd_Complex_Type_pc_WordType.dita#WordType_Coords"/></entry>
+                      </row>
+                    </tbody>
+                  </tgroup>
+                </table>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>Attributes</entry>
+            <entry>
+              <p>
+                <table frame="all" rowsep="1" colsep="1">
+                  <tgroup cols="3">
+                    <colspec colnum="1" colname="col1" align="left" colwidth="3*"/>
+                    <colspec colnum="2" colname="col2" align="left" colwidth="3*"/>
+                    <colspec colnum="3" colname="col3" align="left" colwidth="1*"/>
+                    <thead>
+                      <row>
+                        <entry>QName</entry>
+                        <entry>Type</entry>
+                        <entry>Use</entry>
+                      </row>
+                    </thead>
+                    <tbody>
+                      <row>
+                        <entry>
+                          <xref href="#CoordsType_conf"/>
+                        </entry>
+                        <entry>
+                          <xref href="pagecontent_xsd_Simple_Type_pc_ConfSimpleType.dita#ConfSimpleType"/>
+                        </entry>
+                        <entry>optional</entry>
+                      </row>
+                      <row>
+                        <entry namest="col1" nameend="col3">
+                          <codeblock outputclass="language-xml">Confidence value (between 0 and 1)</codeblock>
+                        </entry>
+                      </row>
+                      <row>
+                        <entry>
+                          <xref href="#CoordsType_points"/>
+                        </entry>
+                        <entry>
+                          <xref href="pagecontent_xsd_Simple_Type_pc_PointsType.dita#PointsType"/>
+                        </entry>
+                        <entry>required</entry>
+                      </row>
+                      <row>
+                        <entry namest="col1" nameend="col3">
+                          <codeblock outputclass="language-xml">Polygon outline of the element as a path of points.
 No points may lie outside the outline of its parent,
 which in the case of Border is the bounding rectangle
 of the root image. Paths are closed by convention,
 i.e. the last point logically connects with the first
 (and at least 3 points are required to span an area).
 Paths must be planar (i.e. must not self-intersect).</codeblock>
-                                    </entry>
-                                 </row>
-                              </tbody>
-                           </tgroup>
-                        </table>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>Source</entry>
-                  <entry>
-                     <codeblock outputclass="language-xml">&lt;complexType name="CoordsType"&gt;
+                        </entry>
+                      </row>
+                    </tbody>
+                  </tgroup>
+                </table>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>Source</entry>
+            <entry>
+              <codeblock outputclass="language-xml">&lt;complexType name="CoordsType"&gt;
   &lt;attribute name="points" type="pc:PointsType" use="required"&gt;
     &lt;annotation&gt;
       &lt;documentation&gt;Polygon outline of the element as a path of points. No points may lie outside the outline of its parent, which in the case of Border is the bounding rectangle of the root image. Paths are closed by convention, i.e. the last point logically connects with the first (and at least 3 points are required to span an area). Paths must be planar (i.e. must not self-intersect).&lt;/documentation&gt;
@@ -126,225 +123,225 @@ Paths must be planar (i.e. must not self-intersect).</codeblock>
     &lt;/annotation&gt;
   &lt;/attribute&gt;
 &lt;/complexType&gt;</codeblock>
-                  </entry>
-               </row>
-            </tbody>
-         </tgroup>
-      </table>
-   </body>
-   <topic id="CoordsType_points">
-      <title>Attribute pc:CoordsType / @points</title>
-      <body>
-         <table frame="all" rowsep="1" colsep="1">
-            <tgroup cols="2">
-               <colspec colwidth="3*" align="left"/>
-               <colspec colwidth="25*" align="left"/>
-               <tbody>
-                  <row>
-                     <entry>Namespace</entry>
-                     <entry>No namespace</entry>
-                  </row>
-                  <row>
-                     <entry>Annotations</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">Polygon outline of the element as a path of points.
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </body>
+  <topic id="CoordsType_points">
+    <title>Attribute pc:CoordsType / @points</title>
+    <body>
+      <table frame="all" rowsep="1" colsep="1">
+        <tgroup cols="2">
+          <colspec colwidth="3*" align="left"/>
+          <colspec colwidth="25*" align="left"/>
+          <tbody>
+            <row>
+              <entry>Namespace</entry>
+              <entry>No namespace</entry>
+            </row>
+            <row>
+              <entry>Annotations</entry>
+              <entry>
+                <codeblock outputclass="language-xml">Polygon outline of the element as a path of points.
 No points may lie outside the outline of its parent,
 which in the case of Border is the bounding rectangle
 of the root image. Paths are closed by convention,
 i.e. the last point logically connects with the first
 (and at least 3 points are required to span an area).
 Paths must be planar (i.e. must not self-intersect).</codeblock>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Type</entry>
-                     <entry>
-                        <xref href="pagecontent_xsd_Simple_Type_pc_PointsType.dita#PointsType"/>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Properties</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>use: </entry>
-                                       <entry>
-                                          <b>required</b>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Facets</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="3">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="3*" align="left"/>
-                                 <colspec colwidth="5*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>pattern</entry>
-                                       <entry>([0-9]+,[0-9]+ )+([0-9]+,[0-9]+)</entry>
-                                       <entry/>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Used by</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>Complex Type </entry>
-                                       <entry>
-                                          <xref href="#CoordsType"/>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="points" type="pc:PointsType" use="required"&gt;
+              </entry>
+            </row>
+            <row>
+              <entry>Type</entry>
+              <entry>
+                <xref href="pagecontent_xsd_Simple_Type_pc_PointsType.dita#PointsType"/>
+              </entry>
+            </row>
+            <row>
+              <entry>Properties</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>use: </entry>
+                          <entry>
+                            <b>required</b>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Facets</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="3">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="3*" align="left"/>
+                      <colspec colwidth="5*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>pattern</entry>
+                          <entry>([0-9]+,[0-9]+ )+([0-9]+,[0-9]+)</entry>
+                          <entry/>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Used by</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>Complex Type </entry>
+                          <entry>
+                            <xref href="#CoordsType"/>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Source</entry>
+              <entry>
+                <codeblock outputclass="language-xml">&lt;attribute name="points" type="pc:PointsType" use="required"&gt;
   &lt;annotation&gt;
     &lt;documentation&gt;Polygon outline of the element as a path of points. No points may lie outside the outline of its parent, which in the case of Border is the bounding rectangle of the root image. Paths are closed by convention, i.e. the last point logically connects with the first (and at least 3 points are required to span an area). Paths must be planar (i.e. must not self-intersect).&lt;/documentation&gt;
   &lt;/annotation&gt;
 &lt;/attribute&gt;</codeblock>
-                     </entry>
-                  </row>
-               </tbody>
-            </tgroup>
-         </table>
-      </body>
-   </topic>
-   <topic id="CoordsType_conf">
-      <title>Attribute pc:CoordsType / @conf</title>
-      <body>
-         <table frame="all" rowsep="1" colsep="1">
-            <tgroup cols="2">
-               <colspec colwidth="3*" align="left"/>
-               <colspec colwidth="25*" align="left"/>
-               <tbody>
-                  <row>
-                     <entry>Namespace</entry>
-                     <entry>No namespace</entry>
-                  </row>
-                  <row>
-                     <entry>Annotations</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">Confidence value (between 0 and 1)</codeblock>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Type</entry>
-                     <entry>
-                        <xref href="pagecontent_xsd_Simple_Type_pc_ConfSimpleType.dita#ConfSimpleType"/>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Properties</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>content: </entry>
-                                       <entry>
-                                          <b>simple</b>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Facets</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="3">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="3*" align="left"/>
-                                 <colspec colwidth="5*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>maxInclusive</entry>
-                                       <entry>1</entry>
-                                       <entry/>
-                                    </row>
-                                    <row>
-                                       <entry>minInclusive</entry>
-                                       <entry>0</entry>
-                                       <entry/>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Used by</entry>
-                     <entry>
-                        <p>
-                           <table frame="all" rowsep="1" colsep="1">
-                              <tgroup cols="2">
-                                 <colspec colwidth="2*" align="left"/>
-                                 <colspec colwidth="8*" align="left"/>
-                                 <tbody>
-                                    <row>
-                                       <entry>Complex Type </entry>
-                                       <entry>
-                                          <xref href="#CoordsType"/>
-                                       </entry>
-                                    </row>
-                                 </tbody>
-                              </tgroup>
-                           </table>
-                        </p>
-                     </entry>
-                  </row>
-                  <row>
-                     <entry>Source</entry>
-                     <entry>
-                        <codeblock outputclass="language-xml">&lt;attribute name="conf" type="pc:ConfSimpleType"&gt;
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </body>
+  </topic>
+  <topic id="CoordsType_conf">
+    <title>Attribute pc:CoordsType / @conf</title>
+    <body>
+      <table frame="all" rowsep="1" colsep="1">
+        <tgroup cols="2">
+          <colspec colwidth="3*" align="left"/>
+          <colspec colwidth="25*" align="left"/>
+          <tbody>
+            <row>
+              <entry>Namespace</entry>
+              <entry>No namespace</entry>
+            </row>
+            <row>
+              <entry>Annotations</entry>
+              <entry>
+                <codeblock outputclass="language-xml">Confidence value (between 0 and 1)</codeblock>
+              </entry>
+            </row>
+            <row>
+              <entry>Type</entry>
+              <entry>
+                <xref href="pagecontent_xsd_Simple_Type_pc_ConfSimpleType.dita#ConfSimpleType"/>
+              </entry>
+            </row>
+            <row>
+              <entry>Properties</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>content: </entry>
+                          <entry>
+                            <b>simple</b>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Facets</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="3">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="3*" align="left"/>
+                      <colspec colwidth="5*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>maxInclusive</entry>
+                          <entry>1</entry>
+                          <entry/>
+                        </row>
+                        <row>
+                          <entry>minInclusive</entry>
+                          <entry>0</entry>
+                          <entry/>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Used by</entry>
+              <entry>
+                <p>
+                  <table frame="all" rowsep="1" colsep="1">
+                    <tgroup cols="2">
+                      <colspec colwidth="2*" align="left"/>
+                      <colspec colwidth="8*" align="left"/>
+                      <tbody>
+                        <row>
+                          <entry>Complex Type </entry>
+                          <entry>
+                            <xref href="#CoordsType"/>
+                          </entry>
+                        </row>
+                      </tbody>
+                    </tgroup>
+                  </table>
+                </p>
+              </entry>
+            </row>
+            <row>
+              <entry>Source</entry>
+              <entry>
+                <codeblock outputclass="language-xml">&lt;attribute name="conf" type="pc:ConfSimpleType"&gt;
   &lt;annotation&gt;
     &lt;documentation&gt;Confidence value (between 0 and 1)&lt;/documentation&gt;
   &lt;/annotation&gt;
 &lt;/attribute&gt;</codeblock>
-                     </entry>
-                  </row>
-               </tbody>
-            </tgroup>
-         </table>
-      </body>
-   </topic>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </body>
+  </topic>
 </topic>

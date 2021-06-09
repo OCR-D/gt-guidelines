@@ -1,29 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="lyAbsatz">
-    <title>Absatz (paragraph)</title>
-    <body>
-        <p>Einzelne zusammenhängende Textregionen werden als Absatz ausgezeichnet. Initialen und
+  <title>Absatz (paragraph)</title>
+  <body>
+    <p>Einzelne zusammenhängende Textregionen werden als Absatz ausgezeichnet. Initialen und
 Marginalien, Tabellen, Überschriften, Kolumnentitel, Bildunterschriften, Fuß- und Endnoten sowie
 Seitenzählung oder Bogensignaturen sind eigene Strukturen und nicht mit Absätzen zu verwechseln.
 Übergänge zwischen einzelnen Absätzen erkennt man an Leerzeilen bzw. Einrückungen am Beginn eines
 neuen Absatzes bei Blocksatz. Ist eine Textregion keiner speziellen Struktur zuzuordnen, wird sie
 als Absatz verstanden. Eine hierarchische Gliederung von Absätzen erfolgt nicht.</p>
-    <p><fig><title>einfache Absätze</title><image href="images/lyAbsatz.png" height="703" width="605" id="image_vd4_q2j_r1b"/></fig><fig id="fig_qpl_vpj_r1b">
-<title>polygone Absatz-Segmente, Quelle: Deutscher Sprachschatz geordnet nach Begriffen zur leichten
+    <p>
+      <fig>
+        <title>einfache Absätze</title>
+        <image href="images/lyAbsatz.png" height="703" width="605" id="image_vd4_q2j_r1b"/>
+      </fig>
+      <fig id="fig_qpl_vpj_r1b">
+        <title>polygone Absatz-Segmente, Quelle: Deutscher Sprachschatz geordnet nach Begriffen zur leichten
 Auffindung und Auswahl des passenden Ausdrucks. Ein stilistisches Hülfsbuch für jeden Deutsch
 Schreibenden. Bd. 1. Hamburg, 1873.</title>
-<desc>Link: <xref href="https://archive.org/details/deutschersprachs01sanduoft" format="html"
-scope="external">https://archive.org/details/deutschersprachs01sanduoft</xref>, Seite 2</desc>
-<image
-    href="images/lyAbsatz2.png"
-height="151" width="602" id="image_wj5_hyz_l1b" scale="50"/>
-</fig></p>
-    </body>
-<related-links>
+        <desc>Link: <xref href="https://archive.org/details/deutschersprachs01sanduoft" format="html" scope="external">https://archive.org/details/deutschersprachs01sanduoft</xref>, Seite 2</desc>
+        <image href="images/lyAbsatz2.png" height="151" width="602" id="image_wj5_hyz_l1b" scale="50"/>
+      </fig>
+    </p>
+  </body>
+  <related-links>
     <link href="../pagexml/pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType" format="dita"/>
-<link
-href="../pagexml/pagecontent_xsd_Simple_Type_pc_TextTypeSimpleType.dita#TextTypeSimpleType" format="dita"
-/>
-</related-links>
+    <link href="../pagexml/pagecontent_xsd_Simple_Type_pc_TextTypeSimpleType.dita#TextTypeSimpleType" format="dita"/>
+  </related-links>
 </topic>

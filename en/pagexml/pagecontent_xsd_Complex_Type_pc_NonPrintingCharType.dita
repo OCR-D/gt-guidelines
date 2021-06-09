@@ -1,225 +1,222 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic
-  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="NonPrintingCharType">
-   <title>Complex Type pc:NonPrintingCharType</title>
-   <body>
-      <table frame="all" rowsep="1" colsep="1">
-         <tgroup cols="2">
-            <colspec colwidth="3*" align="left"/>
-            <colspec colwidth="25*" align="left"/>
-            <tbody>
-               <row>
-                  <entry>Namespace</entry>
-                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15</entry>
-               </row>
-               <row>
-                  <entry>Annotations</entry>
-                  <entry>
-                     <codeblock outputclass="language-xml">A glyph component without visual representation
+  <title>Complex Type pc:NonPrintingCharType</title>
+  <body>
+    <table frame="all" rowsep="1" colsep="1">
+      <tgroup cols="2">
+        <colspec colwidth="3*" align="left"/>
+        <colspec colwidth="25*" align="left"/>
+        <tbody>
+          <row>
+            <entry>Namespace</entry>
+            <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15</entry>
+          </row>
+          <row>
+            <entry>Annotations</entry>
+            <entry>
+              <codeblock outputclass="language-xml">A glyph component without visual representation
 but with Unicode code point.
 Non-visual / non-printing / control character.
 Part of grapheme container (of glyph) or grapheme sub group.</codeblock>
+            </entry>
+          </row>
+          <row>
+            <entry>Diagram</entry>
+            <entry>
+              <p>
+                <imagemap id="pagecontent_xsd_Complex_Type_pc_NonPrintingCharType">
+                  <image href="img/pagecontent_xsd_Complex_Type_pc_NonPrintingCharType.jpeg"/>
+                  <area>
+                    <shape>rect</shape>
+                    <coords>544,190,693,276</coords>
+                    <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_id"/>
+                  </area>
+                  <area>
+                    <shape>rect</shape>
+                    <coords>544,296,836,382</coords>
+                    <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_index"/>
+                  </area>
+                  <area>
+                    <shape>rect</shape>
+                    <coords>544,504,748,590</coords>
+                    <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_ligature"/>
+                  </area>
+                  <area>
+                    <shape>rect</shape>
+                    <coords>544,610,866,696</coords>
+                    <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_charType"/>
+                  </area>
+                  <area>
+                    <shape>rect</shape>
+                    <coords>544,792,723,878</coords>
+                    <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_custom"/>
+                  </area>
+                  <area>
+                    <shape>rect</shape>
+                    <coords>544,948,744,1034</coords>
+                    <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_comments"/>
+                  </area>
+                  <area>
+                    <shape>rect</shape>
+                    <coords>699,1118,1000,1204</coords>
+                    <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_TextEquiv"/>
+                  </area>
+                  <area>
+                    <shape>rect</shape>
+                    <coords>494,6,989,87</coords>
+                    <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType"/>
+                  </area>
+                </imagemap>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>Type</entry>
+            <entry>extension of <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType"/>
                   </entry>
-               </row>
-               <row>
-                  <entry>Diagram</entry>
-                  <entry>
-                     <p>
-                        <imagemap id="pagecontent_xsd_Complex_Type_pc_NonPrintingCharType">
-                           <image href="img/pagecontent_xsd_Complex_Type_pc_NonPrintingCharType.jpeg"/>
-                           <area>
-                              <shape>rect</shape>
-                              <coords>544,190,693,276</coords>
-                              <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_id"/>
-                           </area>
-                           <area>
-                              <shape>rect</shape>
-                              <coords>544,296,836,382</coords>
-                              <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_index"/>
-                           </area>
-                           <area>
-                              <shape>rect</shape>
-                              <coords>544,504,748,590</coords>
-                              <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_ligature"/>
-                           </area>
-                           <area>
-                              <shape>rect</shape>
-                              <coords>544,610,866,696</coords>
-                              <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_charType"/>
-                           </area>
-                           <area>
-                              <shape>rect</shape>
-                              <coords>544,792,723,878</coords>
-                              <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_custom"/>
-                           </area>
-                           <area>
-                              <shape>rect</shape>
-                              <coords>544,948,744,1034</coords>
-                              <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_comments"/>
-                           </area>
-                           <area>
-                              <shape>rect</shape>
-                              <coords>699,1118,1000,1204</coords>
-                              <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_TextEquiv"/>
-                           </area>
-                           <area>
-                              <shape>rect</shape>
-                              <coords>494,6,989,87</coords>
-                              <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType"/>
-                           </area>
-                        </imagemap>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>Type</entry>
-                  <entry>extension of <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType"/>
-                  </entry>
-               </row>
-               <row>
-                  <entry>Type hierarchy</entry>
-                  <entry>
-                     <ul>
-                        <li>
-                           <p>
-                              <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType"/>
-                           </p>
-                           <ul>
-                              <li>
-                                 <p>
-                                    <xref href="#NonPrintingCharType"/>
-                                 </p>
-                              </li>
-                           </ul>
-                        </li>
-                     </ul>
-                  </entry>
-               </row>
-               <row>
-                  <entry>Used by</entry>
-                  <entry>
-                     <p>
-                        <table frame="all" rowsep="1" colsep="1">
-                           <tgroup cols="2">
-                              <colspec colwidth="2*" align="left"/>
-                              <colspec colwidth="8*" align="left"/>
-                              <tbody>
-                                 <row>
-                                    <entry>Elements </entry>
-                                    <entry>
-                                       <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeGroupType.dita#GraphemeGroupType_NonPrintingChar"/>, <xref href="pagecontent_xsd_Complex_Type_pc_GraphemesType.dita#GraphemesType_NonPrintingChar"/>
-                                    </entry>
-                                 </row>
-                              </tbody>
-                           </tgroup>
-                        </table>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>Model</entry>
-                  <entry>
-                     <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_TextEquiv"/>
-                  </entry>
-               </row>
-               <row>
-                  <entry>Children</entry>
-                  <entry>
-                     <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_TextEquiv"/>
-                  </entry>
-               </row>
-               <row>
-                  <entry>Attributes</entry>
-                  <entry>
-                     <p>
-                        <table frame="all" rowsep="1" colsep="1">
-                           <tgroup cols="3">
-                              <colspec colnum="1" colname="col1" align="left" colwidth="3*"/>
-                              <colspec colnum="2" colname="col2" align="left" colwidth="3*"/>
-                              <colspec colnum="3" colname="col3" align="left" colwidth="1*"/>
-                              <thead>
-                                 <row>
-                                    <entry>QName</entry>
-                                    <entry>Type</entry>
-                                    <entry>Use</entry>
-                                 </row>
-                              </thead>
-                              <tbody>
-                                 <row>
-                                    <entry>
-                                       <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_charType"/>
-                                    </entry>
-                                    <entry>restriction of string</entry>
-                                    <entry>optional</entry>
-                                 </row>
-                                 <row>
-                                    <entry namest="col1" nameend="col3">
-                                       <codeblock outputclass="language-xml">Type of character represented by the
+          </row>
+          <row>
+            <entry>Type hierarchy</entry>
+            <entry>
+              <ul>
+                <li>
+                  <p>
+                    <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType"/>
+                  </p>
+                  <ul>
+                    <li>
+                      <p>
+                        <xref href="#NonPrintingCharType"/>
+                      </p>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </entry>
+          </row>
+          <row>
+            <entry>Used by</entry>
+            <entry>
+              <p>
+                <table frame="all" rowsep="1" colsep="1">
+                  <tgroup cols="2">
+                    <colspec colwidth="2*" align="left"/>
+                    <colspec colwidth="8*" align="left"/>
+                    <tbody>
+                      <row>
+                        <entry>Elements </entry>
+                        <entry><xref href="pagecontent_xsd_Complex_Type_pc_GraphemeGroupType.dita#GraphemeGroupType_NonPrintingChar"/>, <xref href="pagecontent_xsd_Complex_Type_pc_GraphemesType.dita#GraphemesType_NonPrintingChar"/></entry>
+                      </row>
+                    </tbody>
+                  </tgroup>
+                </table>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>Model</entry>
+            <entry>
+              <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_TextEquiv"/>
+            </entry>
+          </row>
+          <row>
+            <entry>Children</entry>
+            <entry>
+              <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_TextEquiv"/>
+            </entry>
+          </row>
+          <row>
+            <entry>Attributes</entry>
+            <entry>
+              <p>
+                <table frame="all" rowsep="1" colsep="1">
+                  <tgroup cols="3">
+                    <colspec colnum="1" colname="col1" align="left" colwidth="3*"/>
+                    <colspec colnum="2" colname="col2" align="left" colwidth="3*"/>
+                    <colspec colnum="3" colname="col3" align="left" colwidth="1*"/>
+                    <thead>
+                      <row>
+                        <entry>QName</entry>
+                        <entry>Type</entry>
+                        <entry>Use</entry>
+                      </row>
+                    </thead>
+                    <tbody>
+                      <row>
+                        <entry>
+                          <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_charType"/>
+                        </entry>
+                        <entry>restriction of string</entry>
+                        <entry>optional</entry>
+                      </row>
+                      <row>
+                        <entry namest="col1" nameend="col3">
+                          <codeblock outputclass="language-xml">Type of character represented by the
 grapheme, group, or non-printing character element.</codeblock>
-                                    </entry>
-                                 </row>
-                                 <row>
-                                    <entry>
-                                       <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_comments"/>
-                                    </entry>
-                                    <entry>string</entry>
-                                    <entry>optional</entry>
-                                 </row>
-                                 <row>
-                                    <entry namest="col1" nameend="col3">
-                                       <codeblock outputclass="language-xml">For generic use</codeblock>
-                                    </entry>
-                                 </row>
-                                 <row>
-                                    <entry>
-                                       <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_custom"/>
-                                    </entry>
-                                    <entry>string</entry>
-                                    <entry>optional</entry>
-                                 </row>
-                                 <row>
-                                    <entry namest="col1" nameend="col3">
-                                       <codeblock outputclass="language-xml">For generic use</codeblock>
-                                    </entry>
-                                 </row>
-                                 <row>
-                                    <entry>
-                                       <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_id"/>
-                                    </entry>
-                                    <entry>ID</entry>
-                                    <entry>required</entry>
-                                 </row>
-                                 <row>
-                                    <entry>
-                                       <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_index"/>
-                                    </entry>
-                                    <entry>restriction of int</entry>
-                                    <entry>required</entry>
-                                 </row>
-                                 <row>
-                                    <entry namest="col1" nameend="col3">
-                                       <codeblock outputclass="language-xml">Order index of grapheme, group, or non-printing character
+                        </entry>
+                      </row>
+                      <row>
+                        <entry>
+                          <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_comments"/>
+                        </entry>
+                        <entry>string</entry>
+                        <entry>optional</entry>
+                      </row>
+                      <row>
+                        <entry namest="col1" nameend="col3">
+                          <codeblock outputclass="language-xml">For generic use</codeblock>
+                        </entry>
+                      </row>
+                      <row>
+                        <entry>
+                          <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_custom"/>
+                        </entry>
+                        <entry>string</entry>
+                        <entry>optional</entry>
+                      </row>
+                      <row>
+                        <entry namest="col1" nameend="col3">
+                          <codeblock outputclass="language-xml">For generic use</codeblock>
+                        </entry>
+                      </row>
+                      <row>
+                        <entry>
+                          <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_id"/>
+                        </entry>
+                        <entry>ID</entry>
+                        <entry>required</entry>
+                      </row>
+                      <row>
+                        <entry>
+                          <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_index"/>
+                        </entry>
+                        <entry>restriction of int</entry>
+                        <entry>required</entry>
+                      </row>
+                      <row>
+                        <entry namest="col1" nameend="col3">
+                          <codeblock outputclass="language-xml">Order index of grapheme, group, or non-printing character
 within the parent container (graphemes or glyph or grapheme group).</codeblock>
-                                    </entry>
-                                 </row>
-                                 <row>
-                                    <entry>
-                                       <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_ligature"/>
-                                    </entry>
-                                    <entry>boolean</entry>
-                                    <entry>optional</entry>
-                                 </row>
-                              </tbody>
-                           </tgroup>
-                        </table>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>Source</entry>
-                  <entry>
-                     <codeblock outputclass="language-xml">&lt;complexType name="NonPrintingCharType"&gt;
+                        </entry>
+                      </row>
+                      <row>
+                        <entry>
+                          <xref href="pagecontent_xsd_Complex_Type_pc_GraphemeBaseType.dita#GraphemeBaseType_ligature"/>
+                        </entry>
+                        <entry>boolean</entry>
+                        <entry>optional</entry>
+                      </row>
+                    </tbody>
+                  </tgroup>
+                </table>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>Source</entry>
+            <entry>
+              <codeblock outputclass="language-xml">&lt;complexType name="NonPrintingCharType"&gt;
   &lt;annotation&gt;
     &lt;documentation&gt;A glyph component without visual representation but with Unicode code point. Non-visual / non-printing / control character. Part of grapheme container (of glyph) or grapheme sub group.&lt;/documentation&gt;
   &lt;/annotation&gt;
@@ -228,10 +225,10 @@ within the parent container (graphemes or glyph or grapheme group).</codeblock>
     &lt;/extension&gt;
   &lt;/complexContent&gt;
 &lt;/complexType&gt;</codeblock>
-                  </entry>
-               </row>
-            </tbody>
-         </tgroup>
-      </table>
-   </body>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </body>
 </topic>

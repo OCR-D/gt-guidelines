@@ -1,104 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic
-  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="GroupTypeSimpleType">
-   <title>Simple Type pc:GroupTypeSimpleType</title>
-   <body>
-      <table frame="all" rowsep="1" colsep="1">
-         <tgroup cols="2">
-            <colspec colwidth="3*" align="left"/>
-            <colspec colwidth="25*" align="left"/>
-            <tbody>
-               <row>
-                  <entry>Namespace</entry>
-                  <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15</entry>
-               </row>
-               <row>
-                  <entry>Diagram</entry>
-                  <entry>
-                     <p/>
-                  </entry>
-               </row>
-               <row>
-                  <entry>Type</entry>
-                  <entry>restriction of string</entry>
-               </row>
-               <row>
-                  <entry>Facets</entry>
-                  <entry>
-                     <p>
-                        <table frame="all" rowsep="1" colsep="1">
-                           <tgroup cols="3">
-                              <colspec colwidth="2*" align="left"/>
-                              <colspec colwidth="3*" align="left"/>
-                              <colspec colwidth="5*" align="left"/>
-                              <tbody>
-                                 <row>
-                                    <entry>enumeration</entry>
-                                    <entry>paragraph</entry>
-                                    <entry/>
-                                 </row>
-                                 <row>
-                                    <entry>enumeration</entry>
-                                    <entry>list</entry>
-                                    <entry/>
-                                 </row>
-                                 <row>
-                                    <entry>enumeration</entry>
-                                    <entry>list-item</entry>
-                                    <entry/>
-                                 </row>
-                                 <row>
-                                    <entry>enumeration</entry>
-                                    <entry>figure</entry>
-                                    <entry/>
-                                 </row>
-                                 <row>
-                                    <entry>enumeration</entry>
-                                    <entry>article</entry>
-                                    <entry/>
-                                 </row>
-                                 <row>
-                                    <entry>enumeration</entry>
-                                    <entry>div</entry>
-                                    <entry/>
-                                 </row>
-                                 <row>
-                                    <entry>enumeration</entry>
-                                    <entry>other</entry>
-                                    <entry/>
-                                 </row>
-                              </tbody>
-                           </tgroup>
-                        </table>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>Used by</entry>
-                  <entry>
-                     <p>
-                        <table frame="all" rowsep="1" colsep="1">
-                           <tgroup cols="2">
-                              <colspec colwidth="2*" align="left"/>
-                              <colspec colwidth="8*" align="left"/>
-                              <tbody>
-                                 <row>
-                                    <entry>Attributes </entry>
-                                    <entry>
-                                       <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupIndexedType.dita#OrderedGroupIndexedType_type"/>, <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType_type"/>, <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_type"/>, <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupType.dita#UnorderedGroupType_type"/>
-                                    </entry>
-                                 </row>
-                              </tbody>
-                           </tgroup>
-                        </table>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>Source</entry>
-                  <entry>
-                     <codeblock outputclass="language-xml">&lt;simpleType name="GroupTypeSimpleType"&gt;
+  <title>Simple Type pc:GroupTypeSimpleType</title>
+  <body>
+    <table frame="all" rowsep="1" colsep="1">
+      <tgroup cols="2">
+        <colspec colwidth="3*" align="left"/>
+        <colspec colwidth="25*" align="left"/>
+        <tbody>
+          <row>
+            <entry>Namespace</entry>
+            <entry>http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15</entry>
+          </row>
+          <row>
+            <entry>Diagram</entry>
+            <entry>
+              <p/>
+            </entry>
+          </row>
+          <row>
+            <entry>Type</entry>
+            <entry>restriction of string</entry>
+          </row>
+          <row>
+            <entry>Facets</entry>
+            <entry>
+              <p>
+                <table frame="all" rowsep="1" colsep="1">
+                  <tgroup cols="3">
+                    <colspec colwidth="2*" align="left"/>
+                    <colspec colwidth="3*" align="left"/>
+                    <colspec colwidth="5*" align="left"/>
+                    <tbody>
+                      <row>
+                        <entry>enumeration</entry>
+                        <entry>paragraph</entry>
+                        <entry/>
+                      </row>
+                      <row>
+                        <entry>enumeration</entry>
+                        <entry>list</entry>
+                        <entry/>
+                      </row>
+                      <row>
+                        <entry>enumeration</entry>
+                        <entry>list-item</entry>
+                        <entry/>
+                      </row>
+                      <row>
+                        <entry>enumeration</entry>
+                        <entry>figure</entry>
+                        <entry/>
+                      </row>
+                      <row>
+                        <entry>enumeration</entry>
+                        <entry>article</entry>
+                        <entry/>
+                      </row>
+                      <row>
+                        <entry>enumeration</entry>
+                        <entry>div</entry>
+                        <entry/>
+                      </row>
+                      <row>
+                        <entry>enumeration</entry>
+                        <entry>other</entry>
+                        <entry/>
+                      </row>
+                    </tbody>
+                  </tgroup>
+                </table>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>Used by</entry>
+            <entry>
+              <p>
+                <table frame="all" rowsep="1" colsep="1">
+                  <tgroup cols="2">
+                    <colspec colwidth="2*" align="left"/>
+                    <colspec colwidth="8*" align="left"/>
+                    <tbody>
+                      <row>
+                        <entry>Attributes </entry>
+                        <entry><xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupIndexedType.dita#OrderedGroupIndexedType_type"/>, <xref href="pagecontent_xsd_Complex_Type_pc_OrderedGroupType.dita#OrderedGroupType_type"/>, <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupIndexedType.dita#UnorderedGroupIndexedType_type"/>, <xref href="pagecontent_xsd_Complex_Type_pc_UnorderedGroupType.dita#UnorderedGroupType_type"/></entry>
+                      </row>
+                    </tbody>
+                  </tgroup>
+                </table>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>Source</entry>
+            <entry>
+              <codeblock outputclass="language-xml">&lt;simpleType name="GroupTypeSimpleType"&gt;
   &lt;restriction base="string"&gt;
     &lt;enumeration value="paragraph"/&gt;
     &lt;enumeration value="list"/&gt;
@@ -109,10 +106,10 @@
     &lt;enumeration value="other"/&gt;
   &lt;/restriction&gt;
 &lt;/simpleType&gt;</codeblock>
-                  </entry>
-               </row>
-            </tbody>
-         </tgroup>
-      </table>
-   </body>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </body>
 </topic>

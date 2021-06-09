@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="lyDiskontinuierlich">
-    <title>Floating Elements in the Print Space  (floating)</title>
-    <body>
-        <p>It can happen  that illustrations or explanations are not placed in the factually correct
+  <title>Floating Elements in the Print Space  (floating)</title>
+  <body>
+    <p>It can happen  that illustrations or explanations are not placed in the factually correct
             place where they are referenced, but interrupt the text in another place arbitrarily
             (for layout reasons). </p>
-        <p>Basically, such elements are hardly recognizable. However, if a clearly floating element
+    <p>Basically, such elements are hardly recognizable. However, if a clearly floating element
             is detected, it must be marked accordingly. </p>
-    </body>
-<related-links>
-<link href="../pagexml/pagecontent_xsd_Complex_Type_pc_RelationType.dita#RelationType" format="dita"
-/>
-<link href="../pagexml/pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType" format="dita"/>
-<link
-href="../pagexml/pagecontent_xsd_Simple_Type_pc_TextTypeSimpleType.dita#TextTypeSimpleType" format="dita"
-/>
-</related-links>
+  </body>
+  <related-links>
+    <link href="../pagexml/pagecontent_xsd_Complex_Type_pc_RelationType.dita#RelationType" format="dita"/>
+    <link href="../pagexml/pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType" format="dita"/>
+    <link href="../pagexml/pagecontent_xsd_Simple_Type_pc_TextTypeSimpleType.dita#TextTypeSimpleType" format="dita"/>
+  </related-links>
 </topic>

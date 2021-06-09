@@ -1,31 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="lyAllgemein">
-    <title>General Information</title>
-    
-    <taskbody>
-        <context><p>From a structural point of view, a book consists of different page types and the
+  <title>General Information</title>
+  <taskbody>
+    <context><p>From a structural point of view, a book consists of different page types and the
                 pages contain different regions with different structures and content. In
                 particular, the TextRegion can be specified in more detail as a column title,
                 heading, paragraph region, and so on... Within these regions, the individual texts
                 can show typographical features that can also be labelled..</p>The layout and
             structure analysis should be done in the proposed steps:</context>
-        <steps>
-            <step>
-                <cmd>Marking of the type area</cmd>
-            </step>
-<step>
-                <cmd>Marking of the page type</cmd>
-            </step>
-<step>
-                <cmd>Marking of the page region</cmd>
-            </step>
-<step>
-                <cmd>Marking of particular regions on a page</cmd>
-            </step>
-<step>
-                <cmd>Marking of typographical particularities</cmd>
-            </step>
-        </steps>
-    </taskbody>
+    <steps>
+      <step>
+        <cmd>Marking of the type area</cmd>
+      </step>
+      <step>
+        <cmd>Marking of the page type</cmd>
+      </step>
+      <step>
+        <cmd>Marking of the page region</cmd>
+      </step>
+      <step>
+        <cmd>Marking of particular regions on a page</cmd>
+      </step>
+      <step>
+        <cmd>Marking of typographical particularities</cmd>
+      </step>
+    </steps>
+  </taskbody>
 </task>

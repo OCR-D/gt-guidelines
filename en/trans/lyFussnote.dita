@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="lyFußnote">
-    <title>Footnote (footnote / footnote-continued / endnote)</title>
-    <body>
-        <p>Footnotes appear in the lower part of the type area (sometimes also outside it). Usually
+  <title>Footnote (footnote / footnote-continued / endnote)</title>
+  <body>
+    <p>Footnotes appear in the lower part of the type area (sometimes also outside it). Usually
             they form the last printed passage on the page. Only sheet signatures are commonly
             listed below.  Footnotes are often counted (till the 18th century with (small) letters,
             later on with numbers), but may also appear uncounted; they usually end with a period.
@@ -11,38 +11,32 @@
             from the page in question and must be distinguished from endnotes which refer to entire
             sections. A footnote can include one or more paragraphs. Paragraphs should also be
             entered as such.</p>
-        <p>Long footnote texts can extend over several pages. In this case, these footnotes shall be
+    <p>Long footnote texts can extend over several pages. In this case, these footnotes shall be
             marked as continuous footnotes.</p>
-        <fig id="fig_vmq_pfj_r1b">
-            <title>Example: Simple footnotes without reference sign (unnumbered)</title>
-            <image href="images/lyFussnote1.png" height="697" width="605" id="image_xr4_2fj_r1b"
-                scale="50"/>
-        </fig>
-        <fig id="fig_clw_tfj_r1b">
-            <title>Example: several simple footnotes (numbered), introduced with a separator line</title>
-            <image href="images/lyFussnote2.png" height="382" width="605" id="image_yr4_2fj_r1b"
-                scale="50"/>
-        </fig>
-        <fig id="fig_vlm_yfj_r1b">
-            <title>Example: continuous footnote</title>
-            <image href="images/lyFussnote3.png" height="281" width="678" id="image_zr4_2fj_r1b"
-                scale="50"/>
-        </fig>
-        <fig id="fig_vlm_yfj_r1b2">
-            <title>Example: continuous footnote with several paragraphs</title>
-            <image href="images/lyFussnote.jpg" id="image_wnj_nzn_3jb" scale="50"/>
-        </fig>
-        <fig id="fig_vlm_yfj_r1b3">
-            <title>Example: footnote with one paragraph</title>
-            <image href="images/lyFussnote4.jpg" id="image_cwv_114_3jb" scale="50"/>
-        </fig>
-        
-    </body>
-<related-links>
-<link href="lySeparatoren.dita#lySeparatoren"/>
-<link href="../pagexml/pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType" format="dita"/>
-<link
-href="../pagexml/pagecontent_xsd_Simple_Type_pc_TextTypeSimpleType.dita#TextTypeSimpleType" format="dita"
-/>
-</related-links>
+    <fig id="fig_vmq_pfj_r1b">
+      <title>Example: Simple footnotes without reference sign (unnumbered)</title>
+      <image href="images/lyFussnote1.png" height="697" width="605" id="image_xr4_2fj_r1b" scale="50"/>
+    </fig>
+    <fig id="fig_clw_tfj_r1b">
+      <title>Example: several simple footnotes (numbered), introduced with a separator line</title>
+      <image href="images/lyFussnote2.png" height="382" width="605" id="image_yr4_2fj_r1b" scale="50"/>
+    </fig>
+    <fig id="fig_vlm_yfj_r1b">
+      <title>Example: continuous footnote</title>
+      <image href="images/lyFussnote3.png" height="281" width="678" id="image_zr4_2fj_r1b" scale="50"/>
+    </fig>
+    <fig id="fig_vlm_yfj_r1b2">
+      <title>Example: continuous footnote with several paragraphs</title>
+      <image href="images/lyFussnote.jpg" id="image_wnj_nzn_3jb" scale="50"/>
+    </fig>
+    <fig id="fig_vlm_yfj_r1b3">
+      <title>Example: footnote with one paragraph</title>
+      <image href="images/lyFussnote4.jpg" id="image_cwv_114_3jb" scale="50"/>
+    </fig>
+  </body>
+  <related-links>
+    <link href="lySeparatoren.dita#lySeparatoren"/>
+    <link href="../pagexml/pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType" format="dita"/>
+    <link href="../pagexml/pagecontent_xsd_Simple_Type_pc_TextTypeSimpleType.dita#TextTypeSimpleType" format="dita"/>
+  </related-links>
 </topic>

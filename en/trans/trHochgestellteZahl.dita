@@ -1,84 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="trHochgestellteZahl">
-    <title>Superscript Numbers</title>
-    <body>
-        <p>Superscript numbers are in most cases used as reference signs for footnotes. It was not
+  <title>Superscript Numbers</title>
+  <body>
+    <p>Superscript numbers are in most cases used as reference signs for footnotes. It was not
             until the 17th century that footnotes were used as annotations in printed text. In this
             early period of footnotes, these were not yet printed as superscript numbers in the
             text. </p>
-        <p>Normally the footnote consists of a superscript reference character which is given at a
+    <p>Normally the footnote consists of a superscript reference character which is given at a
             specific point in the text and the respective explanatory text appears at the bottom of
             the page. End notes can also be introduced this way. However, the referenced text
-            appears at the end of the entire text or of a closed section (e.g. chapter).</p><p>Furthermore, superscript numbers are used for referencing marginal notes. The marginal note
+            appears at the end of the entire text or of a closed section (e.g. chapter).</p>
+    <p>Furthermore, superscript numbers are used for referencing marginal notes. The marginal note
             appears at the right or left outer margin depending on the binding of the printed page. </p>
-        <p>In addition, superscript numbers are used in mathematics for exponentials.</p><p>These numerals are transribed as a specific superscript number with the respective <b>Unicode
+    <p>In addition, superscript numbers are used in mathematics for exponentials.</p>
+    <p>These numerals are transribed as a specific superscript number with the respective <b>Unicode
                 hexadecimal entity</b>.</p>
-
-<p>
-<table id="table_anp_grc_b1b">
-<tgroup cols="3">
-                    <colspec colnum="1" colname="col1" colwidth="2.69*"/>
-                    <colspec colnum="2" colname="col2" colwidth="1*"/>
-                    <colspec colnum="3" colname="col5" colwidth="2.67*"/>
-                    <tbody>
-                        <row>
-                            <entry>&amp;#x2070;</entry>
-                            <entry>⁰</entry>
-                            <entry>SUPERSCRIPT ZERO</entry>
-                        </row>
-                        <row>
-                            <entry>&amp;#x00B9;</entry>
-                            <entry>¹</entry>
-                            <entry>SUPERSCRIPT ONE</entry>
-                        </row>
-                        <row>
-                            <entry>&amp;#x00B2;</entry>
-                            <entry>²</entry>
-                            <entry>SUPERSCRIPT TWO</entry>
-                        </row>
-                        <row>
-                            <entry>&amp;#x00B3;</entry>
-                            <entry>³</entry>
-                            <entry>SUPERSCRIPT THREE</entry>
-                        </row>
-                        <row>
-                            <entry>&amp;#x2074;</entry>
-                            <entry>⁴</entry>
-                            <entry>SUPERSCRIPT FOUR</entry>
-                        </row>
-                        <row>
-                            <entry>&amp;#x2075;</entry>
-                            <entry>⁵</entry>
-                            <entry>SUPERSCRIPT FIVE</entry>
-                        </row>
-                        <row>
-                            <entry>&amp;#x2076;</entry>
-                            <entry>⁶</entry>
-                            <entry>SUPERSCRIPT SIX</entry>
-                        </row>
-                        <row>
-                            <entry>&amp;#x2077;</entry>
-                            <entry>⁷</entry>
-                            <entry>SUPERSCRIPT SEVEN</entry>
-                        </row>
-                        <row>
-                            <entry>&amp;#x2078;</entry>
-                            <entry>⁸</entry>
-                            <entry>SUPERSCRIPT EIGHT</entry>
-                        </row>
-                        <row>
-                            <entry>&amp;#x2079;</entry>
-                            <entry>⁹</entry>
-                            <entry>SUPERSCRIPT NINE</entry>
-                        </row>
-                    </tbody>
-                </tgroup>
-</table>
-</p><note class="- topic/note " importance="normal">For Unicode coding see: <xref
-                href="http://www.unicode.org/charts/PDF/U0080.pdf" format="pdf" scope="external">C1
-                Controls and Latin-1 Supplement</xref> and <xref
-                href="http://www.unicode.org/charts/PDF/U2070.pdf" format="pdf" scope="external"
-                >Superscripts and Subscripts</xref></note>
-    </body>
+    <p>
+      <table id="table_anp_grc_b1b">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="col1" colwidth="2.69*"/>
+          <colspec colnum="2" colname="col2" colwidth="1*"/>
+          <colspec colnum="3" colname="col5" colwidth="2.67*"/>
+          <tbody>
+            <row>
+              <entry>&amp;#x2070;</entry>
+              <entry>⁰</entry>
+              <entry>SUPERSCRIPT ZERO</entry>
+            </row>
+            <row>
+              <entry>&amp;#x00B9;</entry>
+              <entry>¹</entry>
+              <entry>SUPERSCRIPT ONE</entry>
+            </row>
+            <row>
+              <entry>&amp;#x00B2;</entry>
+              <entry>²</entry>
+              <entry>SUPERSCRIPT TWO</entry>
+            </row>
+            <row>
+              <entry>&amp;#x00B3;</entry>
+              <entry>³</entry>
+              <entry>SUPERSCRIPT THREE</entry>
+            </row>
+            <row>
+              <entry>&amp;#x2074;</entry>
+              <entry>⁴</entry>
+              <entry>SUPERSCRIPT FOUR</entry>
+            </row>
+            <row>
+              <entry>&amp;#x2075;</entry>
+              <entry>⁵</entry>
+              <entry>SUPERSCRIPT FIVE</entry>
+            </row>
+            <row>
+              <entry>&amp;#x2076;</entry>
+              <entry>⁶</entry>
+              <entry>SUPERSCRIPT SIX</entry>
+            </row>
+            <row>
+              <entry>&amp;#x2077;</entry>
+              <entry>⁷</entry>
+              <entry>SUPERSCRIPT SEVEN</entry>
+            </row>
+            <row>
+              <entry>&amp;#x2078;</entry>
+              <entry>⁸</entry>
+              <entry>SUPERSCRIPT EIGHT</entry>
+            </row>
+            <row>
+              <entry>&amp;#x2079;</entry>
+              <entry>⁹</entry>
+              <entry>SUPERSCRIPT NINE</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </p>
+    <note class="- topic/note " importance="normal">For Unicode coding see: <xref href="http://www.unicode.org/charts/PDF/U0080.pdf" format="pdf" scope="external">C1
+                Controls and Latin-1 Supplement</xref> and <xref href="http://www.unicode.org/charts/PDF/U2070.pdf" format="pdf" scope="external">Superscripts and Subscripts</xref></note>
+  </body>
 </topic>

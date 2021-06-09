@@ -1,23 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="seitentypen">
-<title>First Step : The Page Types</title>
-<body>
-<p>
-<div>From a structural point of view, a book consists of different page types. The pages to be
+  <title>First Step : The Page Types</title>
+  <body>
+    <p>
+      <div>From a structural point of view, a book consists of different page types. The pages to be
                 registered must be marked on the basis of the following typology.<p><b>Page types
-                        according to the PageXml schema:</b>
-                    <ul id="ul_g5s_sxg_t1b">
-                        <li>front-cover </li>
-                        <li>back-cover </li>
-                        <li>title page: title </li>
-                        <li>table-of-contents </li>
-                        <li>index </li>
-                        <li>text of the book: content </li>
-                        <li>blank page : blank </li>
-                        <li>other</li>
-                    </ul>
-                </p></div>
-</p>
-</body>
+                        according to the PageXml schema:</b><ul id="ul_g5s_sxg_t1b"><li>front-cover </li><li>back-cover </li><li>title page: title </li><li>table-of-contents </li><li>index </li><li>text of the book: content </li><li>blank page : blank </li><li>other</li></ul></p></div>
+    </p>
+  </body>
 </topic>

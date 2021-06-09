@@ -1,35 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="level_2_und_3_2">
-    <title>Level 2 und 3</title>
-    <body>
-<p>Für das sogenannte <tt>runde r</tt> steht die Unicode-Entität <tt>&#xa75b; (U+A75B, LATIN SMALL
+  <title>Level 2 und 3</title>
+  <body>
+    <p>Für das sogenannte <tt>runde r</tt> steht die Unicode-Entität <tt>ꝛ (U+A75B, LATIN SMALL
 LETTER R ROTUNDA)</tt>. Es findet sich häufig in Zusammenhang mit dem heute gebräuchlichen
 <tt>r</tt> oder als <tt>et</tt>-Substituent in Abkürzungen für <tt>et cetera</tt>. </p>
-<table id="table_k2t_dwp_mbb">
-<title>Beispiele für die Transkribtion des runden <tt>r</tt> im Level 2-3 :</title>
-<tgroup cols="2">
-<thead>
-<row>
-<entry>Vorlage</entry>
-<entry>Transkription</entry>
-</row>
-</thead>
-<tbody>
-<row>
-<entry><image href="images/herr.jpg" id="image_l2t_dwp_mbb">
-<alt>Herr (mit rundem r)</alt>
-</image> </entry>
-<entry><codeph>Her&amp;#xA75B;</codeph></entry>
-</row>
-<row>
-<entry><image href="images/etc.jpg" id="image_m2t_dwp_mbb">
-<alt>etc. (mit rundem r)</alt>
-</image></entry>
-<entry><codeph>&amp;#xA75B;c.</codeph></entry>
-</row>
-</tbody>
-</tgroup>
-</table>
-    </body>
+    <table id="table_k2t_dwp_mbb">
+      <title>Beispiele für die Transkribtion des runden <tt>r</tt> im Level 2-3 :</title>
+      <tgroup cols="2">
+        <thead>
+          <row>
+            <entry>Vorlage</entry>
+            <entry>Transkription</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>
+              <image href="images/herr.jpg" id="image_l2t_dwp_mbb">
+                <alt>Herr (mit rundem r)</alt>
+              </image>
+            </entry>
+            <entry>
+              <codeph>Her&amp;#xA75B;</codeph>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <image href="images/etc.jpg" id="image_m2t_dwp_mbb">
+                <alt>etc. (mit rundem r)</alt>
+              </image>
+            </entry>
+            <entry>
+              <codeph>&amp;#xA75B;c.</codeph>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </body>
 </topic>

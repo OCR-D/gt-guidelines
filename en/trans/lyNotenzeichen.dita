@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="lyNotenzeichen">
-    <title>Notes (MusicRegion)</title>
-    <body>
-        <p>Musical notations of all kinds (historical, modern or neumes) are marked as such. If, in
+  <title>Notes (MusicRegion)</title>
+  <body>
+    <p>Musical notations of all kinds (historical, modern or neumes) are marked as such. If, in
             the case of songs, texts are below individual music staves and a clear separation is
             discernible, each system (also referred to as a stave) is marked as a stave region, the
             texts as a text region. However, if texts are integrated directly into bracketed staves,
             the text is not considered as such and the entire region is marked as a stave
             region.</p>
-<p><image href="images/lyNotenzeichen2.png" id="image_t2z_bnw_t1b" scale="50"/></p>
-<p><image href="images/lyNotenzeichen3.png" id="image_u2m_dnw_t1b" scale="50"/></p>
-    </body>
-<related-links>
-<link
-href="../pagexml/pagecontent_xsd_Complex_Type_pc_MusicRegionType.dita#MusicRegionType" format="dita"
-/>
-</related-links>
+    <p>
+      <image href="images/lyNotenzeichen2.png" id="image_t2z_bnw_t1b" scale="50"/>
+    </p>
+    <p>
+      <image href="images/lyNotenzeichen3.png" id="image_u2m_dnw_t1b" scale="50"/>
+    </p>
+  </body>
+  <related-links>
+    <link href="../pagexml/pagecontent_xsd_Complex_Type_pc_MusicRegionType.dita#MusicRegionType" format="dita"/>
+  </related-links>
 </topic>

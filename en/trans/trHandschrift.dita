@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="trHandschrift">
-    <title>Handwritten annotations</title>
-<body>
-        <p>Handwritten annotations include, but are not limited to, any additional characters,
+  <title>Handwritten annotations</title>
+  <body>
+    <p>Handwritten annotations include, but are not limited to, any additional characters,
             text(s), underlines and cross-outs added to the printed text. These notes are not to be
             transcribed. </p>
-<p>Handwritten annotations are labelled as <codeph>GraphicRegion
+    <p>Handwritten annotations are labelled as <codeph>GraphicRegion
                 type="handwritten-annotation"</codeph>.</p>
-    </body>
-<related-links>
-<link format="dita"
-href="../pagexml/pagecontent_xsd_Complex_Type_pc_GraphicRegionType.dita#GraphicRegionType"/>
-</related-links>
-
+  </body>
+  <related-links>
+    <link format="dita" href="../pagexml/pagecontent_xsd_Complex_Type_pc_GraphicRegionType.dita#GraphicRegionType"/>
+  </related-links>
 </topic>

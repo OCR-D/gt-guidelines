@@ -1,34 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="level_1_6">
-    <title>Level 1</title>
-    <body>
-<p>The <b>round-r</b> is transcribed according to its meaning, i.e. as the <tt>r</tt> commonly used
+  <title>Level 1</title>
+  <body>
+    <p>The <b>round-r</b> is transcribed according to its meaning, i.e. as the <tt>r</tt> commonly used
             today or as <tt>et</tt>-substituent in abbreviation for <tt>et cetera</tt>. </p>
-<table id="table_g2c_2wp_mbb">
-<title>Exampel (round r as today's <tt>r</tt> and as <tt>et</tt>):</title>
-<tgroup cols="2">
-<thead>
-<row>
-<entry>Original</entry>
-<entry>Transcription</entry>
-</row>
-</thead>
-<tbody>
-<row>
-<entry><image href="images/herr.jpg" id="image_h2c_2wp_mbb">
-                                <alt>Herr (with round r)</alt>
-                            </image></entry>
-<entry><codeph>Herr</codeph></entry>
-</row>
-<row>
-<entry><image href="images/etc.jpg" id="image_i2c_2wp_mbb">
-                                <alt>round-r with c.</alt>
-                            </image></entry>
-<entry><codeph>etc.</codeph></entry>
-</row>
-</tbody>
-</tgroup>
-</table>
-    </body>
+    <table id="table_g2c_2wp_mbb">
+      <title>Exampel (round r as today's <tt>r</tt> and as <tt>et</tt>):</title>
+      <tgroup cols="2">
+        <thead>
+          <row>
+            <entry>Original</entry>
+            <entry>Transcription</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>
+              <image href="images/herr.jpg" id="image_h2c_2wp_mbb">
+                <alt>Herr (with round r)</alt>
+              </image>
+            </entry>
+            <entry>
+              <codeph>Herr</codeph>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <image href="images/etc.jpg" id="image_i2c_2wp_mbb">
+                <alt>round-r with c.</alt>
+              </image>
+            </entry>
+            <entry>
+              <codeph>etc.</codeph>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </body>
 </topic>

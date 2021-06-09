@@ -1,92 +1,128 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="trBruch">
-    <title>Fractions</title>
-    <body>
-        <p>Fractions, if present, are represented by their corresponding Unicode entities: </p>
-<table id="table_qcm_f3d_b1b">
-<tgroup cols="2">
-<thead>
-<row>
-<entry>Character</entry>
-<entry>Entity</entry>
-</row>
-</thead>
-<tbody>
-<row>
-<entry>&#xbd;</entry>
-<entry><codeph>U+00BD</codeph></entry>
-</row>
-<row>
-<entry>&#x2153;</entry>
-<entry><codeph>U+2153</codeph></entry>
-</row>
-<row>
-<entry>&#x2154;</entry>
-<entry><codeph>U+2154</codeph></entry>
-</row>
-<row>
-<entry>&#xbc;</entry>
-<entry><codeph>U+00BC</codeph></entry>
-</row>
-<row>
-<entry>&#xbe;</entry>
-<entry><codeph>U+00BE</codeph></entry>
-</row>
-<row>
-<entry>&#x2155;</entry>
-<entry><codeph>U+2155</codeph></entry>
-</row>
-<row>
-<entry>&#x2156;</entry>
-<entry><codeph>U+2156</codeph></entry>
-</row>
-<row>
-<entry>&#x2157;</entry>
-<entry><codeph>U+2157</codeph></entry>
-</row>
-<row>
-<entry>&#x2158;</entry>
-<entry><codeph>U+2158</codeph></entry>
-</row>
-<row>
-<entry>&#x2159;</entry>
-<entry><codeph>U+2159</codeph></entry>
-</row>
-<row>
-<entry>&#x215a;</entry>
-<entry><codeph>U+215A</codeph></entry>
-</row>
-<row>
-<entry>&#x2150;</entry>
-<entry><codeph>U+2150</codeph></entry>
-</row>
-<row>
-<entry>&#x215b;</entry>
-<entry><codeph>U+215B</codeph></entry>
-</row>
-<row>
-<entry>&#x215c;</entry>
-<entry><codeph>U+215C</codeph></entry>
-</row>
-<row>
-<entry>&#x215d;</entry>
-<entry><codeph>U+215D</codeph></entry>
-</row>
-<row>
-<entry>&#x215e;</entry>
-<entry><codeph>U+215E</codeph></entry>
-</row>
-<row>
-<entry>&#x2151;</entry>
-<entry><codeph>U+2151</codeph></entry>
-</row>
-<row>
-<entry>&#x2152;</entry>
-<entry><codeph>U+2152</codeph></entry>
-</row>
-</tbody>
-</tgroup>
-</table>
-</body>
+  <title>Fractions</title>
+  <body>
+    <p>Fractions, if present, are represented by their corresponding Unicode entities: </p>
+    <table id="table_qcm_f3d_b1b">
+      <tgroup cols="2">
+        <thead>
+          <row>
+            <entry>Character</entry>
+            <entry>Entity</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>½</entry>
+            <entry>
+              <codeph>U+00BD</codeph>
+            </entry>
+          </row>
+          <row>
+            <entry>⅓</entry>
+            <entry>
+              <codeph>U+2153</codeph>
+            </entry>
+          </row>
+          <row>
+            <entry>⅔</entry>
+            <entry>
+              <codeph>U+2154</codeph>
+            </entry>
+          </row>
+          <row>
+            <entry>¼</entry>
+            <entry>
+              <codeph>U+00BC</codeph>
+            </entry>
+          </row>
+          <row>
+            <entry>¾</entry>
+            <entry>
+              <codeph>U+00BE</codeph>
+            </entry>
+          </row>
+          <row>
+            <entry>⅕</entry>
+            <entry>
+              <codeph>U+2155</codeph>
+            </entry>
+          </row>
+          <row>
+            <entry>⅖</entry>
+            <entry>
+              <codeph>U+2156</codeph>
+            </entry>
+          </row>
+          <row>
+            <entry>⅗</entry>
+            <entry>
+              <codeph>U+2157</codeph>
+            </entry>
+          </row>
+          <row>
+            <entry>⅘</entry>
+            <entry>
+              <codeph>U+2158</codeph>
+            </entry>
+          </row>
+          <row>
+            <entry>⅙</entry>
+            <entry>
+              <codeph>U+2159</codeph>
+            </entry>
+          </row>
+          <row>
+            <entry>⅚</entry>
+            <entry>
+              <codeph>U+215A</codeph>
+            </entry>
+          </row>
+          <row>
+            <entry>⅐</entry>
+            <entry>
+              <codeph>U+2150</codeph>
+            </entry>
+          </row>
+          <row>
+            <entry>⅛</entry>
+            <entry>
+              <codeph>U+215B</codeph>
+            </entry>
+          </row>
+          <row>
+            <entry>⅜</entry>
+            <entry>
+              <codeph>U+215C</codeph>
+            </entry>
+          </row>
+          <row>
+            <entry>⅝</entry>
+            <entry>
+              <codeph>U+215D</codeph>
+            </entry>
+          </row>
+          <row>
+            <entry>⅞</entry>
+            <entry>
+              <codeph>U+215E</codeph>
+            </entry>
+          </row>
+          <row>
+            <entry>⅑</entry>
+            <entry>
+              <codeph>U+2151</codeph>
+            </entry>
+          </row>
+          <row>
+            <entry>⅒</entry>
+            <entry>
+              <codeph>U+2152</codeph>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </body>
 </topic>

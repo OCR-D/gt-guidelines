@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="level_3_0">
-    <title>Level 3</title>
-    
-
-<body><p>The diacritics are generally and exclusively regarded as one sign consisting of a basic sign and
+  <title>Level 3</title>
+  <body>
+    <p>The diacritics are generally and exclusively regarded as one sign consisting of a basic sign and
             a diacritic.</p>
-<p>If the diacritics exist as a single character, the appropriate code point from the standardized
+    <p>If the diacritics exist as a single character, the appropriate code point from the standardized
             coding tables (Unicode) is used. If no Unicode decoding is available as a single
             character, the character is mapped as a code point using communitynormalized encodings
             (MUFI) or encodings defined by the coordination project.</p>
-<p>Multiple signs are not combined to form a single sign.</p>
-</body>
-
-
-
+    <p>Multiple signs are not combined to form a single sign.</p>
+  </body>
 </topic>

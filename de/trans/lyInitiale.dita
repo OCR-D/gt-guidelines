@@ -1,97 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="lyInitiale">
-    <title>Initiale (drop-capital)</title>
-    <topic id="lyInitiale_textRegion"><title>TextRegion</title><body>
-<p>Initialen werden als spezielle <codeph>TextRegion</codeph> ausgezeichnet. Das gilt auch dann,
+  <title>Initiale (drop-capital)</title>
+  <topic id="lyInitiale_textRegion">
+    <title>TextRegion</title>
+    <body>
+      <p>Initialen werden als spezielle <codeph>TextRegion</codeph> ausgezeichnet. Das gilt auch dann,
             wenn sie stark graphisch verfremdet wurden. Sie erstrecken sich meistens über mehrere
             Zeilen und es ist überwiegend der erste Buchstabe eines Absatzes, der graphisch
             gestaltet oder farblich von der Schrift des Textes abgehoben wurde. In seltenen Fällen
             sind ganze Wörter als Initialen gestaltet und werden auch dann als solche erfasst.</p>
-<p><image href="images/lyInitiale.png" height="450" width="605" id="image_br1_hy3_r1b" scale="50"
-/></p>
-</body>
-<related-links>
-<link
-href="../pagexml/pagecontent_xsd_Complex_Type_pc_TextRegionType.dita#TextRegionType" format="dita"/>
-<link href="../pagexml/pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType"/>
-<link
-href="../pagexml/pagecontent_xsd_Simple_Type_pc_TextTypeSimpleType.dita#TextTypeSimpleType" format="dita"
-/>
-</related-links>
-</topic>
-    <topic id="lyInitiale_Relation"><title>Beziehung zwischen der Initiale und dem folgenden Paragraphen</title>
-        <body>
-            <p>Um die Beziehung von Initiale (<codeph>&lt;textRegion type="drop-cap"></codeph>) und
-                dem folgenden Paragraphen (<codeph>&lt;textRegion type="paragraph"></codeph>) zu
-                dokumentieren, ist das Element <codeph>&lt;Relations></codeph> zu verwenden. Nach
-                der Festlegung der <codeph>&lt;ReadingOrder></codeph> muss mit dem Element
-                    <codeph>&lt;Relations></codeph> die Beziehung zwischen den Regionen dargestellt
-                werden. </p><example id="relations">
-                <title>Relations</title>
-                <codeblock>        &lt;ReadingOrder>
-            &lt;OrderedGroup id="ro_1542737988725" caption="Regions reading order">
-                &lt;RegionRefIndexed index="1" regionRef="TextRegion_1476719248728_212"/>
-                &lt;RegionRefIndexed index="2" regionRef="r_7_1"/>
-                &lt;RegionRefIndexed index="3" regionRef="region_1476719221656_210"/>
-                &lt;RegionRefIndexed index="4" regionRef="region_1476719208569_209"/>
-                &lt;RegionRefIndexed index="5" regionRef="TextRegion_1476719753697_244"/>
-                &lt;RegionRefIndexed index="6" regionRef="r_13_1"/>
-                &lt;RegionRefIndexed index="7" regionRef="r_15_1"/>
+      <p>
+        <image href="images/lyInitiale.png" height="450" width="605" id="image_br1_hy3_r1b" scale="50"/>
+      </p>
+    </body>
+    <related-links>
+      <link href="../pagexml/pagecontent_xsd_Complex_Type_pc_TextRegionType.dita#TextRegionType" format="dita"/>
+      <link href="../pagexml/pagecontent_xsd_Complex_Type_pc_PageType.dita#PageType"/>
+      <link href="../pagexml/pagecontent_xsd_Simple_Type_pc_TextTypeSimpleType.dita#TextTypeSimpleType" format="dita"/>
+    </related-links>
+  </topic>
+  <topic id="lyInitiale_Relation">
+    <title>Beziehung zwischen der Initiale und dem folgenden Paragraphen</title>
+    <body>
+      <p>Um die Beziehung von Initiale (<codeph>&lt;textRegion type="drop-cap"&gt;</codeph>) und
+                dem folgenden Paragraphen (<codeph>&lt;textRegion type="paragraph"&gt;</codeph>) zu
+                dokumentieren, ist das Element <codeph>&lt;Relations&gt;</codeph> zu verwenden. Nach
+                der Festlegung der <codeph>&lt;ReadingOrder&gt;</codeph> muss mit dem Element
+                    <codeph>&lt;Relations&gt;</codeph> die Beziehung zwischen den Regionen dargestellt
+                werden. </p>
+      <example id="relations">
+        <title>Relations</title>
+        <codeblock>        &lt;ReadingOrder&gt;
+            &lt;OrderedGroup id="ro_1542737988725" caption="Regions reading order"&gt;
+                &lt;RegionRefIndexed index="1" regionRef="TextRegion_1476719248728_212"/&gt;
+                &lt;RegionRefIndexed index="2" regionRef="r_7_1"/&gt;
+                &lt;RegionRefIndexed index="3" regionRef="region_1476719221656_210"/&gt;
+                &lt;RegionRefIndexed index="4" regionRef="region_1476719208569_209"/&gt;
+                &lt;RegionRefIndexed index="5" regionRef="TextRegion_1476719753697_244"/&gt;
+                &lt;RegionRefIndexed index="6" regionRef="r_13_1"/&gt;
+                &lt;RegionRefIndexed index="7" regionRef="r_15_1"/&gt;
                 ...
-              &lt;/OrderedGroup>
-        &lt;/ReadingOrder>
-        &lt;Relations>
-             &lt;Relation id="rel1" type="join">
-                &lt;SourceRegionRef regionRef="region_1476719208569_209"/>
-                &lt;TargetRegionRef regionRef="TextRegion_1476719753697_244"/>
-            &lt;/Relation>
-        &lt;/Relations>
+              &lt;/OrderedGroup&gt;
+        &lt;/ReadingOrder&gt;
+        &lt;Relations&gt;
+             &lt;Relation id="rel1" type="join"&gt;
+                &lt;SourceRegionRef regionRef="region_1476719208569_209"/&gt;
+                &lt;TargetRegionRef regionRef="TextRegion_1476719753697_244"/&gt;
+            &lt;/Relation&gt;
+        &lt;/Relations&gt;
 
         ...
-        &lt;TextRegion type="drop-capital" id="region_1476719208569_209">
-            &lt;Coords points="202,421 264,421 264,511 202,511"/>
-            &lt;TextLine id="line_1476719868959_258">
-                &lt;Coords points="202,418 260,418 260,510 202,510"/>
-                &lt;Baseline points="205,512 260,512"/>
-                &lt;Word id="word_1476720774882_4">
-                    &lt;Coords points="204,419 258,419 258,511 204,511"/>
-                    &lt;TextEquiv>
-                        &lt;Unicode>P&lt;/Unicode>
-                    &lt;/TextEquiv>
-                &lt;/Word>
-                &lt;TextEquiv>
-                    &lt;Unicode>P&lt;/Unicode>
-                &lt;/TextEquiv>
-            &lt;/TextLine>
-            &lt;TextEquiv>
-                &lt;Unicode>P&lt;/Unicode>
-            &lt;/TextEquiv>
-        &lt;/TextRegion>
-        &lt;TextRegion type="paragraph" id="TextRegion_1476719753697_244">
-            &lt;Coords points="270,411 958,411 958,528 951,579 946,612 340,628 253,628 253,571 254,515"/>
-            &lt;TextLine id="tl_7" primaryLanguage="German">
-                &lt;Coords points="271,412 957,412 957,473 271,473"/>
-                &lt;Baseline points="271,460 957,460"/>
-                &lt;Word id="w_w1aab1c21b2b3b1ab1" language="Latin">
-                    &lt;Coords points="271,420 533,420 533,471 271,471"/>
-                    &lt;TextEquiv>
-                        &lt;Unicode>Harmacopœæ&lt;/Unicode>
-                    &lt;/TextEquiv>
-                    &lt;TextStyle fontFamily="Antiqua" fontSize="47.0"/>
-                &lt;/Word>
+        &lt;TextRegion type="drop-capital" id="region_1476719208569_209"&gt;
+            &lt;Coords points="202,421 264,421 264,511 202,511"/&gt;
+            &lt;TextLine id="line_1476719868959_258"&gt;
+                &lt;Coords points="202,418 260,418 260,510 202,510"/&gt;
+                &lt;Baseline points="205,512 260,512"/&gt;
+                &lt;Word id="word_1476720774882_4"&gt;
+                    &lt;Coords points="204,419 258,419 258,511 204,511"/&gt;
+                    &lt;TextEquiv&gt;
+                        &lt;Unicode&gt;P&lt;/Unicode&gt;
+                    &lt;/TextEquiv&gt;
+                &lt;/Word&gt;
+                &lt;TextEquiv&gt;
+                    &lt;Unicode&gt;P&lt;/Unicode&gt;
+                &lt;/TextEquiv&gt;
+            &lt;/TextLine&gt;
+            &lt;TextEquiv&gt;
+                &lt;Unicode&gt;P&lt;/Unicode&gt;
+            &lt;/TextEquiv&gt;
+        &lt;/TextRegion&gt;
+        &lt;TextRegion type="paragraph" id="TextRegion_1476719753697_244"&gt;
+            &lt;Coords points="270,411 958,411 958,528 951,579 946,612 340,628 253,628 253,571 254,515"/&gt;
+            &lt;TextLine id="tl_7" primaryLanguage="German"&gt;
+                &lt;Coords points="271,412 957,412 957,473 271,473"/&gt;
+                &lt;Baseline points="271,460 957,460"/&gt;
+                &lt;Word id="w_w1aab1c21b2b3b1ab1" language="Latin"&gt;
+                    &lt;Coords points="271,420 533,420 533,471 271,471"/&gt;
+                    &lt;TextEquiv&gt;
+                        &lt;Unicode&gt;Harmacopœæ&lt;/Unicode&gt;
+                    &lt;/TextEquiv&gt;
+                    &lt;TextStyle fontFamily="Antiqua" fontSize="47.0"/&gt;
+                &lt;/Word&gt;
                 ...
-            &lt;/Textline>
-        &lt;/TextRegion>
+            &lt;/Textline&gt;
+        &lt;/TextRegion&gt;
                 </codeblock>
-                <image href="images/lyRelationen.jpg" id="image_pxh_vmf_wfb"/></example>
-            
-        </body>
-        
-        <related-links>
-            <link
-                href="../pagexml/pagecontent_xsd_Complex_Type_pc_RelationsType.dita"
-                format="dita" />
-        </related-links>
-    </topic>
-    </topic>
+        <image href="images/lyRelationen.jpg" id="image_pxh_vmf_wfb"/>
+      </example>
+    </body>
+    <related-links>
+      <link href="../pagexml/pagecontent_xsd_Complex_Type_pc_RelationsType.dita" format="dita"/>
+    </related-links>
+  </topic>
+</topic>
