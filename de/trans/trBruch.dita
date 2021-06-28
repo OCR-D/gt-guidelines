@@ -5,12 +5,12 @@
     <body>
         <p>Bei der Transkription von Brüchen sind die Beschränkungen des Unicode mit eigenständigen
             Zeichen zu beachten. Häufig gebrauchte Brüche besitzen entsprechende Zeichenkodierungen
-            (z. B. &#xbd;). Ist der Bruch nicht in den standiersierten Unicodetabellen zu finden,
+            (z. B. &#xbd;). Ist der Bruch nicht in den standardisierten Unicodetabellen zu finden,
             ist eine Kombination aus mehreren Zeichen notwendig.</p>
-        <note importance="high">Es wird empfohlen Brüche einheitlich zu kodieren. Die
+        <note importance="recommended">Es wird empfohlen Brüche einheitlich zu kodieren. Die
             standardisierten Unicodekodierungen sind zu nutzen und nicht durch Kombinationen zu
             ersetzen. Notwendige Kombinationen bestehen aus normalen Zeichen und werden durch den
-            Bruchstrich  ⁄  [<codeph>&amp;#x2044;</codeph>] in Zähler und Nenner von einander
+            Bruchstrich  <b> ⁄</b> <term><text>&amp;#x2089;</text></term> in Zähler und Nenner von einander
             getrennt. Eine Verwendung eines Slash als Bruchstrich und hoch- und tiefgestellten
             Zahlen ist nicht zulässig.</note>
         
@@ -19,110 +19,92 @@
         <p>Brüche werden, sofern vorhanden, mittels ihrer entsprechenden Kodierungen oder Zeichen
             wiedergegeben: </p>
         <table id="table_qcm_f3d_b1b">
-            <tgroup cols="3">
+            <tgroup cols="1">
                     <thead>
                         <row>
                             <entry>Zeichen oder Vorlage</entry>
-                            <entry>Entität</entry>
-                            <entry/>
                         </row>
                     </thead>
                     <tbody>
                         <row>
-                            <entry>&#xbd;</entry>
-                            <entry><codeph>U+00BD</codeph></entry>
-                            <entry/>
+                            <entry>&#x00BD;<term>Bruch einhalb <text>dezimal: &amp;#189;</text>
+                                    <text>hex: &amp;#x00BD;</text></term></entry>
                         </row>
                         <row>
-                            <entry>&#x2153;</entry>
-                            <entry><codeph>U+2153</codeph></entry>
-                            <entry/>
+                            <entry>&#x2153;<term>Bruch eindrittel <text>dezimal: &amp;#8531;</text>
+                                    <text>hex: &amp;#x2153;</text></term></entry>
                         </row>
                         <row>
-                            <entry>&#x2154;</entry>
-                            <entry><codeph>U+2154</codeph></entry>
-                            <entry/>
+                            <entry>&#x2154;<term>Bruch zweidrittel <text>dezimal: &amp;#8532;</text>
+                                    <text>hex: &amp;#x2154;</text></term></entry>
                         </row>
                         <row>
-                            <entry>&#xbc;</entry>
-                            <entry><codeph>U+00BC</codeph></entry>
-                            <entry/>
+                            <entry>&#xbc;<term>Bruch einviertel <text>dezimal: &amp;#188;</text>
+                                    <text>hex: &amp;#x00BC;</text></term></entry>
                         </row>
                         <row>
-                            <entry><image href="images/trBruch5.png" id="image_utd_fng_bqb"
-                                /></entry>
-                            <entry>1U+00BC</entry>
-                            <entry>1&#xbc;</entry>
+                            <entry><image href="images/trBruch5.png" id="image_utd_fng_bqb"/>
+                                    1&#xbc;<term>Bruch ein und einviertel <text>dezimal:
+                                        1&amp;#188;</text>
+                                    <text>hex: 1&amp;#x00BC;</text></term></entry>
                         </row>
                         <row>
-                            <entry>&#xbe;</entry>
-                            <entry><codeph>U+00BE</codeph></entry>
-                            <entry/>
+                            <entry>&#xbe;<term>Bruch dreiviertel <text>dezimal: &amp;#190;</text>
+                                    <text>hex: &amp;#x00BE;</text></term></entry>
                         </row>
                         <row>
-                            <entry>&#x2155;</entry>
-                            <entry><codeph>U+2155</codeph></entry>
-                            <entry/>
+                            <entry>&#x2155;<term>Bruch einfünftel <text>dezimal: &amp;#8533;</text>
+                                    <text>hex: &amp;#x2155;</text></term></entry>
                         </row>
                         <row>
-                            <entry>&#x2156;</entry>
-                            <entry><codeph>U+2156</codeph></entry>
-                            <entry/>
+                            <entry>&#x2156;<term>Bruch zweifünftel <text>dezimal: &amp;#8534;</text>
+                                    <text>hex: &amp;#x2156;</text></term></entry>
                         </row>
                         <row>
-                            <entry>&#x2157;</entry>
-                            <entry><codeph>U+2157</codeph></entry>
-                            <entry/>
+                            <entry>&#x2157;<term>Bruch dreifünftel <text>dezimal: &amp;#8535;</text>
+                                    <text>hex: &amp;#x2157;</text></term></entry>
                         </row>
                         <row>
-                            <entry>&#x2158;</entry>
-                            <entry><codeph>U+2158</codeph></entry>
-                            <entry/>
+                            <entry>&#x2158;<term>Bruch vierfünftel <text>dezimal: &amp;#8536;</text>
+                                    <text>hex: &amp;#x2158;</text></term></entry>
                         </row>
                         <row>
-                            <entry>&#x2159;</entry>
-                            <entry><codeph>U+2159</codeph></entry>
-                            <entry/>
+                            <entry>&#x2159;<term>Bruch einsechstel <text>dezimal: &amp;#8537;</text>
+                                    <text>hex: &amp;#x2159;</text></term></entry>
                         </row>
                         <row>
-                            <entry>&#x215a;</entry>
-                            <entry><codeph>U+215A</codeph></entry>
-                            <entry/>
+                            <entry>&#x215a;<term>Bruch fünfsechstel <text>dezimal:
+                                        &amp;#8538;</text>
+                                    <text>hex: &amp;#x215A;</text></term></entry>
                         </row>
                         <row>
-                            <entry>&#x2150;</entry>
-                            <entry><codeph>U+2150</codeph></entry>
-                            <entry/>
+                            <entry>&#x2150;<term>Bruch einsiebtel <text>dezimal: &amp;#8528;</text>
+                                    <text>hex: &amp;#x2150;</text></term></entry>
                         </row>
                         <row>
-                            <entry>&#x215b;</entry>
-                            <entry><codeph>U+215B</codeph></entry>
-                            <entry/>
+                            <entry>&#x215b;<term>Bruch einachtel <text>dezimal: &amp;#8539;</text>
+                                    <text>hex: &amp;#x215B;</text></term></entry>
                         </row>
                         <row>
-                            <entry>&#x215c;</entry>
-                            <entry><codeph>U+215C</codeph></entry>
-                            <entry/>
+                            <entry>&#x215c;<term>Bruch dreiachtel <text>dezimal: &amp;#8540;</text>
+                                    <text>hex: &amp;#x215C;</text></term></entry>
                         </row>
                         <row>
-                            <entry>&#x215d;</entry>
-                            <entry><codeph>U+215D</codeph></entry>
-                            <entry/>
+                            <entry>&#x215d;<term>Bruch fünfachtel <text>dezimal: &amp;#8541;</text>
+                                    <text>hex: &amp;#x215D;</text></term></entry>
                         </row>
                         <row>
-                            <entry>&#x215e;</entry>
-                            <entry><codeph>U+215E</codeph></entry>
-                            <entry/>
+                            <entry>&#x215e;<term>Bruch siebenachtel <text>dezimal:
+                                        &amp;#8542;</text>
+                                    <text>hex: &amp;#x215E;</text></term></entry>
                         </row>
                         <row>
-                            <entry>&#x2151;</entry>
-                            <entry><codeph>U+2151</codeph></entry>
-                            <entry/>
+                            <entry>&#x2151;<term>Bruch einneuntel <text>dezimal: &amp;#8529;</text>
+                                    <text>hex: &amp;#x2151;</text></term></entry>
                         </row>
                         <row>
-                            <entry>&#x2152;</entry>
-                            <entry><codeph>U+2152</codeph></entry>
-                            <entry/>
+                            <entry>&#x2152;<term>Bruch einzehntel <text>dezimal: &amp;#8530;</text>
+                                    <text>hex: &amp;#x2152;</text></term></entry>
                         </row>
                     </tbody>
                 </tgroup>
@@ -132,19 +114,18 @@
             <title>Kombinierte Brüche (mehrere Zeichen)</title>
             <p>Kombinierte Brüche bestehen aus mehreren Zeichen. Der Zähler und Nenner sind als
                 normale Zeichen zu transkribieren. Getrennt werden diese Zeichen durch einen
-                Bruchstrich. Dieser ist mit ⁄ <term><text>&amp;#x2089;</text></term> zu kodieren.</p>
+                Bruchstrich. Dieser ist mit <b> ⁄</b> <term><text>&amp;#x2044;</text></term> zu
+                kodieren.</p>
             <table frame="all" rowsep="1" colsep="1" id="table_e5s_2zf_bqb">
                 <title/>
-                <tgroup cols="4">
+                <tgroup cols="3">
                     <colspec colname="c1" colnum="1" colwidth="1*"/>
                     <colspec colname="newCol2" colnum="2" colwidth="1*"/>
                     <colspec colname="c2" colnum="3" colwidth="1*"/>
-                    <colspec colname="c3" colnum="4" colwidth="1*"/>
                     <thead>
                         <row>
                             <entry>Vorlage</entry>
                             <entry>Zeichen</entry>
-                            <entry/>
                             <entry>Kommentar</entry>
                         </row>
                     </thead>
@@ -152,35 +133,31 @@
                         <row>
                             <entry><image href="images/trBruch1.png" id="image_hlk_2jg_bqb"
                                 /></entry>
-                            <entry>dy ⁄ dx</entry>
-                            <entry/>
+                            <entry>dy⁄dx</entry>
                             <entry/>
                         </row>
                         <row>
                             <entry><image href="images/trBruch2.png" id="image_m3v_jjg_bqb"
                                 /></entry>
-                            <entry>270 ⁄ 19</entry>
-                            <entry/>
+                            <entry>270⁄19</entry>
                             <entry/>
                         </row>
                         <row>
                             <entry><image href="images/trBruch3.png" id="image_ojt_hmg_bqb"
                                 /></entry>
-                            <entry>2 ⁄ 1</entry>
-                            <entry/>
+                            <entry>2⁄1</entry>
                             <entry/>
                         </row>
                         <row>
                             <entry><image href="images/trBruch4.png" id="image_pjb_4mg_bqb"
                                 /></entry>
-                            <entry>2+ ⁄ 1</entry>
-                            <entry/>
+                            <entry>2+⁄1</entry>
                             <entry/>
                         </row>
                         <row>
                             <entry>⁄</entry>
-                            <entry>⁄</entry>
-                            <entry>&amp;#x2089;</entry>
+                            <entry>⁄<term>Bruchstrich <text>dezimal: &amp;#8260;</text>
+                                    <text>hex: &amp;#x2044;</text></term></entry>
                             <entry>Bruchstrich</entry>
                         </row>
                     </tbody>
