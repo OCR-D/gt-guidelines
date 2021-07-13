@@ -282,6 +282,40 @@ caption {
   text-align: left;
 }
 
+/****************************************
+ToolTips and Highlight Link
+****************************************/
+
+.term {
+  visibility: hidden;
+  width: auto;
+  background-color: gray;
+  color: #fff;
+  text-align: left;
+  border-radius: 6px;
+  padding: 5px 5px;
+
+  /* Position the tooltip */
+  position: absolute;
+  margin: -15px 0 0 10px;
+  z-index: 1;
+}
+
+.entry:hover .term {
+  visibility: visible;
+}	 
+
+span.tip {
+    display:block;
+}
+
+.entry:target .term {
+            border: 2px solid #D4D4D4;
+            background-color: orange;
+            color: white;
+         }
+
+
 
 
 /****************************************
