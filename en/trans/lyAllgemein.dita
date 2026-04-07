@@ -8,23 +8,36 @@
                 pages contain different regions with different structures and content. In
                 particular, the TextRegion can be specified in more detail as a column title,
                 heading, paragraph region, and so on... Within these regions, the individual texts
-                can show typographical features that can also be labelled..</p>The layout and
-            structure analysis should be done in the proposed steps:</context>
+                can show typographical features that can also be labelled.. </p>
+            
+            <p>Depending on the <xref href="structur_gtlevel1.dita">level of capture (Structure GT
+                    Level)</xref>, layout and structure analysis should generally include the
+                following:</p></context>
+        
+       
+        
+        
+        
+        
         <steps>
+<step>
+                <cmd>Marking of the <xref href="lySeitentypen.dita">page types</xref></cmd>
+            </step>
             <step>
-                <cmd>Marking of the type area</cmd>
+                <cmd>Marking of the <xref href="lyRand.dita">page margin</xref> as well as looking at the <xref href="lySatzspiegel.dita">print space</xref>.</cmd>
             </step>
 <step>
-                <cmd>Marking of the page type</cmd>
-            </step>
-<step>
-                <cmd>Marking of the page region</cmd>
+                <cmd>Marking of the <xref href="lyTextregionen.dita">page regions</xref></cmd>
             </step>
 <step>
                 <cmd>Marking of particular regions on a page</cmd>
             </step>
 <step>
-                <cmd>Marking of typographical particularities</cmd>
+                <cmd>Marking of <xref href="lyTypographie.dita">typographical
+                    peculiarities</xref></cmd>
+            </step>
+            <step>
+                <cmd>Marking of <xref href="lyLeserichtung.dita">reading order</xref></cmd>
             </step>
         </steps>
     </taskbody>

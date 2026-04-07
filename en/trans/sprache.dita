@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="sprache">
+    <title>Language</title>
+    <body>
+        <p>The language can be specified at the following layers, which are represented by
+            corresponding elements.</p>
+
+<p><table frame="all" rowsep="1" colsep="1" id="table_r34_hly_l5b">
+                <title>Possibilities of language specification related to layers or PAGE XML
+                    elements</title>
+                <tgroup cols="3">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1*"/>
+                    <colspec colname="newCol3" colnum="3" colwidth="1*"/>
+                    <thead>
+                        <row>
+                            <entry>Layer</entry>
+                            <entry>Element</entry>
+                            <entry>Attributes</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>Page</entry>
+                            <entry>Page</entry>
+                            <entry><i>@primaryLanguage</i> and <i>@secondaryLanguage</i></entry>
+                        </row>
+                        <row>
+                            <entry>Region</entry>
+                            <entry>TextRegion</entry>
+                            <entry><i>@primaryLanguage</i> and <i>@secondaryLanguage</i></entry>
+                        </row>
+                        <row>
+                            <entry>Line</entry>
+                            <entry>TextLine</entry>
+                            <entry><i>@primaryLanguage</i></entry>
+                        </row>
+                        <row>
+                            <entry>Word</entry>
+                            <entry>Word</entry>
+                            <entry><i>@language</i></entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table></p>
+        <p>A distinction is made between the <i>language</i>, <i>primary language</i> (first or main
+            language) and <i>secondary language</i> (second or secondary language). <i>Language</i>,
+                <i>primary language</i> and <i>secondary language</i> are attributes (see <xref
+                href="#sprache/table_r34_hly_l5b">table</xref>).</p>
+        <p>The values of the attributes are given by the PAGE XML schema. They correspond to
+                    <b><xref href="https://de.wikipedia.org/wiki/ISO_639" format="html"
+                    scope="external">ISO 639</xref></b> for the identification of languages. Not an
+            abbreviation is given, rather the language designation standardized by ISO.</p>
+        <note type="remember">Because the language specifications are possible on different layers,
+            the following rule applies, subordinate layers have priority over the specification of
+            the higher layers.</note>
+        
+<section>
+    <title>Page</title>
+            <ul id="ul_lmv_hsz_l5b">
+                <li><codeph>&lt;Page primaryLanguage="German" secondaryLanguage="Latin"></codeph>
+                    <fig>
+                        <title>Example page with two languages</title>
+                        <desc><xref scope="external"
+                                href="https://github.com/tboenig/gt-guideline-examples/blob/main/data/nn_auszug_1701/GT-PAGE/nn_auszug_1701_061.xml"
+                                format="html">nn_auszug_1701_061.xml</xref>
+                        </desc>
+                        <image href="images/sprache_page.png" id="image_bzf_cry_l5b" scale="50"/>
+                    </fig>
+                    <note type="remember">On this page only two languages are used, for this reason
+                        the primary and secondary language (<i>@primaryLanguage</i>,
+                            <i>@secondaryLanguage</i>) can be specified.</note></li>
+                <li><codeph>&lt;Page primaryLanguage="German"></codeph><fig>
+                        <title>Example page with four languages</title>
+                        <desc><xref scope="external"
+                                href="https://github.com/tboenig/gt-guideline-examples/blob/main/data/zesen_assenat_1670/GT-PAGE/zesen_assenat_1670_0382.xml"
+                                format="html">zesen_assenat_1670_0382.xml</xref></desc>
+                        <image href="images/sprache_page2.png" id="image_td2_4sz_l5b" scale="50"/>
+                    </fig><note type="remember">Four languages (German, Latin, Greek, Hebrew) are
+                        used on this page. The main language is German, it is indicated. The other
+                        languages are specified at the word layer. If word segmentation is not
+                        available, it is recommended to specify the language in the METS dataset
+                        (GT-labelling). </note></li></ul>
+            
+</section>
+        <section>
+            <title>TextRegion : Region</title>
+            <ul id="ul_obx_l5z_l5b">
+                <li><codeph>&lt;TextRegion primaryLanguage="Latin"></codeph>
+                    <fig>
+                        <title>TextRegion with one language </title>
+                        <desc><xref scope="external"
+                                href="https://github.com/tboenig/gt-guideline-examples/blob/main/data/nn_auszug_1701/GT-PAGE/nn_auszug_1701_061.xml"
+                                format="html">nn_auszug_1701_061.xml</xref></desc>
+                        <image href="images/sprache_region.png" id="image_skm_ksy_l5b" scale="40"/>
+                    </fig></li>
+                    <li><codeph>&lt;TextRegion primaryLanguage="German"
+                        secondaryLanguage="Latin"></codeph><fig>
+                        <title>TextRegion with two languages</title>
+                        <desc><xref scope="external"
+                                href="https://github.com/tboenig/gt-guideline-examples/blob/main/data/nn_auszug_1701/GT-PAGE/nn_auszug_1701_061.xml"
+                                format="html">nn_auszug_1701_061.xml</xref></desc>
+                        <image href="images/sprache_region2.png" id="image_axl_hsy_l5b" scale="40"/>
+                    </fig></li>
+            </ul>
+        </section>
+        <section>
+            <title>TextLine : Line</title>
+            <ul id="ul_qnl_jty_l5b">
+                <li><codeph>&lt;TextLine primaryLanguage="Latin"></codeph>
+                    <fig>
+                        <title>TextLine with one language</title>
+                        <desc><xref scope="external"
+                                href="https://github.com/tboenig/gt-guideline-examples/blob/main/data/nn_auszug_1701/GT-PAGE/nn_auszug_1701_061.xml"
+                                format="html">nn_auszug_1701_061.xml</xref></desc>
+                        <image href="images/sprache_line1.png" id="image_td3_bsy_l5b" scale="40"/>
+                    </fig>
+                </li>
+                <li><codeph>&lt;TextLine primaryLanguage="Latin"></codeph>
+                    <fig>
+                        <title>TextLine with two languages</title>
+                        <desc><xref scope="external"
+                                href="https://github.com/tboenig/gt-guideline-examples/blob/main/data/nn_auszug_1701/GT-PAGE/nn_auszug_1701_061.xml"
+                                format="html">nn_auszug_1701_061.xml</xref></desc>
+                        <image href="images/sprache_line.png" id="image_mvz_sqy_l5b" scale="40"/>
+                    </fig>
+                    <note type="remember">In the example it can be seen that both German language
+                        and Latin language words are present in the line. Only the main language
+                            <i>@primaryLanguage</i> is specified. The specification of a
+                            <i>@secondaryLanguage</i> is not possible. </note></li>
+            </ul>
+        </section>
+        <section>
+            <title>Word</title>
+            <p><codeph>&lt;Word language="Latin"></codeph></p>
+            <fig>
+                <title>Word in Latein</title>
+                <desc><xref scope="external"
+                        href="https://github.com/tboenig/gt-guideline-examples/blob/main/data/nn_auszug_1701/GT-PAGE/nn_auszug_1701_061.xml"
+                        format="html">nn_auszug_1701_061.xml</xref></desc>
+                <image href="images/sprache_word.png" id="image_ekp_kry_l5b" scale="30"/>
+            </fig>
+        </section>
+        
+    </body>
+</topic>

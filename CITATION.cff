@@ -1,0 +1,61 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: OCR-D-Ground Truth Richtlinien
+message: >-
+  If you use this dataset, please cite it using the metadata
+  from this file.
+type: dataset
+authors:
+  - given-names: Matthias
+    family-names: Boenig
+    affiliation: Berlin-Brandenburg Academy of Sciences and Humanities
+    orcid: 'https://orcid.org/0000-0003-4615-4753'
+  - family-names: Haaf
+    given-names: Susanne
+    orcid: 'https://orcid.org/0000-0002-4809-219X'
+    affiliation: Berlin-Brandenburg Academy of Sciences and Humanities
+  - family-names: Thomas
+    given-names: Christian
+    affiliation: Berlin-Brandenburg Academy of Sciences and Humanities
+    orcid: 'https://orcid.org/0000-0002-1761-0222'
+  - family-names: Wiegand
+    given-names: Frank
+    affiliation: Berlin-Brandenburg Academy of Sciences and Humanities
+    orcid: 'https://orcid.org/0000-0002-1096-3957'
+  - family-names: Neudecker
+    given-names: Clemens
+    affiliation: Staatsbibliothek zu Berlin
+    orcid: 'https://orcid.org/0000-0001-5293-8322'
+  - family-names: Federbusch
+    given-names: Maria
+    affiliation: Staatsbibliothek zu Berlin
+    orcid: 'https://orcid.org/0000-0002-1126-5763'
+repository-code: 'https://github.com/OCR-D/gt-guidelines'
+url: 'https://ocr-d.de/en/gt-guidelines/trans/'
+abstract: >-
+  The OCR-D-Ground-Truth-Guidelines contain a format
+  documentation of the existing Ground Truth provided by
+  OCR-D and can be used as instructions for the compilation
+  of further Ground Truth. With this standardisation, Ground
+  Truth can be technically validated. Furthermore, existing
+  transcriptions can be checked on the basis of this set of
+  rules and, if necessary, converted into Ground Truth data.
+
+
+  The data format of the OCR-D-Ground-Truth is PAGE-XML.
+  This format was initially developed by the PRImA Research
+  Lab at the University of Salford Greater Manchester and
+  fundamentally extended within the EU project IMPACT. It is
+  currently managed by the PRImA Research Lab. In order to
+  ensure further development and maintenance of this format,
+  a PAGE-XML board was created on the initiative of OCR-D.
+keywords:
+  - OCR
+  - Guidelines
+  - Ground Truth
+  - Page-XML
+  - OCR-D
+license: CC-BY-SA-4.0
+

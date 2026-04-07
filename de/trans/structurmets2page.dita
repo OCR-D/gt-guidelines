@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="structurmets2page">
-    <title>Struktur-Konkordanz METS und PAGE</title>
+    <title>Struktur-Konkordanz METS und PAGE-XML</title>
     
     <body>
         <p>Mit METS werden vor allem (Logische)-Strukturen eines Dokumentes abgebildet. Bei einer
@@ -10,8 +10,8 @@
             im Abschnitt <codeph>&lt;mets:structMap TYPE="LOGICAL"></codeph> werden die Kapitel oder
             Abschnitte beginnend mit den Überschriften der Kapitel oder Abschnitte eines
             digitalisierten Dokumentes (<codeph>&lt;mets:div TYPE="..." LABEL="[Text der
-                Überschrift]"/></codeph>) aufgelistet. Im PAGE-Standard ist nur das Element mit dem
-            Type-Attribut-Wert <codeph>heading</codeph>
+                Überschrift]"/></codeph>) aufgelistet. Im PAGE-XML-Standard ist nur das Element mit
+            dem Type-Attribut-Wert <codeph>heading</codeph>
             <codeph>&lt;TextRegion type="heading"></codeph> für die Dokumentation der
             Logischen-Strukturierung dafür vorgesehen. Eine Unterscheidung zwischen spezifischen
             Kapitel kann nur mit dem spezifischen Wert im custom-Attribut dokumentiert werden.</p>
@@ -26,7 +26,7 @@
 <thead>
     <row>
         <entry namest="col1" nameend="col3">METS</entry>
-        <entry>PAGE</entry>
+        <entry>PAGE-XML</entry>
     </row>
     <row>
         <entry>Beschreibung</entry>

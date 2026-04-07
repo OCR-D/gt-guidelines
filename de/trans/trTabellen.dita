@@ -2,22 +2,118 @@
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="trTabellen">
     <title>Tabellen</title>
+    <shortdesc>Die Erstellung und Einschätzung von GT der Tabellen umfasst, setzt voraus, dass vorhandene 
+        Tabellen als solche erkannt, definiert und zielorientiert transkribiert werden. Die Anwendung der Level soll helfen bedarfsgerechten GT 
+        zu erstellen oder vorhandenen GT in seiner Funktion und Anwendung einzuschätzen.</shortdesc>
     <body>
-<p>Die Erfassung des Textes in Tabellen erfolgt grundsätzlich vorlagengetreu im Unicode-Format
-(Kodierung in UTF-8) des zum Zeitpunkt der Erfassung gültigen Unicode-Standards. Die Schreibung von
-Zeichen, die nicht auf der Tastatur abgebildet sind, erfolgt entweder </p>
-<ul id="ul_ynb_lcs_b1b">
-<li>als Unicode Hexadezimal-Entität oder </li>
-<li>als Zeichen.</li>
-</ul>
-<p>Eine Mischung von verschiedenen Unicode-Schreibungen ist zu vermeiden. Auf modernisierende
-Veränderungen ist zu verzichten, sowie Druckfehler sind zu übernehmen.</p>
-<p>Ausnahmen und Abweichungen davon werden ausführlich in diesem Dokument besprochen.</p>
-<p>Die Struktur der Tabelle wird als Attributwerte im Element <b><xref
-href="../pagexml/pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_TableRegion" format="dita"
->TableRegion</xref></b> angegeben. Sie dazu die Dokumentation des PageXML-Formates.</p>
+        <p></p>
+        <bodydiv outputclass="nav-pills">
+        <section>
+                <title>Merkmale</title>
+                <p>Tabellen können an folgenden <b>Merkmalen</b> erkannt werden: <ul id="ul_sdh_5sq_wxb">
+                <li>an der Ausrichtung des Textes oder der Textblöcke in Zeilen (waagerecht) und
+                    Spalten (senkrecht).</li>
+                <li>Zeilen und Spalten werden ausgerichtet.</li>
+                <li>Zeilen und Spalten können durch Linien (Separatoren) voneinander getrennt
+                    werden, so ist ein Tabellen-Gitter sichtbar.</li>
+                <li>der Inhalt der ersten Zeile einer Tabelle kann typographisch hervorgehoben sein
+                        und bezeichnet den Inhalt der Spalten, diese Zeile bildet in diesem Fall den
+                        Tabellenkopf und kann auch als Kopfzeile bezeichnet werden.</li>
+            </ul></p>
+            </section><section>
+                <title>Zielvorstellungen und Level</title>
+                <p>Der GT mit Tabellen, kann sich nach unterschiedlichen Zielvorstellungen für den Gebrauch sowie
+            die verwendeten Be- und Verarbeitungswerkzeuge des GT richten. Aus diesem Grund stehen
+            unterschiedliche Level der Erfassung zur Verfügung.</p>
+                <p><table id="simpletable_ikn_ykp_wxb"><title>Übersicht über die Erfassungslevel von Tabellen</title>
+                    <tgroup cols="5">
+                        <colspec colname="c1" colwidth="1*"/>
+                        <colspec colname="c2" colwidth="1*"/>
+                        <colspec colname="c3" colwidth="1*"/>
+                        <colspec colname="c4" colwidth="1*"/>
+                        <colspec colname="c5" colwidth="1*"/>
+                        <thead>
+                            <row>
+                                <entry>Ziel</entry>
+                                <entry>Kommentar</entry>
+                                <entry>GT-Schwerpunkt</entry>
+                                <entry>Separator</entry>
+                                <entry>Level</entry>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row>
+                                <entry>nur Texterkennung, <ul id="ul_irg_clp_wxb">
+                                    <li>LSTM-geeignete Zeilensegmentierung (auch über Spalten
+                                        hinweg)</li>
+                                </ul></entry>
+                                <entry>sparse text</entry>
+                                <entry>OCR-Training</entry>
+                                <entry>ohne</entry>
+                                <entry>1</entry>
+                            </row>
+                            <row>
+                                <entry>Texterkennung mit Kontext,<ul id="ul_kgx_clp_wxb">
+                                    <li>Tabellen als <codeph>TableRegion</codeph>
+                                        gekennzeichnet</li>
+                                    <li>innere Struktur wird ausschließlich mit
+                                        <codeph>TextRegion</codeph> gekennzeichnet</li>
+                                </ul></entry>
+                                <entry>table detection</entry>
+                                <entry>OCR-Training</entry>
+                                <entry>global</entry>
+                                <entry>2</entry>
+                            </row>
+                            <row>
+                                <entry>Texterkennung mit Kontext und Struktur<ul id="ul_ut4_dlp_wxb">
+                                    <li>Tabellen als <codeph>TableRegion</codeph>
+                                        gekennzeichnet</li>
+                                    <li>Zeilen und Zellen mit <codeph>Roles</codeph> und
+                                        <codeph>TableCellRole</codeph></li>
+                                    <li>Vergabe und Verwendung der Attribute:<ul id="ul_vt4_dlp_wxb">
+                                        <li><codeph>rows</codeph> und
+                                            <codeph>columns</codeph></li>
+                                        <li><codeph>rowIndex</codeph> und
+                                            <codeph>columnIndex</codeph></li>
+                                    </ul></li>
+                                </ul></entry>
+                                <entry>table structure</entry>
+                                <entry>OLR-Evaluierung</entry>
+                                <entry>global/lokal?</entry>
+                                <entry>3</entry>
+                            </row>
+                            <row>
+                                <entry>Texterkennung mit Kontext und Struktur und Semantik, d.h. zus.
+                                    <codeph>@header</codeph> und rekursive Tabellen, sodaß jeweils
+                                    homogen (<codeph>Grid</codeph>)</entry>
+                                <entry>full table structure</entry>
+                                <entry/>
+                                <entry>lokal-rekursiv</entry>
+                                <entry>4</entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table></p>
+            </section>
+        <section>
+            <title>Erfassung des Tabelleninhaltes</title>
+            <p>Grundsätzlich werden die Inhalte von Tabellen vorlagengetreu im Unicode-Format
+                (Kodierung in UTF-8) des zum Zeitpunkt der Erfassung gültigen Unicode-Standards erfasst. Die Schreibung von
+                Zeichen, die nicht auf der Tastatur abgebildet sind, erfolgt entweder </p>
+            <ul id="ul_ynb_lcs_b1b">
+                <li>als Unicode Hexadezimal-Entität oder Zeichen.</li>
+                <li>ebenfalls sind die Transkriptions-Level zu beachten.</li>
+            </ul>
+            <p>Eine Mischung von verschiedenen Unicode-Schreibungen ist zu vermeiden. Auf modernisierende
+                Veränderungen ist zu verzichten, sowie Druckfehler sind zu übernehmen. </p>
+        </section></bodydiv>
+        
+        
+
+        
 </body>
 <related-links>
 <link href="../pagexml/pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_TextRegion" format="dita"/>
+    <link href="../pagexml/pagecontent_xsd_Complex_Type_pc_RegionType.dita#RegionType_TableRegion" format="dita"/>
 </related-links>
 </topic>

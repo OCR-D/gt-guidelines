@@ -9,13 +9,13 @@
    
     <xsl:template match="topic">
         {"ruleset":[
-        <xsl:apply-templates/>
+        <xsl:apply-templates select="//tbody"/>
         ]}
     </xsl:template>
     
 <xsl:template match="tbody">
     <xsl:for-each select="row[@product='ruleset']">
-        {"rule": ["<xsl:value-of select="entry[2]/text()[normalize-space()]"/>","<xsl:value-of select="entry[3]/text()[normalize-space()]"/>","<xsl:value-of select="entry[4]/text()[normalize-space()]"/>"], "type": "level"}
+        {"rule": ["<xsl:value-of select="entry[2]/text()[normalize-space()]"/>","<xsl:value-of select="entry[3]/text()[normalize-space()]"/>","<xsl:value-of select="entry[4]/text()[normalize-space()]"/>"], "type": "level"}<xsl:if test="position()!=last()"><xsl:text>,</xsl:text></xsl:if>
     </xsl:for-each>
 </xsl:template>
     

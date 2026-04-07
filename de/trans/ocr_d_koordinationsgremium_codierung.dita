@@ -25,27 +25,35 @@ format="pdf" scope="external"/></p>
 <colspec colnum="6" colname="col6"/>
 <colspec colnum="7" colname="col7"/>
 <colspec colnum="8" colname="col8"/>
-<tbody>
-<row>
-<entry/>
-<entry namest="col2" nameend="col4"><b>Pre-composed Character (used in Aletheia)</b></entry>
-<entry/>
-<entry/>
-<entry namest="col7" nameend="col8">
-<p><b>Decomposed Character </b></p>
-<p><b>(only for reference)</b></p>
-</entry>
-</row>
-<row>
-<entry><b>Glyph </b></entry>
-<entry><b>Unicode </b></entry>
-<entry><b>Hex </b></entry>
-<entry><b>Decimal </b></entry>
-<entry><b>Description </b></entry>
-<entry><b>Origin</b></entry>
-<entry><b>Base </b></entry>
-<entry><b>Combining Character </b></entry>
-</row>
+<thead>
+    <row>
+        <entry namest="col1" nameend="col6"><b>Level 3</b></entry>
+        <entry namest="col7" nameend="col8"><b>Level 2</b></entry>
+    </row>
+    <row>
+        <entry/>
+        <entry namest="col2" nameend="col4"><b>Pre-composed Character (used in
+            Aletheia)</b></entry>
+        <entry/>
+        <entry/>
+        <entry namest="col7" nameend="col8">
+            <p><b>Decomposed Character </b></p>
+            <p><b>(only for reference)</b></p>
+        </entry>
+    </row>
+    <row>
+        <entry><b>Glyph </b></entry>
+        <entry><b>Unicode </b></entry>
+        <entry><b>Hex </b></entry>
+        <entry><b>Decimal </b></entry>
+        <entry><b>Description </b></entry>
+        <entry><b>Origin</b></entry>
+        <entry><b>Base </b></entry>
+        <entry><b>Combining Character </b></entry>
+    </row>
+</thead>
+    <tbody>
+
 <row>
 <entry><image
 href="images/F1AC.png"
@@ -1570,7 +1578,7 @@ id="image_o5k_2gz_s1b"/></entry>
 <entry>223 </entry>
 <entry>Latin small letter sharp s </entry>
 <entry>Unicode </entry>
-<entry>s </entry>
+<entry>ß </entry>
 <entry/>
 </row>
 <row>
@@ -1580,7 +1588,7 @@ id="image_o5k_2gz_s1b"/></entry>
 <entry>7838 </entry>
 <entry>Latin capital letter sharp S </entry>
 <entry>Unicode </entry>
-<entry>s </entry>
+<entry>ẞ </entry>
 <entry/>
 </row>
 <row>
@@ -1620,7 +1628,7 @@ id="image_o5k_2gz_s1b"/></entry>
 <entry>64262 </entry>
 <entry>Latin small ligature st </entry>
 <entry>Unicode </entry>
-<entry>s </entry>
+<entry>st </entry>
 <entry/>
 </row>
 <row>
@@ -1630,7 +1638,7 @@ id="image_o5k_2gz_s1b"/></entry>
 <entry>62764 </entry>
 <entry>Latin small ligature sp </entry>
 <entry>Private1 </entry>
-<entry>s </entry>
+<entry>sp </entry>
 <entry/>
 </row>
 <row>
@@ -1650,7 +1658,7 @@ id="image_o5k_2gz_s1b"/></entry>
 <entry>42793 </entry>
 <entry>Latin small letter (ligature) tz </entry>
 <entry>Unicode </entry>
-<entry>t </entry>
+<entry>tz </entry>
 <entry/>
 </row>
 <row>

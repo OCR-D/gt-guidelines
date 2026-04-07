@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="lySeitentypen2">
+    <title>Titelblätter, Inhaltsverzeichnisse, Register, Indizies</title>
+    <body><section>
+        <title>formale und inhaltliche Aspekte</title>
+        <p>Diese Seitentypen können als besondere Seiten angesehen werden. Sie enthalten spezifische
+                Metadaten oder werden für spezifische Funktionen genutzt:<ul id="ul_rp3_nvn_cyb">
+                    <li>Titelblatt → bibliographische Metadaten zur Publikation</li>
+                    <li>Inhaltsverzeichnisse, Verzeichnisse → inhaltlich-strukturelle Metadaten zur
+                        Publikation mit einer Auflistung aller Abschnitte, Kapitel der
+                        Publikation</li>
+                    <li>Register, Indizies → inhaltliche Metadaten zur Publikation in dem Register,
+                        Indizies die Publikation zu bestimmten Aspekten den Inhalt ordnen</li>
+                </ul>
+            </p>
+    </section>
+        <section>
+            <title>Transkription dieser Seitentypen</title><p>Vor allem die Segmentierung dieser Seiten sollte sich am Zweck des GTs orientieren.</p>
+            <p>Es wird empfohlen</p>
+            <p>
+                <simpletable frame="all" relcolwidth="1* 1* 1*" id="simpletable_x22_qxn_cyb">
+                    <sthead>
+                        <stentry>Seitentyp</stentry>
+                        <stentry>Segmentierungen</stentry>
+                        <stentry>Page @typ</stentry>
+                    </sthead>
+                    <strow>
+                        <stentry>Titelblatt</stentry>
+                        <stentry>
+                            <ul id="ul_rf5_fgl_pzb">
+                                <li><tt>&lt;TextRegion type="paragraph"></tt></li>
+                                <li><tt>&lt;TextRegion type="paragraph"></tt></li>
+                            </ul>
+                        </stentry>
+                        <stentry>title</stentry>
+                    </strow>
+                    <strow>
+                        <stentry>Inhaltsverzeichnisse, Verzeichnisse</stentry>
+                        <stentry>
+                            <ul id="ul_rf6_fgl_pzb">
+                            <li><tt>&lt;TextRegion type="header"></tt></li>
+                            <li><tt>&lt;TextRegion type="paragraph"></tt></li>
+                        </ul></stentry>
+                        <stentry>table-of-contents </stentry>
+                    </strow>
+                    <strow>
+                        <stentry>Register, Indizies</stentry>
+                        <stentry>
+                            <ul id="ul_rf7_fgl_pzb">
+                                <li><tt>&lt;TextRegion type="header"></tt></li>
+                                <li><tt>&lt;TextRegion type="paragraph"></tt></li>
+                            </ul>
+                        </stentry>
+                        <stentry>index</stentry>
+                    </strow>
+                </simpletable>
+            </p>
+        </section>
+        
+    </body>
+</topic>

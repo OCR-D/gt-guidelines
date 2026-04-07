@@ -1,14 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="structur_gtpageformat">
-    <title>Konkordanz zu Zonen und Regionen im DTA Zot-Format sowie DTABf (TEI)</title>
+    <title>Erweiterungen zu Regionen im Pageformat und Konkordanz zum DTA Zot-Format sowie DTABf
+    (TEI)</title>
 
 
     <body>
-      <p>Die Übersicht und Konkordanz stellt im Vergleich Kodierungen von Zonen und Regionen im
-        DTA Zot-Format, DTABf (TEI) und dem PAGE-Format dar. Der Verweis auf Elemente im DTABf und PAGE
-        bezieht sich nur auf grundlegende Elemente und nicht deren Kontext. Aus diesem Grund sei auf die
-        Dokumentationen des DTABf und PAGE hingewiesen.</p>
+      <p>Die Übersicht und Konkordanz stellt im Vergleich Kodierungen von Zonen und Regionen im DTA
+      Zot-Format, DTABf (TEI) und dem PAGE-XML-Format dar. </p>
+    <p>Genutzt werden kann diese Tabelle um:<ul id="ol_o2z_zmp_mbc">
+        <li>standarisierte <codeph>custom</codeph> Werte zu verwenden<ol id="ol_nlt_2np_mbc">
+            <li>für die semantische und funktionale Erweiterung des Elementes <b>Page</b>
+            </li>
+            <li>für die semantische und funktionale Erweiterung der Elemente <b>TextRegion</b></li>
+          </ol></li>
+        <li>Um eine spezifische Konvertierung/Transformation des PAGE-XML Formates nach TEI zu
+          realisieren.</li>
+        <li>Um eine Konvertierung/Transformation des Zot-Formates nach Page-XML zu realisieren.</li>
+      </ul></p>
+    <p>
+      <note id="note_dzy_znp_mbc">Die Verwendung von Elementen im DTABf und PAGE-XML bezieht sich
+        auf grundlegende Elemente oder Beschreibungen. Dabei wurde der Kontext möglicherweise nicht
+        ausreichend berücksichtigt. Um weitere Details zur Verwendung von DTABf- oder
+        PAGE-XML-Elementen zu erfahren, wird empfohlen, die entsprechenden Dokumentationen zu Rate
+        zu ziehen.</note>
+    </p>
               
 <table frame="all" rowsep="1" colsep="1" id="table_wws_hhn_ldb">
         <title>Übersicht und Konkordanz von Kodierungen</title>
@@ -24,13 +40,13 @@
 <row>
 <entry morerows="1" namest="c1" nameend="newCol2">Deutsches Textarchiv Zot-Format</entry>
 <entry morerows="1">DTABf (TEI)</entry>
-<entry namest="c3" nameend="c5">PAGE-Format</entry>
+<entry namest="c3" nameend="c5">PAGE-XML-Format</entry>
 </row>
 <row>
   <entry>Page <tt>type="{Wert}"</tt></entry>
 <entry>spez. Region</entry>
   <entry>TextRegion <tt>type="{Wert}"</tt></entry>
-  <entry>TextRegion <tt>custom="ocr-d-structure {type:Wert;}"</tt></entry>
+  <entry>TextRegion <tt>custom="structure {type:Wert;}"</tt></entry>
 </row>
 </thead>
 <tbody>

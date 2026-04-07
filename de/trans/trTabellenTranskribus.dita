@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="trTabellenTranskribus">
+    <title>Tabellen mit Transkribus erstellen</title>
+    <body>
+        <p><cite>Transkribus ist eine Plattform zur Texterkennung (OCR), Layout-Analyse und
+                Strukturerkennung von historischen Dokumenten. [Artikel: „Transkribus“. In:
+                Wikipedia – Die freie Enzyklopädie. Bearbeitungsstand: 20. Juni 2023, 11:19 UTC.
+                URL: https://de.wikipedia.org/w/index.php?title=Transkribus&amp;oldid=234772913
+                (Abgerufen: 11. Juli 2023, 15:55 UTC)]</cite> Mit diesem Tool kann GT erstellt werden.
+        </p>
+        <p>Transkribus kann in die <b>Leistungsklasse komplex, Einsteiger- und Experten-Tool
+            </b>eingeordnet werden. Mit diesem Tool können mit Einschränkungen Tabellen im Tabellen
+            Level 1, 2 und 3 erstellt werden.</p>
+        <p>Die Annotationsmöglichkeiten bei Transkribus sind eingeschränkt an das PAGE-XML-Format
+            gebunden. Die Einschränkung bestehen darin, dass das Tabellen-Format nicht dem
+            PAGE-XML-Schema und die PAGE-XML-Schemaversion vom 2013-07-15 verwendet wird. Die
+            Erstellung von Zeilen und Zellen wird mit grafischen Werkzeugen unterstützt. Eine
+            Bearbeitung von Attributen dagegen ist nur manuell im PAGE-XML-Format möglich. Bei
+            richtlinienkonformer GT-Erstellung ist die Transkribus-PAGE-Datei in das PAGE-XML-Format
+            zu konvertieren. Wird eine PAGE-konforme in Transkribus verwendet, kann es vorkommen,
+            dass die Transkribus-Tabellen-Tools nicht zur Verfügung stehen.</p>
+        <p/>
+        <note type="tip"><p><xref
+                href="https://readcoop.eu/de/transkribus/howto/how-to-work-with-tables-in-transkribus/"
+                format="html" scope="external">Wie man mit Tabellen in Transkribus arbeitet</xref></p></note>
+        <p><object width="1280" height="720"
+                data="https://www.youtube.com/embed/ViMHIEHzm84" outputclass="iframe">
+                <param name="allowfullscreen"/>
+            </object></p>
+    </body>
+</topic>

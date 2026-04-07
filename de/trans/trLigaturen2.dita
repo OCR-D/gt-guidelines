@@ -6,227 +6,370 @@
     
 <table id="table_h53_3gm_gz" frame="all">
 <tgroup cols="5">
-          <colspec colnum="1" colname="col1"/>
-          <colspec colname="newCol3" colnum="2"/>
-          <colspec colname="newCol4" colnum="3"/>
-          <colspec colname="newCol5" colnum="4"/>
-          <colspec colname="newCol6" colnum="5"/>
-          <thead>
-            <row>
-              <entry dir="ltr"/>
-              <entry><b><xref href="tr_level_1.dita">Level 1</xref></b></entry>
-              <entry><b><xref href="tr_level_2.dita">Level 2</xref></b></entry>
-              <entry><b><xref href="tr_level_3.dita">Level 3</xref></b></entry>
-              <entry><b>Kommentar</b></entry>
-            </row>
-          </thead>
-          <tbody>
-            <row product="ruleset">
-              <entry><image href="images/font_0114.png" height="31" width="29" id="image_i53_3gm_gz"
-                /></entry>
-              <entry>&#x00C6;<term><text>hex: &amp;#x00C6;</text></term></entry>
-              <entry>&#x00C6;<term><text>hex: &amp;#x00C6;</text></term></entry>
-              <entry>&#x00C6;<term><text>hex: &amp;#x00C6;</text></term></entry>
-              <entry><p id="vLigatur">Vokalische Ligaturen werden grundsätzlich in allen Level als spezifischer Unicode
-                  realisiert.</p></entry>
-              
-            </row>
-            <row product="ruleset">
-              <entry dir="ltr"><image href="images/font_0010.png" height="27" width="20"
-                  id="image_j53_3gm_gz"/><image href="images/font_0035.png" height="25" width="20"
-                  id="image_k53_3gm_gz"/><image href="images/font_0064.png" height="33" width="28"
-                  id="image_l53_3gm_gz"/><image href="images/font_0083.png" height="29" width="27"
-                  id="image_m53_3gm_gz"/></entry>
-              <entry>&#x00E6;<term><text>hex: &amp;#x00E6;</text></term></entry>
-              <entry>&#x00E6;<term><text>hex: &amp;#x00E6;</text></term></entry>
-              <entry>&#x00E6;<term><text>hex: &amp;#x00E6;</text></term></entry>
-              <entry>siehe: <xref href="#Ligaturen/vLigatur" format="dita">vokalische
-                Ligatur</xref></entry>
-            </row>
-            <row product="ruleset">
-              <entry/>
-              <entry>AV</entry>
-              <entry>Ꜹ<term><text>hex: &amp;#xA738;</text></term></entry>
-              <entry>Ꜹ<term><text>hex: &amp;#xA738;</text></term></entry>
-              <entry/>
-            </row>
-            <row product="ruleset">
-              <entry/>
-              <entry>av</entry>
-              <entry>ꜹ<term><text>hex: &amp;#xA739;</text></term></entry>
-              <entry>ꜹ<term><text>hex: &amp;#xA739;</text></term></entry>
-              <entry/>
-            </row>
-            <row product="ruleset">
-              <entry/>
-              <entry>AY</entry>
-              <entry>Ꜽ<term><text>hex: &amp;#xA73C;</text></term></entry>
-              <entry>Ꜽ<term><text>hex: &amp;#xA73C;</text></term></entry>
-              <entry/>
-            </row>
-            <row product="ruleset">
-              <entry/>
-              <entry>ay</entry>
-              <entry>ꜽ<term><text>hex: &amp;#xA73D;</text></term></entry>
-              <entry>ꜽ<term><text>hex: &amp;#xA73D;</text></term></entry>
-              <entry/>
-            </row>
-            <row product="ruleset">
-              <entry dir="ltr"><image href="images/font_0129.png" height="23" width="20"
-                  id="image_n53_3gm_gz"/><image href="images/font_0019.png" height="26" width="24"
-                  id="image_o53_3gm_gz"/><image href="images/font_0099.png" height="27" width="24"
-                  id="image_p53_3gm_gz"/></entry>
-              <entry>ct</entry>
-              <entry>ct</entry>
-              <entry>&#xEEC5;<term><text>hex: &amp;#xEEC5;</text></term></entry>
-              <entry outputclass="description">siehe <xref
-                  href="https://folk.uib.no/hnooh/mufi/specs/MUFI-Alphabetic-4-0.pdf#page=81"
-                  format="pdf" scope="external">MUFI character recommendation (Version 4.0; 22
-                    Dezember 2015)</xref></entry>
-            </row>
-            <row product="ruleset">
-              <entry/>
-              <entry>et</entry>
-              <entry>🙰<term><text>hex: &amp;#x1F670;</text></term></entry>
-              <entry>🙰<term><text>hex: &amp;#x1F670;</text></term></entry>
-              <entry/>
-            </row>
-            <row product="ruleset">
-              <entry/>
-              <entry>ff</entry>
-              <entry>ﬀ<term><text>hex: &amp;#xFB00;</text></term></entry>
-              <entry>ﬀ<term><text>hex: &amp;#xFB00;</text></term></entry>
-              <entry/>
-            </row>
-            <row product="ruleset">
-              <entry/>
-              <entry>ffi</entry>
-              <entry>ﬃ<term><text>hex: &amp;#xFB03;</text></term></entry>
-              <entry>ﬃ<term><text>hex: &amp;#xFB03;</text></term></entry>
-              <entry/>
-            </row>
-            <row product="ruleset">
-              <entry/>
-              <entry>ffl</entry>
-              <entry>ﬄ<term><text>hex: &amp;#xFB04;</text></term></entry>
-              <entry>ﬄ<term><text>hex: &amp;#xFB04;</text></term></entry>
-              <entry/>
-            </row>
-            <row product="ruleset">
-              <entry/>
-              <entry>fl</entry>
-              <entry>ﬂ<term><text>hex: &amp;#xFB02;</text></term></entry>
-              <entry>ﬂ<term><text>hex: &amp;#xFB02;</text></term></entry>
-              <entry/>
-            </row>
-            <row product="ruleset">
-              <entry/>
-              <entry>fi</entry>
-              <entry>ﬁ<term><text>hex: &amp;#xFB01;</text></term></entry>
-              <entry>ﬁ<term><text>hex: &amp;#xFB01;</text></term></entry>
-              <entry/>
-            </row>
-            <row product="ruleset">
-              <entry dir="ltr"><image href="images/font_0033.png" height="22" width="30"
-                  id="image_q53_3gm_gz"/></entry>
-              <entry>&#x0152;<term><text>hex: &amp;#x0152;</text></term></entry>
-              <entry>&#x0152;<term><text>hex: &amp;#x0152;</text></term></entry>
-              <entry>&#x0152;<term><text>hex: &amp;#x0152;</text></term></entry>
-              <entry>siehe: <xref href="#Ligaturen/vLigatur" format="dita">vokalische
-                Ligatur</xref></entry>
-            </row>
-            <row product="ruleset">
-              <entry dir="ltr"><image href="images/font_0117.png" height="20" width="22"
-                  id="image_r53_3gm_gz"/><image href="images/font_0121.png" height="27" width="24"
-                  id="image_s53_3gm_gz"/></entry>
-              <entry>&#x0153;<term><text>hex: &amp;#x0153;</text></term></entry>
-              <entry>&#x0153;<term><text>hex: &amp;#x0153;</text></term></entry>
-              <entry>&#x0153;<term><text>hex: &amp;#x0153;</text></term></entry>
-              <entry>siehe: <xref href="#Ligaturen/vLigatur" format="dita">vokalische
-                Ligatur</xref></entry>
-            </row>
-            <row product="ruleset">
-              <entry dir="ltr"><image href="images/font_0004.png" height="40" width="20"
-                  id="image_u53_3gm_gz"/><image href="images/font_0008.png" height="43" width="20"
-                  id="image_v53_3gm_gz"/><image href="images/font_0088.png" height="39" width="29"
-                  id="image_w53_3gm_gz"/>
-              </entry>
-              <entry>ß</entry>
-              <entry>ß</entry>
-              <entry>ß</entry>
-              <entry/>
-            </row>
-            <row product="ruleset">
-              <entry><image href="images/font_0098.png" height="42" width="20" id="image_t53_3gm_gz"
-                /></entry>
-              <entry>&#x017F;z<term><text>hex: &amp;#x017F;z </text></term></entry>
-              <entry>&#x017F;z<term><text>hex: &amp;#x017F;z </text></term></entry>
-              <entry>&#x017F;z<term><text>hex: &amp;#x017F;z </text></term></entry>
-              <entry outputclass="description">Es handelt sich nicht um eine Ligatur.</entry>
-            </row>
-            <row product="ruleset">
-              <entry><image href="images/font_0135.png" height="41" width="29" id="image_x53_3gm_gz"
-                /></entry>
-              <entry>ss </entry>
-              <entry>&#x017F;s<term><text>hex: &amp;#x017F;s </text></term></entry>
-              <entry>&#x017F;s<term><text>hex: &amp;#x017F;s </text></term></entry>
-              <entry outputclass="description">Es handelt sich nicht um eine Ligatur. </entry>
-            </row>
-            <row product="ruleset">
-              <entry dir="ltr"><image href="images/font_0115.png" height="27" width="20"
-                  id="image_y53_3gm_gz"/><image href="images/font_0065.png" height="31" width="20"
-                  id="image_z53_3gm_gz"/></entry>
-              <entry>sp</entry>
-              <entry>&#x017F;p<term><text>hex: &amp;#x017F;p</text></term></entry>
-              <entry>&#x017F;p<term><text>hex: &amp;#x017F;p</text></term></entry>
-              <entry/>
-            </row>
-            <row product="ruleset">
-              <entry dir="ltr"><image href="images/font_0093.png" height="29" width="20"
-                  id="image_av3_3gm_gz"/><image href="images/font_0069.png" height="34" width="25"
-                  id="image_bv3_3gm_gz"/></entry>
-              <entry>st</entry>
-              <entry>&#xFB06;<term><text>hex: &amp;#xFB06;</text></term></entry>
-              <entry>&#xFB06;<term><text>hex: &amp;#xFB06;</text></term></entry>
-              <entry/>
-            </row>
-            <row product="ruleset">
-              <entry><image href="images/font_0076.png" height="36" width="19" id="image_dv3_3gm_gz"
-                  /><image href="images/font_0085.png" height="35" width="22" id="image_cv3_3gm_gz"
-                /></entry>
-              <entry>&#x017F;t<term><text>hex: &amp;#x017F;t</text></term></entry>
-              <entry>&#x017F;t<term><text>hex: &amp;#x017F;t</text></term></entry>
-              <entry>&#xFB05;<term><text>hex: &amp;#xFB05;</text></term></entry>
-              <entry/>
-            </row>
-            <row product="ruleset">
-              <entry/>
-              <entry>TZ</entry>
-              <entry>Ꜩ<term><text>hex: &amp;#xA728;</text></term></entry>
-              <entry>Ꜩ<term><text>hex: &amp;#xA728;</text></term></entry>
-              <entry outputclass="description">siehe <xref
-                href="https://de.wikipedia.org/wiki/%EA%9C%A8" format="html" scope="external"
-              >Ligatur TZ, Artikel in Wikipedia</xref><note importance="recommended">Die MUFI Empfehlung ist nicht zu benutzen. </note><xref
+        <colspec colnum="1" colname="col1"/>
+        <colspec colname="newCol3" colnum="2"/>
+        <colspec colname="newCol4" colnum="3"/>
+        <colspec colname="newCol5" colnum="4"/>
+        <colspec colname="newCol6" colnum="5"/>
+        <thead>
+          <row>
+            <entry dir="ltr"/>
+            <entry><b><xref href="tr_level_1.dita">Level 1</xref></b></entry>
+            <entry><b><xref href="tr_level_2.dita">Level 2</xref></b></entry>
+            <entry><b><xref href="tr_level_3.dita">Level 3</xref></b></entry>
+            <entry><b>Kommentar</b></entry>
+          </row>
+        </thead>
+        <tbody>
+          <row product="ruleset">
+            <entry><image href="images/font_0114.png" height="31" width="29" id="image_i53_3gm_gz"
+              /></entry>
+            <entry>&#x00C6;<term><text>hex: &amp;#x00C6;</text></term></entry>
+            <entry>&#x00C6;<term><text>hex: &amp;#x00C6;</text></term></entry>
+            <entry>&#x00C6;<term><text>hex: &amp;#x00C6;</text></term></entry>
+            <entry>
+              <p id="vLigatur">Vokalische Ligaturen werden grundsätzlich in allen Level als
+                spezifischer Unicode realisiert.</p>
+            </entry>
+          </row>
+          <row product="ruleset">
+            <entry dir="ltr"><image href="images/font_0010.png" height="27" width="20"
+                id="image_j53_3gm_gz"/><image href="images/font_0035.png" height="25" width="20"
+                id="image_k53_3gm_gz"/><image href="images/font_0064.png" height="33" width="28"
+                id="image_l53_3gm_gz"/><image href="images/font_0083.png" height="29" width="27"
+                id="image_m53_3gm_gz"/></entry>
+            <entry>&#x00E6;<term><text>hex: &amp;#x00E6;</text></term></entry>
+            <entry>&#x00E6;<term><text>hex: &amp;#x00E6;</text></term></entry>
+            <entry>&#x00E6;<term><text>hex: &amp;#x00E6;</text></term></entry>
+            <entry>siehe: <xref href="#Ligaturen/vLigatur" format="dita">vokalische
+              Ligatur</xref></entry>
+          </row>
+          <row product="ruleset">
+            <entry/>
+            <entry>AV</entry>
+            <entry>Ꜹ<term><text>hex: &amp;#xA738;</text></term></entry>
+            <entry>Ꜹ<term><text>hex: &amp;#xA738;</text></term></entry>
+            <entry/>
+          </row>
+          <row product="ruleset">
+            <entry/>
+            <entry>av</entry>
+            <entry>ꜹ<term><text>hex: &amp;#xA739;</text></term></entry>
+            <entry>ꜹ<term><text>hex: &amp;#xA739;</text></term></entry>
+            <entry/>
+          </row>
+          <row product="ruleset">
+            <entry/>
+            <entry>AY</entry>
+            <entry>Ꜽ<term><text>hex: &amp;#xA73C;</text></term></entry>
+            <entry>Ꜽ<term><text>hex: &amp;#xA73C;</text></term></entry>
+            <entry/>
+          </row>
+          <row product="ruleset">
+            <entry/>
+            <entry>ay</entry>
+            <entry>ꜽ<term><text>hex: &amp;#xA73D;</text></term></entry>
+            <entry>ꜽ<term><text>hex: &amp;#xA73D;</text></term></entry>
+            <entry/>
+          </row>
+          <row product="ruleset">
+            <entry dir="ltr"><image href="images/font_0129.png" height="23" width="20"
+                id="image_n53_3gm_gz"/><image href="images/font_0019.png" height="26" width="24"
+                id="image_o53_3gm_gz"/><image href="images/font_0099.png" height="27" width="24"
+                id="image_p53_3gm_gz"/></entry>
+            <entry>ct</entry>
+            <entry>ct</entry>
+            <entry>&#xEEC5;<term><text>hex: &amp;#xEEC5;</text></term></entry>
+            <entry outputclass="description">siehe <xref
                 href="https://folk.uib.no/hnooh/mufi/specs/MUFI-Alphabetic-4-0.pdf#page=81"
                 format="pdf" scope="external">MUFI character recommendation (Version 4.0; 22
                 Dezember 2015)</xref></entry>
-            </row>
-            <row product="ruleset">
-              <entry dir="ltr"><image href="images/font_0037.png" height="43" width="20"
-                  id="image_ev3_3gm_gz"/><image href="images/font_0075.png" height="42" width="21"
-                  id="image_fv3_3gm_gz"/><image href="images/font_0086.png" height="43" width="23"
-                  id="image_gv3_3gm_gz"/></entry>
-              <entry>tz</entry>
-              <entry>ꜩ<term><text>hex: &amp;#xA729;</text></term></entry>
-              <entry>ꜩ<term><text>hex: &amp;#xA729;</text></term></entry>
-              <entry outputclass="description">siehe <xref
-                  href="https://de.wikipedia.org/wiki/%EA%9C%A8" format="html" scope="external"
-                >Ligatur TZ, Artikel in Wikipedia</xref><note importance="recommended">Die MUFI Empfehlung ist nicht zu benutzen. </note><xref
-                  href="https://folk.uib.no/hnooh/mufi/specs/MUFI-Alphabetic-4-0.pdf#page=81"
-                  format="pdf" scope="external">MUFI character recommendation (Version 4.0; 22
-                  Dezember 2015)</xref></entry>
-            </row>
-          <row>
+          </row>
+          <row product="ruleset">
+            <entry/>
+            <entry>ch</entry>
+            <entry>ch</entry>
+            <entry></entry>
+            <entry/>
+          </row>
+          <row product="ruleset">
+            <entry/>
+            <entry>ck</entry>
+            <entry>ck</entry>
+            <entry></entry>
+            <entry/>
+          </row>
+          <row product="ruleset">
+            <entry/>
+            <entry>et</entry>
+            <entry>🙰<term><text>hex: &amp;#x1F670;</text></term></entry>
+            <entry>🙰<term><text>hex: &amp;#x1F670;</text></term></entry>
+            <entry/>
+          </row>
+          <row product="ruleset">
+            <entry/>
+            <entry>ff</entry>
+            <entry>ff</entry>
+            <entry>ﬀ<term><text>hex: &amp;#xFB00;</text></term></entry>
+            <entry/>
+          </row>
+          <row product="ruleset">
+            <entry/>
+            <entry>ffi</entry>
+            <entry>ffi</entry>
+            <entry>ﬃ<term><text>hex: &amp;#xFB03;</text></term></entry>
+            <entry/>
+          </row>
+          <row product="ruleset">
+            <entry/>
+            <entry>ffl</entry>
+            <entry>ffl</entry>
+            <entry>ﬄ<term><text>hex: &amp;#xFB04;</text></term></entry>
+            <entry/>
+          </row>
+          <row product="ruleset">
+            <entry/>
+            <entry>fl</entry>
+            <entry>fl</entry>
+            <entry>ﬂ<term><text>hex: &amp;#xFB02;</text></term></entry>
+            <entry/>
+          </row>
+          <row product="ruleset">
+            <entry/>
+            <entry>fi</entry>
+            <entry>fi</entry>
+            <entry>ﬁ<term><text>hex: &amp;#xFB01;</text></term></entry>
+            <entry/>
+          </row>
+          <row product="ruleset">
+            <entry/>
+            <entry>ft</entry>
+            <entry>ft</entry>
+            <entry></entry>
+            <entry/>
+          </row>
+          <row product="ruleset">
+            <entry/>
+            <entry>fk</entry>
+            <entry>fk</entry>
+            <entry>fk</entry>
+            <entry/>
+          </row>
+          <row product="ruleset">
+            <entry/>
+            <entry>fj</entry>
+            <entry>fj</entry>
+            <entry></entry>
+            <entry/>
+          </row>
+          <row product="ruleset">
+            <entry/>
+            <entry>fh</entry>
+            <entry>fh</entry>
+            <entry>fh</entry>
+            <entry/>
+          </row>
+          <row product="ruleset">
+            <entry/>
+            <entry>fb</entry>
+            <entry>fb</entry>
+            <entry>fb</entry>
+            <entry/>
+          </row>
+          <row product="ruleset">
+            <entry/>
+            <entry>fz</entry>
+            <entry>fz</entry>
+            <entry>fz</entry>
+            <entry/>
+          </row>
+          <row product="ruleset">
+            <entry dir="ltr"><image href="images/font_0033.png" height="22" width="30"
+                id="image_q53_3gm_gz"/></entry>
+            <entry>&#x0152;<term><text>hex: &amp;#x0152;</text></term></entry>
+            <entry>&#x0152;<term><text>hex: &amp;#x0152;</text></term></entry>
+            <entry>&#x0152;<term><text>hex: &amp;#x0152;</text></term></entry>
+            <entry>siehe: <xref href="#Ligaturen/vLigatur" format="dita">vokalische
+              Ligatur</xref></entry>
+          </row>
+          <row product="ruleset">
+            <entry dir="ltr"><image href="images/font_0117.png" height="20" width="22"
+                id="image_r53_3gm_gz"/><image href="images/font_0121.png" height="27" width="24"
+                id="image_s53_3gm_gz"/></entry>
+            <entry>&#x0153;<term><text>hex: &amp;#x0153;</text></term></entry>
+            <entry>&#x0153;<term><text>hex: &amp;#x0153;</text></term></entry>
+            <entry>&#x0153;<term><text>hex: &amp;#x0153;</text></term></entry>
+            <entry>siehe: <xref href="#Ligaturen/vLigatur" format="dita">vokalische
+              Ligatur</xref></entry>
+          </row>
+          <row product="ruleset">
+            <entry/>
+            <entry>ij</entry>
+            <entry>ij</entry>
+            <entry>ĳ</entry>
+            <entry/>
+          </row>
+          <row product="ruleset">
+            <entry/>
+            <entry>IJ</entry>
+            <entry>IJ</entry>
+            <entry>Ĳ</entry>
+            <entry/>
+          </row>
+          <row product="ruleset">
+            <entry/>
+            <entry>ll</entry>
+            <entry>ll</entry>
+            <entry></entry>
+            <entry/>
+          </row>
+          <row product="ruleset">
+            <entry/>
+            <entry>mm</entry>
+            <entry>mm</entry>
+            <entry>mm</entry>
+            <entry/>
+          </row>
+          <row product="ruleset">
+            <entry/>
+            <entry>nn</entry>
+            <entry>nn</entry>
+            <entry>nn</entry>
+            <entry/>
+          </row>
+          <row product="ruleset">
+            <entry/>
+            <entry>kk</entry>
+            <entry>kk</entry>
+            <entry>kk</entry>
+            <entry/>
+          </row>
+          <row product="ruleset">
+            <entry/>
+            <entry>Qu</entry>
+            <entry>Qu</entry>
+            <entry>Qu</entry>
+            <entry/>
+          </row>
+          <row product="ruleset">
+            <entry/>
+            <entry>ſi</entry>
+            <entry>ſi</entry>
+            <entry></entry>
+            <entry/>
+          </row>
+          <row product="ruleset">
+            <entry/>
+            <entry>ſſ</entry>
+            <entry>ſſ</entry>
+            <entry></entry>
+            <entry/>
+          </row>
+          <row product="ruleset">
+            <entry/>
+            <entry>ſch</entry>
+            <entry>ſch</entry>
+            <entry></entry>
+            <entry/>
+          </row>
+          <row product="ruleset">
+            <entry dir="ltr"><image href="images/font_0004.png" height="40" width="20"
+                id="image_u53_3gm_gz"/><image href="images/font_0008.png" height="43" width="20"
+                id="image_v53_3gm_gz"/><image href="images/font_0088.png" height="39" width="29"
+                id="image_w53_3gm_gz"/>
+            </entry>
+            <entry>ß</entry>
+            <entry>ß</entry>
+            <entry>ß</entry>
+            <entry/>
+          </row>
+          <row product="ruleset">
+            <entry><image href="images/font_0098.png" height="42" width="20" id="image_t53_3gm_gz"
+              /></entry>
+            <entry>&#x017F;z<term><text>hex: &amp;#x017F;z </text></term></entry>
+            <entry>&#x017F;z<term><text>hex: &amp;#x017F;z </text></term></entry>
+            <entry>&#x017F;z<term><text>hex: &amp;#x017F;z </text></term></entry>
+            <entry outputclass="description">Es handelt sich nicht um eine Ligatur.</entry>
+          </row>
+          <row product="ruleset">
+            <entry><image href="images/font_0135.png" height="41" width="29" id="image_x53_3gm_gz"
+              /></entry>
+            <entry>ss </entry>
+            <entry>&#x017F;s<term><text>hex: &amp;#x017F;s </text></term></entry>
+            <entry>&#x017F;s<term><text>hex: &amp;#x017F;s </text></term></entry>
+            <entry outputclass="description">Es handelt sich nicht um eine Ligatur. </entry>
+          </row>
+          <row product="ruleset">
+            <entry dir="ltr"><image href="images/font_0115.png" height="27" width="20"
+                id="image_y53_3gm_gz"/><image href="images/font_0065.png" height="31" width="20"
+                id="image_z53_3gm_gz"/></entry>
+            <entry>sp</entry>
+            <entry>&#x017F;p<term><text>hex: &amp;#x017F;p</text></term></entry>
+            <entry>&#x017F;p<term><text>hex: &amp;#x017F;p</text></term></entry>
+            <entry/>
+          </row>
+          <row product="ruleset">
+            <entry dir="ltr"><image href="images/font_0093.png" height="29" width="20"
+                id="image_av3_3gm_gz"/><image href="images/font_0069.png" height="34" width="25"
+                id="image_bv3_3gm_gz"/></entry>
+            <entry>st</entry>
+            <entry>st</entry>
+            <entry>&#xFB06;<term><text>hex: &amp;#xFB06;</text></term></entry>
+            <entry/>
+          </row>
+          <row product="ruleset">
+            <entry><image href="images/font_0076.png" height="36" width="19" id="image_dv3_3gm_gz"
+                /><image href="images/font_0085.png" height="35" width="22" id="image_cv3_3gm_gz"
+              /></entry>
+            <entry>&#x017F;t<term><text>hex: &amp;#x017F;t</text></term></entry>
+            <entry>&#x017F;t<term><text>hex: &amp;#x017F;t</text></term></entry>
+            <entry>&#xFB05;<term><text>hex: &amp;#xFB05;</text></term></entry>
+            <entry/>
+          </row>
+          <row product="ruleset">
+            <entry/>
+            <entry>TZ</entry>
+            <entry>TZ</entry>
+            <entry>Ꜩ<term><text>hex: &amp;#xA728;</text></term></entry>
+            <entry outputclass="description">siehe <xref
+                href="https://de.wikipedia.org/wiki/%EA%9C%A8" format="html" scope="external"
+                >Ligatur TZ, Artikel in Wikipedia</xref><note importance="recommended">Die MUFI
+                Empfehlung ist nicht zu benutzen. </note><xref
+                href="https://folk.uib.no/hnooh/mufi/specs/MUFI-Alphabetic-4-0.pdf#page=81"
+                format="pdf" scope="external">MUFI character recommendation (Version 4.0; 22
+                Dezember 2015)</xref></entry>
+          </row>
+          <row product="ruleset">
+            <entry dir="ltr"><image href="images/font_0037.png" height="43" width="20"
+                id="image_ev3_3gm_gz"/><image href="images/font_0075.png" height="42" width="21"
+                id="image_fv3_3gm_gz"/><image href="images/font_0086.png" height="43" width="23"
+                id="image_gv3_3gm_gz"/></entry>
+            <entry>tz</entry>
+            <entry>tz</entry>
+            <entry>ꜩ<term><text>hex: &amp;#xA729;</text></term></entry>
+            <entry outputclass="description">siehe <xref
+                href="https://de.wikipedia.org/wiki/%EA%9C%A8" format="html" scope="external"
+                >Ligatur TZ, Artikel in Wikipedia</xref><note importance="recommended">Die MUFI
+                Empfehlung ist nicht zu benutzen. </note><xref
+                href="https://folk.uib.no/hnooh/mufi/specs/MUFI-Alphabetic-4-0.pdf#page=81"
+                format="pdf" scope="external">MUFI character recommendation (Version 4.0; 22
+                Dezember 2015)</xref></entry>
+          </row>
+          <row product="ruleset">
+            <entry/>
+            <entry>th</entry>
+            <entry>th</entry>
+            <entry>th</entry>
+            <entry/>
+          </row>
+          <row product="ruleset">
+            <entry/>
+            <entry>tt</entry>
+            <entry>tt</entry>
+            <entry></entry>
+            <entry/>
+          </row>
+          <row product="ruleset">
             <entry/>
             <entry>ᵫ<term><text>hex: &amp;#x1D6B;</text></term></entry>
             <entry>ᵫ<term><text>hex: &amp;#x1D6B;</text></term></entry>
@@ -234,89 +377,89 @@
             <entry>siehe: <xref href="#Ligaturen/vLigatur" format="dita">vokalische
               Ligatur</xref></entry>
           </row>
-            <row product="ruleset">
-              <entry dir="ltr"><image href="images/font_0080.png" height="24" width="29"
-                  id="image_hv3_3gm_gz"/></entry>
-              <entry>jtzo</entry>
-              <entry>jꜩo<term><text>hex: &amp;#xA729;</text></term></entry>
-              <entry>jꜩo<term><text>hex: &amp;#xA729;</text></term></entry>
-              <entry outputclass="description">siehe <xref
+          <row product="ruleset">
+            <entry dir="ltr"><image href="images/font_0080.png" height="24" width="29"
+                id="image_hv3_3gm_gz"/></entry>
+            <entry>jtzo</entry>
+            <entry>jtzo</entry>
+            <entry>jꜩo<term><text>hex: &amp;#xA729;</text></term></entry>
+            <entry outputclass="description">siehe <xref
                 href="https://de.wikipedia.org/wiki/%EA%9C%A8" format="html" scope="external"
                 >Ligatur TZ, Artikel in Wikipedia</xref><note importance="recommended">Die MUFI
                 Empfehlung ist nicht zu benutzen. </note><xref
                 href="https://folk.uib.no/hnooh/mufi/specs/MUFI-Alphabetic-4-0.pdf#page=81"
                 format="pdf" scope="external">MUFI character recommendation (Version 4.0; 22
                 Dezember 2015)</xref></entry>
-            </row>
-            <row product="ruleset">
-              <entry dir="ltr"><image href="images/font_0028.png" height="24" width="35"
-                  id="image_iv3_3gm_gz"/></entry>
-              <entry>etc.</entry>
-              <entry>&#xA75B;tc.<term><text>hex: &amp;#xA75B;tc.</text></term></entry>
-              <entry>&#xA75B;tc.<term><text>hex: &amp;#xA75B;tc.</text></term></entry>
-              <entry/>
-            </row>
-            <row product="ruleset">
-              <entry dir="ltr"><image href="images/font_0062.png" height="23" width="25"
-                  id="image_jv3_3gm_gz"/><image href="images/font_0007.png" height="24" width="26"
-                  id="image_kv3_3gm_gz"/></entry>
-              <entry>&#xA75B;c.<term><text>hex: &amp;#xA75B;c.</text></term></entry>
-              <entry>&#xA75B;c.<term><text>hex: &amp;#xA75B;c.</text></term></entry>
-              <entry>&#xA75B;c.<term><text>hex: &amp;#xA75B;c.</text></term></entry>
-              <entry/>
-            </row>
-            <row product="ruleset">
-              <entry dir="ltr"><image href="images/font_0123.png" height="45" width="20"
-                  id="image_qvr_5fm_gz"/></entry>
-              <entry>ij</entry>
-              <entry>&#x0133;<term><text>hex: &amp;#x0133;</text></term></entry>
-              <entry>&#x0133;<term><text>hex: &amp;#x0133;</text></term></entry>
-              <entry/>
-            </row>
-            <row product="ruleset">
-              <entry/>
-              <entry>VY</entry>
-              <entry>Ꝡ<term><text>hex: &amp;#xA760;</text></term></entry>
-              <entry>Ꝡ<term><text>hex: &amp;#xA760;</text></term></entry>
-              <entry/>
-            </row>
-            <row product="ruleset">
-              <entry/>
-              <entry>vy</entry>
-              <entry>ꝡ<term><text>hex: &amp;#xA761;</text></term></entry>
-              <entry>ꝡ<term><text>hex: &amp;#xA761;</text></term></entry>
-              <entry/>
-            </row>
-            <row product="ruleset">
-              <entry dir="ltr"><image href="images/font_0119.png" height="20" width="39"
-                  id="image_lv3_3gm_gz"/></entry>
-              <entry>&#x0026;c<term><text>hex: &amp;#x0026;c</text></term></entry>
-              <entry>&#x0026;c<term><text>hex: &amp;#x0026;c</text></term></entry>
-              <entry>&#x0026;c<term><text>hex: &amp;#x0026;c</text></term></entry>
-              <entry/>
-            </row>
-            <row product="ruleset">
-              <entry dir="ltr"><image href="images/font_0047.png" height="23" width="35"
-                  id="image_mv3_3gm_gz"/></entry>
-              <entry>&#x0026;&#x00E7;<term><text>hex: &amp;#x0026;&amp;#x00E7;</text></term></entry>
-              <entry>&#x0026;&#x00E7;<term><text>hex: &amp;#x0026;&amp;#x00E7;</text></term></entry>
-              <entry>&#x0026;&#x00E7;<term><text>hex: &amp;#x0026;&amp;#x00E7;</text></term></entry>
-              <entry/>
-            </row>
-            <row product="ruleset">
-              <entry dir="ltr"><image href="images/font_0100.png" height="25" width="22"
-                  id="image_nv3_3gm_gz"/><image href="images/font_0072.png" height="24" width="22"
-                  id="image_ov3_3gm_gz"/><image href="images/font_0118.png" height="21" width="22"
-                  id="image_pv3_3gm_gz"/><image href="images/font_0051.png" height="29" width="28"
-                  id="image_qv3_3gm_gz"/><image href="images/font_0074.png" height="27" width="27"
-                  id="image_rv3_3gm_gz"/></entry>
-              <entry>&#x0026;<term><text>hex: &amp;#x0026;</text></term></entry>
-              <entry>&#x0026;<term><text>hex: &amp;#x0026;</text></term></entry>
-              <entry>&#x0026;<term><text>hex: &amp;#x0026;</text></term></entry>
-              <entry/>
-            </row>
-          </tbody>
-        </tgroup>
+          </row>
+          <row product="ruleset">
+            <entry dir="ltr"><image href="images/font_0028.png" height="24" width="35"
+                id="image_iv3_3gm_gz"/></entry>
+            <entry>etc.</entry>
+            <entry>&#xA75B;tc.<term><text>hex: &amp;#xA75B;tc.</text></term></entry>
+            <entry>&#xA75B;tc.<term><text>hex: &amp;#xA75B;tc.</text></term></entry>
+            <entry/>
+          </row>
+          <row product="ruleset">
+            <entry dir="ltr"><image href="images/font_0062.png" height="23" width="25"
+                id="image_jv3_3gm_gz"/><image href="images/font_0007.png" height="24" width="26"
+                id="image_kv3_3gm_gz"/></entry>
+            <entry>&#xA75B;c.<term><text>hex: &amp;#xA75B;c.</text></term></entry>
+            <entry>&#xA75B;c.<term><text>hex: &amp;#xA75B;c.</text></term></entry>
+            <entry>&#xA75B;c.<term><text>hex: &amp;#xA75B;c.</text></term></entry>
+            <entry/>
+          </row>
+          <row product="ruleset">
+            <entry dir="ltr"><image href="images/font_0123.png" height="45" width="20"
+                id="image_qvr_5fm_gz"/></entry>
+            <entry>ij</entry>
+            <entry>ij</entry>
+            <entry>&#x0133;<term><text>hex: &amp;#x0133;</text></term></entry>
+            <entry/>
+          </row>
+          <row product="ruleset">
+            <entry/>
+            <entry>VY</entry>
+            <entry>VY</entry>
+            <entry>Ꝡ<term><text>hex: &amp;#xA760;</text></term></entry>
+            <entry/>
+          </row>
+          <row product="ruleset">
+            <entry/>
+            <entry>vy</entry>
+            <entry>vy</entry>
+            <entry>ꝡ<term><text>hex: &amp;#xA761;</text></term></entry>
+            <entry/>
+          </row>
+          <row product="ruleset">
+            <entry dir="ltr"><image href="images/font_0119.png" height="20" width="39"
+                id="image_lv3_3gm_gz"/></entry>
+            <entry>&#x0026;c<term><text>hex: &amp;#x0026;c</text></term></entry>
+            <entry>&#x0026;c<term><text>hex: &amp;#x0026;c</text></term></entry>
+            <entry>&#x0026;c<term><text>hex: &amp;#x0026;c</text></term></entry>
+            <entry/>
+          </row>
+          <row product="ruleset">
+            <entry dir="ltr"><image href="images/font_0047.png" height="23" width="35"
+                id="image_mv3_3gm_gz"/></entry>
+            <entry>&#x0026;&#x00E7;<term><text>hex: &amp;#x0026;&amp;#x00E7;</text></term></entry>
+            <entry>&#x0026;&#x00E7;<term><text>hex: &amp;#x0026;&amp;#x00E7;</text></term></entry>
+            <entry>&#x0026;&#x00E7;<term><text>hex: &amp;#x0026;&amp;#x00E7;</text></term></entry>
+            <entry/>
+          </row>
+          <row product="ruleset">
+            <entry dir="ltr"><image href="images/font_0100.png" height="25" width="22"
+                id="image_nv3_3gm_gz"/><image href="images/font_0072.png" height="24" width="22"
+                id="image_ov3_3gm_gz"/><image href="images/font_0118.png" height="21" width="22"
+                id="image_pv3_3gm_gz"/><image href="images/font_0051.png" height="29" width="28"
+                id="image_qv3_3gm_gz"/><image href="images/font_0074.png" height="27" width="27"
+                id="image_rv3_3gm_gz"/></entry>
+            <entry>&#x0026;<term><text>hex: &amp;#x0026;</text></term></entry>
+            <entry>&#x0026;<term><text>hex: &amp;#x0026;</text></term></entry>
+            <entry>&#x0026;<term><text>hex: &amp;#x0026;</text></term></entry>
+            <entry/>
+          </row>
+        </tbody>
+      </tgroup>
 </table>
 
   </body>

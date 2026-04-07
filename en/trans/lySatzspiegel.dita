@@ -3,14 +3,59 @@
 <topic id="lySatzspiegel">
     <title>Print Space</title>
     <body>
-        <p>In the printing industry, the actual usable area of a book page (double page) is called
-            print space. With the exception of the title page and multi-page images, it is the same
-            size for all pages of a book. It contains the text body of a page, including footnotes,
-            headings, and living column headers. It contains the text body of a page, including
-            footnotes, headings, and living column titles. However, page numbers (not part of the
-            column header), marginalia, catch words and sheet signatures are not added.</p>
-        <p>Once the type of a page has been defined, marking the print space is one of the first
-            analytical tasks before the individual text regions are defined. </p>
+        <p>In typography, the area of a book page that can actually be used (single or double page)
+            is called the print space. It is the same for all pages of a book, with the possible
+            exception of the title page and multi-page images. In terms of elements, it contains the
+            body text of a page, including footnotes, headings, and living column titles. In
+            contrast, the page number (if not part of the column title), marginalia, custodes, and
+            signature mark are not added.</p>
+        <p>After the type of a page is set, the print space is looked at before the individual text
+            regions are set.</p>
+        <p>
+            <imagemap id="imagemap_rbs_xrp_ktb">
+                <image href="images/trSatzspiegel2.png" id="image_nmt_wrp_ktb" outputclass="img2"/>
+                <area>
+                    <shape>rect</shape>
+                    <coords>463, 0, 576, 26</coords>
+                    <xref href="lyKolumnentitel.dita" format="dita">Column header</xref>
+                </area>
+                <area>
+                    <shape>rect</shape>
+                    <coords>465, 30, 576, 54</coords>
+                    <xref href="lySeitenzahl.dita" format="dita">Page number</xref>
+                </area>
+                <area>
+                    <shape>rect</shape>
+                    <coords>467, 96, 578, 119</coords>
+                    <xref href="lyMarginalie.dita" format="dita">Marginalia</xref>
+                </area>
+                <area>
+                    <shape>rect</shape>
+                    <coords>465, 169, 576, 199</coords>
+                    <xref href="lyAbsatz.dita" format="dita">Text body</xref>
+                </area>
+                <area>
+                    <shape>rect</shape>
+                    <coords>463, 497, 574, 522</coords>
+                    <xref href="lyFussnote.dita" format="dita">Footnote</xref>
+                </area>
+                <area>
+                    <shape>rect</shape>
+                    <coords>466, 543, 575, 569</coords>
+                    <xref href="lyBogensignatur.dita" format="dita">Signature mark</xref>
+                </area>
+                <area>
+                    <shape>rect</shape>
+                    <coords>465, 594, 574, 619</coords>
+                    <xref href="lyKustode.dita" format="dita">Catch word</xref>
+                </area>
+                <area>
+                    <shape>rect</shape>
+                    <coords>377, 328, 417, 363</coords>
+                    <xref href="lyMarginalie.dita" format="dita">Marginalia</xref>
+                </area>
+            </imagemap>
+        </p>
     </body>
     
 </topic>

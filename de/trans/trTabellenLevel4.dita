@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="trTabellenLevel4">
+    <title>Tabellen Level 4 <i>full table structure</i></title>
+    <body>
+        <p>Das Tabellen Level 4 <i>full table structure</i> dient vorrangig der Erkennung, dem
+            Training und der Validierung der vollständigen Struktur und dem Inhalt von Tabellen. Die
+            Struktur einer Tabelle definiert sich als Annotation von Zeilen, Spalten sowie der
+            Annotation von sematischen Merkmalen der Tabellenzellen wie dem Tabellenkopf. Bei der
+            Segmentierung wird die Tabellenregion (TableRegion) annotiert. Eine Rekursion der
+            Annotation von TextRegion oder verschachtelte Regionen ist auszuschließen.</p>
+        <p><fig>
+                <title>Tabellenannotation im Programm Aletheia. Die <i>braun</i> gekennzeichnete
+                    Region ist die <i>TableRegion</i>. Die als <i>paragraph</i> bezeichneten
+                    Regionen sind einzelne <i>TextRegion</i>. Die Annotationen der TableRegion
+                    werden nicht im Bild gezeigt. Dazu siehe den Codeblock. Zu erkennen ist, dass
+                    die Attribute <tt>@rows</tt> und <tt>@columns</tt> mit den jeweiligen Werten 8
+                    Zeilen und 3 Spalten angeben. Die bei den Tabellen Zellen,am Kopf der Tabelle
+                    z.B. die TextRegion r3 wurde das Merkmal TableHeader mit dem Wert true
+                    annotiert. Desweiteren sind die <i>GridPoints</i> (Rasterpunkte) des
+                    Tabellennetzes angegeben.</title>
+            </fig><image href="images/trTabellenLevel4_full_table_structure.jpg"
+                id="image_byq_kdy_byb" scale="50"/>
+            <fig>
+                <title>Annotationsbeispiel im Tabellen Level 4</title>
+                <desc>Diese Daten können Sie im Beispiel Repositorium <xref
+                    href="https://github.com/tboenig/gt-guideline-examples/blob/main/data/table/GT-PAGE/buecher_volkswirtschaft_1893_0257_800px_full_table_structure.xml"
+                        format="html" scope="external">gt-guideline-examples</xref> finden.</desc>
+                <codeblock outputclass="language-xml">
+&lt;TableRegion id="r2" rows="8" columns="3">
+    &lt;Coords points="50,328 50,588 639,588 639,328"/>
+    &lt;TextRegion id="r3" type="paragraph">
+        &lt;Coords points="53,331 444,331 444,359 53,359"/>
+        &lt;Roles>
+            &lt;TableCellRole rowIndex="0" columnIndex="0" header="true"/>
+        &lt;/Roles>
+        &lt;TextLine id="l29">
+            &lt;Coords points="53,331 444,331 444,359 53,359"/>
+            &lt;TextEquiv>
+                &lt;Unicode/>
+            &lt;/TextEquiv>
+        &lt;/TextLine>
+        &lt;TextEquiv>
+            &lt;Unicode/>
+        &lt;/TextEquiv>
+    &lt;/TextRegion>
+    &lt;TextRegion id="r4" type="paragraph">
+        &lt;Coords points="448,331 535,331 535,359 448,359"/>
+        &lt;Roles>
+            &lt;TableCellRole rowIndex="0" columnIndex="1" header="true"/>
+        &lt;/Roles>
+        &lt;TextLine id="l30">
+            &lt;Coords points="448,331 535,331 535,359 448,359"/>
+            &lt;TextEquiv>
+                &lt;Unicode>Perſonen.&lt;/Unicode>
+            &lt;/TextEquiv>
+        &lt;/TextLine>
+        &lt;TextEquiv>
+            &lt;Unicode>Perſonen.&lt;/Unicode>
+        &lt;/TextEquiv>
+    &lt;/TextRegion>
+    &lt;TextRegion id="r5" type="paragraph">
+        &lt;Coords points="539,331 637,331 637,359 539,359"/>
+        &lt;Roles>
+            &lt;TableCellRole rowIndex="0" columnIndex="2" header="true"/>
+        &lt;/Roles>
+        &lt;TextLine id="l31">
+            &lt;Coords points="539,331 637,331 637,359 539,359"/>
+            &lt;TextEquiv>
+                &lt;Unicode>Prozent.&lt;/Unicode>
+            &lt;/TextEquiv>
+        &lt;/TextLine>
+        &lt;TextEquiv>
+            &lt;Unicode>Prozent.&lt;/Unicode>
+        &lt;/TextEquiv>
+    &lt;/TextRegion>
+    &lt;TextRegion id="r6" type="paragraph">
+        &lt;Coords points="53,363 444,363 444,391 53,391"/>
+        &lt;Roles>
+            &lt;TableCellRole rowIndex="1" columnIndex="0"/>
+        &lt;/Roles>
+        &lt;TextLine id="l32">
+            &lt;Coords points="53,363 444,363 444,391 53,391"/>
+            &lt;TextEquiv>
+                &lt;Unicode>die Gewerbe im engeren Sinne&lt;/Unicode>
+            &lt;/TextEquiv>
+        &lt;/TextLine>
+        &lt;TextEquiv>
+            &lt;Unicode>die Gewerbe im engeren Sinne&lt;/Unicode>
+        &lt;/TextEquiv>
+    &lt;/TextRegion>
+    &lt;TextRegion id="r7" type="paragraph">
+        &lt;Coords points="448,363 535,363 535,391 448,391"/>
+        &lt;Roles>
+            &lt;TableCellRole rowIndex="1" columnIndex="1"/>
+        &lt;/Roles>
+        &lt;TextLine id="l33">
+            &lt;Coords points="448,363 535,363 535,391 448,391"/>
+            &lt;TextEquiv>
+                &lt;Unicode>1050&lt;/Unicode>
+            &lt;/TextEquiv>
+        &lt;/TextLine>
+        &lt;TextEquiv>
+            &lt;Unicode>1050&lt;/Unicode>
+        &lt;/TextEquiv>
+    &lt;/TextRegion>
+    &lt;TextRegion id="r9" type="paragraph">
+        &lt;Coords points="539,363 637,363 637,391 539,391"/>
+        &lt;Roles>
+            &lt;TableCellRole rowIndex="1" columnIndex="2"/>
+        &lt;/Roles>
+        &lt;TextLine id="l34">
+            &lt;Coords points="539,363 637,363 637,391 539,391"/>
+            &lt;TextEquiv>
+                &lt;Unicode>58,3&lt;/Unicode>
+            &lt;/TextEquiv>
+        &lt;/TextLine>
+        &lt;TextEquiv>
+            &lt;Unicode>58,3&lt;/Unicode>
+        &lt;/TextEquiv>
+    &lt;/TextRegion>
+    &lt;TextRegion id="r10" type="paragraph">
+        &lt;Coords points="53,395 444,395 444,424 53,424"/>
+        &lt;Roles>
+            &lt;TableCellRole rowIndex="2" columnIndex="0"/>
+        &lt;/Roles>
+        &lt;TextLine id="l35">
+            &lt;Coords points="53,395 444,395 444,424 53,424"/>
+            &lt;TextEquiv>
+                &lt;Unicode>die Urproduktion&lt;/Unicode>
+            &lt;/TextEquiv>
+        &lt;/TextLine>
+        &lt;TextEquiv>
+            &lt;Unicode>die Urproduktion&lt;/Unicode>
+        &lt;/TextEquiv>
+    &lt;/TextRegion>
+    &lt;TextRegion id="r11" type="paragraph">
+        &lt;Coords points="448,395 535,395 535,424 448,424"/>
+        &lt;Roles>
+            &lt;TableCellRole rowIndex="2" columnIndex="1"/>
+        &lt;/Roles>
+        &lt;TextLine id="l36">
+            &lt;Coords points="448,395 535,395 535,424 448,424"/>
+            &lt;TextEquiv>
+                &lt;Unicode>330&lt;/Unicode>
+            &lt;/TextEquiv>
+        &lt;/TextLine>
+        &lt;TextEquiv>
+            &lt;Unicode>330&lt;/Unicode>
+        &lt;/TextEquiv>
+    &lt;/TextRegion>
+    &lt;TextRegion id="r12" type="paragraph">
+        &lt;Coords points="539,395 637,395 637,424 539,424"/>
+        &lt;Roles>
+            &lt;TableCellRole rowIndex="2" columnIndex="2"/>
+        &lt;/Roles>
+        &lt;TextLine id="l37">
+            &lt;Coords points="539,395 637,395 637,424 539,424"/>
+            &lt;TextEquiv>
+                &lt;Unicode>18,3&lt;/Unicode>
+            &lt;/TextEquiv>
+        &lt;/TextLine>
+        &lt;TextEquiv>
+            &lt;Unicode>18,3&lt;/Unicode>
+        &lt;/TextEquiv>
+    &lt;/TextRegion>
+    &lt;TextRegion id="r14" type="paragraph">
+        &lt;Coords points="53,428 444,428 444,456 53,456"/>
+        &lt;Roles>
+            &lt;TableCellRole rowIndex="3" columnIndex="0"/>
+        &lt;/Roles>
+        &lt;TextLine id="l38">
+            &lt;Coords points="53,428 444,428 444,456 53,456"/>
+            &lt;TextEquiv>
+                &lt;Unicode>Handel, Verkehr und Gaſtwirtſchaft&lt;/Unicode>
+            &lt;/TextEquiv>
+        &lt;/TextLine>
+        &lt;TextEquiv>
+            &lt;Unicode>Handel, Verkehr und Gaſtwirtſchaft&lt;/Unicode>
+        &lt;/TextEquiv>
+    &lt;/TextRegion>
+    &lt;TextRegion id="r15" type="paragraph">
+        &lt;Coords points="448,428 535,428 535,456 448,456"/>
+        &lt;Roles>
+            &lt;TableCellRole rowIndex="3" columnIndex="1"/>
+        &lt;/Roles>
+        &lt;TextLine id="l39">
+            &lt;Coords points="448,428 535,428 535,456 448,456"/>
+            &lt;TextEquiv>
+                &lt;Unicode>230&lt;/Unicode>
+            &lt;/TextEquiv>
+        &lt;/TextLine>
+        &lt;TextEquiv>
+            &lt;Unicode>230&lt;/Unicode>
+        &lt;/TextEquiv>
+    &lt;/TextRegion>
+    &lt;TextRegion id="r16" type="paragraph">
+        &lt;Coords points="539,428 637,428 637,456 539,456"/>
+        &lt;Roles>
+            &lt;TableCellRole rowIndex="3" columnIndex="2"/>
+        &lt;/Roles>
+        &lt;TextLine id="l40">
+            &lt;Coords points="539,428 637,428 637,456 539,456"/>
+            &lt;TextEquiv>
+                &lt;Unicode>12,8&lt;/Unicode>
+            &lt;/TextEquiv>
+        &lt;/TextLine>
+        &lt;TextEquiv>
+            &lt;Unicode>12,8&lt;/Unicode>
+        &lt;/TextEquiv>
+    &lt;/TextRegion>
+    &lt;TextRegion id="r17" type="paragraph">
+        &lt;Coords points="53,460 444,460 444,488 53,488"/>
+        &lt;Roles>
+            &lt;TableCellRole rowIndex="4" columnIndex="0"/>
+        &lt;/Roles>
+        &lt;TextLine id="l41">
+            &lt;Coords points="53,460 444,460 444,488 53,488"/>
+            &lt;TextEquiv>
+                &lt;Unicode>Lohnarbeit unbeſtimmter Art&lt;/Unicode>
+            &lt;/TextEquiv>
+        &lt;/TextLine>
+        &lt;TextEquiv>
+            &lt;Unicode>Lohnarbeit unbeſtimmter Art&lt;/Unicode>
+        &lt;/TextEquiv>
+    &lt;/TextRegion>
+    &lt;TextRegion id="r18" type="paragraph">
+        &lt;Coords points="448,460 535,460 535,488 448,488"/>
+        &lt;Roles>
+            &lt;TableCellRole rowIndex="4" columnIndex="1"/>
+        &lt;/Roles>
+        &lt;TextLine id="l42">
+            &lt;Coords points="448,460 535,460 535,488 448,488"/>
+            &lt;TextEquiv>
+                &lt;Unicode>60&lt;/Unicode>
+            &lt;/TextEquiv>
+        &lt;/TextLine>
+        &lt;TextEquiv>
+            &lt;Unicode>60&lt;/Unicode>
+        &lt;/TextEquiv>
+    &lt;/TextRegion>
+    &lt;TextRegion id="r19" type="paragraph">
+        &lt;Coords points="539,460 637,460 637,488 539,488"/>
+        &lt;Roles>
+            &lt;TableCellRole rowIndex="4" columnIndex="2"/>
+        &lt;/Roles>
+        &lt;TextLine id="l43">
+            &lt;Coords points="539,460 637,460 637,488 539,488"/>
+            &lt;TextEquiv>
+                &lt;Unicode>3,3&lt;/Unicode>
+            &lt;/TextEquiv>
+        &lt;/TextLine>
+        &lt;TextEquiv>
+            &lt;Unicode>3,3&lt;/Unicode>
+        &lt;/TextEquiv>
+    &lt;/TextRegion>
+    &lt;TextRegion id="r20" type="paragraph">
+        &lt;Coords points="53,492 444,492 444,521 53,521"/>
+        &lt;Roles>
+            &lt;TableCellRole rowIndex="5" columnIndex="0"/>
+        &lt;/Roles>
+        &lt;TextLine id="l44">
+            &lt;Coords points="53,492 444,492 444,521 53,521"/>
+            &lt;TextEquiv>
+                &lt;Unicode>Oeffentlichen Dienſt&lt;/Unicode>
+            &lt;/TextEquiv>
+        &lt;/TextLine>
+        &lt;TextEquiv>
+            &lt;Unicode>Oeffentlichen Dienſt&lt;/Unicode>
+        &lt;/TextEquiv>
+    &lt;/TextRegion>
+    &lt;TextRegion id="r21" type="paragraph">
+        &lt;Coords points="448,492 535,492 535,521 448,521"/>
+        &lt;Roles>
+            &lt;TableCellRole rowIndex="5" columnIndex="1"/>
+        &lt;/Roles>
+        &lt;TextLine id="l45">
+            &lt;Coords points="448,492 535,492 535,521 448,521"/>
+            &lt;TextEquiv>
+                &lt;Unicode>60&lt;/Unicode>
+            &lt;/TextEquiv>
+        &lt;/TextLine>
+        &lt;TextEquiv>
+            &lt;Unicode>60&lt;/Unicode>
+        &lt;/TextEquiv>
+    &lt;/TextRegion>
+    &lt;TextRegion id="r22" type="paragraph">
+        &lt;Coords points="539,492 637,492 637,521 539,521"/>
+        &lt;Roles>
+            &lt;TableCellRole rowIndex="5" columnIndex="2"/>
+        &lt;/Roles>
+        &lt;TextLine id="l46">
+            &lt;Coords points="539,492 637,492 637,521 539,521"/>
+            &lt;TextEquiv>
+                &lt;Unicode>3,3&lt;/Unicode>
+            &lt;/TextEquiv>
+        &lt;/TextLine>
+        &lt;TextEquiv>
+            &lt;Unicode>3,3&lt;/Unicode>
+        &lt;/TextEquiv>
+    &lt;/TextRegion>
+    &lt;TextRegion id="r23" type="paragraph">
+        &lt;Coords points="53,525 444,525 444,553 53,553"/>
+        &lt;Roles>
+            &lt;TableCellRole rowIndex="6" columnIndex="0"/>
+        &lt;/Roles>
+        &lt;TextLine id="l47">
+            &lt;Coords points="53,525 444,525 444,553 53,553"/>
+            &lt;TextEquiv>
+                &lt;Unicode>Liberale Berufsarten&lt;/Unicode>
+            &lt;/TextEquiv>
+        &lt;/TextLine>
+        &lt;TextEquiv>
+            &lt;Unicode>Liberale Berufsarten&lt;/Unicode>
+        &lt;/TextEquiv>
+    &lt;/TextRegion>
+    &lt;TextRegion id="r24" type="paragraph">
+        &lt;Coords points="448,525 535,525 535,553 448,553"/>
+        &lt;Roles>
+            &lt;TableCellRole rowIndex="6" columnIndex="1"/>
+        &lt;/Roles>
+        &lt;TextLine id="l48">
+            &lt;Coords points="448,525 535,525 535,553 448,553"/>
+            &lt;TextEquiv>
+                &lt;Unicode>30&lt;/Unicode>
+            &lt;/TextEquiv>
+        &lt;/TextLine>
+        &lt;TextEquiv>
+            &lt;Unicode>30&lt;/Unicode>
+        &lt;/TextEquiv>
+    &lt;/TextRegion>
+    &lt;TextRegion id="r25" type="paragraph">
+        &lt;Coords points="539,525 637,525 637,553 539,553"/>
+        &lt;Roles>
+            &lt;TableCellRole rowIndex="6" columnIndex="2"/>
+        &lt;/Roles>
+        &lt;TextLine id="l49">
+            &lt;Coords points="539,525 637,525 637,553 539,553"/>
+            &lt;TextEquiv>
+                &lt;Unicode>1,7&lt;/Unicode>
+            &lt;/TextEquiv>
+        &lt;/TextLine>
+        &lt;TextEquiv>
+            &lt;Unicode>1,7&lt;/Unicode>
+        &lt;/TextEquiv>
+    &lt;/TextRegion>
+    &lt;TextRegion id="r26" type="paragraph">
+        &lt;Coords points="53,557 444,557 444,586 53,586"/>
+        &lt;Roles>
+            &lt;TableCellRole rowIndex="7" columnIndex="0"/>
+        &lt;/Roles>
+        &lt;TextLine id="l50">
+            &lt;Coords points="53,557 444,557 444,586 53,586"/>
+            &lt;TextEquiv>
+                &lt;Unicode>Verſchiedene&lt;/Unicode>
+            &lt;/TextEquiv>
+        &lt;/TextLine>
+        &lt;TextEquiv>
+            &lt;Unicode>Verſchiedene&lt;/Unicode>
+        &lt;/TextEquiv>
+    &lt;/TextRegion>
+    &lt;TextRegion id="r27" type="paragraph">
+        &lt;Coords points="448,557 535,557 535,586 448,586"/>
+        &lt;Roles>
+            &lt;TableCellRole rowIndex="7" columnIndex="1"/>
+        &lt;/Roles>
+        &lt;TextLine id="l51">
+            &lt;Coords points="448,557 535,557 535,586 448,586"/>
+            &lt;TextEquiv>
+                &lt;Unicode>40&lt;/Unicode>
+            &lt;/TextEquiv>
+        &lt;/TextLine>
+        &lt;TextEquiv>
+            &lt;Unicode>40&lt;/Unicode>
+        &lt;/TextEquiv>
+    &lt;/TextRegion>
+    &lt;TextRegion id="r28" type="paragraph">
+        &lt;Coords points="539,557 637,557 637,586 539,586"/>
+        &lt;Roles>
+            &lt;TableCellRole rowIndex="7" columnIndex="2"/>
+        &lt;/Roles>
+        &lt;TextLine id="l52">
+            &lt;Coords points="539,557 637,557 637,586 539,586"/>
+            &lt;TextEquiv>
+                &lt;Unicode>2,3&lt;/Unicode>
+            &lt;/TextEquiv>
+        &lt;/TextLine>
+        &lt;TextEquiv>
+            &lt;Unicode>2,3&lt;/Unicode>
+        &lt;/TextEquiv>
+    &lt;/TextRegion>
+    &lt;Grid>
+        &lt;GridPoints index="0" points="51,328 446,328 537,328 639,328"/>
+        &lt;GridPoints index="1" points="51,361 446,361 537,361 639,361"/>
+        &lt;GridPoints index="2" points="51,393 446,393 537,393 639,393"/>
+        &lt;GridPoints index="3" points="51,426 446,426 537,426 639,426"/>
+        &lt;GridPoints index="4" points="51,458 446,458 537,458 639,458"/>
+        &lt;GridPoints index="5" points="51,490 446,490 537,490 639,490"/>
+        &lt;GridPoints index="6" points="51,523 446,523 537,523 639,523"/>
+        &lt;GridPoints index="7" points="51,555 446,555 537,555 639,555"/>
+        &lt;GridPoints index="8" points="51,588 446,588 537,588 639,588"/>
+    &lt;/Grid>
+&lt;/TableRegion></codeblock>
+            </fig>
+        </p>
+    </body>
+</topic>

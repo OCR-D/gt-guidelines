@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="hilfsmittel">
+    <title>&#x1F527; Hilfsmittel</title>
+    <body>
+        <p>Für die Erstellung von Ground Truth (GT), die Eingabe sowie Konvertierung von Zeichen oder für die
+            Überprüfung des GT können verschiedene Werkzeuge genutzt werden. </p>
+        <p>Für die Erstellung bieten sich folgende Werkzeuge (Auswahl) an: <ul id="ul_kyv_4xm_vzb">
+                <li>Aletheia</li>
+                <li>eScriptorium</li>
+                <li>Transkribus</li>
+                <li>OCR4all/LAREX</li>
+            </ul>
+        </p>
+        <p>Für die Eingabe von Zeichen, die nicht auf der Tastatur vorhanden sind, bieten die
+            Erstellungswerkzeuge und das genutzte Betriebssystem in den meisten Fällen virtuelle
+            Tastaturen an.</p>
+        <p>Für die Eingabe bieten sich an: <ul id="ul_kyv_4xm_vzba">
+                <li>verschiedene virtuelle Tastaturen für Aletheia, eScriptorium, Transkribus,
+                    OCR4all/LAREX mit <xref href="https://github.com/tboenig/keyboardGT"
+                        format="html" scope="external">KeybordGT</xref></li>
+                <li>virtuelle Tastaturen in MacOS und Windows</li>
+            </ul></p>
+        <p>Für die Konvertierung bietet sich an: <ul id="ul_kyv_4xm_vzbc">
+                <li><xref href="https://github.com/ponteIneptique/choco-mufin" format="html"
+                        scope="external">Choco-Mufin [CHaracter Ocr COordination for MUFI iN
+                        texts]</xref></li>
+            </ul></p>
+            
+        <p>Die Überprüfung des GT kann auf verschiedenen Ebenen erfolgen. 
+            Es können Validierungen auf der syntaktischen XML-Ebene gegen das PAGE-XML-Schema sowie auf der 
+            semantischen Ebene basierend auf Regeln (unter anderem den OCR-D-GT-Guidelines, Level-Rules) durchgeführt werden.</p>
+        <p>Für die Überprüfung bietet sich an: <ul id="ul_kyv_4xm_vzbd">
+                <li><xref href="https://github.com/tboenig/gt-MufiLevelRules" format="html"
+                        scope="external">gt-MufiLevelRules</xref></li>
+                <li><xref href="https://tboenig.github.io/gt-guidelines/html/trans/ruleset.html"
+                        format="html" scope="external">gt-guidelines Ruleset</xref></li>
+            <li><xref href="https://github.com/tboenig/gt-repo-scripts/blob/main/README.md#-gt-level_parserxsl" format="html"
+                        scope="external">gt-Level_Parser</xref></li>
+                <li><xref href="https://www.primaresearch.org/tools/PAGEConverterValidator"
+                        format="html" scope="external">PAGE Converter and Validator</xref></li>
+            </ul></p>
+        
+       
+        
+    </body>
+</topic>

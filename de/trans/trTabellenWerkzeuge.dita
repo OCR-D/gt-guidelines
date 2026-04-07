@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="trTabellenWerkzeuge">
+    <title>Annotation oder Transkription von Tabellen</title>
+    <body>
+        <p>Die Annotation oder Transkription von Tabellen kann sich sehr aufwendig sein. Aus diesem
+            Grund ist abhängig vom Tabellen Level, ein geeignetes Werkzeug zu nutzen. Je aufwendiger
+            die Annotationen sein sollen, um so leistungsfähiger muss das Transkriptions-GT-Werkzeug
+            sein. Werden nur einfache Tabellen im Tabellen Level 1 erfasst, können einfache
+            Werkzeuge, die ausschließlich die Vergabe von TextRegionen nutzen, verwendet werden.</p>
+            <p>Ab dem Tabellen Level 2 sollte die Möglichkeit bestehen, dass die TableRegion
+            annotiert werden kann. Alternativ können einfache Werkzeuge genutzt werden, in dem eine
+            Verschachtelung von TextRegionen vorgenommen und abschließend manuell korrigiert wird.
+            Diese Korrektur setzt ein sehr umfangreiches und spezialisiertes Wissen des
+            PAGE-XML-Formates voraus.</p>
+            <p>Ab dem Tabellen Level 3 sind Werkzeuge zu nutzen, die eine Vergabe von Attributwerten
+            ermöglichen. Alternativ können diese Werte im PAGE-XML-Format erfolgen. Auch hierfür ist
+            umfangreiches und spezialisiertes Wissen des PAGE-XML-Formates zwingend notwendig.
+            Sollte im Tabellen Level 4 erfasst werden, bei dem das Tabellennetz erfasst wird, ist
+            die Verwendung eines sehr leistungsfähigen Werkzeugs unumgänglich. </p>
+        <p>
+        
+        </p>
+    </body>
+</topic>

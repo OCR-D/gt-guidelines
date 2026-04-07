@@ -3,35 +3,145 @@
 <topic id="lyLeserichtung">
     <title>Leserichtung (ReadingOrder)</title>
     <body>
+        <p>Um inhaltliche und formale Zusammenhänge nicht zu zerreißen, werden Regionen auf <b>einer
+                Seite</b> mit einer ReadingOrder (Leserichtung) geordnet und gruppiert. Eine
+            ReadingOrder besteht ausschließlich nur zwischen <b>Regionen</b>. Mit einer ReadingOrder
+            wird eine Ordnung von Regionen festgelegt. Die Leserichtung in einer Zeile wird nur
+            durch die Reihenfolge der einzelnen Word-Elemente bestimmt, eine explizite Auszeichnung
+            ist nicht vorgesehen. </p>
+        <section>
+            <title>Festlegung der Leserichtung</title>
+            <p>Die Festlegung erfolgt pragmatisch. Das bedeutet:</p>
+            <ul id="ul_op1_rhp_ktb">
+                <li>die Regionen einer Seite sind zunächst von links nach rechts (bei linksläufigen
+                    Schriften rechts nach links) </li>
+                <li>und von oben nach unten unter Beachtung einer Spaltenaufteilung zu ordnen.</li>
+                <li>Fußnoten, Endnoten sind in der Regel nach den Regionen wie Absätze zu
+                    zuordnen.</li>
+                <li>Regionen, die sich außerhalb des <xref href="lySatzspiegel.dita"
+                        >Satzspiegels</xref> befinden wie Marginalien, Kustoden und Bogensignaturen,
+                    sind immer nach den Regionen wie Überschriften, Absätze oder Fußnoten zu
+                    betrachten und zu zuordnen.</li>
+            </ul>
+        </section>
+        <section>
+            <title>PAGE-XML-Kodierung</title>
+            <p>Die Angabe der ReadingOrder erfolgt mit dem Element
+                    <codeph>&lt;ReadingOrder></codeph>. </p>
+            <p>
+                <ul id="ul_j2l_lx1_vfb">
+                    <li>Handelt es sich um in Beziehung stehende Elemente (z. B. bei einer
+                        Überschrift und dem dazu folgenden Absatz), ist die Leserichtung vom Typ
+                        „geordnet“. In diesem Fall ist das Element
+                            <codeph>&lt;OrderedGroup&gt;</codeph> zu verwenden.<ul
+                            id="ul_qzf_chp_ktb">
+                            <li>Durch eine laufende Nummerierung (beginnend bei Null) wird die
+                                Leserichtung bei einer „geordneten“ Leserichtung indiziert und
+                                festgelegt.<codeblock id="codeblock_cwc_hz4_ktb" outputclass="language-xml">&lt;ReadingOrder>
+  &lt;OrderedGroup id="ro_1542194237187" caption="Regions reading order">
+      &lt;RegionRefIndexed index="0" regionRef="r_1"/>
+      &lt;RegionRefIndexed index="1" regionRef="r_2"/>
+  &lt;/OrderedGroup>
+&lt;/ReadingOrder></codeblock></li>
+                            <li><xref scope="external"
+                                    href="https://github.com/tboenig/gt-guideline-examples/blob/main/data/erasmus_testamenti_1523/GT-PAGE/erasmus_testamenti_1523_0012.xml"
+                                    format="html"> Beispiel für eine ReadingOrder/OrderedGroup
+                                </xref>
+                            </li>
+                                <li>
+                                    <fig>
+                                    <title>linke Seite</title>
+                                        <desc><xref scope="external" format="html"
+                                            href="https://github.com/tboenig/gt-guideline-examples/blob/main/data/erasmus_testamenti_1523/GT-PAGE/erasmus_testamenti_1523_0012.xml">erasmus_testamenti_1523_0012.xml</xref></desc>
+                                    <image href="images/lyLeserichtung_links.png"
+                                        id="image_l22_w2n_ytb" scale="50"/>
+                                </fig></li>
+                                    <li><fig>
+                                    <title>rechte Seite</title>
+                                        <desc><xref scope="external" format="html"
+                                            href="https://github.com/tboenig/gt-guideline-examples/blob/main/data/erasmus_testamenti_1523/GT-PAGE/erasmus_testamenti_1523_0013.xml">erasmus_testamenti_1523_0013.xml</xref></desc>
+                                    <image href="images/lyLeserichtung_rechts.png"
+                                        id="image_ncr_hfn_ytb" scale="50"/>
+                                </fig></li>
+                        </ul></li>
+                    <li>Handelt es sich um gleichberechtigte Elemente (z. B. bei Werbung), die für
+                        sich allein stehen kann, ist die Leserichtung vom Typ „ungeordnet“. In
+                        diesem Fall ist das Element <codeph>&lt;UnorderedGroup&gt;</codeph> zu
+                            verwenden.<ul id="ul_z5m_chp_ktb">
+                            <li>Bei der „ungeordneten“ Leserichtung wird <b>keine</b> Indizierung
+                                vorgenommen.
+                                <codeblock id="codeblock_hhn_hz4_ktb" outputclass="language-xml">&lt;ReadingOrder>
+  &lt;UnorderedGroup id="ro_1542194237187" caption="Regions reading order">
+      &lt;RegionRef regionRef="r_1"/>
+      &lt;RegionRef regionRef="r_2"/>
+  &lt;/UnorderedGroup>
+&lt;/ReadingOrder></codeblock></li>
+                        </ul></li><li>In einigen Fällen ist auch eine Mischform von <i>ungeordnet</i> und <i>geordnet</i> möglich.
+                        Innerhalb eines Anzeigenteils einer Zeitung sind die einzelnen Anzeigen
+                            <i>ungeordnet</i>. Aber innerhalb der Anzeige kann davon ausgegangen
+                        werden, das u.a. Abstätze, Grafiken in <i>geordneten Beziehungen</i> zu
+                        einander stehen. <ul id="ul_g3q_wy4_ytb">
+                            <li>
+<codeblock id="codeblock_f15_dz4_ytb" outputclass="language-xml">&lt;ReadingOrder>
+	&lt;UnorderedGroup id="ab1">
+		&lt;UnorderedGroup id="ug19">
+			&lt;OrderedGroup id="og19">
+				&lt;OrderedGroupIndexed id="g19" index="0">
+					&lt;RegionRefIndexed regionRef="r2" index="0"/>
+					&lt;RegionRefIndexed regionRef="r71" index="1"/>
+				&lt;/OrderedGroupIndexed>
+			&lt;/OrderedGroup>
+		&lt;/UnorderedGroup>
+		&lt;UnorderedGroup id="ug6">
+			&lt;OrderedGroup id="og6">
+				&lt;OrderedGroupIndexed id="g6" index="1">
+					&lt;RegionRefIndexed regionRef="r4" index="0"/>
+					&lt;RegionRefIndexed regionRef="r5" index="1"/>
+				&lt;/OrderedGroupIndexed>
+			&lt;/OrderedGroup>
+		&lt;/UnorderedGroup>
+	&lt;/UnorderedGroup>
+&lt;/ReadingOrder>
+</codeblock>
+                            </li>
+                            <li>
+                                <fig>
+                                    <title>Mischform von ungeordneter und geordneter
+                                        Leserichtung</title>
+                                    <desc><xref scope="external" format="html"
+                                            href="https://github.com/tboenig/gt-guideline-examples/blob/main/data/werbung/GT-PAGE/werbung_unordered.xml"
+                                            >werbung_unordered.xml</xref></desc>
+                                    <image href="images/lyLeserichtung_misch.jpg" scale="50"
+                                        id="image_yxj_y2p_ytb"/>
+                                </fig>
+                            </li>
+                        </ul></li>
+                </ul>
+            </p>
+        </section>
+        <example>
+            <title>Bildbeispiele</title>
+            <ul id="ul_uhs_bxz_l5b">
+                <li><fig><title>Mehrere Spaltenabschnitte</title><image href="images/lyLeserichtung.png" id="image_oqf_ld4_4bb"
+                        scale="60"/></fig></li>
+                <li><fig><title>Rechte Seite mit Marginalien</title><image href="images/lyLeserichtung2.png" id="image_y5g_cf4_4bb"
+                        scale="60"/></fig></li>
+                <li><fig><title>Spalten mit Abbildungen</title><image href="images/lyLeserichtung3.png" id="image_n43_qk4_4bb"
+                        scale="60"/></fig></li>
+                
+            </ul>
+            
+            
+            
+        </example>
        
-<p>Um inhaltliche und formale Zusammenhänge nicht zu zerreißen, werden einzelne Seitenelemente
-            gruppiert. Für eine solche Gruppierung kann in der Regel eine Leserrichtung vorgegeben
-            werden. Eine ReadingOrder besteht ausschließlich nur zwischen <b>Regionen</b>. Die
-            Leserichtung in einer Zeile wird nur durch die Reihenfolge der einzelnen Word-Elemente
-            bestimmt, eine explizite Auszeichnung ist nicht vorgesehen. </p>
-        <p>Dies erfolgt mit dem Element <codeph>&lt;ReadingOrder></codeph>. </p>
-        <p><ul id="ul_j2l_lx1_vfb"><li>Handelt es sich um in Beziehung stehende Elemente (z.B. bei  einer Überschrift und dem dazu
-                    folgenden Absatz), ist die Leserichtung vom Typ „geordnet“ in diesem Fall ist
-                    das Element <codeph>&lt;OrderedGroup&gt;</codeph> zu verwenden.</li>
-                <li>Handelt es sich um gleichberechtigte Elemente (z.B. bei Werbung), die für sich
-                    allein stehen, ist die Leserichtung vom Typ „ungeordnet“ in diesem Fall ist das
-                    Element <codeph>&lt;UnorderedGroup&gt;</codeph> zu verwenden.</li>
-            </ul></p>
-        <p>Durch eine laufende Nummerierung (beginnend bei Null) wird die Leserichtung festgelegt.
-            Hierbei werden die Regionen einer Seite zunächst von links nach rechts (bei
-            linksläufigen Schriften rechts nach links) und von oben nach unten unter Beachtung einer
-            Spalteneinteilung geordnet. </p>
-<p>Elemente, die außerhalb des Satzspiegels liegen (z.B. Marginalien oder Kustoden), sind immer nach
-dem „Lesen“ der Satzspiegelinhalte zu betrachten.</p>
-        <example><title>ReadingOrder in PAGE XML</title><codeblock outputclass="language-xml">&lt;ReadingOrder>
-            &lt;OrderedGroup id="ro_1542194237187" caption="Regions reading order">
-            &lt;RegionRefIndexed index="0" regionRef="r_1"/>
-            &lt;RegionRefIndexed index="1" regionRef="r_2"/>
-            &lt;/OrderedGroup>
-&lt;/ReadingOrder></codeblock></example>
-        <example><title>Bildbeispiele</title>
-<p><image href="images/lyLeserichtung.png" id="image_oqf_ld4_4bb"/></p>
-<p><image href="images/lyLeserichtung2.png" id="image_y5g_cf4_4bb"/></p>
-            <p><image href="images/lyLeserichtung3.png" id="image_n43_qk4_4bb"/></p></example>
+        
+        
+        
+        
     </body>
+    <related-links>
+        <link href="structur_gtlevel1.dita"/>
+        
+    </related-links>
 </topic>
