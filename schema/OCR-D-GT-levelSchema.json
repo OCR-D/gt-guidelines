@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OCR-D-GT-levelSchema",
+  "description": "The OCR-D-GT-LevelRuleset is a set of rules that documents different ways of writing letters at different levels of transcription. Three levels are provided.",
+  "type": "object",
+    "properties": {
+    "ruleset": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "rule": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "type": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

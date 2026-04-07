@@ -2,83 +2,388 @@
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="trRom">
     <title>Römische Zahlen</title>
-    <body>
-<p>Große Römische Zahlen werden mit den lateinischen Großbuchstaben I (1), V (5), X (10), L (50), C
-(100), D (500) und M (1000) gebildet und so wiedergegeben.</p>
-<p>Kleine römische Zahlen werden mit den kleinen lateinischen Buchstaben gebildet.</p>
-<p><b>Sonderformen</b></p>
-<p>Folgende römische Zahlen werden ebenfalls mit lateinischen Großbuchstaben oder kleinen
-            lateinischen Buchstaben und spezifischen Kodierungen transkribiert.</p>
-    <fig><title>Beispiel Angabe einer Jahreszahl 1647</title><image placement="inline" align="right"
-href="images/trRom1.png"
-height="23" width="155" id="image_j5c_vq3_b1b" ></image></fig>
-<p>
+    <body><section>
+        <title>Level 1 und 2</title>
+        <p>Große Römische Zahlen werden mit den lateinischen Großbuchstaben [u.a. I (1), V (5), X
+                (10), L (50), C (100), D (500) und M (1000)] gebildet und so transkribiert.</p>
+        <p>Kleine römische Zahlen werden mit den kleinen lateinischen Buchstaben gebildet und transkribiert.</p>
+        <p>Sonderformen werden ebenfalls mit lateinischen Großbuchstaben oder kleinen
+            lateinischen Buchstaben gebildet und transkribiert.</p>
+    </section>
+        <section>
+            <title>Level 3</title>
+            <p>Große Römische Zahlen und kleine römische Zahlen werden entsprechend des Unicodeblock Zahlzeichen (Number Forms, U+2150 bis U+218F) gebildet und so transkribiert.</p>
+        </section>
+        
+        <table id="tableROM" frame="all">
+            <tgroup cols="5">
+                <colspec colnum="1" colname="col1"/>
+                <colspec colname="newCol3" colnum="2"/>
+                <colspec colname="newCol4" colnum="3"/>
+                <colspec colname="newCol5" colnum="4"/>
+                <colspec colname="newCol6" colnum="5"/>
+                <thead>
+                    <row>
+                        <entry dir="ltr"/>
+                        <entry><b><xref href="tr_level_1.dita">Level 1</xref></b></entry>
+                        <entry><b><xref href="tr_level_2.dita">Level 2</xref></b></entry>
+                        <entry><b><xref href="tr_level_3.dita">Level 3</xref></b></entry>
+                        <entry><b>Kommentar</b></entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row product="ruleset">
+                        <entry/>
+                        <entry>I</entry>
+                        <entry>I</entry>
+                        <entry>Ⅰ</entry>
+                        <entry>1</entry>
+                        
+                    </row>
+                    <row product="ruleset">
+                        <entry/>
+                        <entry>II</entry>
+                        <entry>II</entry>
+                        <entry>Ⅱ</entry>
+                        <entry>2</entry>
+                    </row>
+                    <row product="ruleset">
+                        <entry/>
+                        <entry>III</entry>
+                        <entry>III</entry>
+                        <entry>Ⅲ</entry>
+                        <entry>3</entry>
+                    </row>
+                    <row product="ruleset">
+                        <entry/>
+                        <entry>IV</entry>
+                        <entry>IV</entry>
+                        <entry>Ⅳ</entry>
+                        <entry>4</entry>
+                    </row>
+                    <row product="ruleset">
+                        <entry/>
+                        <entry>V</entry>
+                        <entry>V</entry>
+                        <entry>Ⅴ</entry>
+                        <entry>5</entry>
+                    </row>
+                    <row product="ruleset">
+                        <entry/>
+                        <entry>VI</entry>
+                        <entry>VI</entry>
+                        <entry>Ⅵ</entry>
+                        <entry>6</entry>
+                    </row>
+                    <row product="ruleset">
+                        <entry/>
+                        <entry>VII</entry>
+                        <entry>VII</entry>
+                        <entry>Ⅶ</entry>
+                        <entry>7</entry>
+                    </row>
+                    <row product="ruleset">
+                        <entry/>
+                        <entry>VIII</entry>
+                        <entry>VIII</entry>
+                        <entry>Ⅷ</entry>
+                        <entry>8</entry>
+                    </row>
+                    <row product="ruleset">
+                        <entry/>
+                        <entry>IX</entry>
+                        <entry>IX</entry>
+                        <entry>Ⅸ</entry>
+                        <entry>9</entry>
+                    </row>
+                    <row product="ruleset">
+                        <entry/>
+                        <entry>X</entry>
+                        <entry>X</entry>
+                        <entry>Ⅹ</entry>
+                        <entry>10</entry>
+                    </row>
+                    <row product="ruleset">
+                        <entry/>
+                        <entry>XI</entry>
+                        <entry>XI</entry>
+                        <entry>Ⅺ</entry>
+                        <entry>11</entry>
+                    </row>
+                    <row product="ruleset">
+                        <entry/>
+                        <entry>XII</entry>
+                        <entry>XII</entry>
+                        <entry>Ⅻ </entry>
+                        <entry>12</entry>
+                    </row>
+                    <row product="ruleset">
+                        <entry/>
+                        <entry>L</entry>
+                        <entry>L</entry>
+                        <entry>Ⅼ</entry>
+                        <entry>50</entry>
+                    </row>
+                    <row product="ruleset">
+                        <entry/>
+                        <entry>C</entry>
+                        <entry>C</entry>
+                        <entry>Ⅽ</entry>
+                        <entry>100</entry>
+                    </row>
+                    <row product="ruleset">
+                        <entry/>
+                        <entry>D</entry>
+                        <entry>D</entry>
+                        <entry>Ⅾ</entry>
+                        <entry>500</entry>
+                    </row>
+                    <row product="ruleset">
+                        <entry/>
+                        <entry>M</entry>
+                        <entry>M</entry>
+                        <entry>Ⅿ</entry>
+                        <entry>1000</entry>
+                    </row>
+                    <row product="ruleset">
+                        <entry/>
+                        <entry>i</entry>
+                        <entry>i</entry>
+                        <entry>ⅰ</entry>
+                        <entry>1</entry>
+                    </row>
+                    <row product="ruleset">
+                        <entry/>
+                        <entry>ii</entry>
+                        <entry>ii</entry>
+                        <entry>ⅱ</entry>
+                        <entry>2</entry>
+                    </row>
+                    <row product="ruleset">
+                        <entry/>
+                        <entry>iii</entry>
+                        <entry>iii</entry>
+                        <entry>ⅲ</entry>
+                        <entry>3</entry>
+                    </row>
+                    <row product="ruleset">
+                        <entry/>
+                        <entry>iv</entry>
+                        <entry>iv</entry>
+                        <entry>ⅳ</entry>
+                        <entry>4</entry>
+                    </row>
+                    <row product="ruleset">
+                        <entry/>
+                        <entry>v</entry>
+                        <entry>v</entry>
+                        <entry>ⅴ</entry>
+                        <entry>5</entry>
+                    </row>
+                    <row product="ruleset">
+                        <entry/>
+                        <entry>vi</entry>
+                        <entry>vi</entry>
+                        <entry>ⅵ </entry>
+                        <entry>6</entry>
+                    </row>
+                    <row product="ruleset">
+                        <entry/>
+                        <entry>vii</entry>
+                        <entry>vii</entry>
+                        <entry>ⅶ</entry>
+                        <entry>7</entry>
+                    </row>
+                    <row product="ruleset">
+                        <entry/>
+                        <entry>viii</entry>
+                        <entry>viii</entry>
+                        <entry>ⅷ </entry>
+                        <entry>8</entry>
+                    </row>
+                    <row product="ruleset">
+                        <entry/>
+                        <entry>ix</entry>
+                        <entry>ix</entry>
+                        <entry>ⅸ</entry>
+                        <entry>9</entry>
+                    </row>
+                    <row product="ruleset">
+                        <entry/>
+                        <entry>x</entry>
+                        <entry>x</entry>
+                        <entry>ⅹ</entry>
+                        <entry>10</entry>
+                    </row>
+                    <row product="ruleset">
+                        <entry/>
+                        <entry>xi</entry>
+                        <entry>xi</entry>
+                        <entry>ⅺ </entry>
+                        <entry>11</entry>
+                    </row>
+                    <row product="ruleset">
+                        <entry/>
+                        <entry>xii</entry>
+                        <entry>xii</entry>
+                        <entry>ⅻ</entry>
+                        <entry>12</entry>
+                    </row>
+                    <row product="ruleset">
+                        <entry/>
+                        <entry>l</entry>
+                        <entry>l</entry>
+                        <entry>ⅼ</entry>
+                        <entry>50</entry>
+                    </row>
+                    <row product="ruleset">
+                        <entry/>
+                        <entry>c</entry>
+                        <entry>c</entry>
+                        <entry>ⅽ</entry>
+                        <entry>100</entry>
+                    </row>
+                    <row product="ruleset">
+                        <entry/>
+                        <entry>d</entry>
+                        <entry>d</entry>
+                        <entry>ⅾ</entry>
+                        <entry>500</entry>
+                    </row>
+                    <row product="ruleset">
+                        <entry/>
+                        <entry>m</entry>
+                        <entry>m</entry>
+                        <entry>ⅿ</entry>
+                        <entry>1.000</entry>
+                    </row>
+                    <row>
+                        <entry/>
+                        <entry>Ↄ</entry>
+                        <entry>Ↄ</entry>
+                        <entry>Ↄ</entry>
+                        <entry>100</entry>
+                    </row>
+                    <row>
+                        <entry/>
+                        <entry>ↄ</entry>
+                        <entry>ↄ</entry>
+                        <entry>ↄ</entry>
+                        <entry>100</entry>
+                    </row>
+                    <row>
+                        <entry/>
+                        <entry>Iↄ</entry>
+                        <entry>Iↄ</entry>
+                        <entry>Ⅾ</entry>
+                        <entry>500</entry>
+                    </row>
+                    <row product="ruleset">
+                        <entry/>
+                        <entry>cIↄ</entry>
+                        <entry>cIↄ</entry>
+                        <entry>ↀ</entry>
+                        <entry>1.000</entry>
+                    </row>
+                    <row>
+                        <entry/>
+                        <entry>CIↃ</entry>
+                        <entry>CIↃ</entry>
+                        <entry>ↀ</entry>
+                        <entry>1.000</entry>
+                    </row>
+                    <row>
+                        <entry/>
+                        <entry>Iↄↄ</entry>
+                        <entry>Iↄↄ</entry>
+                        <entry>ↁ</entry>
+                        <entry>5.000</entry>
+                    </row>
+                    <row product="ruleset">
+                        <entry/>
+                        <entry>IↃↃ</entry>
+                        <entry>IↃↃ</entry>
+                        <entry>ↁ </entry>
+                        <entry>5.000</entry>
+                    </row>
+                    <row>
+                        <entry/>
+                        <entry>ccIↄↄ</entry>
+                        <entry>ccIↄↄ</entry>
+                        <entry>ↂ</entry>
+                        <entry>10.000</entry>
+                    </row>
+                    <row product="ruleset">
+                        <entry/>
+                        <entry>CCIↃↃ</entry>
+                        <entry>CCIↃↃ</entry>
+                        <entry>ↂ</entry>
+                        <entry>10.000</entry>
+                    </row>
+                    <row>
+                        <entry/>
+                        <entry>Iↄↄↄ</entry>
+                        <entry>Iↄↄↄ</entry>
+                        <entry>ↇ</entry>
+                        <entry>50.000</entry>
+                    </row>
+                    <row product="ruleset">
+                        <entry/>
+                        <entry>IↃↃↃ</entry>
+                        <entry>IↃↃↃ</entry>
+                        <entry>ↇ</entry>
+                        <entry>50.000</entry>
+                    </row>
+                    <row>
+                        <entry/>
+                        <entry>cccIↄↄↄ</entry>
+                        <entry>cccIↄↄↄ</entry>
+                        <entry>ↈ</entry>
+                        <entry>100.000</entry>
+                    </row>
+                    <row product="ruleset">
+                        <entry/>
+                        <entry>CCCIↃↃↃ</entry>
+                        <entry>CCCIↃↃↃ</entry>
+                        <entry>ↈ</entry>
+                        <entry>100.000</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+        
+        
+        
+        
+        
+        
+
+<p>Beispiel für die Jahresangabe 1647
 <table frame="all" rowsep="1" colsep="1" id="table_mfp_dnd_b1b">
-<tgroup cols="4">
-<colspec colname="newCol3" colnum="1" colwidth="1*"/>
-<colspec colname="c1" colnum="2" colwidth="1*"/>
-<colspec colname="newCol2" colnum="3" colwidth="1*"/>
-<colspec colname="c2" colnum="4" colwidth="1*"/>
-<tbody>
+<tgroup cols="5">
+                    <colspec colname="newCol3" colnum="1" colwidth="1.64*"/>
+                    <colspec colname="c1" colnum="2" colwidth="1.64*"/>
+                    <colspec colname="newCol2" colnum="3" colwidth="1.64*"/>
+                    <colspec colname="c2" colnum="4" colwidth="2.28*"/>
+                    <colspec colname="newCol5" colnum="5" colwidth="1*"/>
+                    <tbody>
                         <row>
-                            <entry/>
-                            <entry>Zeichen</entry>
-                            <entry>mögliche Kodierung u. a. in hexadezimaler Schreibweise</entry>
-                            <entry>römischen Zahl decodiert</entry>
+                            <entry>Vorlage</entry>
+                            <entry><b><xref href="tr_level_1.dita">Level 1</xref></b></entry>
+                            <entry><b><xref href="tr_level_2.dita">Level 2</xref></b></entry>
+                            <entry><b><xref href="tr_level_3.dita">Level 3</xref></b></entry>
+                            <entry>Kommentar</entry>
                         </row>
-<row>
-<entry/>
-<entry>cIↄ</entry>
-<entry>cI&amp;#x2184;</entry>
-<entry>1000</entry>
-</row>
-<row>
-<entry/>
-<entry>Iↄ</entry>
-<entry>I&amp;#x2184;</entry>
-<entry>500</entry>
-</row>
-<row>
-<entry/>
-<entry>c</entry>
-<entry>c</entry>
-<entry>100</entry>
-</row>
-<row>
-<entry/>
-<entry>ↄ </entry>
-<entry>&amp;#x2184;</entry>
-<entry>100</entry>
-</row>
-<row>
-<entry namest="newCol3" nameend="c2"><b>weitere Formen</b></entry>
-</row>
-<row>
-<entry/>
-<entry>ↁ </entry>
-<entry>&amp;#x2181;</entry>
-<entry>5000</entry>
-</row>
-<row>
-<entry/>
-<entry>ↂ</entry>
-<entry>&amp;#x2182;</entry>
-<entry>10.000</entry>
-</row>
-<row>
-<entry/>
-<entry>ↇ</entry>
-<entry>&amp;#x2187;</entry>
-<entry>50.000</entry>
-</row>
-<row>
-<entry/>
-<entry>ↈ</entry>
-<entry>&amp;#x2188;</entry>
-<entry>100.000</entry>
-</row>
-</tbody>
-</tgroup>
+                        <row>
+                            <entry><image placement="inline" align="right" href="images/trRom1.png"
+                                    height="23" width="155" id="image_dnt_2zh_3tb"/></entry>
+                            <entry>ⅽIↄ Iↄ c X L VII.</entry>
+                            <entry>ⅽIↄ Iↄ c X L VII.</entry>
+                            <entry>ⅽⅠↄ Ⅰↄ ⅽ Ⅹ Ⅼ Ⅶ.</entry>
+                            <entry>1647</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
 </table>
 </p>
 </body>

@@ -19,92 +19,105 @@
         <p>Brüche werden, sofern vorhanden, mittels ihrer entsprechenden Kodierungen oder Zeichen
             wiedergegeben: </p>
         <table id="table_qcm_f3d_b1b" frame="all">
-            <tgroup cols="1">
+            <tgroup cols="2">
                     <thead>
                         <row>
                             <entry>Zeichen oder Vorlage</entry>
+                            <entry>Unicodebeschreibung</entry>
                         </row>
                     </thead>
                     <tbody>
                         <row>
                             <entry>&#x00BD;<term>Bruch einhalb <text>dezimal: &amp;#189;</text>
                                     <text>hex: &amp;#x00BD;</text></term></entry>
+                            <entry>VULGAR FRACTION ONE HALF</entry>
                         </row>
                         <row>
                             <entry>&#x2153;<term>Bruch eindrittel <text>dezimal: &amp;#8531;</text>
                                     <text>hex: &amp;#x2153;</text></term></entry>
+                            <entry>VULGAR FRACTION ONE THIRD</entry>
                         </row>
                         <row>
                             <entry>&#x2154;<term>Bruch zweidrittel <text>dezimal: &amp;#8532;</text>
                                     <text>hex: &amp;#x2154;</text></term></entry>
+                            <entry>VULGAR FRACTION TWO THIRDS</entry>
                         </row>
                         <row>
                             <entry>&#xbc;<term>Bruch einviertel <text>dezimal: &amp;#188;</text>
                                     <text>hex: &amp;#x00BC;</text></term></entry>
-                        </row>
-                        <row>
-                            <entry><image href="images/trBruch5.png" id="image_utd_fng_bqb"/>
-                                    1&#xbc;<term>Bruch ein und einviertel <text>dezimal:
-                                        1&amp;#188;</text>
-                                    <text>hex: 1&amp;#x00BC;</text></term></entry>
+                            <entry>VULGAR FRACTION ONE QUARTER</entry>
                         </row>
                         <row>
                             <entry>&#xbe;<term>Bruch dreiviertel <text>dezimal: &amp;#190;</text>
                                     <text>hex: &amp;#x00BE;</text></term></entry>
+                            <entry>VULGAR FRACTION THREE QUARTERS</entry>
                         </row>
                         <row>
                             <entry>&#x2155;<term>Bruch einfünftel <text>dezimal: &amp;#8533;</text>
                                     <text>hex: &amp;#x2155;</text></term></entry>
+                            <entry>VULGAR FRACTION ONE FIFTH</entry>
                         </row>
                         <row>
                             <entry>&#x2156;<term>Bruch zweifünftel <text>dezimal: &amp;#8534;</text>
                                     <text>hex: &amp;#x2156;</text></term></entry>
+                            <entry> VULGAR FRACTION TWO FIFTHS</entry>
                         </row>
                         <row>
                             <entry>&#x2157;<term>Bruch dreifünftel <text>dezimal: &amp;#8535;</text>
                                     <text>hex: &amp;#x2157;</text></term></entry>
+                            <entry> VULGAR FRACTION THREE FIFTHS</entry>
                         </row>
                         <row>
                             <entry>&#x2158;<term>Bruch vierfünftel <text>dezimal: &amp;#8536;</text>
                                     <text>hex: &amp;#x2158;</text></term></entry>
+                            <entry>VULGAR FRACTION FOUR FIFTHS</entry>
                         </row>
                         <row>
                             <entry>&#x2159;<term>Bruch einsechstel <text>dezimal: &amp;#8537;</text>
                                     <text>hex: &amp;#x2159;</text></term></entry>
+                            <entry>VULGAR FRACTION ONE SIXTH</entry>
                         </row>
                         <row>
                             <entry>&#x215a;<term>Bruch fünfsechstel <text>dezimal:
                                         &amp;#8538;</text>
                                     <text>hex: &amp;#x215A;</text></term></entry>
+                            <entry>VULGAR FRACTION FIVE SIXTHS</entry>
                         </row>
                         <row>
                             <entry>&#x2150;<term>Bruch einsiebtel <text>dezimal: &amp;#8528;</text>
                                     <text>hex: &amp;#x2150;</text></term></entry>
+                            <entry>VULGAR FRACTION ONE SEVENTH</entry>
                         </row>
                         <row>
                             <entry>&#x215b;<term>Bruch einachtel <text>dezimal: &amp;#8539;</text>
                                     <text>hex: &amp;#x215B;</text></term></entry>
+                            <entry>VULGAR FRACTION ONE EIGHTH</entry>
                         </row>
                         <row>
                             <entry>&#x215c;<term>Bruch dreiachtel <text>dezimal: &amp;#8540;</text>
                                     <text>hex: &amp;#x215C;</text></term></entry>
+                            <entry>VULGAR FRACTION THREE EIGHTHS</entry>
                         </row>
                         <row>
                             <entry>&#x215d;<term>Bruch fünfachtel <text>dezimal: &amp;#8541;</text>
                                     <text>hex: &amp;#x215D;</text></term></entry>
+                            <entry>VULGAR FRACTION FIVE EIGHTHS</entry>
                         </row>
                         <row>
                             <entry>&#x215e;<term>Bruch siebenachtel <text>dezimal:
                                         &amp;#8542;</text>
                                     <text>hex: &amp;#x215E;</text></term></entry>
+                            <entry>VULGAR FRACTION SEVEN EIGHTHS</entry>
                         </row>
                         <row>
                             <entry>&#x2151;<term>Bruch einneuntel <text>dezimal: &amp;#8529;</text>
                                     <text>hex: &amp;#x2151;</text></term></entry>
+                            <entry>VULGAR FRACTION ONE NINTH</entry>
                         </row>
                         <row>
                             <entry>&#x2152;<term>Bruch einzehntel <text>dezimal: &amp;#8530;</text>
                                     <text>hex: &amp;#x2152;</text></term></entry>
+                            <entry>VULGAR FRACTION ONE TENTH</entry>
                         </row>
                     </tbody>
                 </tgroup>
@@ -126,7 +139,7 @@
                         <row>
                             <entry>Vorlage</entry>
                             <entry>Zeichen</entry>
-                            <entry>Kommentar</entry>
+                            <entry>Unicodebeschreibung</entry>
                         </row>
                     </thead>
                     <tbody>
@@ -158,11 +171,61 @@
                             <entry>⁄</entry>
                             <entry>⁄<term>Bruchstrich <text>dezimal: &amp;#8260;</text>
                                     <text>hex: &amp;#x2044;</text></term></entry>
-                            <entry>Bruchstrich</entry>
+                            <entry>FRACTION SLASH : solidus (in typography)</entry>
                         </row>
                     </tbody>
                 </tgroup>
             </table>
+        </section>
+        <section>
+            <title>Brüche in Verbindung mit "Ganzen Zahlen" oder Gemischte Zahlen</title>
+            <p>Wenn eine ganze Zahl und ein Bruch oder eine gemischte Zahl angegeben werden, muss
+                zwischen der Zahl und dem Bruch ein <xref
+                    href="https://de.wikipedia.org/wiki/Bindehemmer" format="html" scope="external"
+                    >Bindehemmer</xref> stehen. Der Bindehemmer verhindert, dass die Zahl mit dem
+                Zähler des Bruchs verwechselt wird oder verbunden wird.</p>
+            <p><xref href="https://de.wikipedia.org/wiki/Bindehemmer" format="html" scope="external"
+                    >"Der Bindehemmer ist ein mathematisches Symbol, das in einigen Schriftsystemen
+                    verwendet wird, um automatische Buchstabenverbindungen zu vermeiden.</xref>"
+                (siehe: Seite „Bindehemmer“. In: Wikipedia – Die freie Enzyklopädie.
+                Bearbeitungsstand: 6. August 2023, 12:24 UTC. URL: <xref
+                    href="https://de.wikipedia.org/w/index.php?title=Bindehemmer&amp;oldid=236170060"
+                    format="html" scope="external"
+                    >https://de.wikipedia.org/w/index.php?title=Bindehemmer&amp;oldid=236170060</xref>
+                (Abgerufen: 11. Dezember 2023, 19:01 UTC)</p>
+                <p>
+                <table frame="all" rowsep="1" colsep="1" id="table_hqy_kh5_szb">
+                    <title/>
+                    <tgroup cols="3">
+                        <colspec colname="c1" colnum="1" colwidth="1*"/>
+                        <colspec colname="c2" colnum="2" colwidth="1*"/>
+                        <colspec colname="c3" colnum="3" colwidth="1*"/>
+                        <thead>
+                            <row>
+                                <entry>Vorlage</entry>
+                                <entry>Zeichen</entry>
+                                <entry>Kommentar/Unicodebeschreibung/</entry>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row>
+                                <entry><image href="images/trBruch5.png" id="image_utd_fng_bqb"
+                                    /></entry>
+                                <entry> 1&#xbc;<term>Bruch ein und einviertel <text>dezimal:
+                                            1&amp;#188;</text>
+                                        <text>hex: 1&amp;#x00BC;</text></term></entry>
+                                <entry>ohne Bindehemmer</entry>
+                            </row>
+                            <row>
+                                <entry><image href="images/trBruch7.jpg" id="image_llx_vr5_szb"
+                                    /></entry>
+                                <entry>8&#x200C;110⁄34<codeblock>8&amp;#x200C;110&amp;#x2044;34</codeblock></entry>
+                                <entry>mit Bindehemmer (U+200C ZERO WIDTH NON-JOINER [ZWNJ])</entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+            </p>
         </section>
         
 

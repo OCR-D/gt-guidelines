@@ -1,40 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="trGedankenstrich">
-  <title>Gedankenstrich</title>
+  <title>Striche : Gedankenstrich</title>
 <body>
-<p>Gedankenstriche können in verschiedenen Längen auftreten. Soweit sie in dieser Verschiedenheit
-erkannt werden, werden sie als folgende hexadezimale Unicode-Entitäten wiedergegeben: </p>
+<p>Striche (u. a. Bindestriche) können in verschiedenen Längen vorkommen. Ihre Verwendung hängt zum
+      Teil von der Sprache und den Typografien sowie den daraus resultierenden Normierungen ab.
+      Soweit eine Unterscheidung von Strichen erkennbar ist, können diese folgendermaßen
+      transkribiert werden.</p>
+    <p>Die Transkriptionsentscheidungen bzw. vorgenommenen Interpretationen der Striche werden nicht
+      entsprechenden Levels zugeordnet. Die in der Tabelle aufgeführten Beispiele beziehen sich vor
+      allem auf die Transkription von deutschsprachigen Texten. </p>
+    <p>Ist eine Unterscheidung der Länge des Striches nicht erkennbar, kann dieser als
+      Halbgeviertstrich erfasst werden.</p>
 
   <table outputclass="guidelines">
-  <tgroup cols="3"><thead><row>
-    <entry>Zeichen</entry>
-    <entry>Entität</entry>
-    <entry>Beschreibung</entry>
-  </row></thead>
-  <tbody><row>
-    <entry><codeph>-</codeph></entry>
-    <entry><codeph>U+002D</codeph></entry>
-    <entry>Bindestrich/Silbentrennstrich/Minuszeichen (<codeph>HYPHEN-MINUS</codeph>)</entry>
-  </row>
-  <row>
-    <entry><codeph>‒</codeph></entry>
-    <entry><codeph>U+2012</codeph></entry>
-    <entry>Ziffernstrich (<codeph>FIGURE DASH</codeph>)</entry>
-  </row>
-  <row>
-    <entry><codeph>–</codeph></entry>
-    <entry><codeph>U+2013</codeph></entry>
-    <entry>Halbgeviertstrich (Gedankenstrich) (<codeph>EN DASH</codeph>)</entry>
-  </row>
-  <row>
-    <entry><codeph>—</codeph></entry>
-    <entry><codeph>U+2014</codeph></entry>
-    <entry>Geviertstrich (langer Gedankenstrich) (<codeph>EM DASH</codeph>)</entry>
-  </row></tbody></tgroup>
+  <tgroup cols="3">
+        <thead>
+          <row>
+            <entry>Vorlage</entry>
+            <entry>Zeichen</entry>
+            <entry>Beschreibung</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry><fig><image href="images/trGedankenstrich1.jpg" id="image_nb4_bdk_nsb" scale="50"
+                /></fig><fig><image href="images/trGedankenstrich2.jpg" id="image_sj3_cdk_nsb" scale="50"
+              /></fig></entry>
+            <entry><codeph>-</codeph><term>HYPHEN-MINUS : hyphen oder
+                  Bindestrich-Minuszeichen <text>dezimal: &amp;#45;</text>
+                <text>hex: &amp;#x002D;</text></term></entry>
+            <entry>Bindestrich, Silbentrennstrich, Minuszeichen </entry>
+          </row>
+          <row>
+            <entry><fig><image href="images/trGedankenstrich4.jpg" id="image_nb5_bdk_nsb" scale="50"
+              /></fig></entry>
+            <entry><codeph>‒</codeph><term>Figure Dash oder Ziffernstrich <text>dezimal:
+                  &amp;#8210;</text>
+                <text>hex: &amp;#x02012;</text></term></entry>
+            <entry>Ziffernstrich
+              <lines>Diese Art des Striches zeichnet sich durch seine spezielle Breite (ziffernbreit) aus. Im Beispielbild ist das deutlich zu sehen.</lines></entry>
+          </row>
+          <row>
+            <entry><fig><image href="images/trGedankenstrich3.jpg" id="image_byg_3pq_nsb" scale="50"
+                /></fig><fig><image href="images/trGedankenstrich8.png" id="image_xnz_slr_nsb" scale="50"
+              /></fig></entry>
+            <entry><codeph>–</codeph><term>EN Dash oder EN-Strich <text>dezimal: &amp;#8211;</text>
+                <text>hex: &amp;#x02013;</text></term></entry>
+            <entry>Halbgeviertstrich (Gedankenstrich, Bis-Strich, Wiederholungsstrich )</entry>
+          </row>
+          <row>
+            <entry><fig><image href="images/trGedankenstrich6.png" id="image_lj3_y3r_nsb"/></fig><fig><image
+                href="images/trGedankenstrich7.png" id="image_lzc_xjr_nsb" scale="50"/></fig><fig><image
+                href="images/trGedankenstrich5.png" id="image_prb_qcr_nsb" scale="50"/></fig></entry>
+            <entry><codeph>—</codeph><term>EM Dash oder EM-Strich <text>dezimal: &amp;#8212;</text>
+                <text>hex: &amp;#x02014;</text></term></entry>
+            <entry>Geviertstrich (langer Gedankenstrich, Wiederholungsstrich) </entry>
+          </row>
+        </tbody>
+      </tgroup>
 </table>
 
-<p>Ist eine Unterscheidung der Länge des Gedankenstriches nicht erkennbar, wird dieser als
-Halbgeviertstrich erfasst. </p>
+
 </body>
 </topic>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.dita-ot.org/rng/project.rnc" type="application/relax-ng-compact-syntax"?>
+<project xmlns="https://www.dita-ot.org/project">
+  <context id="html" name="HTML">
+    <input href="../../de/ocrd_ocrd_wiki.ditamap"/>
+    <profile>
+      <ditaval href="html.ditaval"/>
+    </profile>
+  </context>
+ <deliverable name="HTML5" id="html">
+    <context idref="html"/>
+    <output href="html"/>
+    <publication transtype="dita">
+      <param name="default.language" value="de"/>
+      <param name="args.copycss" value="yes"/>
+      <param name="args.css" value="dita-ot-doc.css"/>
+      <param name="args.csspath" value="css"/>
+      <param name="args.cssroot" path="../../de/css"/>
+      <param name="args.hdr" href="../../de/resources/header.xml"/>
+      <param name="args.ftr" href="../../de/resources/footer.xml"/>
+      <param name="html5.toc.generate" value="yes"/>
+      <param name="args.rellinks" value="noparent"/>
+      <param name="args.gen.task.lbl" value="YES"/>
+      <param name="args.html5.toc" value="toc"/>
+      <param name="nav-toc" value="partial"/>
+      <param name="processing-mode" value="strict"/>
+      <param name="args.xsl" href="../../de/xsl/custom_ocrd.xsl"/>
+    </publication>
+  </deliverable>
+  </project>

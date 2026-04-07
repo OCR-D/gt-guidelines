@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ruleset">
+    <title>&#x1F4DC; OCR-D-GT-Ruleset</title>
+    <body>
+        <section>
+            <title>OCR-D-GT-Ruleset Transkription</title>
+            <p>Das OCR-D-GT-Ruleset Transkription ist ein Regelsatz, der verschiedene Schreibweisen von Buchstaben
+                in verschiedenen Level der Transkription dokumentiert. Es sind drei Level
+                vorgesehen: <ul id="ul_cbf_2xx_rzb">
+                    <li>Die erste Spalte enthält die Schreibweise, die spezifische drucktechnische
+                        Aspekte und typographischen Besonderheiten nicht beachten (<xref
+                            href="level_1_4.dita"/>).</li>
+                    <li>die zweite Spalte enthält die Schreibweise, die <b>Drucktechnischen
+                            Gegebenheiten</b> wiedergeben und eine Interpretation von Zeichen
+                        orientiert sich am <b>Gebrauch im Sprach- und Schriftsystem</b> (<xref
+                            href="level_2_2.dita"/>). </li>
+                    <li>die dritte Spalte enthält die Schreibweise, die eine <b>Interpretation</b>
+                        von Graphen <b>vollständig unterlässt</b>. Der Graph wird als ein Codepoint
+                        unter Nutzung von standardisierten Kodierungen (Unicode),
+                        communitynormierten Kodierungen (MUFI) und durch das Koordinierungsgremium
+                        festgelegten Kodierungen abgebildet (<xref href="level_3_1.dita"/>). </li>
+                </ul></p>
+            <p>Das Ruleset im Json-Format: <codeblock outputclass="language-json">{"ruleset":[
+             {"rule": ["a","a","a"], "type": "level"},
+             {"rule": ["aa","ã","ã"], "type": "level"},
+             {"rule": ["e","e","e"], "type": "level"}
+            ]
+}</codeblock></p>
+            <p>Das Ruleset im XML-Format: <codeblock outputclass="language-xml">&lt;levelrules>
+  &lt;ruleset>
+    &lt;range>AlphPresForm&lt;/range>
+    &lt;rule>ff&lt;/rule>
+    &lt;rule>ff&lt;/rule>
+    &lt;rule>ﬀ&lt;/rule>
+    &lt;type>level&lt;/type>
+  &lt;/ruleset>
+&lt;/levelrules></codeblock>Das Element <codeph>&lt;range></codeph> ist ein optionales
+                Element. In den Rulesets, die auf dem MUFI Datenset basieren ist dieses Element zu
+                finden.</p>
+            
+            
+        <p>Rulesets:<ul id="ul_apm_t5n_vzb">
+                    <li><xref href="https://github.com/tboenig/gt-guidelines/tree/gh-pages/rules"
+                            format="html" scope="external">OCR-D-GT Guidelines Ruleset</xref><ul
+                            id="ul_q5d_mvn_vzb">
+                            <li><xref
+                                    href="https://github.com/tboenig/gt-guidelines/blob/gh-pages/rules/ruleset_character.json"
+                                    format="html" scope="external"
+                                >ruleset_character.json</xref></li>
+                            <li><xref
+                                    href="https://github.com/tboenig/gt-guidelines/blob/gh-pages/rules/ruleset_hyphenation.json"
+                                    format="html" scope="external"
+                                >ruleset_hyphenation.json</xref></li>
+                            <li><xref
+                                    href="https://github.com/tboenig/gt-guidelines/blob/gh-pages/rules/ruleset_ligature.json"
+                                    format="html" scope="external">ruleset_ligature.json</xref></li>
+                            <li><xref
+                                    href="https://github.com/tboenig/gt-guidelines/blob/gh-pages/rules/ruleset_roman_digits.json"
+                                    format="html" scope="external"
+                                >ruleset_roman_digits.json</xref></li>
+                        </ul></li>
+                    <li><xref href="https://tboenig.github.io/gt-MufiLevelRules/" format="html"
+                            scope="external">OCR-D-Level-Rules (Mufi)</xref></li>
+                </ul></p>
+        
+            <p>Rulesetformat:
+            
+                <ul id="ul_mrq_xvn_vzb">
+                    <li><xref
+                            href="https://github.com/tboenig/gt-guidelines/schema/OCR-D-GT-levelSchema.json"
+                            format="html" scope="external">OCR-D-GT-Ruleset-JSON-Schema</xref></li>
+                </ul>
+            </p>
+        </section>
+    </body>
+</topic>

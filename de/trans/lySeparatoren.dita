@@ -3,10 +3,11 @@
 <topic id="lySeparatoren">
     <title>Trennlinien, Separatoren (SeparatorRegion)</title>
     <body>
-        <p>Werden verschiedene Text- oder Layoutbereiche voneinander durch Linien... getrennt,
-werden als Separatoren ausgezeichnet.</p>
-<p>Auch Vignetten oder kleinerer Buchschmuck können die Funktion von Separatoren übernehmen. </p>
-<p/>
+        <p>Werden verschiedene Text- oder Layoutbereiche voneinander unter anderem durch Linien
+            getrennt, werden diese als Separatoren ausgezeichnet.</p>
+        <p>Bei Vignetten oder Buchschmuck wird empfohlen diese als <tt>graphicRegion</tt> mit dem
+            Attribut <tt>@type</tt> und dem Wert <tt>decoration</tt> zu annotieren. </p>
+
     </body>
 <related-links>
 <link

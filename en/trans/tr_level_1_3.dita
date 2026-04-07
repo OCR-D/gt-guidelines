@@ -3,25 +3,32 @@
 <topic id="tr_level_1_3">
 <title>Level 1 and Level 2</title>
 <body>
-        <p>Punctuation marks appear directly after the preceding word without spaces. Next there is
-            a space. Quotation marks and parentheses are placed directly next to the text they
-            enclose, without spaces. Footnote references without spaces also follow the preceding
-            character directly without spaces. </p>
-    <example><image href="images/level_2_3.png" id="image_vxh_rmr_n1b" scale="30"/> <p>
-        <pre>
+        <p>In level one and two, a normalisation of the spaces is carried out. This applies to the
+            following areas:</p>
+        <ul id="ul_hk5_1wm_rsb">
+            <li>Punctuation marks are placed directly at the preceding word without a space. This is
+                followed by a space.</li>
+            <li>Inverted commas and parentheses are placed without spaces directly at the text they
+                enclose.</li>
+            <li>Similarly, footnote references nestle directly against the preceding character
+                without a space.</li>
+        </ul>
+        <example id="example_a2r_3wm_rsb"><image href="images/level_2_3.png" id="image_vxh_rmr_n1b"
+                scale="30"/>
+            <p>
+                <pre id="pre_b2r_3wm_rsb">
 in allem vnſerm Truͤbſal/ das wir auch koͤnnen
 troͤſten/ die da ſind in allerley Truͤbſal mit dem
 Troſt/damit wir von GOTT getroͤſtet wer-
 den<b>/ </b>Hochgelobet vnd geliebet in Ewigkeit/</pre>
-    </p></example>
-
-        <p>The impression left on the page by a spatium that has fallen off during the printing
-            process is usually not transcribed. </p>
-        <p>Several dots in a row, which represent an omission, are enclosed by a space. An exception
-            to this are dots that indicate an incomplete word. Without spaces, they appear directly
-            after the incomplete word. </p>
-        <p>There is a space before and after dashes in the middle of the sentence. If the dash
-            precedes a punctuation mark, no space is typed in between. </p>
+            </p></example>
+        <p>The print on the page by a spatium that has fallen off during the printing process is not
+            usually transcribed.</p>
+        <p>Several dots in sequence, which are intended to clarify an ellipsis, are each enclosed by
+            a space. An exception is made for dots that indicate a word break. They are placed
+            directly after the incomplete word without a space. </p>
+        <p>There is a space before and after a dash in the middle of a sentence. If the dash is
+            directly before a punctuation mark, no space is typed between them. </p>
 <p>The Unicode table determines the punctuation rules <xref
                 href="http://www.unicode.org/charts/PDF/U2000.pdf" scope="external" format="pdf"
                 >General Punctuation</xref>. </p>

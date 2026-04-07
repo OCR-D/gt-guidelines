@@ -128,7 +128,7 @@
                         <entry>e&#x0304;<term>e mit kombiniertem Makron <text>dezimal:
                                     e&amp;#772;</text>
                                 <text>hex: e&amp;#x0304;</text></term></entry>
-                        <entry> &#x0113;<term>e mit einem Makron <text>dezimal: &amp;#275;</text>
+                        <entry>&#x0113;<term>e mit einem Makron <text>dezimal: &amp;#275;</text>
                                 <text>hex: &amp;#x0113;</text></term>
                         </entry>
                         <entry outputclass="description">siehe Kommentar: <ul>
@@ -238,12 +238,12 @@
                                 height="49" width="27" id="image_ewr_5fm_gz"/><image
                                 href="images/font_0006.png" height="48" width="25"
                                 id="image_fwr_5fm_gz"/></entry>
-                        <entry>pp </entry>
-                        <entry> p&#x0303;<term>p mit kombinierter Tilde <text>dezimal:
+                        <entry>pp</entry>
+                        <entry>p&#x0303;<term>p mit kombinierter Tilde <text>dezimal:
                                     p&amp;#771;</text>
                                 <text>hex: &amp;#x0303;</text></term>
                         </entry>
-                        <entry> p&#x0303;<term>p mit kombinierter Tilde <text>dezimal:
+                        <entry>p&#x0303;<term>p mit kombinierter Tilde <text>dezimal:
                                     p&amp;#771;</text>
                                 <text>hex: &amp;#x0303;</text></term>
                         </entry>
@@ -330,7 +330,9 @@
                                 height="43" width="51" id="image_swr_5fm_gz"/><image
                                 href="images/font_0012.png" height="47" width="38"
                                 id="image_twr_5fm_gz"/>
-                        </entry>
+                            <image href="images/font_0044.png" height="52" width="51"
+                                id="image_rsy_jcq_p5b"/><image href="images/font_0031.png"
+                                height="52" width="35" id="image_z4t_kcq_p5b"/></entry>
                         <entry>q&#x037E;<term>q mit griechischem Fragezeichen (erotimatiko)
                                     <text>dezimal:q&amp;#894;</text>
                                 <text>hex:q&amp;#x037E;</text></term></entry>
@@ -347,48 +349,17 @@
                     </row>
                     <row product="ruleset">
                         <entry dir="ltr"><image href="images/font_0002.png" height="73" width="38"
-                                id="image_uwr_5fm_gz"/></entry>
+                                id="image_gsc_fgq_p5b"/><image href="images/font_0001.png"
+                                height="51" width="34" id="image_vwr_5fm_gz"/></entry>
                         <entry>q&#x0301;&#x037E;<term>q mit kombiniertem Akut und
                                 griechischem Fragezeichen <text>dezimal:q&amp;#769;&amp;#894;</text>
                                 <text>hex: q&amp;#x0301;&amp;#x037E;</text></term></entry>
                         <entry>q&#x0301;&#x037E;<term>q mit kombiniertem Akut und
-                                griechischem Fragezeichen <text>dezimal:</text>
-                                <text>hex: q&amp;#769;&amp;#894;
-                                q&amp;#x0301;&amp;#x037E;</text></term></entry>
-                        <entry>&#xE8BF;&#x037E;<term>q mit abschließendem et versehen und
-                                griechischem Fragezeichen
+                                griechischem Fragezeichen <text>dezimal:q&amp;#769;&amp;#894;</text>
+                                <text>hex: q&amp;#x0301;&amp;#x037E;</text></term></entry>
+                        <entry>&#xE8BF;&#x0301;<term>q mit kombiniertem Akut mit abschließendem et
                                     <text>dezimal:&amp;#59583;&amp;#894;</text>
                                 <text>hex:&amp;#xE8BF;&amp;#x037E;</text></term></entry>
-                        <entry/>
-                    </row>
-                    <row product="ruleset">
-                        <entry dir="ltr"><image href="images/font_0001.png" height="51" width="34"
-                                id="image_vwr_5fm_gz"/></entry>
-                        <entry>q&#x0301;&#x037E;<term>q mit kombiniertem Akut und
-                                griechischem Fragezeichen <text>dezimal:q&amp;#769;&amp;#894;</text>
-                                <text>hex: q&amp;#x0301;&amp;#x037E;</text></term></entry>
-                        <entry>q&#x0301;&#x037E;<term>q mit kombiniertem Akut und
-                                griechischem Fragezeichen <text>dezimal:q&amp;#769;&amp;#894;</text>
-                                <text>hex: q&amp;#x0301;&amp;#x037E;</text></term></entry>
-                        <entry>&#xE8BF;&#x037E;<term>q mit abschließendem et versehen und
-                                griechischem Fragezeichen
-                                    <text>dezimal:&amp;#59583;&amp;#894;</text>
-                                <text>hex:&amp;#xE8BF;&amp;#x037E;</text></term></entry>
-                        <entry/>
-                    </row>
-                    <row product="ruleset">
-                        <entry dir="ltr"><image href="images/font_0044.png" height="52" width="51"
-                                id="image_wwr_5fm_gz"/><image href="images/font_0031.png"
-                                height="52" width="35" id="image_xwr_5fm_gz"/></entry>
-                        <entry>q&#x037E;<term>q mit griechischem Fragezeichen (erotimatiko)
-                                    <text>dezimal:q&amp;#894;</text>
-                                <text>hex:q&amp;#x037E;</text></term></entry>
-                        <entry>q&#x037E;<term>q mit griechischem Fragezeichen (erotimatiko)
-                                    <text>dezimal:q&amp;#894;</text>
-                                <text>hex:q&amp;#x037E;</text></term></entry>
-                        <entry>&#xE8BF;<term>q mit abschließendem et versehen <text>dezimal:
-                                    &amp;#59583;</text>
-                                <text>hex: &amp;#xE8BF;</text></term></entry>
                         <entry/>
                     </row>
                     <row product="ruleset">
@@ -640,20 +611,6 @@
                         <entry/>
                     </row>
                     <row product="ruleset">
-                        <entry dir="ltr"><image href="images/font_0091.png" height="31" width="27"
-                                id="image_eyr_5fm_gz"/></entry>
-                        <entry>&#xA75F;<term>v mit diagonalem Strich <text>dezimal:
-                                    &amp;#42847;</text>
-                                <text>hex:&amp;#xA75F;</text></term></entry>
-                        <entry>&#xA75F;<term>v mit diagonalem Strich <text>dezimal:
-                                    &amp;#42847;</text>
-                                <text>hex:&amp;#xA75F;</text></term></entry>
-                        <entry>&#xA75F;<term>v mit diagonalem Strich <text>dezimal:
-                                    &amp;#42847;</text>
-                                <text>hex:&amp;#xA75F;</text></term></entry>
-                        <entry/>
-                    </row>
-                    <row product="ruleset">
                         <entry dir="ltr"><image href="images/font_0022.png" height="47" width="23"
                                 id="image_fyr_5fm_gz"/></entry>
                         <entry>&#x03C8;<term>griechischer Kleinbuchstabe psi <text>dezimal:
@@ -781,13 +738,11 @@
                     <row>
                         <entry dir="ltr"><image href="images/font_0016.png" height="35" width="69"
                                 id="image_oyr_5fm_gz"/></entry>
-                        <entry>and&#x010F;n oder <i>andern</i><term>verwendet d mit Hatschek
-                                    <text>dezimal:an&amp;#271;n</text>
-                                <text>hex: an&amp;#x010F;n</text></term></entry>
-                        <entry>and&#x010F;n<term>verwendet d mit Hatschek <text>dezimal:
+                        <entry>andern</entry>
+                        <entry>an&#x010F;n<term>verwendet d mit Hatschek <text>dezimal:
                                     an&amp;#271;n</text>
                                 <text>hex: an&amp;#x010F;n</text></term></entry>
-                        <entry>and&#x010F;n<term>verwendet d mit Hatschek <text>dezimal:
+                        <entry>an&#x010F;n<term>verwendet d mit Hatschek <text>dezimal:
                                     an&amp;#271;n</text>
                                 <text>hex: an&#x010F;n</text></term></entry>
                         <entry outputclass="description">Abkürzung für Zeichenkette <i>der</i> auch in einem Wort
@@ -858,7 +813,7 @@
                                     an der Oder, 1662.</xref></p>
                         </entry>
                     </row>
-                    <row product="ruleset">
+                    <row>
                         <entry dir="ltr"><image href="images/font_0068.png" height="36" width="34"
                                 id="image_vyr_5fm_gz"/></entry>
                         <entry>&#x03BF;&#x03C2;<term>Ligatur aus byzantinischer Zeit

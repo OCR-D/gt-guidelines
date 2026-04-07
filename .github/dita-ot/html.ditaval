@@ -3,5 +3,6 @@
 <val>
   <prop action="include" att="deliveryTarget" val="html"/>
   <prop action="include" att="deliveryTarget" val="html_en"/>
+  <prop action="include" att="deliveryTarget" val="dita"/>
   <prop action="exclude" att="deliveryTarget" val="pdf"/>
 </val>

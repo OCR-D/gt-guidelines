@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap xml:lang="de-DE">
+    <booktitle>
+        <mainbooktitle>Ground Truth Richtlinien</mainbooktitle>
+
+    </booktitle> 
+    <bookmeta>
+        <authorinformation>
+            <personinfo>
+                <namedetails>
+                    <personname>
+                        <firstname>Matthias</firstname>
+                        <lastname>Boenig</lastname>
+                    </personname>
+                </namedetails>
+            </personinfo>
+            <organizationinfo>
+                <namedetails>
+                    <organizationnamedetails>
+                        <organizationname>OCR-D, Zentrum Sprache, Berlin-Brandenburgische Akademie
+                            der Wissenschaften (BBAW)</organizationname>
+                    </organizationnamedetails>
+                </namedetails>
+            </organizationinfo>
+        </authorinformation>
+        <critdates>
+            <created date="March, 2017"/>
+        </critdates>
+    </bookmeta>
+    <chapter href="trans/index.dita">
+        <topicref href="trans/trDokuKonventionen.dita"/>
+        <topicref href="trans/ground_truth_typ.dita"/>
+    </chapter>
+    <chapter href="trans/trLevels.dita"/>
+
+    <chapter href="trans/transkription.dita">
+        <topicref href="trans/level_1_4.dita"/>
+        <topicref href="trans/level_2_2.dita"/>
+        <topicref href="trans/level_3_1.dita"/>
+        <topicref href="trans/trGrundsaetze.dita">
+            <topicref href="trans/tr_level_1_4.dita"/>
+            <topicref href="trans/tr_level_2_4.dita"/>
+            <topicref href="trans/tr_level_3_4.dita"/>
+        </topicref>
+        <topicref href="trans/sprache.dita"/>
+        <topicref href="trans/trSchreibweisen.dita">
+            <topicref href="trans/trSchreibungIJ.dita">
+                <topicref href="trans/level_1_2.dita"/>
+                <topicref href="trans/level_2_und_3.dita"/>
+            </topicref>
+            <topicref href="trans/trSchreibungUV.dita">
+                <topicref href="trans/level_1_3.dita"/>
+                <topicref href="trans/level_2_und_3_0.dita"/>
+            </topicref>
+            <topicref href="trans/trSchreibungS.dita">
+                <topicref href="trans/level_1_5.dita"/>
+                <topicref href="trans/level_2_und_3_1.dita"/>
+            </topicref>
+            <topicref href="trans/trSchreibungR.dita">
+                <topicref href="trans/level_1_6.dita"/>
+                <topicref href="trans/level_2_und_3_2.dita"/>
+            </topicref>
+            <topicref href="trans/trLigatur.dita">
+                <topicref href="trans/tr_level_1.dita"/>
+                <topicref href="trans/tr_level_2.dita"/>
+                <topicref href="trans/tr_level_3.dita"/>
+            </topicref>
+            <topicref href="trans/trUmlaute.dita">
+                <topicref href="trans/level_1_7.dita"/>
+                <topicref href="trans/level_2_und_3_3.dita"/>
+                <topicref href="trans/level_3_2.dita"/>
+            </topicref>
+            <topicref href="trans/trNasalstrich.dita">
+                <topicref href="trans/tr_nasal_level_1.dita"/>
+                <topicref href="trans/tr_nasal_level_2.dita"/>
+                <topicref href="trans/tr_nasal_level_3.dita"/>
+            </topicref>
+            <topicref href="trans/trDiakritika.dita">
+                <topicref href="trans/tr_dia_level_1_0.dita"/>
+                <topicref href="trans/tr_dia_level_2_0.dita"/>
+                <topicref href="trans/tr_dia_level_3_0.dita"/>
+            </topicref>
+            <topicref href="trans/trSilbentrennung.dita"/>
+            <!--<topicref href="trApostrophe.dita"/>-->
+        </topicref>
+        <topicref href="trans/trSonderzeichen.dita">
+            <topicref href="trans/trBruch.dita"/>
+            <topicref href="trans/trRom.dita"/>
+            <topicref href="trans/trHochgestellteZahl.dita"/>
+            <topicref href="trans/trtiefgestellteZahl.dita"/>
+        </topicref>
+        <topicref href="trans/trTabellen.dita">
+            <topicref href="trans/trTabellenTyp.dita"/>
+            <topicref href="trans/trTabellenLevel1.dita"/>
+            <topicref href="trans/trTabellenLevel2.dita"/>
+            <topicref href="trans/trTabellenLevel3.dita"/>
+            <topicref href="trans/trTabellenLevel4.dita"/>
+            <topicref href="trans/trTabellenWerkzeuge.dita">
+                <topicref href="trans/trTabellen_Aletheia.dita"/>
+                <topicref href="trans/trTabellenTranskribus.dita"/>
+            </topicref>
+            <topicref href="trans/trTabellenFormat.dita">
+                    <topicref href="trans/trTabellen_Page.dita"/>
+                    <topicref href="trans/trTabellen_TranskribusPage.dita"/>
+                    <topicref href="trans/trTabellen_ALTO.dita"/>
+            </topicref>
+            <topicref href="trans/trTabellenLabelling.dita"/>
+            </topicref>
+        <topicref href="trans/trHandschrift.dita"/>
+        <topicref href="trans/trZeichensetzung.dita">
+            <topicref href="trans/trGedankenstrich.dita"/>
+            <topicref href="trans/trAnfZeichen.dita"/>
+            <topicref href="trans/leerzeichen.dita">
+                <topicref href="trans/tr_level_1_3.dita"/>
+                <topicref href="trans/tr_level_2_3.dita"/>
+                <topicref href="trans/tr_compareLevel1_3.dita"/>
+            </topicref>
+        </topicref>
+        <topicref href="trans/trErsetzungen.dita"/>
+        <topicref href="trans/trBeispiele.dita">
+            <topicref href="trans/ocr_d_koordinationsgremium_codierung.dita"/>
+            <topicref href="trans/trFremdsprache.dita"/>
+            <topicref href="trans/trLigaturen2.dita"/>
+        </topicref>
+    </chapter>
+    <!--<chapter href="trans/layout.dita">
+        <topicref href="trans/lyAllgemein.dita"/>
+        <topicref href="trans/lySeitentypen.dita"/>
+        <topicref href="trans/lyRand.dita"/>
+        <topicref href="trans/lySatzspiegel.dita"/>
+        <topicref href="trans/lyTextregionen.dita">
+            <topicref href="trans/ly_level_1_5.dita"/>
+            <topicref href="trans/ly_level_2_5.dita"/>
+            <topicref href="trans/lyRelationen.dita"/>
+            <topicref href="trans/lytextregion.dita">
+                <topicref href="trans/lyAbsatz.dita"/>
+                <topicref href="trans/lyUeberschrift.dita"/>
+                <topicref href="trans/lyKolumnentitel.dita"/>
+                <topicref href="trans/lySeitenzahl.dita"/>
+                <topicref href="trans/lyMarginalie.dita"/>
+                <topicref href="trans/lyFussnote.dita"/>
+                <topicref href="trans/lyInitiale.dita"/>
+                <topicref href="trans/lyBogensignatur.dita"/>
+                <topicref href="trans/lyKustode.dita"/>
+                <topicref href="trans/lyDiskontinuierlich.dita"/>
+                <topicref href="trans/lyInhaltsverzeichnis.dita"/>
+            </topicref>
+            <topicref href="trans/lyBildbereiche.dita"/>
+            <topicref href="trans/lyGraphik.dita"/>
+            <topicref href="trans/lySeparatoren.dita">
+                <topicref href="trans/level_1_1.dita"/>
+                <topicref href="trans/level_2_1.dita"/>
+            </topicref>
+            <topicref href="trans/lyTabellen.dita"/>
+            <topicref href="trans/lyKarten.dita"/>
+            <topicref href="trans/lyMathematische_Zeichen.dita"/>
+            <topicref href="trans/lyChemische_Symbole.dita"/>
+            <topicref href="trans/lyNotenzeichen.dita"/>
+            <topicref href="trans/lyWerbung.dita"/>
+            <topicref href="trans/lyRauschen.dita"/>
+            <topicref href="trans/lySonstiges.dita"/>
+        </topicref>
+        <topicref href="trans/lyTypographie.dita">
+            <topicref href="trans/lySchriftarten.dita"/>
+            <topicref href="trans/lyLigatur.dita"/>
+        </topicref>
+        <topicref href="trans/lyLeserichtung.dita"/>
+    </chapter>-->
+    <!--<chapter href="trans/structur_gt.dita">
+        <topicref href="structur_gt.ditamap" format="ditamap"/>
+    </chapter>
+    <chapter href="trans/trLabeling.dita">
+        <topicref href="labeling/labeling_gt.ditamap" format="ditamap"/>
+    </chapter>
+
+    <chapter href="trans/trPage.dita">
+        <topicref href="pagexml/dok.ditamap" format="ditamap"/>
+    </chapter>
+    <chapter href="trans/page_xml_erweiterungen.dita">
+        <topicref href="trans/exif_pagexml_konkordanz.dita"/>
+    </chapter>
+    <chapter href="trans/fa.dita"/>
+    <chapter href="trans/impressum.dita"/>-->
+
+
+
+</bookmap>

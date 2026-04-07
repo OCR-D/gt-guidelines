@@ -1,16 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="lySatzspiegel">
-    <title>Satzspiegel</title>
+    <title>Satzspiegel (PrintSpace)</title>
     <body>
-        <p>Im Druckgewerbe wird die eigentlich nutzbare Fläche einer Buchseite (Doppelseite) als Satzspiegel bezeichnet. Er ist mit Ausnahme von Titelblatt und mehrseitigen Bildern
-            für alle Seiten eines Buches gleich groß. Bezüglich der Elemente enthält er den Textkörper einer
-            Seite einschließlich Fußnoten, Überschriften und lebenden Kolumnentiteln. Demgegenüber werden
-            Seitenzahl (so nicht Bestandteil des Kolumnentitels), Marginalien, Kustoden und Bogensignaturen
-            nicht hinzugezählt.</p>
-        <p>Nachdem der Typ einer Seite festgelegt wurde, ist die Auszeichnung und Markierung des
-            Satzspiegels eine der ersten analytischen Aufgaben, bevor die einzelnen Textregionen festgelegt
-            werden. </p>
+        <p>Im Druckgewerbe wird die eigentlich nutzbare Fläche einer Buchseite (Einfach- oder
+            Doppelseite) als Satzspiegel bezeichnet. Er ist mit Ausnahme von Titelblatt und
+            mehrseitigen Bildern für alle Seiten eines Buches gleich groß. Bezüglich der Elemente
+            enthält er den Textkörper einer Seite einschließlich Fußnoten, Überschriften und
+            lebenden Kolumnentiteln. Demgegenüber werden die Seitenzahl (so nicht Bestandteil des
+            Kolumnentitels), Marginalien, Kustoden und Bogensignaturen nicht hinzugezählt.</p>
+        <p>Nachdem der Typ einer Seite festgelegt wurde, wird der Satzspiegels betrachtet,
+            bevor die einzelnen Textregionen festgelegt werden. </p>
+        <p>
+            <imagemap id="imagemap_rbs_xrp_ktb">
+                <image href="images/trSatzspiegel2.png" id="image_nmt_wrp_ktb" outputclass="img2"/>
+                <area>
+                    <shape>rect</shape>
+                    <coords>467, 2, 577, 27</coords>
+                    <xref href="lyKolumnentitel.dita" format="dita">Kolumnentitel</xref>
+                </area>
+                <area>
+                    <shape>rect</shape>
+                    <coords>470, 30, 576, 54</coords>
+                    <xref href="lySeitenzahl.dita" format="dita">Seitenzahl</xref>
+                </area>
+                <area>
+                    <shape>rect</shape>
+                    <coords>468, 96, 577, 121</coords>
+                    <xref href="lyMarginalie.dita" format="dita">Marginalie</xref>
+                </area>
+                <area>
+                    <shape>rect</shape>
+                    <coords>466, 171, 574, 198</coords>
+                    <xref href="lyAbsatz.dita" format="dita">Fließtext</xref>
+                </area>
+                <area>
+                    <shape>rect</shape>
+                    <coords>467, 497, 580, 522</coords>
+                    <xref href="lyFussnote.dita" format="dita">Fußnote</xref>
+                </area>
+                <area>
+                    <shape>rect</shape>
+                    <coords>466, 542, 577, 568</coords>
+                    <xref href="lyBogensignatur.dita" format="dita">Bogensignatur</xref>
+                </area>
+                <area>
+                    <shape>rect</shape>
+                    <coords>467, 593, 578, 619</coords>
+                    <xref href="lyKustode.dita" format="dita">Kustode</xref>
+                </area>
+                <area>
+                    <shape>rect</shape>
+                    <coords>376, 327, 418, 361</coords>
+                    <xref href="lyMarginalie.dita" format="dita">Marginalie</xref>
+                </area>
+            </imagemap>
+        </p>
     </body>
     
 </topic>

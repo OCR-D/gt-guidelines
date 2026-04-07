@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="trTabellenTyp">
+    <title>Tabellen Level und Tabellen Typen</title>
+    <body>
+
+        <section>
+            <title>Tabellen Level</title>
+            <p>Die Einteilung nach Leveln orientiert sich an den Zielvorstellungen für den Gebrauch
+                sowie die verwendeten Be- und Verarbeitungswerkzeuge des GT. Die <i>Tabellen
+                    Level</i> sind nicht zu verwechseln mit den Transkriptionsslevel. Folgende Level
+                sind vorgesehen: <ul>
+                    <li>Level 1 sparse text</li>
+                    <li>Level 2 table detection</li>
+                    <li>Level 3 table structure</li>
+                    <li>Level 4 full tabele structure</li>
+                </ul></p>
+            <p>Beispieldaten zu den <i>Tabellen Level</i> finden Sie im Repositorium: <xref
+                href="https://github.com/tboenig/gt-guideline-examples/tree/main/data/table/GT-PAGE" format="html"
+                    scope="external">gt-guideline-examples</xref> </p>
+        </section>
+        <section>
+            <title>Tabellen Typen</title>
+            <p>Tabellen können in folgende Typen unterteilt werden: </p>
+            <dl>
+                <dlentry>
+                    <dt>einfache Tabelle</dt>
+                    <dd>Einfache Tabelle besitzen keine spaltenübergreifenden Zellen. In den meisten
+                        Fällen werden Separatoren zur Kennzeichnung und Abgrenzung der Zeilen und
+                        Spalten verwendet aber auch die Möglichkeit fehlender Separatoren kann
+                        vorkommen. Zeilen und Spalten können schnell und einfach erkannt werden.
+                    </dd>
+                </dlentry>
+                <dlentry>
+                    <dt>komplexe Tabelle</dt>
+                    <dd>Komplexe Tabellen besitzen spaltenübergreifende Zellen. Separatoren zur
+                        Abgrenzung von Zeilen und Spalten können nicht, teilweise oder vollständig
+                        vorhanden sein. Dieser Tabellentyp kann unter anderem durch weitere
+                        Bestandteile wie Legenden, Fußnoten/Endnoten, Beschriftungen, Fußzeilen
+                        sowie durch einen detailreichen Tabellenkopf komplex gestaltet sein.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>Tabellen-ähnliche Strukturen die als Tabelle definiert werden.</dt>
+                    <dd>
+                        <p>Diese Strukturen besitzen in der Regel keine Separatoren. Zu erkennen
+                            sind aufeinanderfolgende Zeilen, eine Spaltenanordnung, eine erkennbare
+                            Ausrichtung des Textes. Diese können z. Bsp. Gegenüberstellungen von
+                            Text/Zahlenpassagen sein. Vergleichbar sind auch diese Strukturen mit
+                            verschiedenen Listenformen (sortierte, unsortierte, definitorische). Es
+                            wird empfohlen diese Formen als Listen oder Paragrafen sowie die
+                            Ausrichtung als Spalten zu annotieren.</p>
+                    </dd>
+                </dlentry>
+            </dl>
+        </section>
+        <p/>
+    </body>
+    
+</topic>
