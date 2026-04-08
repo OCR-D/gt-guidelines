@@ -7,75 +7,83 @@
             <table frame="all" rowsep="1" colsep="1" id="table_lkl_kxx_jrb">
                 <title/>
                 <tgroup cols="5">
-                    <colspec colname="c1" colnum="1" colwidth="1.25*"/>
-                    <colspec colname="newCol2" colnum="2" colwidth="1.5*"/>
-                    <colspec colname="c2" colnum="3" colwidth="1*"/>
-                    <colspec colname="c3" colnum="4" colwidth="1.25*"/>
-                    <colspec colname="newCol5" colnum="5" colwidth="1*"/>
+                    <colspec colname="c1" colnum="1" colwidth="1.0*"/>
+                    <colspec colname="newCol2" colnum="2" colwidth="2.0*"/>
+                    <colspec colname="c2" colnum="3" colwidth="0.1*"/>
+                    <colspec colname="c3" colnum="4" colwidth="0.1*"/>
+                    <colspec colname="newCol5" colnum="5" colwidth="0.1*"/>
                     <thead>
                         <row>
                             <entry/>
-                            <entry/>
-                            <entry>Level 1</entry>
-                            <entry>Level 2</entry>
-                            <entry>Level 3</entry>
+                            <entry>XPath</entry>
+                            <entry>L1</entry>
+                            <entry>L2</entry>
+                            <entry>L3</entry>
                         </row>
                     </thead>
                     <tbody>
                         <row outputclass="color0">
-                            <entry><b>Page file metadata</b></entry>
+                            <entry><b>PAGE file metadata</b></entry>
                             <entry/>
                             <entry/>
                             <entry/>
                             <entry/>
                         </row>
                         <row>
-                            <entry/>
-                            <entry>Page ID (GTS ID)<codeph outputclass="language-xml" props="XPath"
-                                >/PcGts/@pcGtsId</codeph></entry>
+                            <entry>Page ID (GTS ID)</entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/@pcGtsId</codeph></entry>
                             <entry>x</entry>
                             <entry>x</entry>
                             <entry>x</entry>
                         </row>
                         <row>
-                            <entry/>
-                            <entry>Creator <codeph outputclass="language-xml" props="XPath"
-                                >/PcGts/Metadata/Creator</codeph></entry>
+                            <entry>Creator</entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Metadata/Creator</codeph></entry>
                             <entry>x</entry>
                             <entry>x</entry>
                             <entry>x</entry>
                         </row>
                         <row>
-                            <entry/>
-                            <entry>Created <codeph outputclass="language-xml" props="XPath"
-                                    >/PcGts/Metadata/Created/text()='YYYY-MM-DDTHH:mm:ss'</codeph></entry>
+                            <entry>Date Created</entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Metadata/Created/text()='YYYY-MM-DDTHH:mm:ss'</codeph></entry>
                             <entry>x</entry>
                             <entry>x</entry>
                             <entry>x</entry>
                         </row>
                         <row>
-                            <entry/>
-                            <entry>Last Change <codeph outputclass="language-xml" props="XPath"
-                                    >/PcGts/Metadata/LastChange/text()='YYYY-MM-DDTHH:mm:ss'</codeph></entry>
+                            <entry>Date Changed</entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Metadata/LastChange/text()='YYYY-MM-DDTHH:mm:ss'</codeph></entry>
                             <entry>x</entry>
                             <entry>x</entry>
                             <entry>x</entry>
                         </row>
                         <row>
-                            <entry>Border</entry>
-                            <entry>
-                                <codeph outputclass="language-xml" props="XPath">/PcGts/Page/Border/Coords</codeph></entry>
-                            <entry>x</entry>
+                            <entry><xref href="lyRand.dita">Border</xref></entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page/Border/Coords</codeph></entry>
+                            <entry></entry>
                             <entry>x</entry>
                             <entry>x</entry>
                         </row>
                         <row>
-                            <entry>Print Space</entry>
-                            <entry>
-                                <codeph outputclass="language-xml" props="XPath">/PcGts/Page/PrintSpace/Coords</codeph></entry>
+                            <entry><xref href="lySatzspiegel.dita">Print Space</xref></entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page/PrintSpace/Coords</codeph></entry>
                             <entry/>
                             <entry/>
                             <entry>x</entry>
+                        </row>
+                        <row>
+                            <entry><xref href="lyLeserichtung.dita">Reading Order</xref></entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page/ReadingOrder</codeph></entry>
+                            <entry/>
+                            <entry>x</entry>
+                            <entry>x</entry>
+                        </row>
+                        <row>
+                            <entry>Text Line Order</entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page/@textLineOrder</codeph></entry>
+                            <entry>?</entry>
+                            <entry>?</entry>
+                            <entry>?</entry>
                         </row>
                         <row outputclass="color1">
                             <entry><b>General page metadata</b></entry>
@@ -85,55 +93,50 @@
                             <entry/>
                         </row>
                         <row>
-                            <entry/>
-                            <entry>Image Width (imageWidth) <codeph outputclass="language-xml"
+                            <entry>Image Width</entry>
+                            <entry><codeph outputclass="language-xml"
                                     props="XPath">/PcGts/Page/@imageWidth</codeph></entry>
                             <entry>x</entry>
                             <entry>x</entry>
                             <entry>x</entry>
                         </row>
                         <row>
-                            <entry/>
-                            <entry>Image Heigh <codeph outputclass="language-xml" props="XPath"
-                                    >/PcGts/Page/@imageHeight</codeph></entry>
+                            <entry>Image Height</entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page/@imageHeight</codeph></entry>
                             <entry>x</entry>
                             <entry>x</entry>
                             <entry>x</entry>
                         </row>
                         <row>
-                            <entry/>
-                            <entry>Colour Image (imageFilename) <codeph outputclass="language-xml" props="XPath"
-                                    >/PcGts/Page/@imageFilename</codeph></entry>
+                            <entry>Original Image</entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page/@imageFilename</codeph></entry>
                             <entry>x</entry>
                             <entry>x</entry>
                             <entry>x</entry>
                         </row>
                         <row>
-                            <entry/>
-                            <entry>Alternative Image <codeph outputclass="language-xml" props="XPath"
-                                    >/PcGts/Page/AlternativeImage/@filename</codeph></entry>
+                            <entry>Alternative Image</entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page/AlternativeImage/@filename</codeph></entry>
+                            <entry></entry>
+                            <entry></entry>
                             <entry>x</entry>
+                        </row>
+                        <row>
+                            <entry>rotation angle (orientation N*90°)</entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page/@orientation</codeph></entry>
+                            <entry></entry>
                             <entry>x</entry>
                             <entry>x</entry>
                         </row>
                         <row>
-                            <entry/>
-                            <entry>Primary Language <codeph outputclass="language-xml" props="XPath"
-                                    >/PcGts/Page/@primaryLanguage</codeph></entry>
-                            <entry>x</entry>
-                            <entry>x</entry>
-                            <entry>x</entry>
-                        </row>
-                        <row>
-                            <entry/>
-                            <entry>Secondary Language <codeph outputclass="language-xml" props="XPath"
-                                    >/PcGts/Page/@secondaryLanguage</codeph></entry>
-                            <entry>x</entry>
-                            <entry>x</entry>
+                            <entry>rotation angle (skew ±≤45°)</entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page/@orientation</codeph></entry>
+                            <entry></entry>
+                            <entry>?</entry>
                             <entry>x</entry>
                         </row>
                         <row outputclass="color2">
-                            <entry><b>Special page metadata Page typing</b>
+                            <entry><b>Special page metadata</b>: <xref href="lySeitentypen.dita">Page type</xref>
                             </entry>
                             <entry/>
                             <entry/>
@@ -141,498 +144,487 @@
                             <entry/>
                         </row>
                         <row>
-                            <entry/>
-                            <entry>front-cover <codeph outputclass="language-xml" props="XPath"
-                                    >/PcGts/Page[@type='front-cover']</codeph></entry>
-                            <entry>x</entry>
-                            <entry>x</entry>
-                            <entry>x</entry>
-                        </row>
-                        <row>
-                            <entry/>
-                            <entry>back-cover <codeph outputclass="language-xml" props="XPath"
-                                    >/PcGts/Page[@type='back-cover']</codeph></entry>
-                            <entry>x</entry>
+                            <entry>front-cover page</entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page[@type='front-cover']</codeph></entry>
+                            <entry></entry>
                             <entry>x</entry>
                             <entry>x</entry>
                         </row>
                         <row>
-                            <entry/>
-                            <entry>title (page) <codeph outputclass="language-xml" props="XPath"
-                                    >/PcGts/Page[@type='title']</codeph></entry>
-                            <entry>x</entry>
-                            <entry>x</entry>
-                            <entry>x</entry>
-                        </row>
-                        <row>
-                            <entry/>
-                            <entry>table-of-contents <codeph outputclass="language-xml" props="XPath"
-                                    >/PcGts/Page[@type='table-of-contents']</codeph></entry>
-                            <entry>x</entry>
+                            <entry>back-cover page</entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page[@type='back-cover']</codeph></entry>
+                            <entry></entry>
                             <entry>x</entry>
                             <entry>x</entry>
                         </row>
                         <row>
-                            <entry/>
-                            <entry>register, index <codeph outputclass="language-xml" props="XPath"
-                                    >/PcGts/Page[@type='index']</codeph></entry>
-                            <entry>x</entry>
-                            <entry>x</entry>
-                            <entry>x</entry>
-                        </row>
-                        <row>
-                            <entry/>
-                            <entry>book content <codeph outputclass="language-xml" props="XPath"
-                                    >/PcGts/Page[@type='content']</codeph></entry>
-                            <entry>x</entry>
+                            <entry>title page</entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page[@type='title']</codeph></entry>
+                            <entry></entry>
                             <entry>x</entry>
                             <entry>x</entry>
                         </row>
                         <row>
-                            <entry/>
-                            <entry>blank page<codeph outputclass="language-xml" props="XPath"
-                                    >/PcGts/Page[@type='blank']</codeph></entry>
-                            <entry>x</entry>
+                            <entry>table of contents page</entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page[@type='table-of-contents']</codeph></entry>
+                            <entry></entry>
                             <entry>x</entry>
                             <entry>x</entry>
                         </row>
                         <row>
-                            <entry/>
-                            <entry>other <codeph outputclass="language-xml" props="XPath"
-                                    >/PcGts/Page[@type='other']</codeph></entry>
+                            <entry>register or index page</entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page[@type='index']</codeph></entry>
+                            <entry></entry>
                             <entry>x</entry>
+                            <entry>x</entry>
+                        </row>
+                        <row>
+                            <entry>content page</entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page[@type='content']</codeph></entry>
+                            <entry></entry>
+                            <entry>x</entry>
+                            <entry>x</entry>
+                        </row>
+                        <row>
+                            <entry>blank page</entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page[@type='blank']</codeph></entry>
+                            <entry></entry>
+                            <entry>x</entry>
+                            <entry>x</entry>
+                        </row>
+                        <row>
+                            <entry>other page</entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page[@type='other']</codeph></entry>
+                            <entry></entry>
                             <entry>x</entry>
                             <entry>x</entry>
                         </row>
                         <row outputclass="color3">
-                            <entry><b>Page Region</b> TextRegion</entry>
-                            <entry><xref href="lytextregion.dita#textregionen__textregion_"
-                                    >Textregion</xref>
-                                <codeph outputclass="language-xml" props="XPath"
-                                    >/PcGts/Page/TextRegion</codeph></entry>
+                            <entry>Page Region: <b><xref href="lytextregion.dita#textregionen__textregion_">Text Regions</xref></b></entry>
+			    <entry/>
+			    <entry/>
+			    <entry/>
+			    <entry/>
+			</row>
+			<row>
+			    <entry>Text Region (untyped)</entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page/TextRegion</codeph></entry>
                             <entry>x</entry>
-                            <entry>x</entry>
-                            <entry>x</entry>
+                            <entry></entry>
+                            <entry></entry>
                         </row>
                         <row>
-                            <entry/>
-                            <entry>paragraph <codeph outputclass="language-xml" props="XPath"
-                                    >/PcGts/Page/TextRegion[@type='paragraph']</codeph></entry>
+                            <entry>paragraph</entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page/TextRegion[@type='paragraph']</codeph></entry>
+                            <entry></entry>
                             <entry>x</entry>
-                            <entry>x</entry>
-                            <entry>x</entry>
+                            <entry>xy</entry>
                         </row>
                         <row>
-                            <entry/>
-                            <entry>heading <codeph outputclass="language-xml" props="XPath"
-                                    >/PcGts/Page/TextRegion[@type='heading']</codeph></entry>
-                            <entry/>
-                            <entry>x</entry>
-                            <entry>x</entry>
-                        </row>
-                        <row>
-                            <entry/>
-                            <entry>caption <codeph outputclass="language-xml" props="XPath"
-                                    >/PcGts/Page/TextRegion[@type='caption']</codeph></entry>
+                            <entry>heading</entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page/TextRegion[@type='heading']</codeph></entry>
                             <entry/>
                             <entry>x</entry>
                             <entry>x</entry>
                         </row>
                         <row>
-                            <entry/>
-                            <entry>header <codeph outputclass="language-xml" props="XPath"
-                                    >/PcGts/Page/TextRegion[@type='header']</codeph></entry>
-                            <entry/>
-                            <entry>x</entry>
-                            <entry>x</entry>
-                        </row>
-                        <row>
-                            <entry/>
-                            <entry>footer <codeph outputclass="language-xml" props="XPath"
-                                    >/PcGts/Page/TextRegion[@type='footer']</codeph></entry>
+                            <entry>caption</entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page/TextRegion[@type='caption']</codeph></entry>
                             <entry/>
                             <entry>x</entry>
                             <entry>x</entry>
                         </row>
                         <row>
-                            <entry/>
-                            <entry>page-number <codeph outputclass="language-xml" props="XPath"
-                                    >/PcGts/Page/TextRegion[@type='page-number']</codeph></entry>
-                            <entry/>
-                            <entry>x</entry>
-                            <entry>x</entry>
-                        </row>
-                        <row>
-                            <entry/>
-                            <entry>drop-capital <codeph outputclass="language-xml" props="XPath"
-                                    >/PcGts/Page/TextRegion[@type='drop-capital']</codeph></entry>
+                            <entry>header</entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page/TextRegion[@type='header']</codeph></entry>
                             <entry/>
                             <entry>x</entry>
                             <entry>x</entry>
                         </row>
                         <row>
+                            <entry>footer</entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page/TextRegion[@type='footer']</codeph></entry>
                             <entry/>
-                            <entry>credit <codeph outputclass="language-xml" props="XPath"
-                                    >/PcGts/Page/TextRegion[@type='credit']</codeph></entry>
+                            <entry></entry>
+                            <entry>x</entry>
+                        </row>
+                        <row>
+                            <entry>page number</entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page/TextRegion[@type='page-number']</codeph></entry>
                             <entry/>
                             <entry>x</entry>
                             <entry>x</entry>
                         </row>
                         <row>
-                            <entry/>
-                            <entry>floating <codeph outputclass="language-xml" props="XPath"
-                                    >/PcGts/Page/TextRegion[@type='floating']</codeph></entry>
-                            <entry/>
-                            <entry>x</entry>
-                            <entry>x</entry>
-                        </row>
-                        <row>
-                            <entry/>
-                            <entry>signature-mark <codeph outputclass="language-xml" props="XPath"
-                                    >/PcGts/Page/TextRegion[@type='signature-mark']</codeph></entry>
+                            <entry>drop capital</entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page/TextRegion[@type='drop-capital']</codeph></entry>
                             <entry/>
                             <entry>x</entry>
                             <entry>x</entry>
                         </row>
                         <row>
+                            <entry>credit</entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page/TextRegion[@type='credit']</codeph></entry>
                             <entry/>
-                            <entry>catch-word <codeph outputclass="language-xml" props="XPath"
-                                    >/PcGts/Page/TextRegion[@type='catch-word']</codeph></entry>
+                            <entry></entry>
+                            <entry>x</entry>
+                        </row>
+                        <row>
+                            <entry>floating</entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page/TextRegion[@type='floating']</codeph></entry>
+                            <entry/>
+                            <entry></entry>
+                            <entry>x</entry>
+                        </row>
+                        <row>
+                            <entry>signature mark</entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page/TextRegion[@type='signature-mark']</codeph></entry>
                             <entry/>
                             <entry>x</entry>
                             <entry>x</entry>
                         </row>
                         <row>
-                            <entry/>
-                            <entry>marginalia <codeph outputclass="language-xml" props="XPath"
-                                    >/PcGts/Page/TextRegion[@type='marginalia']</codeph></entry>
-                            <entry/>
-                            <entry>x</entry>
-                            <entry>x</entry>
-                        </row>
-                        <row>
-                            <entry/>
-                            <entry>footnote <codeph outputclass="language-xml" props="XPath"
-                                    >/PcGts/Page/TextRegion[@type='footnote']</codeph></entry>
+                            <entry>catchword</entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page/TextRegion[@type='catch-word']</codeph></entry>
                             <entry/>
                             <entry>x</entry>
                             <entry>x</entry>
                         </row>
                         <row>
-                            <entry/>
-                            <entry>footnote-continued <codeph outputclass="language-xml" props="XPath"
-                                    >/PcGts/Page/TextRegion[@type='footnote-continued']</codeph></entry>
-                            <entry/>
-                            <entry/>
-                            <entry>x</entry>
-                        </row>
-                        <row>
-                            <entry/>
-                            <entry>endnote <codeph outputclass="language-xml" props="XPath"
-                                    >/PcGts/Page/TextRegion[@type='endnote']</codeph></entry>
+                            <entry>marginalia</entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page/TextRegion[@type='marginalia']</codeph></entry>
                             <entry/>
                             <entry>x</entry>
                             <entry>x</entry>
                         </row>
                         <row>
+                            <entry>footnote</entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page/TextRegion[@type='footnote']</codeph></entry>
                             <entry/>
-                            <entry>TOC-entry <codeph outputclass="language-xml" props="XPath"
-                                    >/PcGts/Page/TextRegion[@type='TOC-entry']</codeph></entry>
-                            <entry/>
-                            <entry>x</entry>
-                            <entry>x</entry>
-                        </row>
-                        <row>
-                            <entry/>
-                            <entry>list-label <codeph outputclass="language-xml" props="XPath"
-                                    >/PcGts/Page/TextRegion[@type='list-label']</codeph></entry>
-                            <entry/>
-                            <entry>x</entry>
+                            <entry>?</entry>
                             <entry>x</entry>
                         </row>
                         <row>
+                            <entry>footnote continued</entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page/TextRegion[@type='footnote-continued']</codeph></entry>
                             <entry/>
-                            <entry>other <codeph outputclass="language-xml" props="XPath"
-                                    >/PcGts/Page/TextRegion[@type='other']</codeph></entry>
+                            <entry/>
+                            <entry>?</entry>
+                        </row>
+                        <row>
+                            <entry>endnote</entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page/TextRegion[@type='endnote']</codeph></entry>
+                            <entry/>
+                            <entry></entry>
+                            <entry>?</entry>
+                        </row>
+                        <row>
+                            <entry>table-of-contents entry</entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page/TextRegion[@type='TOC-entry']</codeph></entry>
+                            <entry/>
+                            <entry></entry>
+                            <entry></entry>
+                        </row>
+                        <row>
+                            <entry>list label</entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page/TextRegion[@type='list-label']</codeph></entry>
+                            <entry/>
+                            <entry></entry>
+                            <entry></entry>
+                        </row>
+                        <row>
+                            <entry>other</entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page/TextRegion[@type='other']</codeph></entry>
+                            <entry></entry>
+                            <entry>?</entry>
                             <entry>x</entry>
+                        </row>
+                        <row>
+                            <entry>rotation angle (orientation N*90°)</entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page/TextRegion/@orientation</codeph></entry>
+                            <entry></entry>
                             <entry>x</entry>
                             <entry>x</entry>
                         </row>
                         <row outputclass="color4">
-                            <entry>Page Region: <b>Illustrations, photos</b></entry>
-                            <entry><xref href="lyBildbereiche.dita#lyBildbereiche">Illustrations,
-                                    photos</xref> : ImageRegion <codeph outputclass="language-xml"
-                                    props="XPath">/PcGts/Page/ImageRegion</codeph></entry>
+                            <entry>Page Region: <b><xref href="lyBildbereiche.dita#lyBildbereiche">Illustrations, photos</xref></b></entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page/ImageRegion</codeph></entry>
                             <entry>x</entry>
                             <entry>x</entry>
+                            <entry>x</entry>
+                        </row>
+                        <row>
+                            <entry>rotation angle (orientation N*90°)</entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page/ImageRegion/@orientation</codeph></entry>
+                            <entry></entry>
+                            <entry></entry>
                             <entry>x</entry>
                         </row>
                         <row outputclass="color5">
-                            <entry>Page Region: <b>Book decoration, drawings</b></entry>
-                            <entry><xref href="lyGraphik.dita#lyGraphik">Book decoration,
-                                    drawings</xref> : GraphicRegion, <codeph outputclass="language-xml"
-                                    props="XPath">/PcGts/Page/GraphicRegion</codeph></entry>
+                            <entry>Page Region: <b><xref href="lyGraphik.dita#lyGraphik">Book decoration, drawings</xref></b></entry>
+			    <entry/>
+			    <entry/>
+			    <entry/>
+			    <entry/>
+			</row>
+			<row>
+			    <entry>Graphic Region (untyped)</entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page/GraphicRegion</codeph></entry>
                             <entry>x</entry>
                             <entry>x</entry>
+                            <entry></entry>
+                        </row>
+                        <row>
+                            <entry>logo</entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page/GraphicRegion[@type='logo']</codeph></entry>
+                            <entry/>
+                            <entry></entry>
                             <entry>x</entry>
                         </row>
                         <row>
+                            <entry>letterhead</entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page/GraphicRegion[@type='letterhead']</codeph></entry>
                             <entry/>
-                            <entry>logo <codeph outputclass="language-xml" props="XPath"
-                                    >/PcGts/Page/GraphicRegion[@type='logo']</codeph></entry>
-                            <entry/>
-                            <entry>x</entry>
-                            <entry>x</entry>
-                        </row>
-                        <row>
-                            <entry/>
-                            <entry>letterhead <codeph props="XPath"
-                                    >/PcGts/Page/GraphicRegion[@type='letterhead']</codeph></entry>
-                            <entry/>
-                            <entry>x</entry>
+                            <entry></entry>
                             <entry>x</entry>
                         </row>
                         <row>
+                            <entry>decoration</entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page/GraphicRegion[@type='decoration']</codeph></entry>
                             <entry/>
-                            <entry>decoration <codeph outputclass="language-xml" props="XPath"
-                                    >/PcGts/Page/GraphicRegion[@type='decoration']</codeph></entry>
-                            <entry/>
-                            <entry>x</entry>
-                            <entry>x</entry>
-                        </row>
-                        <row>
-                            <entry/>
-                            <entry>frame <codeph outputclass="language-xml" props="XPath"
-                                    >/PcGts/Page/GraphicRegion[@type='frame']</codeph></entry>
-                            <entry/>
-                            <entry>x</entry>
+                            <entry>?</entry>
                             <entry>x</entry>
                         </row>
                         <row>
+                            <entry>frame</entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page/GraphicRegion[@type='frame']</codeph></entry>
                             <entry/>
-                            <entry>handwritten-annotation <codeph props="XPath"
-                                    >/PcGts/Page/GraphicRegion[@type='handwritten-annotation']</codeph></entry>
-                            <entry/>
-                            <entry>x</entry>
-                            <entry>x</entry>
-                        </row>
-                        <row>
-                            <entry/>
-                            <entry>stamp<codeph outputclass="language-xml" props="XPath"
-                                    >/PcGts/Page/GraphicRegion[@type='stamp']</codeph></entry>
-                            <entry/>
-                            <entry>x</entry>
+                            <entry>?</entry>
                             <entry>x</entry>
                         </row>
                         <row>
+                            <entry>handwritten annotation</entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page/GraphicRegion[@type='handwritten-annotation']</codeph></entry>
                             <entry/>
-                            <entry>signature<codeph outputclass="language-xml" props="XPath"
-                                    >/PcGts/Page/GraphicRegion[@type='signature']</codeph></entry>
-                            <entry/>
-                            <entry>x</entry>
-                            <entry>x</entry>
-                        </row>
-                        <row>
-                            <entry/>
-                            <entry>barcode<codeph outputclass="language-xml" props="XPath"
-                                    >/PcGts/Page/GraphicRegion[@type='barcode']</codeph></entry>
-                            <entry/>
-                            <entry>x</entry>
+                            <entry>?</entry>
                             <entry>x</entry>
                         </row>
                         <row>
+                            <entry>stamp</entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page/GraphicRegion[@type='stamp']</codeph></entry>
                             <entry/>
-                            <entry>paper-grow<codeph outputclass="language-xml" props="XPath"
-                                    >/PcGts/Page/GraphicRegion[@type='paper-grow']</codeph></entry>
-                            <entry/>
-                            <entry>x</entry>
-                            <entry>x</entry>
-                        </row>
-                        <row>
-                            <entry/>
-                            <entry>punch-hole<codeph outputclass="language-xml" props="XPath"
-                                    >/PcGts/Page/GraphicRegion[@type='punch-hole']</codeph></entry>
-                            <entry/>
-                            <entry>x</entry>
+                            <entry>?</entry>
                             <entry>x</entry>
                         </row>
                         <row>
+                            <entry>signature</entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page/GraphicRegion[@type='signature']</codeph></entry>
                             <entry/>
-                            <entry>other<codeph outputclass="language-xml" props="XPath"
-                                    >/PcGts/Page/GraphicRegion[@type='other']</codeph></entry>
-                            <entry/>
+                            <entry></entry>
                             <entry>x</entry>
+                        </row>
+                        <row>
+                            <entry>barcode</entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page/GraphicRegion[@type='barcode']</codeph></entry>
+                            <entry/>
+                            <entry></entry>
+                            <entry>x</entry>
+                        </row>
+                        <row>
+                            <entry>paper grow</entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page/GraphicRegion[@type='paper-grow']</codeph></entry>
+                            <entry/>
+                            <entry></entry>
+                            <entry>x</entry>
+                        </row>
+                        <row>
+                            <entry>punch hole</entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page/GraphicRegion[@type='punch-hole']</codeph></entry>
+                            <entry/>
+                            <entry></entry>
+                            <entry>x</entry>
+                        </row>
+                        <row>
+                            <entry>other</entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page/GraphicRegion[@type='other']</codeph></entry>
+                            <entry/>
+                            <entry>?</entry>
+                            <entry>x</entry>
+                        </row>
+                        <row>
+                            <entry>rotation angle (orientation N*90°)</entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page/GraphicRegion/@orientation</codeph></entry>
+                            <entry></entry>
+                            <entry></entry>
+                            <entry>x</entry>
+                        </row>
+                        <row outputclass="color8">
+                            <entry>Page Region: <b>Line Drawings</b></entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page/LineDrawingRegion</codeph></entry>
+                            <entry></entry>
+                            <entry>?</entry>
+                            <entry>x</entry>
+                        </row>
+                        <row>
+                            <entry>rotation angle (orientation N*90°)</entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page/LineDrawingRegion/@orientation</codeph></entry>
+                            <entry/>
+                            <entry></entry>
                             <entry>x</entry>
                         </row>
                         <row outputclass="color6">
-                            <entry>Page Region: <b>Separation Lines, Separators
-                                    (SeparatorRegion)</b></entry>
-                            <entry><xref href="lySeparatoren.dita#lySeparatoren">Separation Lines,
-                                    Separators</xref> : SeparatorRegion, <codeph
-                                    outputclass="language-xml" props="XPath"
-                                    >/PcGts/Page/SeparatorRegion</codeph></entry>
-                            <entry>x</entry>
-                            <entry>x</entry>
-                            <entry>x</entry>
-                        </row>
-                        <row>
-                            <entry/>
-                            <entry>orientation<codeph outputclass="language-xml" props="XPath"
-                                    >/PcGts/Page/SeparatorRegion/@orientation</codeph></entry>
-                            <entry>x</entry>
+                            <entry>Page Region: <b><xref href="lySeparatoren.dita#lySeparatoren">Separator Lines</xref></b></entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page/SeparatorRegion</codeph></entry>
+                            <entry></entry>
                             <entry>x</entry>
                             <entry>x</entry>
                         </row>
                         <row outputclass="color7">
-                            <entry>Page Region: <b>Tables(TableRegion)</b></entry>
-                            <entry><xref href="lyTabellen.dita#lyTabellen">Tables</xref> :
-                                TableRegion, <codeph outputclass="language-xml" props="XPath"
-                                    >/PcGts/Page/TableRegion</codeph></entry>
+                            <entry>Page Region: <b><xref href="lyTabellen.dita#lyTabellen">Tables, Tabulars</xref></b></entry>
+			    <entry/>
+			    <entry/>
+			    <entry/>
+			    <entry/>
+			</row>
+			<row>
+			    <entry>Table region</entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page/TableRegion</codeph></entry>
+                            <entry>?</entry>
                             <entry>x</entry>
                             <entry>x</entry>
+                        </row>
+			<row>
+			    <entry>Cell region</entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page/TableRegion/TextRegion</codeph></entry>
+                            <entry></entry>
+                            <entry></entry>
+                            <entry>x</entry>
+                        </row>
+			<row>
+			    <entry>Table separators</entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page/TableRegion/SeparatorRegion</codeph></entry>
+                            <entry></entry>
+                            <entry>?</entry>
                             <entry>x</entry>
                         </row>
                         <row>
+                            <entry>number of rows</entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page/TableRegion/@rows</codeph></entry>
                             <entry/>
-                            <entry><codeph outputclass="language-xml" props="XPath"
-                                >/PcGts/Page/TableRegion/@rows</codeph></entry>
-                            <entry/>
-                            <entry>x</entry>
-                            <entry>x</entry>
-                        </row>
-                        <row>
-                            <entry/>
-                            <entry><codeph outputclass="language-xml" props="XPath"
-                                >/PcGts/Page/TableRegion/@columns</codeph></entry>
-                            <entry/>
-                            <entry>x</entry>
+                            <entry>?</entry>
                             <entry>x</entry>
                         </row>
                         <row>
+                            <entry>number of columns</entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page/TableRegion/@columns</codeph></entry>
                             <entry/>
-                            <entry><codeph outputclass="language-xml" props="XPath"
-                                    >/PcGts/Page/TableRegion/@lineSeparators</codeph></entry>
-                            <entry/>
-                            <entry>x</entry>
-                            <entry>x</entry>
-                        </row>
-                        <row outputclass="color8">
-                            <entry>Page Region: <b>Line Drawing Region</b></entry>
-                            <entry><codeph outputclass="language-xml" props="XPath"
-                                >/PcGts/Page/LineDrawingRegion</codeph></entry>
-                            <entry/>
-                            <entry>x</entry>
+                            <entry>?</entry>
                             <entry>x</entry>
                         </row>
                         <row>
+                            <entry>with separator lines</entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page/TableRegion/@lineSeparators</codeph></entry>
                             <entry/>
-                            <entry><codeph outputclass="language-xml" props="XPath"
-                                    >/PcGts/Page/LineDrawingRegion/@orientation</codeph></entry>
-                            <entry/>
+                            <entry>?</entry>
+                            <entry>x</entry>
+                        </row>
+                        <row>
+                            <entry>rotation angle (orientation N*90°)</entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page/TableRegion/@orientation</codeph></entry>
+                            <entry></entry>
                             <entry>x</entry>
                             <entry>x</entry>
                         </row>
                         <row outputclass="color9">
-                            <entry>Page Region: <b>Maps (MapRegion)</b></entry>
-                            <entry><xref href="lyKarten.dita#lyKarten">Maps</xref> : MapRegion
-                                    <codeph outputclass="language-xml" props="XPath"
-                                    >/PcGts/Page/MapRegion</codeph></entry>
+                            <entry>Page Region: <b><xref href="lyKarten.dita#lyKarten">Maps</xref></b></entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page/MapRegion</codeph></entry>
                             <entry/>
                             <entry>x</entry>
                             <entry>x</entry>
                         </row>
-                        <row>
-                            <entry/>
-                            <entry>orientation<codeph outputclass="language-xml" props="XPath"
-                                    >/PcGts/Page/MapRegion/@orientation</codeph></entry>
-                            <entry/>
+			<row>
+			    <entry>Text Labels</entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page/MapRegion/TextRegion</codeph></entry>
+                            <entry></entry>
+                            <entry></entry>
                             <entry>x</entry>
+                        </row>
+                        <row>
+                            <entry>rotation angle (orientation N*90°)</entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page/MapRegion/@orientation</codeph></entry>
+                            <entry/>
+                            <entry></entry>
                             <entry>x</entry>
                         </row>
                         <row outputclass="color10">
-                            <entry>Page Region: <b>Mathematical characters (MathsRegion)</b></entry>
-                            <entry><xref href="lyMathematische_Zeichen.dita#lyMathematische_Zeichen"
-                                >Mathematical characters</xref> : MathsRegion, <codeph
-                                    props="XPath" outputclass="language-xml">/PcGts/Page/MathsRegion</codeph></entry>
+                            <entry>Page Region: <b><xref href="lyMathematische_Zeichen.dita#lyMathematische_Zeichen">Mathematical Formulae</xref></b></entry>
+                            <entry><codeph props="XPath" outputclass="language-xml">/PcGts/Page/MathsRegion</codeph></entry>
                             <entry/>
                             <entry>x</entry>
                             <entry>x</entry>
                         </row>
                         <row>
+                            <entry>rotation angle (orientation N*90°)</entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page/MathsRegion/@orientation</codeph></entry>
                             <entry/>
-                            <entry><codeph outputclass="language-xml" props="XPath"
-                                    >/PcGts/Page/MathsRegion/@orientation</codeph></entry>
-                            <entry/>
-                            <entry>x</entry>
+                            <entry></entry>
                             <entry>x</entry>
                         </row>
                         <row outputclass="color11">
-                            <entry>Page Region: <b>Chemical symbols (ChemRegion)</b></entry>
-                            <entry><xref href="lyChemische_Symbole.dita#lyChemische_Symbole"
-                                >Chemical symbols</xref> : ChemRegion, <codeph outputclass="language-xml" props="XPath"
-                                    >/PcGts/Page/ChemRegion</codeph></entry>
+                            <entry>Page Region: <b><xref href="lyChemische_Symbole.dita#lyChemische_Symbole">Chemical Formulae</xref></b></entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page/ChemRegion</codeph></entry>
                             <entry/>
                             <entry>x</entry>
                             <entry>x</entry>
                         </row>
                         <row>
+                            <entry>rotation angle (orientation N*90°)</entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page/ChemRegion/@orientation</codeph></entry>
                             <entry/>
-                            <entry><codeph outputclass="language-xml" props="XPath"
-                                    >/PcGts/Page/ChemRegion/@orientation</codeph></entry>
-                            <entry/>
-                            <entry>x</entry>
+                            <entry></entry>
                             <entry>x</entry>
                         </row>
                         <row outputclass="color12">
-                            <entry>Page Region: <b>Musical note (MusicRegion)</b></entry>
-                            <entry><xref href="lyNotenzeichen.dita#lyNotenzeichen">Musical
-                                    note</xref> : MusicRegion, <codeph outputclass="language-xml"
-                                    props="XPath">/PcGts/Page/MusicRegion</codeph></entry>
+                            <entry>Page Region: <b><xref href="lyNotenzeichen.dita#lyNotenzeichen">Musical Scores</xref></b></entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page/MusicRegion</codeph></entry>
                             <entry/>
                             <entry>x</entry>
                             <entry>x</entry>
                         </row>
                         <row>
+                            <entry>rotation angle (orientation N*90°)</entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page/MusicRegion/@orientation</codeph></entry>
                             <entry/>
-                            <entry><codeph outputclass="language-xml" props="XPath"
-                                    >/PcGts/Page/MusicRegion/@orientation</codeph></entry>
-                            <entry/>
-                            <entry>x</entry>
+                            <entry></entry>
                             <entry>x</entry>
                         </row>
                         <row outputclass="color13">
-                            <entry>Page Region: <b>Advertisement (AdvertRegion)</b></entry>
-                            <entry><xref href="lyWerbung.dita#lyWerbung">Advertisement</xref> :
-                                AdvertRegion <codeph outputclass="language-xml" props="XPath"
-                                    >/PcGts/Page/AdvertRegion</codeph></entry>
+                            <entry>Page Region: <b><xref href="lyWerbung.dita#lyWerbung">Advertisements</xref></b></entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page/AdvertRegion</codeph></entry>
                             <entry/>
-                            <entry>x</entry>
+                            <entry>?</entry>
                             <entry>x</entry>
                         </row>
                         <row>
+                            <entry>rotation angle (orientation N*90°)</entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page/AdvertRegion/@orientation</codeph></entry>
                             <entry/>
-                            <entry><codeph outputclass="language-xml" props="XPath"
-                                    >/PcGts/Page/AdvertRegion/@orientation</codeph></entry>
-                            <entry/>
-                            <entry>x</entry>
+                            <entry></entry>
                             <entry>x</entry>
                         </row>
                         <row outputclass="color14">
-                            <entry>Page Region: <b>Damage, Dirt, Stains, Noise
-                                (NoiseRegion)</b></entry>
-                            <entry><xref href="lyRauschen.dita#lyRauschen">Damage, Dirt, Stains,
-                                    Noise</xref> : NoiseRegion <codeph outputclass="language-xml"
-                                    props="XPath">/PcGts/Page/NoiseRegion</codeph></entry>
-                            <entry>x</entry>
-                            <entry>x</entry>
-                            <entry>x</entry>
+                            <entry>Page Region: <b><xref href="lyRauschen.dita#lyRauschen">Damage, Dirt, Stains, Noise</xref></b></entry>
+                            <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page/NoiseRegion</codeph></entry>
+                            <entry>?</entry>
+                            <entry>?</entry>
+                            <entry>?</entry>
                         </row>
                         <row outputclass="color15">
-                            <entry>Page Region: <b>Unknown (UnknownRegion)</b></entry>
+                            <entry>Page Region: <b>Unknown</b></entry>
                             <entry><codeph outputclass="language-xml" props="XPath">/PcGts/Page/UnknownRegion</codeph></entry>
-                            <entry>x</entry>
-                            <entry>x</entry>
-                            <entry>x</entry>
+                            <entry>?</entry>
+                            <entry>?</entry>
+                            <entry>?</entry>
                         </row>
                     </tbody>
                 </tgroup>

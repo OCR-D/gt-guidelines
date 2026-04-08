@@ -1,0 +1,37 @@
+on:
+  push:
+    tags:
+      - 'v[0-9]+.[0-9]+.[0-9]+'
+  workflow_dispatch:
+
+jobs:
+  build-dita:
+    name: Build DITA
+    runs-on: ubuntu-latest
+    permissions:
+      checks: write
+      contents: write
+    steps:
+
+      
+      - name: Git checkout
+        uses: actions/checkout@v3
+
+      - name: Get system dependencies
+        run: |
+            sudo apt-get update
+            sudo apt-get install -y make wget
+
+      - name: Install DITA dependencies
+        run: make deps
+      
+      - name: Build for English
+        run: make build
+      - name: Build for German
+        run: make build LANG=de
+
+      - name: Deploy DITA Output to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@3.7.1
+        with:
+          BRANCH: gh-pages # The branch the action should deploy to.
+          FOLDER: output # The folder the action should deploy.
