@@ -39,8 +39,16 @@ jobs:
            wget https://www.saxonica.com/download/SaxonEE11-1J.zip
            unzip SaxonEE11-1J.zip
              
-      
-           
+      - name: Force UTF-8 locale
+        run: |
+          sudo locale-gen de_DE.UTF-8
+          sudo update-locale LANG=de_DE.UTF-8
+          export LANG=de_DE.UTF-8
+          export LC_ALL=de_DE.UTF-8
+
+      - name: Set Git to UTF-8
+        run: |
+           git config --global core.quotepath false           
 
       
       - name: add wiki faq german
