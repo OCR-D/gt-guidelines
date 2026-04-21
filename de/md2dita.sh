@@ -5,5 +5,5 @@
                     
                         dita --input=ocrd-website.wiki/GT-Guide-Transkriptionsprobleme-bei-Inkunabeln.md --format=dita
                     
-                        dita --input=ocrd-website.wiki/GT-Guide-W%C3%A4hrungssymbol.md --format=dita
+                        dita --input=ocrd-website.wiki/GT-Guide-Währungssymbol.md --format=dita
                     
