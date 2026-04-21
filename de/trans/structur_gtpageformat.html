@@ -1,0 +1,1052 @@
+<html lang="de">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta charset="UTF-8">
+      <meta name="copyright" content="(C) Copyright 2026">
+      <meta name="generator" content="DITA-OT">
+      <link rel="stylesheet" type="text/css" href="../css/commonltr.css">
+      <link rel="stylesheet" type="text/css" href="../css/dita-ot-doc.css">
+      <title>Erweiterungen zu Regionen im Pageformat und Konkordanz zum DTA Zot-Format sowie DTABf (TEI)</title>
+   </head>
+   <body id="structur_gtpageformat">
+      <header role="banner">
+         <div class="header">
+            <script src="https://prismjs.com/prism.js"><!--Prism javascript code for highlighting--></script>
+            
+            <table style="border: 0px;  width: 100%;" class="header">
+               
+               <tr>
+                  
+                  <td class="td1"><a href="https://ocr-d.de"><img src="../resources/ocrd.png" class="logo" alt="Logo OCR-D"></a></td>
+                  
+                  <td class="td2"><a href="https://ocr-d.de/de/gt-guidelines/trans/" class="nodeco">Ground Truth Richtlinien</a><span class="language"><a href="https://ocr-d.de/en/gt-guidelines/trans/">en</a></span><br>
+                     <span class="small">OCR-D: Koordinierten Förderinitiative zur Weiterentwicklung von Verfahren der Optical
+                        Character Recognition gefördert von der DFG</span>
+                     <br>
+                     <script src="https://cse.google.com/cse.js?cx=3ada0c76c580e944b" async=""></script>
+                     
+                     <div class="gcse-search"></div> 
+                     </td>
+                  </tr>
+               </table>
+            
+            <hr>
+            </div>
+      </header>
+      <nav role="toc">
+         <ul>
+            <li><a href="../trans/index.html">Die Ground Truth Richtlinien</a></li>
+            <li><a href="../trans/trLevels.html">📢 Übersicht der Ground-Truth-Level</a></li>
+            <li><a href="../trans/transkription.html">📑 Transkription</a></li>
+            <li><a href="../trans/hilfsmittel.html">🔧 Hilfsmittel</a></li>
+            <li><a href="../trans/layout.html">📰 Layout und Struktur</a></li>
+            <li><a href="../trans/ruleset.html">📜 OCR-D-GT-Ruleset</a></li>
+            <li><a href="../trans/structur_gt.html">📓 Struktur-Ground-Truth</a><ul>
+                  <li><a href="../trans/structur_gtlevel1.html">Struktur-GT Level Übersicht</a></li>
+                  <li><a href="../trans/structurmets2page.html">Struktur-Konkordanz METS und PAGE-XML</a></li>
+                  <li class="active"><a href="../trans/structur_gtpageformat.html">Erweiterungen zu Regionen im Pageformat und Konkordanz zum DTA Zot-Format sowie DTABf
+                        (TEI)</a></li>
+               </ul>
+            </li>
+            <li><a href="../trans/trLabeling.html">📓 Dokumentation des OCR-D-GT-labelling</a></li>
+            <li><a href="../trans/trPage.html">📓 Dokumentation des PAGE-XML-Formats</a></li>
+            <li><a href="../trans/page_xml_erweiterungen.html">📚 PAGE- XML-Erweiterungen</a></li>
+            <li><a href="../trans/fa.html">❓ Fragen und Antworten</a></li>
+            <li><a href="../trans/impressum.html">Impressum</a></li>
+         </ul>
+      </nav>
+      <main role="main">
+         <article role="article" aria-labelledby="ariaid-title1">
+            
+            <h1 class="title topictitle1" id="ariaid-title1">Erweiterungen zu Regionen im Pageformat und Konkordanz zum DTA Zot-Format sowie DTABf
+               (TEI)</h1>
+            
+            
+            
+            <div class="body">
+               
+               <p class="p">Die Übersicht und Konkordanz stellt im Vergleich Kodierungen von Zonen und Regionen
+                  im DTA
+                  Zot-Format, DTABf (TEI) und dem PAGE-XML-Format dar. </p>
+               
+               <div class="p">Genutzt werden kann diese Tabelle um:
+                  <ul class="ul" id="structur_gtpageformat__ol_o2z_zmp_mbc">
+                     
+                     <li class="li">standarisierte <code class="ph codeph">custom</code> Werte zu verwenden
+                        <ol class="ol" id="structur_gtpageformat__ol_nlt_2np_mbc">
+                           
+                           <li class="li">für die semantische und funktionale Erweiterung des Elementes <strong class="ph b">Page</strong>
+                              </li>
+                           
+                           <li class="li">für die semantische und funktionale Erweiterung der Elemente <strong class="ph b">TextRegion</strong></li>
+                           </ol>
+                     </li>
+                     
+                     <li class="li">Um eine spezifische Konvertierung/Transformation des PAGE-XML Formates nach TEI zu
+                        realisieren.</li>
+                     
+                     <li class="li">Um eine Konvertierung/Transformation des Zot-Formates nach Page-XML zu realisieren.</li>
+                     </ul>
+               </div>
+               
+               <div class="p">
+                  
+                  <div class="note note note_note" id="structur_gtpageformat__note_dzy_znp_mbc"><span class="note__title">Anmerkung:</span> Die Verwendung von Elementen im DTABf und PAGE-XML bezieht sich
+                     auf grundlegende Elemente oder Beschreibungen. Dabei wurde der Kontext möglicherweise
+                     nicht
+                     ausreichend berücksichtigt. Um weitere Details zur Verwendung von DTABf- oder
+                     PAGE-XML-Elementen zu erfahren, wird empfohlen, die entsprechenden Dokumentationen
+                     zu Rate
+                     zu ziehen.</div>
+                  </div>
+               
+               
+               <table class="table frame-all" id="structur_gtpageformat__table_wws_hhn_ldb">
+                  <caption><span class="table--title-label">Tabelle 1. </span><span class="title">Übersicht und Konkordanz von Kodierungen</span></caption>
+                  <colgroup>
+                     <col style="width:14.285714285714285%">
+                     <col style="width:14.285714285714285%">
+                     <col style="width:14.285714285714285%">
+                     <col style="width:14.285714285714285%">
+                     <col style="width:14.285714285714285%">
+                     <col style="width:14.285714285714285%">
+                     <col style="width:14.285714285714285%">
+                  </colgroup>
+                  <thead class="thead">
+                     
+                     <tr class="row">
+                        
+                        <th class="entry colsep-1 rowsep-1" id="structur_gtpageformat__table_wws_hhn_ldb__entry__1" rowspan="2" colspan="2">Deutsches Textarchiv Zot-Format</th>
+                        
+                        <th class="entry colsep-1 rowsep-1" id="structur_gtpageformat__table_wws_hhn_ldb__entry__2" rowspan="2">DTABf (TEI)</th>
+                        
+                        <th class="entry colsep-1 rowsep-1" id="structur_gtpageformat__table_wws_hhn_ldb__entry__3" colspan="4">PAGE-XML-Format</th>
+                        </tr>
+                     
+                     <tr class="row">
+                        
+                        <th class="entry colsep-1 rowsep-1" id="structur_gtpageformat__table_wws_hhn_ldb__entry__4">Page <span class="ph tt" style="font-family: monospace; ">type="{Wert}"</span></th>
+                        
+                        <th class="entry colsep-1 rowsep-1" id="structur_gtpageformat__table_wws_hhn_ldb__entry__5">spez. Region</th>
+                        
+                        <th class="entry colsep-1 rowsep-1" id="structur_gtpageformat__table_wws_hhn_ldb__entry__6">TextRegion <span class="ph tt" style="font-family: monospace; ">type="{Wert}"</span></th>
+                        
+                        <th class="entry colsep-1 rowsep-1" id="structur_gtpageformat__table_wws_hhn_ldb__entry__7">TextRegion <span class="ph tt" style="font-family: monospace; ">custom="structure {type:Wert;}"</span></th>
+                        </tr>
+                     </thead>
+                  <tbody class="tbody">
+                     
+                     <tr class="row">
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">Text (Paragraph)</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">10</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__2">
+                           
+                           <pre class="pre linebreak">&lt;p&gt;&lt;/p&gt;</pre>
+                           </td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__4"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__5"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__6">paragraph</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__7"></td>
+                        </tr>
+                     
+                     <tr class="row">
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">Gedicht</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">11</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__2">
+                           
+                           <pre class="pre linebreak">&lt;lg type="poem"&gt;</pre>
+                           </td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__4"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__5"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__6">paragraph</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__7">poem</td>
+                        </tr>
+                     
+                     <tr class="row">
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">Überschrift D1</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">20</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__2">
+                           
+                           <pre class="pre linebreak">&lt;div n="1"&gt;
+&lt;head&gt;...</pre>
+                           </td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__4"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__5"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__6">heading</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__7">heading_level1</td>
+                        </tr>
+                     
+                     <tr class="row">
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">Überschrift D2</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">21</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__2">
+                           
+                           <pre class="pre linebreak">&lt;div n="2"&gt;
+&lt;head&gt;...</pre>
+                           </td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__4"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__5"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__6">heading</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__7">heading_level2</td>
+                        </tr>
+                     
+                     <tr class="row">
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">Überschrift D3</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">22</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__2">
+                           
+                           <pre class="pre linebreak">&lt;div n="3"&gt;
+&lt;head&gt;...</pre>
+                           </td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__4"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__5"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__6">heading</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__7">heading_level3</td>
+                        </tr>
+                     
+                     <tr class="row">
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">Überschrift D4</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">23</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__2">
+                           
+                           <pre class="pre linebreak">&lt;div n="4"&gt;
+&lt;head&gt;...</pre>
+                           </td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__4"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__5"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__6">heading</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__7">heading_level4</td>
+                        </tr>
+                     
+                     <tr class="row">
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">Überschrift D5</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">24</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__2">
+                           
+                           <pre class="pre linebreak">&lt;div n="5"&gt;
+&lt;head&gt;...</pre>
+                           </td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__4"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__5"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__6">heading</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__7">heading_level5</td>
+                        </tr>
+                     
+                     <tr class="row">
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">Überschrift D6</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">25</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__2">
+                           
+                           <pre class="pre linebreak">&lt;div n="6"&gt;
+&lt;head&gt;...</pre>
+                           </td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__4"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__5"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__6">heading</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__7">heading_level6</td>
+                        </tr>
+                     
+                     <tr class="row">
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">Überschrift D7</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">26</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__2">
+                           
+                           <pre class="pre linebreak">&lt;div n="7"&gt;
+&lt;head&gt;...</pre>
+                           </td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__4"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__5"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__6">heading</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__7">heading_level7</td>
+                        </tr>
+                     
+                     <tr class="row">
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">Spalte</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">30</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__2">
+                           
+                           <pre class="pre linebreak">&lt;cb&gt;</pre>
+                           </td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__4"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__5"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__6">paragraph</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__7">column</td>
+                        </tr>
+                     
+                     <tr class="row">
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">Bildunterschrift</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">31</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__2">
+                           
+                           <pre class="pre linebreak">&lt;figure&gt;
+&lt;head&gt;...</pre>
+                           </td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__4"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__5"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__6">paragraph</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__7"></td>
+                        </tr>
+                     
+                     <tr class="row">
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">Bühnenanweisung</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">32</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__2">
+                           
+                           <pre class="pre linebreak">&lt;stage&gt;</pre>
+                           </td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__4"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__5"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__6">paragraph</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__7">stage</td>
+                        </tr>
+                     
+                     <tr class="row">
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">Liste</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">33</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__2">
+                           
+                           <pre class="pre linebreak">&lt;list&gt;
+&lt;item&gt;...</pre>
+                           </td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__4"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__5"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__6">paragraph</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__7">list_item</td>
+                        </tr>
+                     
+                     <tr class="row">
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">Inhaltsverzeichnis</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__2">
+                           <pre class="pre linebreak">&lt;div type="contents"&gt;...</pre>…
+                           
+                           <pre class="pre linebreak">&lt;list&gt;&lt;item&gt;...</pre>
+                        </td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__4">table-of-contents</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__5"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__6">paragraph</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__7"></td>
+                        </tr>
+                     
+                     <tr class="row">
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">Front</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">35</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__2">
+                           
+                           <pre class="pre linebreak">&lt;front&gt;...</pre>
+                           </td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__4">title</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__5"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__6">other</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__7"></td>
+                        </tr>
+                     
+                     <tr class="row">
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">Back</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">36</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__2">
+                           
+                           <pre class="pre linebreak">&lt;back&gt;...</pre>
+                           </td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__4"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__5"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__6">other</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__7">back_paragraph</td>
+                        </tr>
+                     
+                     <tr class="row">
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">Seitennummer</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">40</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__2">
+                           
+                           <pre class="pre linebreak">&lt;pb facs="#f[Bildnummer]"
+    n="[Seitenzahl]"/&gt;</pre>
+                           </td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__4"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__5"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__6">page-number</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__7"></td>
+                        </tr>
+                     
+                     <tr class="row">
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">Figurenaufstellung</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">41</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__2">
+                           
+                           <pre class="pre linebreak">&lt;castList&gt;
+&lt;castItem&gt;...</pre>
+                           </td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__4"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__5"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__6">paragraph</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__7">castlist</td>
+                        </tr>
+                     
+                     <tr class="row">
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">abschließender Gruß (Brief)</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">42</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__2">
+                           <pre class="pre linebreak">&lt;closer&gt;...</pre>
+                        </td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__4"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__5"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__6">other</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__7">closer</td>
+                        </tr>
+                     
+                     <tr class="row">
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">Gedichttitel</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">43</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__2">
+                           <pre class="pre linebreak">&lt;lg type="poem"&gt;
+&lt;head&gt;...</pre> oder 
+                           <pre class="pre linebreak">&lt;div type="poem"&gt;
+&lt;head&gt;...</pre>
+                           </td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__4"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__5"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__6">paragraph</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__7">poem_heading</td>
+                        </tr>
+                     
+                     <tr class="row">
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">Strophe eines Gedicht</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">44</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__2">
+                           
+                           <pre class="pre linebreak">&lt;lg n="[Strophennummer]"&gt;</pre>
+                           </td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__4"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__5"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__6">paragraph</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__7">poem_lg</td>
+                        </tr>
+                     
+                     <tr class="row">
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">Anrede (Brief)</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">45</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__2">
+                           
+                           <pre class="pre linebreak">&lt;opener&gt;&lt;salute&gt;...</pre>
+                           </td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__4"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__5"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__6">other</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__7">salute</td>
+                        </tr>
+                     
+                     <tr class="row">
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">Sprecher im Drama</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">46</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__2">
+                           
+                           <pre class="pre linebreak">&lt;speaker&gt;...</pre>
+                           </td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__4"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__5"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__6">other</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__7">speaker</td>
+                        </tr>
+                     
+                     <tr class="row">
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">Zitat</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">47</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__2">
+                           <pre class="pre linebreak">&lt;quote&gt;...</pre> oder 
+                           <pre class="pre linebreak">&lt;cit&gt;
+  &lt;quote&gt;[Zitattext]&lt;/quote&gt;
+  &lt;bibl&gt;[Urheber des Zitats]&lt;/bibl&gt;
+&lt;/cit&gt;</pre>
+                           </td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__4"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__5"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__6">paragraph</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__7">cit</td>
+                        </tr>
+                     
+                     <tr class="row">
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">Bogensignatur</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">50</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__2">
+                           
+                           <pre class="pre linebreak">&lt;fw type="sig" place="bottom"&gt;
+  [Bogensignatur]&lt;/fw&gt;</pre>
+                           </td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__4"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__5"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__6">signature-mark</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__7"></td>
+                        </tr>
+                     
+                     <tr class="row">
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">Kolumnentitel</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">60</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__2">
+                           
+                           <pre class="pre linebreak">&lt;fw type="header" place="top"&gt;
+  [Kolumnentitel]&lt;/fw&gt;</pre>
+                           </td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__4"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__5"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__6">header</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__7"></td>
+                        </tr>
+                     
+                     <tr class="row">
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">Widmung</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">61</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__2">
+                           
+                           <pre class="pre linebreak">&lt;div type="dedication"&gt;
+  &lt;p&gt;[Widmungstext]&lt;/p&gt;&lt;/div&gt;</pre>
+                           </td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__4"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__5"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__6">paragraph</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__7">ded</td>
+                        </tr>
+                     
+                     <tr class="row">
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">Überschift ohne Hierarchie</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">62</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__2">
+                           
+                           <pre class="pre linebreak">&lt;div&gt;&lt;head&gt;[Titel]&lt;/head&gt;&lt;/div&gt;</pre>
+                           </td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__4"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__5"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__6">heading</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__7"></td>
+                        </tr>
+                     
+                     <tr class="row">
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">Kapitelzusammenfassung</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">63</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__2">
+                           
+                           <pre class="pre linebreak">&lt;argument&gt;
+  &lt;p&gt;[Inhaltszusammenfassung oder
+      Fließtext]&lt;/p&gt;
+&lt;/argument&gt;</pre>
+                           </td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__4"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__5"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__6">paragraph</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__7">arg</td>
+                        </tr>
+                     
+                     <tr class="row">
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">Briefdatum</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">64</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__2">
+                           
+                           <pre class="pre linebreak">&lt;opener&gt;&lt;dateline&gt;...</pre> oder
+                           
+                           <pre class="pre linebreak">&lt;closer&gt;&lt;dateline&gt;...</pre>
+                           </td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__4"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__5"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__6">paragraph</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__7"></td>
+                        </tr>
+                     
+                     <tr class="row">
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">Fußnote</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">70</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__2">
+                           
+                           <pre class="pre linebreak">&lt;note place="foot"
+  n="[Fußnotenreferenz]"&gt;
+  [Fußnotentext]
+&lt;/note&gt;</pre>
+                           </td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__4"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__5"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__6">footnote</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__7"></td>
+                        </tr>
+                     
+                     <tr class="row">
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">fortlaufende Fußnote</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">71</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__2">
+                           
+                           <pre class="pre linebreak">&lt;note place="foot" 
+  n="[Fußnotenreferenz]"
+  xml:id="[ID 01]"next="#[ID 02]"&gt;
+  [Fußnotentext]
+&lt;/note&gt;</pre>
+                           </td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__4"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__5"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__6">footnote-continued</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__7"></td>
+                        </tr>
+                     
+                     <tr class="row">
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">Endnote</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">80</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__2">
+                           
+                           <pre class="pre linebreak">&lt;note place="end"
+  n="[Endnotenreferenz]"
+  xml:id="[ID 02]"prev="#[ID 01]"&gt;
+  [Endnotentext]
+&lt;/note&gt;</pre>
+                           </td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__4"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__5"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__6">endnote</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__7"></td>
+                        </tr>
+                     
+                     <tr class="row">
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">Kustode</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">90</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__2">
+                           
+                           <pre class="pre linebreak">&lt;fw type="catch" 
+  place="bottom"&gt;[Kustode]&lt;/fw&gt;</pre>
+                           </td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__4"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__5"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__6">catch-word</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__7"></td>
+                        </tr>
+                     
+                     <tr class="row">
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">Marginalie links</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">91</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__2">
+                           
+                           <pre class="pre linebreak">&lt;note place="left"&gt;
+  [links vom Text 
+    stehende Marginalien]
+&lt;/note&gt;</pre>
+                           </td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__4"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__5"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__6">marginalia</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__7">margi_left</td>
+                        </tr>
+                     
+                     <tr class="row">
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">Marginalie rechts</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">92</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__2">
+                           
+                           <pre class="pre linebreak">&lt;note place="right"&gt;
+  [rechts vom Text 
+    stehende Marginalien]
+&lt;/note&gt;</pre>
+                           </td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__4"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__5"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__6">marginalia</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__7">margi_right</td>
+                        </tr>
+                     
+                     <tr class="row">
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">Tabelle</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">120</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__2">
+                           
+                           <pre class="pre linebreak">&lt;table&gt;
+  &lt;head&gt;[ggf. Titel der Tabelle]
+  &lt;/head&gt;
+&lt;row&gt;&lt;cell&gt;</pre>
+                           </td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__4"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__5">TableRegion</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__6"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__7"></td>
+                        </tr>
+                     
+                     <tr class="row">
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">Auflistung</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">130</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__2">
+                           
+                           <pre class="pre linebreak">&lt;list&gt;&lt;item&gt;...</pre>
+                           </td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__4"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__5"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__6">paragraph</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__7">list</td>
+                        </tr>
+                     
+                     <tr class="row">
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">math. Formel</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">140</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__2">
+                           
+                           <pre class="pre linebreak">&lt;formula&gt;...</pre>
+                           </td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__4"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__5">MathsRegion</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__6"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__7">formel</td>
+                        </tr>
+                     
+                     <tr class="row">
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">horz. Linie</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">150</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__2">
+                           
+                           <pre class="pre linebreak">&lt;milestone unit="section" 
+           rendition="#hr"/&gt;</pre>
+                           </td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__4"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__5">SeparatorRegion</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__6"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__7"></td>
+                        </tr>
+                     
+                     <tr class="row">
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">SpezialText</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">333</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__2">
+                           
+                           <pre class="pre linebreak">&lt;p&gt;&lt;/p&gt;</pre>
+                           </td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__4"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__5"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__6">paragraph</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__7"></td>
+                        </tr>
+                     
+                     <tr class="row">
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">Spezial Bild</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__1">444</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__2">
+                           <pre class="pre linebreak">&lt;figure&gt;...</pre>
+                        </td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__4"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__5">GraphicRegion</td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__6"></td>
+                        
+                        <td class="entry colsep-1 rowsep-1" headers="structur_gtpageformat__table_wws_hhn_ldb__entry__3 structur_gtpageformat__table_wws_hhn_ldb__entry__7"></td>
+                        </tr>
+                     </tbody>
+               </table>
+               </div>
+            
+            <nav role="navigation" class="related-links">
+               <div class="familylinks">
+                  <div class="parentlink"><strong>Übergeordnetes Thema:</strong> <a class="link" href="../trans/structur_gt.html" title="Der OCR-D Struktur-Ground-Truth beinhaltet Publikationen bei denen ausschließlich die Strukturen oder Regionen erfasst wurden. Die einzelne Regionen entsprechend dem PAGE-XML-Schema.">📓 Struktur-Ground-Truth</a></div>
+               </div>
+               <div class="linklist relinfo"><strong>Zugehörige Informationen</strong><br><ul class="linklist">
+                     <li class="linklist"><a class="link" href="http://www.deutschestextarchiv.de/doku/basisformat/" target="_blank" rel="external noopener">Dokumentation zum
+                           DTA-Basisformat</a></li>
+                  </ul>
+               </div>
+            </nav>
+            </article>
+      </main>
+      <footer role="contentinfo">
+         <div class="footer">
+            
+            
+            <details>
+               
+               <summary>Veröffentlicht von OCR-D.</summary>
+               
+               <p>Die Richtlinien für die Ground Truth Transkription basieren auf dem <a href="https://ocr-d.github.io/">OCR-D specs v3.4.0</a></p>
+               </details> 
+            </div>
+      </footer>
+   </body>
+</html>

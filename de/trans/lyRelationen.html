@@ -1,0 +1,212 @@
+<html lang="de">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta charset="UTF-8">
+      <meta name="copyright" content="(C) Copyright 2026">
+      <meta name="generator" content="DITA-OT">
+      <link rel="stylesheet" type="text/css" href="../css/commonltr.css">
+      <link rel="stylesheet" type="text/css" href="../css/dita-ot-doc.css">
+      <title>Verknüpfungen</title>
+   </head>
+   <body id="lyRelation">
+      <header role="banner">
+         <div class="header">
+            <script src="https://prismjs.com/prism.js"><!--Prism javascript code for highlighting--></script>
+            
+            <table style="border: 0px;  width: 100%;" class="header">
+               
+               <tr>
+                  
+                  <td class="td1"><a href="https://ocr-d.de"><img src="../resources/ocrd.png" class="logo" alt="Logo OCR-D"></a></td>
+                  
+                  <td class="td2"><a href="https://ocr-d.de/de/gt-guidelines/trans/" class="nodeco">Ground Truth Richtlinien</a><span class="language"><a href="https://ocr-d.de/en/gt-guidelines/trans/">en</a></span><br>
+                     <span class="small">OCR-D: Koordinierten Förderinitiative zur Weiterentwicklung von Verfahren der Optical
+                        Character Recognition gefördert von der DFG</span>
+                     <br>
+                     <script src="https://cse.google.com/cse.js?cx=3ada0c76c580e944b" async=""></script>
+                     
+                     <div class="gcse-search"></div> 
+                     </td>
+                  </tr>
+               </table>
+            
+            <hr>
+            </div>
+      </header>
+      <nav role="toc">
+         <ul>
+            <li><a href="../trans/index.html">Die Ground Truth Richtlinien</a></li>
+            <li><a href="../trans/trLevels.html">📢 Übersicht der Ground-Truth-Level</a></li>
+            <li><a href="../trans/transkription.html">📑 Transkription</a></li>
+            <li><a href="../trans/hilfsmittel.html">🔧 Hilfsmittel</a></li>
+            <li><a href="../trans/layout.html">📰 Layout und Struktur</a><ul>
+                  <li><a href="../trans/lyAllgemein.html">Allgemeines</a></li>
+                  <li><a href="../trans/lySeitentypen.html">Seitentypen</a></li>
+                  <li><a href="../trans/lyRand.html">Seitenrand (Border)</a></li>
+                  <li><a href="../trans/lySatzspiegel.html">Satzspiegel (PrintSpace)</a></li>
+                  <li><a href="../trans/lyTextregionen.html">Seitenregionen</a><ul>
+                        <li><a href="../trans/ly_level_1_5.html">Level 1</a></li>
+                        <li><a href="../trans/ly_level_2_5.html">Level 2 und Level 3</a></li>
+                        <li class="active"><a href="../trans/lyRelationen.html">Verknüpfungen</a></li>
+                        <li><a href="../trans/lytextregion.html">Textregionen (TextRegion)</a></li>
+                        <li><a href="../trans/lyBildbereiche.html">Abbildungen, Fotos (ImageRegion)</a></li>
+                        <li><a href="../trans/lyGraphik.html">Buchschmuck, Zeichnungen (GraphicRegion)</a></li>
+                        <li><a href="../trans/lySeparatoren.html">Trennlinien, Separatoren (SeparatorRegion)</a></li>
+                        <li><a href="../trans/lyTabellen.html">Tabellen (TableRegion)</a></li>
+                        <li><a href="../trans/lyKarten.html">Karten (MapRegion)</a></li>
+                        <li><a href="../trans/lyMathematische_Zeichen.html">Mathematische Zeichen (MathsRegion)</a></li>
+                        <li><a href="../trans/lyChemische_Symbole.html">Chemische Symbole (ChemRegion)</a></li>
+                        <li><a href="../trans/lyNotenzeichen.html">Noten (MusicRegion)</a></li>
+                        <li><a href="../trans/lyWerbung.html">Werbung (AdvertRegion)</a></li>
+                        <li><a href="../trans/lyRauschen.html">Schäden, Schmutz, Verfärbungen, Rauschen (NoiseRegion)</a></li>
+                        <li><a href="../trans/lySonstiges.html">Sonstiges (UnknownRegion)</a></li>
+                     </ul>
+                  </li>
+                  <li><a href="../trans/lyTypographie.html">Typographische Besonderheiten</a></li>
+                  <li><a href="../trans/lyLeserichtung.html">Leserichtung (ReadingOrder)</a></li>
+               </ul>
+            </li>
+            <li><a href="../trans/ruleset.html">📜 OCR-D-GT-Ruleset</a></li>
+            <li><a href="../trans/structur_gt.html">📓 Struktur-Ground-Truth</a></li>
+            <li><a href="../trans/trLabeling.html">📓 Dokumentation des OCR-D-GT-labelling</a></li>
+            <li><a href="../trans/trPage.html">📓 Dokumentation des PAGE-XML-Formats</a></li>
+            <li><a href="../trans/page_xml_erweiterungen.html">📚 PAGE- XML-Erweiterungen</a></li>
+            <li><a href="../trans/fa.html">❓ Fragen und Antworten</a></li>
+            <li><a href="../trans/impressum.html">Impressum</a></li>
+         </ul>
+      </nav>
+      <main role="main">
+         <article role="article" aria-labelledby="ariaid-title1">
+            <h1 class="title topictitle1" id="ariaid-title1">Verknüpfungen</h1>
+            
+            <div class="body">
+               
+               <p class="p">Um die Beziehung zwischen zusammenhängenden Regionen zu dokumentieren, ist das Element
+                  <code class="ph codeph">&lt;Relations&gt;</code> zu verwenden. Nach der Festlegung der
+                  <code class="ph codeph">&lt;ReadingOrder&gt;</code> muss mit dem Element <code class="ph codeph">&lt;Relations&gt;</code> die
+                  Beziehung zwischen den Elementen und Regionen dargestellt werden. Vor allem bei der
+                  Dokumentation der Beziehung einer Initalie zum folgenden Paragraphen wird das Element
+                  <code class="ph codeph">&lt;Relations&gt;</code> verwendet.</p>
+               
+               <p class="p">Folgende Beziehungen sind zu dokumentieren. Dabei ist zwischen einem <code class="ph codeph">join</code>
+                  und einem <code class="ph codeph">link</code> zu unterscheiden.</p>
+               
+               <ol class="ol" id="lyRelation__ol_hg1_54m_5fb">
+                  
+                  <li class="li">Verwendung von <code class="ph codeph">join</code><ul class="ul">
+                        
+                        <li class="li">bei <code class="ph codeph">&lt;Word&gt;</code> und <code class="ph codeph">&lt;<code class="ph codeph">Word</code>&gt;</code>
+                           
+                           <p class="p">Dies trifft zu, wenn ein Wort am Ende der Zeile getrennt und auf
+                              der darauffolgenden Zeile fortgesetzt wird.</p>
+                        </li>
+                        
+                        <li class="li">bei <code class="ph codeph"><code class="ph codeph">&lt;textRegion type="drop-cap"&gt;</code></code> und
+                           <code class="ph codeph"><code class="ph codeph">&lt;textRegion type="paragraph"&gt;</code></code>
+                           
+                           <p class="p">Dies trifft zu, wenn die Initialie nur ein Zeichen oder Buchstaben
+                              und kein ganzes Wort umfassen.</p>
+                        </li>
+                        
+                        <li class="li"> bei <code class="ph codeph"><code class="ph codeph">&lt;textRegion type="paragraph"&gt;</code></code> und
+                           <code class="ph codeph"><code class="ph codeph">&lt;textRegion type="paragraph"&gt;</code></code><p class="p">Dies trifft zu, wenn der Absatz in Spalten aufgeteilt wurde und das
+                              letzte Wort des Paragraphen wird im folgenden Absatz fortgesetzt.</p>
+                        </li>
+                        </ul>
+                  </li>
+                  
+                  <li class="li">Verwendung von <code class="ph codeph">link</code><ul class="ul">
+                        
+                        <li class="li">bei <code class="ph codeph">caption</code> und <code class="ph codeph">image floating</code></li>
+                        
+                        <li class="li">bei <code class="ph codeph"><code class="ph codeph">&lt;textRegion type="paragraph"&gt;</code></code> und
+                           <code class="ph codeph"><code class="ph codeph">&lt;textRegion type="paragraph"&gt;</code></code>
+                           
+                           <p class="p">Dies trifft zu, wenn der Absatz in Spalten aufgeteilt wurde und das
+                              letzte Wort des Pragraphen nicht im folgenden Absatz fortgesetzt wird. Es handelt
+                              sich
+                              dabei um einen fortgesetzten Paragraphen.</p>
+                        </li>
+                        
+                        <li class="li">bei <code class="ph codeph"><code class="ph codeph">&lt;textRegion type="drop-cap"&gt;</code></code> und
+                           <code class="ph codeph"><code class="ph codeph">&lt;textRegion type="paragraph"&gt;</code></code>
+                           
+                           <p class="p">Dies trifft zu, wenn die Initalie (drop-cap) ein ganzes Wort
+                              umfasst.</p>
+                        </li>
+                        </ul>
+                  </li>
+                  </ol>
+               
+               <div class="example" id="lyRelation__relations">
+                  <h2 class="title sectiontitle">Relations</h2>
+                  
+                  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script><script>
+        function htmlDecode(input)
+            {
+               var e = document.createElement('div');
+               e.innerHTML = input;
+               return e.childNodes[0].nodeValue;
+            }
+        
+        
+        
+        function copyToClipboard(element) 
+            {
+               var $temp = $("<textarea></textarea>");
+                     $("body").append($temp);
+                     var a = $(element).html().trim().replace(/<br>/g, '\n').replace(/<\/?[^>]+>/g, '');
+                     var x = htmlDecode(a);
+                     $temp.val(x).select();
+                     document.execCommand("copy");
+                     $temp.remove();
+                     }
+                     </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded87707e167')" title="copy clipboard" class="ccb">📋</button><code id="coded87707e167">&lt;ReadingOrder&gt;
+            &lt;OrderedGroup id="ro_1542737988725" caption="Regions reading order"&gt;
+                &lt;RegionRefIndexed index="1" regionRef="TextRegion_1476719248728_212"/&gt;
+                &lt;RegionRefIndexed index="2" regionRef="r_7_1"/&gt;
+                &lt;RegionRefIndexed index="3" regionRef="region_1476719221656_210"/&gt;
+                &lt;RegionRefIndexed index="4" regionRef="region_1476719208569_209"/&gt;
+                &lt;RegionRefIndexed index="5" regionRef="TextRegion_1476719753697_244"/&gt;
+                &lt;RegionRefIndexed index="6" regionRef="r_13_1"/&gt;
+                &lt;RegionRefIndexed index="7" regionRef="r_15_1"/&gt;
+              &lt;/OrderedGroup&gt;
+        &lt;/ReadingOrder&gt;
+        &lt;Relations&gt;
+            &lt;Relation type="join"&gt;
+                &lt;RegionRef regionRef="region_1476719208569_209"/&gt;
+                &lt;RegionRef regionRef="TextRegion_1476719753697_244"/&gt;
+            &lt;/Relation&gt;
+ &lt;/Relations&gt;</code></pre>
+                  <img class="image" id="lyRelation__image_pxh_vmf_wfb" src="images/lyRelationen.jpg"></div>
+               
+               
+               </div>
+            
+            
+            <nav role="navigation" class="related-links">
+               <div class="familylinks">
+                  <div class="parentlink"><strong>Übergeordnetes Thema:</strong> <a class="link" href="../trans/lyTextregionen.html">Seitenregionen</a></div>
+               </div>
+               <div class="linklist relinfo"><strong>Zugehörige Informationen</strong><br><ul class="linklist">
+                     <li class="linklist"><a class="link" href="../pagexml/pagecontent_xsd_Complex_Type_pc_RelationsType.html">Complex Type pc:RelationsType</a></li>
+                     <li class="linklist"><a class="link" href="lyInitiale.html#lyInitiale_Relation">Beziehung zwischen der Initiale und dem folgenden Paragraphen</a></li>
+                  </ul>
+               </div>
+            </nav>
+            </article>
+      </main>
+      <footer role="contentinfo">
+         <div class="footer">
+            
+            
+            <details>
+               
+               <summary>Veröffentlicht von OCR-D.</summary>
+               
+               <p>Die Richtlinien für die Ground Truth Transkription basieren auf dem <a href="https://ocr-d.github.io/">OCR-D specs v3.4.0</a></p>
+               </details> 
+            </div>
+      </footer>
+   </body>
+</html>
