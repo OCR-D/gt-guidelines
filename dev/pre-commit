@@ -1,0 +1,9 @@
+#!/bin/bash
+
+make format-xml
+git add en de
+git status --porcelain|grep -qP '^M.*dita$'
+if (( $?  == 0 ));then
+    echo "XML needed reformatting, please run 'git commit' again"
+    exit 1
+fi

@@ -1,5 +1,7 @@
 export
 
+SHELL = bash
+
 # Language to build. Default: $(LANG)
 LANG = en
 
@@ -33,8 +35,10 @@ help:
 	@echo ""
 	@echo "  Targets"
 	@echo ""
-	@echo "    deps   Download DITA-OT dist"
-	@echo "    build  Build HTML"
+	@echo "    deps        Download DITA-OT dist"
+	@echo "    build       Build HTML"
+	@echo "    format-xml  Consistently indent XML"
+	@echo "    hook        Install git pre-commit hook"
 	@echo ""
 	@echo "  Variables"
 	@echo ""
@@ -64,3 +68,13 @@ build:
 		--args.input.dir="$(REPODIR)" \
 		--propertyfile="$(DITA_PROPERTY_FILE)"
 	cp -r $(REPODIR)/resources/ $(GT_DOC_OUT)
+
+# Consistently indent XML
+format-xml:
+	find . -path ./$(notdir $(DITA_OT_DIR)) -prune -false -o -name '*.dita' -a -not \( -size 0 \) |while read i;do \
+		echo xmlstarlet fo $$i > $$i.formatted && mv $$i.formatted $$i; \
+	done
+
+# Install git pre-commit hook
+hook:
+	cp dev/pre-commit `git rev-parse --git-path hooks`
