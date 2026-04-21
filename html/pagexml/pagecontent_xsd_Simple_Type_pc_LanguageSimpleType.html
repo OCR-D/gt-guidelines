@@ -1,0 +1,2129 @@
+<!DOCTYPE HTML>
+<html lang="de">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta name="copyright" content="(C) Copyright 2026">
+      <meta name="generator" content="DITA-OT">
+      <link rel="stylesheet" type="text/css" href="../css/commonltr.css">
+      <link rel="stylesheet" type="text/css" href="../css/dita-ot-doc.css">
+      <title>Simple Type pc:LanguageSimpleType</title>
+   </head>
+   <body id="LanguageSimpleType">
+      <header role="banner">
+         <div class="header">
+            <script src="https://prismjs.com/prism.js"><!--Prism javascript code for highlighting--></script>
+            
+            <table style="border: 0px;  width: 100%;" class="header">
+               
+               <tr>
+                  
+                  <td class="td1"><a href="https://ocr-d.de"><img src="../resources/ocrd.png" class="logo" alt="Logo OCR-D"></a></td>
+                  
+                  <td class="td2"><a href="https://ocr-d.de/de/gt-guidelines/trans/" class="nodeco">Ground Truth Richtlinien</a><span class="language"><a href="https://ocr-d.de/en/gt-guidelines/trans/">en</a></span><br>
+                     <span class="small">OCR-D: Koordinierten Förderinitiative zur Weiterentwicklung von Verfahren der Optical
+                        Character Recognition gefördert von der DFG</span>
+                     <br>
+                     <script src="https://cse.google.com/cse.js?cx=3ada0c76c580e944b" async=""></script>
+                     
+                     <div class="gcse-search"></div> 
+                     </td>
+                  </tr>
+               </table>
+            
+            <hr>
+            </div>
+      </header>
+      <nav class="toc" role="navigation">
+         <ul>
+            <li><a href="../trans/index.html">Die Ground Truth Richtlinien</a></li>
+            <li><a href="../trans/trLevels.html">📢 Übersicht der Ground-Truth-Level</a></li>
+            <li><a href="../trans/transkription.html">📑 Transkription</a></li>
+            <li><a href="../trans/hilfsmittel.html">🔧 Hilfsmittel</a></li>
+            <li><a href="../trans/layout.html">📰 Layout und Struktur</a></li>
+            <li><a href="../trans/ruleset.html">📜 OCR-D-GT-Ruleset</a></li>
+            <li><a href="../trans/structur_gt.html">📓 Struktur-Ground-Truth</a></li>
+            <li><a href="../trans/trLabeling.html">📓 Dokumentation des OCR-D-GT-labelling</a></li>
+            <li><a href="../trans/trPage.html">📓 Dokumentation des PAGE-XML-Formats</a><ul>
+                  <li><a href="../pagexml/Main_schema.html">Main Schema</a></li>
+                  <li><a href="../pagexml/Element.html">Element</a></li>
+                  <li><a href="../pagexml/Complex_Type.html">Complex Type</a></li>
+                  <li><a href="../pagexml/Simple_Type.html">Simple Type</a><ul>
+                        <li><a href="../pagexml/pagecontent_xsd_Simple_Type_pc_ConfSimpleType.html">Simple Type pc:ConfSimpleType</a></li>
+                        <li><a href="../pagexml/pagecontent_xsd_Simple_Type_pc_PointsType.html">Simple Type pc:PointsType</a></li>
+                        <li><a href="../pagexml/pagecontent_xsd_Simple_Type_pc_GroupTypeSimpleType.html">Simple Type pc:GroupTypeSimpleType</a></li>
+                        <li><a href="../pagexml/pagecontent_xsd_Simple_Type_pc_ColourSimpleType.html">Simple Type pc:ColourSimpleType</a></li>
+                        <li><a href="../pagexml/pagecontent_xsd_Simple_Type_pc_UnderlineStyleSimpleType.html">Simple Type pc:UnderlineStyleSimpleType</a></li>
+                        <li><a href="../pagexml/pagecontent_xsd_Simple_Type_pc_ChartTypeSimpleType.html">Simple Type pc:ChartTypeSimpleType</a></li>
+                        <li><a href="../pagexml/pagecontent_xsd_Simple_Type_pc_GraphicsTypeSimpleType.html">Simple Type pc:GraphicsTypeSimpleType</a></li>
+                        <li><a href="../pagexml/pagecontent_xsd_Simple_Type_pc_ColourDepthSimpleType.html">Simple Type pc:ColourDepthSimpleType</a></li>
+                        <li><a href="../pagexml/pagecontent_xsd_Simple_Type_pc_TextDataTypeSimpleType.html">Simple Type pc:TextDataTypeSimpleType</a></li>
+                        <li><a href="../pagexml/pagecontent_xsd_Simple_Type_pc_ScriptSimpleType.html">Simple Type pc:ScriptSimpleType</a></li>
+                        <li><a href="../pagexml/pagecontent_xsd_Simple_Type_pc_ProductionSimpleType.html">Simple Type pc:ProductionSimpleType</a></li>
+                        <li class="active"><a href="../pagexml/pagecontent_xsd_Simple_Type_pc_LanguageSimpleType.html">Simple Type pc:LanguageSimpleType</a></li>
+                        <li><a href="../pagexml/pagecontent_xsd_Simple_Type_pc_ReadingDirectionSimpleType.html">Simple Type pc:ReadingDirectionSimpleType</a></li>
+                        <li><a href="../pagexml/pagecontent_xsd_Simple_Type_pc_TextTypeSimpleType.html">Simple Type pc:TextTypeSimpleType</a></li>
+                        <li><a href="../pagexml/pagecontent_xsd_Simple_Type_pc_TextLineOrderSimpleType.html">Simple Type pc:TextLineOrderSimpleType</a></li>
+                        <li><a href="../pagexml/pagecontent_xsd_Simple_Type_pc_AlignSimpleType.html">Simple Type pc:AlignSimpleType</a></li>
+                        <li><a href="../pagexml/pagecontent_xsd_Simple_Type_pc_PageTypeSimpleType.html">Simple Type pc:PageTypeSimpleType</a></li>
+                     </ul>
+                  </li>
+               </ul>
+            </li>
+            <li><a href="../trans/page_xml_erweiterungen.html">📚 PAGE- XML-Erweiterungen</a></li>
+            <li><a href="../trans/fa.html">❓ Fragen und Antworten</a></li>
+            <li><a href="../trans/impressum.html">Impressum</a></li>
+         </ul>
+      </nav>
+      <main role="main">
+         <article role="article" aria-labelledby="ariaid-title1">
+            
+            <h1 class="title topictitle1" id="ariaid-title1">Simple Type pc:LanguageSimpleType</h1>
+            
+            <div class="body">
+               
+               <table class="table frame-all">
+                  <caption></caption>
+                  <colgroup>
+                     <col style="width:10.714285714285714%">
+                     <col style="width:89.28571428571429%">
+                  </colgroup>
+                  <tbody class="tbody">
+                     
+                     <tr class="row">
+                        
+                        <td class="entry align-left colsep-1 rowsep-1">Namespace</td>
+                        
+                        <td class="entry align-left rowsep-1">http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15</td>
+                        </tr>
+                     
+                     <tr class="row">
+                        
+                        <td class="entry align-left colsep-1 rowsep-1">Annotations</td>
+                        
+                        <td class="entry align-left rowsep-1">
+                           <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script><script>
+        function htmlDecode(input)
+            {
+               var e = document.createElement('div');
+               e.innerHTML = input;
+               return e.childNodes[0].nodeValue;
+            }
+        
+        
+        
+        function copyToClipboard(element) 
+            {
+               var $temp = $("<textarea></textarea>");
+                              $("body").append($temp);
+                              var a = $(element).html().trim().replace(/<br>/g, '\n').replace(/<\/?[^>]+>/g, '');
+                              var x = htmlDecode(a);
+                              $temp.val(x).select();
+                              document.execCommand("copy");
+                              $temp.remove();
+                              }
+                              </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded25788e75')" title="copy clipboard" class="ccb">📋</button><code id="coded25788e75">ISO 639.x 2016-07-14</code></pre>
+                           </td>
+                        </tr>
+                     
+                     <tr class="row">
+                        
+                        <td class="entry align-left colsep-1 rowsep-1">Diagram</td>
+                        
+                        <td class="entry align-left rowsep-1">
+                           
+                           <p class="p"></p>
+                           </td>
+                        </tr>
+                     
+                     <tr class="row">
+                        
+                        <td class="entry align-left colsep-1 rowsep-1">Type</td>
+                        
+                        <td class="entry align-left rowsep-1">restriction of string</td>
+                        </tr>
+                     
+                     <tr class="row">
+                        
+                        <td class="entry align-left colsep-1 rowsep-1">Facets</td>
+                        
+                        <td class="entry align-left rowsep-1">
+                           
+                           <div class="p">
+                              
+                              <table class="table frame-all">
+                                 <caption></caption>
+                                 <colgroup>
+                                    <col style="width:20%">
+                                    <col style="width:30%">
+                                    <col style="width:50%">
+                                 </colgroup>
+                                 <tbody class="tbody">
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Abkhaz</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Afar</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Afrikaans</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Akan</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Albanian</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Amharic</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Arabic</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Aragonese</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Armenian</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Assamese</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Avaric</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Avestan</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Aymara</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Azerbaijani</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Bambara</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Bashkir</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Basque</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Belarusian</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Bengali</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Bihari</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Bislama</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Bosnian</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Breton</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Bulgarian</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Burmese</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Cambodian</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Cantonese</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Catalan</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Chamorro</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Chechen</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Chichewa</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Chinese</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Chuvash</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Cornish</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Corsican</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Cree</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Croatian</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Czech</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Danish</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Divehi</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Dutch</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Dzongkha</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">English</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Esperanto</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Estonian</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Ewe</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Faroese</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Fijian</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Finnish</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">French</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Fula</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Gaelic</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Galician</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Ganda</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Georgian</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">German</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Greek</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Guaraní</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Gujarati</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Haitian</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Hausa</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Hebrew</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Herero</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Hindi</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Hiri Motu</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Hungarian</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Icelandic</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Ido</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Igbo</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Indonesian</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Interlingua</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Interlingue</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Inuktitut</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Inupiaq</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Irish</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Italian</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Japanese</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Javanese</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Kalaallisut</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Kannada</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Kanuri</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Kashmiri</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Kazakh</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Khmer</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Kikuyu</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Kinyarwanda</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Kirundi</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Komi</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Kongo</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Korean</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Kurdish</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Kwanyama</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Kyrgyz</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Lao</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Latin</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Latvian</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Limburgish</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Lingala</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Lithuanian</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Luba-Katanga</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Luxembourgish</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Macedonian</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Malagasy</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Malay</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Malayalam</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Maltese</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Manx</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Māori</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Marathi</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Marshallese</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Mongolian</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Nauru</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Navajo</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Ndonga</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Nepali</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">North Ndebele</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Northern Sami</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Norwegian</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Norwegian Bokmål</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Norwegian Nynorsk</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Nuosu</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Occitan</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Ojibwe</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Old Church Slavonic</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Oriya</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Oromo</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Ossetian</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Pāli</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Panjabi</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Pashto</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Persian</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Polish</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Portuguese</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Punjabi</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Quechua</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Romanian</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Romansh</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Russian</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Samoan</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Sango</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Sanskrit</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Sardinian</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Serbian</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Shona</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Sindhi</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Sinhala</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Slovak</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Slovene</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Somali</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">South Ndebele</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Southern Sotho</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Spanish</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Sundanese</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Swahili</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Swati</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Swedish</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Tagalog</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Tahitian</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Tajik</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Tamil</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Tatar</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Telugu</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Thai</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Tibetan</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Tigrinya</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Tonga</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Tsonga</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Tswana</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Turkish</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Turkmen</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Twi</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Uighur</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Ukrainian</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Urdu</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Uzbek</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Venda</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Vietnamese</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Volapük</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Walloon</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Welsh</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Western Frisian</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Wolof</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Xhosa</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Yiddish</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Yoruba</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Zhuang</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1 rowsep-1">Zulu</td>
+                                       
+                                       <td class="entry align-left rowsep-1"></td>
+                                       </tr>
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1">enumeration</td>
+                                       
+                                       <td class="entry align-left colsep-1">other</td>
+                                       
+                                       <td class="entry align-left"></td>
+                                       </tr>
+                                    </tbody>
+                              </table>
+                              </div>
+                           </td>
+                        </tr>
+                     
+                     <tr class="row">
+                        
+                        <td class="entry align-left colsep-1 rowsep-1">Used by</td>
+                        
+                        <td class="entry align-left rowsep-1">
+                           
+                           <div class="p">
+                              
+                              <table class="table frame-all">
+                                 <caption></caption>
+                                 <colgroup>
+                                    <col style="width:20%">
+                                    <col style="width:80%">
+                                 </colgroup>
+                                 <tbody class="tbody">
+                                    
+                                    <tr class="row">
+                                       
+                                       <td class="entry align-left colsep-1">Attributes </td>
+                                       
+                                       <td class="entry align-left">
+                                          <a class="xref" href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_primaryLanguage">Attribute pc:PageType / @primaryLanguage</a>, <a class="xref" href="pagecontent_xsd_Complex_Type_pc_PageType.html#PageType_secondaryLanguage">Attribute pc:PageType / @secondaryLanguage</a>, <a class="xref" href="pagecontent_xsd_Complex_Type_pc_TextLineType.html#TextLineType_primaryLanguage">Attribute pc:TextLineType / @primaryLanguage</a>, <a class="xref" href="pagecontent_xsd_Complex_Type_pc_TextRegionType.html#TextRegionType_primaryLanguage">Attribute pc:TextRegionType / @primaryLanguage</a>, <a class="xref" href="pagecontent_xsd_Complex_Type_pc_TextRegionType.html#TextRegionType_secondaryLanguage">Attribute pc:TextRegionType / @secondaryLanguage</a>, <a class="xref" href="pagecontent_xsd_Complex_Type_pc_WordType.html#WordType_language">Attribute pc:WordType / @language</a>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                              </table>
+                              </div>
+                           </td>
+                        </tr>
+                     
+                     <tr class="row">
+                        
+                        <td class="entry align-left colsep-1 rowsep-1">Source</td>
+                        
+                        <td class="entry align-left rowsep-1">
+                           <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script><script>
+        function htmlDecode(input)
+            {
+               var e = document.createElement('div');
+               e.innerHTML = input;
+               return e.childNodes[0].nodeValue;
+            }
+        
+        
+        
+        function copyToClipboard(element) 
+            {
+               var $temp = $("<textarea></textarea>");
+                              $("body").append($temp);
+                              var a = $(element).html().trim().replace(/<br>/g, '\n').replace(/<\/?[^>]+>/g, '');
+                              var x = htmlDecode(a);
+                              $temp.val(x).select();
+                              document.execCommand("copy");
+                              $temp.remove();
+                              }
+                              </script><pre class="pre codeblock language-xml"><button onclick="copyToClipboard('#coded25788e2293')" title="copy clipboard" class="ccb">📋</button><code id="coded25788e2293"><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>simpleType</span> <span class="ph token attr-name">name</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>LanguageSimpleType<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
+  <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>annotation</span><span class="ph token punctuation">&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>documentation</span><span class="ph token punctuation">&gt;</span></span>ISO 639.x 2016-07-14<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>documentation</span><span class="ph token punctuation">&gt;</span></span>
+  <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>annotation</span><span class="ph token punctuation">&gt;</span></span>
+  <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>restriction</span> <span class="ph token attr-name">base</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>string<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Abkhaz<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Afar<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Afrikaans<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Akan<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Albanian<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Amharic<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Arabic<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Aragonese<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Armenian<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Assamese<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Avaric<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Avestan<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Aymara<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Azerbaijani<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Bambara<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Bashkir<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Basque<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Belarusian<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Bengali<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Bihari<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Bislama<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Bosnian<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Breton<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Bulgarian<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Burmese<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Cambodian<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Cantonese<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Catalan<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Chamorro<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Chechen<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Chichewa<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Chinese<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Chuvash<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Cornish<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Corsican<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Cree<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Croatian<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Czech<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Danish<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Divehi<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Dutch<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Dzongkha<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>English<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Esperanto<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Estonian<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Ewe<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Faroese<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Fijian<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Finnish<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>French<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Fula<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Gaelic<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Galician<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Ganda<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Georgian<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>German<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Greek<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Guaraní<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Gujarati<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Haitian<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Hausa<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Hebrew<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Herero<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Hindi<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Hiri Motu<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Hungarian<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Icelandic<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Ido<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Igbo<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Indonesian<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Interlingua<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Interlingue<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Inuktitut<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Inupiaq<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Irish<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Italian<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Japanese<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Javanese<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Kalaallisut<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Kannada<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Kanuri<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Kashmiri<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Kazakh<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Khmer<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Kikuyu<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Kinyarwanda<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Kirundi<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Komi<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Kongo<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Korean<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Kurdish<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Kwanyama<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Kyrgyz<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Lao<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Latin<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Latvian<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Limburgish<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Lingala<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Lithuanian<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Luba-Katanga<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Luxembourgish<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Macedonian<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Malagasy<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Malay<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Malayalam<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Maltese<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Manx<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Māori<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Marathi<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Marshallese<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Mongolian<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Nauru<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Navajo<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Ndonga<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Nepali<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>North Ndebele<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Northern Sami<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Norwegian<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Norwegian Bokmål<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Norwegian Nynorsk<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Nuosu<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Occitan<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Ojibwe<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Old Church Slavonic<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Oriya<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Oromo<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Ossetian<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Pāli<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Panjabi<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Pashto<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Persian<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Polish<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Portuguese<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Punjabi<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Quechua<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Romanian<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Romansh<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Russian<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Samoan<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Sango<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Sanskrit<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Sardinian<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Serbian<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Shona<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Sindhi<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Sinhala<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Slovak<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Slovene<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Somali<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>South Ndebele<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Southern Sotho<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Spanish<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Sundanese<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Swahili<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Swati<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Swedish<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Tagalog<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Tahitian<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Tajik<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Tamil<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Tatar<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Telugu<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Thai<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Tibetan<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Tigrinya<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Tonga<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Tsonga<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Tswana<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Turkish<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Turkmen<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Twi<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Uighur<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Ukrainian<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Urdu<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Uzbek<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Venda<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Vietnamese<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Volapük<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Walloon<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Welsh<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Western Frisian<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Wolof<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Xhosa<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Yiddish<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Yoruba<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Zhuang<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>Zulu<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>enumeration</span> <span class="ph token attr-name">value</span><span class="ph token attr-value"><span class="ph token punctuation attr-equals">=</span><span class="ph token punctuation">"</span>other<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+  <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>restriction</span><span class="ph token punctuation">&gt;</span></span>
+<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>simpleType</span><span class="ph token punctuation">&gt;</span></span></code></pre>
+                           </td>
+                        </tr>
+                     </tbody>
+               </table>
+               </div>
+            </article>
+      </main>
+      <footer role="contentinfo">
+         <div class="footer">
+            
+            
+            <details>
+               
+               <summary>Veröffentlicht von OCR-D.</summary>
+               
+               <p>Die Richtlinien für die Ground Truth Transkription basieren auf dem <a href="https://ocr-d.github.io/">OCR-D specs v3.4.0</a></p>
+               </details> 
+            </div>
+      </footer>
+   </body>
+</html>

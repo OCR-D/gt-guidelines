@@ -1,0 +1,247 @@
+<!DOCTYPE HTML>
+<html lang="de">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta name="copyright" content="(C) Copyright 2026">
+      <meta name="generator" content="DITA-OT">
+      <link rel="stylesheet" type="text/css" href="../css/commonltr.css">
+      <link rel="stylesheet" type="text/css" href="../css/dita-ot-doc.css">
+      <title>Transkriptionsprobleme bei Inkunabeln</title>
+   </head>
+   <body id="transkriptionsprobleme-bei-inkunabeln">
+      <header role="banner">
+         <div class="header">
+            <script src="https://prismjs.com/prism.js"><!--Prism javascript code for highlighting--></script>
+            
+            <table style="border: 0px;  width: 100%;" class="header">
+               
+               <tr>
+                  
+                  <td class="td1"><a href="https://ocr-d.de"><img src="../resources/ocrd.png" class="logo" alt="Logo OCR-D"></a></td>
+                  
+                  <td class="td2"><a href="https://ocr-d.de/de/gt-guidelines/trans/" class="nodeco">Ground Truth Richtlinien</a><span class="language"><a href="https://ocr-d.de/en/gt-guidelines/trans/">en</a></span><br>
+                     <span class="small">OCR-D: Koordinierten Förderinitiative zur Weiterentwicklung von Verfahren der Optical
+                        Character Recognition gefördert von der DFG</span>
+                     <br>
+                     <script src="https://cse.google.com/cse.js?cx=3ada0c76c580e944b" async=""></script>
+                     
+                     <div class="gcse-search"></div> 
+                     </td>
+                  </tr>
+               </table>
+            
+            <hr>
+            </div>
+      </header>
+      <nav class="toc" role="navigation">
+         <ul>
+            <li><a href="../trans/index.html">Die Ground Truth Richtlinien</a></li>
+            <li><a href="../trans/trLevels.html">📢 Übersicht der Ground-Truth-Level</a></li>
+            <li><a href="../trans/transkription.html">📑 Transkription</a></li>
+            <li><a href="../trans/hilfsmittel.html">🔧 Hilfsmittel</a></li>
+            <li><a href="../trans/layout.html">📰 Layout und Struktur</a></li>
+            <li><a href="../trans/ruleset.html">📜 OCR-D-GT-Ruleset</a></li>
+            <li><a href="../trans/structur_gt.html">📓 Struktur-Ground-Truth</a></li>
+            <li><a href="../trans/trLabeling.html">📓 Dokumentation des OCR-D-GT-labelling</a></li>
+            <li><a href="../trans/trPage.html">📓 Dokumentation des PAGE-XML-Formats</a></li>
+            <li><a href="../trans/page_xml_erweiterungen.html">📚 PAGE- XML-Erweiterungen</a></li>
+            <li><a href="../trans/fa.html">❓ Fragen und Antworten</a><ul>
+                  <li><a href="../ocrd-website.wiki/GT-Guide-1-Aid.html">Wie kann ich meine GT-Anfrage an OCR-D am besten schreiben</a></li>
+                  <li><a href="../ocrd-website.wiki/GT-Guide-Transcription-of-incunabula-some-problems-with-words.html">Transkriptionsprobleme bei Inkunabeln (Wörter und Zeichen)</a></li>
+                  <li class="active"><a href="../ocrd-website.wiki/GT-Guide-Transkriptionsprobleme-bei-Inkunabeln.html">Transkriptionsprobleme bei Inkunabeln</a></li>
+                  <li><a href="../ocrd-website.wiki/GT-Guide-Use-special-fonts.html">Wie kann ich spezielle Fonts nutzen, die zum Beispiel MUFI unterstützen?</a></li>
+                  <li><a href="../ocrd-website.wiki/GT-Guide-Waehrungssymbol.html">Währungssymbol</a></li>
+               </ul>
+            </li>
+            <li><a href="../trans/impressum.html">Impressum</a></li>
+         </ul>
+      </nav>
+      <main role="main">
+         <article role="article" aria-labelledby="ariaid-title1">
+            <h1 class="title topictitle1" id="ariaid-title1">Transkriptionsprobleme bei Inkunabeln</h1>
+            <div class="body"></div>
+            <article class="topic nested1" aria-labelledby="ariaid-title2" id="unterscheidung-macrontilde">
+               <h2 class="title topictitle2" id="ariaid-title2">Unterscheidung Macron/Tilde</h2>
+               <div class="body"></div>
+               <article class="topic nested2" aria-labelledby="ariaid-title3" id="unterscheidung-macrontilde---wichtig-oft-ist-im-originaltext-kaum-zu-erkennen-was-von-beiden-verwendet-wurde">
+                  <h3 class="title topictitle3" id="ariaid-title3">Unterscheidung Macron/Tilde -&gt; wichtig, oft ist im Originaltext kaum zu erkennen,
+                     was von beiden verwendet wurde.</h3>
+                  <div class="body">
+                     <div class="p">
+                        <figure class="fig fignone">
+                           <figcaption><span class="fig--title-label">Abbildung 1. </span>Beispiel Tilde Macron?</figcaption><img class="image" src="https://user-images.githubusercontent.com/26142921/153892788-bd02cdc6-7ef6-4b24-9eb3-93fef64c5b6a.png" alt="image"><br></figure>.</div>
+                  </div>
+               </article>
+               <article class="topic nested2" aria-labelledby="ariaid-title4" id="lösung">
+                  <h3 class="title topictitle3" id="ariaid-title4">Lösung:</h3>
+                  <div class="body">
+                     <p class="p">Es empfiehlt sich, die Transkription im Level zwei zu erstellen. Aus diesem Grund
+                        wird in der Regel keine Unterscheidung vorgenommen, wenn das Zeichen mit der gleichen
+                        Bedeutung verwendet wird. Es wird eine Zeichenkombination aus dem Graphem und in der
+                        Regel aus einer übergestellte Tilde gebildet. Wenn eine Unterscheidung nicht möglich
+                        ist sowie es sich in allen Fällen um ein Kürzungsstrich handelt, ist die <strong class="ph b">übergestellte Tilde</strong> zu verwenden. Dazu wird der Unicode <code class="ph codeph">U+0303, COMBINING TILDE</code> genutzt</p>
+                  </div>
+               </article>
+               <article class="topic nested2" aria-labelledby="ariaid-title5" id="guidelines">
+                  <h3 class="title topictitle3" id="ariaid-title5">Guidelines:</h3>
+                  <div class="body">
+                     <ul class="ul">
+                        <li class="li"><a class="xref" href="https://ocr-d.de/de/gt-guidelines/trans/trNasalstrich.html" target="_blank" rel="external noopener">allgemein Anmerkungen</a></li>
+                        <li class="li"><a class="xref" href="https://ocr-d.de/en/gt-guidelines/trans/trNasalstrich.html" target="_blank" rel="external noopener">general Note</a></li>
+                     </ul>
+                  </div>
+               </article>
+            </article>
+            <article class="topic nested1" aria-labelledby="ariaid-title6" id="handschriftliche-anmerkungen">
+               <h2 class="title topictitle2" id="ariaid-title6">Handschriftliche Anmerkungen</h2>
+               <div class="body"></div>
+               <article class="topic nested2" aria-labelledby="ariaid-title7" id="sollen-nachträglich-angebrachte-handschriftliche-anmerkungen-z-b-seitenzahlen-aufgenommen-werden">
+                  <h3 class="title topictitle3" id="ariaid-title7">Sollen nachträglich angebrachte handschriftliche Anmerkungen (z. B. Seitenzahlen)
+                     aufgenommen werden?</h3>
+                  <div class="body">
+                     <p class="p">Sollen handschriftliche Eintragungen/ neuzeitliche Seitenangaben mit aufgenommen werden?</p>
+                  </div>
+               </article>
+               <article class="topic nested2" aria-labelledby="ariaid-title8" id="lösung-1">
+                  <h3 class="title topictitle3" id="ariaid-title8">Lösung:</h3>
+                  <div class="body">
+                     <p class="p">Bei Druckwerken werden handschriftliche Anmerkungen als <code class="ph codeph">GraphicRegion type="handwritten-annotation"</code> gekennzeichnet.</p>
+                  </div>
+               </article>
+               <article class="topic nested2" aria-labelledby="ariaid-title9" id="guidelines-1">
+                  <h3 class="title topictitle3" id="ariaid-title9">Guidelines:</h3>
+                  <div class="body">
+                     <ul class="ul">
+                        <li class="li"><a class="xref" href="https://ocr-d.de/de/gt-guidelines/trans/trHandschrift.html" target="_blank" rel="external noopener">allgemein Handschriftliche Anmerkungen</a></li>
+                        <li class="li"><a class="xref" href="https://ocr-d.de/en/gt-guidelines/trans/trHandschrift.html" target="_blank" rel="external noopener">general handwritten annotation</a></li>
+                     </ul>
+                  </div>
+               </article>
+            </article>
+            <article class="topic nested1" aria-labelledby="ariaid-title10" id="handschriftliche-textkorrekturen">
+               <h2 class="title topictitle2" id="ariaid-title10">Handschriftliche Textkorrekturen</h2>
+               <div class="body"></div>
+               <article class="topic nested2" aria-labelledby="ariaid-title11" id="handschriftliche-textkorrekturen-mit-transkribieren">
+                  <h3 class="title topictitle3" id="ariaid-title11">Handschriftliche Textkorrekturen mit transkribieren?</h3>
+                  <div class="body"></div>
+               </article>
+               <article class="topic nested2" aria-labelledby="ariaid-title12" id="lösung-2">
+                  <h3 class="title topictitle3" id="ariaid-title12">Lösung:</h3>
+                  <div class="body">
+                     <p class="p">Bei Druckwerken werden handschriftliche Textkorrketuren in der Regel nicht transkribiert.</p>
+                  </div>
+               </article>
+            </article>
+            <article class="topic nested1" aria-labelledby="ariaid-title13" id="zusammengesetzte-buchstaben-im-deutschen-text">
+               <h2 class="title topictitle2" id="ariaid-title13">Zusammengesetzte Buchstaben im deutschen Text</h2>
+               <div class="body"></div>
+               <article class="topic nested2" aria-labelledby="ariaid-title14" id="zusammengesetzte-buchstaben-im-deutschen-text-w-iv-k-lr-rotunda-wie-transkribieren">
+                  <h3 class="title topictitle3" id="ariaid-title14">Zusammengesetzte Buchstaben im deutschen Text (w: i+v, k: l+r-rotunda) wie transkribieren.</h3>
+                  <div class="body"></div>
+               </article>
+               <article class="topic nested2" aria-labelledby="ariaid-title15" id="lösung-3">
+                  <h3 class="title topictitle3" id="ariaid-title15">Lösung:</h3>
+                  <div class="body"></div>
+               </article>
+            </article>
+            <article class="topic nested1" aria-labelledby="ariaid-title16" id="transkription-in-unterschiedlichen-bedeutungszusammenhängen">
+               <h2 class="title topictitle2" id="ariaid-title16">Transkription in unterschiedlichen Bedeutungszusammenhängen</h2>
+               <div class="body"></div>
+               <article class="topic nested2" aria-labelledby="ariaid-title17" id="transkription-wenn-ein-zeichen-in-unterschiedlichen-bedeutungszusammenhängen-verwendet-wird-zb-z">
+                  <h3 class="title topictitle3" id="ariaid-title17">Transkription, wenn ein Zeichen in unterschiedlichen Bedeutungszusammenhängen verwendet
+                     wird (z.B. z)</h3>
+                  <div class="body"></div>
+               </article>
+               <article class="topic nested2" aria-labelledby="ariaid-title18" id="lösung-4">
+                  <h3 class="title topictitle3" id="ariaid-title18">Lösung:</h3>
+                  <div class="body">
+                     <p class="p">Bei der Erstellung von GT wird weitestgehend von Bedeutungszusammenhängen unabhängig
+                        transkribiert. Jedoch kann davon abgewichen werden, wenn das Trainingsmaterial:</p>
+                     <ul class="ul">
+                        <li class="li">für einen sehr spezielle Nutzung,</li>
+                        <li class="li">für eine sehr homogene Sammlung von Dokumenten/Vorlagen vorgesehen ist.</li>
+                     </ul>
+                     <p class="p">Für die Nutzung solch eines GT sollten Metadaten darauf hinweisen, dass Zeichen in
+                        unterschiedlichen Zusammenhängen transkribiert wurden.</p>
+                  </div>
+               </article>
+            </article>
+            <article class="topic nested1" aria-labelledby="ariaid-title19" id="initiale">
+               <h2 class="title topictitle2" id="ariaid-title19">Initiale</h2>
+               <div class="body"></div>
+               <article class="topic nested2" aria-labelledby="ariaid-title20" id="initiale-mit-transkribieren">
+                  <h3 class="title topictitle3" id="ariaid-title20">Initiale mit transkribieren?</h3>
+                  <div class="body">
+                     <p class="p">Wenn Initiale Teil des ersten Wortes ist, ohne Spatium anschließen aber dennoch Großbuchstabe?</p>
+                  </div>
+               </article>
+               <article class="topic nested2" aria-labelledby="ariaid-title21" id="lösung-5">
+                  <h3 class="title topictitle3" id="ariaid-title21">Lösung</h3>
+                  <div class="body">
+                     <p class="p">Eine Initiale ist ein Anfangsbuchstabe, der am Beginn eines Kapitels oder Abschnitts
+                        steht. Dieser Buchstaben zeichnet sich durch seinen Schmuck, Verzierung oder durch
+                        seine vollständige andersartige Gestaltung gegenüber der verwendeten Schriftart aus.</p>
+                     <figure class="fig fignone">
+                        <figcaption><span class="fig--title-label">Abbildung 2. </span>Beispiele</figcaption><img class="image" src="https://upload.wikimedia.org/wikipedia/commons/5/5a/Initialen.png" alt="image"><br></figure>
+                     <p class="p">Die Initiale sollte in der Regel immer Teil des ersten Wortes sein, (Anfangsbuchstabe).
+                        Die Transkription der Initiale ist ohne Spatium anzuschließen.</p>
+                     <p class="p">Die Initiale ist mit einer spezifizierten TextRegion auszuzeichnen.
+                        <code class="ph codeph">&lt;TextRegion type="drop-capital"&gt;</code></p>
+                     <p class="p">Bei diesem Beispiel handelt es sich nicht um eine Initiale.</p><br><img class="image" src="https://user-images.githubusercontent.com/26142921/154097805-dfcead43-a1a3-44a0-a7be-6098e0a99da3.png" alt="image"><br></div>
+               </article>
+               <article class="topic nested2" aria-labelledby="ariaid-title22" id="guidelines-2">
+                  <h3 class="title topictitle3" id="ariaid-title22">Guidelines:</h3>
+                  <div class="body">
+                     <ul class="ul">
+                        <li class="li">de <a class="xref" href="https://ocr-d.de/de/gt-guidelines/trans/lyInitiale.html" target="_blank" rel="external noopener">Initiale (drop-capital)</a></li>
+                        <li class="li">en <a class="xref" href="https://ocr-d.de/en/gt-guidelines/trans/lyInitiale.html" target="_blank" rel="external noopener">Initials (drop-capital)</a></li>
+                     </ul>
+                  </div>
+               </article>
+            </article>
+            <article class="topic nested1" aria-labelledby="ariaid-title23" id="beschädigungen">
+               <h2 class="title topictitle2" id="ariaid-title23">Beschädigungen</h2>
+               <div class="body"></div>
+               <article class="topic nested2" aria-labelledby="ariaid-title24" id="wie-ist-mit-wörtern-umzugehen-die-durch-beschädigungen-der-vorlage-löcher-risse-unvollständig-sind">
+                  <h3 class="title topictitle3" id="ariaid-title24">Wie ist mit Wörtern umzugehen, die durch Beschädigungen der Vorlage (Löcher, Risse)
+                     unvollständig sind?</h3>
+                  <div class="body">
+                     <p class="p">Wenn das Wort dadurch gar nicht mehr identifizierbar ist?</p>
+                  </div>
+               </article>
+               <article class="topic nested2" aria-labelledby="ariaid-title25" id="lösung-6">
+                  <h3 class="title topictitle3" id="ariaid-title25">Lösung:</h3>
+                  <div class="body">
+                     <p class="p">Beschädigungen der Vorlage (Löcher, Risse...) sind nicht die Regel, sondern eine Ausnahme.
+                        Damit mit dem Trainingsmaterial (GT) stabile und robust neuronale Netze trainiert
+                        werden können, ist dieses geringe Vorkommen zu beachten.
+                        Wenn Schäden transkribiert werden sollten diese wenn möglich als &lt;NoiseRegion&gt; ausgezeichnet
+                        werden.</p>
+                  </div>
+               </article>
+               <article class="topic nested2" aria-labelledby="ariaid-title26" id="guidelines-3">
+                  <h3 class="title topictitle3" id="ariaid-title26">Guidelines:</h3>
+                  <div class="body">
+                     <ul class="ul">
+                        <li class="li"><a class="xref" href="https://ocr-d.de/de/gt-guidelines/trans/lyRauschen.html" target="_blank" rel="external noopener">Schäden, Schmutz, Verfärbungen, Rauschen</a></li>
+                        <li class="li"><a class="xref" href="https://ocr-d.de/en/gt-guidelines/trans/lyRauschen.html" target="_blank" rel="external noopener">Damage, Dirt, Stains, Noise</a></li>
+                     </ul>
+                  </div>
+               </article>
+            </article>
+         </article>
+      </main>
+      <footer role="contentinfo">
+         <div class="footer">
+            
+            
+            <details>
+               
+               <summary>Veröffentlicht von OCR-D.</summary>
+               
+               <p>Die Richtlinien für die Ground Truth Transkription basieren auf dem <a href="https://ocr-d.github.io/">OCR-D specs v3.4.0</a></p>
+               </details> 
+            </div>
+      </footer>
+   </body>
+</html>
